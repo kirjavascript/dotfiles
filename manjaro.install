@@ -1,0 +1,14 @@
+File: /etc/modprobe.d/alsa-base.conf            
+options snd_hda_intel index=1
+
+disable intel
+install manjaro (nonfree)
+configure alsa base
+enable intel
+
+i3 config / numlockx
+fish config (.bashrc)
+(xfce4-terminal/terminalrc) ColorCursor=#0066aa
+polybar
+
+ranger / pipes / screenfetch / alsa / cmatrix / doge / ponysay
