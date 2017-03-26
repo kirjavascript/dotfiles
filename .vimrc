@@ -17,6 +17,7 @@ set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab " 4 space tabs
 set rnu " relativenumber
 
 au VimEnter * NERDTree
+au BufNewFile,BufRead *.ejs set filetype=html
 
 " colourscheme
 syntax on
