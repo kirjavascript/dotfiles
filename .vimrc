@@ -31,3 +31,10 @@ if (empty($TMUX))
     set termguicolors
   endif
 endif
+
+" gVim
+set guioptions-=T
+set guioptions-=r
+set guioptions-=L
+set guioptions-=b
+set gfn=Hack\ 11
