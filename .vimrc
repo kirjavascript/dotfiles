@@ -16,8 +16,12 @@ set updatetime=250 " faster gitgutter
 set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab " 4 space tabs
 set rnu " relativenumber
 
-au VimEnter * NERDTree
+" load EJS files like HTML
 au BufNewFile,BufRead *.ejs set filetype=html
+
+" start NERDTree if no file is specified
+au StdinReadPre * let s:std_in=1
+au VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
 " colourscheme
 syntax on
@@ -31,3 +35,10 @@ if (empty($TMUX))
     set termguicolors
   endif
 endif
+
+" gVim
+set guioptions-=T
+set guioptions-=r
+set guioptions-=L
+set guioptions-=b
+set gfn=Hack\ 11
