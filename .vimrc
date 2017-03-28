@@ -29,8 +29,8 @@ syntax on
 colo onedark
 let g:airline_theme='onedark'
 let g:airline_powerline_fonts=1
-" let g:airline#extensions#tabline#enabled = 1
-" let g:airline#extensions#tabline#fnamemod = ':t'
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#fnamemod = ':t'
 
 "Use 24-bit (true-color) mode in Vim when outside tmux.
 if (empty($TMUX))
