@@ -9,6 +9,8 @@ Plug 'airblade/vim-gitgutter'
 Plug 'joshdick/onedark.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'tpope/vim-commentary'
+Plug 'jlanzarotta/bufexplorer'
+" Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
 
 call plug#end()
 
