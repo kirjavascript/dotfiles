@@ -28,6 +28,7 @@ au StdinReadPre * let s:std_in=1
 au VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
+let NERDTreeStatusline = "(~˘▾˘)~"
 
 " colourscheme
 colo onedark
