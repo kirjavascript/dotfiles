@@ -46,4 +46,4 @@ endif
 
 " gVim
 set go=
-set gfn=Hack\ 11
+set gfn=Hack\ 11 " use ttf-hack
