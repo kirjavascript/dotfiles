@@ -11,7 +11,8 @@ Plug 'vim-airline/vim-airline'
 Plug 'sheerun/vim-polyglot'
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
-" Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
+Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
+Plug 'terryma/vim-multiple-cursors'
 
 call plug#end()
 
