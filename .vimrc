@@ -33,10 +33,10 @@ let NERDTreeDirArrows = 1
 let NERDTreeStatusline = "(~˘▾˘)~"
 
 " turn off YouCompleteMe preview
-set completeopt = menu
+set completeopt=menu
 
 " use system clipboard as default buffer
-set clipboard = unnamedplus
+set clipboard=unnamedplus
 
 " colourscheme
 colo onedark
