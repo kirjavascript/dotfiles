@@ -35,7 +35,7 @@ let NERDTreeStatusline = "(~˘▾˘)~"
 set completeopt = menu
 
 " use system clipboard as default buffer
-set clipboard = unnamedplug
+set clipboard = unnamedplus
 
 " colourscheme
 colo onedark
