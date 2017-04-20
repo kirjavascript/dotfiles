@@ -13,6 +13,7 @@ Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
 Plug 'Valloric/YouCompleteMe' " , { 'do': './install.py --tern-compiler' }
 Plug 'terryma/vim-multiple-cursors'
+" Plug 'sheerun/vim-polyglot'
 
 call plug#end()
 
