@@ -11,7 +11,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'sheerun/vim-polyglot'
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
-Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
+Plug 'Valloric/YouCompleteMe' " , { 'do': './install.py --tern-compiler' }
 Plug 'terryma/vim-multiple-cursors'
 
 call plug#end()
@@ -30,6 +30,9 @@ au VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
 let NERDTreeStatusline = "(~˘▾˘)~"
+
+" turn off YouCompleteMe preview
+set completeopt = menu
 
 " colourscheme
 colo onedark
