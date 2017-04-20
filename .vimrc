@@ -34,6 +34,9 @@ let NERDTreeStatusline = "(~˘▾˘)~"
 " turn off YouCompleteMe preview
 set completeopt = menu
 
+" use system clipboard as default buffer
+set clipboard = unnamedplug
+
 " colourscheme
 colo onedark
 let g:airline_theme='onedark'
