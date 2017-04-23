@@ -4,16 +4,16 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'scrooloose/nerdtree'
 Plug 'jlanzarotta/bufexplorer'
+Plug 'pangloss/vim-javascript'
+Plug 'mxw/vim-jsx'
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-commentary'
 Plug 'joshdick/onedark.vim'
 Plug 'vim-airline/vim-airline'
-Plug 'sheerun/vim-polyglot'
-Plug 'pangloss/vim-javascript'
-Plug 'mxw/vim-jsx'
-Plug 'Valloric/YouCompleteMe' " , { 'do': './install.py --tern-compiler' }
+Plug 'Valloric/YouCompleteMe' " , { 'do': './install.py --tern-completer' }
 Plug 'terryma/vim-multiple-cursors'
-" Plug 'sheerun/vim-polyglot'
+Plug 'tpope/vim-fugitive'
+Plug 'sheerun/vim-polyglot'
 
 call plug#end()
 
@@ -35,7 +35,7 @@ let NERDTreeStatusline = "(~˘▾˘)~"
 " turn off YouCompleteMe preview
 set completeopt=menu
 
-" use system clipboard as default buffer
+" set clipboard to system
 set clipboard=unnamedplus
 
 " colourscheme
@@ -55,3 +55,4 @@ endif
 " gVim
 set go=
 set gfn=Hack\ 11 " use ttf-hack
+
