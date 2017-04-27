@@ -82,4 +82,10 @@ endif
 
 " gVim
 set go=
-set gfn=Hack\ 11 " use ttf-hack
+set gfn=Hack\ 11 " ttf-hack
+
+" osx overwrites
+if has('macunix')
+    set clipboard=unnamed
+    set gfn=Hack\ Regular:h14 " font-hack
+endif
