@@ -16,6 +16,7 @@ Plug 'sheerun/vim-polyglot'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'tpope/vim-commentary'
 Plug 'thirtythreeforty/lessspace.vim'
+Plug 'tpope/vim-surround'
 " display
 Plug 'joshdick/onedark.vim'
 Plug 'vim-airline/vim-airline'
