@@ -51,17 +51,18 @@ let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
 let NERDTreeStatusline = "(~˘▾˘)~"
 
-" remap bufexplorer
+" bufexplorer
 nnoremap <silent> <Leader>b :BufExplorer<CR>
 let g:bufExplorerDisableDefaultKeyMapping=1
 
 " undotree
 set undofile
-nnoremap <Leader>u :UndotreeToggle <bar> :UndotreeFocus<CR>
+nnoremap <Leader>u :UndotreeToggle <BAR> :UndotreeFocus<CR>
 
-" turn off YouCompleteMe preview
+" YouCompleteMe
 set completeopt-=preview
 let g:ycm_add_preview_to_completeopt = 0
+nnoremap <Leader>g :YcmCompleter GoTo<CR>
 
 " set clipboard to system
 set clipboard=unnamedplus
