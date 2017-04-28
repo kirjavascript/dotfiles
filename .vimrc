@@ -30,6 +30,7 @@ set rnu " relativenumber
 set mouse=a " enable mouse support in terminal
 set history=1000 " loadsa history
 set hidden " switch buffers without saving
+set fillchars+=vert:\│ " make split char a solid line
 
 let g:jsx_ext_required = 0 " enable JSX for .js files
 au BufNewFile,BufRead *.ejs set filetype=html " load EJS files like HTML
@@ -43,6 +44,10 @@ endfor
 set backupdir=$HOME/.vim/backup//
 set directory=$HOME/.vim/swap//
 set undodir=$HOME/.vim/undo//
+
+" move 'correctly' on wrapped lines
+nnoremap j gj
+nnoremap k gk
 
 " start NERDTree if no file is specified
 au StdinReadPre * let s:std_in=1
