@@ -15,6 +15,7 @@ Plug 'sheerun/vim-polyglot'
 " editing
 Plug 'terryma/vim-multiple-cursors'
 Plug 'tpope/vim-commentary'
+Plug 'chaoren/vim-wordmotion'
 Plug 'tpope/vim-surround'
 Plug 'thirtythreeforty/lessspace.vim'
 " display
@@ -31,6 +32,7 @@ set mouse=a " enable mouse support in terminal
 set history=1000 " loadsa history
 set hidden " switch buffers without saving
 set fillchars+=vert:\│ " make split char a solid line
+set encoding=utf-8
 
 let g:jsx_ext_required = 0 " enable JSX for .js files
 au BufNewFile,BufRead *.ejs set filetype=html " load EJS files like HTML
@@ -49,12 +51,15 @@ set undodir=$HOME/.vim/undo//
 nnoremap j gj
 nnoremap k gk
 
-" start NERDTree if no file is specified
-au StdinReadPre * let s:std_in=1
-au VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
-let NERDTreeMinimalUI = 1
-let NERDTreeDirArrows = 1
-let NERDTreeStatusline = "(~˘▾˘)~"
+" fix common typo
+if !exists(':W')
+    command W w
+endif
+
+" map vim-wordmotion prefix to alt, sublime style
+let g:wordmotion_mappings = {
+    \ 'w' : '<M-w>', 'b' : '<M-b>', 'e' : '<M-e>', 'ge' : 'g<M-e>', 'aw' : 'a<M-w>', 'iw' : 'i<M-w>'
+}
 
 " bufexplorer
 nnoremap <silent> <Leader>b :BufExplorer<CR>
@@ -68,6 +73,13 @@ nnoremap <Leader>u :UndotreeToggle <BAR> :UndotreeFocus<CR>
 set completeopt-=preview
 let g:ycm_add_preview_to_completeopt = 0
 nnoremap <Leader>g :YcmCompleter GoTo<CR>
+
+" start NERDTree if no file is specified
+au StdinReadPre * let s:std_in=1
+au VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+let NERDTreeMinimalUI = 1
+let NERDTreeDirArrows = 1
+let NERDTreeStatusline = "(~˘▾˘)~"
 
 " set clipboard to system
 set clipboard=unnamedplus
