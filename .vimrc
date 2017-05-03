@@ -111,6 +111,9 @@ set gfn=Hack\ 11 " ttf-hack
 " window#vim-main-window {
 "     background-color: #292D34;
 " }
+" or maybe this in .gtkrc-2.0
+" style "my-background" { bg[NORMAL] = "#282c34" } 
+" widget "vim-main-window.*.GtkForm" style "my-background" 
 
 " osx overwrites
 if has('macunix')
