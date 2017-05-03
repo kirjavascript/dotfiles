@@ -66,6 +66,10 @@ let g:wordmotion_mappings = {
 \ 'iw' : 'i<M-w>'
 \ }
 
+" hex helpers
+nnoremap <Leader>hd :%! xxd<CR>
+nnoremap <Leader>hf :%! xxd -r<CR>
+
 " bufexplorer
 nnoremap <silent> <Leader>b :BufExplorer<CR>
 let g:bufExplorerDisableDefaultKeyMapping=1
@@ -106,11 +110,6 @@ endif
 " gVim
 set go=
 set gfn=Hack\ 11 " ttf-hack
-
-" to fix white border in gVim/GTK, edit ~/.config/gtk-3.0/gtk.css with;
-" window#vim-main-window {
-"     background-color: #292D34;
-" }
 
 " osx overwrites
 if has('macunix')
