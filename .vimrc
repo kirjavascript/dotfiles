@@ -66,6 +66,9 @@ let g:wordmotion_mappings = {
 \ 'iw' : 'i<M-w>'
 \ }
 
+" reactify XML (eg react-native-svg)
+nnoremap <Leader>rf :%s/\(<\/\?\)\(.\)/\1\U\2/g<CR>
+
 " hex helpers
 nnoremap <Leader>hd :%! xxd<CR>
 nnoremap <Leader>hf :%! xxd -r<CR>
