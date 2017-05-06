@@ -1,4 +1,8 @@
-" Plugin manager; httpe://github.com/junegunn/vim-plug
+#!/bin/bash
+"curl" -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+"exit"
+
+" Running this .vimrc as a shell script installs the required plugin manager
 
 call plug#begin('~/.vim/plugged')
 
