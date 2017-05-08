@@ -54,9 +54,10 @@ set undodir=$HOME/.vim/undo//
 nnoremap j gj
 nnoremap k gk
 
-" fix common typo
+" fix common typos
 if !exists(':W')
     command W w
+    command Q q
 endif
 
 " map vim-wordmotion prefix to alt, sublime style
@@ -76,6 +77,9 @@ nnoremap <Leader>rf :%s/\(<\/\?\)\(.\)/\1\U\2/g<CR>
 nnoremap <Leader>hd :%! xxd<CR>
 nnoremap <Leader>hf :%! xxd -r<CR>
 
+" show weather report
+nnoremap <silent> <Leader>we :! curl -s wttr.in/Manchester \| sed -r "s/\x1B\[[0-9;]*[JKmsu]//g"<CR>
+
 " bufexplorer
 nnoremap <silent> <Leader>b :BufExplorer<CR>
 let g:bufExplorerDisableDefaultKeyMapping=1
@@ -91,10 +95,10 @@ nnoremap <Leader>g :YcmCompleter GoTo<CR>
 
 " start NERDTree if no file is specified
 au StdinReadPre * let s:std_in=1
-au VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+au VimEnter * if argc() == 0 && !exists('s:std_in') | NERDTree | wincmd w | endif
 let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
-let NERDTreeStatusline = "(~˘▾˘)~"
+let NERDTreeStatusline = '(~˘▾˘)~'
 
 " set clipboard to system
 set clipboard=unnamedplus
@@ -108,7 +112,7 @@ let g:airline#extensions#tabline#fnamemod = ':t'
 
 " Use 24-bit (true-color) mode in Vim when outside tmux.
 if (empty($TMUX))
-  if (has("termguicolors"))
+  if (has('termguicolors'))
     set termguicolors
   endif
 endif

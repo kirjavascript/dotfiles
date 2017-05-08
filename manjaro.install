@@ -11,4 +11,4 @@ fish config (.bashrc)
 (xfce4-terminal/terminalrc) ColorCursor=#0066aa
 polybar
 
-ranger / pipes / screenfetch / alsa / cmatrix / doge / ponysay / nyancat
+ranger / pipes / screenfetch / alsa / cmatrix / doge / ponysay / nyancat / curl -s wttr.in
