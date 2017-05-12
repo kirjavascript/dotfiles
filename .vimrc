@@ -46,6 +46,7 @@ for folder in ['backup', 'swap', 'undo']
         call mkdir($HOME.'/.vim/'.folder, 'p')
     endif
 endfor
+set backupcopy=yes " copy the file and overwrite the original
 set backupdir=$HOME/.vim/backup//
 set directory=$HOME/.vim/swap//
 set undodir=$HOME/.vim/undo//
