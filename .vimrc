@@ -61,6 +61,9 @@ if !exists(':W')
     command Q q
 endif
 
+" save files as sudo
+cmap w!! w !sudo tee > /dev/null %
+
 " map vim-wordmotion prefix to comma, remap comma
 nnoremap ,, ,
 let g:wordmotion_prefix = ','
