@@ -46,6 +46,7 @@ for folder in ['backup', 'swap', 'undo']
         call mkdir($HOME.'/.vim/'.folder, 'p')
     endif
 endfor
+set backupcopy=yes " copy the file and overwrite the original
 set backupdir=$HOME/.vim/backup//
 set directory=$HOME/.vim/swap//
 set undodir=$HOME/.vim/undo//
@@ -60,15 +61,9 @@ if !exists(':W')
     command Q q
 endif
 
-" map vim-wordmotion prefix to alt, sublime style
-let g:wordmotion_mappings = {
-\ 'w' : '<M-w>',
-\ 'b' : '<M-b>',
-\ 'e' : '<M-e>',
-\ 'ge' : 'g<M-e>',
-\ 'aw' : 'a<M-w>',
-\ 'iw' : 'i<M-w>'
-\ }
+" map vim-wordmotion prefix to comma, remap comma
+nnoremap ,, ,
+let g:wordmotion_prefix = ','
 
 " reactify XML (eg react-native-svg)
 nnoremap <Leader>rf :%s/\(<\/\?\)\(.\)/\1\U\2/g<CR>
