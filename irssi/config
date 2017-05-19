@@ -275,7 +275,7 @@ aliases = {
   shrug = "say ¯\\\\_(ツ)_/¯";
   lenny = "say ( ͡° ͜ʖ ͡°)";
   flip = "say (╯°□°）╯︵ ┻━┻";
-  actually = "(~˘▾˘)~";
+  actually = "say (~˘▾˘)~";
 };
 
 statusbar = {
