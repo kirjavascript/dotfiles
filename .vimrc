@@ -1,11 +1,11 @@
 "curl" -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 "exit"
-"        .__
-"  ___  _|__| ____________   ____
-"  \  \/ /  |/     \_  __ \_/ ___\
-"   \   /|  |  Y Y  \  | \/\  \___
-" /\ \_/ |__|__|_|  /__|    \___  >
-" \/              \/            \/
+"          .__
+"    ___  _|__| ____________   ____
+"    \  \/ /  |/     \_  __ \_/ ___\
+"     \   /|  |  Y Y  \  | \/\  \___
+"   /\ \_/ |__|__|_|  /__|    \___  >
+"   \/              \/            \/
 "
 " https://github.com/kirjavascript/dotfiles
 " Running this .vimrc as a shell script installs the required plugin manager
