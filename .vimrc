@@ -1,6 +1,13 @@
 "curl" -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 "exit"
-
+"        .__
+"  ___  _|__| ____________   ____
+"  \  \/ /  |/     \_  __ \_/ ___\
+"   \   /|  |  Y Y  \  | \/\  \___
+" /\ \_/ |__|__|_|  /__|    \___  >
+" \/              \/            \/
+"
+" https://github.com/kirjavascript/dotfiles
 " Running this .vimrc as a shell script installs the required plugin manager
 
 call plug#begin('~/.vim/plugged')
@@ -29,12 +36,13 @@ Plug 'airblade/vim-gitgutter'
 call plug#end()
 
 set updatetime=250 " faster gitgutter
-set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab " 4 space tabs
+set tabstop=8 softtabstop=4 expandtab shiftwidth=4 smarttab " 4 space tabs
 set rnu " relativenumber
 set mouse=a " enable mouse support in terminal
 set history=1000 " loadsa history
 set hidden " switch buffers without saving
 set fillchars+=vert:\│ " make split char a solid line
+set backupcopy=yes " copy the file and overwrite the original
 set encoding=utf-8
 
 let g:jsx_ext_required = 0 " enable JSX for .js files
@@ -46,7 +54,6 @@ for folder in ['backup', 'swap', 'undo']
         call mkdir($HOME.'/.vim/'.folder, 'p')
     endif
 endfor
-set backupcopy=yes " copy the file and overwrite the original
 set backupdir=$HOME/.vim/backup//
 set directory=$HOME/.vim/swap//
 set undodir=$HOME/.vim/undo//
@@ -62,7 +69,7 @@ if !exists(':W')
 endif
 
 " save files as sudo
-cmap w!! w !sudo tee > /dev/null %
+cnoremap w!! w !sudo tee > /dev/null %
 
 " map vim-wordmotion prefix to comma, remap comma
 nnoremap ,, ,
