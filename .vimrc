@@ -68,12 +68,15 @@ if !exists(':W')
     command Q q
 endif
 
-" save files as sudo
-cnoremap w!! w !sudo tee > /dev/null %
-
 " map vim-wordmotion prefix to comma, remap comma
 nnoremap ,, ,
 let g:wordmotion_prefix = ','
+
+" save files as sudo
+cnoremap w!! w !sudo tee > /dev/null %
+
+" edit .vimrc
+nnoremap <Leader>rc :e $HOME/.vimrc<CR>
 
 " reactify XML (eg react-native-svg)
 nnoremap <Leader>rf :%s/\(<\/\?\)\(.\)/\1\U\2/g<CR>
