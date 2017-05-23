@@ -78,6 +78,9 @@ cnoremap w!! w !sudo tee > /dev/null %
 " edit .vimrc
 nnoremap <Leader>rc :e $HOME/.vimrc<CR>
 
+" get filename into clipboard
+nnoremap <Leader>fn :let @+=expand('%')<CR>
+
 " reactify XML (eg react-native-svg)
 nnoremap <Leader>rf :%s/\(<\/\?\)\(.\)/\1\U\2/g<CR>
 
