@@ -78,8 +78,8 @@ cnoremap w!! w !sudo tee > /dev/null %
 " edit .vimrc
 nnoremap <Leader>rc :e $HOME/.vimrc<CR>
 
-" get filename into clipboard
-nnoremap <Leader>fn :let @+=expand('%')<CR>
+" load current file in firefox
+nnoremap <Leader>ff :!firefox %<CR>
 
 " reactify XML (eg react-native-svg)
 nnoremap <Leader>rf :%s/\(<\/\?\)\(.\)/\1\U\2/g<CR>
@@ -105,6 +105,7 @@ let g:ycm_add_preview_to_completeopt = 0
 nnoremap <Leader>g :YcmCompleter GoTo<CR>
 
 " start NERDTree if no file is specified
+nnoremap <Leader>nt :NERDTreeToggle<CR>
 au StdinReadPre * let s:std_in=1
 au VimEnter * if argc() == 0 && !exists('s:std_in') | NERDTree | wincmd w | endif
 let NERDTreeMinimalUI = 1
