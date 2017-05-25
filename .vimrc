@@ -81,6 +81,9 @@ nnoremap <Leader>rc :e $HOME/.vimrc<CR>
 " load current file in firefox
 nnoremap <Leader>ff :!firefox %<CR>
 
+" lol
+nnoremap <F5> :e %<CR>
+
 " reactify XML (eg react-native-svg)
 nnoremap <Leader>rf :%s/\(<\/\?\)\(.\)/\1\U\2/g<CR>
 
