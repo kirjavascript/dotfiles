@@ -1,7 +1,3 @@
-# Nyan Cat
-#
-# from http://www.reddit.com/r/commandline/comments/2lb5ij/what_is_your_favorite_ascii_art/clt4ybl
-#
 $the_cow = <<EOC;
        $thoughts
         $thoughts
@@ -20,4 +16,3 @@ $the_cow = <<EOC;
 ░░░░░░████▀░░███▀░░░░░░▀███░░▀██▀░░░░░░
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 EOC
-
