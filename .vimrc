@@ -18,6 +18,7 @@ Plug 'jlanzarotta/bufexplorer'
 Plug 'Valloric/YouCompleteMe' " , { 'do': './install.py --tern-completer' }
 Plug 'tpope/vim-fugitive'
 Plug 'mbbill/undotree'
+Plug 'itchyny/calendar.vim'
 " languages
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
@@ -47,6 +48,7 @@ set encoding=utf-8
 
 let g:jsx_ext_required = 0 " enable JSX for .js files
 au BufNewFile,BufRead *.ejs set filetype=html " load EJS files like HTML
+syntax keyword jsGlobalObjects d3 React $
 
 " save swap, backup, etc to ~/.vim instead
 for folder in ['backup', 'swap', 'undo']
@@ -81,7 +83,7 @@ nnoremap <Leader>rc :e $HOME/.vimrc<CR>
 " load current file in firefox
 nnoremap <Leader>ff :!firefox %<CR>
 
-" lol
+" refresh
 nnoremap <F5> :e %<CR>
 
 " reactify XML (eg react-native-svg)
