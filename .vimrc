@@ -32,6 +32,7 @@ Plug 'thirtythreeforty/lessspace.vim'
 Plug 'joshdick/onedark.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'airblade/vim-gitgutter'
+Plug 'terryma/vim-smooth-scroll'
 
 call plug#end()
 
@@ -43,6 +44,7 @@ set history=1000 " loadsa history
 set hidden " switch buffers without saving
 set fillchars+=vert:\│ " make split char a solid line
 set backupcopy=yes " copy the file and overwrite the original
+set clipboard=unnamedplus " set clipboard to system
 set encoding=utf-8
 
 let g:jsx_ext_required = 0 " enable JSX for .js files
@@ -83,6 +85,9 @@ cnoremap w!! w !sudo tee > /dev/null %
 " edit .vimrc
 nnoremap <Leader>rc :e $HOME/.vimrc<CR>
 
+" edit todo
+nnoremap <Leader>zx :e $HOME/todo<CR>
+
 " load current file in firefox
 nnoremap <Leader>ff :!firefox %<CR>
 
@@ -120,8 +125,9 @@ let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
 let NERDTreeStatusline = '(~˘▾˘)~'
 
-" set clipboard to system
-set clipboard=unnamedplus
+" vim-smooth-scroll
+noremap <silent> <c-u> :call smooth_scroll#up(&scroll, 0, 1)<CR>
+noremap <silent> <c-d> :call smooth_scroll#down(&scroll, 0, 1)<CR>
 
 " colourscheme
 colo onedark
