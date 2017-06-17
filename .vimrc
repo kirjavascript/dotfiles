@@ -47,7 +47,7 @@ set encoding=utf-8
 
 let g:jsx_ext_required = 0 " enable JSX for .js files
 au BufNewFile,BufRead *.ejs set filetype=html " load EJS files like HTML
-au BufNewFile,BufRead *.asm set filetype=asm68k " load EJS files like HTML
+au BufNewFile,BufRead *.asm set filetype=asm68k " specify m86k ASM
 syntax keyword jsGlobalObjects d3 React $
 
 " save swap, backup, etc to ~/.vim instead
@@ -59,6 +59,9 @@ endfor
 set backupdir=$HOME/.vim/backup//
 set directory=$HOME/.vim/swap//
 set undodir=$HOME/.vim/undo//
+
+" delete leftover swapfiles
+call map(split(globpath('$HOME/.vim/swap', '*'), '\n'), 'delete(v:val)')
 
 " move 'correctly' on wrapped lines
 nnoremap j gj
