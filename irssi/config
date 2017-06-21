@@ -1,3 +1,15 @@
+channels = (
+  { name = "#rubik"; chatnet = "Freenode"; autojoin = "yes"; },
+  { name = "#blabloobla"; chatnet = "Freenode"; autojoin = "yes"; },
+  { name = "#boom"; chatnet = "Badnik"; autojoin = "yes"; },
+  { name = "#ygbfurs"; chatnet = "Furnet"; autojoin = "yes"; },
+  { name = "#8bitvape"; chatnet = "Rizon"; autojoin = "yes"; },
+  { name = "#livingroom"; chatnet = "Rizon"; autojoin = "yes"; },
+  { name = "#ssrg"; chatnet = "Badnik"; autojoin = "yes"; },
+  { name = "#d3.js"; chatnet = "Freenode"; autojoin = "yes"; },
+  { name = "##javascript"; chatnet = "Freenode"; autojoin = "yes"; }
+);
+
 servers = (
   {
     address = "irc.freenode.org";
@@ -34,89 +46,23 @@ servers = (
 );
 
 chatnets = {
-  DALnet = {
-    type = "IRC";
-    max_kicks = "4";
-    max_msgs = "20";
-    max_whois = "30";
-  };
-  EFNet = { 
-    type = "IRC";
-    max_kicks = "1";
-    max_msgs = "4";
-    max_whois = "1";
-  };
-  EsperNet = {
-    type = "IRC";
-    max_kicks = "1";
-    max_msgs = "4";
-    max_whois = "1";
-  };
   Freenode = {
     type = "IRC";
     max_kicks = "1";
     max_msgs = "4";
     max_whois = "1";
+    nick = "Kirjava";
   };
-  GameSurge = {
+  Rizon = {
     type = "IRC";
     max_kicks = "1";
     max_msgs = "1";
     max_whois = "1";
+    nick = "Kirjava";
   };
-  IRCnet = { 
-    type = "IRC";
-    max_kicks = "1";
-    max_msgs = "1";
-    max_whois = "1";
-  };
-  IRCSource = {
-    type = "IRC";
-    max_kicks = "1";
-    max_msgs = "4";
-    max_whois = "1";
-  };
-  NetFuze = {
-    type = "IRC";
-    max_kicks = "1";
-    max_msgs = "1";
-    max_whois = "1";
-  };
-  OFTC = { type = "IRC"; max_kicks = "1"; max_msgs = "1"; max_whois = "1"; };
-  QuakeNet = {
-    type = "IRC";
-    max_kicks = "1";
-    max_msgs = "1";
-    max_whois = "1";
-  };
-  Rizon = { 
-    type = "IRC";
-    max_kicks = "1";
-    max_msgs = "1";
-    max_whois = "1";
-  };
-  SILC = { type = "SILC"; };
-  Undernet = {
-    type = "IRC";
-    max_kicks = "1";
-    max_msgs = "1";
-    max_whois = "1";
-  };
-  Badnik = { type = "IRC"; };
-  Furnet = { type = "IRC"; };
+  Badnik = { type = "IRC"; nick = "snkenjoi"; };
+  Furnet = { type = "IRC"; nick = "Cake"; };
 };
-
-channels = (
-  { name = "#rubik"; chatnet = "Freenode"; autojoin = "yes"; },
-  { name = "#blabloobla"; chatnet = "Freenode"; autojoin = "yes"; },
-  { name = "#boom"; chatnet = "Badnik"; autojoin = "yes"; },
-  { name = "#ygbfurs"; chatnet = "Furnet"; autojoin = "yes"; },
-  { name = "#8bitvape"; chatnet = "Rizon"; autojoin = "yes"; },
-  { name = "#livingroom"; chatnet = "Rizon"; autojoin = "yes"; },
-  { name = "#ssrg"; chatnet = "Badnik"; autojoin = "yes"; },
-  { name = "#d3.js"; chatnet = "Freenode"; autojoin = "yes"; },
-  { name = "##javascript"; chatnet = "Freenode"; autojoin = "yes"; }
-);
 
 aliases = {
   ATAG = "WINDOW SERVER";
@@ -272,10 +218,10 @@ aliases = {
   97 = "WINDOW GOTO 97";
   98 = "WINDOW GOTO 98";
   99 = "WINDOW GOTO 99";
-  shrug = "say ¯\\\\_(ツ)_/¯";
-  lenny = "say ( ͡° ͜ʖ ͡°)";
-  flip = "say (╯°□°）╯︵ ┻━┻";
-  actually = "say (~˘▾˘)~";
+  shrug = "say ¯\\\\_(ツ)_/¯ $-";
+  lenny = "say ( ͡° ͜ʖ ͡°) $-";
+  flip = "say (╯°□°）╯︵ ┻━┻ $-";
+  actually = "say (~˘▾˘)~ $-";
 };
 
 statusbar = {
@@ -374,7 +320,15 @@ statusbar = {
     };
   };
 };
+
+
 settings = {
-  core = { real_name = ""; user_name = "thom"; nick = "thom"; };
+  timestamp_format = "%H:%M:%S";
+  core = {
+    real_name = "";
+    user_name = "thom";
+    nick = "thom";
+    timestamp_format = "%H:%M:%S";
+  };
   "fe-text" = { actlist_sort = "refnum"; };
 };
