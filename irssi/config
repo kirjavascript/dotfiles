@@ -222,6 +222,7 @@ aliases = {
   lenny = "say ( ͡° ͜ʖ ͡°) $-";
   flip = "say (╯°□°）╯︵ ┻━┻ $-";
   actually = "say (~˘▾˘)~ $-";
+  bh = "say ヘ（。□°）ヘ $-";
 };
 
 statusbar = {
@@ -330,5 +331,6 @@ settings = {
     nick = "thom";
     timestamp_format = "%H:%M:%S";
   };
-  "fe-text" = { actlist_sort = "refnum"; };
+  "fe-text" = { actlist_sort = "refnum"; colors = "yes"; };
+  "fe-common/core" = { emphasis_italics = "yes"; };
 };
