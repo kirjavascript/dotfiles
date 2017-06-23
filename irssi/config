@@ -223,6 +223,23 @@ aliases = {
   flip = "say (╯°□°）╯︵ ┻━┻ $-";
   actually = "say (~˘▾˘)~ $-";
   bh = "say ヘ（。□°）ヘ $-";
+  dissaprove = "ಠ_ಠ $-";
+  ooh = "☜(°O°☜) $-";
+  happy = "(• ◡•) $-";
+  woop = "(°ロ°)☝ $-";
+  love = "♡°☆(ಠೆಒಠಿ)☆°♡ $-";
+  wink = "( ͡~ ͜ʖ ͡°) $-";
+  cry = "ಥ‿ಥ $-";
+  daww = "(◕‿◕✿) $-";
+  fu = "凸(｀0´)凸 $-";
+  mmm = "(¬_¬) $-";
+  cat = "(^._.^) $-";
+  mwah = "( ˘ ³˘)♥ $-";
+  baww = ".·´¯`(>▂<)´¯`·. $-";
+  putemup = "ლ(´ڡ`ლ) $-";
+  idk = "乁( ◔ ౪◔)ㄏ $-";
+  ayy = "☞(ﾟヮﾟ)☜ $-";
+  no = "ノ(ಠ_ಠノ) $-";
 };
 
 statusbar = {
@@ -332,5 +349,5 @@ settings = {
     timestamp_format = "%H:%M:%S";
   };
   "fe-text" = { actlist_sort = "refnum"; colors = "yes"; };
-  "fe-common/core" = { emphasis_italics = "yes"; };
+  "fe-common/core" = { emphasis_italics = "yes"; theme = "quux"; };
 };

@@ -48,6 +48,7 @@ set clipboard=unnamedplus " set clipboard to system
 set encoding=utf-8
 
 let g:jsx_ext_required = 0 " enable JSX for .js files
+runtime macros/matchit.vim " allow using % to navigate XML
 au BufNewFile,BufRead *.ejs set filetype=html " load EJS files like HTML
 au BufNewFile,BufRead *.asm set filetype=asm68k " specify m86k ASM
 syntax keyword jsGlobalObjects d3 React $
