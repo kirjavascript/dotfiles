@@ -7,7 +7,7 @@ configure alsa base
 enable intel
 
 i3 config / numlockx
-fish config (.bashrc)
+zsh config (.bashrc)
 (xfce4-terminal/terminalrc) ColorCursor=#0066aa
 polybar
 
