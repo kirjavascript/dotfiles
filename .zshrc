@@ -3,12 +3,12 @@
 
 source ~/.zplug/init.zsh
 
-zplug "zsh-users/zsh-autosuggestions"
 zplug "zsh-users/zsh-completions"
-zplug "zsh-users/zsh-history-substring-search"
 zplug "zsh-users/zsh-syntax-highlighting"
+zplug "zsh-users/zsh-history-substring-search"
+zplug "zsh-users/zsh-autosuggestions"
 
-zplug "plugins/git",   from:oh-my-zsh
+zplug "plugins/git", from:oh-my-zsh
 zplug "themes/fishy", from:oh-my-zsh
 
 zplug load
@@ -29,3 +29,8 @@ alias ls='ls -F --show-control-chars --color=always'
 alias la='ls -aF --show-control-chars --color=always'
 alias ll='ls -lF --show-control-chars --color=always'
 zstyle ':completion:*' list-colors 'di=;34;1' 'ln=;35;1' 'so=;32;1' 'ex=31;1' 'bd=46;34' 'cd=43;34'
+
+# history
+export HISTFILE=~/.zsh_history
+export HISTSIZE=10000
+export SAVEHIST=10000
