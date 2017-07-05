@@ -25,6 +25,8 @@ ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg_bold[green]%}✔"
 
 # environment
 export EDITOR=vim
+export VISUAL=gvim
+export BROWSER=firefox
 
 # colours
 alias ls='ls -F --show-control-chars --color=always'
