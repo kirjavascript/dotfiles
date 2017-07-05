@@ -1,6 +1,8 @@
 # zplug install;
 # curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/installer/master/installer.zsh| zsh
 
+[[ "$TERM" == "xterm" ]] && export TERM=xterm-256color
+
 source ~/.zplug/init.zsh
 
 zplug "zsh-users/zsh-completions"
