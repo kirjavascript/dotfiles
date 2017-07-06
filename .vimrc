@@ -80,8 +80,11 @@ endif
 nnoremap ,, ,
 let g:wordmotion_prefix = ','
 
+" remap cmp to semicolon
+map ; :
+
 " save files as sudo
-cnoremap w!! w !sudo tee > /dev/null %
+nnoremap <Leader>su :w !sudo tee > /dev/null %<CR>
 
 " edit .vimrc
 nnoremap <Leader>rc :e $HOME/.vimrc<CR>
