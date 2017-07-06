@@ -80,8 +80,12 @@ endif
 nnoremap ,, ,
 let g:wordmotion_prefix = ','
 
-" remap cmp to semicolon
+" remap cmd to semicolon
 map ; :
+
+" EOL
+nnoremap - $
+vnoremap - $
 
 " save files as sudo
 nnoremap <Leader>su :w !sudo tee > /dev/null %<CR>
