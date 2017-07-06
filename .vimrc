@@ -12,8 +12,6 @@
 
 call plug#begin('~/.vim/plugged')
 
-" test
-
 " tools
 Plug 'scrooloose/nerdtree'
 Plug 'jlanzarotta/bufexplorer'
