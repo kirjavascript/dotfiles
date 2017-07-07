@@ -219,27 +219,32 @@ aliases = {
   98 = "WINDOW GOTO 98";
   99 = "WINDOW GOTO 99";
   shrug = "say ¯\\\\_(ツ)_/¯ $-";
-  lenny = "say ( ͡° ͜ʖ ͡°) $-";
-  flip = "say (╯°□°）╯︵ ┻━┻ $-";
-  actually = "say (~˘▾˘)~ $-";
+  idk = "say 乁( ◔ ౪◔)ㄏ $-";
   bh = "say ヘ（。□°）ヘ $-";
-  disapprove = "say ಠ_ಠ $-";
+
   ooh = "say ☜(°O°☜) $-";
-  happy = "say (• ◡•) $-";
   woop = "say (°ロ°)☝ $-";
   love = "say ♡°☆(ಠೆಒಠಿ)☆°♡ $-";
-  wink = "say ( ͡~ ͜ʖ ͡°) $-";
-  cry = "say ಥ‿ಥ $-";
+  actually = "say (~˘▾˘)~ $-";
+  happy = "say (• ◡•) $-";
   daww = "say (◕‿◕✿) $-";
-  fu = "say 凸(｀0´)凸 $-";
-  mmm = "say (¬_¬) $-";
-  cat = "say (^._.^) $-";
-  mwah = "say ( ˘ ³˘)♥ $-";
-  baww = "say .·´¯`(>▂<)´¯`·. $-";
-  putemup = "say ლ(´ڡ`ლ) $-";
-  idk = "say 乁( ◔ ౪◔)ㄏ $-";
   ayy = "say ☞(ﾟヮﾟ)☜ $-";
+  mwah = "say ( ˘ ³˘)♥ $-";
+  lenny = "say ( ͡° ͜ʖ ͡°) $-";
+  wink = "say ( ͡~ ͜ʖ ͡°) $-";
+  tmyk "⋯-=≡★ ♪ $- ♫";
+
   no = "say ノ(ಠ_ಠノ) $-";
+  disapprove = "say ಠ_ಠ $-";
+  lod = "say ಠ_ಠ $-";
+  fu = "say 凸(｀0´)凸 $-";
+  putemup = "say ლ(´ڡ`ლ) $-";
+  flip = "say (╯°□°）╯︵ ┻━┻ $-";
+  um = "say (¬_¬) $-";
+
+  cry = "say ಥ‿ಥ $-";
+  baww = "say .·´¯`(>▂<)´¯`·. $-";
+  sad = "ʘ︵ʘ"
 };
 
 statusbar = {
