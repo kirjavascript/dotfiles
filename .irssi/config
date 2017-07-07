@@ -232,7 +232,7 @@ aliases = {
   mwah = "say ( ˘ ³˘)♥ $-";
   lenny = "say ( ͡° ͜ʖ ͡°) $-";
   wink = "say ( ͡~ ͜ʖ ͡°) $-";
-  tmyk "⋯-=≡★ ♪ $- ♫";
+  tmyk = "⋯-=≡★ ♪ $- ♫";
 
   no = "say ノ(ಠ_ಠノ) $-";
   disapprove = "say ಠ_ಠ $-";
@@ -244,7 +244,7 @@ aliases = {
 
   cry = "say ಥ‿ಥ $-";
   baww = "say .·´¯`(>▂<)´¯`·. $-";
-  sad = "ʘ︵ʘ"
+  sad = "ʘ︵ʘ";
 };
 
 statusbar = {
