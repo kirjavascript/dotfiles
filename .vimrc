@@ -97,6 +97,12 @@ execute "set <M-.>=\e."
 nnoremap <M-.> >>
 nnoremap <M-,> <<
 
+" refresh
+nnoremap <F5> :e %<CR>
+
+" word wrap
+nnoremap <Leader>ww :set wrap!<CR>
+
 " save files as sudo
 nnoremap <Leader>su :w !sudo tee > /dev/null %<CR>
 
@@ -108,9 +114,6 @@ nnoremap <Leader>zx :e $HOME/todo<CR>
 
 " load current file in firefox
 nnoremap <Leader>ff :!firefox %<CR>
-
-" refresh
-nnoremap <F5> :e %<CR>
 
 " reactify XML (eg react-native-svg)
 nnoremap <Leader>rf :%s/\(<\/\?\)\(.\)/\1\U\2/g<CR>
