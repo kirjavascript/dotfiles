@@ -47,6 +47,7 @@ set backupcopy=yes " copy the file and overwrite the original
 set clipboard=unnamedplus " set clipboard to system
 set encoding=utf-8
 
+let g:lessspace_normal = 0 " lessspace only works in insert mode
 let g:jsx_ext_required = 0 " enable JSX for .js files
 runtime macros/matchit.vim " allow using % to navigate XML
 au BufNewFile,BufRead *.ejs set filetype=html " load EJS files like HTML
@@ -75,7 +76,10 @@ nnoremap ,, ,
 let g:wordmotion_prefix = ','
 
 " remap cmd to semicolon
-map ; :
+nnoremap ; :
+nnoremap : ;
+vnoremap ; :
+vnoremap : ;
 
 " EOL
 nnoremap - $
