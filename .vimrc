@@ -70,12 +70,6 @@ call map(split(globpath('$HOME/.vim/swap', '*'), '\n'), 'delete(v:val)')
 nnoremap j gj
 nnoremap k gk
 
-" fix common typos
-if !exists(':W')
-    command W w
-    command Q q
-endif
-
 " map vim-wordmotion prefix to comma, remap comma
 nnoremap ,, ,
 let g:wordmotion_prefix = ','
@@ -86,6 +80,12 @@ map ; :
 " EOL
 nnoremap - $
 vnoremap - $
+
+" use alt + o/i for navigating buffers
+execute "set <M-i>=\ei"
+execute "set <M-o>=\eo"
+nnoremap <M-i> :bp<CR>
+nnoremap <M-o> :bn<CR>
 
 " save files as sudo
 nnoremap <Leader>su :w !sudo tee > /dev/null %<CR>
