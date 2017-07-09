@@ -91,7 +91,7 @@ execute "set <M-o>=\eo"
 nnoremap <M-i> :bp<CR>
 nnoremap <M-o> :bn<CR>
 
-"use alt + ./, for indenting
+" use alt + ./, for indenting
 execute "set <M-,>=\e,"
 execute "set <M-.>=\e."
 nnoremap <M-.> >>
@@ -165,6 +165,14 @@ if (empty($TMUX))
   if (has('termguicolors'))
     set termguicolors
   endif
+endif
+
+" change cursor shape in the terminal
+if &term =~ "xterm\\|rxvt"
+  let &t_SI = "\<Esc>[6 q"
+  let &t_EI = "\<Esc>[2 q"
+  silent !echo -ne "\033]12;steelblue\007"
+  autocmd VimLeave * silent !echo -ne "\033]112\007"
 endif
 
 " gVim
