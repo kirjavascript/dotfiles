@@ -175,6 +175,16 @@ if &term =~ "xterm\\|rxvt"
   autocmd VimLeave * silent !echo -ne "\033]112\007"
 endif
 
+" leave insert mode quickly in terminal
+if !has('gui_running')
+  set ttimeoutlen=10
+  augroup FastEscape
+    autocmd!
+    au InsertEnter * set timeoutlen=0
+    au InsertLeave * set timeoutlen=1000
+  augroup END
+endif
+
 " gVim
 set go=
 set gfn=Hack\ 11 " ttf-hack
