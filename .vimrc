@@ -147,7 +147,6 @@ au StdinReadPre * let s:std_in=1
 au VimEnter * if argc() == 0 && !exists('s:std_in') | NERDTree | wincmd w | endif
 let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
-let NERDTreeStatusline = '(~˘▾˘)~'
 
 " vim-smooth-scroll
 noremap <silent> <c-u> :call smooth_scroll#up(&scroll, 0, 1)<CR>
