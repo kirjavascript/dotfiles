@@ -75,7 +75,7 @@ interval = 25
 
 mount-0 = /
 
-label-mounted = %total%
+label-mounted = %{F#088}⛁%{F-} %total%
 label-unmounted = %mountpoint% not mounted
 label-unmounted-foreground = ${colors.primary}
 
@@ -116,7 +116,7 @@ label-urgent-padding = 2
 [module/cpu]
 type = internal/cpu
 interval = 2
-format-prefix = "CPU  "
+format-prefix = "CPU★ "
 format-prefix-foreground = ${colors.foreground-alt}
 ;format-underline = ${colors.primary}
 label = %percentage%%
@@ -124,7 +124,7 @@ label = %percentage%%
 [module/memory]
 type = internal/memory
 interval = 2
-format-prefix = "RAM  "
+format-prefix = "RAM⚡ "
 format-prefix-foreground = ${colors.foreground-alt}
 ;format-underline = ${colors.primary}
 label = %percentage_used%%
@@ -136,9 +136,9 @@ interface = enp3s0
 interval = 3.0
 
 ;format-connected-underline = #55aa55
-format-connected-prefix = " "
+format-connected-prefix = "⎇ "
 format-connected-prefix-foreground = ${colors.foreground-alt}
-label-connected = %{F#077}%local_ip%%{F-}
+label-connected = %local_ip%
 
 format-disconnected =
 ;format-disconnected = <label-disconnected>
@@ -156,11 +156,11 @@ date-alt = " %Y-%m-%d"
 time = %H:%M
 time-alt = %H:%M:%S
 
-format-prefix = 
-format-prefix-foreground = ${colors.foreground-alt}
+; format-prefix = 
+; format-prefix-foreground = ${colors.foreground-alt}
 ; format-underline = #0a6cf5
 
-label = %date% %time%
+label = %{F#044}♥%{F-}%date% %time%
 
 [module/volume]
 type = internal/volume
@@ -195,8 +195,8 @@ type = internal/temperature
 thermal-zone = 0
 warn-temperature = 60
 
-format = <ramp> <label>
-'format-underline = #f50a4d
+format = %{F#066}☢%{F-} <label>
+; format-underline = #f50a4d
 format-warn = <ramp> <label-warn>
 ;format-warn-underline = ${self.format-underline}
 
