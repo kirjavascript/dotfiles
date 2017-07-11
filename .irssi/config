@@ -233,6 +233,7 @@ aliases = {
   lenny = "say ( ͡° ͜ʖ ͡°) $-";
   wink = "say ( ͡~ ͜ʖ ͡°) $-";
   tmyk = "say ⋯-=≡★ ♪ $- ♫";
+  cool = "say (⌐■_■) $-";
 
   no = "say ノ(ಠ_ಠノ) $-";
   disapprove = "say ಠ_ಠ $-";
