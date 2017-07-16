@@ -167,12 +167,12 @@ if (empty($TMUX))
 endif
 
 " change cursor shape in the terminal
-if &term =~ "xterm\\|rxvt"
-  let &t_SI = "\<Esc>[6 q"
-  let &t_EI = "\<Esc>[2 q"
-  silent !echo -ne "\033]12;steelblue\007"
-  autocmd VimLeave * silent !echo -ne "\033]112\007"
-endif
+" if &term =~ "xterm\\|rxvt"
+"   let &t_SI = "\<Esc>[6 q"
+"   let &t_EI = "\<Esc>[2 q"
+"   silent !echo -ne "\033]12;steelblue\007"
+"   autocmd VimLeave * silent !echo -ne "\033]112\007"
+" endif
 
 " leave insert mode quickly in terminal
 if !has('gui_running')
