@@ -27,7 +27,6 @@ Plug 'terryma/vim-multiple-cursors'
 Plug 'tpope/vim-commentary'
 Plug 'chaoren/vim-wordmotion'
 Plug 'tpope/vim-surround'
-Plug 'thirtythreeforty/lessspace.vim'
 " display
 Plug 'joshdick/onedark.vim'
 Plug 'vim-airline/vim-airline'
@@ -47,11 +46,11 @@ set backupcopy=yes " copy the file and overwrite the original
 set clipboard=unnamedplus " set clipboard to system
 set encoding=utf-8
 
-let g:lessspace_normal = 0 " lessspace only works in insert mode
 let g:jsx_ext_required = 0 " enable JSX for .js files
 runtime macros/matchit.vim " allow using % to navigate XML
 au BufNewFile,BufRead *.ejs set filetype=html " load EJS files like HTML
 au BufNewFile,BufRead *.asm set filetype=asm68k " specify m86k ASM
+au BufWritePre * %s/\s\+$//e " strip whitespace on saving
 syntax keyword jsGlobalObjects d3 React $
 
 " save swap, backup, etc to ~/.vim instead
@@ -165,14 +164,6 @@ if (empty($TMUX))
     set termguicolors
   endif
 endif
-
-" change cursor shape in the terminal
-" if &term =~ "xterm\\|rxvt"
-"   let &t_SI = "\<Esc>[6 q"
-"   let &t_EI = "\<Esc>[2 q"
-"   silent !echo -ne "\033]12;steelblue\007"
-"   autocmd VimLeave * silent !echo -ne "\033]112\007"
-" endif
 
 " leave insert mode quickly in terminal
 if !has('gui_running')
