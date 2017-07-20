@@ -51,6 +51,7 @@ runtime macros/matchit.vim " allow using % to navigate XML
 au BufNewFile,BufRead *.ejs set filetype=html " load EJS files like HTML
 au BufNewFile,BufRead *.asm set filetype=asm68k " specify m86k ASM
 au BufWritePre * %s/\s\+$//e " strip whitespace on saving
+au BufWritePre * %s#\($\n\s*\)\+\%$## " stripe empty lines at end of file on saving
 syntax keyword jsGlobalObjects d3 React $
 
 " save swap, backup, etc to ~/.vim instead
