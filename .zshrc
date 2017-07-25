@@ -13,6 +13,8 @@ zplug "zsh-users/zsh-autosuggestions"
 zplug "plugins/git", from:oh-my-zsh
 zplug "themes/fishy", from:oh-my-zsh
 
+zplug "sebastiencs/icons-in-terminal", hook-build: "zsh install.sh", use: "~/.local/share/icons-in-terminal/icons_bash.sh"
+
 zplug load
 
 # environment
