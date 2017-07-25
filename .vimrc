@@ -21,6 +21,7 @@ Plug 'mbbill/undotree'
 " languages
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
+Plug 'captbaritone/better-indent-support-for-php-with-html'
 Plug 'sheerun/vim-polyglot'
 " editing
 Plug 'terryma/vim-multiple-cursors'
