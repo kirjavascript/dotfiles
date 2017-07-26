@@ -32,7 +32,7 @@ bindkey "^[[F" end-of-line
 
 # colours
 alias k='k -h'
-# alias ls='ls -hF --show-control-chars --color=always'
+alias ls='ls -hF --show-control-chars --color=always'
 alias la='ls -haF --show-control-chars --color=always'
 alias ll='ls -lhF --show-control-chars --color=always'
 zstyle ':completion:*' list-colors 'di=;34;1' 'ln=;35;1' 'so=;32;1' 'ex=31;1' 'bd=46;34' 'cd=43;34'
