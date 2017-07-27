@@ -28,6 +28,8 @@ Plug 'terryma/vim-multiple-cursors'
 Plug 'tpope/vim-commentary'
 Plug 'chaoren/vim-wordmotion'
 Plug 'tpope/vim-surround'
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
 " display
 Plug 'joshdick/onedark.vim'
 Plug 'vim-airline/vim-airline'
@@ -128,6 +130,13 @@ nnoremap <Leader>hf :%! xxd -r<CR>
 
 " show weather report
 nnoremap <silent> <Leader>we :! curl -s wttr.in/Manchester \| sed -r "s/\x1B\[[0-9;]*[JKmsu]//g"<CR>
+
+" snippets
+let g:UltiSnipsExpandTrigger="Q"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+let g:UltiSnipsEditSplit="vertical"
+let g:UltiSnipsSnippetDirectories = ['~/.vim/UltiSnips', 'UltiSnips']
 
 " bufexplorer
 nnoremap <silent> <Leader>b :BufExplorer<CR>
