@@ -150,6 +150,7 @@ nnoremap <Leader>u :UndotreeToggle <BAR> :UndotreeFocus<CR>
 set completeopt-=preview
 let g:ycm_add_preview_to_completeopt = 0
 nnoremap <Leader>g :YcmCompleter GoTo<CR>
+nnoremap <Leader>yr :YcmRestartServer<CR>
 
 " start NERDTree if no file is specified
 nnoremap <Leader>nt :NERDTreeToggle<CR>
