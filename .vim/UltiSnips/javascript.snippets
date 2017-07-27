@@ -1,0 +1,7 @@
+snippet fetch "fetch"
+fetch('$1')
+    .then(res => res.$2())
+    .then(res => {
+        $3
+    });
+endsnippet
