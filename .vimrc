@@ -132,7 +132,7 @@ nnoremap <Leader>hf :%! xxd -r<CR>
 nnoremap <silent> <Leader>we :! curl -s wttr.in/Manchester \| sed -r "s/\x1B\[[0-9;]*[JKmsu]//g"<CR>
 
 " snippets
-let g:UltiSnipsExpandTrigger="Q"
+let g:UltiSnipsExpandTrigger="<c-b>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 let g:UltiSnipsEditSplit="vertical"
