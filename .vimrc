@@ -122,7 +122,7 @@ nnoremap <Leader>ff :!firefox %<CR>
 nnoremap <Leader>rf :%s/\(<\/\?\)\(.\)/\1\U\2/g<CR>
 
 " format PHP like it's HTML
-nnoremap <Leader>fp :set ft=html<CR>gg=G<CR>:set ft=phtml<CR>
+nnoremap <Leader>fp :set ft=html<CR>gg=G<CR>:set ft=php<CR>
 
 " hex helpers
 nnoremap <Leader>hd :%! xxd<CR>
