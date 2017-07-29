@@ -70,6 +70,16 @@ set undodir=$HOME/.vim/undo//
 " delete leftover swapfiles
 call map(split(globpath('$HOME/.vim/swap', '*'), '\n'), 'delete(v:val)')
 
+" unmap keys
+map K <Nop>
+map Q <Nop>
+
+" easier split navigation
+nnoremap <c-k> <c-w>k
+nnoremap <c-j> <c-w>j
+nnoremap <c-h> <c-w>h
+nnoremap <c-l> <c-w>l
+
 " move 'correctly' on wrapped lines
 nnoremap j gj
 nnoremap k gk
@@ -101,7 +111,7 @@ nnoremap <M-.> >>
 nnoremap <M-,> <<
 
 " refresh
-nnoremap <F5> :e %<CR>
+nnoremap <F5> :e %<CR>:redraw!<CR>
 
 " word wrap
 nnoremap <Leader>ww :set wrap!<CR>
@@ -111,6 +121,12 @@ nnoremap <Leader>su :w !sudo tee > /dev/null %<CR>
 
 " edit .vimrc
 nnoremap <Leader>rc :e $HOME/.vimrc<CR>
+
+" edit .zshrc
+nnoremap <Leader>zrc :e $HOME/.zshrc<CR>
+
+" edit .i3/config
+nnoremap <Leader>i3 :e $HOME/.i3/config<CR>
 
 " edit todo
 nnoremap <Leader>zx :e $HOME/todo<CR>

@@ -1,7 +1,38 @@
+snippet "\.qs" "querySelector" r
+.querySelector('$1')
+endsnippet
+
+snippet "\.qsa" "querySelectorAll" r
+.querySelectorAll('$1')
+endsnippet
+
+snippet "\.sa" "setAttribute" r
+.setAttribute('${1:transform}', '${2:something}')
+endsnippet
+
+snippet "\.ga" "getAttribute" r
+.getAttribute('${1:something}')
+endsnippet
+
+snippet "\.ac" "appendChild" r
+.appendChild(${1:something})
+endsnippet
+
+snippet "\.rect" "getBoundingClientRect" r
+.getBoundingClientRect()
+endsnippet
+
+snippet ce "createElement"
+const $1 = document.createElement('${2:div}');
+endsnippet
+
 snippet fetch "fetch"
-fetch('$1')
+fetch('$1', {credentials: 'include'})
     .then(res => res.$2())
     .then(res => {
         $3
+    })
+    .catch(err => {
+	console.error(err);
     });
 endsnippet
