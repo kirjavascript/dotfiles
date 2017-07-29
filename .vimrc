@@ -47,6 +47,7 @@ set hidden " switch buffers without saving
 set fillchars+=vert:\│ " make split char a solid line
 set backupcopy=yes " copy the file and overwrite the original
 set clipboard=unnamedplus " set clipboard to system
+set ttyfast " always assume a fast terminal
 set encoding=utf-8
 
 let g:jsx_ext_required = 0 " enable JSX for .js files
@@ -109,6 +110,8 @@ execute "set <M-,>=\e,"
 execute "set <M-.>=\e."
 nnoremap <M-.> >>
 nnoremap <M-,> <<
+vnoremap <M-.> ><Esc>gv
+vnoremap <M-,> <<Esc>gv
 
 " refresh
 nnoremap <F5> :e %<CR>:redraw!<CR>

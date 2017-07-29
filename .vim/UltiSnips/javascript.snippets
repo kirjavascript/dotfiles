@@ -26,6 +26,10 @@ snippet ce "createElement"
 const $1 = document.createElement('${2:div}');
 endsnippet
 
+snippet cs "createElementNS (SVG)"
+const $1 = document.createElementNS('http://www.w3.org/2000/svg', '${2:svg}');
+endsnippet
+
 snippet fetch "fetch"
 fetch('$1', {credentials: 'include'})
     .then(res => res.$2())
@@ -33,6 +37,6 @@ fetch('$1', {credentials: 'include'})
         $3
     })
     .catch(err => {
-	console.error(err);
+	    console.error(err);
     });
 endsnippet
