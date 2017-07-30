@@ -18,12 +18,37 @@ snippet "\.ac" "appendChild" r
 .appendChild(${1:something})
 endsnippet
 
+snippet "\.ib" "insertBefore" r
+.insertBefore(${1:node}, ${2:reference})
+endsnippet
+
+snippet "\.r" "remove" r
+.parentNode.removeChild(${1:node})
+endsnippet
+
 snippet "\.rect" "getBoundingClientRect" r
 .getBoundingClientRect()
 endsnippet
 
 snippet ce "createElement"
 const $1 = document.createElement('${2:div}');
+endsnippet
+
+snippet ca "createElementAssign"
+const $1 = Object.assign(
+    document.createElement('${2:div}'),
+    {
+	    $3,
+    }
+);
+endsnippet
+
+snippet tn "textNode"
+const $1 = document.createTextNode('$2');
+endsnippet
+
+snippet "\.nv" "nodeValue" r
+.nodeValue = '$1';
 endsnippet
 
 snippet cs "createElementNS (SVG)"

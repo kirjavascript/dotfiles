@@ -23,13 +23,12 @@ Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
 Plug 'captbaritone/better-indent-support-for-php-with-html'
 Plug 'sheerun/vim-polyglot'
+Plug 'honza/vim-snippets'
 " editing
 Plug 'terryma/vim-multiple-cursors'
 Plug 'tpope/vim-commentary'
-Plug 'chaoren/vim-wordmotion'
 Plug 'tpope/vim-surround'
 Plug 'SirVer/ultisnips'
-Plug 'honza/vim-snippets'
 " display
 Plug 'joshdick/onedark.vim'
 Plug 'vim-airline/vim-airline'
@@ -37,7 +36,6 @@ Plug 'airblade/vim-gitgutter'
 Plug 'terryma/vim-smooth-scroll'
 
 call plug#end()
-
 set updatetime=250 " faster gitgutter
 set tabstop=8 softtabstop=4 expandtab shiftwidth=4 smarttab " 4 space tabs
 set rnu " relativenumber
@@ -75,19 +73,10 @@ call map(split(globpath('$HOME/.vim/swap', '*'), '\n'), 'delete(v:val)')
 map K <Nop>
 map Q <Nop>
 
-" easier split navigation
-nnoremap <c-k> <c-w>k
-nnoremap <c-j> <c-w>j
-nnoremap <c-h> <c-w>h
-nnoremap <c-l> <c-w>l
 
 " move 'correctly' on wrapped lines
 nnoremap j gj
 nnoremap k gk
-
-" map vim-wordmotion prefix to comma, remap comma
-nnoremap ,, ,
-let g:wordmotion_prefix = ','
 
 " remap cmd to semicolon
 nnoremap ; :
@@ -98,6 +87,12 @@ vnoremap : ;
 " EOL
 nnoremap - $
 vnoremap - $
+
+" easier split navigation
+nnoremap <c-k> <c-w>k
+nnoremap <c-j> <c-w>j
+nnoremap <c-h> <c-w>h
+nnoremap <c-l> <c-w>l
 
 " use alt + o/i for navigating buffers
 execute "set <M-i>=\ei"
