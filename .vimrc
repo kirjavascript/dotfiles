@@ -36,6 +36,7 @@ Plug 'airblade/vim-gitgutter'
 Plug 'terryma/vim-smooth-scroll'
 
 call plug#end()
+
 set updatetime=250 " faster gitgutter
 set tabstop=8 softtabstop=4 expandtab shiftwidth=4 smarttab " 4 space tabs
 set rnu " relativenumber

@@ -34,6 +34,10 @@ snippet ce "createElement"
 const $1 = document.createElement('${2:div}');
 endsnippet
 
+snippet cn "createElementNS (SVG)"
+const $1 = document.createElementNS('http://www.w3.org/2000/svg', '${2:svg}');
+endsnippet
+
 snippet ca "createElementAssign"
 const $1 = Object.assign(
     document.createElement('${2:div}'),
@@ -49,10 +53,6 @@ endsnippet
 
 snippet "\.nv" "nodeValue" r
 .nodeValue = '$1';
-endsnippet
-
-snippet cs "createElementNS (SVG)"
-const $1 = document.createElementNS('http://www.w3.org/2000/svg', '${2:svg}');
 endsnippet
 
 snippet fetch "fetch"
