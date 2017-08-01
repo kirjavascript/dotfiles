@@ -14,6 +14,12 @@ snippet "\.ga" "getAttribute" r
 .getAttribute('${1:something}')
 endsnippet
 
+snippet "\.ae" "addEventListener" r
+.addEventListener('${1:click}', (e) => {
+    $2
+});
+endsnippet
+
 snippet "\.ac" "appendChild" r
 .appendChild(${1:something})
 endsnippet
