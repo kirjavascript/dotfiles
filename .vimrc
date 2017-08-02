@@ -109,7 +109,10 @@ vnoremap <M-.> ><Esc>gv
 vnoremap <M-,> <<Esc>gv
 
 " refresh
-nnoremap <F5> :e %<CR>:redraw!<CR>
+nnoremap <F5> :e %<CR>
+
+" redraw
+nnoremap <F6> :redraw!<CR>
 
 " word wrap
 nnoremap <Leader>ww :set wrap!<CR>
