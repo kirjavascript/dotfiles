@@ -28,6 +28,7 @@ Plug 'honza/vim-snippets'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'
+Plug 'easymotion/vim-easymotion'
 Plug 'SirVer/ultisnips'
 " display
 Plug 'joshdick/onedark.vim'
@@ -70,10 +71,16 @@ set undodir=$HOME/.vim/undo//
 " delete leftover swapfiles
 call map(split(globpath('$HOME/.vim/swap', '*'), '\n'), 'delete(v:val)')
 
-" unmap keys
-map K <Nop>
+" unmap
 map Q <Nop>
 
+" remap K to easymotion
+map K <Plug>(easymotion-prefix)
+map Kl <Plug>(easymotion-lineforward)
+map Kj <Plug>(easymotion-j)
+map Kk <Plug>(easymotion-k)
+map Kh <Plug>(easymotion-linebackward)
+let g:EasyMotion_startofline = 0
 
 " move 'correctly' on wrapped lines
 nnoremap j gj
