@@ -47,13 +47,12 @@ export SAVEHIST=10000
 # example; print -P '%B%K{blue}%F{white}test%f%b%k'
 
 # theme overrides
-# declare -a colors
-# colors=('cyan' 'green' 'yellow' 'blue' 'magenta' 'red')
-# prompt_coor=$colors[$((${RANDOM} % ${#colors[@]} + 1))]
+declare -a colors
+colors=('green' 'blue' 'magenta' 'red')
+prompt_color=$colors[$((${RANDOM} % ${#colors[@]} + 1))]
 
-local prompt_color='cyan'; [ $UID -eq 0 ] && prompt_color='red'
-PROMPT='%{$fg[$prompt_color]%}$(_fishy_collapsed_wd)%{$reset_color%}$(git_prompt_info)$(git_prompt_status)%{$reset_color%}%{$fg[$prompt_color]%}%(!.#.➤) '
+PROMPT='%B%F{$prompt_color}$(_fishy_collapsed_wd)%f%b$(git_prompt_info)$(git_prompt_status)%F{$prompt_color}%B➤%f%b '
 RPROMPT=''
 
-ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg_bold[red]%}✗"
-ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg_bold[green]%}✔"
+ZSH_THEME_GIT_PROMPT_DIRTY="%F{red}✗%f"
+ZSH_THEME_GIT_PROMPT_CLEAN="%F{green}✔%f"
