@@ -22,14 +22,15 @@ zplug load
 export EDITOR=vim
 export VISUAL=vim
 export BROWSER=firefox
+export WORDCHARS=''
 
 # keys
 # use cat to get the secret codez
-bindkey "^[[1;5C" forward-word
-bindkey "^[[1;5D" backward-word
-bindkey "^[[H" beginning-of-line
-bindkey "^[[F" end-of-line
-bindkey "^[[3~" delete-char
+bindkey "^[[1;5C" forward-word # ctrl-left
+bindkey "^[[1;5D" backward-word # ctrl-right
+bindkey "^[[H" beginning-of-line # home
+bindkey "^[[F" end-of-line # end
+bindkey "^[[3~" delete-char # delete
 
 # colours
 alias k='k -h'
