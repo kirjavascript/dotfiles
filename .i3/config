@@ -2,7 +2,7 @@
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 
 exec_always --no-startup-id numlockx on
-exec_always --no-startup-id killall polybar && polybar blue & polybar blue2
+exec_always --no-startup-id killall polybar; polybar blue & polybar blue2
 
 # Set mod key (Mod1=<Alt>, Mod4=<Super>)
 set $mod Mod4
