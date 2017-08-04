@@ -2,7 +2,7 @@
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 
 exec_always --no-startup-id numlockx on
-exec_always --no-startup-id killall polybar ; polybar blue & polybar blue2;
+exec_always --no-startup-id killall polybar && polybar blue & polybar blue2
 
 # Set mod key (Mod1=<Alt>, Mod4=<Super>)
 set $mod Mod4
@@ -39,30 +39,32 @@ bindsym $mod+Shift+q kill
 bindsym $mod+d exec --no-startup-id dmenu_recency
 
 bindsym $mod+z exec firefox
+bindsym $mod+Ctrl+z exec --no-startup-id morc_menu
 bindsym $mod+x exec chromium --allow-file-access-from-files
+bindsym $mod+Ctrl+x exec terminal -e 'bmenu'
 bindsym $mod+c exec xfce4-screenshooter
+bindsym $mod+Ctrl+c exec simplescreenrecorder
 bindsym $mod+b exec pcmanfm
 bindsym $mod+Ctrl+b exec xfce4-terminal --hide-menubar -x ranger
-bindsym $mod+n exec qutebrowser
-bindsym $mod+Ctrl+n exec xfce4-terminal --hide-menubar -x gvim
+bindsym $mod+n exec gcolor2
+bindsym $mod+Ctrl+n exec gvim
 bindsym $mod+m exec xfce4-terminal --hide-menubar -x ssh thom@kirjava.xyz
 
 # launch categorized menu
-bindsym $mod+Ctrl+z exec --no-startup-id morc_menu
-bindsym $mod+Ctrl+x exec terminal -e 'bmenu'
-bindsym $mod+Ctrl+c exec gcolor2
 bindsym $mod+Shift+F3 exec gksu pcmanfm
 bindsym $mod+F5 exec terminal -e 'mocp'
 bindsym $mod+t exec --no-startup-id pkill compton
 bindsym $mod+Ctrl+t exec --no-startup-id compton -b
 
+## sound-section
+################
 # https://classicforum.manjaro.org/index.php?topic=28104.0
-################################################################################################
-## sound-section - DO NOT EDIT if you wish to automatically upgrade Alsa -> Pulseaudio later! ##
-################################################################################################
 
+# alsa
 # exec --no-startup-id volumeicon
 # bindsym $mod+Ctrl+m exec terminal -e 'alsamixer'
+
+# pulse
 exec --no-startup-id pulseaudio
 exec --no-startup-id pa-applet
 bindsym $mod+Ctrl+m exec pavucontrol
@@ -74,7 +76,6 @@ bindsym $mod+Ctrl+m exec pavucontrol
 # bindsym XF86MonBrightnessDown exec "xbacklight -dec 10; notify-send 'brightness down'"
 
 # Start Applications
-
 
 bindsym $mod+Shift+d --release exec "killall dunst; exec notify-send 'restart dunst'"
 bindsym Print exec --no-startup-id i3-scrot
@@ -199,6 +200,7 @@ bindsym $mod+Shift+8 move container to workspace $ws8; workspace $ws8
 # assign [class="Skype"] $ws5
 
 # Open specific applications in floating mode
+for_window [title="SimpleScreenRecorder"] floating enable border normal
 for_window [title="alsamixer"] floating enable border pixel 1
 for_window [class="Calamares"] floating enable border normal
 for_window [class="Clipgrab"] floating enable
