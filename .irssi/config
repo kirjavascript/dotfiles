@@ -235,6 +235,8 @@ aliases = {
   tmyk = "say ⋯-=≡★ ♪ $- ♫";
   cool = "say (⌐■_■) $-";
 
+  normal = "say (¬●_ ●) $-"
+
   no = "say ノ(ಠ_ಠノ) $-";
   disapprove = "say ಠ_ಠ $-";
   lod = "say ಠ_ಠ $-";
