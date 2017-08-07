@@ -43,10 +43,10 @@ bindsym $mod+Ctrl+z exec --no-startup-id morc_menu
 bindsym $mod+x exec chromium --allow-file-access-from-files
 bindsym $mod+Ctrl+x exec terminal -e 'bmenu'
 bindsym $mod+c exec xfce4-screenshooter
-bindsym $mod+Ctrl+c exec simplescreenrecorder
+bindsym $mod+Ctrl+c exec gcolor2
 bindsym $mod+b exec pcmanfm
 bindsym $mod+Ctrl+b exec xfce4-terminal --hide-menubar -x ranger
-bindsym $mod+n exec gcolor2
+bindsym $mod+n exec simplescreenrecorder
 bindsym $mod+Ctrl+n exec gvim
 bindsym $mod+m exec xfce4-terminal --hide-menubar -x ssh thom@kirjava.xyz
 
