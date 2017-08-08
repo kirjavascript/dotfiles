@@ -31,6 +31,8 @@ bindkey "^[[1;5D" backward-word # ctrl-right
 bindkey "^[[H" beginning-of-line # home
 bindkey "^[[F" end-of-line # end
 bindkey "^[[3~" delete-char # delete
+bindkey '^[[A' history-substring-search-up
+bindkey '^[[B' history-substring-search-down
 
 # colours
 alias k='k -h'
