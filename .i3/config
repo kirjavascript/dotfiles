@@ -1,7 +1,18 @@
-# i3 config file (v4)
-# Please see http://i3wm.org/docs/userguide.html for a complete reference!
+    # _ _____
+   # (_)__  /      ______ ___
+  # / / /_ < | /| / / __ `__ \
+ # / /___/ / |/ |/ / / / / / /
+# /_//____/|__/|__/_/ /_/ /_/
 
+# http://i3wm.org/docs/userguide.html
+
+# enable numlock
 exec_always --no-startup-id numlockx on
+# disable caps lock switch
+exec_always --no-startup-id xmodmap -e "clear lock"
+# set caps_lock as escape
+exec_always --no-startup-id xmodmap -e "keysym Caps_Lock = Escape"
+# start polybar
 exec_always --no-startup-id killall polybar; polybar blue & polybar blue2
 
 # Set mod key (Mod1=<Alt>, Mod4=<Super>)
