@@ -73,14 +73,6 @@ set undodir=$HOME/.vim/undo//
 " delete leftover swapfiles
 call map(split(globpath('$HOME/.vim/swap', '*'), '\n'), 'delete(v:val)')
 
-augroup LargeFile
-    au BufReadPre *
-        \ let f=expand("<afile>") |
-        \ if getfsize(f) > 1487560 | " 1MB
-                \ GitGutterDisable() |
-        \ endif
-augroup END
-
 " unmap
 map Q <Nop>
 map K <Nop>
