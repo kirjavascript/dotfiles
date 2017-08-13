@@ -1,3 +1,5 @@
+# DOM stuff
+
 snippet "\.qs" "querySelector" r
 .querySelector('$1')
 endsnippet
@@ -60,6 +62,38 @@ endsnippet
 snippet "\.nv" "nodeValue" r
 .nodeValue = '$1';
 endsnippet
+
+# react native
+
+snippet rnc "react-native class" b
+import React, { Component } from 'react';
+import { View } from 'react-native';
+
+import styles from './styles';
+
+export class ${1:ClassName} extends Component {
+
+    render() {
+        return <View>
+            $2
+        </View>;
+    }
+
+}
+endsnippet
+
+snippet rns "react-native style" b
+import { StyleSheet } from 'react-native';
+import { COLORS, FONTSIZE, FONTFAMILIES } from '#base/constants';
+
+const styles = {
+    $2
+};
+
+export default StyleSheet.create(styles);
+endsnippet
+
+# misc
 
 snippet fetch "fetch"
 fetch('$1', {credentials: 'include'})
