@@ -48,6 +48,9 @@ set fillchars+=vert:\│ " make split char a solid line
 set backupcopy=yes " copy the file and overwrite the original
 set clipboard=unnamedplus " set clipboard to system
 set ttyfast " always assume a fast terminal
+set ignorecase " case insensitive search
+set smartcase " (unless uppercase chars are used)
+set smartindent " adds one extra level in some cases
 set encoding=utf-8
 
 let g:jsx_ext_required = 0 " enable JSX for .js files
