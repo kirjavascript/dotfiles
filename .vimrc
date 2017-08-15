@@ -57,6 +57,7 @@ let g:jsx_ext_required = 0 " enable JSX for .js files
 runtime macros/matchit.vim " allow using % to navigate XML
 au BufNewFile,BufRead *.ejs set filetype=html " load EJS files like HTML
 au BufNewFile,BufRead *.asm set filetype=asm68k " specify m86k ASM
+au FileType asm68k setlocal commentstring=;%s
 au BufWritePre * %s/\s\+$//e " strip whitespace on saving
 au BufWritePre * %s#\($\n\s*\)\+\%$##e " strip empty lines at end of file on saving
 syntax keyword jsGlobalObjects d3 React $
@@ -137,7 +138,7 @@ nnoremap <Leader>i3 :e $HOME/.i3/config<CR>
 nnoremap <Leader>zx :e $HOME/todo<CR>
 
 " load current file in firefox
-nnoremap <Leader>ff :!firefox %<CR>
+nnoremap <Leader>fx :!firefox %<CR>
 
 " reactify XML (eg react-native-svg)
 nnoremap <Leader>rf :%s/\(<\/\?\)\(.\)/\1\U\2/g<CR>
@@ -153,7 +154,6 @@ nnoremap <Leader>hf :%! xxd -r<CR>
 nnoremap <silent> <Leader>we :! curl -s wttr.in/Manchester \| sed -r "s/\x1B\[[0-9;]*[JKmsu]//g"<CR>
 
 " esearch
-call esearch#map('<leader>ss', 'esearch')
 let g:esearch = {
   \ 'adapter':    'ag',
   \ 'backend':    'system',
