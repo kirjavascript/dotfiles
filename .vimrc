@@ -69,12 +69,18 @@ execute "set <M-i>=\ei"
 execute "set <M-o>=\eo"
 nnoremap <M-i> :bp<CR>
 nnoremap <M-o> :bn<CR>
+" osx alt + []
+nnoremap “ :bp<CR>
+nnoremap ‘ :bn<CR>
 
 " use alt + ./, for indenting
 execute "set <M-,>=\e,"
 execute "set <M-.>=\e."
 nnoremap <M-.> >>
 nnoremap <M-,> <<
+" osx
+nnoremap ≥ >>
+nnoremap ≤ <<
 
 " refresh
 nnoremap <F5> :e! %<CR>
