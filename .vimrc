@@ -34,6 +34,7 @@ Plug 'SirVer/ultisnips'
 Plug 'joshdick/onedark.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'airblade/vim-gitgutter'
+Plug 'Valloric/MatchTagAlways'
 Plug 'terryma/vim-smooth-scroll'
 
 call plug#end()
