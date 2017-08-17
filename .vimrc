@@ -48,6 +48,9 @@ set fillchars+=vert:\│ " make split char a solid line
 set backupcopy=yes " copy the file and overwrite the original
 set clipboard=unnamedplus " set clipboard to system
 set ttyfast " always assume a fast terminal
+set go= " gvim: hide all ui stuff
+set gfn=Hack\ 11 " gvim: set font to ttf-hack
+
 set encoding=utf-8
 
 let g:jsx_ext_required = 0 " enable JSX for .js files
@@ -150,7 +153,6 @@ nnoremap <Leader>hf :%! xxd -r<CR>
 nnoremap <silent> <Leader>we :! curl -s wttr.in/Manchester \| sed -r "s/\x1B\[[0-9;]*[JKmsu]//g"<CR>
 
 " esearch
-call esearch#map('<leader>ss', 'esearch')
 let g:esearch = {
   \ 'adapter':    'ag',
   \ 'backend':    'system',
@@ -214,10 +216,6 @@ if !has('gui_running')
     au InsertLeave * set timeoutlen=1000
   augroup END
 endif
-
-" gVim
-set go=
-set gfn=Hack\ 11 " ttf-hack
 
 " osx overwrites
 if has('macunix')
