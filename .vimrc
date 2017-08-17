@@ -34,6 +34,7 @@ Plug 'SirVer/ultisnips'
 Plug 'joshdick/onedark.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'airblade/vim-gitgutter'
+Plug 'Valloric/MatchTagAlways'
 Plug 'terryma/vim-smooth-scroll'
 
 call plug#end()
@@ -48,15 +49,18 @@ set fillchars+=vert:\│ " make split char a solid line
 set backupcopy=yes " copy the file and overwrite the original
 set clipboard=unnamedplus " set clipboard to system
 set ttyfast " always assume a fast terminal
+set ignorecase " case insensitive search
+set smartcase " (unless uppercase chars are used)
+set smartindent " adds one extra level in some cases
 set go= " gvim: hide all ui stuff
 set gfn=Hack\ 11 " gvim: set font to ttf-hack
-
 set encoding=utf-8
 
 let g:jsx_ext_required = 0 " enable JSX for .js files
 runtime macros/matchit.vim " allow using % to navigate XML
 au BufNewFile,BufRead *.ejs set filetype=html " load EJS files like HTML
 au BufNewFile,BufRead *.asm set filetype=asm68k " specify m86k ASM
+au FileType asm68k setlocal commentstring=;%s " comment string for m68k
 au BufWritePre * %s/\s\+$//e " strip whitespace on saving
 au BufWritePre * %s#\($\n\s*\)\+\%$##e " strip empty lines at end of file on saving
 syntax keyword jsGlobalObjects d3 React $
@@ -137,7 +141,7 @@ nnoremap <Leader>i3 :e $HOME/.i3/config<CR>
 nnoremap <Leader>zx :e $HOME/todo<CR>
 
 " load current file in firefox
-nnoremap <Leader>ff :!firefox %<CR>
+nnoremap <Leader>fx :!firefox %<CR>
 
 " reactify XML (eg react-native-svg)
 nnoremap <Leader>rf :%s/\(<\/\?\)\(.\)/\1\U\2/g<CR>
@@ -192,6 +196,9 @@ let NERDTreeDirArrows = 1
 " vim-smooth-scroll
 noremap <silent> <c-u> :call smooth_scroll#up(&scroll, 0, 1)<CR>
 noremap <silent> <c-d> :call smooth_scroll#down(&scroll, 0, 1)<CR>
+
+" MatchTagAlways
+let g:mta_filetypes = {'html':1,'xhtml':1,'xml':1,'php':1,'ejs':1}
 
 " colourscheme
 colo onedark

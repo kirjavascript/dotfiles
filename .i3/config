@@ -7,11 +7,11 @@
 # http://i3wm.org/docs/userguide.html
 
 # enable numlock
-exec_always --no-startup-id numlockx on
+exec --no-startup-id numlockx on
 # disable caps lock switch
-exec_always --no-startup-id xmodmap -e "clear lock"
+exec --no-startup-id xmodmap -e "clear lock"
 # set caps_lock as escape
-exec_always --no-startup-id xmodmap -e "keysym Caps_Lock = Escape"
+exec --no-startup-id xmodmap -e "keysym Caps_Lock = Escape"
 # start polybar
 exec_always --no-startup-id killall polybar; polybar blue & polybar blue2
 
@@ -52,7 +52,7 @@ bindsym $mod+d exec --no-startup-id dmenu_recency
 bindsym $mod+z exec firefox
 bindsym $mod+Ctrl+z exec --no-startup-id morc_menu
 bindsym $mod+x exec chromium --allow-file-access-from-files
-bindsym $mod+Ctrl+x exec terminal -e 'bmenu'
+bindsym $mod+Ctrl+x --release exec --no-startup-id xkill
 bindsym $mod+c exec xfce4-screenshooter
 bindsym $mod+Ctrl+c exec gcolor2
 bindsym $mod+b exec pcmanfm
@@ -60,12 +60,13 @@ bindsym $mod+Ctrl+b exec xfce4-terminal --hide-menubar -x ranger
 bindsym $mod+n exec simplescreenrecorder
 bindsym $mod+Ctrl+n exec gvim
 bindsym $mod+m exec xfce4-terminal --hide-menubar -x ssh thom@kirjava.xyz
+bindsym $mod+Ctrl+v exec virtualbox
 
 # launch categorized menu
 bindsym $mod+Shift+F3 exec gksu pcmanfm
-bindsym $mod+F5 exec terminal -e 'mocp'
-bindsym $mod+t exec --no-startup-id pkill compton
-bindsym $mod+Ctrl+t exec --no-startup-id compton -b
+# bindsym $mod+F5 exec terminal -e 'mocp'
+bindsym $mod+Ctrl+t exec --no-startup-id pkill compton
+bindsym $mod+t exec --no-startup-id compton -b
 
 ## sound-section
 ################
@@ -92,7 +93,6 @@ bindsym $mod+Shift+d --release exec "killall dunst; exec notify-send 'restart du
 bindsym Print exec --no-startup-id i3-scrot
 bindsym $mod+Print --release exec --no-startup-id i3-scrot -w
 bindsym $mod+Shift+Print --release exec --no-startup-id i3-scrot -s
-bindsym $mod+Ctrl+x --release exec --no-startup-id xkill
 
 # focus_follows_mouse no
 
@@ -234,11 +234,10 @@ for_window [class="qt5ct"] floating enable sticky enable border normal
 for_window [class="Qtconfig-qt4"] floating enable sticky enable border normal
 for_window [class="Simple-scan"] floating enable border normal
 for_window [class="(?i)System-config-printer.py"] floating enable border normal
-for_window [class="Skype"] floating enable border normal
 for_window [class="Thus"] floating enable border normal
 for_window [class="Timeset-gui"] floating enable border normal
 for_window [class="(?i)virtualbox"] floating enable border normal
-for_window [class="Xfburn"] floating enable
+for_window [title="Flex 2"] floating enable border normal
 
 # switch to workspace with urgent window automatically
 for_window [urgent=latest] focus

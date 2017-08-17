@@ -1,6 +1,4 @@
 [Configuration]
-BackgroundMode=TERMINAL_BACKGROUND_TRANSPARENT
-BackgroundDarkness=0.800000
 MiscAlwaysShowTabs=FALSE
 MiscBell=FALSE
 MiscBellUrgent=FALSE
@@ -25,13 +23,11 @@ MiscDefaultWorkingDir=
 MiscRewrapOnResize=TRUE
 MiscUseShiftArrowsToScroll=FALSE
 MiscSlimTabs=FALSE
-ShortcutsNoMnemonics=TRUE
 FontName=Hack 11
-ColorCursorUseDefault=FALSE
-ColorCursorForeground=#4e4e9a9a0606
-ColorCursor=#20204a4a8787
-ColorPalette=rgb(0,0,0);rgb(170,0,0);rgb(0,170,0);rgb(170,85,0);rgb(160,160,255);rgb(170,0,170);rgb(0,170,170);rgb(170,170,170);rgb(85,85,85);rgb(255,85,85);rgb(85,255,85);rgb(255,255,85);rgb(92,92,255);rgb(255,85,255);rgb(85,255,255);rgb(255,255,255)
-ColorSelection=#000000000000
-ColorSelectionBackground=#eeeeeeeeecec
+BackgroundMode=TERMINAL_BACKGROUND_TRANSPARENT
+BackgroundDarkness=0.800000
 ScrollingBar=TERMINAL_SCROLLBAR_NONE
+ColorCursorUseDefault=FALSE
+ColorCursorForeground=#20204a4a8787
+ColorCursor=#20204a4a8787
 
