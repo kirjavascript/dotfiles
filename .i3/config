@@ -8,6 +8,8 @@
 
 # enable numlock
 exec --no-startup-id numlockx on
+# remap numlock key to nop
+exec --no-startup-id xmodmap -e "keycode 77 = """
 # disable caps lock switch
 exec --no-startup-id xmodmap -e "clear lock"
 # set caps_lock as escape
