@@ -39,6 +39,7 @@ bindkey '^[[B' history-substring-search-down
 
 # colours
 alias k='k -h'
+alias lk='ls | lolcat'
 alias ls='ls -hF --show-control-chars --color=always'
 alias la='ls -haF --show-control-chars --color=always'
 alias ll='ls -lhF --show-control-chars --color=always'
