@@ -39,44 +39,7 @@ Plug 'terryma/vim-smooth-scroll'
 
 call plug#end()
 
-set updatetime=250 " faster gitgutter
-set tabstop=8 softtabstop=4 expandtab shiftwidth=4 smarttab " 4 space tabs
-set rnu " relativenumber
-set mouse=a " enable mouse support in terminal
-set history=1000 " loadsa history
-set hidden " switch buffers without saving
-set fillchars+=vert:\│ " make split char a solid line
-set backupcopy=yes " copy the file and overwrite the original
-set clipboard=unnamedplus " set clipboard to system
-set ttyfast " always assume a fast terminal
-set ignorecase " case insensitive search
-set smartcase " (unless uppercase chars are used)
-set smartindent " adds one extra level in some cases
-set go= " gvim: hide all ui stuff
-set gfn=Hack\ 11 " gvim: set font to ttf-hack
-set encoding=utf-8
-
-let g:jsx_ext_required = 0 " enable JSX for .js files
-runtime macros/matchit.vim " allow using % to navigate XML
-au BufNewFile,BufRead *.ejs set filetype=html " load EJS files like HTML
-au BufNewFile,BufRead *.asm set filetype=asm68k " specify m86k ASM
-au FileType asm68k setlocal commentstring=;%s " comment string for m68k
-au BufWritePre * %s/\s\+$//e " strip whitespace on saving
-au BufWritePre * %s#\($\n\s*\)\+\%$##e " strip empty lines at end of file on saving
-syntax keyword jsGlobalObjects d3 React $
-
-" save swap, backup, etc to ~/.vim instead
-for folder in ['backup', 'swap', 'undo']
-    if !isdirectory($HOME.'/.vim/'.folder)
-        call mkdir($HOME.'/.vim/'.folder, 'p')
-    endif
-endfor
-set backupdir=$HOME/.vim/backup//
-set directory=$HOME/.vim/swap//
-set undodir=$HOME/.vim/undo//
-
-" delete leftover swapfiles
-call map(split(globpath('$HOME/.vim/swap', '*'), '\n'), 'delete(v:val)')
+"" keymap
 
 " unmap
 map Q <Nop>
@@ -156,7 +119,9 @@ nnoremap <Leader>hf :%! xxd -r<CR>
 " show weather report
 nnoremap <silent> <Leader>we :! curl -s wttr.in/Manchester \| sed -r "s/\x1B\[[0-9;]*[JKmsu]//g"<CR>
 
-" esearch
+"" plugin config
+
+" esearch (maps <Leader>ff annoyingly)
 let g:esearch = {
   \ 'adapter':    'ag',
   \ 'backend':    'system',
@@ -207,6 +172,53 @@ let g:airline_powerline_fonts=1
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#fnamemod = ':t'
 
+"" settings
+
+set updatetime=250 " faster gitgutter
+set tabstop=8 softtabstop=4 expandtab shiftwidth=4 smarttab " 4 space tabs
+set rnu " relativenumber
+set mouse=a " enable mouse support in terminal
+set history=1000 " loadsa history
+set hidden " switch buffers without saving
+set fillchars+=vert:\│ " make split char a solid line
+set backupcopy=yes " copy the file and overwrite the original
+set clipboard=unnamedplus " set clipboard to system
+set ttyfast " always assume a fast terminal
+set ignorecase " case insensitive search
+set smartcase " (unless uppercase chars are used)
+set smartindent " adds one extra level in some cases
+set go= " gvim: hide all ui stuff
+set gfn=Hack\ 11 " gvim: set font to ttf-hack
+set encoding=utf-8
+
+let g:jsx_ext_required = 0 " enable JSX for .js files
+runtime macros/matchit.vim " allow using % to navigate XML
+au BufNewFile,BufRead *.ejs set filetype=html " load EJS files like HTML
+au BufNewFile,BufRead *.asm set filetype=asm68k " specify m86k ASM
+au FileType asm68k setlocal commentstring=;%s " comment string for m68k
+au BufWritePre * %s/\s\+$//e " strip whitespace on saving
+au BufWritePre * %s#\($\n\s*\)\+\%$##e " strip empty lines at end of file on saving
+syntax keyword jsGlobalObjects d3 React $
+
+" save swap, backup, etc to ~/.vim instead
+for folder in ['backup', 'swap', 'undo']
+    if !isdirectory($HOME.'/.vim/'.folder)
+        call mkdir($HOME.'/.vim/'.folder, 'p')
+    endif
+endfor
+set backupdir=$HOME/.vim/backup//
+set directory=$HOME/.vim/swap//
+set undodir=$HOME/.vim/undo//
+
+" delete leftover swapfiles
+call map(split(globpath('$HOME/.vim/swap', '*'), '\n'), 'delete(v:val)')
+
+" osx overwrites
+if has('macunix')
+    set clipboard=unnamed
+    set gfn=Hack\ Regular:h14 " font-hack
+endif
+
 " Use 24-bit (true-color) mode in Vim when outside tmux.
 if (empty($TMUX))
   if (has('termguicolors'))
@@ -222,10 +234,4 @@ if !has('gui_running')
     au InsertEnter * set timeoutlen=0
     au InsertLeave * set timeoutlen=1000
   augroup END
-endif
-
-" osx overwrites
-if has('macunix')
-    set clipboard=unnamed
-    set gfn=Hack\ Regular:h14 " font-hack
 endif
