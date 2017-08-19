@@ -15,6 +15,7 @@ zplug "plugins/git", from:oh-my-zsh
 zplug "themes/fishy", from:oh-my-zsh
 
 # zplug "sebastiencs/icons-in-terminal", hook-build: "./install.sh", use: "~/.local/share/icons-in-terminal/icons_bash.sh"
+zplug "jaseg/lolcat", hook-build: "make && make install"
 
 zplug load
 
@@ -37,8 +38,9 @@ bindkey "^[[3~" delete-char # delete
 bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
 
-# colours
+# aliases
 alias k='k -h'
+alias lolcat='~/.zplug/repos/jaseg/lolcat/lolcat-static'
 alias lk='ls | lolcat'
 alias ls='ls -hF --show-control-chars --color=always'
 alias la='ls -haF --show-control-chars --color=always'

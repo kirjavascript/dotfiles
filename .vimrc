@@ -15,15 +15,16 @@ call plug#begin('~/.vim/plugged')
 " tools
 Plug 'scrooloose/nerdtree'
 Plug 'jlanzarotta/bufexplorer'
-Plug 'Valloric/YouCompleteMe' " , { 'do': './install.py --tern-completer' }
+Plug 'lifepillar/vim-mucomplete'
 Plug 'tpope/vim-fugitive'
 Plug 'mbbill/undotree'
-Plug 'eugen0329/vim-esearch'
+Plug 'eugen0329/vim-esearch' " requires ag
 " languages
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
 Plug 'captbaritone/better-indent-support-for-php-with-html'
 Plug 'sheerun/vim-polyglot'
+Plug 'ternjs/tern_for_vim' , { 'do': 'npm install' }
 Plug 'honza/vim-snippets'
 " editing
 Plug 'terryma/vim-multiple-cursors'
@@ -145,11 +146,13 @@ let g:bufExplorerDisableDefaultKeyMapping=1
 set undofile
 nnoremap <Leader>u :UndotreeToggle <BAR> :UndotreeFocus<CR>
 
-" YouCompleteMe
+" mu-complete
+set completeopt+=menuone,noinsert,noselect
 set completeopt-=preview
-let g:ycm_add_preview_to_completeopt = 0
-nnoremap <Leader>g :YcmCompleter GoTo<CR>
-nnoremap <Leader>yr :YcmRestartServer<CR>
+inoremap <expr> <c-e> mucomplete#popup_exit("\<c-e>")
+inoremap <expr> <c-y> mucomplete#popup_exit("\<c-y>")
+inoremap <expr>  <cr> mucomplete#popup_exit("\<cr>")
+" let g:mucomplete#enable_auto_at_startup = 1
 
 " start NERDTree if no file is specified
 nnoremap <Leader>nt :NERDTreeToggle<CR>
