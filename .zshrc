@@ -40,7 +40,7 @@ bindkey '^[[B' history-substring-search-down
 
 # aliases
 alias k='k -h'
-alias lolcat='~/.zplug/repos/jaseg/lolcat/lolcat-static'
+alias lolcat='~/.zplug/repos/jaseg/lolcat/lolcat-static | head -c -5'
 alias lk='ls | lolcat'
 alias ls='ls -hF --show-control-chars --color=always'
 alias la='ls -haF --show-control-chars --color=always'

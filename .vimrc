@@ -22,9 +22,9 @@ Plug 'eugen0329/vim-esearch' " requires ag
 " languages
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
+Plug 'ternjs/tern_for_vim' , { 'do': 'npm install' }
 Plug 'captbaritone/better-indent-support-for-php-with-html'
 Plug 'sheerun/vim-polyglot'
-Plug 'ternjs/tern_for_vim' , { 'do': 'npm install' }
 Plug 'honza/vim-snippets'
 " editing
 Plug 'terryma/vim-multiple-cursors'
@@ -151,7 +151,8 @@ set completeopt+=menuone,noinsert,noselect
 set completeopt-=preview
 inoremap <expr> <c-e> mucomplete#popup_exit("\<c-e>")
 inoremap <expr> <c-y> mucomplete#popup_exit("\<c-y>")
-inoremap <expr>  <cr> mucomplete#popup_exit("\<cr>")
+inoremap <expr> <cr> mucomplete#popup_exit("\<cr>")
+set shortmess+=c " Shut off completion messages
 " let g:mucomplete#enable_auto_at_startup = 1
 
 " start NERDTree if no file is specified
