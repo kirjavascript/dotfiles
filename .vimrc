@@ -153,6 +153,7 @@ inoremap <expr> <c-e> mucomplete#popup_exit("\<c-e>")
 inoremap <expr> <c-y> mucomplete#popup_exit("\<c-y>")
 inoremap <expr> <cr> mucomplete#popup_exit("\<cr>")
 set shortmess+=c " Shut off completion messages
+call add(g:mucomplete#chains['default'], 'ulti') " work with ultisnips
 " let g:mucomplete#enable_auto_at_startup = 1
 
 " start NERDTree if no file is specified
