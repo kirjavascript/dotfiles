@@ -44,7 +44,6 @@ call plug#end()
 
 " unmap
 map Q <Nop>
-map K <Nop>
 
 " move 'correctly' on wrapped lines
 nnoremap j gj
@@ -59,6 +58,11 @@ vnoremap : ;
 " EOL
 nnoremap - $
 vnoremap - $
+
+function! Mdnio ()
+  exec "!firefox http://mdn.io/".expand("<cword>")
+endfunction
+nnoremap K :call Mdnio ()<CR>
 
 " easier split navigation
 nnoremap <c-k> <c-w>k
