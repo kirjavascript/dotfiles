@@ -59,10 +59,11 @@ vnoremap : ;
 nnoremap - $
 vnoremap - $
 
+" open word under cursor in mdn.io
 function! Mdnio ()
   exec "!firefox http://mdn.io/".expand("<cword>")
 endfunction
-nnoremap K :call Mdnio ()<CR>
+nnoremap K :silent call Mdnio ()<CR>
 
 " easier split navigation
 nnoremap <c-k> <c-w>k
@@ -81,8 +82,6 @@ execute "set <M-,>=\e,"
 execute "set <M-.>=\e."
 nnoremap <M-.> >>
 nnoremap <M-,> <<
-vnoremap <M-.> ><Esc>gv
-vnoremap <M-,> <<Esc>gv
 
 " refresh
 nnoremap <F5> :e! %<CR>
@@ -109,7 +108,7 @@ nnoremap <Leader>i3 :e $HOME/.i3/config<CR>
 nnoremap <Leader>zx :e $HOME/todo<CR>
 
 " load current file in firefox
-nnoremap <Leader>fx :!firefox %<CR>
+nnoremap <Leader>fx :silent!firefox %<CR>
 
 " reactify XML (eg react-native-svg)
 nnoremap <Leader>rf :%s/\(<\/\?\)\(.\)/\1\U\2/g<CR>
