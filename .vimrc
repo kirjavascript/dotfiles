@@ -63,7 +63,7 @@ vnoremap - $
 function! Mdnio ()
     exec "!firefox http://mdn.io/".expand("<cword>")
 endfunction
-nnoremap K :call Mdnio ()<CR>
+nnoremap K :silent call Mdnio ()<CR>
 
 " easier split navigation
 nnoremap <c-k> <c-w>k
@@ -108,7 +108,7 @@ nnoremap <Leader>i3 :e $HOME/.i3/config<CR>
 nnoremap <Leader>zx :e $HOME/todo<CR>
 
 " load current file in firefox
-nnoremap <Leader>fx :!firefox %<CR>
+nnoremap <Leader>fx :silent!firefox %<CR>
 
 " reactify XML (eg react-native-svg)
 nnoremap <Leader>rf :%s/\(<\/\?\)\(.\)/\1\U\2/g<CR>

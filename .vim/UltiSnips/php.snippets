@@ -1,0 +1,45 @@
+extends html
+
+snippet af "Array Filter"
+array_filter($${1:foo}, function($v) {
+    return $v;
+});
+endsnippet
+
+snippet am "Array Map"
+array_map(function($v) {
+    return $v;
+}, $${1:foo});
+endsnippet
+
+snippet ar "Array Reduce"
+array_map($${1:foo}, function($a, $v) {
+    return $a + $v;
+}, ${2:null});
+endsnippet
+
+# pimcore
+
+snippet "\?i" "Input Editable" r
+<?= \$this->input('${1:title}', ['placeholder' => '${1/\w+\s*/\u$0/}']); ?>
+endsnippet
+
+snippet "\?t" "Textarea" r
+<?= \$this->textarea('${1:description}', ['placeholder' => '${1/\w+\s*/\u$0/}', 'nl2br' => true]) ?>
+endsnippet
+
+snippet "\?s" "Select Editable" r
+<?php
+    if ($this->select('$1')->isEmpty()) {
+	    $this->select('$1')->setDataFromResource('$2');
+    }
+
+    echo $this->select('$1', [
+	    'store' => [
+		    ['$2', '$3'],
+	    ],
+	    'reload' => true,
+    ]);
+?>
+<?php $$1 = $this->select('$1')->getData() ?>
+endsnippet
