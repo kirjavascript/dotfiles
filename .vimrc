@@ -36,6 +36,7 @@ Plug 'joshdick/onedark.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'airblade/vim-gitgutter'
 Plug 'Valloric/MatchTagAlways'
+Plug 'chrisbra/Colorizer'
 Plug 'terryma/vim-smooth-scroll'
 
 call plug#end()
@@ -59,7 +60,7 @@ vnoremap : ;
 nnoremap - $
 vnoremap - $
 
-" open word under cursor at mdn.io
+" open word under cursor in mdn.io
 function! Mdnio ()
     exec "!firefox http://mdn.io/".expand("<cword>")
 endfunction
@@ -179,6 +180,10 @@ let g:airline_theme='onedark'
 let g:airline_powerline_fonts=1
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#fnamemod = ':t'
+
+" highlight colours
+let g:colorizer_auto_filetype='css,html,scss'
+let g:colorizer_colornames = 0
 
 "" settings
 
