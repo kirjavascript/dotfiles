@@ -59,8 +59,9 @@ vnoremap : ;
 nnoremap - $
 vnoremap - $
 
+" open word under cursor at mdn.io
 function! Mdnio ()
-  exec "!firefox http://mdn.io/".expand("<cword>")
+    exec "!firefox http://mdn.io/".expand("<cword>")
 endfunction
 nnoremap K :call Mdnio ()<CR>
 
@@ -81,8 +82,6 @@ execute "set <M-,>=\e,"
 execute "set <M-.>=\e."
 nnoremap <M-.> >>
 nnoremap <M-,> <<
-vnoremap <M-.> ><Esc>gv
-vnoremap <M-,> <<Esc>gv
 
 " refresh
 nnoremap <F5> :e! %<CR>
