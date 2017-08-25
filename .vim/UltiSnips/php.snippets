@@ -13,7 +13,7 @@ array_map(function($v) {
 endsnippet
 
 snippet ar "Array Reduce"
-array_map($${1:foo}, function($a, $v) {
+array_reduce($${1:foo}, function($a, $v) {
     return $a + $v;
 }, ${2:null});
 endsnippet
