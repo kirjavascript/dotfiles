@@ -19,6 +19,7 @@ Plug 'lifepillar/vim-mucomplete'
 Plug 'tpope/vim-fugitive'
 Plug 'mbbill/undotree'
 Plug 'eugen0329/vim-esearch' " requires ag
+Plug 'Shougo/vimproc.vim', { 'do' : 'make' } " used by vim-esearch
 " languages
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
@@ -129,7 +130,7 @@ nnoremap <silent> <Leader>we :! curl -s wttr.in/Manchester \| sed -r "s/\x1B\[[0
 " esearch (maps <Leader>ff annoyingly)
 let g:esearch = {
   \ 'adapter':    'ag',
-  \ 'backend':    'system',
+  \ 'backend':    'vimproc',
   \ 'out':        'win',
   \ 'batch_size': 1000,
   \ 'use':        [],
