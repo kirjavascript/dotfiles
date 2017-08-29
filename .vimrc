@@ -1,6 +1,6 @@
 "curl" -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 "exit"
-"          .__
+"           __
 "    ___  _|__| ____________   ____
 "    \  \/ /  |/     \_  __ \_/ ___\
 "     \   /|  |  Y Y  \  | \/\  \___
@@ -46,6 +46,7 @@ call plug#end()
 
 " unmap
 map Q <Nop>
+map K <Nop>
 
 " move 'correctly' on wrapped lines
 nnoremap j gj
@@ -60,12 +61,6 @@ vnoremap : ;
 " EOL
 nnoremap - $
 vnoremap - $
-
-" open word under cursor in mdn.io
-function! Mdnio ()
-    exec "!firefox http://mdn.io/".expand("<cword>")
-endfunction
-nnoremap K :silent call Mdnio ()<CR>
 
 " easier split navigation
 nnoremap <c-k> <c-w>k
@@ -110,7 +105,7 @@ nnoremap <Leader>i3 :e $HOME/.i3/config<CR>
 nnoremap <Leader>zx :e $HOME/todo<CR>
 
 " load current file in firefox
-nnoremap <Leader>fx :silent!firefox %<CR>
+nnoremap <Leader>fx :!firefox %<CR>
 
 " reactify XML (eg react-native-svg)
 nnoremap <Leader>rf :%s/\(<\/\?\)\(.\)/\1\U\2/g<CR>
@@ -231,13 +226,6 @@ call map(split(globpath('$HOME/.vim/swap', '*'), '\n'), 'delete(v:val)')
 if has('macunix')
     set clipboard=unnamed
     set gfn=Hack\ Regular:h14 " font-hack
-endif
-
-" Use 24-bit (true-color) mode in Vim when outside tmux.
-if (empty($TMUX))
-  if (has('termguicolors'))
-    set termguicolors
-  endif
 endif
 
 " leave insert mode quickly in terminal

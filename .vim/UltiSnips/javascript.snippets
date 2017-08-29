@@ -63,6 +63,22 @@ snippet "\.nv" "nodeValue" r
 .nodeValue = '$1';
 endsnippet
 
+# react
+
+snippet rc "react-native class" b
+import React, { Component } from 'react';
+
+export class ${1:ClassName} extends Component {
+
+    render() {
+        return <div>
+            $2
+        </div>;
+    }
+
+}
+endsnippet
+
 # react native
 
 snippet rnc "react-native class" b
