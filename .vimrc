@@ -23,7 +23,7 @@ Plug 'Shougo/vimproc.vim', { 'do' : 'make' } " used by vim-esearch
 " languages
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
-Plug 'ternjs/tern_for_vim' , { 'do': 'npm install' }
+Plug 'ternjs/tern_for_vim', { 'do': 'npm install' }
 Plug 'captbaritone/better-indent-support-for-php-with-html'
 Plug 'sheerun/vim-polyglot'
 Plug 'honza/vim-snippets'
@@ -52,15 +52,12 @@ map K <Nop>
 nnoremap j gj
 nnoremap k gk
 
-" remap cmd to semicolon
-nnoremap ; :
-nnoremap : ;
-vnoremap ; :
-vnoremap : ;
+noremap H ^
+noremap L $
 
-" EOL
-nnoremap - $
-vnoremap - $
+" remap cmd to semicolon
+noremap ; :
+noremap : ;
 
 " easier split navigation
 nnoremap <c-k> <c-w>k
