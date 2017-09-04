@@ -1,6 +1,6 @@
 "curl" -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 "exit"
-"          .__
+"           __
 "    ___  _|__| ____________   ____
 "    \  \/ /  |/     \_  __ \_/ ___\
 "     \   /|  |  Y Y  \  | \/\  \___
@@ -19,10 +19,11 @@ Plug 'lifepillar/vim-mucomplete'
 Plug 'tpope/vim-fugitive'
 Plug 'mbbill/undotree'
 Plug 'eugen0329/vim-esearch' " requires ag
+Plug 'Shougo/vimproc.vim', { 'do' : 'make' } " used by vim-esearch
 " languages
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
-Plug 'ternjs/tern_for_vim' , { 'do': 'npm install' }
+Plug 'ternjs/tern_for_vim', { 'do': 'npm install' }
 Plug 'captbaritone/better-indent-support-for-php-with-html'
 Plug 'sheerun/vim-polyglot'
 Plug 'honza/vim-snippets'
@@ -45,26 +46,18 @@ call plug#end()
 
 " unmap
 map Q <Nop>
+map K <Nop>
 
 " move 'correctly' on wrapped lines
 nnoremap j gj
 nnoremap k gk
 
+noremap H ^
+noremap L $
+
 " remap cmd to semicolon
-nnoremap ; :
-nnoremap : ;
-vnoremap ; :
-vnoremap : ;
-
-" EOL
-nnoremap - $
-vnoremap - $
-
-" open word under cursor in mdn.io
-function! Mdnio ()
-    exec "!firefox http://mdn.io/".expand("<cword>")
-endfunction
-nnoremap K :silent call Mdnio ()<CR>
+noremap ; :
+noremap : ;
 
 " easier split navigation
 nnoremap <c-k> <c-w>k
@@ -109,7 +102,7 @@ nnoremap <Leader>i3 :e $HOME/.i3/config<CR>
 nnoremap <Leader>zx :e $HOME/todo<CR>
 
 " load current file in firefox
-nnoremap <Leader>fx :silent!firefox %<CR>
+nnoremap <Leader>fx :!firefox %<CR>
 
 " reactify XML (eg react-native-svg)
 nnoremap <Leader>rf :%s/\(<\/\?\)\(.\)/\1\U\2/g<CR>
@@ -129,7 +122,7 @@ nnoremap <silent> <Leader>we :! curl -s wttr.in/Manchester \| sed -r "s/\x1B\[[0
 " esearch (maps <Leader>ff annoyingly)
 let g:esearch = {
   \ 'adapter':    'ag',
-  \ 'backend':    'system',
+  \ 'backend':    'vimproc',
   \ 'out':        'win',
   \ 'batch_size': 1000,
   \ 'use':        [],
@@ -239,13 +232,6 @@ call map(split(globpath('$HOME/.vim/swap', '*'), '\n'), 'delete(v:val)')
 if has('macunix')
     set clipboard=unnamed
     set gfn=Hack\ Regular:h14 " font-hack
-endif
-
-" Use 24-bit (true-color) mode in Vim when outside tmux.
-if (empty($TMUX))
-  if (has('termguicolors'))
-    set termguicolors
-  endif
 endif
 
 " leave insert mode quickly in terminal
