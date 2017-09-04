@@ -207,12 +207,10 @@ syntax keyword jsGlobalObjects d3 React $
 " stripe whitespace on save
 au BufWritePre * call StripWhitespace()
 function! StripWhitespace()
-    " save cursor postion to mark
-    norm! mc
+    let save_cursor = getcurpos()
     %s/\s\+$//e " EOL
     %s#\($\n\s*\)\+\%$##e " EOF
-    " go to mark
-    norm! `c
+    call setpos('.', save_cursor)
 endfunction
 
 " save swap, backup, etc to ~/.vim instead
