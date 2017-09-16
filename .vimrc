@@ -52,9 +52,6 @@ map K <Nop>
 nnoremap j gj
 nnoremap k gk
 
-noremap H ^
-noremap L $
-
 " remap cmd to semicolon
 noremap ; :
 noremap : ;
@@ -233,11 +230,11 @@ if has('macunix')
 endif
 
 " leave insert mode quickly in terminal
-if !has('gui_running')
-  set ttimeoutlen=10
-  augroup FastEscape
-    autocmd!
-    au InsertEnter * set timeoutlen=0
-    au InsertLeave * set timeoutlen=1000
-  augroup END
-endif
+" if !has('gui_running')
+"   set ttimeoutlen=10
+"   augroup FastEscape
+"     autocmd!
+"     au InsertEnter * set timeoutlen=0
+"     au InsertLeave * set timeoutlen=1000
+"   augroup END
+" endif
