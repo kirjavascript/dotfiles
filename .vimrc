@@ -168,11 +168,15 @@ noremap <silent> <c-d> :call smooth_scroll#down(&scroll, 0, 1)<CR>
 let g:mta_filetypes = {'html':1,'xhtml':1,'xml':1,'php':1,'ejs':1}
 
 " colourscheme
-colo onedark
 let g:airline_theme='onedark'
 let g:airline_powerline_fonts=1
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#fnamemod = ':t'
+if (has("autocmd") && !has("gui_running"))
+  let s:white = { "gui": "#ABB2BF", "cterm": "145", "cterm16" : "7" }
+  autocmd ColorScheme * call onedark#set_highlight("Normal", { "fg": s:white }) " No `bg` setting
+end
+colo onedark
 
 " highlight colours
 let g:colorizer_auto_filetype='css,html,scss'
@@ -233,11 +237,11 @@ if has('macunix')
 endif
 
 " leave insert mode quickly in terminal
-" if !has('gui_running')
-"   set ttimeoutlen=10
-"   augroup FastEscape
-"     autocmd!
-"     au InsertEnter * set timeoutlen=0
-"     au InsertLeave * set timeoutlen=1000
-"   augroup END
-" endif
+if !has('gui_running')
+  set ttimeoutlen=10
+  augroup FastEscape
+    autocmd!
+    au InsertEnter * set timeoutlen=0
+    au InsertLeave * set timeoutlen=1000
+  augroup END
+endif
