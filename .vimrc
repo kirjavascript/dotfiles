@@ -46,7 +46,9 @@ call plug#end()
 
 " unmap
 map Q <Nop>
-map K <Nop>
+
+" make K do the opposite of J
+nnoremap K :s/\%#.\{-}\zs\s/\r<CR>==
 
 " move 'correctly' on wrapped lines
 nnoremap j gj
@@ -81,7 +83,10 @@ nnoremap <F5> :e! %<CR>
 nnoremap <F6> :redraw!<CR>
 
 " get original behaviour of a remapped key
-nnoremap <F7> @=nr2char(getchar())<cr>
+nnoremap <F7> @=nr2char(getchar())<CR>
+
+" toggle line numbers
+nnoremap <F8> :set rnu! nu!<CR>
 
 " word wrap
 nnoremap <Leader>ww :set wrap!<CR>
