@@ -16,7 +16,6 @@ call plug#begin('~/.vim/plugged')
 Plug 'scrooloose/nerdtree'
 Plug 'jlanzarotta/bufexplorer'
 Plug 'lifepillar/vim-mucomplete'
-Plug 'tpope/vim-fugitive'
 Plug 'mbbill/undotree'
 Plug 'eugen0329/vim-esearch' " requires ag
 Plug 'Shougo/vimproc.vim', { 'do' : 'make' } " used by vim-esearch
@@ -49,6 +48,7 @@ map Q <Nop>
 
 " make K do the opposite of J
 nnoremap K :s/\%#.\{-}\zs\s/\r<CR>==
+vnoremap K <Nop>
 
 " move 'correctly' on wrapped lines
 nnoremap j gj
@@ -118,6 +118,9 @@ nnoremap <Leader>fp :set ft=html<CR>gg=G<CR>:set ft=php<CR>
 " hex helpers
 nnoremap <Leader>hd :%! xxd<CR>
 nnoremap <Leader>hf :%! xxd -r<CR>
+
+" git blame
+vnoremap <Leader>gb :<C-U>tabnew \|r!cd <C-R>=expand("%:p:h")<CR> && git annotate -L<C-R>=line("'<")<CR>,<C-R>=line("'>") <CR> <C-R>=expand("%:t") <CR><CR>:set ft=text<CR>
 
 " show weather report
 nnoremap <silent> <Leader>we :! curl -s wttr.in/Manchester \| sed -r "s/\x1B\[[0-9;]*[JKmsu]//g"<CR>
@@ -211,7 +214,6 @@ runtime macros/matchit.vim " allow using % to navigate XML
 au BufNewFile,BufRead *.ejs set filetype=html " load EJS files like HTML
 au BufNewFile,BufRead *.asm set filetype=asm68k " specify m86k ASM
 au FileType asm68k setlocal commentstring=;%s " comment string for m68k
-syntax keyword jsGlobalObjects d3 React $
 
 " stripe whitespace on save
 au BufWritePre * call StripWhitespace()
@@ -250,3 +252,32 @@ if !has('gui_running')
     au InsertLeave * set timeoutlen=1000
   augroup END
 endif
+
+" highlight otherwise unhighlighed files
+autocmd BufRead,BufNewFile,BufWritePost * call HighlightGlobal()
+
+function! HighlightGlobal()
+  if &filetype == "" || &filetype == "text"
+    syn match alphanumeric  "[A-Za-z0-9_]"
+    " Copy from $VIM/syntax/lua.vim
+    " integer number
+    syn match txtNumber     "\<\d\+\>"
+    " floating point number, with dot, optional exponent
+    syn match txtNumber     "\<\d\+\.\d*\%([eE][-+]\=\d\+\)\=\>"
+    " floating point number, starting with a dot, optional exponent
+    syn match txtNumber     "\.\d\+\%([eE][-+]\=\d\+\)\=\>"
+    " floating point number, without dot, with exponent
+    syn match txtNumber     "\<\d\+[eE][-+]\=\d\+\>"
+    " Wide characters and non-ascii characters
+    syn match nonalphabet   "[\u0021-\u002F]"
+    syn match nonalphabet   "[\u003A-\u0040]"
+    syn match nonalphabet   "[\u005B-\u0060]"
+    syn match nonalphabet   "[\u007B-\u007E]"
+    syn match nonalphabet   "[^\u0000-\u007F]"
+    syn match lineURL       /\(https\?\|ftps\?\|git\|ssh\):\/\/\(\w\+\(:\w\+\)\?@\)\?\([A-Za-z][-_0-9A-Za-z]*\.\)\{1,}\(\w\{2,}\.\?\)\{1,}\(:[0-9]\{1,5}\)\?\S*/
+    " hi def link alphanumeric  Function
+    hi def link txtNumber	    Define
+    hi def link lineURL	      Number
+    hi def link nonalphabet   Conditional
+  endif
+endfunction
