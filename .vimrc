@@ -120,7 +120,7 @@ nnoremap <Leader>hd :%! xxd<CR>
 nnoremap <Leader>hf :%! xxd -r<CR>
 
 " git blame
-vnoremap <Leader>gb :<C-U>tabnew \|r!cd <C-R>=expand("%:p:h")<CR> && git annotate -L<C-R>=line("'<")<CR>,<C-R>=line("'>") <CR> <C-R>=expand("%:t") <CR><CR>:set ft=text<CR>
+vnoremap <Leader>gb :<C-U>tabnew \|r!cd <C-R>=expand("%:p:h")<CR> && git annotate -L<C-R>=line("'<")<CR>,<C-R>=line("'>") <CR> <C-R>=expand("%:t") <CR><CR>
 
 " show weather report
 nnoremap <silent> <Leader>we :! curl -s wttr.in/Manchester \| sed -r "s/\x1B\[[0-9;]*[JKmsu]//g"<CR>
@@ -254,7 +254,7 @@ if !has('gui_running')
 endif
 
 " highlight otherwise unhighlighed files
-autocmd BufRead,BufNewFile,BufWritePost * call HighlightGlobal()
+autocmd BufRead,BufNewFile,BufWritePost,TabNew * call HighlightGlobal()
 
 function! HighlightGlobal()
   if &filetype == "" || &filetype == "text"
