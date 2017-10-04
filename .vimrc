@@ -37,7 +37,6 @@ Plug 'vim-airline/vim-airline'
 Plug 'airblade/vim-gitgutter'
 Plug 'Valloric/MatchTagAlways'
 Plug 'chrisbra/Colorizer'
-Plug 'terryma/vim-smooth-scroll'
 
 call plug#end()
 
@@ -169,14 +168,10 @@ call add(g:mucomplete#chains['default'], 'ulti') " work with ultisnips
 
 " start NERDTree if no file is specified
 nnoremap <Leader>nt :NERDTreeToggle<CR>
-au StdinReadPre * let s:std_in=1
-au VimEnter * if argc() == 0 && !exists('s:std_in') | NERDTree | wincmd w | endif
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists('s:std_in') | NERDTree | wincmd w | endif
 let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
-
-" vim-smooth-scroll
-noremap <silent> <c-u> :call smooth_scroll#up(&scroll, 0, 1)<CR>
-noremap <silent> <c-d> :call smooth_scroll#down(&scroll, 0, 1)<CR>
 
 " MatchTagAlways
 let g:mta_filetypes = {'html':1,'xhtml':1,'xml':1,'php':1,'ejs':1}
@@ -190,7 +185,7 @@ if (has("autocmd") && !has("gui_running"))
   let s:white = { "gui": "#ABB2BF", "cterm": "145", "cterm16" : "7" }
   autocmd ColorScheme * call onedark#set_highlight("Normal", { "fg": s:white }) " No `bg` setting
 end
-colo onedark
+colorscheme onedark
 
 " highlight colours
 let g:colorizer_auto_filetype='css,html,scss'
@@ -217,17 +212,17 @@ set encoding=utf-8
 
 let g:jsx_ext_required = 0 " enable JSX for .js files
 runtime macros/matchit.vim " allow using % to navigate XML
-au BufNewFile,BufRead *.ejs set filetype=html " load EJS files like HTML
-au BufNewFile,BufRead *.asm set filetype=asm68k " specify m86k ASM
-au FileType asm68k setlocal commentstring=;%s " comment string for m68k
+autocmd BufNewFile,BufRead *.ejs set filetype=html " load EJS files like HTML
+autocmd BufNewFile,BufRead *.asm set filetype=asm68k " specify m86k ASM
+autocmd FileType asm68k setlocal commentstring=;%s " comment string for m68k
 
 " stripe whitespace on save
-au BufWritePre * call StripWhitespace()
+autocmd BufWritePre * call StripWhitespace()
 function! StripWhitespace()
-    let save_cursor = getcurpos()
+    let pos = getcurpos()
     %s/\s\+$//e " EOL
     %s#\($\n\s*\)\+\%$##e " EOF
-    call setpos('.', save_cursor)
+    call setpos('.', pos)
 endfunction
 
 " save swap, backup, etc to ~/.vim instead
@@ -254,36 +249,20 @@ if !has('gui_running')
   set ttimeoutlen=10
   augroup FastEscape
     autocmd!
-    au InsertEnter * set timeoutlen=0
-    au InsertLeave * set timeoutlen=1000
+    autocmd InsertEnter * set timeoutlen=0
+    autocmd InsertLeave * set timeoutlen=1000
   augroup END
 endif
 
-" highlight otherwise unhighlighed files
-autocmd BufRead,BufNewFile,BufWritePost,TabNew * call HighlightGlobal()
-
+" highlight otherwise unhighlighted files
+autocmd BufRead,BufNewFile,BufWritePost * call HighlightGlobal()
 function! HighlightGlobal()
   if &filetype == "" || &filetype == "text"
-    syn match alphanumeric  "[A-Za-z0-9_]"
-    " Copy from $VIM/syntax/lua.vim
-    " integer number
-    syn match txtNumber     "\<\d\+\>"
-    " floating point number, with dot, optional exponent
-    syn match txtNumber     "\<\d\+\.\d*\%([eE][-+]\=\d\+\)\=\>"
-    " floating point number, starting with a dot, optional exponent
-    syn match txtNumber     "\.\d\+\%([eE][-+]\=\d\+\)\=\>"
-    " floating point number, without dot, with exponent
-    syn match txtNumber     "\<\d\+[eE][-+]\=\d\+\>"
-    " Wide characters and non-ascii characters
-    syn match nonalphabet   "[\u0021-\u002F]"
-    syn match nonalphabet   "[\u003A-\u0040]"
-    syn match nonalphabet   "[\u005B-\u0060]"
-    syn match nonalphabet   "[\u007B-\u007E]"
-    syn match nonalphabet   "[^\u0000-\u007F]"
-    syn match lineURL       /\(https\?\|ftps\?\|git\|ssh\):\/\/\(\w\+\(:\w\+\)\?@\)\?\([A-Za-z][-_0-9A-Za-z]*\.\)\{1,}\(\w\{2,}\.\?\)\{1,}\(:[0-9]\{1,5}\)\?\S*/
-    " hi def link alphanumeric  Function
-    hi def link txtNumber	    Define
-    hi def link lineURL	      Number
-    hi def link nonalphabet   Conditional
+    syntax match txtNumber "\<\d\+\>"
+    syntax match nonalphabet "[\<\>\=\!\/\:\\£\$\%€\^\&\*\(\)\[\]\?]"
+    syntax match lineURL /\(https\?\|ftps\?\|git\|ssh\):\/\/\(\w\+\(:\w\+\)\?@\)\?\([A-Za-z][-_0-9A-Za-z]*\.\)\{1,}\(\w\{2,}\.\?\)\{1,}\(:[0-9]\{1,5}\)\?\S*/
+    highlight def link txtNumber Function
+    highlight def link lineURL Number
+    highlight def link nonalphabet Function
   endif
 endfunction
