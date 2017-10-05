@@ -234,6 +234,7 @@ endfor
 set backupdir=$HOME/.vim/backup//
 set directory=$HOME/.vim/swap//
 set undodir=$HOME/.vim/undo//
+set viminfo+=n$HOME/.vim/viminfo
 
 " delete leftover swapfiles
 call map(split(globpath('$HOME/.vim/swap', '*'), '\n'), 'delete(v:val)')
