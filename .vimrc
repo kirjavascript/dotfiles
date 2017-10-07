@@ -33,6 +33,7 @@ Plug 'tpope/vim-surround'
 Plug 'SirVer/ultisnips'
 " display
 Plug 'joshdick/onedark.vim'
+Plug 'dracula/vim'
 Plug 'vim-airline/vim-airline'
 Plug 'airblade/vim-gitgutter'
 Plug 'Valloric/MatchTagAlways'
@@ -56,12 +57,14 @@ nnoremap k gk
 " remap cmd to semicolon
 noremap ; :
 noremap : ;
+tnoremap ; :
+tnoremap : ;
 
 " easier split navigation
-nnoremap <c-k> <c-w>k
-nnoremap <c-j> <c-w>j
-nnoremap <c-h> <c-w>h
-nnoremap <c-l> <c-w>l
+noremap <c-k> <c-w>k
+noremap <c-j> <c-w>j
+noremap <c-h> <c-w>h
+noremap <c-l> <c-w>l
 
 " use alt + o/i for navigating buffers
 execute "set <M-i>=\ei"
@@ -98,6 +101,9 @@ nnoremap <Leader>ww :set wrap!<CR>
 
 " save files as sudo
 nnoremap <Leader>su :w !sudo tee > /dev/null %<CR>
+
+" open terminal from current directory
+nnoremap <Leader>cf :term<CR>cd <C-W>"=expand('#:h:p')<CR><CR>clear<CR>
 
 " edit .vimrc
 nnoremap <Leader>rc :e $HOME/.vimrc<CR>
