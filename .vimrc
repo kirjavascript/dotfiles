@@ -209,7 +209,7 @@ set mouse=a " enable mouse support in terminal
 set history=1000 " loadsa history
 set hidden " switch buffers without saving
 set fillchars+=vert:\│ " make split char a solid line
-set listchars+=space:. " show spaces with set list
+set listchars+=space:• " show spaces with set list
 set backupcopy=yes " copy the file and overwrite the original
 set clipboard=unnamedplus " set clipboard to system
 set ttyfast " always assume a fast terminal
