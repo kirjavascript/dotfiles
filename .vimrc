@@ -204,17 +204,17 @@ let g:colorizer_colornames = 0
 
 set updatetime=250 " faster gitgutter
 set tabstop=8 softtabstop=4 expandtab shiftwidth=4 smarttab " 4 space tabs
-set rnu " relativenumber
+set relativenumber " relative line numbers
 set mouse=a " enable mouse support in terminal
 set history=1000 " loadsa history
 set hidden " switch buffers without saving
 set fillchars+=vert:\│ " make split char a solid line
+set listchars+=space:. " show spaces with set list
 set backupcopy=yes " copy the file and overwrite the original
 set clipboard=unnamedplus " set clipboard to system
 set ttyfast " always assume a fast terminal
 set ignorecase " case insensitive search
 set smartcase " (unless uppercase chars are used)
-set smartindent " adds one extra level in some cases
 set go= " gvim: hide all ui stuff
 set gfn=Hack\ 11 " gvim: set font to ttf-hack
 set encoding=utf-8
