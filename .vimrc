@@ -87,14 +87,8 @@ nnoremap ≤ <<
 " refresh
 nnoremap <F5> :e! %<CR>
 
-" redraw
-nnoremap <F6> :redraw!<CR>
-
 " get original behaviour of a remapped key
-nnoremap <F7> @=nr2char(getchar())<CR>
-
-" toggle line numbers
-nnoremap <F8> :set rnu! nu!<CR>
+nnoremap <F12> @=nr2char(getchar())<CR>
 
 " word wrap
 nnoremap <Leader>ww :set wrap!<CR>
@@ -215,7 +209,7 @@ set clipboard=unnamedplus " set clipboard to system
 set ttyfast " always assume a fast terminal
 set ignorecase " case insensitive search
 set smartcase " (unless uppercase chars are used)
-set go= " gvim: hide all ui stuff
+set go=c " gvim: hide all ui stuff
 set gfn=Hack\ 11 " gvim: set font to ttf-hack
 set encoding=utf-8
 
