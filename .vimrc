@@ -66,12 +66,12 @@ noremap <c-j> <c-w>j
 noremap <c-h> <c-w>h
 noremap <c-l> <c-w>l
 
-" use alt + o/i for navigating buffers
-execute "set <M-[>=\e["
-execute "set <M-]>=\e]"
-nnoremap <M-[> :bp<CR>
-nnoremap <M-]> :bn<CR>
-" osx alt + []
+" use alt + [/] for navigating buffers
+execute "set <M-i>=\ei"
+execute "set <M-o>=\eo"
+nnoremap <M-i> :bp<CR>
+nnoremap <M-o> :bn<CR>
+" osx
 nnoremap “ :bp<CR>
 nnoremap ‘ :bn<CR>
 
