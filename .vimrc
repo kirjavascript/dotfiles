@@ -15,7 +15,8 @@ call plug#begin('~/.vim/plugged')
 " tools
 Plug 'scrooloose/nerdtree'
 Plug 'jlanzarotta/bufexplorer'
-Plug 'lifepillar/vim-mucomplete'
+" Plug 'lifepillar/vim-mucomplete'
+Plug 'maralla/completor.vim', { 'do' : 'make js' }
 Plug 'mbbill/undotree'
 Plug 'eugen0329/vim-esearch' " requires ag
 Plug 'Shougo/vimproc.vim', { 'do' : 'make' } " used by vim-esearch
@@ -159,15 +160,23 @@ let g:bufExplorerDisableDefaultKeyMapping=1
 set undofile
 nnoremap <Leader>u :UndotreeToggle <BAR> :UndotreeFocus<CR>
 
-" mu-complete
-set completeopt+=menuone,noinsert,noselect
+" " mu-complete
+" set completeopt+=menuone,noinsert,noselect
+" set completeopt-=preview
+" inoremap <expr> <c-e> mucomplete#popup_exit("\<c-e>")
+" inoremap <expr> <c-y> mucomplete#popup_exit("\<c-y>")
+" inoremap <expr> <cr> mucomplete#popup_exit("\<cr>")
+" set shortmess+=c " Shut off completion messages
+" call add(g:mucomplete#chains['default'], 'ulti') " work with ultisnips
+" " let g:mucomplete#enable_auto_at_startup = 1
+
+" completor.vim
+inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
+inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
+inoremap <expr> <cr> pumvisible() ? "\<C-y>\<cr>" : "\<cr>"
 set completeopt-=preview
-inoremap <expr> <c-e> mucomplete#popup_exit("\<c-e>")
-inoremap <expr> <c-y> mucomplete#popup_exit("\<c-y>")
-inoremap <expr> <cr> mucomplete#popup_exit("\<cr>")
 set shortmess+=c " Shut off completion messages
-call add(g:mucomplete#chains['default'], 'ulti') " work with ultisnips
-" let g:mucomplete#enable_auto_at_startup = 1
+let g:completor_javascript_omni_trigger = "\\w+$|[\\w\\)\\]\\}\'\"]+\\.\\w*$"
 
 " start NERDTree if no file is specified
 nnoremap <Leader>nt :NERDTreeToggle<CR>
