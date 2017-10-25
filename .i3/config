@@ -49,7 +49,7 @@ bindsym $mod+Shift+q kill
 # start program launcher
 bindsym $mod+d exec --no-startup-id dmenu_recency
 
-bindsym $mod+z exec firefox
+bindsym $mod+z exec firefox-nightly
 bindsym $mod+Ctrl+z exec --no-startup-id morc_menu
 bindsym $mod+x exec chromium --allow-file-access-from-files
 bindsym $mod+Ctrl+x --release exec --no-startup-id xkill
