@@ -67,7 +67,17 @@ noremap <c-j> <c-w>j
 noremap <c-h> <c-w>h
 noremap <c-l> <c-w>l
 
-" use alt + [/] for navigating buffers
+" resizing splits
+execute "set <m-h>=\eh"
+execute "set <m-l>=\el"
+execute "set <m-j>=\ej"
+execute "set <m-k>=\ek"
+nnoremap <silent> <M-h> :vertical resize -5<CR>
+nnoremap <silent> <M-l> :vertical resize +5<CR>
+nnoremap <silent> <M-j> :resize +5<CR>
+nnoremap <silent> <M-k> :resize -5<CR>
+
+" use alt + o/i for navigating buffers
 execute "set <M-i>=\ei"
 execute "set <M-o>=\eo"
 nnoremap <M-i> :bp<CR>
