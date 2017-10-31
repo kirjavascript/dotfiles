@@ -22,6 +22,12 @@ snippet "\.ae" "addEventListener" r
 });
 endsnippet
 
+snippet "\.fe" "forEach" r
+.forEach((${1:element}, index) => {
+    $2
+});
+endsnippet
+
 snippet "\.ac" "appendChild" r
 .appendChild(${1:something})
 endsnippet
@@ -39,11 +45,11 @@ snippet "\.rect" "getBoundingClientRect" r
 endsnippet
 
 snippet ce "createElement"
-const $1 = document.createElement('${2:div}');
+document.createElement('${2:div}');
 endsnippet
 
 snippet cn "createElementNS (SVG)"
-const $1 = document.createElementNS('http://www.w3.org/2000/svg', '${2:svg}');
+document.createElementNS('http://www.w3.org/2000/svg', '${2:svg}');
 endsnippet
 
 snippet ca "createElementAssign"
@@ -65,7 +71,7 @@ endsnippet
 
 # react
 
-snippet rc "react-native class" b
+snippet rc "react class" b
 import React, { Component } from 'react';
 
 export class ${1:ClassName} extends Component {

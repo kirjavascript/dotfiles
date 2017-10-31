@@ -108,10 +108,11 @@ nnoremap <Leader>ww :set wrap!<CR>
 nnoremap <Leader>su :w !sudo tee > /dev/null %<CR>
 
 " open terminal from current directory
-nnoremap <Leader>cf :term<CR>cd <C-W>"=expand('#:h:p')<CR><CR>clear<CR>
+nnoremap <silent> <Leader>cf :term<CR>cd <C-W>"=expand('#:h:p')<CR><CR>clear<CR>
 
-" close terminal
-tnoremap <Leader>q exit<CR><C-W>:bd!<CR>
+" close buffer / terminal
+tnoremap <silent> <C-Q> exit<CR><C-W>:bd!<CR>
+noremap <silent> <C-Q> :bd!<CR>
 
 " edit .vimrc
 nnoremap <Leader>rc :e $HOME/.vimrc<CR>
