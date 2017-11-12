@@ -34,7 +34,6 @@ Plug 'tpope/vim-surround'
 Plug 'SirVer/ultisnips'
 " display
 Plug 'joshdick/onedark.vim'
-Plug 'dracula/vim'
 Plug 'vim-airline/vim-airline'
 Plug 'airblade/vim-gitgutter'
 Plug 'Valloric/MatchTagAlways'
@@ -169,7 +168,7 @@ let g:bufExplorerDisableDefaultKeyMapping=1
 
 " undotree
 set undofile
-nnoremap <Leader>u :UndotreeToggle <BAR> :UndotreeFocus<CR>
+nnoremap <silent> <Leader>u :UndotreeToggle <BAR> :UndotreeFocus<CR>
 
 " " mu-complete
 " set completeopt+=menuone,noinsert,noselect
@@ -200,7 +199,6 @@ let NERDTreeDirArrows = 1
 let g:mta_filetypes = {'html':1,'xhtml':1,'xml':1,'php':1,'ejs':1}
 
 " colourscheme
-let g:airline_theme='onedark'
 let g:airline_powerline_fonts=1
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#fnamemod = ':t'
@@ -209,6 +207,7 @@ if !has("gui_running")
   autocmd ColorScheme * call onedark#set_highlight("Normal", { "fg": s:white }) " No `bg` setting
 end
 colorscheme onedark
+let g:airline_theme='onedark'
 
 " highlight colours
 let g:colorizer_auto_filetype='css,html,scss'
