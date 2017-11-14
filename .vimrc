@@ -32,6 +32,7 @@ Plug 'terryma/vim-multiple-cursors'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'
 Plug 'SirVer/ultisnips'
+Plug 'sickill/vim-pasta'
 " display
 Plug 'joshdick/onedark.vim'
 Plug 'vim-airline/vim-airline'
