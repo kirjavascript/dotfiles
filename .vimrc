@@ -85,15 +85,6 @@ nnoremap <M-o> :bn<CR>
 nnoremap “ :bp<CR>
 nnoremap ‘ :bn<CR>
 
-" use alt + ./, for indenting
-execute "set <M-,>=\e,"
-execute "set <M-.>=\e."
-nnoremap <M-.> >>
-nnoremap <M-,> <<
-" osx
-nnoremap ≥ >>
-nnoremap ≤ <<
-
 " refresh
 nnoremap <F5> :e! %<CR>
 
