@@ -47,7 +47,7 @@ call plug#end()
 map Q <Nop>
 
 " make K do the opposite of J
-nnoremap K :s/\%#.\{-}\zs\s/\r<CR>==
+nnoremap K :silent! s/^\(\s*\)\S*\%#\S\{-1,}\zs\s/\r\1/e<CR>==
 vnoremap K <Nop>
 
 " move 'correctly' on wrapped lines
