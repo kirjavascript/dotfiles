@@ -124,6 +124,9 @@ nnoremap <Leader>rf :%s/\(<\/\?\)\(.\)/\1\U\2/g<CR>
 " format PHP like it's HTML
 nnoremap <Leader>fp :set ft=html<CR>gg=G<CR>:set ft=php<CR>
 
+" format with prettier (JS/markdown/CSS/etc)
+nnoremap <Leader>fj :%!prettier --tab-width 4 --single-quote<CR>
+
 " hex helpers
 nnoremap <Leader>hd :%! xxd<CR>
 nnoremap <Leader>hf :%! xxd -r<CR>
