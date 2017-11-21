@@ -57,8 +57,6 @@ nnoremap k gk
 " remap cmd to semicolon
 noremap ; :
 noremap : ;
-tnoremap ; :
-tnoremap : ;
 
 " easier split navigation
 noremap <c-k> <c-w>k
