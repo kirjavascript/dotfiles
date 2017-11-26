@@ -60,16 +60,16 @@ noremap ; :
 noremap : ;
 
 " easier split navigation
-noremap <c-k> <c-w>k
-noremap <c-j> <c-w>j
-noremap <c-h> <c-w>h
-noremap <c-l> <c-w>l
+noremap <C-k> <C-w>k
+noremap <C-j> <C-w>j
+noremap <C-h> <C-w>h
+noremap <C-l> <C-w>l
 
 " resizing splits
-execute "set <m-h>=\eh"
-execute "set <m-l>=\el"
-execute "set <m-j>=\ej"
-execute "set <m-k>=\ek"
+execute "set <M-h>=\eh"
+execute "set <M-l>=\el"
+execute "set <M-j>=\ej"
+execute "set <M-k>=\ek"
 nnoremap <silent> <M-h> :vertical resize -5<CR>
 nnoremap <silent> <M-l> :vertical resize +5<CR>
 nnoremap <silent> <M-j> :resize +5<CR>
