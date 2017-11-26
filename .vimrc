@@ -52,8 +52,8 @@ nnoremap K :silent! s/^\(\s*\).*\%#\S\{-1,}\zs\s/\r\1<CR>==
 vnoremap K <Nop>
 
 " move 'correctly' on wrapped lines
-nnoremap j gj
-nnoremap k gk
+nnoremap <expr> k v:count == 0 ? 'gk' : 'k'
+nnoremap <expr> j v:count == 0 ? 'gj' : 'j'
 
 " remap cmd to semicolon
 noremap ; :
