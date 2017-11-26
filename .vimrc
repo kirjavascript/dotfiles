@@ -21,8 +21,9 @@ Plug 'mbbill/undotree'
 Plug 'eugen0329/vim-esearch' " requires ag
 Plug 'Shougo/vimproc.vim', { 'do' : 'make' } " used by vim-esearch
 " languages
-Plug 'pangloss/vim-javascript'
-Plug 'mxw/vim-jsx'
+" Plug 'pangloss/vim-javascript'
+" Plug 'mxw/vim-jsx'
+Plug 'neoclide/vim-jsx-improve'
 Plug 'ternjs/tern_for_vim', { 'do': 'npm install' }
 Plug 'captbaritone/better-indent-support-for-php-with-html'
 Plug 'sheerun/vim-polyglot'
