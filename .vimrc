@@ -19,7 +19,6 @@ Plug 'jlanzarotta/bufexplorer'
 Plug 'maralla/completor.vim', { 'do' : 'make js' }
 Plug 'mbbill/undotree'
 Plug 'eugen0329/vim-esearch' " requires ag
-Plug 'Shougo/vimproc.vim', { 'do' : 'make' } " used by vim-esearch
 " languages
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
@@ -34,6 +33,7 @@ Plug 'tpope/vim-surround'
 Plug 'SirVer/ultisnips'
 " display
 Plug 'joshdick/onedark.vim'
+Plug 'trevordmiller/nova-vim'
 Plug 'vim-airline/vim-airline'
 Plug 'airblade/vim-gitgutter'
 Plug 'Valloric/MatchTagAlways'
@@ -140,7 +140,7 @@ nnoremap <silent> <Leader>we :! curl -s wttr.in/Manchester \| sed -r "s/\x1B\[[0
 " esearch (maps <Leader>ff annoyingly)
 let g:esearch = {
   \ 'adapter':    'ag',
-  \ 'backend':    'vimproc',
+  \ 'backend':    'vim8',
   \ 'out':        'win',
   \ 'batch_size': 1000,
   \ 'use':        [],
@@ -197,8 +197,8 @@ if !has("gui_running")
   let s:white = { "gui": "#ABB2BF", "cterm": "145", "cterm16" : "7" }
   autocmd ColorScheme * call onedark#set_highlight("Normal", { "fg": s:white }) " No `bg` setting
 end
-colorscheme onedark
-let g:airline_theme='onedark'
+colorscheme nova
+let g:airline_theme='nova'
 
 " highlight colours
 let g:colorizer_auto_filetype='css,html,scss'
