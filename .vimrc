@@ -23,6 +23,7 @@ Plug 'eugen0329/vim-esearch' " requires ag
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
 Plug 'ternjs/tern_for_vim', { 'do': 'npm install' }
+Plug 'racer-rust/vim-racer' " cargo install racer && rustup component add rust-src
 Plug 'captbaritone/better-indent-support-for-php-with-html'
 Plug 'sheerun/vim-polyglot'
 Plug 'honza/vim-snippets'
