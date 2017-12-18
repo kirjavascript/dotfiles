@@ -7,15 +7,13 @@
 "   /\ \_/ |__|__|_|  /__|    \___  >
 "   \/              \/            \/
 "
-" https://github.com/kirjavascript/dotfiles
-" Running this .vimrc as a shell script installs the required plugin manager
+"   source ~/.vimrc installs vim-plug
 
 call plug#begin('~/.vim/plugged')
 
 " tools
 Plug 'scrooloose/nerdtree'
 Plug 'jlanzarotta/bufexplorer'
-" Plug 'lifepillar/vim-mucomplete'
 Plug 'maralla/completor.vim', { 'do' : 'make js' }
 Plug 'mbbill/undotree'
 Plug 'eugen0329/vim-esearch' " requires ag
@@ -33,16 +31,21 @@ Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'
 Plug 'SirVer/ultisnips'
 " display
-Plug 'joshdick/onedark.vim'
-Plug 'trevordmiller/nova-vim'
 Plug 'vim-airline/vim-airline'
 Plug 'airblade/vim-gitgutter'
 Plug 'Valloric/MatchTagAlways'
 Plug 'chrisbra/Colorizer'
+" colours
+Plug 'joshdick/onedark.vim'
+Plug 'trevordmiller/nova-vim'
+Plug 'dracula/vim'
 
 call plug#end()
 
 "" keymap
+
+" get original behaviour of a remapped key
+nnoremap <F12> @=nr2char(getchar())<CR>
 
 " unmap
 map Q <Nop>
@@ -87,20 +90,15 @@ nnoremap ‘ :bn<CR>
 " refresh
 nnoremap <F5> :e! %<CR>
 
-" get original behaviour of a remapped key
-nnoremap <F12> @=nr2char(getchar())<CR>
-
-" word wrap
-nnoremap <Leader>ww :set wrap!<CR>
-
 " save files as sudo
 nnoremap <Leader>su :w !sudo tee > /dev/null %<CR>
 
 " open terminal from current directory
 nnoremap <silent> <Leader>cf :term<CR>cd <C-W>"=expand('#:h:p')<CR><CR>clear<CR>
 
-" close terminal
+" close terminal / tab
 tnoremap <silent> <C-Q> exit<CR><C-W>:bd!<CR>
+noremap <silent> <C-Q> :tabclose!<CR>
 
 " edit .vimrc
 nnoremap <Leader>rc :e $HOME/.vimrc<CR>
@@ -129,6 +127,10 @@ nnoremap <Leader>fj :%!prettier --tab-width 4 --single-quote<CR>
 " hex helpers
 nnoremap <Leader>hd :%! xxd<CR>
 nnoremap <Leader>hf :%! xxd -r<CR>
+
+" change colourscheme
+noremap <silent> <leader>co :colo onedark<CR>:let g:airline_theme='onedark'<CR>:AirlineRefresh<CR>
+noremap <silent> <leader>cn :colo nova<CR>:let g:airline_theme='nova'<CR>:AirlineRefresh<CR>
 
 " git blame
 vnoremap <Leader>gb :<C-U>tabnew \|r!cd <C-R>=expand("%:p:h")<CR> && git annotate -L<C-R>=line("'<")<CR>,<C-R>=line("'>") <CR> <C-R>=expand("%:t") <CR><CR>
@@ -162,16 +164,6 @@ let g:bufExplorerDisableDefaultKeyMapping=1
 set undofile
 nnoremap <silent> <Leader>u :UndotreeToggle <BAR> :UndotreeFocus<CR>
 
-" " mu-complete
-" set completeopt+=menuone,noinsert,noselect
-" set completeopt-=preview
-" inoremap <expr> <c-e> mucomplete#popup_exit("\<c-e>")
-" inoremap <expr> <c-y> mucomplete#popup_exit("\<c-y>")
-" inoremap <expr> <cr> mucomplete#popup_exit("\<cr>")
-" set shortmess+=c " Shut off completion messages
-" call add(g:mucomplete#chains['default'], 'ulti') " work with ultisnips
-" " let g:mucomplete#enable_auto_at_startup = 1
-
 " completor.vim
 inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
 inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
@@ -195,11 +187,12 @@ let g:airline_powerline_fonts=1
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#fnamemod = ':t'
 if !has("gui_running")
-  let s:white = { "gui": "#ABB2BF", "cterm": "145", "cterm16" : "7" }
-  autocmd ColorScheme * call onedark#set_highlight("Normal", { "fg": s:white }) " No `bg` setting
+    colorscheme dracula
+    let g:airline_theme='dracula'
+else
+    colorscheme onedark
+    let g:airline_theme='onedark'
 end
-colorscheme nova
-let g:airline_theme='nova'
 
 " highlight colours
 let g:colorizer_auto_filetype='css,html,scss'
