@@ -1,17 +1,23 @@
-"curl" -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-"exit"
+
 "           __
 "    ___  _|__| ____________   ____
 "    \  \/ /  |/     \_  __ \_/ ___\
 "     \   /|  |  Y Y  \  | \/\  \___
 "   /\ \_/ |__|__|_|  /__|    \___  >
 "   \/              \/            \/
-"
-"   source ~/.vimrc installs vim-plug
+
+" install vim-plug
+if empty(glob('~/.vim/autoload/plug.vim'))
+  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
 
 call plug#begin('~/.vim/plugged')
 
 " tools
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'jlanzarotta/bufexplorer'
 Plug 'maralla/completor.vim', { 'do' : 'make js' }
@@ -79,10 +85,10 @@ nnoremap <silent> <M-j> :resize +5<CR>
 nnoremap <silent> <M-k> :resize -5<CR>
 
 " use alt + o/i for navigating buffers
-execute "set <M-i>=\ei"
-execute "set <M-o>=\eo"
-nnoremap <M-i> :bp<CR>
-nnoremap <M-o> :bn<CR>
+execute "set <M-[>=\e["
+execute "set <M-]>=\e]"
+nnoremap <M-[> :bp<CR>
+nnoremap <M-]> :bn<CR>
 " osx
 nnoremap “ :bp<CR>
 nnoremap ‘ :bn<CR>

@@ -8,6 +8,7 @@ channels = (
   { name = "#ssrg"; chatnet = "Badnik"; autojoin = "yes"; },
   { name = "#d3.js"; chatnet = "Freenode"; autojoin = "yes"; },
   { name = "##javascript"; chatnet = "Freenode"; autojoin = "yes"; }
+  { name = "##emudev"; chatnet = "Freenode"; autojoin = "yes"; }
 );
 
 servers = (
