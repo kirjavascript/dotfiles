@@ -41,6 +41,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'airblade/vim-gitgutter'
 Plug 'Valloric/MatchTagAlways'
 Plug 'chrisbra/Colorizer'
+Plug 'xtal8/traces.vim'
 " colours
 Plug 'joshdick/onedark.vim'
 Plug 'trevordmiller/nova-vim'
@@ -189,7 +190,6 @@ let NERDTreeDirArrows = 1
 let g:mta_filetypes = {'html':1,'xhtml':1,'xml':1,'php':1,'ejs':1}
 
 " colourscheme
-let g:airline_powerline_fonts=1
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#fnamemod = ':t'
 if !has("gui_running")
@@ -198,6 +198,7 @@ if !has("gui_running")
 else
     colorscheme onedark
     let g:airline_theme='onedark'
+    let g:airline_powerline_fonts=1
 end
 
 " highlight colours

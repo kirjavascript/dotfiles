@@ -65,3 +65,5 @@ RPROMPT=''
 
 ZSH_THEME_GIT_PROMPT_DIRTY="%F{red}✗%f"
 ZSH_THEME_GIT_PROMPT_CLEAN="%F{green}✔%f"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
