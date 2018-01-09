@@ -192,6 +192,9 @@ let g:mta_filetypes = {'html':1,'xhtml':1,'xml':1,'php':1,'ejs':1}
 " colourscheme
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#fnamemod = ':t'
+let g:airline#extensions#tabline#left_sep = "\ue0b0 "
+let g:airline#extensions#tabline#left_alt_sep = "\ue0b1"
+
 if !has("gui_running")
     colorscheme dracula
     let g:airline_theme='dracula'
