@@ -86,10 +86,10 @@ nnoremap <silent> <M-j> :resize +5<CR>
 nnoremap <silent> <M-k> :resize -5<CR>
 
 " use alt + o/i for navigating buffers
-execute "set <M-[>=\e["
-execute "set <M-]>=\e]"
-nnoremap <M-[> :bp<CR>
-nnoremap <M-]> :bn<CR>
+execute "set <M-i>=\ei"
+execute "set <M-o>=\eo"
+nnoremap <M-i> :bp<CR>
+nnoremap <M-o> :bn<CR>
 " osx
 nnoremap “ :bp<CR>
 nnoremap ‘ :bn<CR>
