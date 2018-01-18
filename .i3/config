@@ -121,7 +121,7 @@ bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
 # workspace back and forth (with/without active container)
-workspace_auto_back_and_forth yes
+workspace_auto_back_and_forth no
 # bindsym $mod+b workspace back_and_forth
 bindsym $mod+Shift+b move container to workspace back_and_forth; workspace back_and_forth
 
@@ -239,6 +239,8 @@ for_window [class="Timeset-gui"] floating enable border normal
 for_window [class="(?i)virtualbox"] floating enable border normal
 for_window [class="Flex2"] floating enable border normal
 for_window [class="Flex2" window_role="devtools"] floating disable border none
+for_window [window_role="trueLMAO"] floating enable border normal
+for_window [class="glade"] floating enable border normal
 for_window [class="PCSX2"] floating enable border none
 
 # switch to workspace with urgent window automatically

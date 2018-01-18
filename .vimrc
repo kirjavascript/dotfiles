@@ -16,8 +16,6 @@ endif
 call plug#begin('~/.vim/plugged')
 
 " tools
-Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
-Plug 'junegunn/fzf.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'jlanzarotta/bufexplorer'
 Plug 'maralla/completor.vim', { 'do' : 'make js' }
