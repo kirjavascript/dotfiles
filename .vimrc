@@ -221,9 +221,9 @@ set clipboard=unnamedplus " set clipboard to system
 set ttyfast " always assume a fast terminal
 set ignorecase " case insensitive search
 set smartcase " (unless uppercase chars are used)
-set go=c " gvim: hide all ui stuff
-set gfn=Hack\ 11 " gvim: set font to ttf-hack
 set encoding=utf-8
+set guioptions=c " gvim: hide all ui stuff
+set guifont=Hack\ 11 " gvim: set font to ttf-hack
 
 let g:jsx_ext_required = 0 " enable JSX for .js files
 runtime macros/matchit.vim " allow using % to navigate XML
