@@ -140,6 +140,10 @@ noremap <silent> <leader>cn :colo nova<CR>:let g:airline_theme='nova'<CR>:Airlin
 " git blame
 vnoremap <Leader>gb :<C-U>tabnew \|r!cd <C-R>=expand("%:p:h")<CR> && git annotate -L<C-R>=line("'<")<CR>,<C-R>=line("'>") <CR> <C-R>=expand("%:t") <CR><CR>
 
+" paste to sprunge
+command! -range=% Sprunge  silent execute <line1> . "," . <line2> . "w !curl -F 'sprunge=<-' http://sprunge.us | tr -d '\\n' | xclip -i -selection clipboard"
+noremap <silent> <Leader>sp :Sprunge<CR>
+
 " show weather report
 nnoremap <silent> <Leader>we :! curl -s wttr.in/Manchester \| sed -r "s/\x1B\[[0-9;]*[JKmsu]//g"<CR>
 
