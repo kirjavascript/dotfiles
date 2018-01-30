@@ -35,7 +35,7 @@ Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'
 Plug 'SirVer/ultisnips'
 " display
-Plug 'vim-airline/vim-airline'
+Plug 'itchyny/lightline.vim'
 Plug 'airblade/vim-gitgutter'
 Plug 'Valloric/MatchTagAlways'
 Plug 'chrisbra/Colorizer'
@@ -133,10 +133,6 @@ nnoremap <Leader>fj :%!prettier --tab-width 4 --single-quote<CR>
 nnoremap <Leader>hd :%! xxd<CR>
 nnoremap <Leader>hf :%! xxd -r<CR>
 
-" change colourscheme
-noremap <silent> <leader>co :colo onedark<CR>:let g:airline_theme='onedark'<CR>:AirlineRefresh<CR>
-noremap <silent> <leader>cn :colo nova<CR>:let g:airline_theme='nova'<CR>:AirlineRefresh<CR>
-
 " git blame
 vnoremap <Leader>gb :<C-U>tabnew \|r!cd <C-R>=expand("%:p:h")<CR> && git annotate -L<C-R>=line("'<")<CR>,<C-R>=line("'>") <CR> <C-R>=expand("%:t") <CR><CR>
 
@@ -192,19 +188,38 @@ let NERDTreeDirArrows = 1
 let g:mta_filetypes = {'html':1,'xhtml':1,'xml':1,'php':1,'ejs':1}
 
 " colourscheme
-let g:airline#extensions#tabline#enabled = 1
-let g:airline#extensions#tabline#fnamemod = ':t'
-let g:airline#extensions#tabline#left_sep = "\ue0b0 "
-let g:airline#extensions#tabline#left_alt_sep = "\ue0b1"
-
 if !has("gui_running")
     colorscheme dracula
-    let g:airline_theme='dracula'
+    let g:lightline = {'colorscheme': 'Dracula'}
 else
     colorscheme onedark
-    let g:airline_theme='onedark'
-    let g:airline_powerline_fonts=1
+    let g:lightline = {'colorscheme': 'one'}
+    let g:lightline.separator = {'left': '', 'right': ''}
+    let g:lightline.subseparator = {'left': '', 'right': ''}
 end
+let g:lightline.active = {'left':[['mode','paste'],['gitbranch','readonly','filename','modified']]}
+let g:lightline.component = {'lineinfo': '★ %3l:%-2v'}
+set noshowmode " hide -- INSERT -- text
+
+" change colourscheme
+noremap <silent> <leader>co :call LoadOneDark()<CR>
+noremap <silent> <leader>cn :call LoadNova()<CR>
+
+function! LoadNova()
+    call lightline#disable()
+    colorscheme nova
+    let g:lightline.colorscheme = 'material'
+    call lightline#init()
+    call lightline#enable()
+endfunction
+
+function! LoadOneDark()
+    call lightline#disable()
+    colorscheme onedark
+    let g:lightline.colorscheme = 'one'
+    call lightline#init()
+    call lightline#enable()
+endfunction
 
 " highlight colours
 let g:colorizer_auto_filetype='css,html,scss'
