@@ -216,7 +216,7 @@ endfunction
 function! LoadOneDark()
     call lightline#disable()
     colorscheme onedark
-    let g:lightline.colorscheme = 'one'
+    let g:lightline.colorscheme = 'onedark'
     call lightline#init()
     call lightline#enable()
 endfunction
