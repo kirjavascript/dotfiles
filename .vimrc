@@ -188,7 +188,7 @@ let g:NERDTreeMapHelp = '<F1>'
 " MatchTagAlways
 let g:mta_filetypes = {'html':1,'xhtml':1,'xml':1,'php':1,'ejs':1}
 
-" colourscheme
+" colourscheme / statusbar
 if !has("gui_running")
     colorscheme dracula
     let g:lightline = {'colorscheme': 'Dracula'}
@@ -200,7 +200,6 @@ else
 end
 let g:lightline.active = {'left':[['mode','paste'],['gitbranch','readonly','filename','modified']]}
 let g:lightline.component = {'lineinfo': '★ %3l:%-2v'}
-set noshowmode " hide -- INSERT -- text
 
 " change colourscheme
 noremap <silent> <leader>co :call LoadOneDark()<CR>
@@ -232,6 +231,8 @@ set updatetime=250 " faster gitgutter
 set tabstop=8 softtabstop=4 expandtab shiftwidth=4 smarttab " 4 space tabs
 set relativenumber " relative line numbers
 set mouse=a " enable mouse support in terminal
+set laststatus=2 " always show a statusline
+set noshowmode " hide -- INSERT -- text
 set history=1000 " loadsa history
 set hidden " switch buffers without saving
 set fillchars+=vert:\│ " make split char a solid line
