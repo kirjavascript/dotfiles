@@ -57,7 +57,7 @@ map Q <Nop>
 
 " make K do the opposite of J
 nnoremap K :silent! s/^\(\s*\).*\%#\S\{-1,}\zs\s/\r\1<CR>==
-vnoremap K <Nop>
+vnoremap K :s/\s\+/\r/g<CR>gv==
 
 " move 'correctly' on wrapped lines
 nnoremap <expr> k v:count == 0 ? 'gk' : 'k'
