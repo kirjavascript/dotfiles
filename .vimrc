@@ -43,6 +43,7 @@ Plug 'xtal8/traces.vim'
 " colours
 Plug 'joshdick/onedark.vim'
 Plug 'trevordmiller/nova-vim'
+Plug 'mhartington/oceanic-next'
 Plug 'dracula/vim'
 
 call plug#end()

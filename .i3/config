@@ -244,9 +244,11 @@ for_window [class="(?i)System-config-printer.py"] floating enable border normal
 for_window [class="Thus"] floating enable border normal
 for_window [class="Timeset-gui"] floating enable border normal
 for_window [class="(?i)virtualbox"] floating enable border normal
+for_window [class="Telegram"] floating enable border normal
 for_window [class="Flex2"] floating enable border normal
 for_window [class="Flex2" window_role="devtools"] floating disable border none
 for_window [window_role="trueLMAO"] floating enable border normal
+for_window [window_role="__float"] floating enable border normal
 for_window [class="glade"] floating enable border normal
 for_window [class="PCSX2"] floating enable border none
 

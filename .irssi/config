@@ -1,14 +1,13 @@
 channels = (
   { name = "#rubik"; chatnet = "Freenode"; autojoin = "yes"; },
-  { name = "#vim"; chatnet = "Freenode"; autojoin = "yes"; },
   { name = "#boom"; chatnet = "Badnik"; autojoin = "yes"; },
+  { name = "##emudev"; chatnet = "Freenode"; autojoin = "yes"; }
   { name = "#ygbfurs"; chatnet = "Furnet"; autojoin = "yes"; },
   { name = "#8bitvape"; chatnet = "Rizon"; autojoin = "yes"; },
   { name = "#livingroom"; chatnet = "Rizon"; autojoin = "yes"; },
   { name = "#ssrg"; chatnet = "Badnik"; autojoin = "yes"; },
   { name = "#d3.js"; chatnet = "Freenode"; autojoin = "yes"; },
   { name = "##javascript"; chatnet = "Freenode"; autojoin = "yes"; }
-  { name = "##emudev"; chatnet = "Freenode"; autojoin = "yes"; }
 );
 
 servers = (
