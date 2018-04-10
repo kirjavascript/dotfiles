@@ -101,9 +101,8 @@ nnoremap <Leader>su :w !sudo tee > /dev/null %<CR>
 " open terminal from current directory
 nnoremap <silent> <Leader>cf :term<CR>cd <C-W>"=expand('#:h:p')<CR><CR>clear<CR>
 
-" close terminal / tab
+" close terminal
 tnoremap <silent> <C-Q> exit<CR><C-W>:bd!<CR>
-noremap <silent> <C-Q> :tabclose!<CR>
 
 " edit .vimrc
 nnoremap <Leader>rc :e $HOME/.vimrc<CR>
