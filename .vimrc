@@ -58,7 +58,7 @@ map Q <Nop>
 
 " make K do the opposite of J
 nnoremap K :silent! s/^\(\s*\).*\%#\S\{-1,}\zs\s/\r\1<CR>==
-vnoremap K <Nop>
+vnoremap K :s/\s\+/\r/g<CR>gv=
 
 " move 'correctly' on wrapped lines
 nnoremap <expr> k v:count == 0 ? 'gk' : 'k'
@@ -102,9 +102,8 @@ nnoremap <Leader>su :w !sudo tee > /dev/null %<CR>
 " open terminal from current directory
 nnoremap <silent> <Leader>cf :term<CR>cd <C-W>"=expand('#:h:p')<CR><CR>clear<CR>
 
-" close terminal / tab
+" close terminal
 tnoremap <silent> <C-Q> exit<CR><C-W>:bd!<CR>
-noremap <silent> <C-Q> :tabclose!<CR>
 
 " edit .vimrc
 nnoremap <Leader>rc :e $HOME/.vimrc<CR>
@@ -247,7 +246,6 @@ set encoding=utf-8
 set guioptions=c " gvim: hide all ui stuff
 set guifont=Hack\ 11 " gvim: set font to ttf-hack
 
-let g:jsx_ext_required = 0 " enable JSX for .js files
 runtime macros/matchit.vim " allow using % to navigate XML
 autocmd BufNewFile,BufRead *.ejs set filetype=html " load EJS files like HTML
 autocmd BufNewFile,BufRead *.asm set filetype=asm68k " specify m86k ASM
