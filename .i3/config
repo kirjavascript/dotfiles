@@ -62,6 +62,9 @@ bindsym $mod+Ctrl+n exec gvim
 bindsym $mod+m exec xfce4-terminal --hide-menubar -x ssh thom@kirjava.xyz
 bindsym $mod+Ctrl+v exec virtualbox
 bindsym XF86Calculator exec galculator
+bindsym $mod+p exec wine ~/.wine/drive_c/Program\ Files\ \(x86\)/Adobe/Photoshop\ 7.0/Photoshop.exe
+bindsym $mod+Ctrl+p exec inkscape
+
 
 # bindsym $mod+Shift+F3 exec gksu pcmanfm
 # bindsym $mod+F5 exec terminal -e 'mocp'
@@ -73,6 +76,7 @@ bindsym $mod+t exec --no-startup-id compton -b
 ## sound-section
 ################
 # https://classicforum.manjaro.org/index.php?topic=28104.0
+# sudo pacman -S pulseaudio pulseaudio-alsa manjaro-pulse pavucontrol pa-applet
 
 # alsa
 # exec --no-startup-id volumeicon
@@ -284,23 +288,21 @@ mode "$mode_system" {
 # Resize window (you can also use the mouse for that)
 bindsym $mod+r mode "resize"
 mode "resize" {
-        # These bindings trigger as soon as you enter the resize mode
-        # Pressing left will shrink the window’s width.
-        # Pressing right will grow the window’s width.
-        # Pressing up will shrink the window’s height.
-        # Pressing down will grow the window’s height.
         bindsym h resize shrink width 5 px or 5 ppt
         bindsym j resize grow height 5 px or 5 ppt
         bindsym k resize shrink height 5 px or 5 ppt
         bindsym l resize grow width 5 px or 5 ppt
 
-        # same bindings, but for the arrow keys
-        bindsym Left resize shrink width 10 px or 10 ppt
-        bindsym Down resize grow height 10 px or 10 ppt
-        bindsym Up resize shrink height 10 px or 10 ppt
-        bindsym Right resize grow width 10 px or 10 ppt
-
         # exit resize mode: Enter or Escape
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+bindsym $mod+Ctrl+r mode "resize+"
+mode "resize+" {
+        bindsym h resize shrink width 20 px or 20 ppt
+        bindsym j resize grow height 20 px or 20 ppt
+        bindsym k resize shrink height 20 px or 20 ppt
+        bindsym l resize grow width 20 px or 20 ppt
         bindsym Return mode "default"
         bindsym Escape mode "default"
 }
