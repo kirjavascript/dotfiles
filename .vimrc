@@ -1,5 +1,3 @@
-autocmd VimLeavePre * :call system('vim')
-
 "           __
 "    ___  _|__| ____________   ____
 "    \  \/ /  |/     \_  __ \_/ ___\
