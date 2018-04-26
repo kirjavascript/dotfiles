@@ -21,8 +21,7 @@ Plug 'maralla/completor.vim', { 'do' : 'make js' }
 Plug 'mbbill/undotree'
 Plug 'eugen0329/vim-esearch' " requires ag
 " languages
-Plug 'pangloss/vim-javascript'
-Plug 'mxw/vim-jsx'
+Plug 'neoclide/vim-jsx-improve'
 Plug 'ternjs/tern_for_vim', { 'do': 'npm install' }
 Plug 'racer-rust/vim-racer' " cargo install racer && rustup component add rust-src
 Plug 'captbaritone/better-indent-support-for-php-with-html'
@@ -223,6 +222,9 @@ endfunction
 " highlight colours
 let g:colorizer_auto_filetype='css,html,scss'
 let g:colorizer_colornames = 0
+
+" disable polyglot stuff
+let g:polyglot_disabled = ['javascript','jsx']
 
 "" settings
 
