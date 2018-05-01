@@ -183,21 +183,18 @@ let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
 let g:NERDTreeMapHelp = '<F1>'
 
-" MatchTagAlways
-let g:mta_filetypes = {'html':1,'xhtml':1,'xml':1,'php':1,'ejs':1}
-
 " colourscheme / statusbar
+colorscheme onedark
+let g:lightline = {'colorscheme': 'one'}
+
 if !has("gui_running")
-    colorscheme dracula
-    let g:lightline = {'colorscheme': 'Dracula'}
+    hi Normal guibg=NONE ctermbg=NONE
 else
-    colorscheme onedark
-    let g:lightline = {'colorscheme': 'one'}
     let g:lightline.separator = {'left': '', 'right': ''}
     let g:lightline.subseparator = {'left': '', 'right': ''}
 end
 let g:lightline.active = {'left':[['mode','paste'],['gitbranch','readonly','filename','modified']]}
-let g:lightline.component = {'lineinfo': '★ %3l:%-2v'}
+let g:lightline.component = {'lineinfo': '%3l:%-2v'}
 
 " change colourscheme
 noremap <silent> <leader>co :call LoadOneDark()<CR>
@@ -218,6 +215,9 @@ function! LoadOneDark()
     call lightline#init()
     call lightline#enable()
 endfunction
+
+" MatchTagAlways
+let g:mta_filetypes = {'html':1,'xhtml':1,'xml':1,'php':1,'ejs':1}
 
 " highlight colours
 let g:colorizer_auto_filetype='css,html,scss'
