@@ -1,8 +1,9 @@
+# https://github.com/thestinger/termite
 [options]
 #allow_bold = true
 #audible_bell = false
-#clickable_url = true
-#dynamic_title = true
+# clickable_url = true
+# dynamic_title = true
 font = Hack 11
 #fullscreen = true
 #geometry = 640x480
@@ -24,7 +25,7 @@ scrollback_lines = 10000
 #cursor_blink = system
 
 # "block", "underline" or "ibeam"
-#cursor_shape = block
+cursor_shape = block
 
 # Hide links that are no longer valid in url select overlay mode
 #filter_unmatched_urls = true
@@ -36,40 +37,41 @@ scrollback_lines = 10000
 #size_hints = false
 
 # "off", "left" or "right"
-#scrollbar = off
+# scrollbar = off
 
 [colors]
 # If both of these are unset, cursor falls back to the foreground color,
 # and cursor_foreground falls back to the background color.
-#cursor = #dcdccc
-#cursor_foreground = #dcdccc
-
-#foreground = #dcdccc
-#foreground_bold = #ffffff
-
-# 20% background transparency (requires a compositor)
+cursor = #56B6C2
+# cursor_foreground = #dcdccc
 background = rgba(0, 0, 0, 0.7)
+foreground      = #E0E0E0
+foreground_bold = #FFFFFF
 
-# If unset, will reverse foreground and background
-highlight = #2f2f2f
-
-# Colors from color0 to color254 can be set
-color0 = rgb(0,0,0)
-color1 = rgb(170,0,0)
-color2 = rgb(0,170,0)
-color3 = rgb(170,85,0)
-color4 = rgb(181,88,255)
-color5 = rgb(170,0,170)
-color6 = rgb(0,170,170)
-color7 = rgb(170,170,170)
-color8 = rgb(85,85,85)
-color9 = rgb(255,85,85)
-color10 = rgb(85,255,85)
-color11 = rgb(255,255,85)
-color12 = rgb(85,85,255)
-color13 = rgb(255,85,255)
-color14 = rgb(85,255,255)
-color15 = rgb(255,255,255)
+# black
+color0  = #000000
+color8  = #545054
+# red
+color1  = #a80000
+color9  = #f85450
+# green
+color2  = #00a800
+color10 = #50fc50
+# yellow
+color3  = #a85400
+color11 = #f8fc50
+# blue
+color4  = #0000a8
+color12 = #5054f8
+# magenta
+color5  = #a800a8
+color13 = #f854f8
+# cyan
+color6  = #00a8a8
+color14 = #50fcf8
+# white
+color7  = #a8a8a8
+color15 = #f8fcf8
 
 [hints]
 #font = Monospace 12

@@ -41,7 +41,7 @@ font xft:Noto Sans 10
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec xfce4-terminal --hide-menubar
+bindsym $mod+Return exec termite
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -56,10 +56,10 @@ bindsym $mod+Ctrl+x --release exec --no-startup-id xkill
 bindsym $mod+c exec xfce4-screenshooter
 bindsym $mod+Ctrl+c exec gcolor2
 bindsym $mod+b exec pcmanfm
-bindsym $mod+Ctrl+b exec xfce4-terminal --hide-menubar -x ranger
+bindsym $mod+Ctrl+b exec termite -e ranger
 bindsym $mod+n exec simplescreenrecorder
 bindsym $mod+Ctrl+n exec gvim
-bindsym $mod+m exec xfce4-terminal --hide-menubar -x ssh thom@kirjava.xyz
+bindsym $mod+m exec termite -e "ssh thom@kirjava.xyz"
 bindsym $mod+Ctrl+v exec virtualbox
 bindsym XF86Calculator exec galculator
 bindsym $mod+p exec wine ~/.wine/drive_c/Program\ Files\ \(x86\)/Adobe/Photoshop\ 7.0/Photoshop.exe
