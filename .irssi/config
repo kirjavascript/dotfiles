@@ -1,7 +1,7 @@
 channels = (
   { name = "#rubik"; chatnet = "Freenode"; autojoin = "yes"; },
-  { name = "#blabloobla"; chatnet = "Freenode"; autojoin = "yes"; },
   { name = "#boom"; chatnet = "Badnik"; autojoin = "yes"; },
+  { name = "##emudev"; chatnet = "Freenode"; autojoin = "yes"; }
   { name = "#ygbfurs"; chatnet = "Furnet"; autojoin = "yes"; },
   { name = "#8bitvape"; chatnet = "Rizon"; autojoin = "yes"; },
   { name = "#livingroom"; chatnet = "Rizon"; autojoin = "yes"; },
@@ -224,11 +224,10 @@ aliases = {
 
   ooh = "say ☜(°O°☜) $-";
   woop = "say (°ロ°)☝ $-";
-  love = "say ♡°☆(ಠೆಒಠಿ)☆°♡ $-";
   actually = "say (~˘▾˘)~ $-";
   happy = "say (• ◡•) $-";
   daww = "say (◕‿◕✿) $-";
-  ayy = "say ☞(ﾟヮﾟ)☜ $-";
+  ayy = "say ☜(ﾟヮﾟ)☜ $-";
   mwah = "say ( ˘ ³˘)♥ $-";
   lenny = "say ( ͡° ͜ʖ ͡°) $-";
   wink = "say ( ͡~ ͜ʖ ͡°) $-";
@@ -238,7 +237,6 @@ aliases = {
   normal = "say (¬●_ ●) $-"
 
   no = "say ノ(ಠ_ಠノ) $-";
-  disapprove = "say ಠ_ಠ $-";
   lod = "say ಠ_ಠ $-";
   fu = "say 凸(｀0´)凸 $-";
   putemup = "say ლ(´ڡ`ლ) $-";

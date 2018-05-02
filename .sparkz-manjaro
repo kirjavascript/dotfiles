@@ -1,4 +1,4 @@
-File: /etc/modprobe.d/alsa-base.conf            
+File: /etc/modprobe.d/alsa-base.conf
 options snd_hda_intel index=1
 
 disable intel
@@ -9,7 +9,7 @@ enable intel
 numlockx
 load zsh (.bashrc)
 ssh-copy-id
-(xfce4-terminal/terminalrc) ColorCursor=#0066aa
+~➤ tic -x termite.terminfo
 polybar
 
-ranger / pipes / screenfetch / alsa / cmatrix / doge / ponysay / nyancat / curl -s wttr.in
+ranger / pipes / screenfetch / alsa / cmatrix / doge / ponysay / nyancat / curl -s wttr.in / cool-retro-term / genact

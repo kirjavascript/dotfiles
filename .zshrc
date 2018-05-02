@@ -40,8 +40,9 @@ bindkey '^[[B' history-substring-search-down
 
 # aliases
 alias k='k -h'
+alias tmux="TERM=screen-256color-bce tmux"
 alias lolcat='~/.zplug/repos/jaseg/lolcat/lolcat-static | head -c -5'
-alias lk='ls | lolcat'
+alias lk='ls -lhF | lolcat'
 alias ls='ls -hF --show-control-chars --color=always'
 alias la='ls -haF --show-control-chars --color=always'
 alias ll='ls -lhF --show-control-chars --color=always'

@@ -29,9 +29,9 @@ new_float normal
 hide_edge_borders none
 
 # change borders
-bindsym $mod+u border none
-bindsym $mod+y border pixel 5
-bindsym $mod+i border normal
+bindsym $mod+y border normal
+bindsym $mod+u border pixel 5
+bindsym $mod+i border none
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -41,7 +41,7 @@ font xft:Noto Sans 10
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec xfce4-terminal --hide-menubar
+bindsym $mod+Return exec termite
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -49,28 +49,34 @@ bindsym $mod+Shift+q kill
 # start program launcher
 bindsym $mod+d exec --no-startup-id dmenu_recency
 
-bindsym $mod+z exec firefox
+bindsym $mod+z exec firefox-nightly
 bindsym $mod+Ctrl+z exec --no-startup-id morc_menu
 bindsym $mod+x exec chromium --allow-file-access-from-files
 bindsym $mod+Ctrl+x --release exec --no-startup-id xkill
 bindsym $mod+c exec xfce4-screenshooter
 bindsym $mod+Ctrl+c exec gcolor2
 bindsym $mod+b exec pcmanfm
-bindsym $mod+Ctrl+b exec xfce4-terminal --hide-menubar -x ranger
+bindsym $mod+Ctrl+b exec termite -e ranger
 bindsym $mod+n exec simplescreenrecorder
 bindsym $mod+Ctrl+n exec gvim
-bindsym $mod+m exec xfce4-terminal --hide-menubar -x ssh thom@kirjava.xyz
+bindsym $mod+m exec termite -e "ssh thom@kirjava.xyz"
 bindsym $mod+Ctrl+v exec virtualbox
+bindsym XF86Calculator exec galculator
+bindsym $mod+p exec wine ~/.wine/drive_c/Program\ Files\ \(x86\)/Adobe/Photoshop\ 7.0/Photoshop.exe
+bindsym $mod+Ctrl+p exec inkscape
 
-# launch categorized menu
-bindsym $mod+Shift+F3 exec gksu pcmanfm
+
+# bindsym $mod+Shift+F3 exec gksu pcmanfm
 # bindsym $mod+F5 exec terminal -e 'mocp'
+# disable transparency
 bindsym $mod+Ctrl+t exec --no-startup-id pkill compton
+# enable transparency
 bindsym $mod+t exec --no-startup-id compton -b
 
 ## sound-section
 ################
 # https://classicforum.manjaro.org/index.php?topic=28104.0
+# sudo pacman -S pulseaudio pulseaudio-alsa manjaro-pulse pavucontrol pa-applet
 
 # alsa
 # exec --no-startup-id volumeicon
@@ -121,7 +127,7 @@ bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
 # workspace back and forth (with/without active container)
-workspace_auto_back_and_forth yes
+workspace_auto_back_and_forth no
 # bindsym $mod+b workspace back_and_forth
 bindsym $mod+Shift+b move container to workspace back_and_forth; workspace back_and_forth
 
@@ -173,6 +179,7 @@ set $ws5 5
 set $ws6 6
 set $ws7 7
 set $ws8 8
+set $ws9 9
 
 # switch to workspace
 bindsym $mod+1 workspace $ws1
@@ -183,6 +190,7 @@ bindsym $mod+5 workspace $ws5
 bindsym $mod+6 workspace $ws6
 bindsym $mod+7 workspace $ws7
 bindsym $mod+8 workspace $ws8
+bindsym $mod+9 workspace $ws9
 
 # Move focused container to workspace
 bindsym $mod+Ctrl+1 move container to workspace $ws1
@@ -193,6 +201,7 @@ bindsym $mod+Ctrl+5 move container to workspace $ws5
 bindsym $mod+Ctrl+6 move container to workspace $ws6
 bindsym $mod+Ctrl+7 move container to workspace $ws7
 bindsym $mod+Ctrl+8 move container to workspace $ws8
+bindsym $mod+Ctrl+9 move container to workspace $ws9
 
 # Move to workspace with focused container
 bindsym $mod+Shift+1 move container to workspace $ws1; workspace $ws1
@@ -203,6 +212,7 @@ bindsym $mod+Shift+5 move container to workspace $ws5; workspace $ws5
 bindsym $mod+Shift+6 move container to workspace $ws6; workspace $ws6
 bindsym $mod+Shift+7 move container to workspace $ws7; workspace $ws7
 bindsym $mod+Shift+8 move container to workspace $ws8; workspace $ws8
+bindsym $mod+Shift+9 move container to workspace $ws9; workspace $ws9
 
 # Open applications on specific workspaces
 # assign [class="Thunderbird"] $ws1
@@ -210,7 +220,7 @@ bindsym $mod+Shift+8 move container to workspace $ws8; workspace $ws8
 # assign [class="Pcmanfm"] $ws3
 # assign [class="Skype"] $ws5
 
-# Open specific applications in floating mode
+# Open specific applications in floating mode (xprop to get settings)
 for_window [title="SimpleScreenRecorder"] floating enable border normal
 for_window [title="alsamixer"] floating enable border pixel 1
 for_window [class="Calamares"] floating enable border normal
@@ -229,6 +239,7 @@ for_window [class="Oblogout"] fullscreen enable
 for_window [class="octopi"] floating enable
 for_window [title="About Pale Moon"] floating enable
 for_window [class="Pamac-manager"] floating enable
+for_window [class="Pamac-updater"] floating enable
 for_window [class="Pavucontrol"] floating enable
 for_window [class="qt5ct"] floating enable sticky enable border normal
 for_window [class="Qtconfig-qt4"] floating enable sticky enable border normal
@@ -237,7 +248,14 @@ for_window [class="(?i)System-config-printer.py"] floating enable border normal
 for_window [class="Thus"] floating enable border normal
 for_window [class="Timeset-gui"] floating enable border normal
 for_window [class="(?i)virtualbox"] floating enable border normal
-for_window [title="Flex 2"] floating enable border normal
+for_window [class="Telegram"] floating enable border normal
+for_window [class="Flex2"] floating enable border normal
+for_window [class="Flex2" window_role="devtools"] floating disable border none
+for_window [class="VirtualBox Machine"] floating enable border pixel 5
+for_window [window_role="trueLMAO"] floating enable border normal
+for_window [window_role="__float"] floating enable border normal
+for_window [class="glade"] floating enable border normal
+for_window [class="PCSX2"] floating enable border none
 
 # switch to workspace with urgent window automatically
 for_window [urgent=latest] focus
@@ -271,43 +289,36 @@ mode "$mode_system" {
 # Resize window (you can also use the mouse for that)
 bindsym $mod+r mode "resize"
 mode "resize" {
-        # These bindings trigger as soon as you enter the resize mode
-        # Pressing left will shrink the window’s width.
-        # Pressing right will grow the window’s width.
-        # Pressing up will shrink the window’s height.
-        # Pressing down will grow the window’s height.
         bindsym h resize shrink width 5 px or 5 ppt
         bindsym j resize grow height 5 px or 5 ppt
         bindsym k resize shrink height 5 px or 5 ppt
         bindsym l resize grow width 5 px or 5 ppt
 
-        # same bindings, but for the arrow keys
-        bindsym Left resize shrink width 10 px or 10 ppt
-        bindsym Down resize grow height 10 px or 10 ppt
-        bindsym Up resize shrink height 10 px or 10 ppt
-        bindsym Right resize grow width 10 px or 10 ppt
-
         # exit resize mode: Enter or Escape
         bindsym Return mode "default"
         bindsym Escape mode "default"
 }
-
-# Lock screen
-bindsym $mod+9 exec --no-startup-id blurlock
+bindsym $mod+Ctrl+r mode "resize+"
+mode "resize+" {
+        bindsym h resize shrink width 20 px or 20 ppt
+        bindsym j resize grow height 20 px or 20 ppt
+        bindsym k resize shrink height 20 px or 20 ppt
+        bindsym l resize grow width 20 px or 20 ppt
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
 
 # Autostart applications
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 exec --no-startup-id nitrogen --restore; sleep 1; compton -b
-#exec --no-startup-id manjaro-hello
 exec --no-startup-id nm-applet
 exec --no-startup-id xfce4-power-manager
 exec --no-startup-id pamac-tray
 exec --no-startup-id clipit
-# exec --no-startup-id blueman
 # exec_always --no-startup-id sbxkb
-exec --no-startup-id start_conky_maia
+# exec --no-startup-id start_conky_maia
 # exec --no-startup-id start_conky_green
-exec --no-startup-id xautolock -time 10 -locker blurlock
+exec --no-startup-id xautolock -time 30 -locker blurlock
 exec_always --no-startup-id fix_xcursor
 
 # Start i3bar to display a workspace bar (plus the system information i3status if available)

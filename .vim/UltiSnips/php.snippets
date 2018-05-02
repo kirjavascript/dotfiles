@@ -18,6 +18,15 @@ array_reduce($${1:foo}, function($a, $v) {
 }, ${2:null});
 endsnippet
 
+snippet vd "var_dump <pre>"
+echo '<pre>';
+var_dump(
+    $1
+);
+echo '</pre>';
+exit;
+endsnippet
+
 # pimcore
 
 snippet "\?i" "Input Editable" r
