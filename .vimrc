@@ -243,6 +243,7 @@ set ttyfast " always assume a fast terminal
 set ignorecase " case insensitive search
 set smartcase " (unless uppercase chars are used)
 set incsearch " highlight when searching and map <C-g> / <C-t>
+set wildmenu " cmd completion suggestions
 set encoding=utf-8
 set guioptions=c " gvim: hide all ui stuff
 set guifont=Hack\ 11 " gvim: set font to ttf-hack
