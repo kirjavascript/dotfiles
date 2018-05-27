@@ -40,6 +40,7 @@ Plug 'chrisbra/Colorizer'
 Plug 'xtal8/traces.vim'
 " colours
 Plug 'joshdick/onedark.vim'
+Plug 'larsbs/vimterial_dark'
 Plug 'trevordmiller/nova-vim'
 Plug 'mhartington/oceanic-next'
 
