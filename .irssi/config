@@ -7,7 +7,8 @@ channels = (
   { name = "#livingroom"; chatnet = "Rizon"; autojoin = "yes"; },
   { name = "#ssrg"; chatnet = "Badnik"; autojoin = "yes"; },
   { name = "#d3.js"; chatnet = "Freenode"; autojoin = "yes"; },
-  { name = "##javascript"; chatnet = "Freenode"; autojoin = "yes"; }
+  { name = "##javascript"; chatnet = "Freenode"; autojoin = "yes"; },
+  { name = "#code"; chatnet = "Rizon"; autojoin = "yes"; }
 );
 
 servers = (
