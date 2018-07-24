@@ -133,9 +133,9 @@ nnoremap <Leader>hf :%! xxd -r<CR>
 " git blame
 vnoremap <Leader>gb :<C-U>tabnew \|r!cd <C-R>=expand("%:p:h")<CR> && git annotate -L<C-R>=line("'<")<CR>,<C-R>=line("'>") <CR> <C-R>=expand("%:t") <CR><CR>
 
-" paste to sprunge
-command! -range=% IX  silent execute <line1> . "," . <line2> . "w !curl -F 'f:1=<-' http://ix.io | tr -d '\\n' | xclip -i -selection clipboard"
-noremap <Leader>sp :IX<CR>
+" paste to ptpb
+command! -range=% PASTEBIN  silent execute <line1> . "," . <line2> . "w !curl -sF c=@- https://ptpb.pw | grep 'url: ' | sed 's/^url: //' | xclip -i -selection clipboard"
+vnoremap <Leader>sp :PASTEBIN<CR>
 
 " show weather report
 nnoremap <silent> <Leader>we :! curl -s wttr.in/Manchester \| sed -r "s/\x1B\[[0-9;]*[JKmsu]//g"<CR>
