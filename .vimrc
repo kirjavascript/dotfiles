@@ -256,6 +256,9 @@ autocmd FileType asm68k setlocal commentstring=;%s " comment string for m68k
 " stripe whitespace on save
 autocmd BufWritePre * call StripWhitespace()
 function! StripWhitespace()
+    if &ft == 'markdown'
+        return
+    endif
     let pos = getcurpos()
     %s/\s\+$//e " EOL
     %s#\($\n\s*\)\+\%$##e " EOF
