@@ -20,6 +20,7 @@ Plug 'jlanzarotta/bufexplorer'
 Plug 'maralla/completor.vim', { 'do' : 'make js' }
 Plug 'mbbill/undotree'
 Plug 'eugen0329/vim-esearch' " requires ag
+Plug 'dyng/ctrlsf.vim' " ???
 " languages
 Plug 'neoclide/vim-jsx-improve'
 Plug 'ternjs/tern_for_vim', { 'do': 'npm install' }
@@ -46,6 +47,9 @@ Plug 'mhartington/oceanic-next'
 call plug#end()
 
 "" keymap
+
+" TODO: move this somewhere better
+let g:ctrlsf_default_root = 'project'
 
 " get original behaviour of a remapped key
 nnoremap <F12> @=nr2char(getchar())<CR>

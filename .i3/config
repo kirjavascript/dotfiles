@@ -13,11 +13,12 @@ exec --no-startup-id xmodmap -e "clear lock"
 # set caps_lock as escape
 exec --no-startup-id xmodmap -e "keysym Caps_Lock = Escape"
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
-exec --no-startup-id nitrogen --restore; sleep 1; compton -b
+exec --no-startup-id compton -b
 exec --no-startup-id nm-applet
 exec --no-startup-id xfce4-power-manager
 exec --no-startup-id pamac-tray
 exec --no-startup-id xautolock -time 30 -locker blurlock
+exec --no-startup-id feh --bg-fill ~/backgrounds/quantum.png
 exec_always --no-startup-id fix_xcursor
 # exec_always --no-startup-id killall polybar; polybar blue & polybar blue2
 exec_always --no-startup-id ~/dev/cakeybar/target/release/cakeybar -c ~/dev/cakeybar/examples/darkblue/config.toml
