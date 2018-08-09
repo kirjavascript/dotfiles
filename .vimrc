@@ -43,6 +43,7 @@ Plug 'xtal8/traces.vim'
 Plug 'joshdick/onedark.vim'
 Plug 'trevordmiller/nova-vim'
 Plug 'mhartington/oceanic-next'
+Plug 'arcticicestudio/nord-vim'
 
 call plug#end()
 
@@ -50,6 +51,9 @@ call plug#end()
 
 " TODO: move this somewhere better
 let g:ctrlsf_default_root = 'project'
+let g:ctrlsf_auto_focus = {
+    \ "at": "start"
+    \ }
 
 " get original behaviour of a remapped key
 nnoremap <F12> @=nr2char(getchar())<CR>
