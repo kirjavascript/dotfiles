@@ -49,12 +49,6 @@ call plug#end()
 
 "" keymap
 
-" TODO: move this somewhere better
-let g:ctrlsf_default_root = 'project'
-let g:ctrlsf_auto_focus = {
-    \ "at": "start"
-    \ }
-
 " get original behaviour of a remapped key
 nnoremap <F12> @=nr2char(getchar())<CR>
 
@@ -158,6 +152,12 @@ let g:esearch = {
   \ 'batch_size': 1000,
   \ 'use':        [],
   \}
+
+" CtrlSf
+let g:ctrlsf_default_root = 'project'
+let g:ctrlsf_auto_focus = {
+    \ "at": "start"
+    \ }
 
 " snippets
 let g:UltiSnipsExpandTrigger="<c-b>"
