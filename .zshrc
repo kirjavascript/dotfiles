@@ -6,16 +6,14 @@
 source ~/.zplug/init.zsh
 
 zplug "zsh-users/zsh-completions"
-zplug "zsh-users/zsh-syntax-highlighting"
+# zplug "zsh-users/zsh-syntax-highlighting"
+zplug "zdharma/fast-syntax-highlighting"
 zplug "zsh-users/zsh-history-substring-search"
 zplug "zsh-users/zsh-autosuggestions"
 zplug "supercrabtree/k"
 
 zplug "plugins/git", from:oh-my-zsh
 zplug "themes/fishy", from:oh-my-zsh
-
-# zplug "sebastiencs/icons-in-terminal", hook-build: "./install.sh", use: "~/.local/share/icons-in-terminal/icons_bash.sh"
-zplug "jaseg/lolcat", hook-build: "make && make install"
 
 zplug load
 
@@ -41,8 +39,6 @@ bindkey '^[[B' history-substring-search-down
 # aliases
 alias k='k -h'
 alias tmux="TERM=screen-256color-bce tmux"
-alias lolcat='~/.zplug/repos/jaseg/lolcat/lolcat-static | head -c -5'
-alias lk='ls -lhF | lolcat'
 alias ls='ls -hF --show-control-chars --color=always'
 alias la='ls -haF --show-control-chars --color=always'
 alias ll='ls -lhF --show-control-chars --color=always'

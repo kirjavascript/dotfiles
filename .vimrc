@@ -20,6 +20,7 @@ Plug 'jlanzarotta/bufexplorer'
 Plug 'maralla/completor.vim', { 'do' : 'make js' }
 Plug 'mbbill/undotree'
 Plug 'eugen0329/vim-esearch' " requires ag
+Plug 'dyng/ctrlsf.vim' " ???
 " languages
 Plug 'neoclide/vim-jsx-improve'
 Plug 'ternjs/tern_for_vim', { 'do': 'npm install' }
@@ -42,6 +43,7 @@ Plug 'xtal8/traces.vim'
 Plug 'joshdick/onedark.vim'
 Plug 'trevordmiller/nova-vim'
 Plug 'mhartington/oceanic-next'
+Plug 'arcticicestudio/nord-vim'
 
 call plug#end()
 
@@ -133,9 +135,9 @@ nnoremap <Leader>hf :%! xxd -r<CR>
 " git blame
 vnoremap <Leader>gb :<C-U>tabnew \|r!cd <C-R>=expand("%:p:h")<CR> && git annotate -L<C-R>=line("'<")<CR>,<C-R>=line("'>") <CR> <C-R>=expand("%:t") <CR><CR>
 
-" paste to sprunge
-command! -range=% IX  silent execute <line1> . "," . <line2> . "w !curl -F 'f:1=<-' http://ix.io | tr -d '\\n' | xclip -i -selection clipboard"
-noremap <Leader>sp :IX<CR>
+" paste to ptpb
+command! -range=% PASTEBIN  silent execute <line1> . "," . <line2> . "w !curl -sF c=@- https://ptpb.pw | grep 'url: ' | sed 's/^url: //' | xclip -i -selection clipboard"
+vnoremap <Leader>sp :PASTEBIN<CR>
 
 " show weather report
 nnoremap <silent> <Leader>we :! curl -s wttr.in/Manchester \| sed -r "s/\x1B\[[0-9;]*[JKmsu]//g"<CR>
@@ -150,6 +152,12 @@ let g:esearch = {
   \ 'batch_size': 1000,
   \ 'use':        [],
   \}
+
+" CtrlSf
+let g:ctrlsf_default_root = 'project'
+let g:ctrlsf_auto_focus = {
+    \ "at": "start"
+    \ }
 
 " snippets
 let g:UltiSnipsExpandTrigger="<c-b>"
@@ -170,7 +178,7 @@ nnoremap <silent> <Leader>u :UndotreeToggle <BAR> :UndotreeFocus<CR>
 inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
 inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 inoremap <expr> <cr> pumvisible() ? "\<C-y>\<cr>" : "\<cr>"
-set completeopt-=preview
+set completeopt=menuone,noinsert,noselect
 set shortmess+=c " Shut off completion messages
 let g:completor_javascript_omni_trigger = "\\w+$|[\\w\\)\\]\\}\'\"]+\\.\\w*$"
 
@@ -243,6 +251,7 @@ set ttyfast " always assume a fast terminal
 set ignorecase " case insensitive search
 set smartcase " (unless uppercase chars are used)
 set incsearch " highlight when searching and map <C-g> / <C-t>
+set wildmenu " cmd completion suggestions
 set encoding=utf-8
 set guioptions=c " gvim: hide all ui stuff
 set guifont=Hack\ 11 " gvim: set font to ttf-hack
@@ -255,6 +264,9 @@ autocmd FileType asm68k setlocal commentstring=;%s " comment string for m68k
 " stripe whitespace on save
 autocmd BufWritePre * call StripWhitespace()
 function! StripWhitespace()
+    if &ft == 'markdown'
+        return
+    endif
     let pos = getcurpos()
     %s/\s\+$//e " EOL
     %s#\($\n\s*\)\+\%$##e " EOF
