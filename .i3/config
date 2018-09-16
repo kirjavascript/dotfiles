@@ -93,7 +93,7 @@ bindsym $mod+t exec --no-startup-id compton -b
 
 # pulse
 exec --no-startup-id pa-applet
-exec --no-startup-id sleep 5; pulseaudio --kill; pulseaudio --start
+# exec --no-startup-id sleep 5; pulseaudio --kill; pulseaudio --start
 bindsym $mod+Ctrl+m exec pavucontrol
 
 ################################################################################################

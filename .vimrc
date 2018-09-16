@@ -39,6 +39,7 @@ Plug 'airblade/vim-gitgutter'
 Plug 'Valloric/MatchTagAlways'
 Plug 'chrisbra/Colorizer'
 Plug 'xtal8/traces.vim'
+Plug 'machakann/vim-highlightedyank'
 " colours
 Plug 'joshdick/onedark.vim'
 Plug 'trevordmiller/nova-vim'
