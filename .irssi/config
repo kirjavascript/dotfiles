@@ -351,9 +351,9 @@ statusbar = {
 settings = {
   timestamp_format = "%H:%M:%S";
   core = {
-    real_name = "thom";
-    user_name = "thom";
-    nick = "thom";
+    real_name = "cake";
+    user_name = "cake";
+    nick = "cake";
     timestamp_format = "%H:%M:%S";
   };
   "fe-text" = { actlist_sort = "refnum"; colors = "yes"; };
