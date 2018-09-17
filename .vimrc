@@ -227,6 +227,10 @@ endfunction
 " MatchTagAlways
 let g:mta_filetypes = {'html':1,'xhtml':1,'xml':1,'php':1,'ejs':1}
 
+" vim-highlighedyank
+
+let g:highlightedyank_highlight_duration = 200
+
 " highlight colours
 let g:colorizer_auto_filetype='css,html,scss'
 let g:colorizer_colornames = 0
@@ -242,6 +246,7 @@ set relativenumber " relative line numbers
 set mouse=a " enable mouse support in terminal
 set laststatus=2 " always show a statusline
 set noshowmode " hide -- INSERT -- text
+set lazyredraw " don't redraw whenthere are pending macro operations
 set history=1000 " loadsa history
 set hidden " switch buffers without saving
 set fillchars+=vert:\│ " make split char a solid line
