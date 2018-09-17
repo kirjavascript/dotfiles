@@ -1,0 +1,59 @@
+2018-09-16 23:37:42	--	irc: connecting to server irc.rizon.net/6667...
+2018-09-16 23:37:42	--	irc: connected to irc.rizon.net/6667 (149.56.153.99)
+2018-09-16 23:37:42	--	irc.namreeb.org: *** Looking up your hostname...
+2018-09-16 23:37:42	--	irc.namreeb.org: *** Checking Ident
+2018-09-16 23:37:43	--	irc.namreeb.org: *** Found your hostname
+2018-09-16 23:37:44	--	irc.namreeb.org: *** No Ident response
+2018-09-16 23:37:44	--	irc: nickname "Kirjava" is already in use, trying nickname "Colourful"
+2018-09-16 23:37:44	--	irc.namreeb.org: *** Your host is masked (Rizon-E47DB280.cable.virginm.net)
+2018-09-16 23:37:44	--	Welcome to the Rizon Internet Relay Chat Network Colourful
+2018-09-16 23:37:44	--	Your host is irc.namreeb.org, running version plexus-4(hybrid-8.1.20)
+2018-09-16 23:37:44	--	This server was created Sep 18 2017 at 18:28:31
+2018-09-16 23:37:44	--	irc.namreeb.org plexus-4(hybrid-8.1.20) CDGNRSUWagilopqrswxyz BCIMNORSabcehiklmnopqstvz Iabehkloqv
+2018-09-16 23:37:44	--	CALLERID CASEMAPPING=rfc1459 DEAF=D KICKLEN=180 MODES=4 PREFIX=(qaohv)~&@%+ STATUSMSG=~&@%+ EXCEPTS=e INVEX=I NICKLEN=30 NETWORK=Rizon MAXLIST=beI:250 MAXTARGETS=4 :are supported by this server
+2018-09-16 23:37:44	--	CHANTYPES=# CHANLIMIT=#:250 CHANNELLEN=50 TOPICLEN=390 CHANMODES=beI,k,l,BCMNORScimnpstz ELIST=CMNTU SAFELIST AWAYLEN=180 NAMESX UHNAMES WATCH=60 KNOCK :are supported by this server
+2018-09-16 23:37:44	--	There are 22 users and 14554 invisible on 20 servers
+2018-09-16 23:37:44	--	64 :IRC Operators online
+2018-09-16 23:37:44	--	11 :unknown connection(s)
+2018-09-16 23:37:44	--	11589 :channels formed
+2018-09-16 23:37:44	--	I have 14576 clients and 20 servers
+2018-09-16 23:37:44	--	Current local users: 14576  Max: 18202
+2018-09-16 23:37:44	--	Current global users: 14576  Max: 18202
+2018-09-16 23:37:44	--	- irc.namreeb.org Message of the Day -
+2018-09-16 23:37:44	--	-          oo                            
+2018-09-16 23:37:44	--	-
+2018-09-16 23:37:44	--	- 88d888b. dP d888888b .d8888b. 88d888b. 
+2018-09-16 23:37:44	--	- 88'  `88 88    .d8P' 88'  `88 88'  `88 
+2018-09-16 23:37:44	--	- 88       88  .Y8P    88.  .88 88    88 
+2018-09-16 23:37:44	--	- dP       dP d888888P `88888P' dP    dP
+2018-09-16 23:37:44	--	-
+2018-09-16 23:37:44	--	- Rizon Chat Network -- http://rizon.net
+2018-09-16 23:37:44	--	-
+2018-09-16 23:37:44	--	- Listening on ports: 6660 - 6669, 7000. SSL: 6697, 9999
+2018-09-16 23:37:44	--	-
+2018-09-16 23:37:44	--	- Rules:
+2018-09-16 23:37:44	--	- o No spamming or flooding
+2018-09-16 23:37:44	--	- o No clones or malicious bots
+2018-09-16 23:37:44	--	- o No takeovers
+2018-09-16 23:37:44	--	- o No distribution of child pornography
+2018-09-16 23:37:44	--	- o Clients must respond to VERSION requests
+2018-09-16 23:37:44	--	- o Rizon staff may disconnect clients for any or no reason
+2018-09-16 23:37:44	--	-
+2018-09-16 23:37:44	--	- First steps:
+2018-09-16 23:37:44	--	- o To register your nick: /msg NickServ HELP
+2018-09-16 23:37:44	--	- o To register your channel: /msg ChanServ HELP
+2018-09-16 23:37:44	--	- o To get a vHost: /msg HostServ HELP REQUEST
+2018-09-16 23:37:44	--	- o For other help with Rizon: /join #help
+2018-09-16 23:37:44	--	-
+2018-09-16 23:37:44	--	- Usage of this network is a privilege, not a right. Rizon is a
+2018-09-16 23:37:44	--	- transit provider, therefore no person or entity involved with
+2018-09-16 23:37:44	--	- *.rizon.net or irc.namreeb.org takes any responsibility for
+2018-09-16 23:37:44	--	- users' actions. Absolutely no warranty is expressed or implied.
+2018-09-16 23:37:44	--	End of /MOTD command.
+2018-09-16 23:37:44	--	User mode [+ix] by Colourful
+2018-09-16 23:37:44	--	CTCP requested by py-ctcp: VERSION
+2018-09-16 23:37:44	--	CTCP reply to py-ctcp: VERSION WeeChat 2.2 (Aug  1 2018 12:25:48)
+2018-09-16 23:37:44	--	#code: You need to login to services to join or speak in that channel.
+2018-09-16 23:37:44	--	Global (service@rizon.net): [Logon News - May 21 2011] First time on Rizon? Be sure to read the FAQ! http://s.rizon.net/FAQ
+2018-09-16 23:37:44	--	Global (service@rizon.net): [Logon News - Dec 16 2013] Own a large/active channel or plan to get one going? Please read http://s.rizon.net/authline
+2018-09-16 23:37:44	--	Global (service@rizon.net): [Random News - Mar 20 2009] Idle on Rizon a lot? Why not play our idlerpg game, you can check it out at #RizonIRPG for more information visit the website http://idlerpg.rizon.net -Rizon Staff

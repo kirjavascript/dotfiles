@@ -1,0 +1,2512 @@
+2018-09-16 21:44:35		New key binding (context "default"): meta-meta-OQ => /bar scroll buflist * e
+2018-09-16 21:44:35		New key binding (context "default"): meta-meta-OP => /bar scroll buflist * b
+2018-09-16 21:44:35		New key binding (context "default"): meta-OQ => /bar scroll buflist * +100%
+2018-09-16 21:44:35		New key binding (context "default"): meta-OP => /bar scroll buflist * -100%
+2018-09-16 21:44:35		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, guile, irc, logger, lua, perl, python, relay, script, trigger, xfer
+2018-09-16 21:44:46	=!=	irc: unable to add temporary server "irc.freenode.net" because the addition of temporary servers with command /connect is currently disabled
+2018-09-16 21:44:46	=!=	irc: if you want to add a standard server, use the command "/server add" (see /help server); if you really want to add a temporary server (NOT SAVED), turn on the option irc.look.temporary_servers
+2018-09-16 21:44:49	=!=	irc: unable to add temporary server "irc.freenode.org" because the addition of temporary servers with command /connect is currently disabled
+2018-09-16 21:44:49	=!=	irc: if you want to add a standard server, use the command "/server add" (see /help server); if you really want to add a temporary server (NOT SAVED), turn on the option irc.look.temporary_servers
+2018-09-16 21:44:56		[irc]  /server  list|listfull [<name>]
+2018-09-16 21:44:56		                add <name> <hostname>[/<port>] [-temp] [-<option>[=<value>]] [-no<option>]
+2018-09-16 21:44:56		                copy|rename <name> <new_name>
+2018-09-16 21:44:56		                reorder <name> [<name>...]
+2018-09-16 21:44:56		                open <name>|-all [<name>...]
+2018-09-16 21:44:56		                del|keep <name>
+2018-09-16 21:44:56		                deloutq|jump|raw
+2018-09-16 21:44:56		list, add or remove IRC servers
+2018-09-16 21:44:56		    list: list servers (without argument, this list is displayed)
+2018-09-16 21:44:56		listfull: list servers with detailed info for each server
+2018-09-16 21:44:56		     add: add a new server
+2018-09-16 21:44:56		    name: server name, for internal and display use; this name is used to connect to the server (/connect name) and to set server options: irc.server.name.xxx
+2018-09-16 21:44:56		hostname: name or IP address of server, with optional port (default: 6667), many addresses can be separated by a comma
+2018-09-16 21:44:56		   -temp: add a temporary server (not saved)
+2018-09-16 21:44:56		  option: set option for server (for boolean option, value can be omitted)
+2018-09-16 21:44:56		nooption: set boolean option to 'off' (for example: -nossl)
+2018-09-16 21:44:56		    copy: duplicate a server
+2018-09-16 21:44:56		  rename: rename a server
+2018-09-16 21:44:56		 reorder: reorder list of servers
+2018-09-16 21:44:56		    open: open the server buffer without connecting
+2018-09-16 21:44:56		    keep: keep server in config file (for temporary servers only)
+2018-09-16 21:44:56		     del: delete a server
+2018-09-16 21:44:56		 deloutq: delete messages out queue for all servers (all messages WeeChat is currently sending)
+2018-09-16 21:44:56		    jump: jump to server buffer
+2018-09-16 21:44:56		     raw: open buffer with raw IRC data
+2018-09-16 21:44:56		Examples:
+2018-09-16 21:44:56		  /server listfull
+2018-09-16 21:44:56		  /server add freenode chat.freenode.net
+2018-09-16 21:44:56		  /server add freenode chat.freenode.net/6697 -ssl -autoconnect
+2018-09-16 21:44:56		  /server add chatspike irc.chatspike.net/6667,irc.duckspike.net/6667
+2018-09-16 21:44:56		  /server copy freenode freenode-test
+2018-09-16 21:44:56		  /server rename freenode-test freenode2
+2018-09-16 21:44:56		  /server reorder freenode2 freenode
+2018-09-16 21:44:56		  /server del freenode
+2018-09-16 21:44:56		  /server deloutq
+2018-09-16 21:47:43	=!=	Too few arguments for command "/server add" (help on command: /help server)
+2018-09-16 21:47:47		irc: server freenode added
+2018-09-16 21:47:53	=!=	irc: unable to add temporary server "irc.freenode.net" because the addition of temporary servers with command /connect is currently disabled
+2018-09-16 21:47:53	=!=	irc: if you want to add a standard server, use the command "/server add" (see /help server); if you really want to add a temporary server (NOT SAVED), turn on the option irc.look.temporary_servers
+2018-09-16 21:47:56	=!=	irc: unable to add temporary server "irc.freenode.org" because the addition of temporary servers with command /connect is currently disabled
+2018-09-16 21:47:56	=!=	irc: if you want to add a standard server, use the command "/server add" (see /help server); if you really want to add a temporary server (NOT SAVED), turn on the option irc.look.temporary_servers
+2018-09-16 21:48:07	=!=	irc: command "join" must be executed on connected irc server
+2018-09-16 23:13:11		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, guile, irc, logger, lua, perl, python, relay, script, trigger, xfer
+2018-09-16 23:13:37	=!=	You can not write text in this buffer
+2018-09-16 23:14:28		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, guile, irc, logger, lua, perl, python, relay, script, trigger, xfer
+2018-09-16 23:14:37		Plugins loaded:
+2018-09-16 23:14:37		  guile: Support of scheme scripts (with Guile)
+2018-09-16 23:14:37		  alias: Alias commands
+2018-09-16 23:14:37		  irc: IRC (Internet Relay Chat) protocol
+2018-09-16 23:14:37		  lua: Support of lua scripts
+2018-09-16 23:14:37		  buflist: Buffers list
+2018-09-16 23:14:37		  python: Support of python scripts
+2018-09-16 23:14:37		  charset: Charset conversions
+2018-09-16 23:14:37		  relay: Relay WeeChat data to remote application (irc/weechat protocols)
+2018-09-16 23:14:37		  exec: Execution of external commands in WeeChat
+2018-09-16 23:14:37		  trigger: Text replacement and command execution on events triggered by WeeChat/plugins
+2018-09-16 23:14:37		  aspell: Spell checker for input (with Aspell)
+2018-09-16 23:14:37		  xfer: DCC file transfer and direct chat
+2018-09-16 23:14:37		  fset: Fast set of WeeChat and plugins options
+2018-09-16 23:14:37		  fifo: FIFO pipe for remote control
+2018-09-16 23:14:37		  perl: Support of perl scripts
+2018-09-16 23:14:37		  logger: Log buffers to files
+2018-09-16 23:14:37		  script: Script manager
+2018-09-16 23:14:52		Options saved to sec.conf
+2018-09-16 23:14:52		Options saved to weechat.conf
+2018-09-16 23:14:52		Options saved to plugins.conf
+2018-09-16 23:14:52		Options saved to charset.conf
+2018-09-16 23:14:52		Options saved to logger.conf
+2018-09-16 23:14:52		Options saved to exec.conf
+2018-09-16 23:14:52		Options saved to trigger.conf
+2018-09-16 23:14:52		Options saved to aspell.conf
+2018-09-16 23:14:52		Options saved to alias.conf
+2018-09-16 23:14:52		Options saved to buflist.conf
+2018-09-16 23:14:52		Options saved to fifo.conf
+2018-09-16 23:14:52		Options saved to xfer.conf
+2018-09-16 23:14:52		Options saved to irc.conf
+2018-09-16 23:14:52		Options saved to relay.conf
+2018-09-16 23:14:52		Options saved to guile.conf
+2018-09-16 23:14:52		Options saved to lua.conf
+2018-09-16 23:14:52		Options saved to python.conf
+2018-09-16 23:14:52		Options saved to perl.conf
+2018-09-16 23:14:52		Options saved to script.conf
+2018-09-16 23:14:52		Options saved to fset.conf
+2018-09-16 23:15:06		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, guile, irc, logger, lua, perl, python, relay, script, trigger, xfer
+2018-09-16 23:18:52	=!=	irc: server "freenode" already exists, can't add it!
+2018-09-16 23:18:55		Options saved to sec.conf
+2018-09-16 23:18:55		Options saved to weechat.conf
+2018-09-16 23:18:55		Options saved to plugins.conf
+2018-09-16 23:18:55		Options saved to charset.conf
+2018-09-16 23:18:55		Options saved to logger.conf
+2018-09-16 23:18:55		Options saved to exec.conf
+2018-09-16 23:18:55		Options saved to trigger.conf
+2018-09-16 23:18:55		Options saved to aspell.conf
+2018-09-16 23:18:55		Options saved to alias.conf
+2018-09-16 23:18:55		Options saved to buflist.conf
+2018-09-16 23:18:55		Options saved to fifo.conf
+2018-09-16 23:18:55		Options saved to xfer.conf
+2018-09-16 23:18:55		Options saved to irc.conf
+2018-09-16 23:18:55		Options saved to relay.conf
+2018-09-16 23:18:55		Options saved to guile.conf
+2018-09-16 23:18:55		Options saved to lua.conf
+2018-09-16 23:18:55		Options saved to python.conf
+2018-09-16 23:18:55		Options saved to perl.conf
+2018-09-16 23:18:55		Options saved to script.conf
+2018-09-16 23:18:55		Options saved to fset.conf
+2018-09-16 23:19:24		All servers:
+2018-09-16 23:19:24		   freenode
+2018-09-16 23:19:54	=!=	Error with command "/server irc.server.nfreenode.autoconnect on" (help on command: /help server)
+2018-09-16 23:19:57	=!=	Error with command "/server irc.server.freenode.autoconnect on" (help on command: /help server)
+2018-09-16 23:20:02		Option changed: irc.server.freenode.autoconnect = on  (default if null: off)
+2018-09-16 23:20:30	=!=	Error: can not merge windows, there's no other window with same size near current one
+2018-09-16 23:22:56		Option changed: irc.server_default.username = "cake"  (default: "")
+2018-09-16 23:23:05		Option changed: irc.server_default.realname = "Kirjava"  (default: "")
+2018-09-16 23:23:13		Option changed: irc.server_default.realname = ""
+2018-09-16 23:23:19		Option changed: irc.server_default.username = ""
+2018-09-16 23:23:22		Options saved to sec.conf
+2018-09-16 23:23:22		Options saved to weechat.conf
+2018-09-16 23:23:22		Options saved to plugins.conf
+2018-09-16 23:23:22		Options saved to charset.conf
+2018-09-16 23:23:22		Options saved to logger.conf
+2018-09-16 23:23:22		Options saved to exec.conf
+2018-09-16 23:23:22		Options saved to trigger.conf
+2018-09-16 23:23:22		Options saved to aspell.conf
+2018-09-16 23:23:22		Options saved to alias.conf
+2018-09-16 23:23:22		Options saved to buflist.conf
+2018-09-16 23:23:22		Options saved to fifo.conf
+2018-09-16 23:23:22		Options saved to xfer.conf
+2018-09-16 23:23:22		Options saved to irc.conf
+2018-09-16 23:23:22		Options saved to relay.conf
+2018-09-16 23:23:22		Options saved to guile.conf
+2018-09-16 23:23:22		Options saved to lua.conf
+2018-09-16 23:23:22		Options saved to python.conf
+2018-09-16 23:23:22		Options saved to perl.conf
+2018-09-16 23:23:22		Options saved to script.conf
+2018-09-16 23:23:22		Options saved to fset.conf
+2018-09-16 23:24:03		Option changed: irc.server.freenode.nicks = "Kirjava,Colourful"  (default if null: "thom,thom1,thom2,thom3,thom4")
+2018-09-16 23:24:21		Option changed: irc.server_default.nicks = "Kirjava,Colourful,Cake"  (default: "")
+2018-09-16 23:27:12	=!=	Error: failed to set option "irc.server.freenode.autoconnect"
+2018-09-16 23:27:21		Option changed: irc.server.freenode.autojoin = "#rubik,##emudev,#d3.js,##javascript"  (default if null: "")
+2018-09-16 23:27:58	=!=	You can not write text in this buffer
+2018-09-16 23:31:22		All servers:
+2018-09-16 23:31:22		   freenode
+2018-09-16 23:31:54		irc: server rizon added
+2018-09-16 23:32:13		Option changed: irc.server.rizon.nicks = "Kirjava,Colourful,Cake"  (default if null: "Kirjava,Colourful,Cake")
+2018-09-16 23:32:27		Option changed: irc.server.rizon.autoconnect = on  (default if null: off)
+2018-09-16 23:32:39		Option changed: irc.server.rizon.autojoin = "#8bitvape,#livingroom,#code,#eggchan"  (default if null: "")
+2018-09-16 23:33:12		irc: server furnet added
+2018-09-16 23:33:18		Option changed: irc.server.rizon.nicks = "Cake,Kirjava"  (default if null: "Kirjava,Colourful,Cake")
+2018-09-16 23:33:20		Option changed: irc.server.rizon.autoconnect = on  (default if null: off)
+2018-09-16 23:33:26		Option changed: irc.server.rizon.autojoin = "#ygbfurs"  (default if null: "")
+2018-09-16 23:33:36		irc: server badnik added
+2018-09-16 23:33:43		Option changed: irc.server.rizon.nicks = "snkenjoi,Kirjava"  (default if null: "Kirjava,Colourful,Cake")
+2018-09-16 23:33:45		Option changed: irc.server.rizon.autoconnect = on  (default if null: off)
+2018-09-16 23:33:52		Option changed: irc.server.rizon.autojoin = "#boom,#ssrg"  (default if null: "")
+2018-09-16 23:34:05		irc: server mozilla added
+2018-09-16 23:34:35		Option changed: irc.server.rizon.nicks = "Kirjava,COlourful"  (default if null: "Kirjava,Colourful,Cake")
+2018-09-16 23:34:47		Option changed: irc.server.rizon.autojoin = "#8bitvape,#livingroom,#code,#eggchan"  (default if null: "")
+2018-09-16 23:35:05		Option changed: irc.server.furnet.nicks = "Cake,Kirjava"  (default if null: "Kirjava,Colourful,Cake")
+2018-09-16 23:35:17		Option changed: irc.server.furnet.autoconnect = on  (default if null: off)
+2018-09-16 23:35:25		Option changed: irc.server.furnet.autojoin = "#ygbfurs"  (default if null: "")
+2018-09-16 23:35:39		Option changed: irc.server.badnik.nicks = "snkenjoi,Kirjava"  (default if null: "Kirjava,Colourful,Cake")
+2018-09-16 23:35:43		Option changed: irc.server.badnik.autoconnect = on  (default if null: off)
+2018-09-16 23:35:50		Option changed: irc.server.badnik.autojoin = "#boom,#ssrg"  (default if null: "")
+2018-09-16 23:36:02		Option changed: irc.server.mozilla.nicks = "Kirjava,Colourful"  (default if null: "Kirjava,Colourful,Cake")
+2018-09-16 23:36:06		Option changed: irc.server.mozilla.autoconnect = on  (default if null: off)
+2018-09-16 23:36:24		Option changed: irc.server.mozilla.autojoin = "#rust-beginners,#rust-wasm,#gtk-rs""  (default if null: "")
+2018-09-16 23:37:06		[crypt] (sec.conf)
+2018-09-16 23:37:06		  sec.crypt.cipher = aes256
+2018-09-16 23:37:06		  sec.crypt.hash_algo = sha256
+2018-09-16 23:37:06		  sec.crypt.passphrase_file = ""
+2018-09-16 23:37:06		  sec.crypt.salt = on
+2018-09-16 23:37:06		[startup] (weechat.conf)
+2018-09-16 23:37:06		  weechat.startup.command_after_plugins = ""
+2018-09-16 23:37:06		  weechat.startup.command_before_plugins = ""
+2018-09-16 23:37:06		  weechat.startup.display_logo = on
+2018-09-16 23:37:06		  weechat.startup.display_version = on
+2018-09-16 23:37:06		  weechat.startup.sys_rlimit = ""
+2018-09-16 23:37:06		[look] (weechat.conf)
+2018-09-16 23:37:06		  weechat.look.align_end_of_lines = message
+2018-09-16 23:37:06		  weechat.look.align_multiline_words = on
+2018-09-16 23:37:06		  weechat.look.bar_more_down = "++"
+2018-09-16 23:37:06		  weechat.look.bar_more_left = "<<"
+2018-09-16 23:37:06		  weechat.look.bar_more_right = ">>"
+2018-09-16 23:37:06		  weechat.look.bar_more_up = "--"
+2018-09-16 23:37:06		  weechat.look.bare_display_exit_on_input = on
+2018-09-16 23:37:06		  weechat.look.bare_display_time_format = "%H:%M"
+2018-09-16 23:37:06		  weechat.look.buffer_auto_renumber = on
+2018-09-16 23:37:06		  weechat.look.buffer_notify_default = all
+2018-09-16 23:37:06		  weechat.look.buffer_position = end
+2018-09-16 23:37:06		  weechat.look.buffer_search_case_sensitive = off
+2018-09-16 23:37:06		  weechat.look.buffer_search_force_default = off
+2018-09-16 23:37:06		  weechat.look.buffer_search_regex = off
+2018-09-16 23:37:06		  weechat.look.buffer_search_where = prefix_message
+2018-09-16 23:37:06		  weechat.look.buffer_time_format = "%H:%M:%S"
+2018-09-16 23:37:06		  weechat.look.color_basic_force_bold = off
+2018-09-16 23:37:06		  weechat.look.color_inactive_buffer = on
+2018-09-16 23:37:06		  weechat.look.color_inactive_message = on
+2018-09-16 23:37:06		  weechat.look.color_inactive_prefix = on
+2018-09-16 23:37:06		  weechat.look.color_inactive_prefix_buffer = on
+2018-09-16 23:37:06		  weechat.look.color_inactive_time = off
+2018-09-16 23:37:06		  weechat.look.color_inactive_window = on
+2018-09-16 23:37:06		  weechat.look.color_nick_offline = off
+2018-09-16 23:37:06		  weechat.look.color_pairs_auto_reset = 5
+2018-09-16 23:37:06		  weechat.look.color_real_white = off
+2018-09-16 23:37:06		  weechat.look.command_chars = ""
+2018-09-16 23:37:06		  weechat.look.command_incomplete = off
+2018-09-16 23:37:06		  weechat.look.confirm_quit = off
+2018-09-16 23:37:06		  weechat.look.confirm_upgrade = off
+2018-09-16 23:37:06		  weechat.look.day_change = on
+2018-09-16 23:37:06		  weechat.look.day_change_message_1date = "-- %a, %d %b %Y --"
+2018-09-16 23:37:06		  weechat.look.day_change_message_2dates = "-- %%a, %%d %%b %%Y (%a, %d %b %Y) --"
+2018-09-16 23:37:06		  weechat.look.eat_newline_glitch = off
+2018-09-16 23:37:06		  weechat.look.emphasized_attributes = ""
+2018-09-16 23:37:06		  weechat.look.highlight = ""
+2018-09-16 23:37:06		  weechat.look.highlight_regex = ""
+2018-09-16 23:37:06		  weechat.look.highlight_tags = ""
+2018-09-16 23:37:06		  weechat.look.hotlist_add_conditions = "${away} || ${buffer.num_displayed} == 0 || ${info:relay_client_count,weechat,connected} > 0"
+2018-09-16 23:37:06		  weechat.look.hotlist_buffer_separator = ", "
+2018-09-16 23:37:06		  weechat.look.hotlist_count_max = 2
+2018-09-16 23:37:06		  weechat.look.hotlist_count_min_msg = 2
+2018-09-16 23:37:06		  weechat.look.hotlist_names_count = 3
+2018-09-16 23:37:06		  weechat.look.hotlist_names_length = 0
+2018-09-16 23:37:06		  weechat.look.hotlist_names_level = 12
+2018-09-16 23:37:06		  weechat.look.hotlist_names_merged_buffers = off
+2018-09-16 23:37:06		  weechat.look.hotlist_prefix = "H: "
+2018-09-16 23:37:06		  weechat.look.hotlist_remove = merged
+2018-09-16 23:37:06		  weechat.look.hotlist_short_names = on
+2018-09-16 23:37:06		  weechat.look.hotlist_sort = group_time_asc
+2018-09-16 23:37:06		  weechat.look.hotlist_suffix = ""
+2018-09-16 23:37:06		  weechat.look.hotlist_unique_numbers = on
+2018-09-16 23:37:06		  weechat.look.input_cursor_scroll = 20
+2018-09-16 23:37:06		  weechat.look.input_share = none
+2018-09-16 23:37:06		  weechat.look.input_share_overwrite = off
+2018-09-16 23:37:06		  weechat.look.input_undo_max = 32
+2018-09-16 23:37:06		  weechat.look.item_away_message = on
+2018-09-16 23:37:06		  weechat.look.item_buffer_filter = "*"
+2018-09-16 23:37:06		  weechat.look.item_buffer_zoom = "!"
+2018-09-16 23:37:06		  weechat.look.item_mouse_status = "M"
+2018-09-16 23:37:06		  weechat.look.item_time_format = "%H:%M"
+2018-09-16 23:37:06		  weechat.look.jump_current_to_previous_buffer = on
+2018-09-16 23:37:06		  weechat.look.jump_previous_buffer_when_closing = on
+2018-09-16 23:37:06		  weechat.look.jump_smart_back_to_buffer = on
+2018-09-16 23:37:06		  weechat.look.key_bind_safe = on
+2018-09-16 23:37:06		  weechat.look.key_grab_delay = 800
+2018-09-16 23:37:06		  weechat.look.mouse = off
+2018-09-16 23:37:06		  weechat.look.mouse_timer_delay = 100
+2018-09-16 23:37:06		  weechat.look.nick_color_force = ""
+2018-09-16 23:37:06		  weechat.look.nick_color_hash = djb2
+2018-09-16 23:37:06		  weechat.look.nick_color_stop_chars = "_|["
+2018-09-16 23:37:06		  weechat.look.nick_prefix = ""
+2018-09-16 23:37:06		  weechat.look.nick_suffix = ""
+2018-09-16 23:37:06		  weechat.look.paste_auto_add_newline = on
+2018-09-16 23:37:06		  weechat.look.paste_bracketed = on
+2018-09-16 23:37:06		  weechat.look.paste_bracketed_timer_delay = 10
+2018-09-16 23:37:06		  weechat.look.paste_max_lines = 1
+2018-09-16 23:37:06		  weechat.look.prefix_action = " *"
+2018-09-16 23:37:06		  weechat.look.prefix_align = right
+2018-09-16 23:37:06		  weechat.look.prefix_align_max = 0
+2018-09-16 23:37:06		  weechat.look.prefix_align_min = 0
+2018-09-16 23:37:06		  weechat.look.prefix_align_more = "+"
+2018-09-16 23:37:06		  weechat.look.prefix_align_more_after = on
+2018-09-16 23:37:06		  weechat.look.prefix_buffer_align = right
+2018-09-16 23:37:06		  weechat.look.prefix_buffer_align_max = 0
+2018-09-16 23:37:06		  weechat.look.prefix_buffer_align_more = "+"
+2018-09-16 23:37:06		  weechat.look.prefix_buffer_align_more_after = on
+2018-09-16 23:37:06		  weechat.look.prefix_error = "=!="
+2018-09-16 23:37:06		  weechat.look.prefix_join = "-->"
+2018-09-16 23:37:06		  weechat.look.prefix_network = "--"
+2018-09-16 23:37:06		  weechat.look.prefix_quit = "<--"
+2018-09-16 23:37:06		  weechat.look.prefix_same_nick = ""
+2018-09-16 23:37:06		  weechat.look.prefix_suffix = "|"
+2018-09-16 23:37:06		  weechat.look.quote_nick_prefix = "<"
+2018-09-16 23:37:06		  weechat.look.quote_nick_suffix = ">"
+2018-09-16 23:37:06		  weechat.look.quote_time_format = "%H:%M:%S"
+2018-09-16 23:37:06		  weechat.look.read_marker = line
+2018-09-16 23:37:06		  weechat.look.read_marker_always_show = off
+2018-09-16 23:37:06		  weechat.look.read_marker_string = "- "
+2018-09-16 23:37:06		  weechat.look.save_config_on_exit = on
+2018-09-16 23:37:06		  weechat.look.save_config_with_fsync = off
+2018-09-16 23:37:06		  weechat.look.save_layout_on_exit = none
+2018-09-16 23:37:06		  weechat.look.scroll_amount = 3
+2018-09-16 23:37:06		  weechat.look.scroll_bottom_after_switch = off
+2018-09-16 23:37:06		  weechat.look.scroll_page_percent = 100
+2018-09-16 23:37:06		  weechat.look.search_text_not_found_alert = on
+2018-09-16 23:37:06		  weechat.look.separator_horizontal = "-"
+2018-09-16 23:37:06		  weechat.look.separator_vertical = ""
+2018-09-16 23:37:06		  weechat.look.tab_width = 1
+2018-09-16 23:37:06		  weechat.look.time_format = "%a, %d %b %Y %T"
+2018-09-16 23:37:06		  weechat.look.window_auto_zoom = off
+2018-09-16 23:37:06		  weechat.look.window_separator_horizontal = on
+2018-09-16 23:37:06		  weechat.look.window_separator_vertical = on
+2018-09-16 23:37:06		  weechat.look.window_title = ""
+2018-09-16 23:37:06		  weechat.look.word_chars_highlight = "!\u00A0,-,_,|,alnum"
+2018-09-16 23:37:06		  weechat.look.word_chars_input = "!\u00A0,-,_,|,alnum"
+2018-09-16 23:37:06		[color] (weechat.conf)
+2018-09-16 23:37:06		  weechat.color.bar_more = lightmagenta
+2018-09-16 23:37:06		  weechat.color.chat = default
+2018-09-16 23:37:06		  weechat.color.chat_bg = default
+2018-09-16 23:37:06		  weechat.color.chat_buffer = white
+2018-09-16 23:37:06		  weechat.color.chat_channel = white
+2018-09-16 23:37:06		  weechat.color.chat_day_change = cyan
+2018-09-16 23:37:06		  weechat.color.chat_delimiters = green
+2018-09-16 23:37:06		  weechat.color.chat_highlight = yellow
+2018-09-16 23:37:06		  weechat.color.chat_highlight_bg = magenta
+2018-09-16 23:37:06		  weechat.color.chat_host = cyan
+2018-09-16 23:37:06		  weechat.color.chat_inactive_buffer = default
+2018-09-16 23:37:06		  weechat.color.chat_inactive_window = default
+2018-09-16 23:37:06		  weechat.color.chat_nick = lightcyan
+2018-09-16 23:37:06		  weechat.color.chat_nick_colors = "cyan,magenta,green,brown,lightblue,default,lightcyan,lightmagenta,lightgreen,blue"
+2018-09-16 23:37:06		  weechat.color.chat_nick_offline = default
+2018-09-16 23:37:06		  weechat.color.chat_nick_offline_highlight = default
+2018-09-16 23:37:06		  weechat.color.chat_nick_offline_highlight_bg = blue
+2018-09-16 23:37:06		  weechat.color.chat_nick_other = cyan
+2018-09-16 23:37:06		  weechat.color.chat_nick_prefix = green
+2018-09-16 23:37:06		  weechat.color.chat_nick_self = white
+2018-09-16 23:37:06		  weechat.color.chat_nick_suffix = green
+2018-09-16 23:37:06		  weechat.color.chat_prefix_action = white
+2018-09-16 23:37:06		  weechat.color.chat_prefix_buffer = brown
+2018-09-16 23:37:06		  weechat.color.chat_prefix_buffer_inactive_buffer = default
+2018-09-16 23:37:06		  weechat.color.chat_prefix_error = yellow
+2018-09-16 23:37:06		  weechat.color.chat_prefix_join = lightgreen
+2018-09-16 23:37:06		  weechat.color.chat_prefix_more = lightmagenta
+2018-09-16 23:37:06		  weechat.color.chat_prefix_network = magenta
+2018-09-16 23:37:06		  weechat.color.chat_prefix_quit = lightred
+2018-09-16 23:37:06		  weechat.color.chat_prefix_suffix = green
+2018-09-16 23:37:06		  weechat.color.chat_read_marker = magenta
+2018-09-16 23:37:06		  weechat.color.chat_read_marker_bg = default
+2018-09-16 23:37:06		  weechat.color.chat_server = brown
+2018-09-16 23:37:06		  weechat.color.chat_tags = red
+2018-09-16 23:37:06		  weechat.color.chat_text_found = yellow
+2018-09-16 23:37:06		  weechat.color.chat_text_found_bg = lightmagenta
+2018-09-16 23:37:06		  weechat.color.chat_time = default
+2018-09-16 23:37:06		  weechat.color.chat_time_delimiters = brown
+2018-09-16 23:37:06		  weechat.color.chat_value = cyan
+2018-09-16 23:37:06		  weechat.color.chat_value_null = blue
+2018-09-16 23:37:06		  weechat.color.emphasized = yellow
+2018-09-16 23:37:06		  weechat.color.emphasized_bg = magenta
+2018-09-16 23:37:06		  weechat.color.input_actions = lightgreen
+2018-09-16 23:37:06		  weechat.color.input_text_not_found = red
+2018-09-16 23:37:06		  weechat.color.item_away = yellow
+2018-09-16 23:37:06		  weechat.color.nicklist_away = cyan
+2018-09-16 23:37:06		  weechat.color.nicklist_group = green
+2018-09-16 23:37:06		  weechat.color.separator = blue
+2018-09-16 23:37:06		  weechat.color.status_count_highlight = magenta
+2018-09-16 23:37:06		  weechat.color.status_count_msg = brown
+2018-09-16 23:37:06		  weechat.color.status_count_other = default
+2018-09-16 23:37:06		  weechat.color.status_count_private = green
+2018-09-16 23:37:06		  weechat.color.status_data_highlight = lightmagenta
+2018-09-16 23:37:06		  weechat.color.status_data_msg = yellow
+2018-09-16 23:37:06		  weechat.color.status_data_other = default
+2018-09-16 23:37:06		  weechat.color.status_data_private = lightgreen
+2018-09-16 23:37:06		  weechat.color.status_filter = green
+2018-09-16 23:37:06		  weechat.color.status_more = yellow
+2018-09-16 23:37:06		  weechat.color.status_mouse = green
+2018-09-16 23:37:06		  weechat.color.status_name = white
+2018-09-16 23:37:06		  weechat.color.status_name_ssl = lightgreen
+2018-09-16 23:37:06		  weechat.color.status_nicklist_count = default
+2018-09-16 23:37:06		  weechat.color.status_number = yellow
+2018-09-16 23:37:06		  weechat.color.status_time = default
+2018-09-16 23:37:06		[completion] (weechat.conf)
+2018-09-16 23:37:06		  weechat.completion.base_word_until_cursor = on
+2018-09-16 23:37:06		  weechat.completion.command_inline = on
+2018-09-16 23:37:06		  weechat.completion.default_template = "%(nicks)|%(irc_channels)"
+2018-09-16 23:37:06		  weechat.completion.nick_add_space = on
+2018-09-16 23:37:06		  weechat.completion.nick_case_sensitive = off
+2018-09-16 23:37:06		  weechat.completion.nick_completer = ":"
+2018-09-16 23:37:06		  weechat.completion.nick_first_only = off
+2018-09-16 23:37:06		  weechat.completion.nick_ignore_chars = "[]`_-^"
+2018-09-16 23:37:06		  weechat.completion.partial_completion_alert = on
+2018-09-16 23:37:06		  weechat.completion.partial_completion_command = off
+2018-09-16 23:37:06		  weechat.completion.partial_completion_command_arg = off
+2018-09-16 23:37:06		  weechat.completion.partial_completion_count = on
+2018-09-16 23:37:06		  weechat.completion.partial_completion_other = off
+2018-09-16 23:37:06		  weechat.completion.partial_completion_templates = "config_options"
+2018-09-16 23:37:06		[history] (weechat.conf)
+2018-09-16 23:37:06		  weechat.history.display_default = 5
+2018-09-16 23:37:06		  weechat.history.max_buffer_lines_minutes = 0
+2018-09-16 23:37:06		  weechat.history.max_buffer_lines_number = 4096
+2018-09-16 23:37:06		  weechat.history.max_commands = 100
+2018-09-16 23:37:06		  weechat.history.max_visited_buffers = 50
+2018-09-16 23:37:06		[network] (weechat.conf)
+2018-09-16 23:37:06		  weechat.network.connection_timeout = 60
+2018-09-16 23:37:06		  weechat.network.gnutls_ca_file = "/etc/ssl/certs/ca-certificates.crt"
+2018-09-16 23:37:06		  weechat.network.gnutls_handshake_timeout = 30
+2018-09-16 23:37:06		  weechat.network.proxy_curl = ""
+2018-09-16 23:37:06		[plugin] (weechat.conf)
+2018-09-16 23:37:06		  weechat.plugin.autoload = "*"
+2018-09-16 23:37:06		  weechat.plugin.debug = off
+2018-09-16 23:37:06		  weechat.plugin.extension = ".so,.dll"
+2018-09-16 23:37:06		  weechat.plugin.path = "%h/plugins"
+2018-09-16 23:37:06		  weechat.plugin.save_config_on_unload = on
+2018-09-16 23:37:06		[bar] (weechat.conf)
+2018-09-16 23:37:06		  weechat.bar.buflist.color_bg = default
+2018-09-16 23:37:06		  weechat.bar.buflist.color_delim = default
+2018-09-16 23:37:06		  weechat.bar.buflist.color_fg = default
+2018-09-16 23:37:06		  weechat.bar.buflist.conditions = ""
+2018-09-16 23:37:06		  weechat.bar.buflist.filling_left_right = vertical
+2018-09-16 23:37:06		  weechat.bar.buflist.filling_top_bottom = columns_vertical
+2018-09-16 23:37:06		  weechat.bar.buflist.hidden = off
+2018-09-16 23:37:06		  weechat.bar.buflist.items = "buflist"  (default: "")
+2018-09-16 23:37:06		  weechat.bar.buflist.position = left
+2018-09-16 23:37:06		  weechat.bar.buflist.priority = 0
+2018-09-16 23:37:06		  weechat.bar.buflist.separator = on
+2018-09-16 23:37:06		  weechat.bar.buflist.size = 0
+2018-09-16 23:37:06		  weechat.bar.buflist.size_max = 0
+2018-09-16 23:37:06		  weechat.bar.buflist.type = root
+2018-09-16 23:37:06		  weechat.bar.fset.color_bg = default
+2018-09-16 23:37:06		  weechat.bar.fset.color_delim = cyan
+2018-09-16 23:37:06		  weechat.bar.fset.color_fg = default
+2018-09-16 23:37:06		  weechat.bar.fset.conditions = "${buffer.full_name} == fset.fset"
+2018-09-16 23:37:06		  weechat.bar.fset.filling_left_right = vertical
+2018-09-16 23:37:06		  weechat.bar.fset.filling_top_bottom = horizontal
+2018-09-16 23:37:06		  weechat.bar.fset.hidden = off
+2018-09-16 23:37:06		  weechat.bar.fset.items = "fset"  (default: "")
+2018-09-16 23:37:06		  weechat.bar.fset.position = top
+2018-09-16 23:37:06		  weechat.bar.fset.priority = 0
+2018-09-16 23:37:06		  weechat.bar.fset.separator = on
+2018-09-16 23:37:06		  weechat.bar.fset.size = 3
+2018-09-16 23:37:06		  weechat.bar.fset.size_max = 3
+2018-09-16 23:37:06		  weechat.bar.fset.type = window
+2018-09-16 23:37:06		  weechat.bar.input.color_bg = default
+2018-09-16 23:37:06		  weechat.bar.input.color_delim = cyan
+2018-09-16 23:37:06		  weechat.bar.input.color_fg = default
+2018-09-16 23:37:06		  weechat.bar.input.conditions = ""
+2018-09-16 23:37:06		  weechat.bar.input.filling_left_right = vertical
+2018-09-16 23:37:06		  weechat.bar.input.filling_top_bottom = horizontal
+2018-09-16 23:37:06		  weechat.bar.input.hidden = off
+2018-09-16 23:37:06		  weechat.bar.input.items = "[input_prompt]+(away),[input_search],[input_paste],input_text"
+2018-09-16 23:37:06		  weechat.bar.input.position = bottom
+2018-09-16 23:37:06		  weechat.bar.input.priority = 1000
+2018-09-16 23:37:06		  weechat.bar.input.separator = off
+2018-09-16 23:37:06		  weechat.bar.input.size = 1
+2018-09-16 23:37:06		  weechat.bar.input.size_max = 0
+2018-09-16 23:37:06		  weechat.bar.input.type = window
+2018-09-16 23:37:06		  weechat.bar.nicklist.color_bg = default
+2018-09-16 23:37:06		  weechat.bar.nicklist.color_delim = cyan
+2018-09-16 23:37:06		  weechat.bar.nicklist.color_fg = default
+2018-09-16 23:37:06		  weechat.bar.nicklist.conditions = "${nicklist}"
+2018-09-16 23:37:06		  weechat.bar.nicklist.filling_left_right = vertical
+2018-09-16 23:37:06		  weechat.bar.nicklist.filling_top_bottom = columns_vertical
+2018-09-16 23:37:06		  weechat.bar.nicklist.hidden = off
+2018-09-16 23:37:06		  weechat.bar.nicklist.items = "buffer_nicklist"
+2018-09-16 23:37:06		  weechat.bar.nicklist.position = right
+2018-09-16 23:37:06		  weechat.bar.nicklist.priority = 200
+2018-09-16 23:37:06		  weechat.bar.nicklist.separator = on
+2018-09-16 23:37:06		  weechat.bar.nicklist.size = 0
+2018-09-16 23:37:06		  weechat.bar.nicklist.size_max = 0
+2018-09-16 23:37:06		  weechat.bar.nicklist.type = window
+2018-09-16 23:37:06		  weechat.bar.status.color_bg = blue
+2018-09-16 23:37:06		  weechat.bar.status.color_delim = cyan
+2018-09-16 23:37:06		  weechat.bar.status.color_fg = default
+2018-09-16 23:37:06		  weechat.bar.status.conditions = ""
+2018-09-16 23:37:06		  weechat.bar.status.filling_left_right = vertical
+2018-09-16 23:37:06		  weechat.bar.status.filling_top_bottom = horizontal
+2018-09-16 23:37:06		  weechat.bar.status.hidden = off
+2018-09-16 23:37:06		  weechat.bar.status.items = "[time],[buffer_last_number],[buffer_plugin],buffer_number+:+buffer_name+(buffer_modes)+{buffer_nicklist_count}+buffer_zoom+buffer_filter,scroll,[lag],[hotlist],completion"
+2018-09-16 23:37:06		  weechat.bar.status.position = bottom
+2018-09-16 23:37:06		  weechat.bar.status.priority = 500
+2018-09-16 23:37:06		  weechat.bar.status.separator = off
+2018-09-16 23:37:06		  weechat.bar.status.size = 1
+2018-09-16 23:37:06		  weechat.bar.status.size_max = 0
+2018-09-16 23:37:06		  weechat.bar.status.type = window
+2018-09-16 23:37:06		  weechat.bar.title.color_bg = blue
+2018-09-16 23:37:06		  weechat.bar.title.color_delim = cyan
+2018-09-16 23:37:06		  weechat.bar.title.color_fg = default
+2018-09-16 23:37:06		  weechat.bar.title.conditions = ""
+2018-09-16 23:37:06		  weechat.bar.title.filling_left_right = vertical
+2018-09-16 23:37:06		  weechat.bar.title.filling_top_bottom = horizontal
+2018-09-16 23:37:06		  weechat.bar.title.hidden = off
+2018-09-16 23:37:06		  weechat.bar.title.items = "buffer_title"
+2018-09-16 23:37:06		  weechat.bar.title.position = top
+2018-09-16 23:37:06		  weechat.bar.title.priority = 500
+2018-09-16 23:37:06		  weechat.bar.title.separator = off
+2018-09-16 23:37:06		  weechat.bar.title.size = 1
+2018-09-16 23:37:06		  weechat.bar.title.size_max = 0
+2018-09-16 23:37:06		  weechat.bar.title.type = window
+2018-09-16 23:37:06		[default] (charset.conf)
+2018-09-16 23:37:06		  charset.default.decode = "iso-8859-1"
+2018-09-16 23:37:06		  charset.default.encode = ""
+2018-09-16 23:37:06		[look] (logger.conf)
+2018-09-16 23:37:06		  logger.look.backlog = 20
+2018-09-16 23:37:06		  logger.look.backlog_conditions = ""
+2018-09-16 23:37:06		[color] (logger.conf)
+2018-09-16 23:37:06		  logger.color.backlog_end = default
+2018-09-16 23:37:06		  logger.color.backlog_line = default
+2018-09-16 23:37:06		[file] (logger.conf)
+2018-09-16 23:37:06		  logger.file.auto_log = on
+2018-09-16 23:37:06		  logger.file.flush_delay = 120
+2018-09-16 23:37:06		  logger.file.fsync = off
+2018-09-16 23:37:06		  logger.file.info_lines = off
+2018-09-16 23:37:06		  logger.file.mask = "$plugin.$name.weechatlog"
+2018-09-16 23:37:06		  logger.file.name_lower_case = on
+2018-09-16 23:37:06		  logger.file.nick_prefix = ""
+2018-09-16 23:37:06		  logger.file.nick_suffix = ""
+2018-09-16 23:37:06		  logger.file.path = "%h/logs/"
+2018-09-16 23:37:06		  logger.file.replacement_char = "_"
+2018-09-16 23:37:06		  logger.file.time_format = "%Y-%m-%d %H:%M:%S"
+2018-09-16 23:37:06		[command] (exec.conf)
+2018-09-16 23:37:06		  exec.command.default_options = ""
+2018-09-16 23:37:06		  exec.command.purge_delay = 0
+2018-09-16 23:37:06		[color] (exec.conf)
+2018-09-16 23:37:06		  exec.color.flag_finished = lightred
+2018-09-16 23:37:06		  exec.color.flag_running = lightgreen
+2018-09-16 23:37:06		[look] (trigger.conf)
+2018-09-16 23:37:06		  trigger.look.enabled = on
+2018-09-16 23:37:06		  trigger.look.monitor_strip_colors = off
+2018-09-16 23:37:06		[color] (trigger.conf)
+2018-09-16 23:37:06		  trigger.color.flag_command = lightgreen
+2018-09-16 23:37:06		  trigger.color.flag_conditions = yellow
+2018-09-16 23:37:06		  trigger.color.flag_post_action = lightblue
+2018-09-16 23:37:06		  trigger.color.flag_regex = lightcyan
+2018-09-16 23:37:06		  trigger.color.flag_return_code = lightmagenta
+2018-09-16 23:37:06		  trigger.color.regex = white
+2018-09-16 23:37:06		  trigger.color.replace = cyan
+2018-09-16 23:37:06		  trigger.color.trigger = green
+2018-09-16 23:37:06		  trigger.color.trigger_disabled = red
+2018-09-16 23:37:06		[trigger] (trigger.conf)
+2018-09-16 23:37:06		  trigger.trigger.beep.arguments = ""
+2018-09-16 23:37:06		  trigger.trigger.beep.command = "/print -beep"
+2018-09-16 23:37:06		  trigger.trigger.beep.conditions = "${tg_displayed} && (${tg_highlight} || ${tg_msg_pv})"
+2018-09-16 23:37:06		  trigger.trigger.beep.enabled = on
+2018-09-16 23:37:06		  trigger.trigger.beep.hook = print
+2018-09-16 23:37:06		  trigger.trigger.beep.post_action = none
+2018-09-16 23:37:06		  trigger.trigger.beep.regex = ""
+2018-09-16 23:37:06		  trigger.trigger.beep.return_code = ok
+2018-09-16 23:37:06		  trigger.trigger.cmd_pass.arguments = "5000|input_text_display;5000|history_add;5000|irc_command_auth"
+2018-09-16 23:37:06		  trigger.trigger.cmd_pass.command = ""
+2018-09-16 23:37:06		  trigger.trigger.cmd_pass.conditions = ""
+2018-09-16 23:37:06		  trigger.trigger.cmd_pass.enabled = on
+2018-09-16 23:37:06		  trigger.trigger.cmd_pass.hook = modifier
+2018-09-16 23:37:06		  trigger.trigger.cmd_pass.post_action = none
+2018-09-16 23:37:06		  trigger.trigger.cmd_pass.regex = "==^((/(msg|m|quote) +(-server +[^ ]+ +)?nickserv +(id|identify|set +password|ghost +[^ ]+|release +[^ ]+|regain +[^ ]+|recover +[^ ]+) +)|/oper +[^ ]+ +|/quote +pass +|/set +[^ ]*password[^ ]* +|/secure +(passphrase|decrypt|set +[^ ]+) +)(.*)==${re:1}${hide:*,${re:+}}"
+2018-09-16 23:37:06		  trigger.trigger.cmd_pass.return_code = ok
+2018-09-16 23:37:06		  trigger.trigger.cmd_pass_register.arguments = "5000|input_text_display;5000|history_add;5000|irc_command_auth"
+2018-09-16 23:37:06		  trigger.trigger.cmd_pass_register.command = ""
+2018-09-16 23:37:06		  trigger.trigger.cmd_pass_register.conditions = ""
+2018-09-16 23:37:06		  trigger.trigger.cmd_pass_register.enabled = on
+2018-09-16 23:37:06		  trigger.trigger.cmd_pass_register.hook = modifier
+2018-09-16 23:37:06		  trigger.trigger.cmd_pass_register.post_action = none
+2018-09-16 23:37:06		  trigger.trigger.cmd_pass_register.regex = "==^(/(msg|m|quote) +nickserv +register +)([^ ]+)(.*)==${re:1}${hide:*,${re:3}}${re:4}"
+2018-09-16 23:37:06		  trigger.trigger.cmd_pass_register.return_code = ok
+2018-09-16 23:37:06		  trigger.trigger.msg_auth.arguments = "5000|irc_message_auth"
+2018-09-16 23:37:06		  trigger.trigger.msg_auth.command = ""
+2018-09-16 23:37:06		  trigger.trigger.msg_auth.conditions = ""
+2018-09-16 23:37:06		  trigger.trigger.msg_auth.enabled = on
+2018-09-16 23:37:06		  trigger.trigger.msg_auth.hook = modifier
+2018-09-16 23:37:06		  trigger.trigger.msg_auth.post_action = none
+2018-09-16 23:37:06		  trigger.trigger.msg_auth.regex = "==^(.*(id|identify|set +password|register|ghost +[^ ]+|release +[^ ]+|regain +[^ ]+|recover +[^ ]+) +)(.*)==${re:1}${hide:*,${re:+}}"
+2018-09-16 23:37:06		  trigger.trigger.msg_auth.return_code = ok
+2018-09-16 23:37:06		  trigger.trigger.server_pass.arguments = "5000|input_text_display;5000|history_add"
+2018-09-16 23:37:06		  trigger.trigger.server_pass.command = ""
+2018-09-16 23:37:06		  trigger.trigger.server_pass.conditions = ""
+2018-09-16 23:37:06		  trigger.trigger.server_pass.enabled = on
+2018-09-16 23:37:06		  trigger.trigger.server_pass.hook = modifier
+2018-09-16 23:37:06		  trigger.trigger.server_pass.post_action = none
+2018-09-16 23:37:06		  trigger.trigger.server_pass.regex = "==^(/(server|connect) .*-(sasl_)?password=)([^ ]+)(.*)==${re:1}${hide:*,${re:4}}${re:5}"
+2018-09-16 23:37:06		  trigger.trigger.server_pass.return_code = ok
+2018-09-16 23:37:06		[color] (aspell.conf)
+2018-09-16 23:37:06		  aspell.color.misspelled = lightred
+2018-09-16 23:37:06		  aspell.color.suggestion = default
+2018-09-16 23:37:06		  aspell.color.suggestion_delimiter_dict = cyan
+2018-09-16 23:37:06		  aspell.color.suggestion_delimiter_word = cyan
+2018-09-16 23:37:06		[check] (aspell.conf)
+2018-09-16 23:37:06		  aspell.check.commands = "ame,amsg,away,command,cycle,kick,kickban,me,msg,notice,part,query,quit,topic"
+2018-09-16 23:37:06		  aspell.check.default_dict = ""
+2018-09-16 23:37:06		  aspell.check.during_search = off
+2018-09-16 23:37:06		  aspell.check.enabled = off
+2018-09-16 23:37:06		  aspell.check.real_time = off
+2018-09-16 23:37:06		  aspell.check.suggestions = -1
+2018-09-16 23:37:06		  aspell.check.word_min_length = 2
+2018-09-16 23:37:06		[look] (aspell.conf)
+2018-09-16 23:37:06		  aspell.look.suggestion_delimiter_dict = " / "
+2018-09-16 23:37:06		  aspell.look.suggestion_delimiter_word = ","
+2018-09-16 23:37:06		[cmd] (alias.conf)
+2018-09-16 23:37:06		  alias.cmd.AAWAY = "allserv /away"
+2018-09-16 23:37:06		  alias.cmd.AME = "allchan /me"
+2018-09-16 23:37:06		  alias.cmd.AMSG = "allchan /msg *"
+2018-09-16 23:37:06		  alias.cmd.ANICK = "allserv /nick"
+2018-09-16 23:37:06		  alias.cmd.BEEP = "print -beep"
+2018-09-16 23:37:06		  alias.cmd.BYE = "quit"
+2018-09-16 23:37:06		  alias.cmd.C = "buffer clear"
+2018-09-16 23:37:06		  alias.cmd.CHAT = "dcc chat"
+2018-09-16 23:37:06		  alias.cmd.CL = "buffer clear"
+2018-09-16 23:37:06		  alias.cmd.CLOSE = "buffer close"
+2018-09-16 23:37:06		  alias.cmd.EXIT = "quit"
+2018-09-16 23:37:06		  alias.cmd.IG = "ignore"
+2018-09-16 23:37:06		  alias.cmd.J = "join"
+2018-09-16 23:37:06		  alias.cmd.K = "kick"
+2018-09-16 23:37:06		  alias.cmd.KB = "kickban"
+2018-09-16 23:37:06		  alias.cmd.LEAVE = "part"
+2018-09-16 23:37:06		  alias.cmd.M = "msg"
+2018-09-16 23:37:06		  alias.cmd.MSGBUF = "command -buffer $1 * /input send $2-"
+2018-09-16 23:37:06		  alias.cmd.MUB = "unban *"
+2018-09-16 23:37:06		  alias.cmd.N = "names"
+2018-09-16 23:37:06		  alias.cmd.Q = "query"
+2018-09-16 23:37:06		  alias.cmd.REDRAW = "window refresh"
+2018-09-16 23:37:06		  alias.cmd.SAY = "msg *"
+2018-09-16 23:37:06		  alias.cmd.SIGNOFF = "quit"
+2018-09-16 23:37:06		  alias.cmd.T = "topic"
+2018-09-16 23:37:06		  alias.cmd.UB = "unban"
+2018-09-16 23:37:06		  alias.cmd.UMODE = "mode $nick"
+2018-09-16 23:37:06		  alias.cmd.V = "command core version"
+2018-09-16 23:37:06		  alias.cmd.W = "who"
+2018-09-16 23:37:06		  alias.cmd.WC = "window merge"
+2018-09-16 23:37:06		  alias.cmd.WI = "whois"
+2018-09-16 23:37:06		  alias.cmd.WII = "whois $1 $1"
+2018-09-16 23:37:06		  alias.cmd.WW = "whowas"
+2018-09-16 23:37:06		[completion] (alias.conf)
+2018-09-16 23:37:06		  alias.completion.MSGBUF = "%(buffers_plugins_names)"
+2018-09-16 23:37:06		[look] (buflist.conf)
+2018-09-16 23:37:06		  buflist.look.add_newline = on
+2018-09-16 23:37:06		  buflist.look.auto_scroll = 50
+2018-09-16 23:37:06		  buflist.look.display_conditions = "${buffer.hidden}==0"
+2018-09-16 23:37:06		  buflist.look.enabled = on
+2018-09-16 23:37:06		  buflist.look.mouse_jump_visited_buffer = off
+2018-09-16 23:37:06		  buflist.look.mouse_move_buffer = on
+2018-09-16 23:37:06		  buflist.look.mouse_wheel = on
+2018-09-16 23:37:06		  buflist.look.nick_prefix = off
+2018-09-16 23:37:06		  buflist.look.nick_prefix_empty = on
+2018-09-16 23:37:06		  buflist.look.signals_refresh = ""
+2018-09-16 23:37:06		  buflist.look.sort = "number,-active"
+2018-09-16 23:37:06		[format] (buflist.conf)
+2018-09-16 23:37:06		  buflist.format.buffer = "${format_number}${indent}${format_nick_prefix}${color_hotlist}${format_name}"
+2018-09-16 23:37:06		  buflist.format.buffer_current = "${color:,blue}${format_buffer}"
+2018-09-16 23:37:06		  buflist.format.hotlist = " ${color:green}(${hotlist}${color:green})"
+2018-09-16 23:37:06		  buflist.format.hotlist_highlight = "${color:magenta}"
+2018-09-16 23:37:06		  buflist.format.hotlist_low = "${color:white}"
+2018-09-16 23:37:06		  buflist.format.hotlist_message = "${color:brown}"
+2018-09-16 23:37:06		  buflist.format.hotlist_none = "${color:default}"
+2018-09-16 23:37:06		  buflist.format.hotlist_private = "${color:green}"
+2018-09-16 23:37:06		  buflist.format.hotlist_separator = "${color:default},"
+2018-09-16 23:37:06		  buflist.format.indent = "  "
+2018-09-16 23:37:06		  buflist.format.lag = " ${color:green}[${color:brown}${lag}${color:green}]"
+2018-09-16 23:37:06		  buflist.format.name = "${name}"
+2018-09-16 23:37:06		  buflist.format.nick_prefix = "${color_nick_prefix}${nick_prefix}"
+2018-09-16 23:37:06		  buflist.format.number = "${color:green}${number}${if:${number_displayed}?.: }"
+2018-09-16 23:37:06		[file] (fifo.conf)
+2018-09-16 23:37:06		  fifo.file.enabled = on
+2018-09-16 23:37:06		  fifo.file.path = "%h/weechat_fifo"
+2018-09-16 23:37:06		[look] (xfer.conf)
+2018-09-16 23:37:06		  xfer.look.auto_open_buffer = on
+2018-09-16 23:37:06		  xfer.look.progress_bar_size = 20
+2018-09-16 23:37:06		  xfer.look.pv_tags = "notify_private"
+2018-09-16 23:37:06		[color] (xfer.conf)
+2018-09-16 23:37:06		  xfer.color.status_aborted = lightred
+2018-09-16 23:37:06		  xfer.color.status_active = lightblue
+2018-09-16 23:37:06		  xfer.color.status_connecting = yellow
+2018-09-16 23:37:06		  xfer.color.status_done = lightgreen
+2018-09-16 23:37:06		  xfer.color.status_failed = lightred
+2018-09-16 23:37:06		  xfer.color.status_waiting = lightcyan
+2018-09-16 23:37:06		  xfer.color.text = default
+2018-09-16 23:37:06		  xfer.color.text_bg = default
+2018-09-16 23:37:06		  xfer.color.text_selected = white
+2018-09-16 23:37:06		[network] (xfer.conf)
+2018-09-16 23:37:06		  xfer.network.blocksize = 65536
+2018-09-16 23:37:06		  xfer.network.fast_send = on
+2018-09-16 23:37:06		  xfer.network.own_ip = ""
+2018-09-16 23:37:06		  xfer.network.port_range = ""
+2018-09-16 23:37:06		  xfer.network.send_ack = on
+2018-09-16 23:37:06		  xfer.network.speed_limit = 0
+2018-09-16 23:37:06		  xfer.network.timeout = 300
+2018-09-16 23:37:06		[file] (xfer.conf)
+2018-09-16 23:37:06		  xfer.file.auto_accept_chats = off
+2018-09-16 23:37:06		  xfer.file.auto_accept_files = off
+2018-09-16 23:37:06		  xfer.file.auto_accept_nicks = ""
+2018-09-16 23:37:06		  xfer.file.auto_check_crc32 = off
+2018-09-16 23:37:06		  xfer.file.auto_rename = on
+2018-09-16 23:37:06		  xfer.file.auto_resume = on
+2018-09-16 23:37:06		  xfer.file.convert_spaces = on
+2018-09-16 23:37:06		  xfer.file.download_path = "%h/xfer"
+2018-09-16 23:37:06		  xfer.file.upload_path = "~"
+2018-09-16 23:37:06		  xfer.file.use_nick_in_filename = on
+2018-09-16 23:37:06		[look] (irc.conf)
+2018-09-16 23:37:06		  irc.look.buffer_open_before_autojoin = on
+2018-09-16 23:37:06		  irc.look.buffer_open_before_join = off
+2018-09-16 23:37:06		  irc.look.buffer_switch_autojoin = on
+2018-09-16 23:37:06		  irc.look.buffer_switch_join = on
+2018-09-16 23:37:06		  irc.look.color_nicks_in_names = off
+2018-09-16 23:37:06		  irc.look.color_nicks_in_nicklist = off
+2018-09-16 23:37:06		  irc.look.color_nicks_in_server_messages = on
+2018-09-16 23:37:06		  irc.look.color_pv_nick_like_channel = on
+2018-09-16 23:37:06		  irc.look.ctcp_time_format = "%a, %d %b %Y %T %z"
+2018-09-16 23:37:06		  irc.look.display_away = local
+2018-09-16 23:37:06		  irc.look.display_ctcp_blocked = on
+2018-09-16 23:37:06		  irc.look.display_ctcp_reply = on
+2018-09-16 23:37:06		  irc.look.display_ctcp_unknown = on
+2018-09-16 23:37:06		  irc.look.display_host_join = on
+2018-09-16 23:37:06		  irc.look.display_host_join_local = on
+2018-09-16 23:37:06		  irc.look.display_host_quit = on
+2018-09-16 23:37:06		  irc.look.display_join_message = "329,332,333,366"
+2018-09-16 23:37:06		  irc.look.display_old_topic = on
+2018-09-16 23:37:06		  irc.look.display_pv_away_once = on
+2018-09-16 23:37:06		  irc.look.display_pv_back = on
+2018-09-16 23:37:06		  irc.look.highlight_channel = "$nick"
+2018-09-16 23:37:06		  irc.look.highlight_pv = "$nick"
+2018-09-16 23:37:06		  irc.look.highlight_server = "$nick"
+2018-09-16 23:37:06		  irc.look.highlight_tags_restrict = "irc_privmsg,irc_notice"
+2018-09-16 23:37:06		  irc.look.item_channel_modes_hide_args = "k"
+2018-09-16 23:37:06		  irc.look.item_display_server = buffer_plugin
+2018-09-16 23:37:06		  irc.look.item_nick_modes = on
+2018-09-16 23:37:06		  irc.look.item_nick_prefix = on
+2018-09-16 23:37:06		  irc.look.join_auto_add_chantype = off
+2018-09-16 23:37:06		  irc.look.msgbuffer_fallback = current
+2018-09-16 23:37:06		  irc.look.new_channel_position = none
+2018-09-16 23:37:06		  irc.look.new_pv_position = none
+2018-09-16 23:37:06		  irc.look.nick_completion_smart = speakers
+2018-09-16 23:37:06		  irc.look.nick_mode = prefix
+2018-09-16 23:37:06		  irc.look.nick_mode_empty = off
+2018-09-16 23:37:06		  irc.look.nicks_hide_password = "nickserv"
+2018-09-16 23:37:06		  irc.look.notice_as_pv = auto
+2018-09-16 23:37:06		  irc.look.notice_welcome_redirect = on
+2018-09-16 23:37:06		  irc.look.notice_welcome_tags = ""
+2018-09-16 23:37:06		  irc.look.notify_tags_ison = "notify_message"
+2018-09-16 23:37:06		  irc.look.notify_tags_whois = "notify_message"
+2018-09-16 23:37:06		  irc.look.part_closes_buffer = off
+2018-09-16 23:37:06		  irc.look.pv_buffer = independent
+2018-09-16 23:37:06		  irc.look.pv_tags = "notify_private"
+2018-09-16 23:37:06		  irc.look.raw_messages = 256
+2018-09-16 23:37:06		  irc.look.server_buffer = merge_with_core
+2018-09-16 23:37:06		  irc.look.smart_filter = on
+2018-09-16 23:37:06		  irc.look.smart_filter_chghost = on
+2018-09-16 23:37:06		  irc.look.smart_filter_delay = 5
+2018-09-16 23:37:06		  irc.look.smart_filter_join = on
+2018-09-16 23:37:06		  irc.look.smart_filter_join_unmask = 30
+2018-09-16 23:37:06		  irc.look.smart_filter_mode = "+"
+2018-09-16 23:37:06		  irc.look.smart_filter_nick = on
+2018-09-16 23:37:06		  irc.look.smart_filter_quit = on
+2018-09-16 23:37:06		  irc.look.temporary_servers = off
+2018-09-16 23:37:06		  irc.look.topic_strip_colors = off
+2018-09-16 23:37:06		[color] (irc.conf)
+2018-09-16 23:37:06		  irc.color.input_nick = lightcyan
+2018-09-16 23:37:06		  irc.color.item_channel_modes = default
+2018-09-16 23:37:06		  irc.color.item_lag_counting = default
+2018-09-16 23:37:06		  irc.color.item_lag_finished = yellow
+2018-09-16 23:37:06		  irc.color.item_nick_modes = default
+2018-09-16 23:37:06		  irc.color.message_chghost = brown
+2018-09-16 23:37:06		  irc.color.message_join = green
+2018-09-16 23:37:06		  irc.color.message_quit = red
+2018-09-16 23:37:06		  irc.color.mirc_remap = "1,-1:darkgray"
+2018-09-16 23:37:06		  irc.color.nick_prefixes = "y:lightred;q:lightred;a:lightcyan;o:lightgreen;h:lightmagenta;v:yellow;*:lightblue"
+2018-09-16 23:37:06		  irc.color.notice = green
+2018-09-16 23:37:06		  irc.color.reason_quit = default
+2018-09-16 23:37:06		  irc.color.topic_current = default
+2018-09-16 23:37:06		  irc.color.topic_new = white
+2018-09-16 23:37:06		  irc.color.topic_old = default
+2018-09-16 23:37:06		[network] (irc.conf)
+2018-09-16 23:37:06		  irc.network.autoreconnect_delay_growing = 2
+2018-09-16 23:37:06		  irc.network.autoreconnect_delay_max = 600
+2018-09-16 23:37:06		  irc.network.ban_mask_default = "*!$ident@$host"
+2018-09-16 23:37:06		  irc.network.channel_encode = off
+2018-09-16 23:37:06		  irc.network.colors_receive = on
+2018-09-16 23:37:06		  irc.network.colors_send = on
+2018-09-16 23:37:06		  irc.network.lag_check = 60
+2018-09-16 23:37:06		  irc.network.lag_max = 1800
+2018-09-16 23:37:06		  irc.network.lag_min_show = 500
+2018-09-16 23:37:06		  irc.network.lag_reconnect = 300
+2018-09-16 23:37:06		  irc.network.lag_refresh_interval = 1
+2018-09-16 23:37:06		  irc.network.notify_check_ison = 1
+2018-09-16 23:37:06		  irc.network.notify_check_whois = 5
+2018-09-16 23:37:06		  irc.network.sasl_fail_unavailable = on
+2018-09-16 23:37:06		  irc.network.send_unknown_commands = off
+2018-09-16 23:37:06		  irc.network.whois_double_nick = off
+2018-09-16 23:37:06		[server_default] (irc.conf)
+2018-09-16 23:37:06		  irc.server_default.addresses = ""
+2018-09-16 23:37:06		  irc.server_default.anti_flood_prio_high = 2
+2018-09-16 23:37:06		  irc.server_default.anti_flood_prio_low = 2
+2018-09-16 23:37:06		  irc.server_default.autoconnect = off
+2018-09-16 23:37:06		  irc.server_default.autojoin = ""
+2018-09-16 23:37:06		  irc.server_default.autoreconnect = on
+2018-09-16 23:37:06		  irc.server_default.autoreconnect_delay = 10
+2018-09-16 23:37:06		  irc.server_default.autorejoin = off
+2018-09-16 23:37:06		  irc.server_default.autorejoin_delay = 30
+2018-09-16 23:37:06		  irc.server_default.away_check = 0
+2018-09-16 23:37:06		  irc.server_default.away_check_max_nicks = 25
+2018-09-16 23:37:06		  irc.server_default.capabilities = ""
+2018-09-16 23:37:06		  irc.server_default.command = ""
+2018-09-16 23:37:06		  irc.server_default.command_delay = 0
+2018-09-16 23:37:06		  irc.server_default.connection_timeout = 60
+2018-09-16 23:37:06		  irc.server_default.ipv6 = on
+2018-09-16 23:37:06		  irc.server_default.local_hostname = ""
+2018-09-16 23:37:06		  irc.server_default.msg_kick = ""
+2018-09-16 23:37:06		  irc.server_default.msg_part = "WeeChat ${info:version}"
+2018-09-16 23:37:06		  irc.server_default.msg_quit = "WeeChat ${info:version}"
+2018-09-16 23:37:06		  irc.server_default.nicks = "Kirjava,Colourful,Cake"  (default: "")
+2018-09-16 23:37:06		  irc.server_default.nicks_alternate = on
+2018-09-16 23:37:06		  irc.server_default.notify = ""
+2018-09-16 23:37:06		  irc.server_default.password = ""
+2018-09-16 23:37:06		  irc.server_default.proxy = ""
+2018-09-16 23:37:06		  irc.server_default.realname = ""
+2018-09-16 23:37:06		  irc.server_default.sasl_fail = continue
+2018-09-16 23:37:06		  irc.server_default.sasl_key = ""
+2018-09-16 23:37:06		  irc.server_default.sasl_mechanism = plain
+2018-09-16 23:37:06		  irc.server_default.sasl_password = ""
+2018-09-16 23:37:06		  irc.server_default.sasl_timeout = 15
+2018-09-16 23:37:06		  irc.server_default.sasl_username = ""
+2018-09-16 23:37:06		  irc.server_default.split_msg_max_length = 512
+2018-09-16 23:37:06		  irc.server_default.ssl = off
+2018-09-16 23:37:06		  irc.server_default.ssl_cert = ""
+2018-09-16 23:37:06		  irc.server_default.ssl_dhkey_size = 2048
+2018-09-16 23:37:06		  irc.server_default.ssl_fingerprint = ""
+2018-09-16 23:37:06		  irc.server_default.ssl_priorities = "NORMAL:-VERS-SSL3.0"
+2018-09-16 23:37:06		  irc.server_default.ssl_verify = on
+2018-09-16 23:37:06		  irc.server_default.usermode = ""
+2018-09-16 23:37:06		  irc.server_default.username = ""
+2018-09-16 23:37:06		[server] (irc.conf)
+2018-09-16 23:37:06		  irc.server.badnik.addresses = "irc.badnik.net"  (default if null: "")
+2018-09-16 23:37:06		  irc.server.badnik.anti_flood_prio_high = null -> 2
+2018-09-16 23:37:06		  irc.server.badnik.anti_flood_prio_low = null -> 2
+2018-09-16 23:37:06		  irc.server.badnik.autoconnect = on  (default if null: off)
+2018-09-16 23:37:06		  irc.server.badnik.autojoin = "#boom,#ssrg"  (default if null: "")
+2018-09-16 23:37:06		  irc.server.badnik.autoreconnect = null -> on
+2018-09-16 23:37:06		  irc.server.badnik.autoreconnect_delay = null -> 10
+2018-09-16 23:37:06		  irc.server.badnik.autorejoin = null -> off
+2018-09-16 23:37:06		  irc.server.badnik.autorejoin_delay = null -> 30
+2018-09-16 23:37:06		  irc.server.badnik.away_check = null -> 0
+2018-09-16 23:37:06		  irc.server.badnik.away_check_max_nicks = null -> 25
+2018-09-16 23:37:06		  irc.server.badnik.capabilities = null -> ""
+2018-09-16 23:37:06		  irc.server.badnik.command = null -> ""
+2018-09-16 23:37:06		  irc.server.badnik.command_delay = null -> 0
+2018-09-16 23:37:06		  irc.server.badnik.connection_timeout = null -> 60
+2018-09-16 23:37:06		  irc.server.badnik.ipv6 = null -> on
+2018-09-16 23:37:06		  irc.server.badnik.local_hostname = null -> ""
+2018-09-16 23:37:06		  irc.server.badnik.msg_kick = null -> ""
+2018-09-16 23:37:06		  irc.server.badnik.msg_part = null -> "WeeChat ${info:version}"
+2018-09-16 23:37:06		  irc.server.badnik.msg_quit = null -> "WeeChat ${info:version}"
+2018-09-16 23:37:06		  irc.server.badnik.nicks = "snkenjoi,Kirjava"  (default if null: "Kirjava,Colourful,Cake")
+2018-09-16 23:37:06		  irc.server.badnik.nicks_alternate = null -> on
+2018-09-16 23:37:06		  irc.server.badnik.notify = null -> ""
+2018-09-16 23:37:06		  irc.server.badnik.password = null -> ""
+2018-09-16 23:37:06		  irc.server.badnik.proxy = null -> ""
+2018-09-16 23:37:06		  irc.server.badnik.realname = null -> ""
+2018-09-16 23:37:06		  irc.server.badnik.sasl_fail = null -> continue
+2018-09-16 23:37:06		  irc.server.badnik.sasl_key = null -> ""
+2018-09-16 23:37:06		  irc.server.badnik.sasl_mechanism = null -> plain
+2018-09-16 23:37:06		  irc.server.badnik.sasl_password = null -> ""
+2018-09-16 23:37:06		  irc.server.badnik.sasl_timeout = null -> 15
+2018-09-16 23:37:06		  irc.server.badnik.sasl_username = null -> ""
+2018-09-16 23:37:06		  irc.server.badnik.split_msg_max_length = null -> 512
+2018-09-16 23:37:06		  irc.server.badnik.ssl = null -> off
+2018-09-16 23:37:06		  irc.server.badnik.ssl_cert = null -> ""
+2018-09-16 23:37:06		  irc.server.badnik.ssl_dhkey_size = null -> 2048
+2018-09-16 23:37:06		  irc.server.badnik.ssl_fingerprint = null -> ""
+2018-09-16 23:37:06		  irc.server.badnik.ssl_priorities = null -> "NORMAL:-VERS-SSL3.0"
+2018-09-16 23:37:06		  irc.server.badnik.ssl_verify = null -> on
+2018-09-16 23:37:06		  irc.server.badnik.usermode = null -> ""
+2018-09-16 23:37:06		  irc.server.badnik.username = null -> ""
+2018-09-16 23:37:06		  irc.server.freenode.addresses = "irc.freenode.net"  (default if null: "")
+2018-09-16 23:37:06		  irc.server.freenode.anti_flood_prio_high = null -> 2
+2018-09-16 23:37:06		  irc.server.freenode.anti_flood_prio_low = null -> 2
+2018-09-16 23:37:06		  irc.server.freenode.autoconnect = on  (default if null: off)
+2018-09-16 23:37:06		  irc.server.freenode.autojoin = "#rubik,##emudev,#d3.js,##javascript"  (default if null: "")
+2018-09-16 23:37:06		  irc.server.freenode.autoreconnect = null -> on
+2018-09-16 23:37:06		  irc.server.freenode.autoreconnect_delay = null -> 10
+2018-09-16 23:37:06		  irc.server.freenode.autorejoin = null -> off
+2018-09-16 23:37:06		  irc.server.freenode.autorejoin_delay = null -> 30
+2018-09-16 23:37:06		  irc.server.freenode.away_check = null -> 0
+2018-09-16 23:37:06		  irc.server.freenode.away_check_max_nicks = null -> 25
+2018-09-16 23:37:06		  irc.server.freenode.capabilities = null -> ""
+2018-09-16 23:37:06		  irc.server.freenode.command = null -> ""
+2018-09-16 23:37:06		  irc.server.freenode.command_delay = null -> 0
+2018-09-16 23:37:06		  irc.server.freenode.connection_timeout = null -> 60
+2018-09-16 23:37:06		  irc.server.freenode.ipv6 = null -> on
+2018-09-16 23:37:06		  irc.server.freenode.local_hostname = null -> ""
+2018-09-16 23:37:06		  irc.server.freenode.msg_kick = null -> ""
+2018-09-16 23:37:06		  irc.server.freenode.msg_part = null -> "WeeChat ${info:version}"
+2018-09-16 23:37:06		  irc.server.freenode.msg_quit = null -> "WeeChat ${info:version}"
+2018-09-16 23:37:06		  irc.server.freenode.nicks = "Kirjava,Colourful"  (default if null: "Kirjava,Colourful,Cake")
+2018-09-16 23:37:06		  irc.server.freenode.nicks_alternate = null -> on
+2018-09-16 23:37:06		  irc.server.freenode.notify = null -> ""
+2018-09-16 23:37:06		  irc.server.freenode.password = null -> ""
+2018-09-16 23:37:06		  irc.server.freenode.proxy = null -> ""
+2018-09-16 23:37:06		  irc.server.freenode.realname = null -> ""
+2018-09-16 23:37:06		  irc.server.freenode.sasl_fail = null -> continue
+2018-09-16 23:37:06		  irc.server.freenode.sasl_key = null -> ""
+2018-09-16 23:37:06		  irc.server.freenode.sasl_mechanism = null -> plain
+2018-09-16 23:37:06		  irc.server.freenode.sasl_password = null -> ""
+2018-09-16 23:37:06		  irc.server.freenode.sasl_timeout = null -> 15
+2018-09-16 23:37:06		  irc.server.freenode.sasl_username = null -> ""
+2018-09-16 23:37:06		  irc.server.freenode.split_msg_max_length = null -> 512
+2018-09-16 23:37:06		  irc.server.freenode.ssl = null -> off
+2018-09-16 23:37:06		  irc.server.freenode.ssl_cert = null -> ""
+2018-09-16 23:37:06		  irc.server.freenode.ssl_dhkey_size = null -> 2048
+2018-09-16 23:37:06		  irc.server.freenode.ssl_fingerprint = null -> ""
+2018-09-16 23:37:06		  irc.server.freenode.ssl_priorities = null -> "NORMAL:-VERS-SSL3.0"
+2018-09-16 23:37:06		  irc.server.freenode.ssl_verify = null -> on
+2018-09-16 23:37:06		  irc.server.freenode.usermode = null -> ""
+2018-09-16 23:37:06		  irc.server.freenode.username = null -> ""
+2018-09-16 23:37:06		  irc.server.furnet.addresses = "irc.furnet.org"  (default if null: "")
+2018-09-16 23:37:06		  irc.server.furnet.anti_flood_prio_high = null -> 2
+2018-09-16 23:37:06		  irc.server.furnet.anti_flood_prio_low = null -> 2
+2018-09-16 23:37:06		  irc.server.furnet.autoconnect = on  (default if null: off)
+2018-09-16 23:37:06		  irc.server.furnet.autojoin = "#ygbfurs"  (default if null: "")
+2018-09-16 23:37:06		  irc.server.furnet.autoreconnect = null -> on
+2018-09-16 23:37:06		  irc.server.furnet.autoreconnect_delay = null -> 10
+2018-09-16 23:37:06		  irc.server.furnet.autorejoin = null -> off
+2018-09-16 23:37:06		  irc.server.furnet.autorejoin_delay = null -> 30
+2018-09-16 23:37:06		  irc.server.furnet.away_check = null -> 0
+2018-09-16 23:37:06		  irc.server.furnet.away_check_max_nicks = null -> 25
+2018-09-16 23:37:06		  irc.server.furnet.capabilities = null -> ""
+2018-09-16 23:37:06		  irc.server.furnet.command = null -> ""
+2018-09-16 23:37:06		  irc.server.furnet.command_delay = null -> 0
+2018-09-16 23:37:06		  irc.server.furnet.connection_timeout = null -> 60
+2018-09-16 23:37:06		  irc.server.furnet.ipv6 = null -> on
+2018-09-16 23:37:06		  irc.server.furnet.local_hostname = null -> ""
+2018-09-16 23:37:06		  irc.server.furnet.msg_kick = null -> ""
+2018-09-16 23:37:06		  irc.server.furnet.msg_part = null -> "WeeChat ${info:version}"
+2018-09-16 23:37:06		  irc.server.furnet.msg_quit = null -> "WeeChat ${info:version}"
+2018-09-16 23:37:06		  irc.server.furnet.nicks = "Cake,Kirjava"  (default if null: "Kirjava,Colourful,Cake")
+2018-09-16 23:37:06		  irc.server.furnet.nicks_alternate = null -> on
+2018-09-16 23:37:06		  irc.server.furnet.notify = null -> ""
+2018-09-16 23:37:06		  irc.server.furnet.password = null -> ""
+2018-09-16 23:37:06		  irc.server.furnet.proxy = null -> ""
+2018-09-16 23:37:06		  irc.server.furnet.realname = null -> ""
+2018-09-16 23:37:06		  irc.server.furnet.sasl_fail = null -> continue
+2018-09-16 23:37:06		  irc.server.furnet.sasl_key = null -> ""
+2018-09-16 23:37:06		  irc.server.furnet.sasl_mechanism = null -> plain
+2018-09-16 23:37:06		  irc.server.furnet.sasl_password = null -> ""
+2018-09-16 23:37:06		  irc.server.furnet.sasl_timeout = null -> 15
+2018-09-16 23:37:06		  irc.server.furnet.sasl_username = null -> ""
+2018-09-16 23:37:06		  irc.server.furnet.split_msg_max_length = null -> 512
+2018-09-16 23:37:06		  irc.server.furnet.ssl = null -> off
+2018-09-16 23:37:06		  irc.server.furnet.ssl_cert = null -> ""
+2018-09-16 23:37:06		  irc.server.furnet.ssl_dhkey_size = null -> 2048
+2018-09-16 23:37:06		  irc.server.furnet.ssl_fingerprint = null -> ""
+2018-09-16 23:37:06		  irc.server.furnet.ssl_priorities = null -> "NORMAL:-VERS-SSL3.0"
+2018-09-16 23:37:06		  irc.server.furnet.ssl_verify = null -> on
+2018-09-16 23:37:06		  irc.server.furnet.usermode = null -> ""
+2018-09-16 23:37:06		  irc.server.furnet.username = null -> ""
+2018-09-16 23:37:06		  irc.server.mozilla.addresses = "irc.mozilla.org"  (default if null: "")
+2018-09-16 23:37:06		  irc.server.mozilla.anti_flood_prio_high = null -> 2
+2018-09-16 23:37:06		  irc.server.mozilla.anti_flood_prio_low = null -> 2
+2018-09-16 23:37:06		  irc.server.mozilla.autoconnect = on  (default if null: off)
+2018-09-16 23:37:06		  irc.server.mozilla.autojoin = "#rust-beginners,#rust-wasm,#gtk-rs""  (default if null: "")
+2018-09-16 23:37:06		  irc.server.mozilla.autoreconnect = null -> on
+2018-09-16 23:37:06		  irc.server.mozilla.autoreconnect_delay = null -> 10
+2018-09-16 23:37:06		  irc.server.mozilla.autorejoin = null -> off
+2018-09-16 23:37:06		  irc.server.mozilla.autorejoin_delay = null -> 30
+2018-09-16 23:37:06		  irc.server.mozilla.away_check = null -> 0
+2018-09-16 23:37:06		  irc.server.mozilla.away_check_max_nicks = null -> 25
+2018-09-16 23:37:06		  irc.server.mozilla.capabilities = null -> ""
+2018-09-16 23:37:06		  irc.server.mozilla.command = null -> ""
+2018-09-16 23:37:06		  irc.server.mozilla.command_delay = null -> 0
+2018-09-16 23:37:06		  irc.server.mozilla.connection_timeout = null -> 60
+2018-09-16 23:37:06		  irc.server.mozilla.ipv6 = null -> on
+2018-09-16 23:37:06		  irc.server.mozilla.local_hostname = null -> ""
+2018-09-16 23:37:06		  irc.server.mozilla.msg_kick = null -> ""
+2018-09-16 23:37:06		  irc.server.mozilla.msg_part = null -> "WeeChat ${info:version}"
+2018-09-16 23:37:06		  irc.server.mozilla.msg_quit = null -> "WeeChat ${info:version}"
+2018-09-16 23:37:06		  irc.server.mozilla.nicks = "Kirjava,Colourful"  (default if null: "Kirjava,Colourful,Cake")
+2018-09-16 23:37:06		  irc.server.mozilla.nicks_alternate = null -> on
+2018-09-16 23:37:06		  irc.server.mozilla.notify = null -> ""
+2018-09-16 23:37:06		  irc.server.mozilla.password = null -> ""
+2018-09-16 23:37:06		  irc.server.mozilla.proxy = null -> ""
+2018-09-16 23:37:06		  irc.server.mozilla.realname = null -> ""
+2018-09-16 23:37:06		  irc.server.mozilla.sasl_fail = null -> continue
+2018-09-16 23:37:06		  irc.server.mozilla.sasl_key = null -> ""
+2018-09-16 23:37:06		  irc.server.mozilla.sasl_mechanism = null -> plain
+2018-09-16 23:37:06		  irc.server.mozilla.sasl_password = null -> ""
+2018-09-16 23:37:06		  irc.server.mozilla.sasl_timeout = null -> 15
+2018-09-16 23:37:06		  irc.server.mozilla.sasl_username = null -> ""
+2018-09-16 23:37:06		  irc.server.mozilla.split_msg_max_length = null -> 512
+2018-09-16 23:37:06		  irc.server.mozilla.ssl = null -> off
+2018-09-16 23:37:06		  irc.server.mozilla.ssl_cert = null -> ""
+2018-09-16 23:37:06		  irc.server.mozilla.ssl_dhkey_size = null -> 2048
+2018-09-16 23:37:06		  irc.server.mozilla.ssl_fingerprint = null -> ""
+2018-09-16 23:37:06		  irc.server.mozilla.ssl_priorities = null -> "NORMAL:-VERS-SSL3.0"
+2018-09-16 23:37:06		  irc.server.mozilla.ssl_verify = null -> on
+2018-09-16 23:37:06		  irc.server.mozilla.usermode = null -> ""
+2018-09-16 23:37:06		  irc.server.mozilla.username = null -> ""
+2018-09-16 23:37:06		  irc.server.rizon.addresses = "irc.rizon.net"  (default if null: "")
+2018-09-16 23:37:06		  irc.server.rizon.anti_flood_prio_high = null -> 2
+2018-09-16 23:37:06		  irc.server.rizon.anti_flood_prio_low = null -> 2
+2018-09-16 23:37:06		  irc.server.rizon.autoconnect = on  (default if null: off)
+2018-09-16 23:37:06		  irc.server.rizon.autojoin = "#8bitvape,#livingroom,#code,#eggchan"  (default if null: "")
+2018-09-16 23:37:06		  irc.server.rizon.autoreconnect = null -> on
+2018-09-16 23:37:06		  irc.server.rizon.autoreconnect_delay = null -> 10
+2018-09-16 23:37:06		  irc.server.rizon.autorejoin = null -> off
+2018-09-16 23:37:06		  irc.server.rizon.autorejoin_delay = null -> 30
+2018-09-16 23:37:06		  irc.server.rizon.away_check = null -> 0
+2018-09-16 23:37:06		  irc.server.rizon.away_check_max_nicks = null -> 25
+2018-09-16 23:37:06		  irc.server.rizon.capabilities = null -> ""
+2018-09-16 23:37:06		  irc.server.rizon.command = null -> ""
+2018-09-16 23:37:06		  irc.server.rizon.command_delay = null -> 0
+2018-09-16 23:37:06		  irc.server.rizon.connection_timeout = null -> 60
+2018-09-16 23:37:06		  irc.server.rizon.ipv6 = null -> on
+2018-09-16 23:37:06		  irc.server.rizon.local_hostname = null -> ""
+2018-09-16 23:37:06		  irc.server.rizon.msg_kick = null -> ""
+2018-09-16 23:37:06		  irc.server.rizon.msg_part = null -> "WeeChat ${info:version}"
+2018-09-16 23:37:06		  irc.server.rizon.msg_quit = null -> "WeeChat ${info:version}"
+2018-09-16 23:37:06		  irc.server.rizon.nicks = "Kirjava,COlourful"  (default if null: "Kirjava,Colourful,Cake")
+2018-09-16 23:37:06		  irc.server.rizon.nicks_alternate = null -> on
+2018-09-16 23:37:06		  irc.server.rizon.notify = null -> ""
+2018-09-16 23:37:06		  irc.server.rizon.password = null -> ""
+2018-09-16 23:37:06		  irc.server.rizon.proxy = null -> ""
+2018-09-16 23:37:06		  irc.server.rizon.realname = null -> ""
+2018-09-16 23:37:06		  irc.server.rizon.sasl_fail = null -> continue
+2018-09-16 23:37:06		  irc.server.rizon.sasl_key = null -> ""
+2018-09-16 23:37:06		  irc.server.rizon.sasl_mechanism = null -> plain
+2018-09-16 23:37:06		  irc.server.rizon.sasl_password = null -> ""
+2018-09-16 23:37:06		  irc.server.rizon.sasl_timeout = null -> 15
+2018-09-16 23:37:06		  irc.server.rizon.sasl_username = null -> ""
+2018-09-16 23:37:06		  irc.server.rizon.split_msg_max_length = null -> 512
+2018-09-16 23:37:06		  irc.server.rizon.ssl = null -> off
+2018-09-16 23:37:06		  irc.server.rizon.ssl_cert = null -> ""
+2018-09-16 23:37:06		  irc.server.rizon.ssl_dhkey_size = null -> 2048
+2018-09-16 23:37:06		  irc.server.rizon.ssl_fingerprint = null -> ""
+2018-09-16 23:37:06		  irc.server.rizon.ssl_priorities = null -> "NORMAL:-VERS-SSL3.0"
+2018-09-16 23:37:06		  irc.server.rizon.ssl_verify = null -> on
+2018-09-16 23:37:06		  irc.server.rizon.usermode = null -> ""
+2018-09-16 23:37:06		  irc.server.rizon.username = null -> ""
+2018-09-16 23:37:06		[look] (relay.conf)
+2018-09-16 23:37:06		  relay.look.auto_open_buffer = on
+2018-09-16 23:37:06		  relay.look.raw_messages = 256
+2018-09-16 23:37:06		[color] (relay.conf)
+2018-09-16 23:37:06		  relay.color.client = cyan
+2018-09-16 23:37:06		  relay.color.status_active = lightblue
+2018-09-16 23:37:06		  relay.color.status_auth_failed = lightred
+2018-09-16 23:37:06		  relay.color.status_connecting = yellow
+2018-09-16 23:37:06		  relay.color.status_disconnected = lightred
+2018-09-16 23:37:06		  relay.color.status_waiting_auth = brown
+2018-09-16 23:37:06		  relay.color.text = default
+2018-09-16 23:37:06		  relay.color.text_bg = default
+2018-09-16 23:37:06		  relay.color.text_selected = white
+2018-09-16 23:37:06		[network] (relay.conf)
+2018-09-16 23:37:06		  relay.network.allow_empty_password = off
+2018-09-16 23:37:06		  relay.network.allowed_ips = ""
+2018-09-16 23:37:06		  relay.network.bind_address = ""
+2018-09-16 23:37:06		  relay.network.clients_purge_delay = 0
+2018-09-16 23:37:06		  relay.network.compression_level = 6
+2018-09-16 23:37:06		  relay.network.ipv6 = on
+2018-09-16 23:37:06		  relay.network.max_clients = 5
+2018-09-16 23:37:06		  relay.network.password = ""
+2018-09-16 23:37:06		  relay.network.ssl_cert_key = "%h/ssl/relay.pem"
+2018-09-16 23:37:06		  relay.network.ssl_priorities = "NORMAL:-VERS-SSL3.0"
+2018-09-16 23:37:06		  relay.network.websocket_allowed_origins = ""
+2018-09-16 23:37:06		[irc] (relay.conf)
+2018-09-16 23:37:06		  relay.irc.backlog_max_minutes = 1440
+2018-09-16 23:37:06		  relay.irc.backlog_max_number = 256
+2018-09-16 23:37:06		  relay.irc.backlog_since_last_disconnect = on
+2018-09-16 23:37:06		  relay.irc.backlog_since_last_message = off
+2018-09-16 23:37:06		  relay.irc.backlog_tags = "irc_privmsg"
+2018-09-16 23:37:06		  relay.irc.backlog_time_format = "[%H:%M] "
+2018-09-16 23:37:06		[look] (guile.conf)
+2018-09-16 23:37:06		  guile.look.check_license = off
+2018-09-16 23:37:06		  guile.look.eval_keep_context = on
+2018-09-16 23:37:06		[look] (lua.conf)
+2018-09-16 23:37:06		  lua.look.check_license = off
+2018-09-16 23:37:06		  lua.look.eval_keep_context = on
+2018-09-16 23:37:06		[look] (python.conf)
+2018-09-16 23:37:06		  python.look.check_license = off
+2018-09-16 23:37:06		  python.look.eval_keep_context = on
+2018-09-16 23:37:06		[look] (perl.conf)
+2018-09-16 23:37:06		  perl.look.check_license = off
+2018-09-16 23:37:06		  perl.look.eval_keep_context = on
+2018-09-16 23:37:06		[look] (script.conf)
+2018-09-16 23:37:06		  script.look.columns = "%s %n %V %v %u | %d | %t"
+2018-09-16 23:37:06		  script.look.diff_color = on
+2018-09-16 23:37:06		  script.look.diff_command = "auto"
+2018-09-16 23:37:06		  script.look.display_source = on
+2018-09-16 23:37:06		  script.look.quiet_actions = on
+2018-09-16 23:37:06		  script.look.sort = "i,p,n"
+2018-09-16 23:37:06		  script.look.translate_description = on
+2018-09-16 23:37:06		  script.look.use_keys = on
+2018-09-16 23:37:06		[color] (script.conf)
+2018-09-16 23:37:06		  script.color.status_autoloaded = cyan
+2018-09-16 23:37:06		  script.color.status_held = white
+2018-09-16 23:37:06		  script.color.status_installed = lightcyan
+2018-09-16 23:37:06		  script.color.status_obsolete = lightmagenta
+2018-09-16 23:37:06		  script.color.status_popular = yellow
+2018-09-16 23:37:06		  script.color.status_running = lightgreen
+2018-09-16 23:37:06		  script.color.status_unknown = lightred
+2018-09-16 23:37:06		  script.color.text = default
+2018-09-16 23:37:06		  script.color.text_bg = default
+2018-09-16 23:37:06		  script.color.text_bg_selected = red
+2018-09-16 23:37:06		  script.color.text_date = default
+2018-09-16 23:37:06		  script.color.text_date_selected = white
+2018-09-16 23:37:06		  script.color.text_delimiters = default
+2018-09-16 23:37:06		  script.color.text_description = default
+2018-09-16 23:37:06		  script.color.text_description_selected = white
+2018-09-16 23:37:06		  script.color.text_extension = default
+2018-09-16 23:37:06		  script.color.text_extension_selected = white
+2018-09-16 23:37:06		  script.color.text_name = cyan
+2018-09-16 23:37:06		  script.color.text_name_selected = lightcyan
+2018-09-16 23:37:06		  script.color.text_selected = white
+2018-09-16 23:37:06		  script.color.text_tags = brown
+2018-09-16 23:37:06		  script.color.text_tags_selected = yellow
+2018-09-16 23:37:06		  script.color.text_version = magenta
+2018-09-16 23:37:06		  script.color.text_version_loaded = default
+2018-09-16 23:37:06		  script.color.text_version_loaded_selected = white
+2018-09-16 23:37:06		  script.color.text_version_selected = lightmagenta
+2018-09-16 23:37:06		[scripts] (script.conf)
+2018-09-16 23:37:06		  script.scripts.autoload = on
+2018-09-16 23:37:06		  script.scripts.cache_expire = 1440
+2018-09-16 23:37:06		  script.scripts.download_timeout = 30
+2018-09-16 23:37:06		  script.scripts.hold = ""
+2018-09-16 23:37:06		  script.scripts.path = "%h/script"
+2018-09-16 23:37:06		  script.scripts.url = "https://weechat.org/files/plugins.xml.gz"
+2018-09-16 23:37:06		[look] (fset.conf)
+2018-09-16 23:37:06		  fset.look.auto_unmark = off
+2018-09-16 23:37:06		  fset.look.condition_catch_set = "${count} >= 1"
+2018-09-16 23:37:06		  fset.look.export_help_default = on
+2018-09-16 23:37:06		  fset.look.format_number = 1
+2018-09-16 23:37:06		  fset.look.marked_string = "*"
+2018-09-16 23:37:06		  fset.look.scroll_horizontal = 10
+2018-09-16 23:37:06		  fset.look.show_plugins_desc = off
+2018-09-16 23:37:06		  fset.look.sort = "~name"
+2018-09-16 23:37:06		  fset.look.unmarked_string = " "
+2018-09-16 23:37:06		  fset.look.use_color_value = off
+2018-09-16 23:37:06		  fset.look.use_keys = on
+2018-09-16 23:37:06		  fset.look.use_mute = off
+2018-09-16 23:37:06		[format] (fset.conf)
+2018-09-16 23:37:06		  fset.format.export_help = "# ${description2}"
+2018-09-16 23:37:06		  fset.format.export_option = "/set ${name} ${quoted_value}"
+2018-09-16 23:37:06		  fset.format.export_option_null = "/unset ${name}"
+2018-09-16 23:37:06		  fset.format.option1 = ""
+2018-09-16 23:37:06		  fset.format.option2 = "${marked} ${name}  ${type}  ${value2}${newline}  ${empty_name}  ${_default_value}${color:darkgray} -- ${min}..${max}${newline}  ${empty_name}  ${description}"
+2018-09-16 23:37:06		[color] (fset.conf)
+2018-09-16 23:37:06		  fset.color.default_value = default
+2018-09-16 23:37:06		  fset.color.default_value_selected = white
+2018-09-16 23:37:06		  fset.color.description = default
+2018-09-16 23:37:06		  fset.color.description_selected = white
+2018-09-16 23:37:06		  fset.color.file = default
+2018-09-16 23:37:06		  fset.color.file_changed = brown
+2018-09-16 23:37:06		  fset.color.file_changed_selected = yellow
+2018-09-16 23:37:06		  fset.color.file_selected = white
+2018-09-16 23:37:06		  fset.color.help_default_value = white
+2018-09-16 23:37:06		  fset.color.help_description = default
+2018-09-16 23:37:06		  fset.color.help_name = white
+2018-09-16 23:37:06		  fset.color.help_quotes = darkgray
+2018-09-16 23:37:06		  fset.color.help_values = default
+2018-09-16 23:37:06		  fset.color.index = cyan
+2018-09-16 23:37:06		  fset.color.index_selected = lightcyan
+2018-09-16 23:37:06		  fset.color.line_marked_bg1 = default
+2018-09-16 23:37:06		  fset.color.line_marked_bg2 = default
+2018-09-16 23:37:06		  fset.color.line_selected_bg1 = blue
+2018-09-16 23:37:06		  fset.color.line_selected_bg2 = red
+2018-09-16 23:37:06		  fset.color.marked = brown
+2018-09-16 23:37:06		  fset.color.marked_selected = yellow
+2018-09-16 23:37:06		  fset.color.max = default
+2018-09-16 23:37:06		  fset.color.max_selected = white
+2018-09-16 23:37:06		  fset.color.min = default
+2018-09-16 23:37:06		  fset.color.min_selected = white
+2018-09-16 23:37:06		  fset.color.name = default
+2018-09-16 23:37:06		  fset.color.name_changed = brown
+2018-09-16 23:37:06		  fset.color.name_changed_selected = yellow
+2018-09-16 23:37:06		  fset.color.name_selected = white
+2018-09-16 23:37:06		  fset.color.option = default
+2018-09-16 23:37:06		  fset.color.option_changed = brown
+2018-09-16 23:37:06		  fset.color.option_changed_selected = yellow
+2018-09-16 23:37:06		  fset.color.option_selected = white
+2018-09-16 23:37:06		  fset.color.parent_name = default
+2018-09-16 23:37:06		  fset.color.parent_name_selected = white
+2018-09-16 23:37:06		  fset.color.parent_value = cyan
+2018-09-16 23:37:06		  fset.color.parent_value_selected = lightcyan
+2018-09-16 23:37:06		  fset.color.quotes = darkgray
+2018-09-16 23:37:06		  fset.color.quotes_changed = default
+2018-09-16 23:37:06		  fset.color.quotes_changed_selected = white
+2018-09-16 23:37:06		  fset.color.quotes_selected = default
+2018-09-16 23:37:06		  fset.color.section = default
+2018-09-16 23:37:06		  fset.color.section_changed = brown
+2018-09-16 23:37:06		  fset.color.section_changed_selected = yellow
+2018-09-16 23:37:06		  fset.color.section_selected = white
+2018-09-16 23:37:06		  fset.color.string_values = default
+2018-09-16 23:37:06		  fset.color.string_values_selected = white
+2018-09-16 23:37:06		  fset.color.title_count_options = cyan
+2018-09-16 23:37:06		  fset.color.title_current_option = lightcyan
+2018-09-16 23:37:06		  fset.color.title_filter = yellow
+2018-09-16 23:37:06		  fset.color.title_marked_options = lightgreen
+2018-09-16 23:37:06		  fset.color.title_sort = white
+2018-09-16 23:37:06		  fset.color.type = green
+2018-09-16 23:37:06		  fset.color.type_selected = lightgreen
+2018-09-16 23:37:06		  fset.color.unmarked = default
+2018-09-16 23:37:06		  fset.color.unmarked_selected = white
+2018-09-16 23:37:06		  fset.color.value = cyan
+2018-09-16 23:37:06		  fset.color.value_changed = brown
+2018-09-16 23:37:06		  fset.color.value_changed_selected = yellow
+2018-09-16 23:37:06		  fset.color.value_selected = lightcyan
+2018-09-16 23:37:06		  fset.color.value_undef = magenta
+2018-09-16 23:37:06		  fset.color.value_undef_selected = lightmagenta
+2018-09-16 23:37:06		964 options
+2018-09-16 23:37:29		Option changed: irc.server.rizon.nicks = "Kirjava,Colourful"  (default if null: "Kirjava,Colourful,Cake")
+2018-09-16 23:37:39	=!=	You can not write text in this buffer
+2018-09-16 23:37:42		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, guile, irc, logger, lua, perl, python, relay, script, trigger, xfer
+2018-09-16 23:38:56	=!=	Error: unknown command "/disoc" (type /help for help)
+2018-09-16 23:38:57	=!=	Error: unknown command "/disco" (type /help for help)
+2018-09-16 23:39:36		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, guile, irc, logger, lua, perl, python, relay, script, trigger, xfer
+2018-09-16 23:41:09		No stored layouts
+2018-09-16 23:43:34		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, guile, irc, logger, lua, perl, python, relay, script, trigger, xfer
+2018-09-16 23:44:20	=!=	Error: unknown command "/javascript" (type /help for help)
+2018-09-16 23:44:23		[core]
+2018-09-16 23:44:23		  away     buffer   command  debug    filter   history  key      mouse    plugin   proxy    reload   save     set      upgrade  version  window 
+2018-09-16 23:44:23		  bar      color    cursor   eval     help     input    layout   mute     print    quit     repeat   secure   unset    uptime   wait   
+2018-09-16 23:44:23		[guile]
+2018-09-16 23:44:23		  guile
+2018-09-16 23:44:23		[alias]
+2018-09-16 23:44:23		  AAWAY    AME      ANICK    BYE      CHAT     CLOSE    IG       K        LEAVE    MSGBUF   N        REDRAW   SIGNOFF  UB       V        WC       WII    
+2018-09-16 23:44:23		  alias    AMSG     BEEP     C        CL       EXIT     J        KB       M        MUB      Q        SAY      T        UMODE    W        WI       WW     
+2018-09-16 23:44:23		[irc]
+2018-09-16 23:44:23		  admin       cap         dehalfop    halfop      join        list        motd        notify      pong        rehash      sanick      servlist    time        userhost    wallops   
+2018-09-16 23:44:23		  allchan     connect     deop        ignore      kick        lusers      msg         op          query       remove      sapart      squery      topic       users       who       
+2018-09-16 23:44:23		  allpv       ctcp        devoice     info        kickban     map         names       oper        quiet       restart     saquit      squit       trace       version     whois     
+2018-09-16 23:44:23		  allserv     cycle       die         invite      kill        me          nick        part        quote       sajoin      server      stats       unban       voice       whowas    
+2018-09-16 23:44:23		  ban         dcc         disconnect  ison        links       mode        notice      ping        reconnect   samode      service     summon      unquiet     wallchops 
+2018-09-16 23:44:23		[lua]
+2018-09-16 23:44:23		  lua
+2018-09-16 23:44:23		[buflist]
+2018-09-16 23:44:23		  buflist
+2018-09-16 23:44:23		[python]
+2018-09-16 23:44:23		  python
+2018-09-16 23:44:23		[charset]
+2018-09-16 23:44:23		  charset
+2018-09-16 23:44:23		[relay]
+2018-09-16 23:44:23		  relay
+2018-09-16 23:44:23		[exec]
+2018-09-16 23:44:23		  exec
+2018-09-16 23:44:23		[trigger]
+2018-09-16 23:44:23		  trigger
+2018-09-16 23:44:23		[aspell]
+2018-09-16 23:44:23		  aspell
+2018-09-16 23:44:23		[xfer]
+2018-09-16 23:44:23		  me  xfer
+2018-09-16 23:44:23		[fset]
+2018-09-16 23:44:23		  fset
+2018-09-16 23:44:23		[fifo]
+2018-09-16 23:44:23		  fifo
+2018-09-16 23:44:23		[perl]
+2018-09-16 23:44:23		  perl
+2018-09-16 23:44:23		[logger]
+2018-09-16 23:44:23		  logger
+2018-09-16 23:44:23		[script]
+2018-09-16 23:44:23		  script
+2018-09-16 23:57:38	=!=	Error: unknown command "/ruby" (type /help for help)
+2018-09-16 23:57:41		script: downloading list of scripts...
+2018-09-16 23:57:41		script: 346 scripts for WeeChat 2.2
+2018-09-17 00:01:41	=!=	You can not write text in this buffer
+2018-09-17 19:03:09		script: 346 scripts for WeeChat 2.2
+2018-09-17 19:03:09		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, guile, irc, logger, lua, perl, python, relay, script, trigger, xfer
+2018-09-17 19:24:57		script: 346 scripts for WeeChat 2.3-dev
+2018-09-17 19:24:57		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2018-09-17 19:25:03		python scripts loaded:
+2018-09-17 19:25:03		  (none)
+2018-09-17 19:25:06	=!=	Error: unknown command "/javascript" (type /help for help)
+2018-09-17 19:25:28		Plugins loaded:
+2018-09-17 19:25:28		  guile: Support of scheme scripts (with Guile)
+2018-09-17 19:25:28		  alias: Alias commands
+2018-09-17 19:25:28		  irc: IRC (Internet Relay Chat) protocol
+2018-09-17 19:25:28		  lua: Support of lua scripts
+2018-09-17 19:25:28		  buflist: Buffers list
+2018-09-17 19:25:28		  python: Support of python scripts
+2018-09-17 19:25:28		  charset: Charset conversions
+2018-09-17 19:25:28		  ruby: Support of ruby scripts
+2018-09-17 19:25:28		  relay: Relay WeeChat data to remote application (irc/weechat protocols)
+2018-09-17 19:25:28		  exec: Execution of external commands in WeeChat
+2018-09-17 19:25:28		  trigger: Text replacement and command execution on events triggered by WeeChat/plugins
+2018-09-17 19:25:28		  tcl: Support of tcl scripts
+2018-09-17 19:25:28		  aspell: Spell checker for input (with Aspell)
+2018-09-17 19:25:28		  xfer: DCC file transfer and direct chat
+2018-09-17 19:25:28		  fset: Fast set of WeeChat and plugins options
+2018-09-17 19:25:28		  fifo: FIFO pipe for remote control
+2018-09-17 19:25:28		  perl: Support of perl scripts
+2018-09-17 19:25:28		  logger: Log buffers to files
+2018-09-17 19:25:28		  script: Script manager
+2018-09-17 19:25:32		Plugins loaded:
+2018-09-17 19:25:32		  guile: Support of scheme scripts (with Guile)
+2018-09-17 19:25:32		  alias: Alias commands
+2018-09-17 19:25:32		  irc: IRC (Internet Relay Chat) protocol
+2018-09-17 19:25:32		  lua: Support of lua scripts
+2018-09-17 19:25:32		  buflist: Buffers list
+2018-09-17 19:25:32		  python: Support of python scripts
+2018-09-17 19:25:32		  charset: Charset conversions
+2018-09-17 19:25:32		  ruby: Support of ruby scripts
+2018-09-17 19:25:32		  relay: Relay WeeChat data to remote application (irc/weechat protocols)
+2018-09-17 19:25:32		  exec: Execution of external commands in WeeChat
+2018-09-17 19:25:32		  trigger: Text replacement and command execution on events triggered by WeeChat/plugins
+2018-09-17 19:25:32		  tcl: Support of tcl scripts
+2018-09-17 19:25:32		  aspell: Spell checker for input (with Aspell)
+2018-09-17 19:25:32		  xfer: DCC file transfer and direct chat
+2018-09-17 19:25:32		  fset: Fast set of WeeChat and plugins options
+2018-09-17 19:25:32		  fifo: FIFO pipe for remote control
+2018-09-17 19:25:32		  perl: Support of perl scripts
+2018-09-17 19:25:32		  logger: Log buffers to files
+2018-09-17 19:25:32		  script: Script manager
+2018-09-17 19:25:38		[core]  /plugin  list|listfull [<name>]
+2018-09-17 19:25:38		                 load <filename> [<arguments>]
+2018-09-17 19:25:38		                 autoload [<arguments>]
+2018-09-17 19:25:38		                 reload [<name>|* [<arguments>]]
+2018-09-17 19:25:38		                 unload [<name>]
+2018-09-17 19:25:38		list/load/unload plugins
+2018-09-17 19:25:38		     list: list loaded plugins
+2018-09-17 19:25:38		 listfull: list loaded plugins (verbose)
+2018-09-17 19:25:38		     load: load a plugin
+2018-09-17 19:25:38		 autoload: autoload plugins in system or user directory
+2018-09-17 19:25:38		   reload: reload a plugin (if no name given, unload all plugins, then autoload plugins)
+2018-09-17 19:25:38		   unload: unload a plugin (if no name given, unload all plugins)
+2018-09-17 19:25:38		 filename: plugin (file) to load
+2018-09-17 19:25:38		     name: a plugin name
+2018-09-17 19:25:38		arguments: arguments given to plugin on load
+2018-09-17 19:25:38		Without argument, this command lists loaded plugins.
+2018-09-17 19:25:47	=!=	Too few arguments for command "/plugin load" (help on command: /help plugin)
+2018-09-17 19:25:59		Plugins loaded:
+2018-09-17 19:25:59		  guile: Support of scheme scripts (with Guile)
+2018-09-17 19:25:59		  alias: Alias commands
+2018-09-17 19:25:59		  irc: IRC (Internet Relay Chat) protocol
+2018-09-17 19:25:59		  lua: Support of lua scripts
+2018-09-17 19:25:59		  buflist: Buffers list
+2018-09-17 19:25:59		  python: Support of python scripts
+2018-09-17 19:25:59		  charset: Charset conversions
+2018-09-17 19:25:59		  ruby: Support of ruby scripts
+2018-09-17 19:25:59		  relay: Relay WeeChat data to remote application (irc/weechat protocols)
+2018-09-17 19:25:59		  exec: Execution of external commands in WeeChat
+2018-09-17 19:25:59		  trigger: Text replacement and command execution on events triggered by WeeChat/plugins
+2018-09-17 19:25:59		  tcl: Support of tcl scripts
+2018-09-17 19:25:59		  aspell: Spell checker for input (with Aspell)
+2018-09-17 19:25:59		  xfer: DCC file transfer and direct chat
+2018-09-17 19:25:59		  fset: Fast set of WeeChat and plugins options
+2018-09-17 19:25:59		  fifo: FIFO pipe for remote control
+2018-09-17 19:25:59		  perl: Support of perl scripts
+2018-09-17 19:25:59		  logger: Log buffers to files
+2018-09-17 19:25:59		  script: Script manager
+2018-09-17 19:26:04		Plugins loaded:
+2018-09-17 19:26:04		  guile [v2.3-dev]: Support of scheme scripts (with Guile) (/usr/lib/weechat/plugins/guile.so)
+2018-09-17 19:26:04		  written by "Sébastien Helleu <flashcode@flashtux.org>", license: GPL3
+2018-09-17 19:26:04		    commands hooked:
+2018-09-17 19:26:04		      /guile (list/load/unload scripts)
+2018-09-17 19:26:04		    signals hooked:
+2018-09-17 19:26:04		      signal: debug_dump
+2018-09-17 19:26:04		      signal: debug_libs
+2018-09-17 19:26:04		      signal: guile_script_install
+2018-09-17 19:26:04		      signal: guile_script_remove
+2018-09-17 19:26:04		      signal: guile_script_autoload
+2018-09-17 19:26:04		    completions hooked:
+2018-09-17 19:26:04		        guile_script
+2018-09-17 19:26:04		  alias [v2.3-dev]: Alias commands (/usr/lib/weechat/plugins/alias.so)
+2018-09-17 19:26:04		  written by "Sébastien Helleu <flashcode@flashtux.org>", license: GPL3
+2018-09-17 19:26:04		    commands hooked:
+2018-09-17 19:26:04		      /AAWAY (allserv /away)
+2018-09-17 19:26:04		      /alias (list, add or remove command aliases)
+2018-09-17 19:26:04		      /AME (allchan /me)
+2018-09-17 19:26:04		      /AMSG (allchan /msg *)
+2018-09-17 19:26:04		      /ANICK (allserv /nick)
+2018-09-17 19:26:04		      /BEEP (print -beep)
+2018-09-17 19:26:04		      /BYE (quit)
+2018-09-17 19:26:04		      /C (buffer clear)
+2018-09-17 19:26:04		      /CHAT (dcc chat)
+2018-09-17 19:26:04		      /CL (buffer clear)
+2018-09-17 19:26:04		      /CLOSE (buffer close)
+2018-09-17 19:26:04		      /EXIT (quit)
+2018-09-17 19:26:04		      /IG (ignore)
+2018-09-17 19:26:04		      /J (join)
+2018-09-17 19:26:04		      /K (kick)
+2018-09-17 19:26:04		      /KB (kickban)
+2018-09-17 19:26:04		      /LEAVE (part)
+2018-09-17 19:26:04		      /M (msg)
+2018-09-17 19:26:04		      /MSGBUF (command -buffer $1 * /input send $2-)
+2018-09-17 19:26:04		      /MUB (unban *)
+2018-09-17 19:26:04		      /N (names)
+2018-09-17 19:26:04		      /Q (query)
+2018-09-17 19:26:04		      /REDRAW (window refresh)
+2018-09-17 19:26:04		      /SAY (msg *)
+2018-09-17 19:26:04		      /SIGNOFF (quit)
+2018-09-17 19:26:04		      /T (topic)
+2018-09-17 19:26:04		      /UB (unban)
+2018-09-17 19:26:04		      /UMODE (mode $nick)
+2018-09-17 19:26:04		      /V (command core version)
+2018-09-17 19:26:04		      /W (who)
+2018-09-17 19:26:04		      /WC (window merge)
+2018-09-17 19:26:04		      /WI (whois)
+2018-09-17 19:26:04		      /WII (whois $1 $1)
+2018-09-17 19:26:04		      /WW (whowas)
+2018-09-17 19:26:04		    completions hooked:
+2018-09-17 19:26:04		        alias
+2018-09-17 19:26:04		        alias_value
+2018-09-17 19:26:04		  irc [v2.3-dev]: IRC (Internet Relay Chat) protocol (/usr/lib/weechat/plugins/irc.so)
+2018-09-17 19:26:04		  written by "Sébastien Helleu <flashcode@flashtux.org>", license: GPL3
+2018-09-17 19:26:04		    commands hooked:
+2018-09-17 19:26:04		      /admin (find information about the administrator of the server)
+2018-09-17 19:26:04		      /allchan (execute a command on all channels of all connected servers)
+2018-09-17 19:26:04		      /allpv (execute a command on all private buffers of all connected servers)
+2018-09-17 19:26:04		      /allserv (execute a command on all connected servers)
+2018-09-17 19:26:04		      /ban (ban nicks or hosts)
+2018-09-17 19:26:04		      /cap (client capability negotiation)
+2018-09-17 19:26:04		      /connect (connect to IRC server(s))
+2018-09-17 19:26:04		      /ctcp (send a CTCP message (Client-To-Client Protocol))
+2018-09-17 19:26:04		      /cycle (leave and rejoin a channel)
+2018-09-17 19:26:04		      /dcc (start a DCC (file transfer or direct chat))
+2018-09-17 19:26:04		      /dehalfop (remove channel half-operator status from nick(s))
+2018-09-17 19:26:04		      /deop (remove channel operator status from nick(s))
+2018-09-17 19:26:04		      /devoice (remove voice from nick(s))
+2018-09-17 19:26:04		      /die (shutdown the server)
+2018-09-17 19:26:04		      /disconnect (disconnect from one or all IRC servers)
+2018-09-17 19:26:04		      /halfop (give channel half-operator status to nick(s))
+2018-09-17 19:26:04		      /ignore (ignore nicks/hosts from servers or channels)
+2018-09-17 19:26:04		      /info (get information describing the server)
+2018-09-17 19:26:04		      /invite (invite a nick on a channel)
+2018-09-17 19:26:04		      /ison (check if a nick is currently on IRC)
+2018-09-17 19:26:04		      /join (join a channel)
+2018-09-17 19:26:04		      /kick (kick a user out of a channel)
+2018-09-17 19:26:04		      /kickban (kick a user out of a channel and ban the host)
+2018-09-17 19:26:04		      /kill (close client-server connection)
+2018-09-17 19:26:04		      /links (list all servernames which are known by the server answering the query)
+2018-09-17 19:26:04		      /list (list channels and their topic)
+2018-09-17 19:26:04		      /lusers (get statistics about the size of the IRC network)
+2018-09-17 19:26:04		      /map (show a graphical map of the IRC network)
+2018-09-17 19:26:04		      /me (send a CTCP action to the current channel)
+2018-09-17 19:26:04		      /mode (change channel or user mode)
+2018-09-17 19:26:04		      /motd (get the "Message Of The Day")
+2018-09-17 19:26:04		      /msg (send message to a nick or channel)
+2018-09-17 19:26:04		      /names (list nicks on channels)
+2018-09-17 19:26:04		      /nick (change current nick)
+2018-09-17 19:26:04		      /notice (send notice message to user)
+2018-09-17 19:26:04		      /notify (add a notification for presence or away status of nicks on servers)
+2018-09-17 19:26:04		      /op (give channel operator status to nick(s))
+2018-09-17 19:26:04		      /oper (get operator privileges)
+2018-09-17 19:26:04		      /part (leave a channel)
+2018-09-17 19:26:04		      /ping (send a ping to server)
+2018-09-17 19:26:04		      /pong (answer to a ping message)
+2018-09-17 19:26:04		      /query (send a private message to a nick)
+2018-09-17 19:26:04		      /quiet (quiet nicks or hosts)
+2018-09-17 19:26:04		      /quote (send raw data to server without parsing)
+2018-09-17 19:26:04		      /reconnect (reconnect to server(s))
+2018-09-17 19:26:04		      /rehash (tell the server to reload its config file)
+2018-09-17 19:26:04		      /remove (force a user to leave a channel)
+2018-09-17 19:26:04		      /restart (tell the server to restart itself)
+2018-09-17 19:26:04		      /sajoin (force a user to join channel(s))
+2018-09-17 19:26:04		      /samode (change mode on channel, without having operator status)
+2018-09-17 19:26:04		      /sanick (force a user to use another nick)
+2018-09-17 19:26:04		      /sapart (force a user to leave channel(s))
+2018-09-17 19:26:04		      /saquit (force a user to quit server with a reason)
+2018-09-17 19:26:04		      /server (list, add or remove IRC servers)
+2018-09-17 19:26:04		      /service (register a new service)
+2018-09-17 19:26:04		      /servlist (list services currently connected to the network)
+2018-09-17 19:26:04		      /squery (deliver a message to a service)
+2018-09-17 19:26:04		      /squit (disconnect server links)
+2018-09-17 19:26:04		      /stats (query statistics about server)
+2018-09-17 19:26:04		      /summon (give users who are on a host running an IRC server a message asking them to please join IRC)
+2018-09-17 19:26:04		      /time (query local time from server)
+2018-09-17 19:26:04		      /topic (get/set channel topic)
+2018-09-17 19:26:04		      /trace (find the route to specific server)
+2018-09-17 19:26:04		      /unban (unban nicks or hosts)
+2018-09-17 19:26:04		      /unquiet (unquiet nicks or hosts)
+2018-09-17 19:26:04		      /userhost (return a list of information about nicks)
+2018-09-17 19:26:04		      /users (list of users logged into the server)
+2018-09-17 19:26:04		      /version (give the version info of nick or server (current or specified))
+2018-09-17 19:26:04		      /voice (give voice to nick(s))
+2018-09-17 19:26:04		      /wallchops (send a notice to channel ops)
+2018-09-17 19:26:04		      /wallops (send a message to all currently connected users who have set the 'w' user mode for themselves)
+2018-09-17 19:26:04		      /who (generate a query which returns a list of information)
+2018-09-17 19:26:04		      /whois (query information about user(s))
+2018-09-17 19:26:04		      /whowas (ask for information about a nick which no longer exists)
+2018-09-17 19:26:04		    command_run hooked:
+2018-09-17 19:26:04		      /away
+2018-09-17 19:26:04		    timers hooked:
+2018-09-17 19:26:04		      60 seconds (no call limit)
+2018-09-17 19:26:04		      300 seconds (no call limit)
+2018-09-17 19:26:04		      1 second (no call limit)
+2018-09-17 19:26:04		    signals hooked:
+2018-09-17 19:26:04		      signal: debug_dump
+2018-09-17 19:26:04		      signal: quit
+2018-09-17 19:26:04		      signal: upgrade
+2018-09-17 19:26:04		      signal: xfer_send_ready
+2018-09-17 19:26:04		      signal: xfer_resume_ready
+2018-09-17 19:26:04		      signal: xfer_send_accept_resume
+2018-09-17 19:26:04		      signal: irc_input_send
+2018-09-17 19:26:04		      signal: buffer_switch
+2018-09-17 19:26:04		    configuration options hooked:
+2018-09-17 19:26:04		      weechat.look.nick_color_*
+2018-09-17 19:26:04		      weechat.color.chat_nick_colors
+2018-09-17 19:26:04		    completions hooked:
+2018-09-17 19:26:04		        irc_server
+2018-09-17 19:26:04		        irc_server_nick
+2018-09-17 19:26:04		        irc_server_channels
+2018-09-17 19:26:04		        irc_server_privates
+2018-09-17 19:26:04		        irc_server_nicks
+2018-09-17 19:26:04		        irc_servers
+2018-09-17 19:26:04		        irc_channel
+2018-09-17 19:26:04		        nick
+2018-09-17 19:26:04		        irc_channel_nicks_hosts
+2018-09-17 19:26:04		        irc_modelist_masks
+2018-09-17 19:26:04		        irc_modelist_numbers
+2018-09-17 19:26:04		        irc_channel_topic
+2018-09-17 19:26:04		        irc_channels
+2018-09-17 19:26:04		        irc_privates
+2018-09-17 19:26:04		        irc_msg_kick
+2018-09-17 19:26:04		        irc_msg_part
+2018-09-17 19:26:04		        irc_ignores_numbers
+2018-09-17 19:26:04		        irc_notify_nicks
+2018-09-17 19:26:04		    modifiers hooked:
+2018-09-17 19:26:04		        irc_color_decode
+2018-09-17 19:26:04		        irc_color_encode
+2018-09-17 19:26:04		        irc_color_decode_ansi
+2018-09-17 19:26:04		  lua [v2.3-dev]: Support of lua scripts (/usr/lib/weechat/plugins/lua.so)
+2018-09-17 19:26:04		  written by "Sébastien Helleu <flashcode@flashtux.org>", license: GPL3
+2018-09-17 19:26:04		    commands hooked:
+2018-09-17 19:26:04		      /lua (list/load/unload scripts)
+2018-09-17 19:26:04		    signals hooked:
+2018-09-17 19:26:04		      signal: debug_dump
+2018-09-17 19:26:04		      signal: debug_libs
+2018-09-17 19:26:04		      signal: lua_script_install
+2018-09-17 19:26:04		      signal: lua_script_remove
+2018-09-17 19:26:04		      signal: lua_script_autoload
+2018-09-17 19:26:04		    completions hooked:
+2018-09-17 19:26:04		        lua_script
+2018-09-17 19:26:04		  buflist [v2.3-dev]: Buffers list (/usr/lib/weechat/plugins/buflist.so)
+2018-09-17 19:26:04		  written by "Sébastien Helleu <flashcode@flashtux.org>", license: GPL3
+2018-09-17 19:26:04		    commands hooked:
+2018-09-17 19:26:04		      /buflist (bar item with list of buffers)
+2018-09-17 19:26:04		    signals hooked:
+2018-09-17 19:26:04		      signal: buffer_closed
+2018-09-17 19:26:04		      signal: buffer_hidden
+2018-09-17 19:26:04		      signal: buffer_localvar_added
+2018-09-17 19:26:04		      signal: buffer_localvar_changed
+2018-09-17 19:26:04		      signal: buffer_merged
+2018-09-17 19:26:04		      signal: buffer_moved
+2018-09-17 19:26:04		      signal: buffer_opened
+2018-09-17 19:26:04		      signal: buffer_renamed
+2018-09-17 19:26:04		      signal: buffer_switch
+2018-09-17 19:26:04		      signal: buffer_unhidden
+2018-09-17 19:26:04		      signal: buffer_unmerged
+2018-09-17 19:26:04		      signal: hotlist_changed
+2018-09-17 19:26:04		      signal: window_switch
+2018-09-17 19:26:04		      signal: perl_script_loaded
+2018-09-17 19:26:04		  python [v2.3-dev]: Support of python scripts (/usr/lib/weechat/plugins/python.so)
+2018-09-17 19:26:04		  written by "Sébastien Helleu <flashcode@flashtux.org>", license: GPL3
+2018-09-17 19:26:04		    commands hooked:
+2018-09-17 19:26:04		      /python (list/load/unload scripts)
+2018-09-17 19:26:04		    signals hooked:
+2018-09-17 19:26:04		      signal: debug_dump
+2018-09-17 19:26:04		      signal: debug_libs
+2018-09-17 19:26:04		      signal: python_script_install
+2018-09-17 19:26:04		      signal: python_script_remove
+2018-09-17 19:26:04		      signal: python_script_autoload
+2018-09-17 19:26:04		    completions hooked:
+2018-09-17 19:26:04		        python_script
+2018-09-17 19:26:04		  charset [v2.3-dev]: Charset conversions (/usr/lib/weechat/plugins/charset.so)
+2018-09-17 19:26:04		  written by "Sébastien Helleu <flashcode@flashtux.org>", license: GPL3
+2018-09-17 19:26:04		    commands hooked:
+2018-09-17 19:26:04		      /charset (change charset for current buffer)
+2018-09-17 19:26:04		    modifiers hooked:
+2018-09-17 19:26:04		        charset_decode
+2018-09-17 19:26:04		        charset_encode
+2018-09-17 19:26:04		  ruby [v2.3-dev]: Support of ruby scripts (/usr/lib/weechat/plugins/ruby.so)
+2018-09-17 19:26:04		  written by "Sébastien Helleu <flashcode@flashtux.org>", license: GPL3
+2018-09-17 19:26:04		    commands hooked:
+2018-09-17 19:26:04		      /ruby (list/load/unload scripts)
+2018-09-17 19:26:04		    signals hooked:
+2018-09-17 19:26:04		      signal: debug_dump
+2018-09-17 19:26:04		      signal: debug_libs
+2018-09-17 19:26:04		      signal: ruby_script_install
+2018-09-17 19:26:04		      signal: ruby_script_remove
+2018-09-17 19:26:04		      signal: ruby_script_autoload
+2018-09-17 19:26:04		    completions hooked:
+2018-09-17 19:26:04		        ruby_script
+2018-09-17 19:26:04		  relay [v2.3-dev]: Relay WeeChat data to remote application (irc/weechat protocols) (/usr/lib/weechat/plugins/relay.so)
+2018-09-17 19:26:04		  written by "Sébastien Helleu <flashcode@flashtux.org>", license: GPL3
+2018-09-17 19:26:04		    commands hooked:
+2018-09-17 19:26:04		      /relay (relay control)
+2018-09-17 19:26:04		    timers hooked:
+2018-09-17 19:26:04		      1 second (no call limit)
+2018-09-17 19:26:04		    signals hooked:
+2018-09-17 19:26:04		      signal: upgrade
+2018-09-17 19:26:04		      signal: debug_dump
+2018-09-17 19:26:04		    completions hooked:
+2018-09-17 19:26:04		        relay_protocol_name
+2018-09-17 19:26:04		        relay_relays
+2018-09-17 19:26:04		        relay_free_port
+2018-09-17 19:26:04		  exec [v2.3-dev]: Execution of external commands in WeeChat (/usr/lib/weechat/plugins/exec.so)
+2018-09-17 19:26:04		  written by "Sébastien Helleu <flashcode@flashtux.org>", license: GPL3
+2018-09-17 19:26:04		    commands hooked:
+2018-09-17 19:26:04		      /exec (execute external commands)
+2018-09-17 19:26:04		    signals hooked:
+2018-09-17 19:26:04		      signal: debug_dump
+2018-09-17 19:26:04		    completions hooked:
+2018-09-17 19:26:04		        exec_commands_ids
+2018-09-17 19:26:04		  trigger [v2.3-dev]: Text replacement and command execution on events triggered by WeeChat/plugins (/usr/lib/weechat/plugins/trigger.so)
+2018-09-17 19:26:04		  written by "Sébastien Helleu <flashcode@flashtux.org>", license: GPL3
+2018-09-17 19:26:04		    commands hooked:
+2018-09-17 19:26:04		      /trigger (manage triggers, the Swiss Army knife for WeeChat)
+2018-09-17 19:26:04		    prints hooked:
+2018-09-17 19:26:04		      message: "(none)"
+2018-09-17 19:26:04		    signals hooked:
+2018-09-17 19:26:04		      signal: debug_dump
+2018-09-17 19:26:04		    completions hooked:
+2018-09-17 19:26:04		        trigger_names
+2018-09-17 19:26:04		        trigger_names_default
+2018-09-17 19:26:04		        trigger_options
+2018-09-17 19:26:04		        trigger_option_value
+2018-09-17 19:26:04		        trigger_hooks
+2018-09-17 19:26:04		        trigger_hooks_filter
+2018-09-17 19:26:04		        trigger_hook_arguments
+2018-09-17 19:26:04		        trigger_hook_conditions
+2018-09-17 19:26:04		        trigger_hook_regex
+2018-09-17 19:26:04		        trigger_hook_command
+2018-09-17 19:26:04		        trigger_hook_rc
+2018-09-17 19:26:04		        trigger_post_action
+2018-09-17 19:26:04		    modifiers hooked:
+2018-09-17 19:26:04		        input_text_display
+2018-09-17 19:26:04		        history_add
+2018-09-17 19:26:04		        irc_command_auth
+2018-09-17 19:26:04		        input_text_display
+2018-09-17 19:26:04		        history_add
+2018-09-17 19:26:04		        irc_command_auth
+2018-09-17 19:26:04		        irc_message_auth
+2018-09-17 19:26:04		        input_text_display
+2018-09-17 19:26:04		        history_add
+2018-09-17 19:26:04		  tcl [v2.3-dev]: Support of tcl scripts (/usr/lib/weechat/plugins/tcl.so)
+2018-09-17 19:26:04		  written by "Dmitry Kobylin <fnfal@academ.tsc.ru>", license: GPL3
+2018-09-17 19:26:04		    commands hooked:
+2018-09-17 19:26:04		      /tcl (list/load/unload scripts)
+2018-09-17 19:26:04		    signals hooked:
+2018-09-17 19:26:04		      signal: debug_dump
+2018-09-17 19:26:04		      signal: debug_libs
+2018-09-17 19:26:04		      signal: tcl_script_install
+2018-09-17 19:26:04		      signal: tcl_script_remove
+2018-09-17 19:26:04		      signal: tcl_script_autoload
+2018-09-17 19:26:04		    completions hooked:
+2018-09-17 19:26:04		        tcl_script
+2018-09-17 19:26:04		  aspell [v2.3-dev]: Spell checker for input (with Aspell) (/usr/lib/weechat/plugins/aspell.so)
+2018-09-17 19:26:04		  written by "Sébastien Helleu <flashcode@flashtux.org>", license: GPL3
+2018-09-17 19:26:04		    commands hooked:
+2018-09-17 19:26:04		      /aspell (aspell plugin configuration)
+2018-09-17 19:26:04		    signals hooked:
+2018-09-17 19:26:04		      signal: buffer_switch
+2018-09-17 19:26:04		      signal: window_switch
+2018-09-17 19:26:04		      signal: buffer_closed
+2018-09-17 19:26:04		      signal: debug_libs
+2018-09-17 19:26:04		    completions hooked:
+2018-09-17 19:26:04		        aspell_langs
+2018-09-17 19:26:04		        aspell_dicts
+2018-09-17 19:26:04		    modifiers hooked:
+2018-09-17 19:26:04		        input_text_display
+2018-09-17 19:26:04		  xfer [v2.3-dev]: DCC file transfer and direct chat (/usr/lib/weechat/plugins/xfer.so)
+2018-09-17 19:26:04		  written by "Sébastien Helleu <flashcode@flashtux.org>", license: GPL3
+2018-09-17 19:26:04		    commands hooked:
+2018-09-17 19:26:04		      /me (send a CTCP action to remote host)
+2018-09-17 19:26:04		      /xfer (xfer control)
+2018-09-17 19:26:04		    signals hooked:
+2018-09-17 19:26:04		      signal: upgrade
+2018-09-17 19:26:04		      signal: xfer_add
+2018-09-17 19:26:04		      signal: xfer_start_resume
+2018-09-17 19:26:04		      signal: xfer_accept_resume
+2018-09-17 19:26:04		      signal: debug_dump
+2018-09-17 19:26:04		    completions hooked:
+2018-09-17 19:26:04		        nick
+2018-09-17 19:26:04		  fset [v2.3-dev]: Fast set of WeeChat and plugins options (/usr/lib/weechat/plugins/fset.so)
+2018-09-17 19:26:04		  written by "Sébastien Helleu <flashcode@flashtux.org>", license: GPL3
+2018-09-17 19:26:04		    commands hooked:
+2018-09-17 19:26:04		      /fset (fast set WeeChat and plugins options)
+2018-09-17 19:26:04		    command_run hooked:
+2018-09-17 19:26:04		      /set
+2018-09-17 19:26:04		    signals hooked:
+2018-09-17 19:26:04		      signal: debug_dump
+2018-09-17 19:26:04		      signal: window_scrolled
+2018-09-17 19:26:04		    configuration options hooked:
+2018-09-17 19:26:04		      *
+2018-09-17 19:26:04		    completions hooked:
+2018-09-17 19:26:04		        fset_options
+2018-09-17 19:26:04		  fifo [v2.3-dev]: FIFO pipe for remote control (/usr/lib/weechat/plugins/fifo.so)
+2018-09-17 19:26:04		  written by "Sébastien Helleu <flashcode@flashtux.org>", license: GPL3
+2018-09-17 19:26:04		    commands hooked:
+2018-09-17 19:26:04		      /fifo (fifo plugin configuration)
+2018-09-17 19:26:04		    fd hooked:
+2018-09-17 19:26:04		      4 (flags: 0x1: read)
+2018-09-17 19:26:04		  perl [v2.3-dev]: Support of perl scripts (/usr/lib/weechat/plugins/perl.so)
+2018-09-17 19:26:04		  written by "Sébastien Helleu <flashcode@flashtux.org>", license: GPL3
+2018-09-17 19:26:04		    commands hooked:
+2018-09-17 19:26:04		      /perl (list/load/unload scripts)
+2018-09-17 19:26:04		    signals hooked:
+2018-09-17 19:26:04		      signal: debug_dump
+2018-09-17 19:26:04		      signal: debug_libs
+2018-09-17 19:26:04		      signal: perl_script_install
+2018-09-17 19:26:04		      signal: perl_script_remove
+2018-09-17 19:26:04		      signal: perl_script_autoload
+2018-09-17 19:26:04		      signal: quit
+2018-09-17 19:26:04		      signal: upgrade
+2018-09-17 19:26:04		    completions hooked:
+2018-09-17 19:26:04		        perl_script
+2018-09-17 19:26:04		  logger [v2.3-dev]: Log buffers to files (/usr/lib/weechat/plugins/logger.so)
+2018-09-17 19:26:04		  written by "Sébastien Helleu <flashcode@flashtux.org>", license: GPL3
+2018-09-17 19:26:04		    commands hooked:
+2018-09-17 19:26:04		      /logger (logger plugin configuration)
+2018-09-17 19:26:04		    timers hooked:
+2018-09-17 19:26:04		      120 seconds (no call limit)
+2018-09-17 19:26:04		    prints hooked:
+2018-09-17 19:26:04		      message: "(none)"
+2018-09-17 19:26:04		    signals hooked:
+2018-09-17 19:26:04		      signal: buffer_opened
+2018-09-17 19:26:04		      signal: buffer_closing
+2018-09-17 19:26:04		      signal: buffer_renamed
+2018-09-17 19:26:04		      signal: logger_backlog
+2018-09-17 19:26:04		      signal: logger_start
+2018-09-17 19:26:04		      signal: logger_stop
+2018-09-17 19:26:04		      signal: day_changed
+2018-09-17 19:26:04		  script [v2.3-dev]: Script manager (/usr/lib/weechat/plugins/script.so)
+2018-09-17 19:26:04		  written by "Sébastien Helleu <flashcode@flashtux.org>", license: GPL3
+2018-09-17 19:26:04		    commands hooked:
+2018-09-17 19:26:04		      /script (WeeChat script manager)
+2018-09-17 19:26:04		    signals hooked:
+2018-09-17 19:26:04		      signal: debug_dump
+2018-09-17 19:26:04		      signal: window_scrolled
+2018-09-17 19:26:04		      signal: plugin_*
+2018-09-17 19:26:04		      signal: *_script_*
+2018-09-17 19:26:04		    completions hooked:
+2018-09-17 19:26:04		        script_languages
+2018-09-17 19:26:04		        script_extensions
+2018-09-17 19:26:04		        script_scripts
+2018-09-17 19:26:04		        script_scripts_installed
+2018-09-17 19:26:04		        script_files
+2018-09-17 19:26:04		        script_tags
+2018-09-17 19:26:07		Plugins loaded:
+2018-09-17 19:26:07		  guile: Support of scheme scripts (with Guile)
+2018-09-17 19:26:07		  alias: Alias commands
+2018-09-17 19:26:07		  irc: IRC (Internet Relay Chat) protocol
+2018-09-17 19:26:07		  lua: Support of lua scripts
+2018-09-17 19:26:07		  buflist: Buffers list
+2018-09-17 19:26:07		  python: Support of python scripts
+2018-09-17 19:26:07		  charset: Charset conversions
+2018-09-17 19:26:07		  ruby: Support of ruby scripts
+2018-09-17 19:26:07		  relay: Relay WeeChat data to remote application (irc/weechat protocols)
+2018-09-17 19:26:07		  exec: Execution of external commands in WeeChat
+2018-09-17 19:26:07		  trigger: Text replacement and command execution on events triggered by WeeChat/plugins
+2018-09-17 19:26:07		  tcl: Support of tcl scripts
+2018-09-17 19:26:07		  aspell: Spell checker for input (with Aspell)
+2018-09-17 19:26:07		  xfer: DCC file transfer and direct chat
+2018-09-17 19:26:07		  fset: Fast set of WeeChat and plugins options
+2018-09-17 19:26:07		  fifo: FIFO pipe for remote control
+2018-09-17 19:26:07		  perl: Support of perl scripts
+2018-09-17 19:26:07		  logger: Log buffers to files
+2018-09-17 19:26:07		  script: Script manager
+2018-09-17 19:31:04		[core]  /plugin  list|listfull [<name>]
+2018-09-17 19:31:04		                 load <filename> [<arguments>]
+2018-09-17 19:31:04		                 autoload [<arguments>]
+2018-09-17 19:31:04		                 reload [<name>|* [<arguments>]]
+2018-09-17 19:31:04		                 unload [<name>]
+2018-09-17 19:31:04		list/load/unload plugins
+2018-09-17 19:31:04		     list: list loaded plugins
+2018-09-17 19:31:04		 listfull: list loaded plugins (verbose)
+2018-09-17 19:31:04		     load: load a plugin
+2018-09-17 19:31:04		 autoload: autoload plugins in system or user directory
+2018-09-17 19:31:04		   reload: reload a plugin (if no name given, unload all plugins, then autoload plugins)
+2018-09-17 19:31:04		   unload: unload a plugin (if no name given, unload all plugins)
+2018-09-17 19:31:04		 filename: plugin (file) to load
+2018-09-17 19:31:04		     name: a plugin name
+2018-09-17 19:31:04		arguments: arguments given to plugin on load
+2018-09-17 19:31:04		Without argument, this command lists loaded plugins.
+2018-09-17 19:36:16		[core]
+2018-09-17 19:36:16		  away     buffer   command  debug    filter   history  key      mouse    plugin   proxy    reload   save     set      upgrade  version  window 
+2018-09-17 19:36:16		  bar      color    cursor   eval     help     input    layout   mute     print    quit     repeat   secure   unset    uptime   wait   
+2018-09-17 19:36:16		[guile]
+2018-09-17 19:36:16		  guile
+2018-09-17 19:36:16		[alias]
+2018-09-17 19:36:16		  AAWAY    AME      ANICK    BYE      CHAT     CLOSE    IG       K        LEAVE    MSGBUF   N        REDRAW   SIGNOFF  UB       V        WC       WII    
+2018-09-17 19:36:16		  alias    AMSG     BEEP     C        CL       EXIT     J        KB       M        MUB      Q        SAY      T        UMODE    W        WI       WW     
+2018-09-17 19:36:16		[irc]
+2018-09-17 19:36:16		  admin       cap         dehalfop    halfop      join        list        motd        notify      pong        rehash      sanick      servlist    time        userhost    wallops   
+2018-09-17 19:36:16		  allchan     connect     deop        ignore      kick        lusers      msg         op          query       remove      sapart      squery      topic       users       who       
+2018-09-17 19:36:16		  allpv       ctcp        devoice     info        kickban     map         names       oper        quiet       restart     saquit      squit       trace       version     whois     
+2018-09-17 19:36:16		  allserv     cycle       die         invite      kill        me          nick        part        quote       sajoin      server      stats       unban       voice       whowas    
+2018-09-17 19:36:16		  ban         dcc         disconnect  ison        links       mode        notice      ping        reconnect   samode      service     summon      unquiet     wallchops 
+2018-09-17 19:36:16		[lua]
+2018-09-17 19:36:16		  lua
+2018-09-17 19:36:16		[buflist]
+2018-09-17 19:36:16		  buflist
+2018-09-17 19:36:16		[python]
+2018-09-17 19:36:16		  python
+2018-09-17 19:36:16		[charset]
+2018-09-17 19:36:16		  charset
+2018-09-17 19:36:16		[ruby]
+2018-09-17 19:36:16		  ruby
+2018-09-17 19:36:16		[relay]
+2018-09-17 19:36:16		  relay
+2018-09-17 19:36:16		[exec]
+2018-09-17 19:36:16		  exec
+2018-09-17 19:36:16		[trigger]
+2018-09-17 19:36:16		  trigger
+2018-09-17 19:36:16		[tcl]
+2018-09-17 19:36:16		  tcl
+2018-09-17 19:36:16		[aspell]
+2018-09-17 19:36:16		  aspell
+2018-09-17 19:36:16		[xfer]
+2018-09-17 19:36:16		  me  xfer
+2018-09-17 19:36:16		[fset]
+2018-09-17 19:36:16		  fset
+2018-09-17 19:36:16		[fifo]
+2018-09-17 19:36:16		  fifo
+2018-09-17 19:36:16		[perl]
+2018-09-17 19:36:16		  perl
+2018-09-17 19:36:16		[logger]
+2018-09-17 19:36:16		  logger
+2018-09-17 19:36:16		[script]
+2018-09-17 19:36:16		  script
+2018-09-17 19:37:07		[script]  /script  list [-o|-i]
+2018-09-17 19:37:07		                   search <text>
+2018-09-17 19:37:07		                   show <script>
+2018-09-17 19:37:07		                   load|unload|reload <script> [<script>...]
+2018-09-17 19:37:07		                   autoload|noautoload|toggleautoload <script> [<script>...]
+2018-09-17 19:37:07		                   install|remove|installremove|hold [-q] <script> [<script>...]
+2018-09-17 19:37:07		                   upgrade
+2018-09-17 19:37:07		                   update
+2018-09-17 19:37:07		WeeChat script manager
+2018-09-17 19:37:07		          list: list loaded scripts (all languages)
+2018-09-17 19:37:07		            -o: send list of loaded scripts to buffer
+2018-09-17 19:37:07		            -i: copy list of loaded scripts in command line (for sending to buffer)
+2018-09-17 19:37:07		        search: search scripts by tags, language (python, perl, ...), filename extension (py, pl, ...) or text; result is displayed on scripts buffer
+2018-09-17 19:37:07		          show: show detailed info about a script
+2018-09-17 19:37:07		          load: load script(s)
+2018-09-17 19:37:07		        unload: unload script(s)
+2018-09-17 19:37:07		        reload: reload script(s)
+2018-09-17 19:37:07		      autoload: autoload the script
+2018-09-17 19:37:07		    noautoload: do not autoload the script
+2018-09-17 19:37:07		toggleautoload: toggle autoload
+2018-09-17 19:37:07		       install: install/upgrade script(s)
+2018-09-17 19:37:07		        remove: remove script(s)
+2018-09-17 19:37:07		 installremove: install or remove script(s), depending on current state
+2018-09-17 19:37:07		          hold: hold/unhold script(s) (a script held will not be upgraded any more and cannot be removed)
+2018-09-17 19:37:07		            -q: quiet mode: do not display messages
+2018-09-17 19:37:07		       upgrade: upgrade all installed scripts which are obsolete (new version available)
+2018-09-17 19:37:07		        update: update local scripts cache
+2018-09-17 19:37:07		Without argument, this command opens a buffer with list of scripts.
+2018-09-17 19:37:07		On script buffer, the possible status for each script are:
+2018-09-17 19:37:07		  * i a H r N
+2018-09-17 19:37:07		  | | | | | |
+2018-09-17 19:37:07		  | | | | | obsolete (new version available)
+2018-09-17 19:37:07		  | | | | running (loaded)
+2018-09-17 19:37:07		  | | | held
+2018-09-17 19:37:07		  | | autoloaded
+2018-09-17 19:37:07		  | installed
+2018-09-17 19:37:07		  popular script
+2018-09-17 19:37:07		Keys on script buffer:
+2018-09-17 19:37:07		  alt+i  install script
+2018-09-17 19:37:07		  alt+r  remove script
+2018-09-17 19:37:07		  alt+l  load script
+2018-09-17 19:37:07		  alt+L  reload script
+2018-09-17 19:37:07		  alt+u  unload script
+2018-09-17 19:37:07		  alt+A  autoload script
+2018-09-17 19:37:07		  alt+h  (un)hold script
+2018-09-17 19:37:07		  alt+v  view script
+2018-09-17 19:37:07		Input allowed on script buffer:
+2018-09-17 19:37:07		  i/r/l/L/u/h  action on script (same as keys above)
+2018-09-17 19:37:07		  q            close buffer
+2018-09-17 19:37:07		  $            refresh buffer
+2018-09-17 19:37:07		  s:x,y        sort buffer using keys x and y (see /help script.look.sort)
+2018-09-17 19:37:07		  s:           reset sort (use default sort)
+2018-09-17 19:37:07		  word(s)      filter scripts: search word(s) in scripts (description, tags, ...)
+2018-09-17 19:37:07		  *            remove filter
+2018-09-17 19:37:07		Mouse actions on script buffer:
+2018-09-17 19:37:07		  wheel         scroll list
+2018-09-17 19:37:07		  left button   select script
+2018-09-17 19:37:07		  right button  install/remove script
+2018-09-17 19:37:07		Examples:
+2018-09-17 19:37:07		  /script search url
+2018-09-17 19:37:07		  /script install go.py urlserver.py
+2018-09-17 19:37:07		  /script remove go.py
+2018-09-17 19:37:07		  /script hold urlserver.py
+2018-09-17 19:37:07		  /script reload urlserver
+2018-09-17 19:37:07		  /script upgrade
+2018-09-17 19:39:13		script: script "autospurdo.js" can not be installed because plugin "javascript" is not loaded
+2018-09-17 19:39:19		script: script "autospurdo.js" can not be installed because plugin "javascript" is not loaded
+2018-09-17 19:39:25		script: plugin "javascript" is not loaded
+2018-09-17 19:39:26		script: plugin "javascript" is not loaded
+2018-09-17 19:41:31		script: script "colorize_nicks.py" is already installed and up-to-date
+2018-09-17 19:41:31		script: script "colorize_nicks.py" is already installed and up-to-date
+2018-09-17 19:41:31		script: script "colorize_nicks.py" is already installed and up-to-date
+2018-09-17 19:41:32		script: script "colorize_nicks.py" is already installed and up-to-date
+2018-09-17 19:41:32		script: script "colorize_nicks.py" is already installed and up-to-date
+2018-09-17 19:41:32		script: script "colorize_nicks.py" is already installed and up-to-date
+2018-09-17 19:41:32		script: script "colorize_nicks.py" is already installed and up-to-date
+2018-09-17 19:41:33		script: script "colorize_nicks.py" is already installed and up-to-date
+2018-09-17 19:44:10		Option changed: irc.server_default.username = "cake"  (default: "")
+2018-09-17 19:44:49		Option changed: irc.server_default.realname = "= "cake""  (default: "")
+2018-09-17 19:45:00	=!=	Error: unknown command "/disco" (type /help for help)
+2018-09-17 19:45:05		[core]
+2018-09-17 19:45:05		  away     buffer   command  debug    filter   history  key      mouse    plugin   proxy    reload   save     set      upgrade  version  window 
+2018-09-17 19:45:05		  bar      color    cursor   eval     help     input    layout   mute     print    quit     repeat   secure   unset    uptime   wait   
+2018-09-17 19:45:05		[guile]
+2018-09-17 19:45:05		  guile
+2018-09-17 19:45:05		[alias]
+2018-09-17 19:45:05		  AAWAY    AME      ANICK    BYE      CHAT     CLOSE    IG       K        LEAVE    MSGBUF   N        REDRAW   SIGNOFF  UB       V        WC       WII    
+2018-09-17 19:45:05		  alias    AMSG     BEEP     C        CL       EXIT     J        KB       M        MUB      Q        SAY      T        UMODE    W        WI       WW     
+2018-09-17 19:45:05		[irc]
+2018-09-17 19:45:05		  admin       connect     devoice     invite      links       motd        op          quiet       sajoin      service     time        users       whois     
+2018-09-17 19:45:05		  allchan     ctcp        die         ison        list        msg         oper        quote       samode      servlist    topic       version     whowas    
+2018-09-17 19:45:05		  allpv       cycle       disconnect  join        lusers      names       part        reconnect   sanick      squery      trace       voice     
+2018-09-17 19:45:05		  allserv     dcc         halfop      kick        map         nick        ping        rehash      sapart      squit       unban       wallchops 
+2018-09-17 19:45:05		  ban         dehalfop    ignore      kickban     me          notice      pong        remove      saquit      stats       unquiet     wallops   
+2018-09-17 19:45:05		  cap         deop        info        kill        mode        notify      query       restart     server      summon      userhost    who       
+2018-09-17 19:45:05		[lua]
+2018-09-17 19:45:05		  lua
+2018-09-17 19:45:05		[buflist]
+2018-09-17 19:45:05		  buflist
+2018-09-17 19:45:05		[python]
+2018-09-17 19:45:05		  python
+2018-09-17 19:45:05		[charset]
+2018-09-17 19:45:05		  charset
+2018-09-17 19:45:05		[ruby]
+2018-09-17 19:45:05		  ruby
+2018-09-17 19:45:05		[relay]
+2018-09-17 19:45:05		  relay
+2018-09-17 19:45:05		[exec]
+2018-09-17 19:45:05		  exec
+2018-09-17 19:45:05		[trigger]
+2018-09-17 19:45:05		  trigger
+2018-09-17 19:45:05		[tcl]
+2018-09-17 19:45:05		  tcl
+2018-09-17 19:45:05		[aspell]
+2018-09-17 19:45:05		  aspell
+2018-09-17 19:45:05		[xfer]
+2018-09-17 19:45:05		  me  xfer
+2018-09-17 19:45:05		[fset]
+2018-09-17 19:45:05		  fset
+2018-09-17 19:45:05		[fifo]
+2018-09-17 19:45:05		  fifo
+2018-09-17 19:45:05		[perl]
+2018-09-17 19:45:05		  perl
+2018-09-17 19:45:05		[logger]
+2018-09-17 19:45:05		  logger
+2018-09-17 19:45:05		[script]
+2018-09-17 19:45:05		  script
+2018-09-17 19:45:10		[irc]  /server  list|listfull [<name>]
+2018-09-17 19:45:10		                add <name> <hostname>[/<port>] [-temp] [-<option>[=<value>]] [-no<option>]
+2018-09-17 19:45:10		                copy|rename <name> <new_name>
+2018-09-17 19:45:10		                reorder <name> [<name>...]
+2018-09-17 19:45:10		                open <name>|-all [<name>...]
+2018-09-17 19:45:10		                del|keep <name>
+2018-09-17 19:45:10		                deloutq|jump|raw
+2018-09-17 19:45:10		list, add or remove IRC servers
+2018-09-17 19:45:10		    list: list servers (without argument, this list is displayed)
+2018-09-17 19:45:10		listfull: list servers with detailed info for each server
+2018-09-17 19:45:10		     add: add a new server
+2018-09-17 19:45:10		    name: server name, for internal and display use; this name is used to connect to the server (/connect name) and to set server options: irc.server.name.xxx
+2018-09-17 19:45:10		hostname: name or IP address of server, with optional port (default: 6667), many addresses can be separated by a comma
+2018-09-17 19:45:10		   -temp: add a temporary server (not saved)
+2018-09-17 19:45:10		  option: set option for server (for boolean option, value can be omitted)
+2018-09-17 19:45:10		nooption: set boolean option to 'off' (for example: -nossl)
+2018-09-17 19:45:10		    copy: duplicate a server
+2018-09-17 19:45:10		  rename: rename a server
+2018-09-17 19:45:10		 reorder: reorder list of servers
+2018-09-17 19:45:10		    open: open the server buffer without connecting
+2018-09-17 19:45:10		    keep: keep server in config file (for temporary servers only)
+2018-09-17 19:45:10		     del: delete a server
+2018-09-17 19:45:10		 deloutq: delete messages out queue for all servers (all messages WeeChat is currently sending)
+2018-09-17 19:45:10		    jump: jump to server buffer
+2018-09-17 19:45:10		     raw: open buffer with raw IRC data
+2018-09-17 19:45:10		Examples:
+2018-09-17 19:45:10		  /server listfull
+2018-09-17 19:45:10		  /server add freenode chat.freenode.net
+2018-09-17 19:45:10		  /server add freenode chat.freenode.net/6697 -ssl -autoconnect
+2018-09-17 19:45:10		  /server add chatspike irc.chatspike.net/6667,irc.duckspike.net/6667
+2018-09-17 19:45:10		  /server copy freenode freenode-test
+2018-09-17 19:45:10		  /server rename freenode-test freenode2
+2018-09-17 19:45:10		  /server reorder freenode2 freenode
+2018-09-17 19:45:10		  /server del freenode
+2018-09-17 19:45:10		  /server deloutq
+2018-09-17 19:45:16		[irc]  /connect  <server> [<server>...] [-<option>[=<value>]] [-no<option>] [-nojoin] [-switch]
+2018-09-17 19:45:16		                 -all|-auto|-open [-nojoin] [-switch]
+2018-09-17 19:45:16		connect to IRC server(s)
+2018-09-17 19:45:16		    server: server name, which can be:
+2018-09-17 19:45:16		            - internal server name (added by /server add, recommended usage)
+2018-09-17 19:45:16		            - hostname/port or IP/port, port is 6667 by default
+2018-09-17 19:45:16		            - URL with format: irc[6][s]://[nickname[:password]@]irc.example.org[:port][/#channel1][,#channel2[...]]
+2018-09-17 19:45:16		            Note: for an address/IP/URL, a temporary server is added (NOT SAVED), see /help irc.look.temporary_servers
+2018-09-17 19:45:16		    option: set option for server (for boolean option, value can be omitted)
+2018-09-17 19:45:16		  nooption: set boolean option to 'off' (for example: -nossl)
+2018-09-17 19:45:16		      -all: connect to all servers defined in configuration
+2018-09-17 19:45:16		     -auto: connect to servers with autoconnect enabled
+2018-09-17 19:45:16		     -open: connect to all opened servers that are not currently connected
+2018-09-17 19:45:16		   -nojoin: do not join any channel (even if autojoin is enabled on server)
+2018-09-17 19:45:16		   -switch: switch to next server address
+2018-09-17 19:45:16		To disconnect from a server or stop any connection attempt, use command /disconnect.
+2018-09-17 19:45:16		Examples:
+2018-09-17 19:45:16		  /connect freenode
+2018-09-17 19:45:16		  /connect irc.oftc.net/6667
+2018-09-17 19:45:16		  /connect irc6.oftc.net/6667 -ipv6
+2018-09-17 19:45:16		  /connect irc6.oftc.net/6697 -ipv6 -ssl
+2018-09-17 19:45:16		  /connect my.server.org/6697 -ssl -password=test
+2018-09-17 19:45:16		  /connect irc://nick@irc.oftc.net/#channel
+2018-09-17 19:45:16		  /connect -switch
+2018-09-17 19:46:29	=!=	Error with command "/plugin colorize" (help on command: /help plugin)
+2018-09-17 19:46:32	=!=	Error: unknown command "/login" (type /help for help)
+2018-09-17 19:46:35		Plugins loaded:
+2018-09-17 19:46:35		  guile: Support of scheme scripts (with Guile)
+2018-09-17 19:46:35		  alias: Alias commands
+2018-09-17 19:46:35		  irc: IRC (Internet Relay Chat) protocol
+2018-09-17 19:46:35		  lua: Support of lua scripts
+2018-09-17 19:46:35		  buflist: Buffers list
+2018-09-17 19:46:35		  python: Support of python scripts
+2018-09-17 19:46:35		  charset: Charset conversions
+2018-09-17 19:46:35		  ruby: Support of ruby scripts
+2018-09-17 19:46:35		  relay: Relay WeeChat data to remote application (irc/weechat protocols)
+2018-09-17 19:46:35		  exec: Execution of external commands in WeeChat
+2018-09-17 19:46:35		  trigger: Text replacement and command execution on events triggered by WeeChat/plugins
+2018-09-17 19:46:35		  tcl: Support of tcl scripts
+2018-09-17 19:46:35		  aspell: Spell checker for input (with Aspell)
+2018-09-17 19:46:35		  xfer: DCC file transfer and direct chat
+2018-09-17 19:46:35		  fset: Fast set of WeeChat and plugins options
+2018-09-17 19:46:35		  fifo: FIFO pipe for remote control
+2018-09-17 19:46:35		  perl: Support of perl scripts
+2018-09-17 19:46:35		  logger: Log buffers to files
+2018-09-17 19:46:35		  script: Script manager
+2018-09-17 19:48:19		All servers:
+2018-09-17 19:48:19		   freenode
+2018-09-17 19:48:19		   rizon
+2018-09-17 19:48:19		   furnet
+2018-09-17 19:48:19		   badnik
+2018-09-17 19:48:19		   mozilla
+2018-09-17 19:48:43	=!=	Error: unknown command "/javascript" (type /help for help)
+2018-09-17 19:51:03		python scripts loaded: colorize_nicks
+2018-09-17 19:51:03		script: 346 scripts for WeeChat 2.3-dev
+2018-09-17 19:51:03		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2018-09-17 19:51:12	=!=	Error with command "/plugin search" (help on command: /help plugin)
+2018-09-17 19:51:30		script: script "autospurdo.js" can not be installed because plugin "javascript" is not loaded
+2018-09-17 19:51:31		script: script "autospurdo.js" can not be installed because plugin "javascript" is not loaded
+2018-09-17 19:51:44	=!=	Error: unable to load plugin "javascript": javascript: cannot open shared object file: No such file or directory
+2018-09-17 19:51:44	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2018-09-17 19:52:27		script: script "~/Downloads/autospurdo.js" not found
+2018-09-17 19:52:33		script: script "/home/thom/Downloads/autospurdo.js" not found
+2018-09-17 19:52:54		[script]  /script  list [-o|-i]
+2018-09-17 19:52:54		                   search <text>
+2018-09-17 19:52:54		                   show <script>
+2018-09-17 19:52:54		                   load|unload|reload <script> [<script>...]
+2018-09-17 19:52:54		                   autoload|noautoload|toggleautoload <script> [<script>...]
+2018-09-17 19:52:54		                   install|remove|installremove|hold [-q] <script> [<script>...]
+2018-09-17 19:52:54		                   upgrade
+2018-09-17 19:52:54		                   update
+2018-09-17 19:52:54		WeeChat script manager
+2018-09-17 19:52:54		          list: list loaded scripts (all languages)
+2018-09-17 19:52:54		            -o: send list of loaded scripts to buffer
+2018-09-17 19:52:54		            -i: copy list of loaded scripts in command line (for sending to buffer)
+2018-09-17 19:52:54		        search: search scripts by tags, language (python, perl, ...), filename extension (py, pl, ...) or text; result is displayed on scripts buffer
+2018-09-17 19:52:54		          show: show detailed info about a script
+2018-09-17 19:52:54		          load: load script(s)
+2018-09-17 19:52:54		        unload: unload script(s)
+2018-09-17 19:52:54		        reload: reload script(s)
+2018-09-17 19:52:54		      autoload: autoload the script
+2018-09-17 19:52:54		    noautoload: do not autoload the script
+2018-09-17 19:52:54		toggleautoload: toggle autoload
+2018-09-17 19:52:54		       install: install/upgrade script(s)
+2018-09-17 19:52:54		        remove: remove script(s)
+2018-09-17 19:52:54		 installremove: install or remove script(s), depending on current state
+2018-09-17 19:52:54		          hold: hold/unhold script(s) (a script held will not be upgraded any more and cannot be removed)
+2018-09-17 19:52:54		            -q: quiet mode: do not display messages
+2018-09-17 19:52:54		       upgrade: upgrade all installed scripts which are obsolete (new version available)
+2018-09-17 19:52:54		        update: update local scripts cache
+2018-09-17 19:52:54		Without argument, this command opens a buffer with list of scripts.
+2018-09-17 19:52:54		On script buffer, the possible status for each script are:
+2018-09-17 19:52:54		  * i a H r N
+2018-09-17 19:52:54		  | | | | | |
+2018-09-17 19:52:54		  | | | | | obsolete (new version available)
+2018-09-17 19:52:54		  | | | | running (loaded)
+2018-09-17 19:52:54		  | | | held
+2018-09-17 19:52:54		  | | autoloaded
+2018-09-17 19:52:54		  | installed
+2018-09-17 19:52:54		  popular script
+2018-09-17 19:52:54		Keys on script buffer:
+2018-09-17 19:52:54		  alt+i  install script
+2018-09-17 19:52:54		  alt+r  remove script
+2018-09-17 19:52:54		  alt+l  load script
+2018-09-17 19:52:54		  alt+L  reload script
+2018-09-17 19:52:54		  alt+u  unload script
+2018-09-17 19:52:54		  alt+A  autoload script
+2018-09-17 19:52:54		  alt+h  (un)hold script
+2018-09-17 19:52:54		  alt+v  view script
+2018-09-17 19:52:54		Input allowed on script buffer:
+2018-09-17 19:52:54		  i/r/l/L/u/h  action on script (same as keys above)
+2018-09-17 19:52:54		  q            close buffer
+2018-09-17 19:52:54		  $            refresh buffer
+2018-09-17 19:52:54		  s:x,y        sort buffer using keys x and y (see /help script.look.sort)
+2018-09-17 19:52:54		  s:           reset sort (use default sort)
+2018-09-17 19:52:54		  word(s)      filter scripts: search word(s) in scripts (description, tags, ...)
+2018-09-17 19:52:54		  *            remove filter
+2018-09-17 19:52:54		Mouse actions on script buffer:
+2018-09-17 19:52:54		  wheel         scroll list
+2018-09-17 19:52:54		  left button   select script
+2018-09-17 19:52:54		  right button  install/remove script
+2018-09-17 19:52:54		Examples:
+2018-09-17 19:52:54		  /script search url
+2018-09-17 19:52:54		  /script install go.py urlserver.py
+2018-09-17 19:52:54		  /script remove go.py
+2018-09-17 19:52:54		  /script hold urlserver.py
+2018-09-17 19:52:54		  /script reload urlserver
+2018-09-17 19:52:54		  /script upgrade
+2018-09-17 19:53:31		script: script "~/Downloads/autospurdo.js" not found
+2018-09-17 19:53:38		script: script "Downloads/autospurdo.js" not found
+2018-09-17 19:54:31		script: script "autospurdo.js" can not be installed because plugin "javascript" is not loaded
+2018-09-17 19:55:52		python scripts loaded: colorize_nicks
+2018-09-17 19:55:52		script: 346 scripts for WeeChat 2.3-dev
+2018-09-17 19:55:52		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2018-09-17 19:56:03	=!=	Error with command "/plugin colorizer" (help on command: /help plugin)
+2018-09-17 19:56:51		[core]  /plugin  list|listfull [<name>]
+2018-09-17 19:56:51		                 load <filename> [<arguments>]
+2018-09-17 19:56:51		                 autoload [<arguments>]
+2018-09-17 19:56:51		                 reload [<name>|* [<arguments>]]
+2018-09-17 19:56:51		                 unload [<name>]
+2018-09-17 19:56:51		list/load/unload plugins
+2018-09-17 19:56:51		     list: list loaded plugins
+2018-09-17 19:56:51		 listfull: list loaded plugins (verbose)
+2018-09-17 19:56:51		     load: load a plugin
+2018-09-17 19:56:51		 autoload: autoload plugins in system or user directory
+2018-09-17 19:56:51		   reload: reload a plugin (if no name given, unload all plugins, then autoload plugins)
+2018-09-17 19:56:51		   unload: unload a plugin (if no name given, unload all plugins)
+2018-09-17 19:56:51		 filename: plugin (file) to load
+2018-09-17 19:56:51		     name: a plugin name
+2018-09-17 19:56:51		arguments: arguments given to plugin on load
+2018-09-17 19:56:51		Without argument, this command lists loaded plugins.
+2018-09-17 20:00:21		Plugins loaded:
+2018-09-17 20:00:21		  guile [v2.3-dev]: Support of scheme scripts (with Guile) (/usr/lib/weechat/plugins/guile.so)
+2018-09-17 20:00:21		  written by "Sébastien Helleu <flashcode@flashtux.org>", license: GPL3
+2018-09-17 20:00:21		    commands hooked:
+2018-09-17 20:00:21		      /guile (list/load/unload scripts)
+2018-09-17 20:00:21		    signals hooked:
+2018-09-17 20:00:21		      signal: debug_dump
+2018-09-17 20:00:21		      signal: debug_libs
+2018-09-17 20:00:21		      signal: guile_script_install
+2018-09-17 20:00:21		      signal: guile_script_remove
+2018-09-17 20:00:21		      signal: guile_script_autoload
+2018-09-17 20:00:21		    completions hooked:
+2018-09-17 20:00:21		        guile_script
+2018-09-17 20:00:21		  alias [v2.3-dev]: Alias commands (/usr/lib/weechat/plugins/alias.so)
+2018-09-17 20:00:21		  written by "Sébastien Helleu <flashcode@flashtux.org>", license: GPL3
+2018-09-17 20:00:21		    commands hooked:
+2018-09-17 20:00:21		      /AAWAY (allserv /away)
+2018-09-17 20:00:21		      /alias (list, add or remove command aliases)
+2018-09-17 20:00:21		      /AME (allchan /me)
+2018-09-17 20:00:21		      /AMSG (allchan /msg *)
+2018-09-17 20:00:21		      /ANICK (allserv /nick)
+2018-09-17 20:00:21		      /BEEP (print -beep)
+2018-09-17 20:00:21		      /BYE (quit)
+2018-09-17 20:00:21		      /C (buffer clear)
+2018-09-17 20:00:21		      /CHAT (dcc chat)
+2018-09-17 20:00:21		      /CL (buffer clear)
+2018-09-17 20:00:21		      /CLOSE (buffer close)
+2018-09-17 20:00:21		      /EXIT (quit)
+2018-09-17 20:00:21		      /IG (ignore)
+2018-09-17 20:00:21		      /J (join)
+2018-09-17 20:00:21		      /K (kick)
+2018-09-17 20:00:21		      /KB (kickban)
+2018-09-17 20:00:21		      /LEAVE (part)
+2018-09-17 20:00:21		      /M (msg)
+2018-09-17 20:00:21		      /MSGBUF (command -buffer $1 * /input send $2-)
+2018-09-17 20:00:21		      /MUB (unban *)
+2018-09-17 20:00:21		      /N (names)
+2018-09-17 20:00:21		      /Q (query)
+2018-09-17 20:00:21		      /REDRAW (window refresh)
+2018-09-17 20:00:21		      /SAY (msg *)
+2018-09-17 20:00:21		      /SIGNOFF (quit)
+2018-09-17 20:00:21		      /T (topic)
+2018-09-17 20:00:21		      /UB (unban)
+2018-09-17 20:00:21		      /UMODE (mode $nick)
+2018-09-17 20:00:21		      /V (command core version)
+2018-09-17 20:00:21		      /W (who)
+2018-09-17 20:00:21		      /WC (window merge)
+2018-09-17 20:00:21		      /WI (whois)
+2018-09-17 20:00:21		      /WII (whois $1 $1)
+2018-09-17 20:00:21		      /WW (whowas)
+2018-09-17 20:00:21		    completions hooked:
+2018-09-17 20:00:21		        alias
+2018-09-17 20:00:21		        alias_value
+2018-09-17 20:00:21		  irc [v2.3-dev]: IRC (Internet Relay Chat) protocol (/usr/lib/weechat/plugins/irc.so)
+2018-09-17 20:00:21		  written by "Sébastien Helleu <flashcode@flashtux.org>", license: GPL3
+2018-09-17 20:00:21		    commands hooked:
+2018-09-17 20:00:21		      /admin (find information about the administrator of the server)
+2018-09-17 20:00:21		      /allchan (execute a command on all channels of all connected servers)
+2018-09-17 20:00:21		      /allpv (execute a command on all private buffers of all connected servers)
+2018-09-17 20:00:21		      /allserv (execute a command on all connected servers)
+2018-09-17 20:00:21		      /ban (ban nicks or hosts)
+2018-09-17 20:00:21		      /cap (client capability negotiation)
+2018-09-17 20:00:21		      /connect (connect to IRC server(s))
+2018-09-17 20:00:21		      /ctcp (send a CTCP message (Client-To-Client Protocol))
+2018-09-17 20:00:21		      /cycle (leave and rejoin a channel)
+2018-09-17 20:00:21		      /dcc (start a DCC (file transfer or direct chat))
+2018-09-17 20:00:21		      /dehalfop (remove channel half-operator status from nick(s))
+2018-09-17 20:00:21		      /deop (remove channel operator status from nick(s))
+2018-09-17 20:00:21		      /devoice (remove voice from nick(s))
+2018-09-17 20:00:21		      /die (shutdown the server)
+2018-09-17 20:00:21		      /disconnect (disconnect from one or all IRC servers)
+2018-09-17 20:00:21		      /halfop (give channel half-operator status to nick(s))
+2018-09-17 20:00:21		      /ignore (ignore nicks/hosts from servers or channels)
+2018-09-17 20:00:21		      /info (get information describing the server)
+2018-09-17 20:00:21		      /invite (invite a nick on a channel)
+2018-09-17 20:00:21		      /ison (check if a nick is currently on IRC)
+2018-09-17 20:00:21		      /join (join a channel)
+2018-09-17 20:00:21		      /kick (kick a user out of a channel)
+2018-09-17 20:00:21		      /kickban (kick a user out of a channel and ban the host)
+2018-09-17 20:00:21		      /kill (close client-server connection)
+2018-09-17 20:00:21		      /links (list all servernames which are known by the server answering the query)
+2018-09-17 20:00:21		      /list (list channels and their topic)
+2018-09-17 20:00:21		      /lusers (get statistics about the size of the IRC network)
+2018-09-17 20:00:21		      /map (show a graphical map of the IRC network)
+2018-09-17 20:00:21		      /me (send a CTCP action to the current channel)
+2018-09-17 20:00:21		      /mode (change channel or user mode)
+2018-09-17 20:00:21		      /motd (get the "Message Of The Day")
+2018-09-17 20:00:21		      /msg (send message to a nick or channel)
+2018-09-17 20:00:21		      /names (list nicks on channels)
+2018-09-17 20:00:21		      /nick (change current nick)
+2018-09-17 20:00:21		      /notice (send notice message to user)
+2018-09-17 20:00:21		      /notify (add a notification for presence or away status of nicks on servers)
+2018-09-17 20:00:21		      /op (give channel operator status to nick(s))
+2018-09-17 20:00:21		      /oper (get operator privileges)
+2018-09-17 20:00:21		      /part (leave a channel)
+2018-09-17 20:00:21		      /ping (send a ping to server)
+2018-09-17 20:00:21		      /pong (answer to a ping message)
+2018-09-17 20:00:21		      /query (send a private message to a nick)
+2018-09-17 20:00:21		      /quiet (quiet nicks or hosts)
+2018-09-17 20:00:21		      /quote (send raw data to server without parsing)
+2018-09-17 20:00:21		      /reconnect (reconnect to server(s))
+2018-09-17 20:00:21		      /rehash (tell the server to reload its config file)
+2018-09-17 20:00:21		      /remove (force a user to leave a channel)
+2018-09-17 20:00:21		      /restart (tell the server to restart itself)
+2018-09-17 20:00:21		      /sajoin (force a user to join channel(s))
+2018-09-17 20:00:21		      /samode (change mode on channel, without having operator status)
+2018-09-17 20:00:21		      /sanick (force a user to use another nick)
+2018-09-17 20:00:21		      /sapart (force a user to leave channel(s))
+2018-09-17 20:00:21		      /saquit (force a user to quit server with a reason)
+2018-09-17 20:00:21		      /server (list, add or remove IRC servers)
+2018-09-17 20:00:21		      /service (register a new service)
+2018-09-17 20:00:21		      /servlist (list services currently connected to the network)
+2018-09-17 20:00:21		      /squery (deliver a message to a service)
+2018-09-17 20:00:21		      /squit (disconnect server links)
+2018-09-17 20:00:21		      /stats (query statistics about server)
+2018-09-17 20:00:21		      /summon (give users who are on a host running an IRC server a message asking them to please join IRC)
+2018-09-17 20:00:21		      /time (query local time from server)
+2018-09-17 20:00:21		      /topic (get/set channel topic)
+2018-09-17 20:00:21		      /trace (find the route to specific server)
+2018-09-17 20:00:21		      /unban (unban nicks or hosts)
+2018-09-17 20:00:21		      /unquiet (unquiet nicks or hosts)
+2018-09-17 20:00:21		      /userhost (return a list of information about nicks)
+2018-09-17 20:00:21		      /users (list of users logged into the server)
+2018-09-17 20:00:21		      /version (give the version info of nick or server (current or specified))
+2018-09-17 20:00:21		      /voice (give voice to nick(s))
+2018-09-17 20:00:21		      /wallchops (send a notice to channel ops)
+2018-09-17 20:00:21		      /wallops (send a message to all currently connected users who have set the 'w' user mode for themselves)
+2018-09-17 20:00:21		      /who (generate a query which returns a list of information)
+2018-09-17 20:00:21		      /whois (query information about user(s))
+2018-09-17 20:00:21		      /whowas (ask for information about a nick which no longer exists)
+2018-09-17 20:00:21		    command_run hooked:
+2018-09-17 20:00:21		      /away
+2018-09-17 20:00:21		    timers hooked:
+2018-09-17 20:00:21		      60 seconds (no call limit)
+2018-09-17 20:00:21		      300 seconds (no call limit)
+2018-09-17 20:00:21		      1 second (no call limit)
+2018-09-17 20:00:21		    signals hooked:
+2018-09-17 20:00:21		      signal: debug_dump
+2018-09-17 20:00:21		      signal: quit
+2018-09-17 20:00:21		      signal: upgrade
+2018-09-17 20:00:21		      signal: xfer_send_ready
+2018-09-17 20:00:21		      signal: xfer_resume_ready
+2018-09-17 20:00:21		      signal: xfer_send_accept_resume
+2018-09-17 20:00:21		      signal: irc_input_send
+2018-09-17 20:00:21		      signal: buffer_switch
+2018-09-17 20:00:21		    configuration options hooked:
+2018-09-17 20:00:21		      weechat.look.nick_color_*
+2018-09-17 20:00:21		      weechat.color.chat_nick_colors
+2018-09-17 20:00:21		    completions hooked:
+2018-09-17 20:00:21		        irc_server
+2018-09-17 20:00:21		        irc_server_nick
+2018-09-17 20:00:21		        irc_server_channels
+2018-09-17 20:00:21		        irc_server_privates
+2018-09-17 20:00:21		        irc_server_nicks
+2018-09-17 20:00:21		        irc_servers
+2018-09-17 20:00:21		        irc_channel
+2018-09-17 20:00:21		        nick
+2018-09-17 20:00:21		        irc_channel_nicks_hosts
+2018-09-17 20:00:21		        irc_modelist_masks
+2018-09-17 20:00:21		        irc_modelist_numbers
+2018-09-17 20:00:21		        irc_channel_topic
+2018-09-17 20:00:21		        irc_channels
+2018-09-17 20:00:21		        irc_privates
+2018-09-17 20:00:21		        irc_msg_kick
+2018-09-17 20:00:21		        irc_msg_part
+2018-09-17 20:00:21		        irc_ignores_numbers
+2018-09-17 20:00:21		        irc_notify_nicks
+2018-09-17 20:00:21		    modifiers hooked:
+2018-09-17 20:00:21		        irc_color_decode
+2018-09-17 20:00:21		        irc_color_encode
+2018-09-17 20:00:21		        irc_color_decode_ansi
+2018-09-17 20:00:21		  lua [v2.3-dev]: Support of lua scripts (/usr/lib/weechat/plugins/lua.so)
+2018-09-17 20:00:21		  written by "Sébastien Helleu <flashcode@flashtux.org>", license: GPL3
+2018-09-17 20:00:21		    commands hooked:
+2018-09-17 20:00:21		      /lua (list/load/unload scripts)
+2018-09-17 20:00:21		    signals hooked:
+2018-09-17 20:00:21		      signal: debug_dump
+2018-09-17 20:00:21		      signal: debug_libs
+2018-09-17 20:00:21		      signal: lua_script_install
+2018-09-17 20:00:21		      signal: lua_script_remove
+2018-09-17 20:00:21		      signal: lua_script_autoload
+2018-09-17 20:00:21		    completions hooked:
+2018-09-17 20:00:21		        lua_script
+2018-09-17 20:00:21		  buflist [v2.3-dev]: Buffers list (/usr/lib/weechat/plugins/buflist.so)
+2018-09-17 20:00:21		  written by "Sébastien Helleu <flashcode@flashtux.org>", license: GPL3
+2018-09-17 20:00:21		    commands hooked:
+2018-09-17 20:00:21		      /buflist (bar item with list of buffers)
+2018-09-17 20:00:21		    signals hooked:
+2018-09-17 20:00:21		      signal: buffer_closed
+2018-09-17 20:00:21		      signal: buffer_hidden
+2018-09-17 20:00:21		      signal: buffer_localvar_added
+2018-09-17 20:00:21		      signal: buffer_localvar_changed
+2018-09-17 20:00:21		      signal: buffer_merged
+2018-09-17 20:00:21		      signal: buffer_moved
+2018-09-17 20:00:21		      signal: buffer_opened
+2018-09-17 20:00:21		      signal: buffer_renamed
+2018-09-17 20:00:21		      signal: buffer_switch
+2018-09-17 20:00:21		      signal: buffer_unhidden
+2018-09-17 20:00:21		      signal: buffer_unmerged
+2018-09-17 20:00:21		      signal: hotlist_changed
+2018-09-17 20:00:21		      signal: window_switch
+2018-09-17 20:00:21		      signal: perl_script_loaded
+2018-09-17 20:00:21		  python [v2.3-dev]: Support of python scripts (/usr/lib/weechat/plugins/python.so)
+2018-09-17 20:00:21		  written by "Sébastien Helleu <flashcode@flashtux.org>", license: GPL3
+2018-09-17 20:00:21		    commands hooked:
+2018-09-17 20:00:21		      /python (list/load/unload scripts)
+2018-09-17 20:00:21		    signals hooked:
+2018-09-17 20:00:21		      signal: debug_dump
+2018-09-17 20:00:21		      signal: debug_libs
+2018-09-17 20:00:21		      signal: python_script_install
+2018-09-17 20:00:21		      signal: python_script_remove
+2018-09-17 20:00:21		      signal: python_script_autoload
+2018-09-17 20:00:21		      signal: nicklist_nick_added
+2018-09-17 20:00:21		      signal: nicklist_nick_removed
+2018-09-17 20:00:21		    configuration options hooked:
+2018-09-17 20:00:21		      weechat.color.chat_nick_colors
+2018-09-17 20:00:21		      weechat.look.nick_color_hash
+2018-09-17 20:00:21		      colorize_nicks.look.blacklist*
+2018-09-17 20:00:21		    completions hooked:
+2018-09-17 20:00:21		        python_script
+2018-09-17 20:00:21		    modifiers hooked:
+2018-09-17 20:00:21		        weechat_print
+2018-09-17 20:00:21		        colorize_nicks
+2018-09-17 20:00:21		        input_text_display
+2018-09-17 20:00:21		  charset [v2.3-dev]: Charset conversions (/usr/lib/weechat/plugins/charset.so)
+2018-09-17 20:00:21		  written by "Sébastien Helleu <flashcode@flashtux.org>", license: GPL3
+2018-09-17 20:00:21		    commands hooked:
+2018-09-17 20:00:21		      /charset (change charset for current buffer)
+2018-09-17 20:00:21		    modifiers hooked:
+2018-09-17 20:00:21		        charset_decode
+2018-09-17 20:00:21		        charset_encode
+2018-09-17 20:00:21		  ruby [v2.3-dev]: Support of ruby scripts (/usr/lib/weechat/plugins/ruby.so)
+2018-09-17 20:00:21		  written by "Sébastien Helleu <flashcode@flashtux.org>", license: GPL3
+2018-09-17 20:00:21		    commands hooked:
+2018-09-17 20:00:21		      /ruby (list/load/unload scripts)
+2018-09-17 20:00:21		    signals hooked:
+2018-09-17 20:00:21		      signal: debug_dump
+2018-09-17 20:00:21		      signal: debug_libs
+2018-09-17 20:00:21		      signal: ruby_script_install
+2018-09-17 20:00:21		      signal: ruby_script_remove
+2018-09-17 20:00:21		      signal: ruby_script_autoload
+2018-09-17 20:00:21		    completions hooked:
+2018-09-17 20:00:21		        ruby_script
+2018-09-17 20:00:21		  relay [v2.3-dev]: Relay WeeChat data to remote application (irc/weechat protocols) (/usr/lib/weechat/plugins/relay.so)
+2018-09-17 20:00:21		  written by "Sébastien Helleu <flashcode@flashtux.org>", license: GPL3
+2018-09-17 20:00:21		    commands hooked:
+2018-09-17 20:00:21		      /relay (relay control)
+2018-09-17 20:00:21		    timers hooked:
+2018-09-17 20:00:21		      1 second (no call limit)
+2018-09-17 20:00:21		    signals hooked:
+2018-09-17 20:00:21		      signal: upgrade
+2018-09-17 20:00:21		      signal: debug_dump
+2018-09-17 20:00:21		    completions hooked:
+2018-09-17 20:00:21		        relay_protocol_name
+2018-09-17 20:00:21		        relay_relays
+2018-09-17 20:00:21		        relay_free_port
+2018-09-17 20:00:21		  exec [v2.3-dev]: Execution of external commands in WeeChat (/usr/lib/weechat/plugins/exec.so)
+2018-09-17 20:00:21		  written by "Sébastien Helleu <flashcode@flashtux.org>", license: GPL3
+2018-09-17 20:00:21		    commands hooked:
+2018-09-17 20:00:21		      /exec (execute external commands)
+2018-09-17 20:00:21		    signals hooked:
+2018-09-17 20:00:21		      signal: debug_dump
+2018-09-17 20:00:21		    completions hooked:
+2018-09-17 20:00:21		        exec_commands_ids
+2018-09-17 20:00:21		  trigger [v2.3-dev]: Text replacement and command execution on events triggered by WeeChat/plugins (/usr/lib/weechat/plugins/trigger.so)
+2018-09-17 20:00:21		  written by "Sébastien Helleu <flashcode@flashtux.org>", license: GPL3
+2018-09-17 20:00:21		    commands hooked:
+2018-09-17 20:00:21		      /trigger (manage triggers, the Swiss Army knife for WeeChat)
+2018-09-17 20:00:21		    prints hooked:
+2018-09-17 20:00:21		      message: "(none)"
+2018-09-17 20:00:21		    signals hooked:
+2018-09-17 20:00:21		      signal: debug_dump
+2018-09-17 20:00:21		    completions hooked:
+2018-09-17 20:00:21		        trigger_names
+2018-09-17 20:00:21		        trigger_names_default
+2018-09-17 20:00:21		        trigger_options
+2018-09-17 20:00:21		        trigger_option_value
+2018-09-17 20:00:21		        trigger_hooks
+2018-09-17 20:00:21		        trigger_hooks_filter
+2018-09-17 20:00:21		        trigger_hook_arguments
+2018-09-17 20:00:21		        trigger_hook_conditions
+2018-09-17 20:00:21		        trigger_hook_regex
+2018-09-17 20:00:21		        trigger_hook_command
+2018-09-17 20:00:21		        trigger_hook_rc
+2018-09-17 20:00:21		        trigger_post_action
+2018-09-17 20:00:21		    modifiers hooked:
+2018-09-17 20:00:21		        input_text_display
+2018-09-17 20:00:21		        history_add
+2018-09-17 20:00:21		        irc_command_auth
+2018-09-17 20:00:21		        input_text_display
+2018-09-17 20:00:21		        history_add
+2018-09-17 20:00:21		        irc_command_auth
+2018-09-17 20:00:21		        irc_message_auth
+2018-09-17 20:00:21		        input_text_display
+2018-09-17 20:00:21		        history_add
+2018-09-17 20:00:21		  tcl [v2.3-dev]: Support of tcl scripts (/usr/lib/weechat/plugins/tcl.so)
+2018-09-17 20:00:21		  written by "Dmitry Kobylin <fnfal@academ.tsc.ru>", license: GPL3
+2018-09-17 20:00:21		    commands hooked:
+2018-09-17 20:00:21		      /tcl (list/load/unload scripts)
+2018-09-17 20:00:21		    signals hooked:
+2018-09-17 20:00:21		      signal: debug_dump
+2018-09-17 20:00:21		      signal: debug_libs
+2018-09-17 20:00:21		      signal: tcl_script_install
+2018-09-17 20:00:21		      signal: tcl_script_remove
+2018-09-17 20:00:21		      signal: tcl_script_autoload
+2018-09-17 20:00:21		    completions hooked:
+2018-09-17 20:00:21		        tcl_script
+2018-09-17 20:00:21		  aspell [v2.3-dev]: Spell checker for input (with Aspell) (/usr/lib/weechat/plugins/aspell.so)
+2018-09-17 20:00:21		  written by "Sébastien Helleu <flashcode@flashtux.org>", license: GPL3
+2018-09-17 20:00:21		    commands hooked:
+2018-09-17 20:00:21		      /aspell (aspell plugin configuration)
+2018-09-17 20:00:21		    signals hooked:
+2018-09-17 20:00:21		      signal: buffer_switch
+2018-09-17 20:00:21		      signal: window_switch
+2018-09-17 20:00:21		      signal: buffer_closed
+2018-09-17 20:00:21		      signal: debug_libs
+2018-09-17 20:00:21		    completions hooked:
+2018-09-17 20:00:21		        aspell_langs
+2018-09-17 20:00:21		        aspell_dicts
+2018-09-17 20:00:21		    modifiers hooked:
+2018-09-17 20:00:21		        input_text_display
+2018-09-17 20:00:21		  xfer [v2.3-dev]: DCC file transfer and direct chat (/usr/lib/weechat/plugins/xfer.so)
+2018-09-17 20:00:21		  written by "Sébastien Helleu <flashcode@flashtux.org>", license: GPL3
+2018-09-17 20:00:21		    commands hooked:
+2018-09-17 20:00:21		      /me (send a CTCP action to remote host)
+2018-09-17 20:00:21		      /xfer (xfer control)
+2018-09-17 20:00:21		    signals hooked:
+2018-09-17 20:00:21		      signal: upgrade
+2018-09-17 20:00:21		      signal: xfer_add
+2018-09-17 20:00:21		      signal: xfer_start_resume
+2018-09-17 20:00:21		      signal: xfer_accept_resume
+2018-09-17 20:00:21		      signal: debug_dump
+2018-09-17 20:00:21		    completions hooked:
+2018-09-17 20:00:21		        nick
+2018-09-17 20:00:21		  fset [v2.3-dev]: Fast set of WeeChat and plugins options (/usr/lib/weechat/plugins/fset.so)
+2018-09-17 20:00:21		  written by "Sébastien Helleu <flashcode@flashtux.org>", license: GPL3
+2018-09-17 20:00:21		    commands hooked:
+2018-09-17 20:00:21		      /fset (fast set WeeChat and plugins options)
+2018-09-17 20:00:21		    command_run hooked:
+2018-09-17 20:00:21		      /set
+2018-09-17 20:00:21		    signals hooked:
+2018-09-17 20:00:21		      signal: debug_dump
+2018-09-17 20:00:21		      signal: window_scrolled
+2018-09-17 20:00:21		    configuration options hooked:
+2018-09-17 20:00:21		      *
+2018-09-17 20:00:21		    completions hooked:
+2018-09-17 20:00:21		        fset_options
+2018-09-17 20:00:21		  fifo [v2.3-dev]: FIFO pipe for remote control (/usr/lib/weechat/plugins/fifo.so)
+2018-09-17 20:00:21		  written by "Sébastien Helleu <flashcode@flashtux.org>", license: GPL3
+2018-09-17 20:00:21		    commands hooked:
+2018-09-17 20:00:21		      /fifo (fifo plugin configuration)
+2018-09-17 20:00:21		    fd hooked:
+2018-09-17 20:00:21		      4 (flags: 0x1: read)
+2018-09-17 20:00:21		  perl [v2.3-dev]: Support of perl scripts (/usr/lib/weechat/plugins/perl.so)
+2018-09-17 20:00:21		  written by "Sébastien Helleu <flashcode@flashtux.org>", license: GPL3
+2018-09-17 20:00:21		    commands hooked:
+2018-09-17 20:00:21		      /perl (list/load/unload scripts)
+2018-09-17 20:00:21		    signals hooked:
+2018-09-17 20:00:21		      signal: debug_dump
+2018-09-17 20:00:21		      signal: debug_libs
+2018-09-17 20:00:21		      signal: perl_script_install
+2018-09-17 20:00:21		      signal: perl_script_remove
+2018-09-17 20:00:21		      signal: perl_script_autoload
+2018-09-17 20:00:21		      signal: quit
+2018-09-17 20:00:21		      signal: upgrade
+2018-09-17 20:00:21		    completions hooked:
+2018-09-17 20:00:21		        perl_script
+2018-09-17 20:00:21		  logger [v2.3-dev]: Log buffers to files (/usr/lib/weechat/plugins/logger.so)
+2018-09-17 20:00:21		  written by "Sébastien Helleu <flashcode@flashtux.org>", license: GPL3
+2018-09-17 20:00:21		    commands hooked:
+2018-09-17 20:00:21		      /logger (logger plugin configuration)
+2018-09-17 20:00:21		    timers hooked:
+2018-09-17 20:00:21		      120 seconds (no call limit)
+2018-09-17 20:00:21		    prints hooked:
+2018-09-17 20:00:21		      message: "(none)"
+2018-09-17 20:00:21		    signals hooked:
+2018-09-17 20:00:21		      signal: buffer_opened
+2018-09-17 20:00:21		      signal: buffer_closing
+2018-09-17 20:00:21		      signal: buffer_renamed
+2018-09-17 20:00:21		      signal: logger_backlog
+2018-09-17 20:00:21		      signal: logger_start
+2018-09-17 20:00:21		      signal: logger_stop
+2018-09-17 20:00:21		      signal: day_changed
+2018-09-17 20:00:21		  script [v2.3-dev]: Script manager (/usr/lib/weechat/plugins/script.so)
+2018-09-17 20:00:21		  written by "Sébastien Helleu <flashcode@flashtux.org>", license: GPL3
+2018-09-17 20:00:21		    commands hooked:
+2018-09-17 20:00:21		      /script (WeeChat script manager)
+2018-09-17 20:00:21		    signals hooked:
+2018-09-17 20:00:21		      signal: debug_dump
+2018-09-17 20:00:21		      signal: window_scrolled
+2018-09-17 20:00:21		      signal: plugin_*
+2018-09-17 20:00:21		      signal: *_script_*
+2018-09-17 20:00:21		    completions hooked:
+2018-09-17 20:00:21		        script_languages
+2018-09-17 20:00:21		        script_extensions
+2018-09-17 20:00:21		        script_scripts
+2018-09-17 20:00:21		        script_scripts_installed
+2018-09-17 20:00:21		        script_files
+2018-09-17 20:00:21		        script_tags
+2018-09-17 20:05:55	=!=	You can not write text in this buffer
