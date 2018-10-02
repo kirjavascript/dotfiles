@@ -1,0 +1,1493 @@
+2018-09-18 21:02:39	-->	Kirjava (~cake@183.ip-51-254-223.eu) has joined ##emudev
+2018-09-18 21:02:39	--	Topic for ##emudev is "Emulator Development discussion | Want to write an emulator? Doesn’t everyone at one point? | Channel logs pushed to slack, please keep that in mind while talking. | C is the best programming language of all time. OF ALL TIME. | You must register with NickServ in order to talk due to spambot attacks -> /msg NickServ help"
+2018-09-18 21:02:39	--	Topic set by BlueCrab (~inazuma@inazuma.sylverant.net) on Fri, 03 Aug 2018 19:17:47
+2018-09-18 21:02:39	--	Channel ##emudev: 39 nicks (1 op, 2 voices, 36 normals)
+2018-09-18 21:02:42	--	Channel created on Fri, 10 Jan 2014 01:07:48
+2018-09-18 21:03:03	--	You are now known as Guest86315
+2018-09-18 21:04:24	<--	Guest86315 (~cake@183.ip-51-254-223.eu) has left ##emudev
+2018-09-18 21:04:58	-->	Kirjava (~cake@183.ip-51-254-223.eu) has joined ##emudev
+2018-09-18 21:04:58	--	Topic for ##emudev is "Emulator Development discussion | Want to write an emulator? Doesn’t everyone at one point? | Channel logs pushed to slack, please keep that in mind while talking. | C is the best programming language of all time. OF ALL TIME. | You must register with NickServ in order to talk due to spambot attacks -> /msg NickServ help"
+2018-09-18 21:04:58	--	Topic set by BlueCrab (~inazuma@inazuma.sylverant.net) on Fri, 03 Aug 2018 19:17:47
+2018-09-18 21:04:58	--	Channel ##emudev: 39 nicks (1 op, 2 voices, 36 normals)
+2018-09-18 21:05:01	--	Channel created on Fri, 10 Jan 2014 01:07:48
+2018-09-18 22:03:28	<--	mooch (~mooch@2600-6c56-7c00-03ab-7b72-4562-dfee-0142.dhcp6.chtrptr.net) has quit (Remote host closed the connection)
+2018-09-18 22:04:26	-->	mooch (~mooch@2600-6c56-7c00-03ab-0b66-cbf1-b3ba-8855.dhcp6.chtrptr.net) has joined ##emudev
+2018-09-18 22:07:32	-->	jtcressy (~jtcressy@197.43.252.18) has joined ##emudev
+2018-09-18 22:12:17	<--	jtcressy (~jtcressy@197.43.252.18) has quit (Remote host closed the connection)
+2018-09-18 22:39:47	-->	andi-9 (~andi-@host132.190-137-32.telecom.net.ar) has joined ##emudev
+2018-09-18 22:45:17	<--	andi-9 (~andi-@host132.190-137-32.telecom.net.ar) has quit (Remote host closed the connection)
+2018-09-18 23:41:45	-->	ltriant (~ltriant@lithium.mailguard.com.au) has joined ##emudev
+2018-09-19 03:33:39	-->	Kova (~Kova@175.110.7.99) has joined ##emudev
+2018-09-19 03:42:14	<--	Kova (~Kova@175.110.7.99) has quit (Remote host closed the connection)
+2018-09-19 06:53:53	-->	zapata21 (~zapata@221.140.146.144) has joined ##emudev
+2018-09-19 06:55:51	<--	zapata21 (~zapata@221.140.146.144) has quit (Killed (Sigyn (Spam is off topic on freenode.)))
+2018-09-19 07:00:00	<--	ltriant (~ltriant@lithium.mailguard.com.au) has quit (Quit: leaving)
+2018-09-19 08:16:10	-->	vodoo_ (~vodoo_@197.52.153.47) has joined ##emudev
+2018-09-19 08:19:01	<--	vodoo_ (~vodoo_@197.52.153.47) has quit (Remote host closed the connection)
+2018-09-19 08:24:52	-->	lieter0 (~lieter@190.75.84.207) has joined ##emudev
+2018-09-19 08:25:31	<--	lieter0 (~lieter@190.75.84.207) has quit (Remote host closed the connection)
+2018-09-19 08:53:01	<--	Retr0id (~Retr0id@unaffiliated/retr0id) has quit (Ping timeout: 252 seconds)
+2018-09-19 09:57:49	-->	rainbow-zsh14 (~rainbow-z@ADSL-TPLUS-78-182.telecomplus.net) has joined ##emudev
+2018-09-19 10:06:13	<--	rainbow-zsh14 (~rainbow-z@ADSL-TPLUS-78-182.telecomplus.net) has quit (Ping timeout: 250 seconds)
+2018-09-19 10:37:47	<--	Orphis (~orphis@adam.orphis.net) has quit (Ping timeout: 264 seconds)
+2018-09-19 10:40:47	-->	Orphis (~orphis@adam.orphis.net) has joined ##emudev
+2018-09-19 14:14:10	-->	xevious17 (~xevious@14.52.18.47) has joined ##emudev
+2018-09-19 14:15:00	<--	xevious17 (~xevious@14.52.18.47) has quit (Remote host closed the connection)
+2018-09-19 14:46:40	-->	Notiche8 (~Notiche@90-224-146-172-no2370.tbcn.telia.com) has joined ##emudev
+2018-09-19 14:50:33	-->	thi17 (~thi@178.215.167.143) has joined ##emudev
+2018-09-19 14:51:34	<--	Notiche8 (~Notiche@90-224-146-172-no2370.tbcn.telia.com) has quit (Remote host closed the connection)
+2018-09-19 14:55:26	<--	thi17 (~thi@178.215.167.143) has quit (Remote host closed the connection)
+2018-09-19 16:07:44	-->	Harzilein (~Harzilein@211.41.193.158) has joined ##emudev
+2018-09-19 16:08:29	<--	Harzilein (~Harzilein@211.41.193.158) has quit (Remote host closed the connection)
+2018-09-19 17:03:43	-->	Globalirc24 (~Globalirc@95.179.106.141) has joined ##emudev
+2018-09-19 17:09:11	<--	Globalirc24 (~Globalirc@95.179.106.141) has quit (Remote host closed the connection)
+2018-09-19 17:16:31	-->	KevinCarbonara10 (~KevinCarb@220.116.161.187) has joined ##emudev
+2018-09-19 17:17:04	-->	Retr0id (~Retr0id@unaffiliated/retr0id) has joined ##emudev
+2018-09-19 17:17:13	<--	KevinCarbonara10 (~KevinCarb@220.116.161.187) has quit (Read error: Connection reset by peer)
+2018-09-19 20:43:36	-->	up_the_irons22 (~up_the_ir@183.14.247.106) has joined ##emudev
+2018-09-19 20:44:41	<--	up_the_irons22 (~up_the_ir@183.14.247.106) has quit (Remote host closed the connection)
+2018-09-19 20:49:29	-->	zlatev (~zlatev@netblk-41-215-185-72.iconnect.zm) has joined ##emudev
+2018-09-19 20:51:13	<--	zlatev (~zlatev@netblk-41-215-185-72.iconnect.zm) has quit (Remote host closed the connection)
+2018-09-19 20:57:56	-->	DrMax_27 (~DrMax_@109-61-166-245.dsl.orel.ru) has joined ##emudev
+2018-09-19 20:58:10	<--	DrMax_27 (~DrMax_@109-61-166-245.dsl.orel.ru) has quit (K-Lined)
+2018-09-19 21:11:27	-->	lathiat_ (~lathiat_@171.35.171.133) has joined ##emudev
+2018-09-19 21:13:58	<--	lathiat_ (~lathiat_@171.35.171.133) has quit (Remote host closed the connection)
+2018-09-19 21:45:34	-->	gregwork9 (~gregwork@178.174.233.246) has joined ##emudev
+2018-09-19 21:45:57	<--	gregwork9 (~gregwork@178.174.233.246) has quit (Remote host closed the connection)
+2018-09-19 22:31:10	-->	Fiji_ (~Sharoa@146.115.148.203) has joined ##emudev
+2018-09-19 22:38:51	-->	Lovot16 (~Lovot@197.42.119.140) has joined ##emudev
+2018-09-19 22:40:38	<--	Lovot16 (~Lovot@197.42.119.140) has quit (Remote host closed the connection)
+2018-09-20 00:46:51	-->	Retr0id_ (~Retr0id@unaffiliated/retr0id) has joined ##emudev
+2018-09-20 00:49:06	<--	Retr0id (~Retr0id@unaffiliated/retr0id) has quit (Ping timeout: 245 seconds)
+2018-09-20 01:33:58	<--	Fiji_ (~Sharoa@146.115.148.203) has quit (Ping timeout: 244 seconds)
+2018-09-20 01:42:04	-->	joehh (~joehh@85.8.49.152) has joined ##emudev
+2018-09-20 01:45:15	<--	joehh (~joehh@85.8.49.152) has quit (K-Lined)
+2018-09-20 02:20:39	-->	anthk_29 (~anthk_@27.76.2.85) has joined ##emudev
+2018-09-20 02:25:31	<--	anthk_29 (~anthk_@27.76.2.85) has quit (Remote host closed the connection)
+2018-09-20 02:35:04	-->	buckcoin (~buckcoin@156.197.1.35) has joined ##emudev
+2018-09-20 02:39:18	<--	buckcoin (~buckcoin@156.197.1.35) has quit (Remote host closed the connection)
+2018-09-20 03:02:45	<--	gigaherz (~giga@reactos/developer/gigaherz) has quit (Remote host closed the connection)
+2018-09-20 03:22:47	-->	Fiji_ (~Sharoa@146.115.148.203) has joined ##emudev
+2018-09-20 04:29:14	<--	Fiji_ (~Sharoa@146.115.148.203) has quit (Quit: Leaving)
+2018-09-20 06:55:59	<--	slack_bridge (~slack_bri@107.49.196.104.bc.googleusercontent.com) has quit (Read error: Connection reset by peer)
+2018-09-20 07:30:02	-->	slack_bridge (~slack_bri@107.49.196.104.bc.googleusercontent.com) has joined ##emudev
+2018-09-20 08:55:54	<--	Retr0id_ (~Retr0id@unaffiliated/retr0id) has quit (Ping timeout: 272 seconds)
+2018-09-20 09:26:36	-->	esainane20 (~esainane@181.188.156.50) has joined ##emudev
+2018-09-20 09:27:12	<--	esainane20 (~esainane@181.188.156.50) has quit (Remote host closed the connection)
+2018-09-20 10:01:16	-->	esp32_prog0 (~esp32_pro@pc-85-16-47-190.cm.vtr.net) has joined ##emudev
+2018-09-20 10:03:00	<--	esp32_prog0 (~esp32_pro@pc-85-16-47-190.cm.vtr.net) has quit (Remote host closed the connection)
+2018-09-20 10:13:32	-->	gigaherz (~giga@reactos/developer/gigaherz) has joined ##emudev
+2018-09-20 10:26:46	-->	gmaxwell19 (~gmaxwell@120.29.104.114) has joined ##emudev
+2018-09-20 10:27:38	<--	gmaxwell19 (~gmaxwell@120.29.104.114) has quit (Killed (Unit193 (Spam is not permitted on freenode.)))
+2018-09-20 11:36:41	-->	Wizek10 (~Wizek@27.34.88.151) has joined ##emudev
+2018-09-20 11:38:26	<--	Wizek10 (~Wizek@27.34.88.151) has quit (Remote host closed the connection)
+2018-09-20 11:39:36	-->	bjorn`29 (~bjorn`@slampq2026w-lp140-01-70-55-102-182.dsl.bell.ca) has joined ##emudev
+2018-09-20 11:41:22	<--	bjorn`29 (~bjorn`@slampq2026w-lp140-01-70-55-102-182.dsl.bell.ca) has quit (Remote host closed the connection)
+2018-09-20 11:44:04	-->	ash_worksi (~ash_works@187.68.131.216) has joined ##emudev
+2018-09-20 11:45:15	<--	ash_worksi (~ash_works@187.68.131.216) has quit (Remote host closed the connection)
+2018-09-20 11:55:07	-->	pyrtsa21 (~pyrtsa@221.167.254.53) has joined ##emudev
+2018-09-20 11:57:37	<--	pyrtsa21 (~pyrtsa@221.167.254.53) has quit (Remote host closed the connection)
+2018-09-20 12:45:46	-->	fford25 (~fford@139.195.129.134) has joined ##emudev
+2018-09-20 12:46:38	<--	fford25 (~fford@139.195.129.134) has quit (K-Lined)
+2018-09-20 12:52:19	-->	Maturion (~Maturion@137.250.27.7) has joined ##emudev
+2018-09-20 12:52:44	<--	Maturion (~Maturion@137.250.27.7) has quit (Remote host closed the connection)
+2018-09-20 12:55:42	-->	remedan16 (~remedan@KD124208102058.ppp-bb.dion.ne.jp) has joined ##emudev
+2018-09-20 12:59:53	<--	remedan16 (~remedan@KD124208102058.ppp-bb.dion.ne.jp) has quit (Remote host closed the connection)
+2018-09-20 13:48:20	-->	ERROH8 (~ERROH@156.197.57.117) has joined ##emudev
+2018-09-20 13:50:03	<--	ERROH8 (~ERROH@156.197.57.117) has quit (Remote host closed the connection)
+2018-09-20 14:07:50	-->	Fiji_ (~Sharoa@146.115.148.203) has joined ##emudev
+2018-09-20 15:34:59	<--	Fiji_ (~Sharoa@146.115.148.203) has quit (Ping timeout: 260 seconds)
+2018-09-20 15:35:47	-->	Fiji_ (~Sharoa@146.115.148.203) has joined ##emudev
+2018-09-20 16:30:13	-->	kilogram (~kilogram@200.84.168.43) has joined ##emudev
+2018-09-20 16:34:54	<--	kilogram (~kilogram@200.84.168.43) has quit (Remote host closed the connection)
+2018-09-20 16:36:31	-->	Ennea18 (~Ennea@156.212.216.19) has joined ##emudev
+2018-09-20 16:37:12	<--	Ennea18 (~Ennea@156.212.216.19) has quit (Remote host closed the connection)
+2018-09-20 17:21:02	-->	Retr0id_ (~Retr0id@unaffiliated/retr0id) has joined ##emudev
+2018-09-20 17:38:55	-->	RypPn10 (~RypPn@148.101.129.24) has joined ##emudev
+2018-09-20 17:40:35	<--	RypPn10 (~RypPn@148.101.129.24) has quit (Remote host closed the connection)
+2018-09-20 19:42:09	-->	snapcase6 (~snapcase@175.110.1.80) has joined ##emudev
+2018-09-20 19:43:34	<--	snapcase6 (~snapcase@175.110.1.80) has quit (Remote host closed the connection)
+2018-09-20 19:46:58	-->	linuxhiker29 (~linuxhike@156.216.241.128) has joined ##emudev
+2018-09-20 19:48:50	<--	linuxhiker29 (~linuxhike@156.216.241.128) has quit (Remote host closed the connection)
+2018-09-20 19:52:42	-->	bornjre25 (~bornjre@113.194.132.186) has joined ##emudev
+2018-09-20 19:53:59	<--	bornjre25 (~bornjre@113.194.132.186) has quit (Remote host closed the connection)
+2018-09-20 19:54:16	-->	sudhirkhanger21 (~sudhirkha@185.142.93.231) has joined ##emudev
+2018-09-20 19:54:43	<--	sudhirkhanger21 (~sudhirkha@185.142.93.231) has quit (Remote host closed the connection)
+2018-09-20 19:59:16	-->	bladdezz10 (~bladdezz@86.57.212.163) has joined ##emudev
+2018-09-20 19:59:26	<--	bladdezz10 (~bladdezz@86.57.212.163) has quit (Remote host closed the connection)
+2018-09-20 21:11:35	-->	atlas28 (~atlas@201.242.54.109) has joined ##emudev
+2018-09-20 21:12:21	<--	atlas28 (~atlas@201.242.54.109) has quit (Remote host closed the connection)
+2018-09-20 21:28:44	-->	Brie_27 (~Brie_@159.0.138.206) has joined ##emudev
+2018-09-20 21:28:45	<--	Brie_27 (~Brie_@159.0.138.206) has quit (Remote host closed the connection)
+2018-09-20 22:02:53	-->	petemc4 (~petemc@41.46.230.201) has joined ##emudev
+2018-09-20 22:04:39	<--	petemc4 (~petemc@41.46.230.201) has quit (Remote host closed the connection)
+2018-09-20 22:18:29	-->	doop1 (~doop@187.202.69.166) has joined ##emudev
+2018-09-20 22:22:07	<--	doop1 (~doop@187.202.69.166) has quit (Remote host closed the connection)
+2018-09-20 23:01:51	-->	rodolfo91215 (~rodolfo91@156.202.80.160) has joined ##emudev
+2018-09-20 23:03:01	<--	rodolfo91215 (~rodolfo91@156.202.80.160) has quit (Remote host closed the connection)
+2018-09-20 23:54:46	-->	ltriant (~ltriant@lithium.mailguard.com.au) has joined ##emudev
+2018-09-21 00:00:01	-->	dzove85529 (~dzove855@117.6.55.13) has joined ##emudev
+2018-09-21 00:00:26	<--	dzove85529 (~dzove855@117.6.55.13) has quit (Remote host closed the connection)
+2018-09-21 01:27:04	-->	mparisi19 (~mparisi@220.178.117.98) has joined ##emudev
+2018-09-21 01:28:45	<--	mparisi19 (~mparisi@220.178.117.98) has quit (Remote host closed the connection)
+2018-09-21 01:38:12	<--	slack_bridge (~slack_bri@107.49.196.104.bc.googleusercontent.com) has quit (Remote host closed the connection)
+2018-09-21 01:38:27	-->	slack_bridge (~slack_bri@107.49.196.104.bc.googleusercontent.com) has joined ##emudev
+2018-09-21 04:48:28	<--	Fiji_ (~Sharoa@146.115.148.203) has quit (Ping timeout: 272 seconds)
+2018-09-21 04:48:39	-->	Fiji_ (~Sharoa@146.115.148.203) has joined ##emudev
+2018-09-21 05:42:39	<--	Fiji_ (~Sharoa@146.115.148.203) has quit (Quit: Leaving)
+2018-09-21 06:57:38	-->	Kuufi8 (~Kuufi@softbank126084076101.bbtec.net) has joined ##emudev
+2018-09-21 07:00:08	<--	Kuufi8 (~Kuufi@softbank126084076101.bbtec.net) has quit (Remote host closed the connection)
+2018-09-21 07:29:46	<--	ltriant (~ltriant@lithium.mailguard.com.au) has quit (Quit: leaving)
+2018-09-21 07:52:52	-->	FalconSpy29 (~FalconSpy@140.0.151.213) has joined ##emudev
+2018-09-21 07:52:59	<--	FalconSpy29 (~FalconSpy@140.0.151.213) has quit (Remote host closed the connection)
+2018-09-21 08:50:24	<--	Retr0id_ (~Retr0id@unaffiliated/retr0id) has quit (Ping timeout: 252 seconds)
+2018-09-21 08:53:46	-->	AimHere16 (~AimHere@78.157.245.81) has joined ##emudev
+2018-09-21 08:58:09	<--	AimHere16 (~AimHere@78.157.245.81) has quit (Remote host closed the connection)
+2018-09-21 10:30:30	-->	pffs18 (~pffs@125-239-146-24-fibre.sparkbb.co.nz) has joined ##emudev
+2018-09-21 10:31:21	<--	pffs18 (~pffs@125-239-146-24-fibre.sparkbb.co.nz) has quit (Remote host closed the connection)
+2018-09-21 10:43:32	-->	Trauma13 (~Trauma@41.205.28.223) has joined ##emudev
+2018-09-21 10:45:50	<--	Trauma13 (~Trauma@41.205.28.223) has quit (Remote host closed the connection)
+2018-09-21 11:56:17	-->	lavaflow (~lavaflow@119.206.208.110) has joined ##emudev
+2018-09-21 11:59:36	<--	lavaflow (~lavaflow@119.206.208.110) has quit (Remote host closed the connection)
+2018-09-21 12:37:58	-->	a_west19 (~a_west@171.241.12.129) has joined ##emudev
+2018-09-21 12:41:26	-->	Usurp15 (~Usurp@41.218.203.202) has joined ##emudev
+2018-09-21 12:41:29	<--	Usurp15 (~Usurp@41.218.203.202) has quit (Remote host closed the connection)
+2018-09-21 12:46:39	<--	a_west19 (~a_west@171.241.12.129) has quit (Ping timeout: 260 seconds)
+2018-09-21 13:26:47	-->	DHE17 (~DHE@175.204.237.143) has joined ##emudev
+2018-09-21 13:28:27	<--	DHE17 (~DHE@175.204.237.143) has quit (Remote host closed the connection)
+2018-09-21 16:09:21	-->	foo22 (~foo@222.104.231.28) has joined ##emudev
+2018-09-21 16:13:26	<--	foo22 (~foo@222.104.231.28) has quit (Remote host closed the connection)
+2018-09-21 16:36:54	-->	marrusl28 (~marrusl@41.202.166.59) has joined ##emudev
+2018-09-21 16:40:17	<--	marrusl28 (~marrusl@41.202.166.59) has quit (Remote host closed the connection)
+2018-09-21 18:13:20	-->	Onepamopa (~Onepamopa@186-92-131-35.genericrev.cantv.net) has joined ##emudev
+2018-09-21 18:13:44	-->	zed2k_ (~zed2k_@14.38.27.65) has joined ##emudev
+2018-09-21 18:14:10	<--	Onepamopa (~Onepamopa@186-92-131-35.genericrev.cantv.net) has quit (Remote host closed the connection)
+2018-09-21 18:14:39	<--	zed2k_ (~zed2k_@14.38.27.65) has quit (Remote host closed the connection)
+2018-09-21 18:43:25	<--	sleepyspider (~quassel@99-74-63-171.lightspeed.hstntx.sbcglobal.net) has quit (Read error: No route to host)
+2018-09-21 18:43:37	-->	sleepyspider (~quassel@99-74-63-171.lightspeed.hstntx.sbcglobal.net) has joined ##emudev
+2018-09-21 19:01:03	-->	thykka24 (~thykka@197.42.126.211) has joined ##emudev
+2018-09-21 19:02:45	<--	thykka24 (~thykka@197.42.126.211) has quit (Killed (Unit193 (Spam is not permitted on freenode.)))
+2018-09-21 19:12:53	-->	Trashlord29 (~Trashlord@51.37.44.28) has joined ##emudev
+2018-09-21 19:17:02	<--	Trashlord29 (~Trashlord@51.37.44.28) has quit (Remote host closed the connection)
+2018-09-21 20:01:54	-->	Fiji_ (~Sharoa@146.115.148.203) has joined ##emudev
+2018-09-21 20:07:43	<--	Fiji_ (~Sharoa@146.115.148.203) has quit (Quit: Leaving)
+2018-09-21 20:44:58	<--	kou (~nucular@unaffiliated/nucular) has quit (Ping timeout: 264 seconds)
+2018-09-21 20:47:44	-->	nucular (~nucular@unaffiliated/nucular) has joined ##emudev
+2018-09-21 21:02:09	<--	sleepyspider (~quassel@99-74-63-171.lightspeed.hstntx.sbcglobal.net) has quit (Remote host closed the connection)
+2018-09-21 21:03:06	-->	sleepyspider (~quassel@99-74-63-171.lightspeed.hstntx.sbcglobal.net) has joined ##emudev
+2018-09-21 21:29:23	<--	sleepyspider (~quassel@99-74-63-171.lightspeed.hstntx.sbcglobal.net) has quit (Remote host closed the connection)
+2018-09-21 21:30:16	-->	sleepyspider (~quassel@99-74-63-171.lightspeed.hstntx.sbcglobal.net) has joined ##emudev
+2018-09-21 21:43:13	<--	sleepyspider (~quassel@99-74-63-171.lightspeed.hstntx.sbcglobal.net) has quit (Remote host closed the connection)
+2018-09-21 22:01:14	-->	vectr0n10 (~vectr0n@95.144.37.43) has joined ##emudev
+2018-09-21 22:02:10	<--	vectr0n10 (~vectr0n@95.144.37.43) has quit (K-Lined)
+2018-09-21 22:15:50	-->	sleepyspider (~quassel@99-74-63-171.lightspeed.hstntx.sbcglobal.net) has joined ##emudev
+2018-09-21 22:41:55	<--	sleepyspider (~quassel@99-74-63-171.lightspeed.hstntx.sbcglobal.net) has quit (Remote host closed the connection)
+2018-09-21 22:46:51	-->	sleepyspider (~quassel@99-74-63-171.lightspeed.hstntx.sbcglobal.net) has joined ##emudev
+2018-09-21 23:09:05	-->	pie___ (~pie___@41.202.168.64) has joined ##emudev
+2018-09-21 23:13:54	<--	pie___ (~pie___@41.202.168.64) has quit (Ping timeout: 252 seconds)
+2018-09-21 23:38:11	-->	y0no (~y0no@197.33.153.174) has joined ##emudev
+2018-09-21 23:38:15	<--	y0no (~y0no@197.33.153.174) has quit (Remote host closed the connection)
+2018-09-22 00:22:51	-->	Retr0id (~Retr0id@unaffiliated/retr0id) has joined ##emudev
+2018-09-22 00:32:09	<--	gigaherz (~giga@reactos/developer/gigaherz) has quit (Read error: Connection reset by peer)
+2018-09-22 00:32:30	-->	gigaherz (~giga@reactos/developer/gigaherz) has joined ##emudev
+2018-09-22 01:38:24	-->	Lacriatch26 (~Lacriatch@190-205-179-53.dyn.dsl.cantv.net) has joined ##emudev
+2018-09-22 01:41:39	<--	Lacriatch26 (~Lacriatch@190-205-179-53.dyn.dsl.cantv.net) has quit (Remote host closed the connection)
+2018-09-22 03:03:34	-->	blackdog (~blackdog@187.111.213.247) has joined ##emudev
+2018-09-22 03:08:56	<--	blackdog (~blackdog@187.111.213.247) has quit (Ping timeout: 244 seconds)
+2018-09-22 03:28:08	-->	fsateler20 (~fsateler@119.42.116.75) has joined ##emudev
+2018-09-22 03:28:29	<--	fsateler20 (~fsateler@119.42.116.75) has quit (Remote host closed the connection)
+2018-09-22 06:02:10	-->	keymone26 (~keymone@2402:800:610b:7d78:d5ae:4eec:993:336d) has joined ##emudev
+2018-09-22 06:07:29	-->	none_____12 (~none_____@201.157.165.226) has joined ##emudev
+2018-09-22 06:08:33	<--	keymone26 (~keymone@2402:800:610b:7d78:d5ae:4eec:993:336d) has quit (Remote host closed the connection)
+2018-09-22 06:12:13	<--	none_____12 (~none_____@201.157.165.226) has quit (Remote host closed the connection)
+2018-09-22 06:53:14	-->	dreamx (~dreamx@mm-106-126-212-37.vitebsk.dynamic.pppoe.byfly.by) has joined ##emudev
+2018-09-22 06:55:03	<--	dreamx (~dreamx@mm-106-126-212-37.vitebsk.dynamic.pppoe.byfly.by) has quit (Remote host closed the connection)
+2018-09-22 07:12:01	-->	madsara_3 (~madsara_@111.95.25.77) has joined ##emudev
+2018-09-22 07:13:27	-->	Guest9482 (~lorbus@159.192.241.54) has joined ##emudev
+2018-09-22 07:17:40	<--	Guest9482 (~lorbus@159.192.241.54) has quit (Remote host closed the connection)
+2018-09-22 07:20:22	<--	madsara_3 (~madsara_@111.95.25.77) has quit (Ping timeout: 246 seconds)
+2018-09-22 09:20:20	-->	Sitri (~Sitri@200.71.92.198) has joined ##emudev
+2018-09-22 09:29:43	<--	Sitri (~Sitri@200.71.92.198) has quit (Ping timeout: 260 seconds)
+2018-09-22 10:25:55	-->	der_Alte20 (~der_Alte@154.0.70.91) has joined ##emudev
+2018-09-22 10:30:47	<--	der_Alte20 (~der_Alte@154.0.70.91) has quit (Remote host closed the connection)
+2018-09-22 10:30:51	-->	bjonnh8 (~bjonnh@222.114.177.141) has joined ##emudev
+2018-09-22 10:32:34	<--	bjonnh8 (~bjonnh@222.114.177.141) has quit (Remote host closed the connection)
+2018-09-22 10:51:56	-->	j9k21 (~j9k@117.244.108.89) has joined ##emudev
+2018-09-22 10:55:15	<--	j9k21 (~j9k@117.244.108.89) has quit (K-Lined)
+2018-09-22 11:00:02	<--	mooch (~mooch@2600-6c56-7c00-03ab-0b66-cbf1-b3ba-8855.dhcp6.chtrptr.net) has quit (Remote host closed the connection)
+2018-09-22 12:43:49	-->	Nazo (~Nazo@177.106.93.94) has joined ##emudev
+2018-09-22 12:46:27	<--	Nazo (~Nazo@177.106.93.94) has quit (Remote host closed the connection)
+2018-09-22 14:40:05	-->	mooch (~mooch@2600-6c56-7c00-03ab-7b72-4562-dfee-0142.dhcp6.chtrptr.net) has joined ##emudev
+2018-09-22 16:43:34	-->	Guest82591 (~Dinux_@2001:1284:f01b:7983:6fe:8dff:fee2:498) has joined ##emudev
+2018-09-22 16:51:34	<--	Guest82591 (~Dinux_@2001:1284:f01b:7983:6fe:8dff:fee2:498) has quit (Ping timeout: 252 seconds)
+2018-09-22 17:47:09	-->	cittatva21 (~cittatva@201.20.90.116) has joined ##emudev
+2018-09-22 17:55:31	<--	cittatva21 (~cittatva@201.20.90.116) has quit (Ping timeout: 244 seconds)
+2018-09-22 19:06:46	-->	anyofyou (~anyofyou@2402:800:6141:7e68:fdf5:e627:ba58:e3cf) has joined ##emudev
+2018-09-22 19:08:29	<--	anyofyou (~anyofyou@2402:800:6141:7e68:fdf5:e627:ba58:e3cf) has quit (Remote host closed the connection)
+2018-09-22 19:16:23	-->	Avagetto23 (~Avagetto@165.16.250.137) has joined ##emudev
+2018-09-22 19:19:45	<--	Avagetto23 (~Avagetto@165.16.250.137) has quit (Remote host closed the connection)
+2018-09-22 19:23:39	-->	lotherk29 (~lotherk@ip-114.net-89-3-85.rev.numericable.fr) has joined ##emudev
+2018-09-22 19:25:20	<--	lotherk29 (~lotherk@ip-114.net-89-3-85.rev.numericable.fr) has quit (Remote host closed the connection)
+2018-09-22 22:17:30	<--	mooch (~mooch@2600-6c56-7c00-03ab-7b72-4562-dfee-0142.dhcp6.chtrptr.net) has quit (Remote host closed the connection)
+2018-09-22 22:17:48	-->	mooch (~mooch@2600-6c56-7c00-03ab-0b66-cbf1-b3ba-8855.dhcp6.chtrptr.net) has joined ##emudev
+2018-09-22 22:48:40	-->	mbutz22 (~mbutz@95-27-36-99.broadband.corbina.ru) has joined ##emudev
+2018-09-22 22:52:48	<--	mbutz22 (~mbutz@95-27-36-99.broadband.corbina.ru) has quit (Remote host closed the connection)
+2018-09-23 00:22:02	-->	admincomplex18 (~admincomp@2402:800:6127:12d3:dcc3:a92b:de9d:2d6e) has joined ##emudev
+2018-09-23 00:22:08	<--	admincomplex18 (~admincomp@2402:800:6127:12d3:dcc3:a92b:de9d:2d6e) has quit (Remote host closed the connection)
+2018-09-23 00:59:10	-->	ugjka25 (~ugjka@116.58.232.118) has joined ##emudev
+2018-09-23 01:02:32	<--	ugjka25 (~ugjka@116.58.232.118) has quit (Remote host closed the connection)
+2018-09-23 03:13:18	-->	boyne (~boyne@123.214.169.145) has joined ##emudev
+2018-09-23 03:16:35	<--	boyne (~boyne@123.214.169.145) has quit (Remote host closed the connection)
+2018-09-23 03:50:44	-->	anno14 (~anno@dhcp-18-30-87-166.dyn.mit.edu) has joined ##emudev
+2018-09-23 03:51:43	<--	anno14 (~anno@dhcp-18-30-87-166.dyn.mit.edu) has quit (Remote host closed the connection)
+2018-09-23 04:04:44	-->	bertbob29 (~bertbob@186.178.135.225) has joined ##emudev
+2018-09-23 04:07:12	<--	bertbob29 (~bertbob@186.178.135.225) has quit (K-Lined)
+2018-09-23 04:20:21	-->	richmoore1 (~richmoore@61.7.191.25) has joined ##emudev
+2018-09-23 04:25:39	<--	richmoore1 (~richmoore@61.7.191.25) has quit (Ping timeout: 252 seconds)
+2018-09-23 08:03:25	-->	qu4lia22 (~qu4lia@171.234.162.242) has joined ##emudev
+2018-09-23 08:06:42	<--	qu4lia22 (~qu4lia@171.234.162.242) has quit (Remote host closed the connection)
+2018-09-23 09:10:50	<--	greaser|q (greaser@antihype.space) has quit (Changing host)
+2018-09-23 09:10:50	-->	greaser|q (greaser@unaffiliated/greasemonkey) has joined ##emudev
+2018-09-23 09:10:52	--	greaser|q is now known as GreaseMonkey
+2018-09-23 11:35:19	-->	naderman_ (~naderman_@184.170.54.121) has joined ##emudev
+2018-09-23 11:36:14	<--	naderman_ (~naderman_@184.170.54.121) has quit (Remote host closed the connection)
+2018-09-23 12:04:16	-->	niklasl25 (~niklasl@host136-110-dynamic.56-79-r.retail.telecomitalia.it) has joined ##emudev
+2018-09-23 12:05:02	<--	niklasl25 (~niklasl@host136-110-dynamic.56-79-r.retail.telecomitalia.it) has quit (Remote host closed the connection)
+2018-09-23 12:35:34	-->	Nicholas_M8 (~Nicholas_@72.27.140.243) has joined ##emudev
+2018-09-23 12:40:25	<--	Nicholas_M8 (~Nicholas_@72.27.140.243) has quit (Remote host closed the connection)
+2018-09-23 13:36:58	-->	iooner3 (~iooner@201.22.55.185.dynamic.adsl.gvt.net.br) has joined ##emudev
+2018-09-23 13:40:55	<--	iooner3 (~iooner@201.22.55.185.dynamic.adsl.gvt.net.br) has quit (Killed (Unit193 (Spam is not permitted on freenode.)))
+2018-09-23 15:23:28	-->	Jak_o_Shadows19 (~Jak_o_Sha@mau49-1-82-245-46-235.fbx.proxad.net) has joined ##emudev
+2018-09-23 15:24:10	<--	Jak_o_Shadows19 (~Jak_o_Sha@mau49-1-82-245-46-235.fbx.proxad.net) has quit (Killed (Sigyn (Spam is off topic on freenode.)))
+2018-09-23 15:42:40	-->	devyn8 (~devyn@14.78.6.108) has joined ##emudev
+2018-09-23 15:46:45	<--	devyn8 (~devyn@14.78.6.108) has quit (Remote host closed the connection)
+2018-09-23 16:40:06	-->	janus22 (~janus@2402:800:6146:4f75:f976:677e:37ef:9a5c) has joined ##emudev
+2018-09-23 16:49:09	<--	janus22 (~janus@2402:800:6146:4f75:f976:677e:37ef:9a5c) has quit (Ping timeout: 264 seconds)
+2018-09-23 17:16:15	-->	DrJ14 (~DrJ@78.157.243.53) has joined ##emudev
+2018-09-23 17:21:42	<--	DrJ14 (~DrJ@78.157.243.53) has quit (Ping timeout: 252 seconds)
+2018-09-23 17:42:41	-->	Sasasu6 (~Sasasu@p146.net220148019.tnc.ne.jp) has joined ##emudev
+2018-09-23 17:45:14	<--	Sasasu6 (~Sasasu@p146.net220148019.tnc.ne.jp) has quit (Remote host closed the connection)
+2018-09-23 17:56:10	-->	Latexi9517 (~Latexi95@186.167.33.244) has joined ##emudev
+2018-09-23 18:01:44	-->	Adrien_D18 (~Adrien_D@2403:6200:88a8:b714:ca8d:83ff:feea:e72a) has joined ##emudev
+2018-09-23 18:05:32	<--	Latexi9517 (~Latexi95@186.167.33.244) has quit (Ping timeout: 240 seconds)
+2018-09-23 18:11:13	<--	Adrien_D18 (~Adrien_D@2403:6200:88a8:b714:ca8d:83ff:feea:e72a) has quit (Ping timeout: 252 seconds)
+2018-09-23 19:25:17	--	nucular is now known as kou
+2018-09-23 20:24:59	-->	wcpan17 (~wcpan@171.234.205.223) has joined ##emudev
+2018-09-23 20:32:32	<--	wcpan17 (~wcpan@171.234.205.223) has quit (Ping timeout: 272 seconds)
+2018-09-23 23:13:08	-->	sohail (~sohail@5f44d440.dynamic.mv.ru) has joined ##emudev
+2018-09-23 23:13:13	<--	sohail (~sohail@5f44d440.dynamic.mv.ru) has quit (Remote host closed the connection)
+2018-09-23 23:29:23	-->	ltriant (~ltriant@lithium.mailguard.com.au) has joined ##emudev
+2018-09-24 01:31:59	<--	BlueCrab (~inazuma@inazuma.sylverant.net) has quit (Ping timeout: 252 seconds)
+2018-09-24 01:32:54	-->	BlueCrab (~inazuma@inazuma.sylverant.net) has joined ##emudev
+2018-09-24 01:32:55	--	Mode ##emudev [+v BlueCrab] by ChanServ
+2018-09-24 01:41:51	<--	BlueCrab (~inazuma@inazuma.sylverant.net) has quit (Ping timeout: 252 seconds)
+2018-09-24 01:43:56	-->	BlueCrab (~inazuma@inazuma.sylverant.net) has joined ##emudev
+2018-09-24 01:43:56	--	Mode ##emudev [+v BlueCrab] by ChanServ
+2018-09-24 02:53:31	<--	mooch (~mooch@2600-6c56-7c00-03ab-0b66-cbf1-b3ba-8855.dhcp6.chtrptr.net) has quit (Ping timeout: 240 seconds)
+2018-09-24 02:58:00	-->	makinen14 (~makinen@183.157.170.208) has joined ##emudev
+2018-09-24 02:58:31	<--	gigaherz (~giga@reactos/developer/gigaherz) has quit (Remote host closed the connection)
+2018-09-24 02:58:53	<--	makinen14 (~makinen@183.157.170.208) has quit (Killed (Unit193 (Spam is not permitted on freenode.)))
+2018-09-24 03:02:40	-->	mooch (~mooch@2600-6c56-7c00-03ab-7b72-4562-dfee-0142.dhcp6.chtrptr.net) has joined ##emudev
+2018-09-24 05:34:27	<--	pnt||grm (~pnt||grm@pool-71-191-152-158.washdc.fios.verizon.net) has quit (Quit: Ping timeout (120 seconds))
+2018-09-24 05:34:57	-->	pnt||grm (~pnt||grm@pool-71-191-152-158.washdc.fios.verizon.net) has joined ##emudev
+2018-09-24 05:52:50	-->	Elronnd (elronnd@slashem.me) has joined ##emudev
+2018-09-24 06:57:59	-->	thhartma2 (~thhartma@110.77.154.215) has joined ##emudev
+2018-09-24 07:03:57	<--	thhartma2 (~thhartma@110.77.154.215) has quit (Ping timeout: 252 seconds)
+2018-09-24 07:19:23	<--	ltriant (~ltriant@lithium.mailguard.com.au) has quit (Quit: leaving)
+2018-09-24 07:33:54	<--	Retr0id (~Retr0id@unaffiliated/retr0id) has quit (Ping timeout: 240 seconds)
+2018-09-24 09:29:16	-->	gigaherz (~giga@reactos/developer/gigaherz) has joined ##emudev
+2018-09-24 10:05:11	-->	bryang (~bryang@31.135.151.205) has joined ##emudev
+2018-09-24 10:09:56	<--	bryang (~bryang@31.135.151.205) has quit (Remote host closed the connection)
+2018-09-24 10:27:13	-->	Spr0cket26 (~Spr0cket@pl36898.ag1212.nttpc.ne.jp) has joined ##emudev
+2018-09-24 10:31:24	<--	Spr0cket26 (~Spr0cket@pl36898.ag1212.nttpc.ne.jp) has quit (Remote host closed the connection)
+2018-09-24 10:47:29	-->	d3z9 (~d3z@183.108.239.202) has joined ##emudev
+2018-09-24 10:51:34	<--	d3z9 (~d3z@183.108.239.202) has quit (K-Lined)
+2018-09-24 13:22:08	-->	ra1stlin14 (~ra1stlin@117.247.117.30) has joined ##emudev
+2018-09-24 13:27:54	<--	ra1stlin14 (~ra1stlin@117.247.117.30) has quit (Ping timeout: 240 seconds)
+2018-09-24 14:09:12	-->	blathijs17 (~blathijs@190-207-151-198.dyn.dsl.cantv.net) has joined ##emudev
+2018-09-24 14:09:13	<--	blathijs17 (~blathijs@190-207-151-198.dyn.dsl.cantv.net) has quit (Remote host closed the connection)
+2018-09-24 14:48:14	-->	Hakon21 (~Hakon@41.72.4.97) has joined ##emudev
+2018-09-24 14:50:32	<--	Hakon21 (~Hakon@41.72.4.97) has quit (Remote host closed the connection)
+2018-09-24 15:59:27	-->	ron_7 (~ron_@p6566126-ipngn28501marunouchi.tokyo.ocn.ne.jp) has joined ##emudev
+2018-09-24 16:03:39	<--	ron_7 (~ron_@p6566126-ipngn28501marunouchi.tokyo.ocn.ne.jp) has quit (Remote host closed the connection)
+2018-09-24 16:11:19	-->	Heathen29 (~Heathen@175.164.4.162) has joined ##emudev
+2018-09-24 16:16:09	<--	Heathen29 (~Heathen@175.164.4.162) has quit (Remote host closed the connection)
+2018-09-24 16:28:05	-->	Guest13900 (~shillobea@ackl100.neoplus.adsl.tpnet.pl) has joined ##emudev
+2018-09-24 16:29:53	<--	Guest13900 (~shillobea@ackl100.neoplus.adsl.tpnet.pl) has quit (Remote host closed the connection)
+2018-09-24 17:30:14	-->	Retr0id (~Retr0id@unaffiliated/retr0id) has joined ##emudev
+2018-09-24 20:35:57	-->	vdo26 (~vdo@109.165.81.225) has joined ##emudev
+2018-09-24 20:40:03	<--	vdo26 (~vdo@109.165.81.225) has quit (Remote host closed the connection)
+2018-09-24 20:48:21	-->	Ad1Tech19 (~Ad1Tech@27.76.121.186) has joined ##emudev
+2018-09-24 20:50:32	-->	yumh4 (~yumh@p4911088-ipngn25301marunouchi.tokyo.ocn.ne.jp) has joined ##emudev
+2018-09-24 20:51:29	<--	mooch (~mooch@2600-6c56-7c00-03ab-7b72-4562-dfee-0142.dhcp6.chtrptr.net) has quit (Remote host closed the connection)
+2018-09-24 20:51:46	-->	mooch (~mooch@2600-6c56-7c00-03ab-7b72-4562-dfee-0142.dhcp6.chtrptr.net) has joined ##emudev
+2018-09-24 20:52:14	<--	yumh4 (~yumh@p4911088-ipngn25301marunouchi.tokyo.ocn.ne.jp) has quit (Killed (Sigyn (Spam is off topic on freenode.)))
+2018-09-24 20:53:14	<--	Ad1Tech19 (~Ad1Tech@27.76.121.186) has quit (Remote host closed the connection)
+2018-09-24 22:20:21	-->	naos2 (~naos@xdsl-31-164-126-154.adslplus.ch) has joined ##emudev
+2018-09-24 22:22:43	-->	gmacon16 (~gmacon@mx-ll-183.88.83-82.dynamic.3bb.co.th) has joined ##emudev
+2018-09-24 22:24:28	<--	naos2 (~naos@xdsl-31-164-126-154.adslplus.ch) has quit (Killed (Sigyn (Spam is off topic on freenode.)))
+2018-09-24 22:27:57	<--	gmacon16 (~gmacon@mx-ll-183.88.83-82.dynamic.3bb.co.th) has quit (Ping timeout: 252 seconds)
+2018-09-24 22:28:13	-->	instagibbs21 (~instagibb@223.94.7.213) has joined ##emudev
+2018-09-24 22:29:14	<--	instagibbs21 (~instagibb@223.94.7.213) has quit (Killed (Sigyn (Spam is off topic on freenode.)))
+2018-09-24 22:32:10	-->	Hatsjoe29 (~Hatsjoe@201.208.118.249) has joined ##emudev
+2018-09-24 22:34:37	<--	Hatsjoe29 (~Hatsjoe@201.208.118.249) has quit (Remote host closed the connection)
+2018-09-24 23:20:37	-->	ltriant (~ltriant@lithium.mailguard.com.au) has joined ##emudev
+2018-09-25 00:45:45	-->	ogelpre28 (~ogelpre@41.141.220.43) has joined ##emudev
+2018-09-25 00:54:05	<--	ogelpre28 (~ogelpre@41.141.220.43) has quit (Ping timeout: 245 seconds)
+2018-09-25 00:56:20	-->	arcturiaen_ (~arcturiae@27.114.149.129) has joined ##emudev
+2018-09-25 00:59:31	<--	arcturiaen_ (~arcturiae@27.114.149.129) has quit (Remote host closed the connection)
+2018-09-25 01:10:49	<--	gigaherz (~giga@reactos/developer/gigaherz) has quit (Read error: Connection reset by peer)
+2018-09-25 01:11:13	-->	gigaherz (~giga@reactos/developer/gigaherz) has joined ##emudev
+2018-09-25 02:34:35	<--	gigaherz (~giga@reactos/developer/gigaherz) has quit (Remote host closed the connection)
+2018-09-25 03:18:40	-->	Warped19 (~Warped@31.135.112.192) has joined ##emudev
+2018-09-25 03:21:24	<--	Warped19 (~Warped@31.135.112.192) has quit (Killed (Sigyn (Spam is off topic on freenode.)))
+2018-09-25 06:06:34	-->	gothos25 (~gothos@148.0.14.190) has joined ##emudev
+2018-09-25 06:15:26	<--	gothos25 (~gothos@148.0.14.190) has quit (Ping timeout: 252 seconds)
+2018-09-25 06:43:05	-->	digi691 (~digi691@190.39.120.94) has joined ##emudev
+2018-09-25 06:48:04	<--	digi691 (~digi691@190.39.120.94) has quit (Remote host closed the connection)
+2018-09-25 06:51:44	-->	saiyan3 (~saiyan@100.red-88-27-149.staticip.rima-tde.net) has joined ##emudev
+2018-09-25 06:54:57	<--	saiyan3 (~saiyan@100.red-88-27-149.staticip.rima-tde.net) has quit (Remote host closed the connection)
+2018-09-25 06:57:16	<--	ltriant (~ltriant@lithium.mailguard.com.au) has quit (Quit: leaving)
+2018-09-25 08:32:13	-->	Guest65728 (~Guest6572@103.199.162.38) has joined ##emudev
+2018-09-25 08:33:12	<--	Guest65728 (~Guest6572@103.199.162.38) has quit (Remote host closed the connection)
+2018-09-25 08:38:13	-->	uberjay17 (~uberjay@202.44.248.149) has joined ##emudev
+2018-09-25 08:42:21	<--	uberjay17 (~uberjay@202.44.248.149) has quit (Remote host closed the connection)
+2018-09-25 08:52:45	<--	Retr0id (~Retr0id@unaffiliated/retr0id) has quit (Ping timeout: 250 seconds)
+2018-09-25 10:47:24	-->	Jb_boin28 (~Jb_boin@eduroam-133.vc.cvut.cz) has joined ##emudev
+2018-09-25 10:52:08	<--	Jb_boin28 (~Jb_boin@eduroam-133.vc.cvut.cz) has quit (Remote host closed the connection)
+2018-09-25 10:58:28	-->	itscaleb29 (~itscaleb@190.75.199.102) has joined ##emudev
+2018-09-25 10:59:20	<--	itscaleb29 (~itscaleb@190.75.199.102) has quit (Remote host closed the connection)
+2018-09-25 11:06:50	-->	gigaherz (~giga@reactos/developer/gigaherz) has joined ##emudev
+2018-09-25 11:09:39	-->	flor17 (~flor@186.178.132.171) has joined ##emudev
+2018-09-25 11:11:17	<--	flor17 (~flor@186.178.132.171) has quit (Remote host closed the connection)
+2018-09-25 11:17:12	-->	LordLion2 (~LordLion@111.7.198.146.dyn.plus.net) has joined ##emudev
+2018-09-25 11:17:21	<--	LordLion2 (~LordLion@111.7.198.146.dyn.plus.net) has quit (Remote host closed the connection)
+2018-09-25 11:35:16	-->	dmgk26 (~dmgk@66.158.213.222) has joined ##emudev
+2018-09-25 11:36:08	<--	dmgk26 (~dmgk@66.158.213.222) has quit (Remote host closed the connection)
+2018-09-25 12:14:27	-->	Chrisz_ (~Chrisz_@101-142-172-231f1.osk3.eonet.ne.jp) has joined ##emudev
+2018-09-25 12:16:02	<--	Chrisz_ (~Chrisz_@101-142-172-231f1.osk3.eonet.ne.jp) has quit (Remote host closed the connection)
+2018-09-25 13:39:21	-->	catcow19 (~catcow@pl4338.ag5354.nttpc.ne.jp) has joined ##emudev
+2018-09-25 13:44:53	<--	catcow19 (~catcow@pl4338.ag5354.nttpc.ne.jp) has quit (Remote host closed the connection)
+2018-09-25 13:52:51	-->	Retr0id (~Retr0id@unaffiliated/retr0id) has joined ##emudev
+2018-09-25 14:03:29	<--	Retr0id (~Retr0id@unaffiliated/retr0id) has quit (Ping timeout: 252 seconds)
+2018-09-25 14:24:24	-->	kkj20 (~kkj@41.142.109.178) has joined ##emudev
+2018-09-25 14:29:07	<--	kkj20 (~kkj@41.142.109.178) has quit (Remote host closed the connection)
+2018-09-25 14:30:45	-->	xInferno7 (~xInferno@p5560227-ipngn202marunouchi.tokyo.ocn.ne.jp) has joined ##emudev
+2018-09-25 14:34:01	<--	xInferno7 (~xInferno@p5560227-ipngn202marunouchi.tokyo.ocn.ne.jp) has quit (Remote host closed the connection)
+2018-09-25 15:39:05	-->	immae6 (~immae@ppp-124-120-92-35.revip2.asianet.co.th) has joined ##emudev
+2018-09-25 15:43:11	<--	immae6 (~immae@ppp-124-120-92-35.revip2.asianet.co.th) has quit (Remote host closed the connection)
+2018-09-25 17:08:30	-->	Retr0id (~Retr0id@unaffiliated/retr0id) has joined ##emudev
+2018-09-25 17:15:55	-->	sjl (~sjl@cpe-66-66-5-59.rochester.res.rr.com) has joined ##emudev
+2018-09-25 18:36:05	-->	thrym16 (~thrym@109.206.56.82) has joined ##emudev
+2018-09-25 18:40:13	<--	thrym16 (~thrym@109.206.56.82) has quit (Remote host closed the connection)
+2018-09-25 18:42:43	<--	Orphis (~orphis@adam.orphis.net) has quit (Ping timeout: 272 seconds)
+2018-09-25 18:45:20	-->	Orphis (~orphis@adam.orphis.net) has joined ##emudev
+2018-09-25 19:22:38	-->	cofeineSunshine1 (~cofeineSu@p54865E59.dip0.t-ipconnect.de) has joined ##emudev
+2018-09-25 19:25:12	<--	cofeineSunshine1 (~cofeineSu@p54865E59.dip0.t-ipconnect.de) has quit (Remote host closed the connection)
+2018-09-25 19:42:46	-->	netmonger9 (~netmonger@83-215-63-151.saalf.dyn.salzburg-online.at) has joined ##emudev
+2018-09-25 19:47:32	<--	netmonger9 (~netmonger@83-215-63-151.saalf.dyn.salzburg-online.at) has quit (Remote host closed the connection)
+2018-09-25 19:51:54	<--	darkf (uid134559@learnprogramming/wizard/darkf) has quit (Quit: Connection closed for inactivity)
+2018-09-25 20:00:51	-->	uranther22 (~uranther@222.117.166.25) has joined ##emudev
+2018-09-25 20:03:03	-->	casdr21 (~casdr@190-202-204-204.dyn.dsl.cantv.net) has joined ##emudev
+2018-09-25 20:05:35	<--	uranther22 (~uranther@222.117.166.25) has quit (Remote host closed the connection)
+2018-09-25 20:07:45	<--	casdr21 (~casdr@190-202-204-204.dyn.dsl.cantv.net) has quit (Remote host closed the connection)
+2018-09-25 20:10:24	-->	darkf (uid134559@learnprogramming/wizard/darkf) has joined ##emudev
+2018-09-25 21:07:14	-->	jdost24 (~jdost@122-222-183-44.tokyo.ap.gmo-isp.jp) has joined ##emudev
+2018-09-25 21:08:11	<--	jdost24 (~jdost@122-222-183-44.tokyo.ap.gmo-isp.jp) has quit (Remote host closed the connection)
+2018-09-25 22:07:05	-->	ltriant (~ltriant@114-198-23-248.dyn.iinet.net.au) has joined ##emudev
+2018-09-25 22:27:50	<--	sjl (~sjl@cpe-66-66-5-59.rochester.res.rr.com) has quit (Quit: WeeChat 2.2-dev)
+2018-09-25 22:45:47	-->	dyc324 (~dyc3@190.73.245.25) has joined ##emudev
+2018-09-25 22:48:10	<--	dyc324 (~dyc3@190.73.245.25) has quit (Read error: Connection reset by peer)
+2018-09-25 22:53:15	-->	bobey621 (~bobey6@wireless-169-228-77-207.ucsd.edu) has joined ##emudev
+2018-09-25 22:54:08	<--	bobey621 (~bobey6@wireless-169-228-77-207.ucsd.edu) has quit (Remote host closed the connection)
+2018-09-25 23:01:32	-->	Guest48511 (~Ahrotahnt@59.19.232.80) has joined ##emudev
+2018-09-25 23:01:56	-->	EliBoaz (~EliBoaz@LFbn-1-12081-60.w90-92.abo.wanadoo.fr) has joined ##emudev
+2018-09-25 23:02:31	<--	EliBoaz (~EliBoaz@LFbn-1-12081-60.w90-92.abo.wanadoo.fr) has quit (Remote host closed the connection)
+2018-09-25 23:04:18	<--	Guest48511 (~Ahrotahnt@59.19.232.80) has quit (Remote host closed the connection)
+2018-09-25 23:17:23	-->	Blkt4 (~Blkt@ntooit011226.ooit.nt.ngn.ppp.infoweb.ne.jp) has joined ##emudev
+2018-09-25 23:17:48	<--	Blkt4 (~Blkt@ntooit011226.ooit.nt.ngn.ppp.infoweb.ne.jp) has quit (Remote host closed the connection)
+2018-09-25 23:22:40	-->	wyre24 (~wyre@59.4.219.209) has joined ##emudev
+2018-09-25 23:24:47	<--	wyre24 (~wyre@59.4.219.209) has quit (Remote host closed the connection)
+2018-09-25 23:45:06	-->	davidcl1 (~davidcl@NIHfx-04p1-26.ppp11.odn.ad.jp) has joined ##emudev
+2018-09-25 23:48:15	<--	davidcl1 (~davidcl@NIHfx-04p1-26.ppp11.odn.ad.jp) has quit (Remote host closed the connection)
+2018-09-25 23:58:02	-->	wmeloney (~wmeloney@115.63.127.81) has joined ##emudev
+2018-09-26 00:00:07	<--	wmeloney (~wmeloney@115.63.127.81) has quit (Remote host closed the connection)
+2018-09-26 00:02:03	-->	corby13 (~corby@2402:800:6107:fbb:4857:b79e:9e:1e6f) has joined ##emudev
+2018-09-26 00:04:57	<--	corby13 (~corby@2402:800:6107:fbb:4857:b79e:9e:1e6f) has quit (Remote host closed the connection)
+2018-09-26 00:12:33	-->	bipul17 (~bipul@pool-96-235-133-132.cmdnnj.fios.verizon.net) has joined ##emudev
+2018-09-26 00:14:04	<--	bipul17 (~bipul@pool-96-235-133-132.cmdnnj.fios.verizon.net) has quit (Remote host closed the connection)
+2018-09-26 00:26:15	-->	djmoch24 (~djmoch@5.146.250.247) has joined ##emudev
+2018-09-26 00:28:06	<--	djmoch24 (~djmoch@5.146.250.247) has quit (Remote host closed the connection)
+2018-09-26 00:31:17	-->	sling0015 (~sling00@nat-31-128-154-14.pool.powernet.com.ru) has joined ##emudev
+2018-09-26 00:34:19	<--	sling0015 (~sling00@nat-31-128-154-14.pool.powernet.com.ru) has quit (Remote host closed the connection)
+2018-09-26 00:35:33	-->	Guest50286 (~Guest5028@p5B03E14C.dip0.t-ipconnect.de) has joined ##emudev
+2018-09-26 00:36:44	-->	Welcome (~Welcome@117.4.234.126) has joined ##emudev
+2018-09-26 00:38:30	<--	Guest50286 (~Guest5028@p5B03E14C.dip0.t-ipconnect.de) has quit (Remote host closed the connection)
+2018-09-26 00:41:09	<--	Welcome (~Welcome@117.4.234.126) has quit (Read error: Connection reset by peer)
+2018-09-26 00:46:59	-->	sjl (~sjl@cpe-66-66-5-59.rochester.res.rr.com) has joined ##emudev
+2018-09-26 01:00:45	-->	maddawg224 (~maddawg2@186.214.242.37) has joined ##emudev
+2018-09-26 01:03:52	<--	maddawg224 (~maddawg2@186.214.242.37) has quit (Remote host closed the connection)
+2018-09-26 01:05:46	-->	nightmared14 (~nightmare@122.39.91.206) has joined ##emudev
+2018-09-26 01:07:34	-->	derhass29 (~derhass@186-89-97-161.genericrev.cantv.net) has joined ##emudev
+2018-09-26 01:10:23	<--	nightmared14 (~nightmare@122.39.91.206) has quit (Remote host closed the connection)
+2018-09-26 01:12:23	<--	derhass29 (~derhass@186-89-97-161.genericrev.cantv.net) has quit (Remote host closed the connection)
+2018-09-26 01:13:04	-->	aggi22 (~aggi@186.149.183.175) has joined ##emudev
+2018-09-26 01:14:12	-->	pradhvan0 (~pradhvan@95-31-102-145.broadband.corbina.ru) has joined ##emudev
+2018-09-26 01:17:34	<--	aggi22 (~aggi@186.149.183.175) has quit (Read error: Connection reset by peer)
+2018-09-26 01:17:50	<--	pradhvan0 (~pradhvan@95-31-102-145.broadband.corbina.ru) has quit (Read error: Connection reset by peer)
+2018-09-26 01:22:30	-->	mr_yogurt6 (~mr_yogurt@95.104.244.37) has joined ##emudev
+2018-09-26 01:24:05	-->	alanhuang22 (~alanhuang@2402:800:6142:19ec:6038:377d:bc0d:5a2e) has joined ##emudev
+2018-09-26 01:24:15	-->	Zialus7 (~Zialus@AMontpellier-658-1-175-192.w90-0.abo.wanadoo.fr) has joined ##emudev
+2018-09-26 01:24:33	<--	alanhuang22 (~alanhuang@2402:800:6142:19ec:6038:377d:bc0d:5a2e) has quit (Remote host closed the connection)
+2018-09-26 01:26:17	<--	mr_yogurt6 (~mr_yogurt@95.104.244.37) has quit (Remote host closed the connection)
+2018-09-26 01:28:51	<--	Zialus7 (~Zialus@AMontpellier-658-1-175-192.w90-0.abo.wanadoo.fr) has quit (Remote host closed the connection)
+2018-09-26 01:37:54	-->	finnzi9 (~finnzi@as3r8-178.ras.cha.cantv.net) has joined ##emudev
+2018-09-26 01:39:25	<--	finnzi9 (~finnzi@as3r8-178.ras.cha.cantv.net) has quit (Remote host closed the connection)
+2018-09-26 01:43:12	-->	miggyb13 (~miggyb@181.229.90.201) has joined ##emudev
+2018-09-26 01:46:58	<--	miggyb13 (~miggyb@181.229.90.201) has quit (Remote host closed the connection)
+2018-09-26 01:54:55	-->	Geronimo0 (~Geronimo@186.205.130.42) has joined ##emudev
+2018-09-26 01:55:22	<--	Geronimo0 (~Geronimo@186.205.130.42) has quit (K-Lined)
+2018-09-26 02:08:57	-->	nydel15 (~nydel@2402:800:6146:58f9:81be:f861:c9cf:adb7) has joined ##emudev
+2018-09-26 02:10:56	<--	nydel15 (~nydel@2402:800:6146:58f9:81be:f861:c9cf:adb7) has quit (Remote host closed the connection)
+2018-09-26 02:17:28	-->	MrHodl12 (~MrHodl@c-73-184-173-1.hsd1.ga.comcast.net) has joined ##emudev
+2018-09-26 02:20:18	<--	MrHodl12 (~MrHodl@c-73-184-173-1.hsd1.ga.comcast.net) has quit (Remote host closed the connection)
+2018-09-26 02:20:39	-->	gimps4 (~gimps@217.60.108.134) has joined ##emudev
+2018-09-26 02:21:26	-->	psmolen2 (~psmolen@201.254.93.96) has joined ##emudev
+2018-09-26 02:21:41	<--	gimps4 (~gimps@217.60.108.134) has quit (Remote host closed the connection)
+2018-09-26 02:21:49	-->	GIANT_CRAB20 (~GIANT_CRA@59.14.94.15) has joined ##emudev
+2018-09-26 02:24:35	<--	psmolen2 (~psmolen@201.254.93.96) has quit (Read error: Connection reset by peer)
+2018-09-26 02:26:22	<--	GIANT_CRAB20 (~GIANT_CRA@59.14.94.15) has quit (Remote host closed the connection)
+2018-09-26 02:30:48	-->	UKn0Me6 (~UKn0Me@190-207-56-196.dyn.dsl.cantv.net) has joined ##emudev
+2018-09-26 02:33:00	<--	UKn0Me6 (~UKn0Me@190-207-56-196.dyn.dsl.cantv.net) has quit (Remote host closed the connection)
+2018-09-26 02:39:23	-->	wamaral17 (~wamaral@x4dbd78df.dyn.telefonica.de) has joined ##emudev
+2018-09-26 02:40:14	-->	d0rm0us329 (~d0rm0us3@w134-87-132-052.wireless.uvic.ca) has joined ##emudev
+2018-09-26 02:41:20	<--	wamaral17 (~wamaral@x4dbd78df.dyn.telefonica.de) has quit (Remote host closed the connection)
+2018-09-26 02:42:27	<--	d0rm0us329 (~d0rm0us3@w134-87-132-052.wireless.uvic.ca) has quit (Remote host closed the connection)
+2018-09-26 02:54:31	-->	smokeysea (~smokeysea@196.114.69.181) has joined ##emudev
+2018-09-26 02:58:44	<--	smokeysea (~smokeysea@196.114.69.181) has quit (Remote host closed the connection)
+2018-09-26 03:02:38	-->	Hertog7 (~Hertog@46.37.135.33) has joined ##emudev
+2018-09-26 03:03:18	<--	Hertog7 (~Hertog@46.37.135.33) has quit (Remote host closed the connection)
+2018-09-26 03:06:47	-->	jento8 (~jento@62-188-100-219.extride.ad.jp) has joined ##emudev
+2018-09-26 03:08:57	<--	jento8 (~jento@62-188-100-219.extride.ad.jp) has quit (Remote host closed the connection)
+2018-09-26 03:12:59	-->	jpsharp20 (~jpsharp@179.187.193.190.dynamic.adsl.gvt.net.br) has joined ##emudev
+2018-09-26 03:13:49	-->	Globalirc (~Globalirc@pdadd5398.sitmnt01.ap.so-net.ne.jp) has joined ##emudev
+2018-09-26 03:14:08	<--	Globalirc (~Globalirc@pdadd5398.sitmnt01.ap.so-net.ne.jp) has quit (Remote host closed the connection)
+2018-09-26 03:15:49	<--	jpsharp20 (~jpsharp@179.187.193.190.dynamic.adsl.gvt.net.br) has quit (K-Lined)
+2018-09-26 03:17:23	-->	Guest36180 (~dchapman@41.250.242.138) has joined ##emudev
+2018-09-26 03:21:27	<--	Guest36180 (~dchapman@41.250.242.138) has quit (Remote host closed the connection)
+2018-09-26 03:21:50	-->	Guest838 (~xiaomiao@190-72-228-162.dyn.dsl.cantv.net) has joined ##emudev
+2018-09-26 03:23:17	-->	CandyAngel11 (~CandyAnge@77.240.44.72) has joined ##emudev
+2018-09-26 03:25:37	-->	deadbeat14 (~deadbeat@116.34.98.48) has joined ##emudev
+2018-09-26 03:25:40	<--	Guest838 (~xiaomiao@190-72-228-162.dyn.dsl.cantv.net) has quit (Read error: Connection reset by peer)
+2018-09-26 03:26:04	<--	CandyAngel11 (~CandyAnge@77.240.44.72) has quit (Remote host closed the connection)
+2018-09-26 03:28:29	<--	deadbeat14 (~deadbeat@116.34.98.48) has quit (Remote host closed the connection)
+2018-09-26 03:44:09	-->	dummys19 (~dummys@183.157.172.178) has joined ##emudev
+2018-09-26 03:47:41	<--	dummys19 (~dummys@183.157.172.178) has quit (Read error: Connection reset by peer)
+2018-09-26 04:02:09	-->	Jenza25 (~Jenza2@59.14.94.15) has joined ##emudev
+2018-09-26 04:05:29	<--	Jenza25 (~Jenza2@59.14.94.15) has quit (Remote host closed the connection)
+2018-09-26 04:12:32	-->	RBech17 (~RBech@175.119.8.232) has joined ##emudev
+2018-09-26 04:14:30	<--	RBech17 (~RBech@175.119.8.232) has quit (Remote host closed the connection)
+2018-09-26 04:16:26	<--	ltriant (~ltriant@114-198-23-248.dyn.iinet.net.au) has quit (Quit: leaving)
+2018-09-26 04:17:52	-->	zsmithnyc11 (~zsmithnyc@187.158.132.77.rev.sfr.net) has joined ##emudev
+2018-09-26 04:25:53	<--	zsmithnyc11 (~zsmithnyc@187.158.132.77.rev.sfr.net) has quit (Ping timeout: 252 seconds)
+2018-09-26 05:43:22	-->	coincoin16911 (~coincoin1@pppoe.178-65-244-18.dynamic.avangarddsl.ru) has joined ##emudev
+2018-09-26 05:44:31	<--	coincoin16911 (~coincoin1@pppoe.178-65-244-18.dynamic.avangarddsl.ru) has quit (Remote host closed the connection)
+2018-09-26 06:05:56	-->	thorrr12 (~thorrr@81.162.108.182) has joined ##emudev
+2018-09-26 06:10:36	<--	thorrr12 (~thorrr@81.162.108.182) has quit (Ping timeout: 252 seconds)
+2018-09-26 06:20:01	-->	Gue (~Gue@183.106.49.78) has joined ##emudev
+2018-09-26 06:22:38	<--	Gue (~Gue@183.106.49.78) has quit (Remote host closed the connection)
+2018-09-26 06:22:42	-->	enduser (~enduser@118.39.197.167) has joined ##emudev
+2018-09-26 06:24:09	<--	enduser (~enduser@118.39.197.167) has quit (Remote host closed the connection)
+2018-09-26 06:27:14	-->	fleetfox23 (~fleetfox@195.222.144.10) has joined ##emudev
+2018-09-26 06:27:27	<--	fleetfox23 (~fleetfox@195.222.144.10) has quit (Remote host closed the connection)
+2018-09-26 06:37:37	-->	serialoverflow (~serialove@121.168.214.84) has joined ##emudev
+2018-09-26 06:40:11	-->	sphrak18 (~sphrak@116.103.46.135) has joined ##emudev
+2018-09-26 06:41:15	<--	serialoverflow (~serialove@121.168.214.84) has quit (Remote host closed the connection)
+2018-09-26 06:44:26	<--	sphrak18 (~sphrak@116.103.46.135) has quit (Remote host closed the connection)
+2018-09-26 07:12:08	-->	VW (~VW@78.158.221.32) has joined ##emudev
+2018-09-26 07:13:35	<--	VW (~VW@78.158.221.32) has quit (Remote host closed the connection)
+2018-09-26 07:22:12	-->	PtitGNU29 (~PtitGNU@c-73-11-151-247.hsd1.wa.comcast.net) has joined ##emudev
+2018-09-26 07:22:41	-->	navs (~navs@113.30.21.130) has joined ##emudev
+2018-09-26 07:22:56	-->	rhia5 (~rhia@190.74.171.111) has joined ##emudev
+2018-09-26 07:23:38	<--	PtitGNU29 (~PtitGNU@c-73-11-151-247.hsd1.wa.comcast.net) has quit (Remote host closed the connection)
+2018-09-26 07:25:57	<--	navs (~navs@113.30.21.130) has quit (Remote host closed the connection)
+2018-09-26 07:27:00	<--	rhia5 (~rhia@190.74.171.111) has quit (Remote host closed the connection)
+2018-09-26 07:42:24	-->	snkcld (~snkcld@p794234-ipngn200707kyoto.kyoto.ocn.ne.jp) has joined ##emudev
+2018-09-26 07:46:21	<--	snkcld (~snkcld@p794234-ipngn200707kyoto.kyoto.ocn.ne.jp) has quit (Remote host closed the connection)
+2018-09-26 07:49:06	-->	StrangerVP10 (~StrangerV@186.212.141.46) has joined ##emudev
+2018-09-26 07:52:16	<--	StrangerVP10 (~StrangerV@186.212.141.46) has quit (Read error: Connection reset by peer)
+2018-09-26 08:00:05	-->	Allanis (~Allanis@95.67.235.188) has joined ##emudev
+2018-09-26 08:04:48	<--	Allanis (~Allanis@95.67.235.188) has quit (Remote host closed the connection)
+2018-09-26 08:13:15	-->	mrwangmaster16 (~mrwangmas@121.132.97.107) has joined ##emudev
+2018-09-26 08:14:50	-->	Hendikins9 (~Hendikins@125.133.13.9) has joined ##emudev
+2018-09-26 08:15:37	<--	mrwangmaster16 (~mrwangmas@121.132.97.107) has quit (Remote host closed the connection)
+2018-09-26 08:16:43	<--	Hendikins9 (~Hendikins@125.133.13.9) has quit (Remote host closed the connection)
+2018-09-26 08:18:30	-->	lluchs8 (~lluchs@59.7.25.139) has joined ##emudev
+2018-09-26 08:18:31	-->	kepler9 (~kepler@121.131.240.73) has joined ##emudev
+2018-09-26 08:19:45	-->	nolsen21 (~nolsen@178.45.112.209) has joined ##emudev
+2018-09-26 08:22:05	-->	blackboxsw7 (~blackboxs@27.78.44.185) has joined ##emudev
+2018-09-26 08:22:09	<--	nolsen21 (~nolsen@178.45.112.209) has quit (Remote host closed the connection)
+2018-09-26 08:23:06	<--	kepler9 (~kepler@121.131.240.73) has quit (Remote host closed the connection)
+2018-09-26 08:23:15	<--	lluchs8 (~lluchs@59.7.25.139) has quit (Remote host closed the connection)
+2018-09-26 08:24:01	-->	foo4 (~foo@120.4.193.26) has joined ##emudev
+2018-09-26 08:24:24	<--	blackboxsw7 (~blackboxs@27.78.44.185) has quit (Read error: Connection reset by peer)
+2018-09-26 08:28:59	<--	foo4 (~foo@120.4.193.26) has quit (Ping timeout: 252 seconds)
+2018-09-26 08:29:15	-->	Genolo17 (~Genolo@ip5f5bd419.dynamic.kabel-deutschland.de) has joined ##emudev
+2018-09-26 08:29:25	<--	Genolo17 (~Genolo@ip5f5bd419.dynamic.kabel-deutschland.de) has quit (Remote host closed the connection)
+2018-09-26 08:50:39	<--	Retr0id (~Retr0id@unaffiliated/retr0id) has quit (Ping timeout: 252 seconds)
+2018-09-26 08:50:57	-->	Daiyousei4 (~Daiyousei@113.215.220.255) has joined ##emudev
+2018-09-26 08:56:00	-->	zdzichu (~zdzichu@pppoe.178-65-244-18.dynamic.avangarddsl.ru) has joined ##emudev
+2018-09-26 08:56:46	<--	Daiyousei4 (~Daiyousei@113.215.220.255) has quit (Remote host closed the connection)
+2018-09-26 08:57:21	<--	zdzichu (~zdzichu@pppoe.178-65-244-18.dynamic.avangarddsl.ru) has quit (Remote host closed the connection)
+2018-09-26 09:04:12	-->	fatalis22 (~fatalis@190.79.9.216) has joined ##emudev
+2018-09-26 09:07:23	-->	Ethan1 (~Ethan@221.159.79.102) has joined ##emudev
+2018-09-26 09:08:58	<--	fatalis22 (~fatalis@190.79.9.216) has quit (Remote host closed the connection)
+2018-09-26 09:10:10	-->	KazPinkerton (~KazPinker@d50-92-30-7.bchsia.telus.net) has joined ##emudev
+2018-09-26 09:10:27	-->	srto_ (~srto_@i53879D95.versanet.de) has joined ##emudev
+2018-09-26 09:10:52	<--	Ethan1 (~Ethan@221.159.79.102) has quit (Remote host closed the connection)
+2018-09-26 09:12:25	<--	KazPinkerton (~KazPinker@d50-92-30-7.bchsia.telus.net) has quit (Remote host closed the connection)
+2018-09-26 09:15:20	<--	srto_ (~srto_@i53879D95.versanet.de) has quit (Remote host closed the connection)
+2018-09-26 09:16:02	-->	Soqaris (~Soqaris@118.35.103.23) has joined ##emudev
+2018-09-26 09:19:47	<--	Soqaris (~Soqaris@118.35.103.23) has quit (Remote host closed the connection)
+2018-09-26 09:32:13	-->	whislock2 (~whislock@zaq7719a9e0.zaq.ne.jp) has joined ##emudev
+2018-09-26 09:33:08	-->	AdrianTP25 (~AdrianTP@pool-108-53-142-253.nwrknj.fios.verizon.net) has joined ##emudev
+2018-09-26 09:34:20	-->	e1z019 (~e1z0@41.69.15.109.rev.sfr.net) has joined ##emudev
+2018-09-26 09:35:01	-->	koenrh (~koenrh@31.135.132.2) has joined ##emudev
+2018-09-26 09:35:06	<--	whislock2 (~whislock@zaq7719a9e0.zaq.ne.jp) has quit (Remote host closed the connection)
+2018-09-26 09:35:48	-->	toozej5 (~toozej@176.214.65.33) has joined ##emudev
+2018-09-26 09:36:28	<--	toozej5 (~toozej@176.214.65.33) has quit (Remote host closed the connection)
+2018-09-26 09:37:01	<--	AdrianTP25 (~AdrianTP@pool-108-53-142-253.nwrknj.fios.verizon.net) has quit (Remote host closed the connection)
+2018-09-26 09:38:15	<--	koenrh (~koenrh@31.135.132.2) has quit (Remote host closed the connection)
+2018-09-26 09:38:27	-->	kurufu2 (~kurufu@176.214.65.33) has joined ##emudev
+2018-09-26 09:38:36	<--	e1z019 (~e1z0@41.69.15.109.rev.sfr.net) has quit (Remote host closed the connection)
+2018-09-26 09:43:10	<--	kurufu2 (~kurufu@176.214.65.33) has quit (Remote host closed the connection)
+2018-09-26 09:45:07	-->	widox27 (~widox@49.142.33.115) has joined ##emudev
+2018-09-26 09:46:52	<--	widox27 (~widox@49.142.33.115) has quit (Remote host closed the connection)
+2018-09-26 09:51:06	-->	Varazir5 (~Varazir@p1415011-ipngn15001marunouchi.tokyo.ocn.ne.jp) has joined ##emudev
+2018-09-26 09:53:25	<--	Varazir5 (~Varazir@p1415011-ipngn15001marunouchi.tokyo.ocn.ne.jp) has quit (Remote host closed the connection)
+2018-09-26 09:56:34	-->	Nothing4You_17 (~Nothing4Y@176.214.65.33) has joined ##emudev
+2018-09-26 10:01:25	<--	Nothing4You_17 (~Nothing4Y@176.214.65.33) has quit (Remote host closed the connection)
+2018-09-26 10:03:04	-->	Dykam (~Dykam@190.103.234.138) has joined ##emudev
+2018-09-26 10:06:05	<--	Dykam (~Dykam@190.103.234.138) has quit (Remote host closed the connection)
+2018-09-26 10:06:17	-->	sarnold28 (~sarnold@182.191.220.87.dynamic.jazztel.es) has joined ##emudev
+2018-09-26 10:06:25	<--	sarnold28 (~sarnold@182.191.220.87.dynamic.jazztel.es) has quit (Remote host closed the connection)
+2018-09-26 10:13:37	-->	h313 (~h31@191.21.100.157) has joined ##emudev
+2018-09-26 10:13:58	<--	h313 (~h31@191.21.100.157) has quit (Remote host closed the connection)
+2018-09-26 10:19:13	-->	Dewi26 (~Dewi@14.45.118.113) has joined ##emudev
+2018-09-26 10:23:24	<--	Dewi26 (~Dewi@14.45.118.113) has quit (Remote host closed the connection)
+2018-09-26 10:27:28	-->	thedonut (~thedonut@host-89-241-230-39.as13285.net) has joined ##emudev
+2018-09-26 10:28:24	-->	beencubed17 (~beencubed@1.245.242.194) has joined ##emudev
+2018-09-26 10:29:29	<--	thedonut (~thedonut@host-89-241-230-39.as13285.net) has quit (Read error: Connection reset by peer)
+2018-09-26 10:29:43	<--	beencubed17 (~beencubed@1.245.242.194) has quit (Remote host closed the connection)
+2018-09-26 10:35:44	-->	brirec_ (~brirec_@211.198.184.193) has joined ##emudev
+2018-09-26 10:37:02	<--	brirec_ (~brirec_@211.198.184.193) has quit (Remote host closed the connection)
+2018-09-26 10:45:33	-->	nmk11 (~nmk@78.154.139.216) has joined ##emudev
+2018-09-26 10:48:20	<--	nmk11 (~nmk@78.154.139.216) has quit (Remote host closed the connection)
+2018-09-26 10:50:27	-->	Parnic14 (~Parnic@62.85.68.85) has joined ##emudev
+2018-09-26 10:50:57	-->	arkblitz (~arkblitz@210.106.122.50) has joined ##emudev
+2018-09-26 10:51:46	<--	arkblitz (~arkblitz@210.106.122.50) has quit (Remote host closed the connection)
+2018-09-26 10:53:42	-->	romangg27 (~romangg@c49-177-143-37.brasd4.vic.optusnet.com.au) has joined ##emudev
+2018-09-26 10:54:57	<--	Parnic14 (~Parnic@62.85.68.85) has quit (Remote host closed the connection)
+2018-09-26 10:55:44	<--	romangg27 (~romangg@c49-177-143-37.brasd4.vic.optusnet.com.au) has quit (Remote host closed the connection)
+2018-09-26 11:05:20	-->	Kubuxu15 (~Kubuxu@124.49.180.51) has joined ##emudev
+2018-09-26 11:07:22	<--	Kubuxu15 (~Kubuxu@124.49.180.51) has quit (Remote host closed the connection)
+2018-09-26 11:08:41	-->	phr3ak26 (~phr3ak@i53879D95.versanet.de) has joined ##emudev
+2018-09-26 11:09:23	<--	phr3ak26 (~phr3ak@i53879D95.versanet.de) has quit (Remote host closed the connection)
+2018-09-26 11:16:27	-->	bluez_17 (~bluez_@181.191.199.115.atuamax.com.br) has joined ##emudev
+2018-09-26 11:25:20	<--	bluez_17 (~bluez_@181.191.199.115.atuamax.com.br) has quit (Ping timeout: 245 seconds)
+2018-09-26 11:36:05	-->	ra4king15 (~ra4king@60-241-253-103.tpgi.com.au) has joined ##emudev
+2018-09-26 11:37:28	-->	sl3dge14 (~sl3dge@pD953C6FD.dip0.t-ipconnect.de) has joined ##emudev
+2018-09-26 11:40:03	<--	ra4king15 (~ra4king@60-241-253-103.tpgi.com.au) has quit (Remote host closed the connection)
+2018-09-26 11:40:13	<--	sl3dge14 (~sl3dge@pD953C6FD.dip0.t-ipconnect.de) has quit (Remote host closed the connection)
+2018-09-26 11:48:14	-->	Obilan27 (~Obilan@182.40.247.111) has joined ##emudev
+2018-09-26 11:53:35	<--	Obilan27 (~Obilan@182.40.247.111) has quit (Ping timeout: 252 seconds)
+2018-09-26 11:54:23	-->	JollyRgrs7 (~JollyRgrs@37.150.238.238) has joined ##emudev
+2018-09-26 11:58:01	<--	JollyRgrs7 (~JollyRgrs@37.150.238.238) has quit (Remote host closed the connection)
+2018-09-26 12:02:05	-->	shabble18 (~shabble@78.154.139.216) has joined ##emudev
+2018-09-26 12:03:55	<--	shabble18 (~shabble@78.154.139.216) has quit (Remote host closed the connection)
+2018-09-26 12:05:58	-->	t36s28 (~t36s@95.70.255.217) has joined ##emudev
+2018-09-26 12:07:26	-->	Asoka1 (~Asoka@221.141.232.61) has joined ##emudev
+2018-09-26 12:08:05	<--	t36s28 (~t36s@95.70.255.217) has quit (Remote host closed the connection)
+2018-09-26 12:09:27	<--	Asoka1 (~Asoka@221.141.232.61) has quit (Read error: Connection reset by peer)
+2018-09-26 12:10:45	-->	shmoon13 (~shmoon@221.139.158.200) has joined ##emudev
+2018-09-26 12:15:08	<--	shmoon13 (~shmoon@221.139.158.200) has quit (Remote host closed the connection)
+2018-09-26 12:22:48	-->	Usurp (~Usurp@mx-ll-27.130.221-205.dynamic.3bb.co.th) has joined ##emudev
+2018-09-26 12:26:49	<--	Usurp (~Usurp@mx-ll-27.130.221-205.dynamic.3bb.co.th) has quit (Read error: Connection reset by peer)
+2018-09-26 12:33:26	-->	maxel15 (~maxel@ppp-171-97-26-63.revip8.asianet.co.th) has joined ##emudev
+2018-09-26 12:35:02	<--	maxel15 (~maxel@ppp-171-97-26-63.revip8.asianet.co.th) has quit (K-Lined)
+2018-09-26 12:55:10	-->	Fumler (~Fumler@46.6.6.39) has joined ##emudev
+2018-09-26 12:58:55	<--	Fumler (~Fumler@46.6.6.39) has quit (Remote host closed the connection)
+2018-09-26 13:06:55	-->	tarzeau__ (~tarzeau__@99.65.136.88.rev.sfr.net) has joined ##emudev
+2018-09-26 13:10:17	-->	blaisebool28 (~blaiseboo@211.33.183.35) has joined ##emudev
+2018-09-26 13:10:50	<--	blaisebool28 (~blaiseboo@211.33.183.35) has quit (Remote host closed the connection)
+2018-09-26 13:11:43	<--	tarzeau__ (~tarzeau__@99.65.136.88.rev.sfr.net) has quit (Remote host closed the connection)
+2018-09-26 13:19:59	-->	toXel (~toXel@host85.186-108-237.telecom.net.ar) has joined ##emudev
+2018-09-26 13:21:08	<--	toXel (~toXel@host85.186-108-237.telecom.net.ar) has quit (Read error: Connection reset by peer)
+2018-09-26 13:25:50	-->	thi9 (~thi@46.159.179.176) has joined ##emudev
+2018-09-26 13:26:04	<--	thi9 (~thi@46.159.179.176) has quit (Remote host closed the connection)
+2018-09-26 13:26:05	-->	edi14 (~edi@39.122.105.4) has joined ##emudev
+2018-09-26 13:28:35	<--	edi14 (~edi@39.122.105.4) has quit (Remote host closed the connection)
+2018-09-26 13:31:08	-->	langkid1 (~langkid1@27.54.51.144) has joined ##emudev
+2018-09-26 13:31:18	<--	langkid1 (~langkid1@27.54.51.144) has quit (K-Lined)
+2018-09-26 13:42:15	-->	olis10 (~olis@78.30.204.214) has joined ##emudev
+2018-09-26 13:46:19	<--	olis10 (~olis@78.30.204.214) has quit (Remote host closed the connection)
+2018-09-26 13:46:45	-->	Hobadee12 (~Hobadee@1.252.62.224) has joined ##emudev
+2018-09-26 13:49:51	-->	ultrasparc (~ultraspar@53.red-83-47-12.dynamicip.rima-tde.net) has joined ##emudev
+2018-09-26 13:50:51	<--	ultrasparc (~ultraspar@53.red-83-47-12.dynamicip.rima-tde.net) has quit (Remote host closed the connection)
+2018-09-26 13:51:44	<--	Hobadee12 (~Hobadee@1.252.62.224) has quit (Read error: Connection reset by peer)
+2018-09-26 13:52:47	-->	Guest72348 (~Guest7234@p303094-ipngn7101hodogaya.kanagawa.ocn.ne.jp) has joined ##emudev
+2018-09-26 13:56:47	<--	Guest72348 (~Guest7234@p303094-ipngn7101hodogaya.kanagawa.ocn.ne.jp) has quit (Read error: Connection reset by peer)
+2018-09-26 14:06:05	-->	psychoschlumpf1 (~psychosch@88.251.32.155) has joined ##emudev
+2018-09-26 14:09:07	-->	edwinbalani24 (~edwinbala@67-61-91-142.cpe.cableone.net) has joined ##emudev
+2018-09-26 14:10:23	<--	psychoschlumpf1 (~psychosch@88.251.32.155) has quit (Remote host closed the connection)
+2018-09-26 14:13:45	<--	edwinbalani24 (~edwinbala@67-61-91-142.cpe.cableone.net) has quit (Remote host closed the connection)
+2018-09-26 14:13:45	-->	mason_21 (~mason_@221.166.255.75) has joined ##emudev
+2018-09-26 14:16:37	<--	mason_21 (~mason_@221.166.255.75) has quit (Remote host closed the connection)
+2018-09-26 14:17:53	-->	saddam15 (~saddam@cpe-174-101-114-205.columbus.res.rr.com) has joined ##emudev
+2018-09-26 14:18:05	-->	filcab3 (~filcab@119.192.75.109) has joined ##emudev
+2018-09-26 14:20:58	<--	filcab3 (~filcab@119.192.75.109) has quit (Remote host closed the connection)
+2018-09-26 14:21:40	<--	saddam15 (~saddam@cpe-174-101-114-205.columbus.res.rr.com) has quit (Remote host closed the connection)
+2018-09-26 14:24:24	-->	brfransen1 (~brfransen@0541e1bb.skybroadband.com) has joined ##emudev
+2018-09-26 14:25:55	<--	brfransen1 (~brfransen@0541e1bb.skybroadband.com) has quit (Remote host closed the connection)
+2018-09-26 14:27:49	-->	amx0 (~amx@p507086-ipbf402okidate.aomori.ocn.ne.jp) has joined ##emudev
+2018-09-26 14:31:45	<--	amx0 (~amx@p507086-ipbf402okidate.aomori.ocn.ne.jp) has quit (Remote host closed the connection)
+2018-09-26 14:35:15	-->	benJIman20 (~benJIman@220.126.245.211) has joined ##emudev
+2018-09-26 14:37:53	-->	devyani728 (~devyani7@5.206.42.171) has joined ##emudev
+2018-09-26 14:39:47	<--	benJIman20 (~benJIman@220.126.245.211) has quit (Remote host closed the connection)
+2018-09-26 14:39:51	-->	appa_ (~appa_@124.46.166.26) has joined ##emudev
+2018-09-26 14:40:43	-->	kjsnavely15 (~kjsnavely@218.146.118.233) has joined ##emudev
+2018-09-26 14:41:55	<--	appa_ (~appa_@124.46.166.26) has quit (Remote host closed the connection)
+2018-09-26 14:42:07	<--	devyani728 (~devyani7@5.206.42.171) has quit (Remote host closed the connection)
+2018-09-26 14:42:35	-->	Guest68288 (~linka@222.114.26.244) has joined ##emudev
+2018-09-26 14:43:14	<--	kjsnavely15 (~kjsnavely@218.146.118.233) has quit (Remote host closed the connection)
+2018-09-26 14:46:42	<--	Guest68288 (~linka@222.114.26.244) has quit (Remote host closed the connection)
+2018-09-26 14:48:29	-->	DaViper20 (~DaViper@FL1-133-208-229-143.hyg.mesh.ad.jp) has joined ##emudev
+2018-09-26 14:51:17	<--	DaViper20 (~DaViper@FL1-133-208-229-143.hyg.mesh.ad.jp) has quit (Remote host closed the connection)
+2018-09-26 14:59:50	-->	ChimkenNugger4 (~ChimkenNu@KD125052066113.ppp-bb.dion.ne.jp) has joined ##emudev
+2018-09-26 14:59:55	<--	ChimkenNugger4 (~ChimkenNu@KD125052066113.ppp-bb.dion.ne.jp) has quit (Remote host closed the connection)
+2018-09-26 15:10:53	-->	tardybaker22 (~tardybake@p1795016-ipngn16201marunouchi.tokyo.ocn.ne.jp) has joined ##emudev
+2018-09-26 15:14:08	<--	tardybaker22 (~tardybake@p1795016-ipngn16201marunouchi.tokyo.ocn.ne.jp) has quit (Remote host closed the connection)
+2018-09-26 15:22:45	-->	pfn23 (~pfn@88.251.32.155) has joined ##emudev
+2018-09-26 15:22:58	-->	URLcatcher6 (~URLcatche@119.200.47.213) has joined ##emudev
+2018-09-26 15:22:59	-->	Zilon18 (~Zilon@121.131.237.198) has joined ##emudev
+2018-09-26 15:24:18	<--	URLcatcher6 (~URLcatche@119.200.47.213) has quit (Remote host closed the connection)
+2018-09-26 15:24:56	<--	pfn23 (~pfn@88.251.32.155) has quit (Remote host closed the connection)
+2018-09-26 15:25:28	-->	epta14 (~epta@155.0.8.93) has joined ##emudev
+2018-09-26 15:26:28	-->	hsorbo_ (~hsorbo_@37.228.235.37) has joined ##emudev
+2018-09-26 15:27:29	<--	Zilon18 (~Zilon@121.131.237.198) has quit (Remote host closed the connection)
+2018-09-26 15:27:54	<--	epta14 (~epta@155.0.8.93) has quit (Read error: Connection reset by peer)
+2018-09-26 15:28:42	<--	hsorbo_ (~hsorbo_@37.228.235.37) has quit (Read error: Connection reset by peer)
+2018-09-26 15:39:06	-->	notchris15 (~notchris@105.107.79.146) has joined ##emudev
+2018-09-26 15:43:24	-->	dstol6 (~dstol@112.184.24.53) has joined ##emudev
+2018-09-26 15:43:50	<--	notchris15 (~notchris@105.107.79.146) has quit (Remote host closed the connection)
+2018-09-26 15:45:01	-->	FlossES3 (~FlossES@89.36.16.253) has joined ##emudev
+2018-09-26 15:46:05	-->	byorgey (~byorgey@78.187.189.243) has joined ##emudev
+2018-09-26 15:47:41	<--	byorgey (~byorgey@78.187.189.243) has quit (Remote host closed the connection)
+2018-09-26 15:47:45	<--	dstol6 (~dstol@112.184.24.53) has quit (Remote host closed the connection)
+2018-09-26 15:51:50	<--	FlossES3 (~FlossES@89.36.16.253) has quit (Ping timeout: 244 seconds)
+2018-09-26 15:56:32	-->	kee7a_ (~kee7a_@2400:3b00:1:5:222:19ff:fe56:3c6c) has joined ##emudev
+2018-09-26 15:58:28	-->	englishman12 (~englishma@36.79.149.215) has joined ##emudev
+2018-09-26 16:04:03	<--	kee7a_ (~kee7a_@2400:3b00:1:5:222:19ff:fe56:3c6c) has quit (Ping timeout: 252 seconds)
+2018-09-26 16:05:00	-->	rdm11 (~rdm@223.67.203.225) has joined ##emudev
+2018-09-26 16:06:35	<--	englishman12 (~englishma@36.79.149.215) has quit (Ping timeout: 252 seconds)
+2018-09-26 16:10:32	-->	chinasaur15 (~chinasaur@188.3.142.217) has joined ##emudev
+2018-09-26 16:12:25	<--	rdm11 (~rdm@223.67.203.225) has quit (Ping timeout: 245 seconds)
+2018-09-26 16:12:41	-->	n3t18 (~n3t@37.228.235.37) has joined ##emudev
+2018-09-26 16:15:09	<--	chinasaur15 (~chinasaur@188.3.142.217) has quit (Remote host closed the connection)
+2018-09-26 16:15:13	<--	n3t18 (~n3t@37.228.235.37) has quit (Read error: Connection reset by peer)
+2018-09-26 16:18:59	-->	davean20 (~davean@147.30.110.87) has joined ##emudev
+2018-09-26 16:19:00	-->	soltys20 (~soltys@3.red-83-57-88.dynamicip.rima-tde.net) has joined ##emudev
+2018-09-26 16:21:48	-->	flevopolder12 (~flevopold@host-2-60-37-5.pppoe.omsknet.ru) has joined ##emudev
+2018-09-26 16:22:08	<--	soltys20 (~soltys@3.red-83-57-88.dynamicip.rima-tde.net) has quit (Remote host closed the connection)
+2018-09-26 16:23:26	<--	davean20 (~davean@147.30.110.87) has quit (Remote host closed the connection)
+2018-09-26 16:24:40	-->	Guest46793 (~Ubuntu@pD953C6FD.dip0.t-ipconnect.de) has joined ##emudev
+2018-09-26 16:24:49	<--	flevopolder12 (~flevopold@host-2-60-37-5.pppoe.omsknet.ru) has quit (Remote host closed the connection)
+2018-09-26 16:26:45	<--	Guest46793 (~Ubuntu@pD953C6FD.dip0.t-ipconnect.de) has quit (Remote host closed the connection)
+2018-09-26 16:28:01	-->	schout-it19 (~schout-it@190-205-66-46.dyn.dsl.cantv.net) has joined ##emudev
+2018-09-26 16:30:14	<--	schout-it19 (~schout-it@190-205-66-46.dyn.dsl.cantv.net) has quit (Remote host closed the connection)
+2018-09-26 16:34:29	-->	MrRoot (~MrRoot@41.250.215.212) has joined ##emudev
+2018-09-26 16:36:50	-->	Robsdedude23 (~Robsdedud@36.81.32.55) has joined ##emudev
+2018-09-26 16:40:32	<--	Robsdedude23 (~Robsdedud@36.81.32.55) has quit (Read error: Connection reset by peer)
+2018-09-26 16:40:34	-->	twistedline13 (~twistedli@mx-ll-27.130.58-63.dynamic.3bb.co.th) has joined ##emudev
+2018-09-26 16:42:48	<--	MrRoot (~MrRoot@41.250.215.212) has quit (Ping timeout: 252 seconds)
+2018-09-26 16:43:19	<--	twistedline13 (~twistedli@mx-ll-27.130.58-63.dynamic.3bb.co.th) has quit (Remote host closed the connection)
+2018-09-26 16:50:51	-->	avp29 (~avp@106.41.122.239) has joined ##emudev
+2018-09-26 16:51:54	<--	avp29 (~avp@106.41.122.239) has quit (Remote host closed the connection)
+2018-09-26 16:55:18	-->	Guest5427 (~v3nd3tta@128-22-115-182f1.kyt1.eonet.ne.jp) has joined ##emudev
+2018-09-26 16:57:25	-->	Mandus (~Mandus@ppp-124-120-83-165.revip2.asianet.co.th) has joined ##emudev
+2018-09-26 16:57:53	<--	Mandus (~Mandus@ppp-124-120-83-165.revip2.asianet.co.th) has quit (Remote host closed the connection)
+2018-09-26 16:58:36	-->	rahimnathwani (~rahimnath@p1749126-ipbf1307funabasi.chiba.ocn.ne.jp) has joined ##emudev
+2018-09-26 16:59:07	<--	Guest5427 (~v3nd3tta@128-22-115-182f1.kyt1.eonet.ne.jp) has quit (Remote host closed the connection)
+2018-09-26 17:00:36	-->	Retr0id (~Retr0id@unaffiliated/retr0id) has joined ##emudev
+2018-09-26 17:03:20	<--	rahimnathwani (~rahimnath@p1749126-ipbf1307funabasi.chiba.ocn.ne.jp) has quit (Remote host closed the connection)
+2018-09-26 17:11:01	-->	zero-one18 (~zero-one@222.118.155.9) has joined ##emudev
+2018-09-26 17:12:02	<--	zero-one18 (~zero-one@222.118.155.9) has quit (Remote host closed the connection)
+2018-09-26 17:12:31	-->	itvdonsk9 (~itvdonsk@ip5f5af98b.dynamic.kabel-deutschland.de) has joined ##emudev
+2018-09-26 17:14:18	-->	Ruhan4 (~Ruhan@d47-69-9-18.col.wideopenwest.com) has joined ##emudev
+2018-09-26 17:16:31	<--	Ruhan4 (~Ruhan@d47-69-9-18.col.wideopenwest.com) has quit (Read error: Connection reset by peer)
+2018-09-26 17:17:18	<--	itvdonsk9 (~itvdonsk@ip5f5af98b.dynamic.kabel-deutschland.de) has quit (Remote host closed the connection)
+2018-09-26 17:17:49	-->	boustrophedon10 (~boustroph@host86-156-141-51.range86-156.btcentralplus.com) has joined ##emudev
+2018-09-26 17:18:56	<--	boustrophedon10 (~boustroph@host86-156-141-51.range86-156.btcentralplus.com) has quit (Remote host closed the connection)
+2018-09-26 17:29:39	-->	edx17 (~edx@fp9f1cf274.tkyc401.ap.nuro.jp) has joined ##emudev
+2018-09-26 17:32:01	-->	simonpatapon19 (~simonpata@67.71.196.42) has joined ##emudev
+2018-09-26 17:33:39	<--	edx17 (~edx@fp9f1cf274.tkyc401.ap.nuro.jp) has quit (Remote host closed the connection)
+2018-09-26 17:36:34	<--	simonpatapon19 (~simonpata@67.71.196.42) has quit (Read error: Connection reset by peer)
+2018-09-26 17:41:45	-->	nukedclx15 (~nukedclx@188.120.168.118) has joined ##emudev
+2018-09-26 17:42:42	<--	nukedclx15 (~nukedclx@188.120.168.118) has quit (Remote host closed the connection)
+2018-09-26 17:44:05	-->	gihel (~gihel@p954008-ipngn200504kobeminato.hyogo.ocn.ne.jp) has joined ##emudev
+2018-09-26 17:44:44	-->	centril2 (~centril@ppp-124-121-241-65.revip2.asianet.co.th) has joined ##emudev
+2018-09-26 17:45:59	-->	debugloop1 (~debugloop@186-92-152-5.genericrev.cantv.net) has joined ##emudev
+2018-09-26 17:46:22	-->	styks198725 (~styks1987@190-201-164-245.dyn.dsl.cantv.net) has joined ##emudev
+2018-09-26 17:46:42	<--	debugloop1 (~debugloop@186-92-152-5.genericrev.cantv.net) has quit (Remote host closed the connection)
+2018-09-26 17:47:52	<--	styks198725 (~styks1987@190-201-164-245.dyn.dsl.cantv.net) has quit (Remote host closed the connection)
+2018-09-26 17:48:21	<--	gihel (~gihel@p954008-ipngn200504kobeminato.hyogo.ocn.ne.jp) has quit (Read error: Connection reset by peer)
+2018-09-26 17:49:26	<--	centril2 (~centril@ppp-124-121-241-65.revip2.asianet.co.th) has quit (Remote host closed the connection)
+2018-09-26 18:01:35	-->	dshin17 (~dshin@151.32.66.119) has joined ##emudev
+2018-09-26 18:03:11	<--	dshin17 (~dshin@151.32.66.119) has quit (Remote host closed the connection)
+2018-09-26 18:13:13	-->	abrotman10 (~abrotman@105.176.93.125) has joined ##emudev
+2018-09-26 18:20:58	<--	abrotman10 (~abrotman@105.176.93.125) has quit (Ping timeout: 260 seconds)
+2018-09-26 18:34:22	-->	nmk17 (~nmk@183.102.52.137) has joined ##emudev
+2018-09-26 18:34:31	<--	nmk17 (~nmk@183.102.52.137) has quit (Remote host closed the connection)
+2018-09-26 18:53:35	-->	inovas24 (~inovas@92.248.224.74) has joined ##emudev
+2018-09-26 18:54:06	-->	zz_ming2k3 (~zz_ming2k@lro13-1-78-228-71-41.fbx.proxad.net) has joined ##emudev
+2018-09-26 18:55:37	<--	inovas24 (~inovas@92.248.224.74) has quit (Remote host closed the connection)
+2018-09-26 18:57:40	<--	zz_ming2k3 (~zz_ming2k@lro13-1-78-228-71-41.fbx.proxad.net) has quit (Remote host closed the connection)
+2018-09-26 19:06:18	-->	MD87| (~MD87|@190.39.121.49) has joined ##emudev
+2018-09-26 19:08:00	<--	MD87| (~MD87|@190.39.121.49) has quit (Remote host closed the connection)
+2018-09-26 19:11:11	-->	galstrom_zzz26 (~galstrom_@27.4.86.50) has joined ##emudev
+2018-09-26 19:13:03	-->	paininhead_ (~paininhea@79.116.61.241) has joined ##emudev
+2018-09-26 19:14:15	-->	dequeues (~dequeues@ppp37-60-210-26.tis-dialog.ru) has joined ##emudev
+2018-09-26 19:14:43	-->	arcan1s_ (~arcan1s_@121.143.25.87) has joined ##emudev
+2018-09-26 19:15:19	<--	paininhead_ (~paininhea@79.116.61.241) has quit (Remote host closed the connection)
+2018-09-26 19:15:25	<--	dequeues (~dequeues@ppp37-60-210-26.tis-dialog.ru) has quit (Remote host closed the connection)
+2018-09-26 19:16:28	<--	galstrom_zzz26 (~galstrom_@27.4.86.50) has quit (Read error: Connection reset by peer)
+2018-09-26 19:16:53	<--	arcan1s_ (~arcan1s_@121.143.25.87) has quit (Remote host closed the connection)
+2018-09-26 19:21:34	-->	timj1 (~timj1@84.238.56.30) has joined ##emudev
+2018-09-26 19:24:40	<--	timj1 (~timj1@84.238.56.30) has quit (Remote host closed the connection)
+2018-09-26 19:42:26	-->	mooghog22 (~mooghog@31.167.90.246) has joined ##emudev
+2018-09-26 19:43:00	<--	mooghog22 (~mooghog@31.167.90.246) has quit (Read error: Connection reset by peer)
+2018-09-26 19:45:28	-->	supamatt (~supamatt@ppp-124-120-173-131.revip2.asianet.co.th) has joined ##emudev
+2018-09-26 19:46:47	-->	bengl20 (~bengl@c-73-160-21-191.hsd1.nj.comcast.net) has joined ##emudev
+2018-09-26 19:48:11	<--	supamatt (~supamatt@ppp-124-120-173-131.revip2.asianet.co.th) has quit (Remote host closed the connection)
+2018-09-26 19:49:34	-->	ShiroiAkuma (~ShiroiAku@191.115.89.10) has joined ##emudev
+2018-09-26 19:50:26	<--	bengl20 (~bengl@c-73-160-21-191.hsd1.nj.comcast.net) has quit (Remote host closed the connection)
+2018-09-26 19:52:10	-->	furntree22 (~furntree@80.242.99.93) has joined ##emudev
+2018-09-26 19:53:34	<--	furntree22 (~furntree@80.242.99.93) has quit (Remote host closed the connection)
+2018-09-26 19:54:11	<--	ShiroiAkuma (~ShiroiAku@191.115.89.10) has quit (Remote host closed the connection)
+2018-09-26 19:55:00	-->	meineerde9 (~meineerde@89.148.236.225) has joined ##emudev
+2018-09-26 19:58:35	<--	meineerde9 (~meineerde@89.148.236.225) has quit (Remote host closed the connection)
+2018-09-26 20:14:33	-->	ugexe16 (~ugexe@AMarseille-658-1-44-55.w90-37.abo.wanadoo.fr) has joined ##emudev
+2018-09-26 20:17:27	-->	petar1 (~petar@248.54.159.143.dyn.plus.net) has joined ##emudev
+2018-09-26 20:18:25	-->	gregs1 (~gregs@61.82.218.139) has joined ##emudev
+2018-09-26 20:19:04	<--	ugexe16 (~ugexe@AMarseille-658-1-44-55.w90-37.abo.wanadoo.fr) has quit (Read error: Connection reset by peer)
+2018-09-26 20:19:28	<--	petar1 (~petar@248.54.159.143.dyn.plus.net) has quit (Remote host closed the connection)
+2018-09-26 20:22:34	-->	dissonant14 (~dissonant@95.72.175.218) has joined ##emudev
+2018-09-26 20:22:53	-->	kinky-fool (~kinky-foo@39.119.237.103) has joined ##emudev
+2018-09-26 20:23:00	-->	mypapit28 (~mypapit@93.171.29.124) has joined ##emudev
+2018-09-26 20:23:42	<--	kinky-fool (~kinky-foo@39.119.237.103) has quit (Remote host closed the connection)
+2018-09-26 20:24:32	<--	gregs1 (~gregs@61.82.218.139) has quit (Ping timeout: 252 seconds)
+2018-09-26 20:26:18	<--	dissonant14 (~dissonant@95.72.175.218) has quit (Remote host closed the connection)
+2018-09-26 20:27:46	<--	mypapit28 (~mypapit@93.171.29.124) has quit (Remote host closed the connection)
+2018-09-26 20:28:16	-->	tswsl1989 (~tswsl1989@182-164-61-153f1.nar1.eonet.ne.jp) has joined ##emudev
+2018-09-26 20:28:42	-->	andyk6 (~andyk@user-045158089061.kinet-tv.ne.jp) has joined ##emudev
+2018-09-26 20:29:12	-->	dcousens26 (~dcousens@90.252.5.152) has joined ##emudev
+2018-09-26 20:30:04	<--	tswsl1989 (~tswsl1989@182-164-61-153f1.nar1.eonet.ne.jp) has quit (Remote host closed the connection)
+2018-09-26 20:31:44	-->	Ellenor11 (~Ellenor@14.33.114.99) has joined ##emudev
+2018-09-26 20:31:57	<--	dcousens26 (~dcousens@90.252.5.152) has quit (Remote host closed the connection)
+2018-09-26 20:32:58	-->	Wyzard1 (~Wyzard@mx-ll-171.6.192-159.dynamic.3bb.co.th) has joined ##emudev
+2018-09-26 20:33:07	<--	andyk6 (~andyk@user-045158089061.kinet-tv.ne.jp) has quit (Remote host closed the connection)
+2018-09-26 20:33:14	<--	Ellenor11 (~Ellenor@14.33.114.99) has quit (Remote host closed the connection)
+2018-09-26 20:33:35	-->	unixman18 (~unixman@195.18.14.61) has joined ##emudev
+2018-09-26 20:34:00	<--	Wyzard1 (~Wyzard@mx-ll-171.6.192-159.dynamic.3bb.co.th) has quit (Remote host closed the connection)
+2018-09-26 20:34:16	-->	varesa| (~varesa|@ntsitm546201.sitm.nt.ngn.ppp.infoweb.ne.jp) has joined ##emudev
+2018-09-26 20:35:24	<--	varesa| (~varesa|@ntsitm546201.sitm.nt.ngn.ppp.infoweb.ne.jp) has quit (Read error: Connection reset by peer)
+2018-09-26 20:39:58	<--	unixman18 (~unixman@195.18.14.61) has quit (Ping timeout: 250 seconds)
+2018-09-26 20:39:59	-->	superzazu (~superzazu@AMarseille-656-1-119-247.w92-153.abo.wanadoo.fr) has joined ##emudev
+2018-09-26 20:43:25	<--	superzazu (~superzazu@AMarseille-656-1-119-247.w92-153.abo.wanadoo.fr) has quit (Client Quit)
+2018-09-26 20:46:31	-->	tp7626 (~tp76@192.141.236.147) has joined ##emudev
+2018-09-26 20:48:05	-->	mukunda24 (~mukunda@190.49.255.92) has joined ##emudev
+2018-09-26 20:48:26	-->	mbalmer (~mbalmer@58.172.143.156) has joined ##emudev
+2018-09-26 20:48:28	<--	mukunda24 (~mukunda@190.49.255.92) has quit (Remote host closed the connection)
+2018-09-26 20:48:33	<--	tp7626 (~tp76@192.141.236.147) has quit (Remote host closed the connection)
+2018-09-26 20:49:57	-->	tromp17 (~tromp@125.130.239.113) has joined ##emudev
+2018-09-26 20:50:19	<--	tromp17 (~tromp@125.130.239.113) has quit (Remote host closed the connection)
+2018-09-26 20:51:22	<--	mbalmer (~mbalmer@58.172.143.156) has quit (Read error: Connection reset by peer)
+2018-09-26 20:55:30	-->	DHE26 (~DHE@86.126.114.247) has joined ##emudev
+2018-09-26 20:56:20	<--	DHE26 (~DHE@86.126.114.247) has quit (Remote host closed the connection)
+2018-09-26 21:00:30	-->	saibotu (~saibotu@88.227.200.148) has joined ##emudev
+2018-09-26 21:02:47	<--	saibotu (~saibotu@88.227.200.148) has quit (Read error: Connection reset by peer)
+2018-09-26 21:03:45	-->	Piotrek13 (~Piotrek@p73a2f230.sitmnt01.ap.so-net.ne.jp) has joined ##emudev
+2018-09-26 21:04:57	-->	{AS}13 (~{AS}@220.79.145.224) has joined ##emudev
+2018-09-26 21:05:02	-->	hramrach24 (~hramrach@177.205.118.240.dynamic.adsl.gvt.net.br) has joined ##emudev
+2018-09-26 21:05:28	<--	hramrach24 (~hramrach@177.205.118.240.dynamic.adsl.gvt.net.br) has quit (Remote host closed the connection)
+2018-09-26 21:07:49	<--	Piotrek13 (~Piotrek@p73a2f230.sitmnt01.ap.so-net.ne.jp) has quit (Remote host closed the connection)
+2018-09-26 21:08:39	<--	{AS}13 (~{AS}@220.79.145.224) has quit (Remote host closed the connection)
+2018-09-26 21:09:02	-->	strudla_ (~strudla_@87.97.186.47) has joined ##emudev
+2018-09-26 21:11:36	<--	strudla_ (~strudla_@87.97.186.47) has quit (Remote host closed the connection)
+2018-09-26 21:18:58	<--	mooch (~mooch@2600-6c56-7c00-03ab-7b72-4562-dfee-0142.dhcp6.chtrptr.net) has quit (Ping timeout: 250 seconds)
+2018-09-26 21:21:58	-->	aLK-[i] (~aLK-i]@host86-145-3-205.range86-145.btcentralplus.com) has joined ##emudev
+2018-09-26 21:24:15	<--	aLK-[i] (~aLK-i]@host86-145-3-205.range86-145.btcentralplus.com) has quit (Remote host closed the connection)
+2018-09-26 22:14:38	-->	sitaktif (~sitaktif@25.244.78.188.dynamic.jazztel.es) has joined ##emudev
+2018-09-26 22:15:25	-->	mooch (~mooch@47.42.126.236) has joined ##emudev
+2018-09-26 22:19:05	<--	sitaktif (~sitaktif@25.244.78.188.dynamic.jazztel.es) has quit (Remote host closed the connection)
+2018-09-26 22:32:30	-->	cwawak (~cwawak@81.198.158.107) has joined ##emudev
+2018-09-26 22:35:56	<--	cwawak (~cwawak@81.198.158.107) has quit (Remote host closed the connection)
+2018-09-26 22:58:58	-->	vasco-santos3 (~vasco-san@51.15.181.128) has joined ##emudev
+2018-09-26 22:59:06	<--	vasco-santos3 (~vasco-san@51.15.181.128) has quit (Remote host closed the connection)
+2018-09-26 23:20:43	-->	CopperTube9 (~CopperTub@186.121.21.61) has joined ##emudev
+2018-09-26 23:22:56	<--	CopperTube9 (~CopperTub@186.121.21.61) has quit (Remote host closed the connection)
+2018-09-26 23:31:43	-->	werew (~werew@85.109.133.250) has joined ##emudev
+2018-09-26 23:36:22	<--	werew (~werew@85.109.133.250) has quit (Remote host closed the connection)
+2018-09-27 00:14:26	-->	nevyn3 (~nevyn@as6r8-049.ras.cha.cantv.net) has joined ##emudev
+2018-09-27 00:15:12	-->	ltriant (~ltriant@lithium.mailguard.com.au) has joined ##emudev
+2018-09-27 00:16:33	<--	nevyn3 (~nevyn@as6r8-049.ras.cha.cantv.net) has quit (Remote host closed the connection)
+2018-09-27 00:29:47	-->	n0ot21 (~n0ot@152.172.176.206) has joined ##emudev
+2018-09-27 00:33:50	<--	n0ot21 (~n0ot@152.172.176.206) has quit (Remote host closed the connection)
+2018-09-27 00:35:55	-->	snuffychi17 (~snuffychi@186-93-19-120.genericrev.cantv.net) has joined ##emudev
+2018-09-27 00:37:22	<--	snuffychi17 (~snuffychi@186-93-19-120.genericrev.cantv.net) has quit (Remote host closed the connection)
+2018-09-27 00:55:00	<--	sjl (~sjl@cpe-66-66-5-59.rochester.res.rr.com) has quit (Quit: WeeChat 2.2-dev)
+2018-09-27 01:08:47	-->	Ctrl-s17 (~Ctrl-s@218.151.20.212) has joined ##emudev
+2018-09-27 01:11:42	<--	Ctrl-s17 (~Ctrl-s@218.151.20.212) has quit (Remote host closed the connection)
+2018-09-27 01:43:30	-->	Xavierdarkness6 (~Xavierdar@c-76-117-99-81.hsd1.nj.comcast.net) has joined ##emudev
+2018-09-27 01:45:41	-->	sjl (~sjl@cpe-66-66-5-59.rochester.res.rr.com) has joined ##emudev
+2018-09-27 01:51:14	<--	Xavierdarkness6 (~Xavierdar@c-76-117-99-81.hsd1.nj.comcast.net) has quit (Ping timeout: 252 seconds)
+2018-09-27 02:46:25	-->	odanoburu22 (~odanoburu@77.49.68.64.dsl.dyn.forthnet.gr) has joined ##emudev
+2018-09-27 02:48:46	<--	odanoburu22 (~odanoburu@77.49.68.64.dsl.dyn.forthnet.gr) has quit (Remote host closed the connection)
+2018-09-27 02:52:13	<--	gigaherz (~giga@reactos/developer/gigaherz) has quit (Remote host closed the connection)
+2018-09-27 03:18:28	-->	lelit22 (~lelit@95.67.144.254) has joined ##emudev
+2018-09-27 03:23:09	<--	lelit22 (~lelit@95.67.144.254) has quit (Remote host closed the connection)
+2018-09-27 03:37:22	-->	Duskmourn24 (~Duskmourn@vyfdpq4726w-76-71-219-239.dsl.bell.ca) has joined ##emudev
+2018-09-27 03:41:37	-->	coeseta (~coeseta@78-60-215-180.static.zebra.lt) has joined ##emudev
+2018-09-27 03:42:08	<--	Duskmourn24 (~Duskmourn@vyfdpq4726w-76-71-219-239.dsl.bell.ca) has quit (Remote host closed the connection)
+2018-09-27 03:47:30	<--	coeseta (~coeseta@78-60-215-180.static.zebra.lt) has quit (Remote host closed the connection)
+2018-09-27 04:03:22	-->	nckx18 (~nckx@180.105.119.24) has joined ##emudev
+2018-09-27 04:05:20	<--	nckx18 (~nckx@180.105.119.24) has quit (Remote host closed the connection)
+2018-09-27 04:35:48	<--	mooch (~mooch@47.42.126.236) has quit (Ping timeout: 260 seconds)
+2018-09-27 05:32:27	<--	ltriant (~ltriant@lithium.mailguard.com.au) has quit (Quit: leaving)
+2018-09-27 06:09:27	-->	noway964 (~noway96@2.120.150.215) has joined ##emudev
+2018-09-27 06:14:30	<--	noway964 (~noway96@2.120.150.215) has quit (Remote host closed the connection)
+2018-09-27 06:14:58	-->	ph0b0s_25 (~ph0b0s_@61.247.46.13) has joined ##emudev
+2018-09-27 06:19:10	<--	ph0b0s_25 (~ph0b0s_@61.247.46.13) has quit (Read error: Connection reset by peer)
+2018-09-27 06:29:00	-->	ronny[mx] (~ronnymx]@58.186.249.123) has joined ##emudev
+2018-09-27 06:30:13	<--	ronny[mx] (~ronnymx]@58.186.249.123) has quit (Remote host closed the connection)
+2018-09-27 07:04:16	-->	piklu (~piklu@210.121.235.220) has joined ##emudev
+2018-09-27 07:05:14	<--	piklu (~piklu@210.121.235.220) has quit (K-Lined)
+2018-09-27 07:05:14	-->	WcktKlwn23 (~WcktKlwn@host76.190-229-217.telecom.net.ar) has joined ##emudev
+2018-09-27 07:14:03	<--	WcktKlwn23 (~WcktKlwn@host76.190-229-217.telecom.net.ar) has quit (Ping timeout: 272 seconds)
+2018-09-27 07:36:25	-->	alekz25 (~alekz@197.200.63.14) has joined ##emudev
+2018-09-27 07:41:09	<--	alekz25 (~alekz@197.200.63.14) has quit (Remote host closed the connection)
+2018-09-27 07:50:54	-->	drbean13 (~drbean@cpc99310-croy26-2-0-cust4.19-2.cable.virginm.net) has joined ##emudev
+2018-09-27 07:51:38	-->	btop (~btop@110.172.132.59) has joined ##emudev
+2018-09-27 07:51:48	<--	drbean13 (~drbean@cpc99310-croy26-2-0-cust4.19-2.cable.virginm.net) has quit (Remote host closed the connection)
+2018-09-27 07:56:31	<--	btop (~btop@110.172.132.59) has quit (Remote host closed the connection)
+2018-09-27 08:06:01	-->	mooman2195 (~mooman219@mx-ll-27.130.221-205.dynamic.3bb.co.th) has joined ##emudev
+2018-09-27 08:10:35	<--	mooman2195 (~mooman219@mx-ll-27.130.221-205.dynamic.3bb.co.th) has quit (Remote host closed the connection)
+2018-09-27 08:15:40	-->	Chinorro27 (~Chinorro@121.170.99.162) has joined ##emudev
+2018-09-27 08:19:42	<--	Chinorro27 (~Chinorro@121.170.99.162) has quit (Remote host closed the connection)
+2018-09-27 08:24:44	-->	d4rkie (~d4rkie@27.64.102.103) has joined ##emudev
+2018-09-27 08:27:17	<--	d4rkie (~d4rkie@27.64.102.103) has quit (Remote host closed the connection)
+2018-09-27 08:37:41	-->	ohgeetee28 (~ohgeetee@host1-223-dynamic.3-87-r.retail.telecomitalia.it) has joined ##emudev
+2018-09-27 08:42:23	<--	ohgeetee28 (~ohgeetee@host1-223-dynamic.3-87-r.retail.telecomitalia.it) has quit (Remote host closed the connection)
+2018-09-27 08:57:29	<--	Retr0id (~Retr0id@unaffiliated/retr0id) has quit (Ping timeout: 252 seconds)
+2018-09-27 09:23:06	-->	antfoo3 (~antfoo@113.30.21.202) has joined ##emudev
+2018-09-27 09:26:03	<--	antfoo3 (~antfoo@113.30.21.202) has quit (K-Lined)
+2018-09-27 09:48:12	-->	Pest (~Pest@g238.211-19-106.ppp.wakwak.ne.jp) has joined ##emudev
+2018-09-27 09:51:32	<--	Pest (~Pest@g238.211-19-106.ppp.wakwak.ne.jp) has quit (Remote host closed the connection)
+2018-09-27 09:52:58	-->	chder17 (~chder@201.178.158.1) has joined ##emudev
+2018-09-27 09:54:15	<--	chder17 (~chder@201.178.158.1) has quit (K-Lined)
+2018-09-27 09:58:44	-->	bonzibuddy28 (~bonzibudd@59.6.184.48) has joined ##emudev
+2018-09-27 10:01:55	-->	zerokarmaleft3 (~zerokarma@121.160.171.178) has joined ##emudev
+2018-09-27 10:02:11	<--	bonzibuddy28 (~bonzibudd@59.6.184.48) has quit (Remote host closed the connection)
+2018-09-27 10:04:31	<--	zerokarmaleft3 (~zerokarma@121.160.171.178) has quit (Remote host closed the connection)
+2018-09-27 10:18:14	-->	Ewout23 (~Ewout@88.251.128.16) has joined ##emudev
+2018-09-27 10:18:49	<--	Ewout23 (~Ewout@88.251.128.16) has quit (Remote host closed the connection)
+2018-09-27 10:27:50	-->	gigaherz (~giga@reactos/developer/gigaherz) has joined ##emudev
+2018-09-27 10:40:58	-->	EP0D0 (~EP0D@169-1-88-31.ip.afrihost.co.za) has joined ##emudev
+2018-09-27 10:41:44	<--	EP0D0 (~EP0D@169-1-88-31.ip.afrihost.co.za) has quit (Remote host closed the connection)
+2018-09-27 10:50:39	-->	kremlin10 (~kremlin@197.200.63.14) has joined ##emudev
+2018-09-27 10:52:58	<--	kremlin10 (~kremlin@197.200.63.14) has quit (Remote host closed the connection)
+2018-09-27 10:53:15	-->	Jumpper24 (~Jumpper@185.74.238.166) has joined ##emudev
+2018-09-27 10:55:03	<--	Jumpper24 (~Jumpper@185.74.238.166) has quit (Remote host closed the connection)
+2018-09-27 11:00:56	-->	The_Sorc1 (~The_Sorc1@95.72.120.48) has joined ##emudev
+2018-09-27 11:02:45	<--	The_Sorc1 (~The_Sorc1@95.72.120.48) has quit (Remote host closed the connection)
+2018-09-27 11:24:08	-->	feyo17 (~feyo@45.224.106.75) has joined ##emudev
+2018-09-27 11:25:18	<--	feyo17 (~feyo@45.224.106.75) has quit (Remote host closed the connection)
+2018-09-27 11:35:20	-->	Megumiin10 (~Megumiin@218.53.113.42) has joined ##emudev
+2018-09-27 11:36:42	<--	Megumiin10 (~Megumiin@218.53.113.42) has quit (Remote host closed the connection)
+2018-09-27 11:51:10	-->	Chilias9 (~Chilias@dsl-hkibng42-5673c8-207.dhcp.inet.fi) has joined ##emudev
+2018-09-27 11:52:21	<--	Chilias9 (~Chilias@dsl-hkibng42-5673c8-207.dhcp.inet.fi) has quit (Remote host closed the connection)
+2018-09-27 12:05:19	-->	enki13 (~enki@181.208.197.147) has joined ##emudev
+2018-09-27 12:07:42	<--	enki13 (~enki@181.208.197.147) has quit (Remote host closed the connection)
+2018-09-27 12:34:52	-->	stefan- (~stefan-@c-76-122-231-76.hsd1.tn.comcast.net) has joined ##emudev
+2018-09-27 12:38:11	<--	stefan- (~stefan-@c-76-122-231-76.hsd1.tn.comcast.net) has quit (Remote host closed the connection)
+2018-09-27 12:45:08	-->	Guest27225 (~fcon@31.206.182.249) has joined ##emudev
+2018-09-27 12:45:58	-->	bmbouter6 (~bmbouter@121.174.148.216) has joined ##emudev
+2018-09-27 12:46:53	<--	Guest27225 (~fcon@31.206.182.249) has quit (Remote host closed the connection)
+2018-09-27 12:47:59	<--	bmbouter6 (~bmbouter@121.174.148.216) has quit (Remote host closed the connection)
+2018-09-27 13:09:59	-->	Guest45675 (~kiilerix_@121.125.238.30) has joined ##emudev
+2018-09-27 13:10:47	<--	Guest45675 (~kiilerix_@121.125.238.30) has quit (Remote host closed the connection)
+2018-09-27 13:40:08	-->	mooch (~mooch@2600-6c56-7c00-03ab-7b72-4562-dfee-0142.dhcp6.chtrptr.net) has joined ##emudev
+2018-09-27 13:52:24	-->	Jasjar11 (~Jasjar@114.201.154.106) has joined ##emudev
+2018-09-27 13:54:50	-->	j0k2r10 (~j0k2r@121-81-84-58f1.hyg2.eonet.ne.jp) has joined ##emudev
+2018-09-27 13:55:09	<--	Jasjar11 (~Jasjar@114.201.154.106) has quit (Remote host closed the connection)
+2018-09-27 13:56:47	<--	j0k2r10 (~j0k2r@121-81-84-58f1.hyg2.eonet.ne.jp) has quit (Remote host closed the connection)
+2018-09-27 13:57:19	-->	oleg-nenashev8 (~oleg-nena@178.206.205.241) has joined ##emudev
+2018-09-27 13:58:49	<--	oleg-nenashev8 (~oleg-nena@178.206.205.241) has quit (Read error: Connection reset by peer)
+2018-09-27 14:45:41	-->	Welcome (~Welcome@91.203.20.138) has joined ##emudev
+2018-09-27 14:49:01	<--	Welcome (~Welcome@91.203.20.138) has quit (Remote host closed the connection)
+2018-09-27 15:01:18	-->	Guest3708424 (~Guest3708@220.81.139.61) has joined ##emudev
+2018-09-27 15:01:30	<--	Guest3708424 (~Guest3708@220.81.139.61) has quit (Remote host closed the connection)
+2018-09-27 15:17:20	-->	claude222 (~claude2@177.52.216.245) has joined ##emudev
+2018-09-27 15:18:41	-->	ktsamis (~ktsamis@113.61.28.243) has joined ##emudev
+2018-09-27 15:21:54	<--	ktsamis (~ktsamis@113.61.28.243) has quit (Read error: Connection reset by peer)
+2018-09-27 15:25:26	<--	claude222 (~claude2@177.52.216.245) has quit (Ping timeout: 244 seconds)
+2018-09-27 15:36:23	-->	eq_87 (~eq_8@116.100.233.24) has joined ##emudev
+2018-09-27 15:40:47	<--	eq_87 (~eq_8@116.100.233.24) has quit (Remote host closed the connection)
+2018-09-27 16:15:49	-->	groovy23 (~groovy@175.37.76.86.rev.sfr.net) has joined ##emudev
+2018-09-27 16:16:23	<--	groovy23 (~groovy@175.37.76.86.rev.sfr.net) has quit (K-Lined)
+2018-09-27 17:13:44	-->	Retr0id (~Retr0id@unaffiliated/retr0id) has joined ##emudev
+2018-09-27 17:49:35	-->	Camusensei26 (~Camusense@isl38-1-78-239-48-52.fbx.proxad.net) has joined ##emudev
+2018-09-27 17:52:47	<--	Camusensei26 (~Camusense@isl38-1-78-239-48-52.fbx.proxad.net) has quit (Remote host closed the connection)
+2018-09-27 18:11:00	-->	Guest56385 (~ndurchx@5ED14CE3.cm-7-2b.dynamic.ziggo.nl) has joined ##emudev
+2018-09-27 18:11:33	<--	Guest56385 (~ndurchx@5ED14CE3.cm-7-2b.dynamic.ziggo.nl) has quit (Remote host closed the connection)
+2018-09-27 18:16:18	<--	slack_bridge (~slack_bri@107.49.196.104.bc.googleusercontent.com) has quit (Remote host closed the connection)
+2018-09-27 18:17:27	-->	hovr29 (~hovr@pdf87da30.tubecm00.ap.so-net.ne.jp) has joined ##emudev
+2018-09-27 18:17:30	-->	b00g3r19 (~b00g3r@1.53.15.139) has joined ##emudev
+2018-09-27 18:17:49	<--	hovr29 (~hovr@pdf87da30.tubecm00.ap.so-net.ne.jp) has quit (Remote host closed the connection)
+2018-09-27 18:17:58	-->	lsa (~lsa@186.121.29.69) has joined ##emudev
+2018-09-27 18:18:53	-->	slack_bridge1 (~slack_bri@107.49.196.104.bc.googleusercontent.com) has joined ##emudev
+2018-09-27 18:21:45	<--	lsa (~lsa@186.121.29.69) has quit (Remote host closed the connection)
+2018-09-27 18:21:46	<--	b00g3r19 (~b00g3r@1.53.15.139) has quit (Remote host closed the connection)
+2018-09-27 18:51:03	-->	styks198714 (~styks1987@201.242.32.83) has joined ##emudev
+2018-09-27 18:55:32	<--	styks198714 (~styks1987@201.242.32.83) has quit (Remote host closed the connection)
+2018-09-27 19:09:52	-->	pierrot16 (~pierrot@179.34.212.207) has joined ##emudev
+2018-09-27 19:10:16	<--	pierrot16 (~pierrot@179.34.212.207) has quit (Remote host closed the connection)
+2018-09-27 19:33:17	-->	quaid25 (~quaid@149.0.161.33) has joined ##emudev
+2018-09-27 19:33:22	-->	rc0r12 (~rc0r@156.213.106.201) has joined ##emudev
+2018-09-27 19:35:04	<--	quaid25 (~quaid@149.0.161.33) has quit (Read error: Connection reset by peer)
+2018-09-27 19:38:11	<--	rc0r12 (~rc0r@156.213.106.201) has quit (Remote host closed the connection)
+2018-09-27 19:39:06	-->	MasterScript9 (~MasterScr@cpe-74-72-213-112.nyc.res.rr.com) has joined ##emudev
+2018-09-27 19:41:27	<--	MasterScript9 (~MasterScr@cpe-74-72-213-112.nyc.res.rr.com) has quit (Read error: Connection reset by peer)
+2018-09-27 20:24:44	-->	mokap (~mokap@149.0.161.33) has joined ##emudev
+2018-09-27 20:24:55	<--	mokap (~mokap@149.0.161.33) has quit (Remote host closed the connection)
+2018-09-27 20:29:45	-->	nand123 (~nand1@5.166.63.62) has joined ##emudev
+2018-09-27 20:32:59	-->	mathrick (~mathrick@178.87.131.24) has joined ##emudev
+2018-09-27 20:33:32	<--	nand123 (~nand1@5.166.63.62) has quit (Remote host closed the connection)
+2018-09-27 20:36:19	<--	mathrick (~mathrick@178.87.131.24) has quit (Remote host closed the connection)
+2018-09-27 20:43:58	-->	Smasher81619 (~Smasher81@152.251.63.195) has joined ##emudev
+2018-09-27 20:46:37	<--	Smasher81619 (~Smasher81@152.251.63.195) has quit (Remote host closed the connection)
+2018-09-27 20:52:49	-->	make91_17 (~make91_@176.50.239.168) has joined ##emudev
+2018-09-27 20:56:48	<--	make91_17 (~make91_@176.50.239.168) has quit (Remote host closed the connection)
+2018-09-27 21:25:19	<--	pdk (~pdk@c-76-125-169-146.hsd1.pa.comcast.net) has quit (Ping timeout: 245 seconds)
+2018-09-27 21:45:12	-->	pdk (~pdk@c-76-125-169-146.hsd1.pa.comcast.net) has joined ##emudev
+2018-09-27 22:00:59	-->	Axton2 (~Axton@125.132.4.190) has joined ##emudev
+2018-09-27 22:07:06	<--	Axton2 (~Axton@125.132.4.190) has quit (Ping timeout: 246 seconds)
+2018-09-27 22:07:53	-->	pr3d4t0r1 (~pr3d4t0r@dhcp-108-168-6-219.cable.user.start.ca) has joined ##emudev
+2018-09-27 22:09:11	<--	pr3d4t0r1 (~pr3d4t0r@dhcp-108-168-6-219.cable.user.start.ca) has quit (Remote host closed the connection)
+2018-09-27 22:21:04	<--	mooch (~mooch@2600-6c56-7c00-03ab-7b72-4562-dfee-0142.dhcp6.chtrptr.net) has quit (Remote host closed the connection)
+2018-09-27 22:21:25	-->	mooch (~mooch@2600-6c56-7c00-03ab-0b66-cbf1-b3ba-8855.dhcp6.chtrptr.net) has joined ##emudev
+2018-09-27 22:42:33	-->	Guest28797 (~fcon@9-72-39-46.sat.poltava.ua) has joined ##emudev
+2018-09-27 22:46:46	<--	Guest28797 (~fcon@9-72-39-46.sat.poltava.ua) has quit (Remote host closed the connection)
+2018-09-27 22:59:45	-->	Ci-Dev (~Ci-Dev@cpc116424-epso6-2-0-cust707.6-3.cable.virginm.net) has joined ##emudev
+2018-09-27 23:01:33	<--	Ci-Dev (~Ci-Dev@cpc116424-epso6-2-0-cust707.6-3.cable.virginm.net) has quit (Remote host closed the connection)
+2018-09-27 23:02:34	-->	habibilus16 (~habibilus@p11061-ipbfpfx02osakakita.osaka.ocn.ne.jp) has joined ##emudev
+2018-09-27 23:04:40	<--	habibilus16 (~habibilus@p11061-ipbfpfx02osakakita.osaka.ocn.ne.jp) has quit (Remote host closed the connection)
+2018-09-27 23:09:45	-->	CrtxReavr26 (~CrtxReavr@95-55-66-87.dynamic.avangarddsl.ru) has joined ##emudev
+2018-09-27 23:14:18	<--	CrtxReavr26 (~CrtxReavr@95-55-66-87.dynamic.avangarddsl.ru) has quit (Remote host closed the connection)
+2018-09-27 23:39:04	-->	moy28 (~moy@lns-bzn-28-82-250-179-93.adsl.proxad.net) has joined ##emudev
+2018-09-27 23:41:36	<--	moy28 (~moy@lns-bzn-28-82-250-179-93.adsl.proxad.net) has quit (Remote host closed the connection)
+2018-09-27 23:51:04	-->	Raito_Bezarius3 (~Raito_Bez@149.0.161.33) has joined ##emudev
+2018-09-27 23:51:53	<--	Raito_Bezarius3 (~Raito_Bez@149.0.161.33) has quit (Remote host closed the connection)
+2018-09-27 23:52:25	-->	buhrmi (~buhrmi@184.170.58.213) has joined ##emudev
+2018-09-27 23:52:51	<--	buhrmi (~buhrmi@184.170.58.213) has quit (Remote host closed the connection)
+2018-09-27 23:53:30	-->	peloverde18 (~peloverde@broadband-94-241-13-96.atc.tvcom.ru) has joined ##emudev
+2018-09-27 23:54:40	<--	peloverde18 (~peloverde@broadband-94-241-13-96.atc.tvcom.ru) has quit (Remote host closed the connection)
+2018-09-28 00:04:49	<--	funnel (~funnel@unaffiliated/espiral) has quit (Quit: leaving)
+2018-09-28 00:11:33	-->	funnel (~funnel@unaffiliated/espiral) has joined ##emudev
+2018-09-28 00:14:50	-->	divVerent (~divVerent@101.108.103.14) has joined ##emudev
+2018-09-28 00:16:23	<--	divVerent (~divVerent@101.108.103.14) has quit (Remote host closed the connection)
+2018-09-28 00:23:30	-->	v1k0d3n15 (~v1k0d3n@185.113.244.205) has joined ##emudev
+2018-09-28 00:26:39	<--	v1k0d3n15 (~v1k0d3n@185.113.244.205) has quit (Remote host closed the connection)
+2018-09-28 00:28:15	-->	Wessie16 (~Wessie@103.91.245.47) has joined ##emudev
+2018-09-28 00:35:45	-->	gig (~gig@fp96f9a0d5.stmb119.ap.nuro.jp) has joined ##emudev
+2018-09-28 00:37:14	<--	Wessie16 (~Wessie@103.91.245.47) has quit (Ping timeout: 240 seconds)
+2018-09-28 00:39:10	<--	gig (~gig@fp96f9a0d5.stmb119.ap.nuro.jp) has quit (Remote host closed the connection)
+2018-09-28 01:03:20	-->	Emi27 (~Emi@51.37.25.49) has joined ##emudev
+2018-09-28 01:04:40	<--	Emi27 (~Emi@51.37.25.49) has quit (Remote host closed the connection)
+2018-09-28 01:09:39	-->	haltdef0 (~haltdef@fp8393f5de.knge230.ap.nuro.jp) has joined ##emudev
+2018-09-28 01:10:35	<--	haltdef0 (~haltdef@fp8393f5de.knge230.ap.nuro.jp) has quit (Remote host closed the connection)
+2018-09-28 01:15:03	-->	inire11 (~inire@185.150.94.12) has joined ##emudev
+2018-09-28 01:16:37	<--	inire11 (~inire@185.150.94.12) has quit (Remote host closed the connection)
+2018-09-28 01:23:48	-->	Lara2 (~Lara@156.65.77.188.dynamic.jazztel.es) has joined ##emudev
+2018-09-28 01:28:34	<--	Lara2 (~Lara@156.65.77.188.dynamic.jazztel.es) has quit (Remote host closed the connection)
+2018-09-28 01:35:43	-->	crypt1719 (~crypt17@45.225.241.240) has joined ##emudev
+2018-09-28 01:37:17	<--	crypt1719 (~crypt17@45.225.241.240) has quit (Remote host closed the connection)
+2018-09-28 01:55:19	-->	tomf23 (~tomf@177.107.107.119) has joined ##emudev
+2018-09-28 01:56:09	<--	tomf23 (~tomf@177.107.107.119) has quit (Read error: Connection reset by peer)
+2018-09-28 02:22:16	-->	talori18 (~talori@220.163.200.4) has joined ##emudev
+2018-09-28 02:22:17	<--	talori18 (~talori@220.163.200.4) has quit (Remote host closed the connection)
+2018-09-28 02:55:22	-->	airking0 (~airking@dhcp-198-2-81-214.cable.user.start.ca) has joined ##emudev
+2018-09-28 02:58:56	<--	airking0 (~airking@dhcp-198-2-81-214.cable.user.start.ca) has quit (Remote host closed the connection)
+2018-09-28 03:08:49	-->	devilspgd8 (~devilspgd@isl38-1-78-239-48-52.fbx.proxad.net) has joined ##emudev
+2018-09-28 03:09:33	<--	devilspgd8 (~devilspgd@isl38-1-78-239-48-52.fbx.proxad.net) has quit (Remote host closed the connection)
+2018-09-28 03:14:16	<--	gigaherz (~giga@reactos/developer/gigaherz) has quit (Ping timeout: 250 seconds)
+2018-09-28 03:23:59	-->	mavsec (~mavsec@142.182.128.101.dy.bbexcite.jp) has joined ##emudev
+2018-09-28 03:28:12	<--	mavsec (~mavsec@142.182.128.101.dy.bbexcite.jp) has quit (Remote host closed the connection)
+2018-09-28 03:47:46	<--	sjl (~sjl@cpe-66-66-5-59.rochester.res.rr.com) has quit (Quit: WeeChat 2.2-dev)
+2018-09-28 03:51:04	-->	orionstein22 (~orionstei@190-39-38-94.dyn.dsl.cantv.net) has joined ##emudev
+2018-09-28 03:53:32	<--	orionstein22 (~orionstei@190-39-38-94.dyn.dsl.cantv.net) has quit (Remote host closed the connection)
+2018-09-28 03:55:01	-->	HaZrD15 (~HaZrD@ah152031.dynamic.ppp.asahi-net.or.jp) has joined ##emudev
+2018-09-28 03:57:05	<--	HaZrD15 (~HaZrD@ah152031.dynamic.ppp.asahi-net.or.jp) has quit (Remote host closed the connection)
+2018-09-28 04:09:23	-->	ewook0 (~ewook@186.59.43.94) has joined ##emudev
+2018-09-28 04:10:39	<--	ewook0 (~ewook@186.59.43.94) has quit (Read error: Connection reset by peer)
+2018-09-28 04:13:09	-->	onnconn2 (~onnconn2@187.65.234.107) has joined ##emudev
+2018-09-28 04:17:39	<--	onnconn2 (~onnconn2@187.65.234.107) has quit (Remote host closed the connection)
+2018-09-28 04:23:06	-->	Migs5 (~Migs@pc-180-118-74-200.cm.vtr.net) has joined ##emudev
+2018-09-28 04:25:50	<--	Migs5 (~Migs@pc-180-118-74-200.cm.vtr.net) has quit (Remote host closed the connection)
+2018-09-28 04:30:18	-->	jsvana23 (~jsvana@59.1.52.60) has joined ##emudev
+2018-09-28 04:30:53	<--	jsvana23 (~jsvana@59.1.52.60) has quit (K-Lined)
+2018-09-28 04:38:26	-->	Al_lA9 (~Al_lA@143.248.192.57) has joined ##emudev
+2018-09-28 04:38:41	<--	Al_lA9 (~Al_lA@143.248.192.57) has quit (Remote host closed the connection)
+2018-09-28 05:43:48	-->	sjl (~sjl@cpe-66-66-5-59.rochester.res.rr.com) has joined ##emudev
+2018-09-28 05:55:02	-->	V0lTure13 (~V0lTure@115-124-193-139.ppp.bbiq.jp) has joined ##emudev
+2018-09-28 05:55:15	-->	Ionic0 (~Ionic@79-74-144-2.dynamic.dsl.as9105.com) has joined ##emudev
+2018-09-28 05:57:53	<--	V0lTure13 (~V0lTure@115-124-193-139.ppp.bbiq.jp) has quit (Remote host closed the connection)
+2018-09-28 05:58:11	<--	Ionic0 (~Ionic@79-74-144-2.dynamic.dsl.as9105.com) has quit (Read error: Connection reset by peer)
+2018-09-28 06:31:05	-->	Guest3082 (~unreal_@59.7.128.68) has joined ##emudev
+2018-09-28 06:32:13	<--	Guest3082 (~unreal_@59.7.128.68) has quit (K-Lined)
+2018-09-28 07:47:40	-->	Sjurygg26 (~Sjurygg@cou93-11-78-249-140-251.fbx.proxad.net) has joined ##emudev
+2018-09-28 07:48:34	<--	Sjurygg26 (~Sjurygg@cou93-11-78-249-140-251.fbx.proxad.net) has quit (Remote host closed the connection)
+2018-09-28 08:31:44	-->	xPaw6 (~xPaw@201.249.97.161) has joined ##emudev
+2018-09-28 08:33:39	-->	dutow (~dutow@175.192.91.247) has joined ##emudev
+2018-09-28 08:33:55	<--	dutow (~dutow@175.192.91.247) has quit (Read error: Connection reset by peer)
+2018-09-28 08:35:02	<--	xPaw6 (~xPaw@201.249.97.161) has quit (Remote host closed the connection)
+2018-09-28 08:47:24	<--	Retr0id (~Retr0id@unaffiliated/retr0id) has quit (Ping timeout: 245 seconds)
+2018-09-28 09:05:29	-->	braincrash3 (~braincras@41.235.110.139) has joined ##emudev
+2018-09-28 09:07:55	<--	braincrash3 (~braincras@41.235.110.139) has quit (Remote host closed the connection)
+2018-09-28 09:10:37	-->	jtc21 (~jtc@46.109.213.131) has joined ##emudev
+2018-09-28 09:12:56	<--	jtc21 (~jtc@46.109.213.131) has quit (Remote host closed the connection)
+2018-09-28 09:26:09	-->	evand_ (~evand_@116.123.70.127) has joined ##emudev
+2018-09-28 09:31:02	<--	evand_ (~evand_@116.123.70.127) has quit (Remote host closed the connection)
+2018-09-28 09:39:26	-->	Guest80131 (~JaiMari@124.61.212.36) has joined ##emudev
+2018-09-28 09:42:41	<--	Guest80131 (~JaiMari@124.61.212.36) has quit (Remote host closed the connection)
+2018-09-28 09:48:46	-->	gigaherz (~giga@reactos/developer/gigaherz) has joined ##emudev
+2018-09-28 10:24:30	-->	a1cypher (~a1cypher@190-201-3-11.dyn.dsl.cantv.net) has joined ##emudev
+2018-09-28 10:26:56	<--	a1cypher (~a1cypher@190-201-3-11.dyn.dsl.cantv.net) has quit (Remote host closed the connection)
+2018-09-28 11:10:16	-->	samouy3 (~samouy@ip98-162-217-14.ok.ok.cox.net) has joined ##emudev
+2018-09-28 11:13:27	<--	samouy3 (~samouy@ip98-162-217-14.ok.ok.cox.net) has quit (Remote host closed the connection)
+2018-09-28 11:13:37	-->	Lunatrius15 (~Lunatrius@78.188.122.179) has joined ##emudev
+2018-09-28 11:21:26	-->	Riviera_ (~Riviera_@175.215.67.20) has joined ##emudev
+2018-09-28 11:21:30	<--	Lunatrius15 (~Lunatrius@78.188.122.179) has quit (Ping timeout: 244 seconds)
+2018-09-28 11:21:58	<--	Riviera_ (~Riviera_@175.215.67.20) has quit (Killed (Sigyn (Spam is off topic on freenode.)))
+2018-09-28 11:44:03	-->	hage (~hage@118.35.137.183) has joined ##emudev
+2018-09-28 11:46:27	<--	hage (~hage@118.35.137.183) has quit (Remote host closed the connection)
+2018-09-28 12:10:14	-->	smartin13 (~smartin@FL1-119-242-170-108.szo.mesh.ad.jp) has joined ##emudev
+2018-09-28 12:12:03	-->	bmjen (~bmjen@171.229.206.116) has joined ##emudev
+2018-09-28 12:12:22	<--	bmjen (~bmjen@171.229.206.116) has quit (Remote host closed the connection)
+2018-09-28 12:12:37	<--	smartin13 (~smartin@FL1-119-242-170-108.szo.mesh.ad.jp) has quit (Remote host closed the connection)
+2018-09-28 12:40:06	-->	blight (~blight@116.226.19.43) has joined ##emudev
+2018-09-28 12:40:57	-->	patrickeast22 (~patrickea@ppp-58-8-15-31.revip2.asianet.co.th) has joined ##emudev
+2018-09-28 12:41:10	<--	patrickeast22 (~patrickea@ppp-58-8-15-31.revip2.asianet.co.th) has quit (K-Lined)
+2018-09-28 12:44:49	<--	blight (~blight@116.226.19.43) has quit (Remote host closed the connection)
+2018-09-28 12:48:29	-->	kickass_6 (~kickass_6@i125-205-150-125.s41.a039.ap.plala.or.jp) has joined ##emudev
+2018-09-28 12:50:23	-->	Guest1638 (~superboot@211.228.239.204) has joined ##emudev
+2018-09-28 12:50:41	<--	Guest1638 (~superboot@211.228.239.204) has quit (Remote host closed the connection)
+2018-09-28 12:51:31	<--	kickass_6 (~kickass_6@i125-205-150-125.s41.a039.ap.plala.or.jp) has quit (Remote host closed the connection)
+2018-09-28 13:09:10	-->	glacambr1 (~glacambr1@131.0.205.184) has joined ##emudev
+2018-09-28 13:12:28	<--	glacambr1 (~glacambr1@131.0.205.184) has quit (Killed (Sigyn (Spam is off topic on freenode.)))
+2018-09-28 13:33:06	-->	aeiro25 (~aeiro@121.148.188.2) has joined ##emudev
+2018-09-28 13:34:25	<--	aeiro25 (~aeiro@121.148.188.2) has quit (Remote host closed the connection)
+2018-09-28 14:13:32	-->	thresh13 (~thresh@121.141.118.154) has joined ##emudev
+2018-09-28 14:18:02	<--	thresh13 (~thresh@121.141.118.154) has quit (Remote host closed the connection)
+2018-09-28 14:43:43	-->	jpena|off (~jpena|off@ZU022120.ppp.dion.ne.jp) has joined ##emudev
+2018-09-28 14:48:19	<--	jpena|off (~jpena|off@ZU022120.ppp.dion.ne.jp) has quit (Remote host closed the connection)
+2018-09-28 15:03:56	-->	neatneatneat18 (~neatneatn@axo59.neoplus.adsl.tpnet.pl) has joined ##emudev
+2018-09-28 15:04:59	<--	neatneatneat18 (~neatneatn@axo59.neoplus.adsl.tpnet.pl) has quit (Killed (Sigyn (Spam is off topic on freenode.)))
+2018-09-28 16:13:20	-->	drawkward21 (~drawkward@176.33.5.87) has joined ##emudev
+2018-09-28 16:14:15	<--	drawkward21 (~drawkward@176.33.5.87) has quit (Remote host closed the connection)
+2018-09-28 16:39:10	-->	ibex8 (~ibex@220.118.176.180) has joined ##emudev
+2018-09-28 16:42:47	<--	ibex8 (~ibex@220.118.176.180) has quit (Remote host closed the connection)
+2018-09-28 16:56:36	-->	XenGi11 (~XenGi@p57AE51F9.dip0.t-ipconnect.de) has joined ##emudev
+2018-09-28 16:59:31	<--	XenGi11 (~XenGi@p57AE51F9.dip0.t-ipconnect.de) has quit (Remote host closed the connection)
+2018-09-28 17:18:37	-->	botho_ (~botho_@58.126.199.149) has joined ##emudev
+2018-09-28 17:19:56	<--	botho_ (~botho_@58.126.199.149) has quit (Killed (e (spam)))
+2018-09-28 17:26:47	-->	ollipa9 (~ollipa@59.8.69.150) has joined ##emudev
+2018-09-28 17:31:44	<--	ollipa9 (~ollipa@59.8.69.150) has quit (Remote host closed the connection)
+2018-09-28 17:51:01	-->	DOMF0 (~DOMF@94.53.52.205) has joined ##emudev
+2018-09-28 17:54:14	<--	DOMF0 (~DOMF@94.53.52.205) has quit (Remote host closed the connection)
+2018-09-28 17:57:32	-->	RJ722_9 (~RJ722_@183.157.170.222) has joined ##emudev
+2018-09-28 17:58:52	<--	RJ722_9 (~RJ722_@183.157.170.222) has quit (Remote host closed the connection)
+2018-09-28 19:50:19	-->	Retr0id (~Retr0id@unaffiliated/retr0id) has joined ##emudev
+2018-09-28 21:42:19	-->	thm11 (~thm@156.210.51.95) has joined ##emudev
+2018-09-28 21:50:52	<--	thm11 (~thm@156.210.51.95) has quit (Ping timeout: 260 seconds)
+2018-09-28 22:33:50	-->	mr_rich10128 (~mr_rich10@36.76.236.217) has joined ##emudev
+2018-09-28 22:34:38	<--	mr_rich10128 (~mr_rich10@36.76.236.217) has quit (Read error: Connection reset by peer)
+2018-09-28 22:49:20	-->	e4xit24 (~e4xit@KD027094089222.ppp-bb.dion.ne.jp) has joined ##emudev
+2018-09-28 22:52:25	-->	kwork21 (~kwork@host64-241.pppoe.pdlsk.cifra1.ru) has joined ##emudev
+2018-09-28 22:52:38	<--	e4xit24 (~e4xit@KD027094089222.ppp-bb.dion.ne.jp) has quit (Remote host closed the connection)
+2018-09-28 22:54:34	<--	kwork21 (~kwork@host64-241.pppoe.pdlsk.cifra1.ru) has quit (Remote host closed the connection)
+2018-09-29 00:22:08	-->	fishfears (~fishfears@156.195.153.134) has joined ##emudev
+2018-09-29 00:23:48	<--	fishfears (~fishfears@156.195.153.134) has quit (Remote host closed the connection)
+2018-09-29 00:32:57	-->	xnite (~xnite@211.47.82.88) has joined ##emudev
+2018-09-29 00:32:57	-->	Overspark21 (~Overspark@122-103-217-168.saitama.fdn.vectant.ne.jp) has joined ##emudev
+2018-09-29 00:33:43	<--	Overspark21 (~Overspark@122-103-217-168.saitama.fdn.vectant.ne.jp) has quit (Remote host closed the connection)
+2018-09-29 00:35:48	<--	xnite (~xnite@211.47.82.88) has quit (Remote host closed the connection)
+2018-09-29 00:43:02	<--	mooch (~mooch@2600-6c56-7c00-03ab-0b66-cbf1-b3ba-8855.dhcp6.chtrptr.net) has quit (Ping timeout: 252 seconds)
+2018-09-29 00:45:01	-->	mooch (~mooch@2600-6c56-7c00-03ab-0b66-cbf1-b3ba-8855.dhcp6.chtrptr.net) has joined ##emudev
+2018-09-29 00:45:09	-->	kireevco4 (~kireevco@p1470060-ipngn200914kobeminato.hyogo.ocn.ne.jp) has joined ##emudev
+2018-09-29 00:48:29	-->	alfie (~alfie@softbank126036061232.bbtec.net) has joined ##emudev
+2018-09-29 00:50:13	<--	kireevco4 (~kireevco@p1470060-ipngn200914kobeminato.hyogo.ocn.ne.jp) has quit (Remote host closed the connection)
+2018-09-29 00:53:27	<--	alfie (~alfie@softbank126036061232.bbtec.net) has quit (Remote host closed the connection)
+2018-09-29 01:21:54	-->	Chaz614 (~Chaz6@82.130.183.58.megaegg.ne.jp) has joined ##emudev
+2018-09-29 01:22:22	<--	Chaz614 (~Chaz6@82.130.183.58.megaegg.ne.jp) has quit (Remote host closed the connection)
+2018-09-29 02:12:50	-->	PlanckWalk16 (~PlanckWal@27.35.47.3) has joined ##emudev
+2018-09-29 02:19:01	<--	PlanckWalk16 (~PlanckWal@27.35.47.3) has quit (Remote host closed the connection)
+2018-09-29 04:03:55	-->	KoffeinFlummi (~KoffeinFl@156.221.198.141) has joined ##emudev
+2018-09-29 04:14:11	<--	KoffeinFlummi (~KoffeinFl@156.221.198.141) has quit (Ping timeout: 268 seconds)
+2018-09-29 06:31:55	-->	Madatnek12 (~Madatnek@190-199-112-135.dyn.dsl.cantv.net) has joined ##emudev
+2018-09-29 06:36:05	<--	Madatnek12 (~Madatnek@190-199-112-135.dyn.dsl.cantv.net) has quit (Remote host closed the connection)
+2018-09-29 07:05:33	<--	Retr0id (~Retr0id@unaffiliated/retr0id) has quit (Ping timeout: 240 seconds)
+2018-09-29 07:10:55	-->	khelpw22 (~khelpw@p892241-ipngn200909fukuokachu.fukuoka.ocn.ne.jp) has joined ##emudev
+2018-09-29 07:14:53	-->	vdamewood (~vdamewood@41.235.145.181) has joined ##emudev
+2018-09-29 07:16:07	<--	khelpw22 (~khelpw@p892241-ipngn200909fukuokachu.fukuoka.ocn.ne.jp) has quit (Remote host closed the connection)
+2018-09-29 07:19:04	<--	vdamewood (~vdamewood@41.235.145.181) has quit (Ping timeout: 245 seconds)
+2018-09-29 07:41:13	-->	Calinou (~Calinou@186.59.222.215) has joined ##emudev
+2018-09-29 07:41:39	--	Calinou is now known as Guest29194
+2018-09-29 07:48:26	<--	Guest29194 (~Calinou@186.59.222.215) has quit (Remote host closed the connection)
+2018-09-29 07:51:53	-->	Retr0id (~Retr0id@unaffiliated/retr0id) has joined ##emudev
+2018-09-29 08:06:03	<--	Retr0id (~Retr0id@unaffiliated/retr0id) has quit (Ping timeout: 268 seconds)
+2018-09-29 09:28:48	-->	mrec (~mrec@185.83.28.7) has joined ##emudev
+2018-09-29 09:33:12	<--	mrec (~mrec@185.83.28.7) has quit (Ping timeout: 260 seconds)
+2018-09-29 11:29:27	-->	Retr0id (~Retr0id@unaffiliated/retr0id) has joined ##emudev
+2018-09-29 11:35:42	<--	Retr0id (~Retr0id@unaffiliated/retr0id) has quit (Ping timeout: 260 seconds)
+2018-09-29 11:35:50	-->	Retr0id_ (~Retr0id@unaffiliated/retr0id) has joined ##emudev
+2018-09-29 12:13:28	-->	justin_childers (~justin_ch@156.220.161.191) has joined ##emudev
+2018-09-29 12:19:17	<--	justin_childers (~justin_ch@156.220.161.191) has quit (Remote host closed the connection)
+2018-09-29 13:06:06	-->	funman (~funman@188.241.207.73) has joined ##emudev
+2018-09-29 13:11:30	<--	funman (~funman@188.241.207.73) has quit (Remote host closed the connection)
+2018-09-29 15:12:15	-->	nibble_zero22 (~nibble_ze@186-93-154-152.genericrev.cantv.net) has joined ##emudev
+2018-09-29 15:16:38	<--	nibble_zero22 (~nibble_ze@186-93-154-152.genericrev.cantv.net) has quit (Remote host closed the connection)
+2018-09-29 16:18:34	-->	Guest11538 (~hacker@152.249.19.218) has joined ##emudev
+2018-09-29 16:21:39	<--	Guest11538 (~hacker@152.249.19.218) has quit (Remote host closed the connection)
+2018-09-29 16:26:37	-->	[KS] (~KS]@185.86.123.83) has joined ##emudev
+2018-09-29 16:32:35	<--	[KS] (~KS]@185.86.123.83) has quit (Remote host closed the connection)
+2018-09-29 16:40:12	<--	sleepyspider (~quassel@99-74-63-171.lightspeed.hstntx.sbcglobal.net) has quit (Ping timeout: 260 seconds)
+2018-09-29 16:41:11	-->	sleepyspider (~quassel@99-74-63-171.lightspeed.hstntx.sbcglobal.net) has joined ##emudev
+2018-09-29 16:46:19	-->	jamesgreenleaf (~jamesgree@mx-ll-180.183.111-14.dynamic.3bb.co.th) has joined ##emudev
+2018-09-29 16:48:57	<--	jamesgreenleaf (~jamesgree@mx-ll-180.183.111-14.dynamic.3bb.co.th) has quit (Remote host closed the connection)
+2018-09-29 16:50:53	-->	Cyber_Akuma25 (~Cyber_Aku@cpc1-wilm3-2-0-cust998.1-4.cable.virginm.net) has joined ##emudev
+2018-09-29 16:51:17	<--	Cyber_Akuma25 (~Cyber_Aku@cpc1-wilm3-2-0-cust998.1-4.cable.virginm.net) has quit (Remote host closed the connection)
+2018-09-29 16:55:29	-->	trfl (~trfl@p5203071-ipngn11402marunouchi.tokyo.ocn.ne.jp) has joined ##emudev
+2018-09-29 16:55:48	<--	trfl (~trfl@p5203071-ipngn11402marunouchi.tokyo.ocn.ne.jp) has quit (Remote host closed the connection)
+2018-09-29 17:28:26	-->	Kundun (~Kundun@121.178.35.105) has joined ##emudev
+2018-09-29 17:28:29	<--	Kundun (~Kundun@121.178.35.105) has quit (Remote host closed the connection)
+2018-09-29 17:29:11	-->	legit14 (~legit@186-90-174-169.genericrev.cantv.net) has joined ##emudev
+2018-09-29 17:32:23	<--	legit14 (~legit@186-90-174-169.genericrev.cantv.net) has quit (Remote host closed the connection)
+2018-09-29 17:38:53	-->	hussam7 (~hussam@112.218.225.205) has joined ##emudev
+2018-09-29 17:44:48	<--	hussam7 (~hussam@112.218.225.205) has quit (Remote host closed the connection)
+2018-09-29 17:51:19	-->	reashlin1 (~reashlin@156.194.199.95) has joined ##emudev
+2018-09-29 17:55:56	<--	reashlin1 (~reashlin@156.194.199.95) has quit (Remote host closed the connection)
+2018-09-29 18:44:43	-->	int0x1C8 (~int0x1C8@ip68-226-94-11.ri.ri.cox.net) has joined ##emudev
+2018-09-29 18:46:51	<--	int0x1C8 (~int0x1C8@ip68-226-94-11.ri.ri.cox.net) has quit (Remote host closed the connection)
+2018-09-29 18:56:39	-->	Malinux4 (~Malinux@37.140.39.188) has joined ##emudev
+2018-09-29 18:57:27	<--	Malinux4 (~Malinux@37.140.39.188) has quit (Remote host closed the connection)
+2018-09-29 19:15:57	-->	duritong_ (~duritong_@2.134.118.162) has joined ##emudev
+2018-09-29 19:16:11	<--	duritong_ (~duritong_@2.134.118.162) has quit (Remote host closed the connection)
+2018-09-29 20:01:50	-->	Erynnn19 (~Erynnn@78.174.146.67) has joined ##emudev
+2018-09-29 20:03:49	-->	sparvu (~sparvu@110.72.28.30) has joined ##emudev
+2018-09-29 20:06:06	<--	Erynnn19 (~Erynnn@78.174.146.67) has quit (Remote host closed the connection)
+2018-09-29 20:06:48	<--	sparvu (~sparvu@110.72.28.30) has quit (Remote host closed the connection)
+2018-09-29 21:13:11	-->	rjstone19 (~rjstone@183.157.174.0) has joined ##emudev
+2018-09-29 21:18:45	<--	rjstone19 (~rjstone@183.157.174.0) has quit (Read error: Connection reset by peer)
+2018-09-29 21:44:15	-->	Guest51297 (~fuhry@97.143.150.203.sta.inet.co.th) has joined ##emudev
+2018-09-29 21:51:53	<--	Guest51297 (~fuhry@97.143.150.203.sta.inet.co.th) has quit (Ping timeout: 252 seconds)
+2018-09-29 22:59:10	-->	nioc19 (~nioc@177.75.85.34) has joined ##emudev
+2018-09-29 23:00:33	-->	Jack6423 (~Jack64@stcton1049w-lp140-03-184-145-21-59.dsl.bell.ca) has joined ##emudev
+2018-09-29 23:04:02	<--	Jack6423 (~Jack64@stcton1049w-lp140-03-184-145-21-59.dsl.bell.ca) has quit (Remote host closed the connection)
+2018-09-29 23:06:17	<--	nioc19 (~nioc@177.75.85.34) has quit (Remote host closed the connection)
+2018-09-29 23:41:44	-->	sjohnson20 (~sjohnson@180.183.137.150) has joined ##emudev
+2018-09-29 23:48:01	<--	sjohnson20 (~sjohnson@180.183.137.150) has quit (Remote host closed the connection)
+2018-09-29 23:52:23	-->	faildrone19 (~faildrone@181.60.201.14) has joined ##emudev
+2018-09-29 23:53:57	<--	faildrone19 (~faildrone@181.60.201.14) has quit (Remote host closed the connection)
+2018-09-29 23:57:43	-->	ajpiano11 (~ajpiano@156.221.12.126) has joined ##emudev
+2018-09-29 23:58:54	<--	ajpiano11 (~ajpiano@156.221.12.126) has quit (Remote host closed the connection)
+2018-09-30 00:29:50	-->	pylot (~pylot@121.180.40.89) has joined ##emudev
+2018-09-30 00:33:23	<--	pylot (~pylot@121.180.40.89) has quit (Remote host closed the connection)
+2018-09-30 00:35:09	-->	NoOneButMe9 (~NoOneButM@mx-ll-183.88.86-216.dynamic.3bb.co.th) has joined ##emudev
+2018-09-30 00:37:12	<--	NoOneButMe9 (~NoOneButM@mx-ll-183.88.86-216.dynamic.3bb.co.th) has quit (Remote host closed the connection)
+2018-09-30 00:47:43	-->	sage_7 (~sage_@94.12.78.155) has joined ##emudev
+2018-09-30 00:49:29	<--	sage_7 (~sage_@94.12.78.155) has quit (Remote host closed the connection)
+2018-09-30 02:56:05	-->	knikolla15 (~knikolla@186.7.129.115) has joined ##emudev
+2018-09-30 03:00:22	<--	knikolla15 (~knikolla@186.7.129.115) has quit (Remote host closed the connection)
+2018-09-30 03:10:26	-->	dexash23 (~dexash@93.84.73.35) has joined ##emudev
+2018-09-30 03:12:31	<--	dexash23 (~dexash@93.84.73.35) has quit (Remote host closed the connection)
+2018-09-30 03:26:35	-->	WilliamH15 (~WilliamH@113.194.142.196) has joined ##emudev
+2018-09-30 03:28:28	<--	WilliamH15 (~WilliamH@113.194.142.196) has quit (Remote host closed the connection)
+2018-09-30 04:05:26	-->	bebarker9 (~bebarker@116.97.100.65) has joined ##emudev
+2018-09-30 04:12:37	-->	jamisnemo13 (~jamisnemo@2.red-95-122-75.staticip.rima-tde.net) has joined ##emudev
+2018-09-30 04:16:58	<--	bebarker9 (~bebarker@116.97.100.65) has quit (Ping timeout: 252 seconds)
+2018-09-30 04:18:44	<--	jamisnemo13 (~jamisnemo@2.red-95-122-75.staticip.rima-tde.net) has quit (Remote host closed the connection)
+2018-09-30 05:19:07	-->	kysse27 (~kysse@75.162.245.13) has joined ##emudev
+2018-09-30 05:19:16	-->	Tyrantelf2 (~Tyrantelf@ac242251.dynamic.ppp.asahi-net.or.jp) has joined ##emudev
+2018-09-30 05:20:30	<--	kysse27 (~kysse@75.162.245.13) has quit (Killed (Sigyn (Spam is off topic on freenode.)))
+2018-09-30 05:26:15	<--	Tyrantelf2 (~Tyrantelf@ac242251.dynamic.ppp.asahi-net.or.jp) has quit (Remote host closed the connection)
+2018-09-30 06:12:01	-->	brfransen14 (~brfransen@116.104.9.195) has joined ##emudev
+2018-09-30 06:21:19	<--	brfransen14 (~brfransen@116.104.9.195) has quit (Remote host closed the connection)
+2018-09-30 06:42:06	<--	sjl (~sjl@cpe-66-66-5-59.rochester.res.rr.com) has quit (Quit: WeeChat 2.2-dev)
+2018-09-30 06:54:50	-->	devicenull11 (~devicenul@66.212.52.205) has joined ##emudev
+2018-09-30 06:57:32	<--	devicenull11 (~devicenul@66.212.52.205) has quit (Remote host closed the connection)
+2018-09-30 08:30:27	-->	AdmiralAsshat20 (~AdmiralAs@dsl-197-245-80-85.voxdsl.co.za) has joined ##emudev
+2018-09-30 08:37:42	<--	AdmiralAsshat20 (~AdmiralAs@dsl-197-245-80-85.voxdsl.co.za) has quit (Remote host closed the connection)
+2018-09-30 08:54:10	-->	ThomasJ10 (~ThomasJ@27.3.144.219) has joined ##emudev
+2018-09-30 08:54:59	<--	ThomasJ10 (~ThomasJ@27.3.144.219) has quit (Remote host closed the connection)
+2018-09-30 08:56:21	-->	MSHughes (~MSHughes@39.122.216.162) has joined ##emudev
+2018-09-30 09:02:21	<--	MSHughes (~MSHughes@39.122.216.162) has quit (Remote host closed the connection)
+2018-09-30 09:09:23	-->	slax0r22 (~slax0r@222.110.128.40) has joined ##emudev
+2018-09-30 09:13:00	<--	slax0r22 (~slax0r@222.110.128.40) has quit (Killed (Unit193 (Spam is not permitted on freenode.)))
+2018-09-30 09:41:06	-->	factium15 (~factium@118.37.148.28) has joined ##emudev
+2018-09-30 09:41:27	<--	factium15 (~factium@118.37.148.28) has quit (Remote host closed the connection)
+2018-09-30 09:51:30	-->	crisisking1 (~crisiskin@27.34.55.195) has joined ##emudev
+2018-09-30 09:58:17	<--	crisisking1 (~crisiskin@27.34.55.195) has quit (Remote host closed the connection)
+2018-09-30 10:03:24	-->	mikedep33314 (~mikedep33@41.202.169.59) has joined ##emudev
+2018-09-30 10:05:02	-->	Maqs15 (~Maqs@183.102.67.165) has joined ##emudev
+2018-09-30 10:06:04	<--	mikedep33314 (~mikedep33@41.202.169.59) has quit (Remote host closed the connection)
+2018-09-30 10:07:45	<--	Maqs15 (~Maqs@183.102.67.165) has quit (Remote host closed the connection)
+2018-09-30 10:14:42	-->	gh0st1649 (~lertega@unaffiliated/gh0st1649) has joined ##emudev
+2018-09-30 10:17:05	<--	gh0st1649 (~lertega@unaffiliated/gh0st1649) has quit (Client Quit)
+2018-09-30 10:17:16	-->	gh0st1649 (~lertega@unaffiliated/gh0st1649) has joined ##emudev
+2018-09-30 10:49:07	-->	demophoon24 (~demophoon@183.102.67.165) has joined ##emudev
+2018-09-30 10:49:52	<--	demophoon24 (~demophoon@183.102.67.165) has quit (Remote host closed the connection)
+2018-09-30 12:03:52	-->	dgadomski1 (~dgadomski@p866197-ipngn803souka.saitama.ocn.ne.jp) has joined ##emudev
+2018-09-30 12:07:22	-->	crazik12 (~crazik@62.1.92.234.dsl.dyn.forthnet.gr) has joined ##emudev
+2018-09-30 12:07:45	<--	dgadomski1 (~dgadomski@p866197-ipngn803souka.saitama.ocn.ne.jp) has quit (Remote host closed the connection)
+2018-09-30 12:08:00	<--	crazik12 (~crazik@62.1.92.234.dsl.dyn.forthnet.gr) has quit (Remote host closed the connection)
+2018-09-30 12:09:07	-->	Maylay21 (~Maylay@116.107.162.139) has joined ##emudev
+2018-09-30 12:14:06	<--	Maylay21 (~Maylay@116.107.162.139) has quit (Ping timeout: 244 seconds)
+2018-09-30 13:19:03	-->	ghz|afk (~giga@reactos/developer/gigaherz) has joined ##emudev
+2018-09-30 13:19:43	<--	gigaherz (~giga@reactos/developer/gigaherz) has quit (Ping timeout: 244 seconds)
+2018-09-30 13:25:30	-->	devicenull11 (~devicenul@softbank126123142107.bbtec.net) has joined ##emudev
+2018-09-30 13:28:17	<--	devicenull11 (~devicenul@softbank126123142107.bbtec.net) has quit (Remote host closed the connection)
+2018-09-30 13:54:18	gh0st1649	anyone know how to do subslice assignment in Go?
+2018-09-30 13:54:21	gh0st1649	like
+2018-09-30 13:54:26	gh0st1649	memory[0x200:(0x200 + len(rombytes))] = rombytes
+2018-09-30 14:35:15	-->	mark-burnett9 (~mark-burn@14.54.175.222) has joined ##emudev
+2018-09-30 14:36:02	<--	mark-burnett9 (~mark-burn@14.54.175.222) has quit (Remote host closed the connection)
+2018-09-30 14:36:30	-->	realist (~realist@175.207.57.133) has joined ##emudev
+2018-09-30 14:38:26	<--	realist (~realist@175.207.57.133) has quit (Remote host closed the connection)
+2018-09-30 14:38:45	-->	nivdes (~nivdes@203.170.109.79) has joined ##emudev
+2018-09-30 14:39:23	<--	nivdes (~nivdes@203.170.109.79) has quit (Read error: Connection reset by peer)
+2018-09-30 15:36:29	-->	Monoide10 (~Monoide@1.53.41.181) has joined ##emudev
+2018-09-30 15:41:21	<--	Monoide10 (~Monoide@1.53.41.181) has quit (Remote host closed the connection)
+2018-09-30 16:00:41	-->	sgsabbage (~sgsabbage@220.72.81.225) has joined ##emudev
+2018-09-30 16:04:35	<--	sgsabbage (~sgsabbage@220.72.81.225) has quit (Remote host closed the connection)
+2018-09-30 16:28:15	-->	Xeriah6 (~Xeriah@119.202.174.42) has joined ##emudev
+2018-09-30 16:30:07	<--	Xeriah6 (~Xeriah@119.202.174.42) has quit (Remote host closed the connection)
+2018-09-30 16:32:02	-->	Hasselsaurus6 (~Hasselsau@146.66.18.155) has joined ##emudev
+2018-09-30 16:34:10	<--	Hasselsaurus6 (~Hasselsau@146.66.18.155) has quit (Remote host closed the connection)
+2018-09-30 16:59:37	-->	megaxlr5 (~megaxlr@109.169.207.162) has joined ##emudev
+2018-09-30 17:02:55	-->	ScottM______8 (~ScottM___@158.53.93.79.rev.sfr.net) has joined ##emudev
+2018-09-30 17:03:44	<--	ScottM______8 (~ScottM___@158.53.93.79.rev.sfr.net) has quit (Remote host closed the connection)
+2018-09-30 17:07:08	<--	megaxlr5 (~megaxlr@109.169.207.162) has quit (Read error: Connection reset by peer)
+2018-09-30 17:13:37	-->	bigpet0 (~bigpet@90.196.190.150) has joined ##emudev
+2018-09-30 17:16:44	-->	sPiN3 (~sPiN@mx-ll-27.130.51-227.dynamic.3bb.co.th) has joined ##emudev
+2018-09-30 17:18:05	<--	sPiN3 (~sPiN@mx-ll-27.130.51-227.dynamic.3bb.co.th) has quit (Remote host closed the connection)
+2018-09-30 17:18:31	<--	bigpet0 (~bigpet@90.196.190.150) has quit (Remote host closed the connection)
+2018-09-30 17:19:06	-->	Teknix8 (~Teknix@211.107.138.52) has joined ##emudev
+2018-09-30 17:26:20	<--	Teknix8 (~Teknix@211.107.138.52) has quit (Remote host closed the connection)
+2018-09-30 18:06:57	-->	d1g5 (~d1g@117.5.46.133) has joined ##emudev
+2018-09-30 18:12:50	<--	d1g5 (~d1g@117.5.46.133) has quit (Remote host closed the connection)
+2018-09-30 18:26:05	-->	JIZHANHUANG (~JIZHANHUA@185.150.94.175) has joined ##emudev
+2018-09-30 18:27:09	<--	JIZHANHUANG (~JIZHANHUA@185.150.94.175) has quit (Remote host closed the connection)
+2018-09-30 18:33:02	-->	Corben788 (~Corben78@178.43.199.188.ipv4.supernova.orange.pl) has joined ##emudev
+2018-09-30 18:36:46	<--	Corben788 (~Corben78@178.43.199.188.ipv4.supernova.orange.pl) has quit (Remote host closed the connection)
+2018-09-30 19:44:17	-->	Drag0n5 (~Drag0n@mx-ll-27.130.63-65.dynamic.3bb.co.th) has joined ##emudev
+2018-09-30 19:46:22	-->	XenophonF9 (~XenophonF@p1445203-ipngn15601hodogaya.kanagawa.ocn.ne.jp) has joined ##emudev
+2018-09-30 19:48:06	-->	qwedfg2 (~qwedfg@177.30.18.99) has joined ##emudev
+2018-09-30 19:49:16	<--	XenophonF9 (~XenophonF@p1445203-ipngn15601hodogaya.kanagawa.ocn.ne.jp) has quit (Remote host closed the connection)
+2018-09-30 19:51:30	<--	Drag0n5 (~Drag0n@mx-ll-27.130.63-65.dynamic.3bb.co.th) has quit (Remote host closed the connection)
+2018-09-30 19:52:58	<--	qwedfg2 (~qwedfg@177.30.18.99) has quit (Remote host closed the connection)
+2018-09-30 20:08:12	-->	gemelen26 (~gemelen@168-205-38-132.wantel.net.br) has joined ##emudev
+2018-09-30 20:12:00	<--	gemelen26 (~gemelen@168-205-38-132.wantel.net.br) has quit (Remote host closed the connection)
+2018-09-30 20:13:13	<--	gh0st1649 (~lertega@unaffiliated/gh0st1649) has quit (Quit: WeeChat 2.2)
+2018-09-30 20:44:19	-->	lucidguy12 (~lucidguy@221.155.38.133) has joined ##emudev
+2018-09-30 20:51:04	<--	lucidguy12 (~lucidguy@221.155.38.133) has quit (Remote host closed the connection)
+2018-09-30 21:31:32	<--	Retr0id_ (~Retr0id@unaffiliated/retr0id) has quit (Ping timeout: 272 seconds)
+2018-09-30 22:08:19	<--	Kirjava (~cake@183.ip-51-254-223.eu) has quit (Ping timeout: 252 seconds)
+2018-09-30 22:08:19	--	irc: disconnected from server
+2018-09-30 22:11:52	-->	Kirjava (~cake@183.ip-51-254-223.eu) has joined ##emudev
+2018-09-30 22:11:52	--	Topic for ##emudev is "Emulator Development discussion | Want to write an emulator? Doesn’t everyone at one point? | Channel logs pushed to slack, please keep that in mind while talking. | C is the best programming language of all time. OF ALL TIME. | You must register with NickServ in order to talk due to spambot attacks -> /msg NickServ help"
+2018-09-30 22:11:52	--	Topic set by BlueCrab (~inazuma@inazuma.sylverant.net) on Fri, 03 Aug 2018 19:17:47
+2018-09-30 22:11:52	--	Channel ##emudev: 39 nicks (1 op, 2 voices, 36 normals)
+2018-09-30 22:11:58	--	Channel created on Fri, 10 Jan 2014 01:07:48
+2018-09-30 22:13:20	--	You are now known as Guest96892
+2018-09-30 22:25:26	-->	Tuplanolla25 (~Tuplanoll@AMarseille-652-1-87-104.w83-201.abo.wanadoo.fr) has joined ##emudev
+2018-09-30 22:25:30	<--	Guest96892 (~cake@183.ip-51-254-223.eu) has quit (Ping timeout: 252 seconds)
+2018-09-30 22:25:30	--	irc: disconnected from server
+2018-09-30 22:25:47	-->	Guest96892 (~cake@183.ip-51-254-223.eu) has joined ##emudev
+2018-09-30 22:25:47	--	Topic for ##emudev is "Emulator Development discussion | Want to write an emulator? Doesn’t everyone at one point? | Channel logs pushed to slack, please keep that in mind while talking. | C is the best programming language of all time. OF ALL TIME. | You must register with NickServ in order to talk due to spambot attacks -> /msg NickServ help"
+2018-09-30 22:25:47	--	Topic set by BlueCrab (~inazuma@inazuma.sylverant.net) on Fri, 03 Aug 2018 19:17:47
+2018-09-30 22:25:47	--	Channel ##emudev: 39 nicks (1 op, 2 voices, 36 normals)
+2018-09-30 22:25:53	--	Channel created on Fri, 10 Jan 2014 01:07:48
+2018-09-30 22:35:29	<--	Guest96892 (~cake@183.ip-51-254-223.eu) has quit (Ping timeout: 268 seconds)
+2018-09-30 22:35:29	--	irc: disconnected from server
+2018-09-30 22:35:45	-->	Guest96892 (~cake@183.ip-51-254-223.eu) has joined ##emudev
+2018-09-30 22:35:45	--	Topic for ##emudev is "Emulator Development discussion | Want to write an emulator? Doesn’t everyone at one point? | Channel logs pushed to slack, please keep that in mind while talking. | C is the best programming language of all time. OF ALL TIME. | You must register with NickServ in order to talk due to spambot attacks -> /msg NickServ help"
+2018-09-30 22:35:45	--	Topic set by BlueCrab (~inazuma@inazuma.sylverant.net) on Fri, 03 Aug 2018 19:17:47
+2018-09-30 22:35:45	--	Channel ##emudev: 39 nicks (1 op, 2 voices, 36 normals)
+2018-09-30 22:35:52	--	Channel created on Fri, 10 Jan 2014 01:07:48
+2018-09-30 22:43:19	<--	Guest96892 (~cake@183.ip-51-254-223.eu) has left ##emudev
+2018-09-30 22:43:39	-->	Kirjava (~cake@183.ip-51-254-223.eu) has joined ##emudev
+2018-09-30 22:43:39	--	Topic for ##emudev is "Emulator Development discussion | Want to write an emulator? Doesn’t everyone at one point? | Channel logs pushed to slack, please keep that in mind while talking. | C is the best programming language of all time. OF ALL TIME. | You must register with NickServ in order to talk due to spambot attacks -> /msg NickServ help"
+2018-09-30 22:43:39	--	Topic set by BlueCrab (~inazuma@inazuma.sylverant.net) on Fri, 03 Aug 2018 19:17:47
+2018-09-30 22:43:39	--	Channel ##emudev: 39 nicks (1 op, 2 voices, 36 normals)
+2018-09-30 22:43:41	--	Channel created on Fri, 10 Jan 2014 01:07:48
+2018-09-30 23:38:20	-->	ltriant (~ltriant@lithium.mailguard.com.au) has joined ##emudev
+2018-10-01 00:33:11	-->	funnyguy28 (~funnyguy@187.111.213.109) has joined ##emudev
+2018-10-01 00:33:39	<--	funnyguy28 (~funnyguy@187.111.213.109) has quit (Killed (Sigyn (Spam is off topic on freenode.)))
+2018-10-01 00:37:54	-->	cougar_ (~cougar_@187.139.238.25) has joined ##emudev
+2018-10-01 00:41:27	<--	cougar_ (~cougar_@187.139.238.25) has quit (Remote host closed the connection)
+2018-10-01 02:08:04	-->	Guest74964 (~Guest7496@197.251.135.123) has joined ##emudev
+2018-10-01 02:14:49	<--	Guest74964 (~Guest7496@197.251.135.123) has quit (Remote host closed the connection)
+2018-10-01 02:26:55	-->	rohan5 (~rohan@178.121.158.133) has joined ##emudev
+2018-10-01 02:33:08	<--	rohan5 (~rohan@178.121.158.133) has quit (Remote host closed the connection)
+2018-10-01 02:44:41	-->	Vaivars5 (~Vaivars@190-198-27-174.dyn.dsl.cantv.net) has joined ##emudev
+2018-10-01 02:51:51	<--	Vaivars5 (~Vaivars@190-198-27-174.dyn.dsl.cantv.net) has quit (Remote host closed the connection)
+2018-10-01 03:21:52	-->	ZaB|SHC|28 (~ZaB|SHC|@190-198-255-149.dyn.dsl.cantv.net) has joined ##emudev
+2018-10-01 03:27:33	<--	ZaB|SHC|28 (~ZaB|SHC|@190-198-255-149.dyn.dsl.cantv.net) has quit (Remote host closed the connection)
+2018-10-01 04:27:49	-->	eipi-128 (~eipi-1@1.249.50.136) has joined ##emudev
+2018-10-01 04:29:47	<--	eipi-128 (~eipi-1@1.249.50.136) has quit (Killed (Sigyn (Spam is off topic on freenode.)))
+2018-10-01 04:37:52	-->	Comnenus21 (~Comnenus@177.104.242.102) has joined ##emudev
+2018-10-01 04:39:57	<--	Comnenus21 (~Comnenus@177.104.242.102) has quit (Killed (Sigyn (Spam is off topic on freenode.)))
+2018-10-01 06:10:21	-->	mokap (~mokap@116.104.81.104) has joined ##emudev
+2018-10-01 06:17:49	<--	mokap (~mokap@116.104.81.104) has quit (Ping timeout: 245 seconds)
+2018-10-01 07:00:27	<--	ltriant (~ltriant@lithium.mailguard.com.au) has quit (Quit: leaving)
+2018-10-01 07:17:01	<--	BlueCrab (~inazuma@inazuma.sylverant.net) has quit (Ping timeout: 252 seconds)
+2018-10-01 07:44:08	<--	pnt||grm (~pnt||grm@pool-71-191-152-158.washdc.fios.verizon.net) has quit (Ping timeout: 252 seconds)
+2018-10-01 09:00:33	-->	Guest657287 (~Guest6572@bba417633.alshamil.net.ae) has joined ##emudev
+2018-10-01 09:03:15	-->	pnt||grm (~pnt||grm@pool-173-73-157-152.washdc.fios.verizon.net) has joined ##emudev
+2018-10-01 09:06:13	<--	Guest657287 (~Guest6572@bba417633.alshamil.net.ae) has quit (Remote host closed the connection)
+2018-10-01 09:14:29	-->	badgerops20 (~badgerops@183.142.156.57) has joined ##emudev
+2018-10-01 09:19:50	<--	badgerops20 (~badgerops@183.142.156.57) has quit (Remote host closed the connection)
+2018-10-01 09:37:37	-->	raz17 (~raz@171.241.26.71) has joined ##emudev
+2018-10-01 09:41:23	<--	raz17 (~raz@171.241.26.71) has quit (Read error: Connection reset by peer)
+2018-10-01 10:35:01	-->	buzoKW (~buzo@41.234.85.252) has joined ##emudev
+2018-10-01 10:42:20	<--	buzoKW (~buzo@41.234.85.252) has quit (Ping timeout: 252 seconds)
+2018-10-01 12:07:21	-->	InlineMB (~Inline@95.218.183.132) has joined ##emudev
+2018-10-01 12:13:43	<--	InlineMB (~Inline@95.218.183.132) has quit (Ping timeout: 252 seconds)
+2018-10-01 12:37:18	-->	flashdance93 (~flashdanc@i121-114-133-3.s42.a009.ap.plala.or.jp) has joined ##emudev
+2018-10-01 12:44:08	<--	flashdance93 (~flashdanc@i121-114-133-3.s42.a009.ap.plala.or.jp) has quit (Remote host closed the connection)
+2018-10-01 12:54:55	-->	f-a (~f-a@165.246.123.156) has joined ##emudev
+2018-10-01 12:57:29	<--	f-a (~f-a@165.246.123.156) has quit (Read error: Connection reset by peer)
+2018-10-01 13:01:49	-->	BrammO (~Bram@220.84.168.130) has joined ##emudev
+2018-10-01 13:02:04	-->	covesthur_ (~covesthur@14.100.31.118) has joined ##emudev
+2018-10-01 13:05:52	<--	BrammO (~Bram@220.84.168.130) has quit (Remote host closed the connection)
+2018-10-01 13:11:10	<--	covesthur_ (~covesthur@14.100.31.118) has quit (Ping timeout: 252 seconds)
+2018-10-01 13:50:07	-->	bluesceadaiG (~bluescead@67.216.61.27) has joined ##emudev
+2018-10-01 13:55:47	<--	bluesceadaiG (~bluescead@67.216.61.27) has quit (Remote host closed the connection)
+2018-10-01 14:10:58	-->	grawitysy (~grawity@186.119.72.138) has joined ##emudev
+2018-10-01 14:14:51	-->	verschdlgN (~verschdl@pdf86228e.tokynt01.ap.so-net.ne.jp) has joined ##emudev
+2018-10-01 14:15:56	<--	grawitysy (~grawity@186.119.72.138) has quit (Remote host closed the connection)
+2018-10-01 14:17:06	<--	verschdlgN (~verschdl@pdf86228e.tokynt01.ap.so-net.ne.jp) has quit (Remote host closed the connection)
+2018-10-01 14:21:23	-->	zkandaas (~zkanda@184.170.32.94) has joined ##emudev
+2018-10-01 14:29:34	<--	zkandaas (~zkanda@184.170.32.94) has quit (Ping timeout: 252 seconds)
+2018-10-01 15:12:49	-->	ollipa (~ollipa@134.236.138.63) has joined ##emudev
+2018-10-01 15:20:24	<--	ollipa (~ollipa@134.236.138.63) has quit (Read error: Connection reset by peer)
+2018-10-01 15:25:30	-->	Guest15964 (~guillom@244.170.112.78.rev.sfr.net) has joined ##emudev
+2018-10-01 15:28:42	<--	Guest15964 (~guillom@244.170.112.78.rev.sfr.net) has quit (Read error: Connection reset by peer)
+2018-10-01 16:00:42	-->	koltrastdG (~koltrast@astrild.metrosg.ru) has joined ##emudev
+2018-10-01 16:01:55	<--	koltrastdG (~koltrast@astrild.metrosg.ru) has quit (Remote host closed the connection)
+2018-10-01 16:36:04	-->	BlueCrab (~inazuma@inazuma.sylverant.net) has joined ##emudev
+2018-10-01 16:36:04	--	Mode ##emudev [+v BlueCrab] by ChanServ
+2018-10-01 16:38:40	-->	funabashiqv (~funabashi@197.54.211.45) has joined ##emudev
+2018-10-01 16:43:38	<--	funabashiqv (~funabashi@197.54.211.45) has quit (Remote host closed the connection)
+2018-10-01 17:00:17	-->	slyrusIQ (~slyrus@156.198.169.206) has joined ##emudev
+2018-10-01 17:05:26	<--	slyrusIQ (~slyrus@156.198.169.206) has quit (Remote host closed the connection)
+2018-10-01 17:08:40	-->	simonpataponZu (~simonpata@host-92-19-144-141.as13285.net) has joined ##emudev
+2018-10-01 17:14:53	<--	simonpataponZu (~simonpata@host-92-19-144-141.as13285.net) has quit (Remote host closed the connection)
+2018-10-01 17:16:10	-->	Sleakerph (~Sleaker@103.98.189.248) has joined ##emudev
+2018-10-01 17:21:08	<--	Sleakerph (~Sleaker@103.98.189.248) has quit (Remote host closed the connection)
+2018-10-01 17:47:44	-->	Oatmeal (~Oatmeal@cpe-70-114-168-167.austin.res.rr.com) has joined ##emudev
+2018-10-01 17:49:17	<--	Oatmeal (~Oatmeal@cpe-70-114-168-167.austin.res.rr.com) has quit (Remote host closed the connection)
+2018-10-01 18:01:25	-->	HoopyCatuQ (~HoopyCat@188.56.42.63) has joined ##emudev
+2018-10-01 18:08:10	<--	HoopyCatuQ (~HoopyCat@188.56.42.63) has quit (Remote host closed the connection)
+2018-10-01 18:44:03	--	irc: disconnected from server
+2018-10-01 18:47:49	-->	Kirjava (~cake@183.ip-51-254-223.eu) has joined ##emudev
+2018-10-01 18:47:49	--	Topic for ##emudev is "Emulator Development discussion | Want to write an emulator? Doesn’t everyone at one point? | Channel logs pushed to slack, please keep that in mind while talking. | C is the best programming language of all time. OF ALL TIME. | You must register with NickServ in order to talk due to spambot attacks -> /msg NickServ help"
+2018-10-01 18:47:49	--	Topic set by BlueCrab (~inazuma@inazuma.sylverant.net) on Fri, 03 Aug 2018 19:17:47
+2018-10-01 18:47:49	--	Channel ##emudev: 39 nicks (1 op, 2 voices, 36 normals)
+2018-10-01 18:47:52	--	Channel created on Fri, 10 Jan 2014 01:07:48
+2018-10-01 18:48:27	--	You are now known as Guest50808
+2018-10-01 18:49:51	<--	Guest50808 (~cake@183.ip-51-254-223.eu) has left ##emudev
+2018-10-01 18:50:21	-->	Kirjava (~cake@183.ip-51-254-223.eu) has joined ##emudev
+2018-10-01 18:50:21	--	Topic for ##emudev is "Emulator Development discussion | Want to write an emulator? Doesn’t everyone at one point? | Channel logs pushed to slack, please keep that in mind while talking. | C is the best programming language of all time. OF ALL TIME. | You must register with NickServ in order to talk due to spambot attacks -> /msg NickServ help"
+2018-10-01 18:50:21	--	Topic set by BlueCrab (~inazuma@inazuma.sylverant.net) on Fri, 03 Aug 2018 19:17:47
+2018-10-01 18:50:21	--	Channel ##emudev: 39 nicks (1 op, 2 voices, 36 normals)
+2018-10-01 18:50:29	--	Channel created on Fri, 10 Jan 2014 01:07:48
+2018-10-01 18:52:45	<--	Orphis (~orphis@adam.orphis.net) has quit (Ping timeout: 252 seconds)
+2018-10-01 18:55:26	-->	Orphis (~orphis@adam.orphis.net) has joined ##emudev
+2018-10-01 18:59:45	-->	larmeAz (~larme@nap13-7-78-226-243-7.fbx.proxad.net) has joined ##emudev
+2018-10-01 19:05:23	<--	larmeAz (~larme@nap13-7-78-226-243-7.fbx.proxad.net) has quit (Remote host closed the connection)
+2018-10-01 19:16:45	-->	[hades]tw (~hades]@176.194.208.88) has joined ##emudev
+2018-10-01 19:20:36	<--	[hades]tw (~hades]@176.194.208.88) has quit (Remote host closed the connection)
+2018-10-01 20:35:07	-->	Retr0id (~Retr0id@unaffiliated/retr0id) has joined ##emudev
+2018-10-01 20:40:14	-->	en7ropygR (~en7ropy@41.46.84.129) has joined ##emudev
+2018-10-01 20:44:15	<--	en7ropygR (~en7ropy@41.46.84.129) has quit (Remote host closed the connection)
+2018-10-01 21:53:08	-->	va7lnxDY (~va7lnx@AStDenis-651-1-33-154.w80-8.abo.wanadoo.fr) has joined ##emudev
+2018-10-01 21:53:25	<--	va7lnxDY (~va7lnx@AStDenis-651-1-33-154.w80-8.abo.wanadoo.fr) has quit (Remote host closed the connection)
+2018-10-01 21:54:04	-->	woddf2KK (~woddf2@p50849A2D.dip0.t-ipconnect.de) has joined ##emudev
+2018-10-01 21:59:30	<--	woddf2KK (~woddf2@p50849A2D.dip0.t-ipconnect.de) has quit (Remote host closed the connection)
+2018-10-01 22:05:16	-->	Twiglet (~Twiglet@pc-209-74-47-190.cm.vtr.net) has joined ##emudev
+2018-10-01 22:07:32	-->	EvilSporkMH (~EvilSpork@pl12059.ag1212.nttpc.ne.jp) has joined ##emudev
+2018-10-01 22:07:50	-->	jas4711xO (~jas4711@128-70-139-228.broadband.corbina.ru) has joined ##emudev
+2018-10-01 22:09:09	<--	jas4711xO (~jas4711@128-70-139-228.broadband.corbina.ru) has quit (Remote host closed the connection)
+2018-10-01 22:11:37	<--	EvilSporkMH (~EvilSpork@pl12059.ag1212.nttpc.ne.jp) has quit (Remote host closed the connection)
+2018-10-01 22:11:47	<--	Twiglet (~Twiglet@pc-209-74-47-190.cm.vtr.net) has quit (Remote host closed the connection)
+2018-10-01 22:27:23	-->	smbkirEgW (~smbkirE@91.239.68.135) has joined ##emudev
+2018-10-01 22:29:20	<--	smbkirEgW (~smbkirE@91.239.68.135) has quit (Remote host closed the connection)
+2018-10-01 23:42:40	-->	ltriant (~ltriant@lithium.mailguard.com.au) has joined ##emudev
+2018-10-01 23:55:44	-->	SaphireKv (~Saphire@181.111.10.119) has joined ##emudev
+2018-10-02 00:04:36	<--	SaphireKv (~Saphire@181.111.10.119) has quit (Ping timeout: 252 seconds)
+2018-10-02 00:19:23	--	irc: disconnected from server
+2018-10-02 08:58:50	-->	Kirjava (~cake@183.ip-51-254-223.eu) has joined ##emudev
+2018-10-02 08:58:50	--	Topic for ##emudev is "Emulator Development discussion | Want to write an emulator? Doesn’t everyone at one point? | Channel logs pushed to slack, please keep that in mind while talking. | C is the best programming language of all time. OF ALL TIME. | You must register with NickServ in order to talk due to spambot attacks -> /msg NickServ help"
+2018-10-02 08:58:50	--	Topic set by BlueCrab (~inazuma@inazuma.sylverant.net) on Fri, 03 Aug 2018 19:17:47
+2018-10-02 08:58:50	--	Channel ##emudev: 39 nicks (1 op, 2 voices, 36 normals)
+2018-10-02 08:58:52	--	Channel created on Fri, 10 Jan 2014 01:07:48
+2018-10-02 08:59:23	-->	Zachary_Dubious (~Zachary_D@95-190-141-139-bbc-dynamic.kuzbass.net) has joined ##emudev
+2018-10-02 08:59:45	<--	Zachary_Dubious (~Zachary_D@95-190-141-139-bbc-dynamic.kuzbass.net) has quit (Remote host closed the connection)
+2018-10-02 09:40:00	-->	johntrampyJ (~johntramp@dhb29.neoplus.adsl.tpnet.pl) has joined ##emudev
+2018-10-02 09:46:41	<--	johntrampyJ (~johntramp@dhb29.neoplus.adsl.tpnet.pl) has quit (Remote host closed the connection)
+2018-10-02 09:51:50	-->	karathracebN (~karathrac@188.119.55.24) has joined ##emudev
+2018-10-02 09:51:53	<--	karathracebN (~karathrac@188.119.55.24) has quit (Remote host closed the connection)
+2018-10-02 09:55:04	<--	Retr0id (~Retr0id@unaffiliated/retr0id) has quit (Ping timeout: 244 seconds)
+2018-10-02 10:08:34	-->	eXeC64 (~eXeC64@softbank126025157202.bbtec.net) has joined ##emudev
+2018-10-02 10:12:51	<--	eXeC64 (~eXeC64@softbank126025157202.bbtec.net) has quit (Remote host closed the connection)
+2018-10-02 10:42:23	-->	buriedalivezn (~buriedali@94.50.153.15) has joined ##emudev
+2018-10-02 10:45:16	<--	buriedalivezn (~buriedali@94.50.153.15) has quit (Killed (Sigyn (Spam is off topic on freenode.)))
+2018-10-02 11:05:09	-->	sentrizPw (~sentriz@201.208.113.133) has joined ##emudev
+2018-10-02 11:09:08	<--	sentrizPw (~sentriz@201.208.113.133) has quit (Remote host closed the connection)
+2018-10-02 12:06:58	-->	geozdr (~geozdr@115.96.236.226) has joined ##emudev
+2018-10-02 12:11:52	<--	geozdr (~geozdr@115.96.236.226) has quit (K-Lined)
+2018-10-02 14:05:56	-->	roaly (~roa@41.44.191.158) has joined ##emudev
+2018-10-02 14:07:04	<--	roaly (~roa@41.44.191.158) has quit (K-Lined)
+2018-10-02 16:39:37	-->	jmnkkp (~jmnk@203.232.55.163) has joined ##emudev
+2018-10-02 16:44:44	<--	jmnkkp (~jmnk@203.232.55.163) has quit (Remote host closed the connection)
+2018-10-02 16:54:37	-->	poptartaN (~poptart@121.172.81.75) has joined ##emudev
+2018-10-02 16:58:22	-->	sjl (~sjl@65.200.109.114) has joined ##emudev
+2018-10-02 17:01:49	<--	poptartaN (~poptart@121.172.81.75) has quit (Remote host closed the connection)
+2018-10-02 17:48:07	-->	rharpermI (~rharper@61.255.246.198) has joined ##emudev
+2018-10-02 17:50:02	<--	rharpermI (~rharper@61.255.246.198) has quit (Killed (Sigyn (Spam is off topic on freenode.)))
+2018-10-02 18:08:16	-->	trebuhMR (~trebuh@112.158.228.189) has joined ##emudev
+2018-10-02 18:14:13	<--	trebuhMR (~trebuh@112.158.228.189) has quit (Ping timeout: 245 seconds)
+2018-10-02 19:38:08	-->	sviegdx (~svieg@189.149.92.227) has joined ##emudev
+2018-10-02 19:39:50	<--	sviegdx (~svieg@189.149.92.227) has quit (Remote host closed the connection)
+2018-10-02 19:57:48	-->	redjuq (~redj@mx-ll-27.130.94-65.dynamic.3bb.co.th) has joined ##emudev
+2018-10-02 19:58:59	<--	redjuq (~redj@mx-ll-27.130.94-65.dynamic.3bb.co.th) has quit (Remote host closed the connection)
+2018-10-02 20:20:04	-->	puddingpimppJ (~puddingpi@200.84.104.18) has joined ##emudev
+2018-10-02 20:25:41	<--	puddingpimppJ (~puddingpi@200.84.104.18) has quit (Remote host closed the connection)
+2018-10-02 20:26:54	-->	hark (~hark@162.136.207.77.rev.sfr.net) has joined ##emudev
+2018-10-02 20:30:04	<--	hark (~hark@162.136.207.77.rev.sfr.net) has quit (Remote host closed the connection)
+2018-10-02 21:32:24	-->	arl_ (~arl_@p039254.dynamic.ppp.asahi-net.or.jp) has joined ##emudev
+2018-10-02 21:32:45	<--	arl_ (~arl_@p039254.dynamic.ppp.asahi-net.or.jp) has quit (Remote host closed the connection)
+2018-10-02 21:49:57	-->	kasitano (~kasitano@pdcd364b9.kgsmnt01.ap.so-net.ne.jp) has joined ##emudev
+2018-10-02 21:55:59	<--	kasitano (~kasitano@pdcd364b9.kgsmnt01.ap.so-net.ne.jp) has quit (Remote host closed the connection)

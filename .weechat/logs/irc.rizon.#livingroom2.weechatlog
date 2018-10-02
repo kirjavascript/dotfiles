@@ -1,0 +1,183 @@
+2018-09-30 21:45:35	-->	Kirjava (~cake@beep.boop) has joined #livingroom2
+2018-09-30 21:45:35	--	Mode #livingroom2 [+nt] by irc.namreeb.org
+2018-09-30 21:45:35	--	Channel #livingroom2: 1 nick (1 op, 0 halfops, 0 voices, 0 normals)
+2018-09-30 21:45:37	--	Channel created on Sun, 30 Sep 2018 21:46:09
+2018-09-30 21:45:42	-->	purple (~eternium@Rizon-E47DB280.cable.virginm.net) has joined #livingroom2
+2018-09-30 21:45:48	@Kirjava	https://irc-bot-science.clsr.net/large
+2018-09-30 21:46:15	@Kirjava	~ping google.com
+2018-09-30 21:47:21	<--	purple (~eternium@Rizon-E47DB280.cable.virginm.net) has quit (Remote host closed the connection)
+2018-09-30 21:47:26	-->	purple (~eternium@Rizon-E47DB280.cable.virginm.net) has joined #livingroom2
+2018-09-30 21:47:26	@Kirjava	~ping google.com
+2018-09-30 21:47:31	@Kirjava	!ping google.com
+2018-09-30 21:47:32	purple	{ path: 'ping', list: [ 'ping' ], params: [], input: 'google.com' }
+2018-09-30 21:47:32	purple	PING google.com (172.217.23.14) 56(84) bytes of data.
+2018-09-30 21:47:32	purple	64 bytes from lhr35s01-in-f14.1e100.net (172.217.23.14): icmp_seq=1 ttl=53 time=19.1 ms
+2018-09-30 21:47:32	purple	--- google.com ping statistics ---
+2018-09-30 21:47:33	purple	1 packets transmitted, 1 received, 0% packet loss, time 0ms
+2018-09-30 21:47:33	purple	rtt min/avg/max/mdev = 19.125/19.125/19.125/0.000 ms
+2018-09-30 21:47:34	@Kirjava	https://irc-bot-science.clsr.net/large
+2018-09-30 21:47:36	@Kirjava	!ping google.com
+2018-09-30 21:47:36	purple	{ path: 'ping', list: [ 'ping' ], params: [], input: 'google.com' }
+2018-09-30 21:47:42	<--	purple (~eternium@Rizon-E47DB280.cable.virginm.net) has quit (Remote host closed the connection)
+2018-09-30 21:48:56	-->	purple (~eternium@Rizon-E47DB280.cable.virginm.net) has joined #livingroom2
+2018-09-30 21:48:57	@Kirjava	https://irc-bot-science.clsr.net/large
+2018-09-30 21:48:59	@Kirjava	!ping google.com
+2018-09-30 21:48:59	purple	{ path: 'ping', list: [ 'ping' ], params: [], input: 'google.com' }
+2018-09-30 21:48:59	purple	PING google.com (172.217.23.14) 56(84) bytes of data.
+2018-09-30 21:49:00	purple	64 bytes from lhr35s01-in-f14.1e100.net (172.217.23.14): icmp_seq=1 ttl=53 time=19.6 ms
+2018-09-30 21:49:00	purple	--- google.com ping statistics ---
+2018-09-30 21:49:00	purple	1 packets transmitted, 1 received, 0% packet loss, time 0ms
+2018-09-30 21:49:00	purple	rtt min/avg/max/mdev = 19.649/19.649/19.649/0.000 ms
+2018-09-30 21:49:02	@Kirjava	https://irc-bot-science.clsr.net/large
+2018-09-30 21:49:03	@Kirjava	!ping google.com
+2018-09-30 21:49:04	purple	{ path: 'ping', list: [ 'ping' ], params: [], input: 'google.com' }
+2018-09-30 21:49:05	purple	PING google.com (172.217.23.14) 56(84) bytes of data.
+2018-09-30 21:49:05	purple	64 bytes from lhr35s01-in-f14.1e100.net (172.217.23.14): icmp_seq=1 ttl=53 time=27.3 ms
+2018-09-30 21:49:05	purple	--- google.com ping statistics ---
+2018-09-30 21:49:05	purple	1 packets transmitted, 1 received, 0% packet loss, time 0ms
+2018-09-30 21:49:06	purple	rtt min/avg/max/mdev = 27.340/27.340/27.340/0.000 ms
+2018-09-30 21:49:16	<--	purple (~eternium@Rizon-E47DB280.cable.virginm.net) has quit (Remote host closed the connection)
+2018-09-30 21:49:21	-->	purple (~eternium@Rizon-E47DB280.cable.virginm.net) has joined #livingroom2
+2018-09-30 21:49:22	@Kirjava	https://irc-bot-science.clsr.net/large
+2018-09-30 21:49:45	<--	purple (~eternium@Rizon-E47DB280.cable.virginm.net) has quit (Remote host closed the connection)
+2018-09-30 21:49:49	-->	purple (~eternium@Rizon-E47DB280.cable.virginm.net) has joined #livingroom2
+2018-09-30 21:49:50	@Kirjava	https://irc-bot-science.clsr.net/large
+2018-09-30 21:50:08	@Kirjava	https://irc-bot-science.clsr.net/large
+2018-09-30 21:52:39	<--	purple (~eternium@Rizon-E47DB280.cable.virginm.net) has quit (Remote host closed the connection)
+2018-09-30 21:54:47	-->	purple (~eternium@Rizon-E47DB280.cable.virginm.net) has joined #livingroom2
+2018-09-30 21:54:51	@Kirjava	https://irc-bot-science.clsr.net/large
+2018-09-30 21:54:53	@Kirjava	!ping google.com
+2018-09-30 21:54:53	purple	{ path: 'ping', list: [ 'ping' ], params: [], input: 'google.com' }
+2018-09-30 21:54:53	purple	PING google.com (216.58.212.110) 56(84) bytes of data.
+2018-09-30 21:54:54	purple	64 bytes from lhr35s06-in-f14.1e100.net (216.58.212.110): icmp_seq=1 ttl=54 time=20.1 ms
+2018-09-30 21:54:54	purple	--- google.com ping statistics ---
+2018-09-30 21:54:54	purple	1 packets transmitted, 1 received, 0% packet loss, time 0ms
+2018-09-30 21:54:54	purple	rtt min/avg/max/mdev = 20.053/20.053/20.053/0.000 ms
+2018-09-30 21:54:56	@Kirjava	https://irc-bot-science.clsr.net/large
+2018-09-30 21:54:58	@Kirjava	!ping google.com
+2018-09-30 21:54:59	purple	{ path: 'ping', list: [ 'ping' ], params: [], input: 'google.com' }
+2018-09-30 21:54:59	purple	PING google.com (216.58.212.110) 56(84) bytes of data.
+2018-09-30 21:54:59	purple	64 bytes from lhr35s06-in-f110.1e100.net (216.58.212.110): icmp_seq=1 ttl=54 time=44.6 ms
+2018-09-30 21:55:00	purple	--- google.com ping statistics ---
+2018-09-30 21:55:00	purple	1 packets transmitted, 1 received, 0% packet loss, time 0ms
+2018-09-30 21:55:00	purple	rtt min/avg/max/mdev = 44.570/44.570/44.570/0.000 ms
+2018-09-30 21:55:06	@Kirjava	http://www.google.com
+2018-09-30 21:55:06	purple	>> Google
+2018-09-30 21:55:08	@Kirjava	https://irc-bot-science.clsr.net/large
+2018-09-30 21:55:12	@Kirjava	http://www.google.com
+2018-09-30 21:55:12	purple	>> Google
+2018-09-30 21:55:44	<--	purple (~eternium@Rizon-E47DB280.cable.virginm.net) has quit (Remote host closed the connection)
+2018-09-30 22:08:22	--	irc: disconnected from server
+2018-09-30 22:25:40	-->	Kirjava (~cake@Rizon-F9ADB79B.ip-51-254-223.eu) has joined #livingroom2
+2018-09-30 22:25:40	--	Mode #livingroom2 [+nt] by irc.x2x.cc
+2018-09-30 22:25:40	--	Channel #livingroom2: 1 nick (1 op, 0 halfops, 0 voices, 0 normals)
+2018-09-30 22:25:50	--	Channel created on Sun, 30 Sep 2018 22:26:14
+2018-09-30 22:35:29	--	irc: disconnected from server
+2018-09-30 22:35:47	-->	Kirjava (~cake@Rizon-F9ADB79B.ip-51-254-223.eu) has joined #livingroom2
+2018-09-30 22:35:47	--	Mode #livingroom2 [+nt] by irc.namreeb.org
+2018-09-30 22:35:47	--	Channel #livingroom2: 1 nick (1 op, 0 halfops, 0 voices, 0 normals)
+2018-09-30 22:35:57	--	Channel created on Sun, 30 Sep 2018 22:36:21
+2018-10-01 18:39:21	-->	purple (~eternium@Rizon-E47DB280.cable.virginm.net) has joined #livingroom2
+2018-10-01 18:42:30	@Kirjava	!command.new(test) asd
+2018-10-01 18:42:31	purple	{ path: 'command.new', list: [ 'command', 'new' ], params: [ 'test' ], input: 'asd' }
+2018-10-01 18:42:31	purple	!test added
+2018-10-01 18:42:32	@Kirjava	!command.new(test) asad
+2018-10-01 18:42:33	purple	{ path: 'command.new', list: [ 'command', 'new' ], params: [ 'test' ], input: 'asad' }
+2018-10-01 18:42:33	purple	TypeError: str.toLowerCase is not a function
+2018-10-01 18:42:34	@Kirjava	!command.new(test) asad
+2018-10-01 18:42:34	purple	{ path: 'command.new', list: [ 'command', 'new' ], params: [ 'test' ], input: 'asad' }
+2018-10-01 18:42:34	purple	TypeError: str.toLowerCase is not a function
+2018-10-01 18:42:48	<--	purple (~eternium@Rizon-E47DB280.cable.virginm.net) has quit (Remote host closed the connection)
+2018-10-01 18:42:52	-->	purple (~eternium@Rizon-E47DB280.cable.virginm.net) has joined #livingroom2
+2018-10-01 18:42:53	@Kirjava	!command.new(test) asad
+2018-10-01 18:42:53	purple	{ path: 'command.new', list: [ 'command', 'new' ], params: [ 'test' ], input: 'asad' }
+2018-10-01 18:42:54	purple	Error: test is locked
+2018-10-01 18:44:04	--	irc: disconnected from server
+2018-10-01 18:55:24	-->	Kirjava (~cake@beep.boop) has joined #livingroom2
+2018-10-01 18:55:24	--	Mode #livingroom2 [+nt] by irc.namreeb.org
+2018-10-01 18:55:24	--	Channel #livingroom2: 1 nick (1 op, 0 halfops, 0 voices, 0 normals)
+2018-10-01 18:55:27	--	Channel created on Mon, 01 Oct 2018 18:55:24
+2018-10-01 18:55:31	-->	purple (~eternium@Rizon-E47DB280.cable.virginm.net) has joined #livingroom2
+2018-10-01 18:55:43	@Kirjava	!command.new(test) asd
+2018-10-01 18:55:43	purple	{ path: 'command.new', list: [ 'command', 'new' ], params: [ 'test' ], input: 'asd' }
+2018-10-01 18:55:44	purple	!test added
+2018-10-01 18:55:45	@Kirjava	!command.new(test) asd
+2018-10-01 18:55:46	purple	{ path: 'command.new', list: [ 'command', 'new' ], params: [ 'test' ], input: 'asd' }
+2018-10-01 18:55:46	purple	TypeError: str.toLowerCase is not a function
+2018-10-01 18:56:47	<--	purple (~eternium@Rizon-E47DB280.cable.virginm.net) has quit (Remote host closed the connection)
+2018-10-01 18:57:19	-->	purple (~eternium@Rizon-E47DB280.cable.virginm.net) has joined #livingroom2
+2018-10-01 18:57:25	@Kirjava	!command.new(test) asd
+2018-10-01 18:57:25	purple	{ path: 'command.new', list: [ 'command', 'new' ], params: [ 'test' ], input: 'asd' }
+2018-10-01 18:57:25	purple	!test added
+2018-10-01 18:57:26	@Kirjava	!command.new(test) asd
+2018-10-01 18:57:28	purple	{ path: 'command.new', list: [ 'command', 'new' ], params: [ 'test' ], input: 'asd' }
+2018-10-01 18:57:28	purple	TypeError: str.toLowerCase is not a function
+2018-10-01 18:59:11	<--	purple (~eternium@Rizon-E47DB280.cable.virginm.net) has quit (Remote host closed the connection)
+2018-10-01 18:59:15	-->	purple (~eternium@Rizon-E47DB280.cable.virginm.net) has joined #livingroom2
+2018-10-01 18:59:19	@Kirjava	!command.new(test) asd
+2018-10-01 18:59:19	purple	{ path: 'command.new', list: [ 'command', 'new' ], params: [ 'test' ], input: 'asd' }
+2018-10-01 18:59:19	purple	!test added
+2018-10-01 18:59:20	@Kirjava	!command.new(test) asd
+2018-10-01 18:59:22	purple	{ path: 'command.new', list: [ 'command', 'new' ], params: [ 'test' ], input: 'asd' }
+2018-10-01 18:59:22	purple	Error: test already exists - use !command.edit
+2018-10-01 19:00:05	<--	purple (~eternium@Rizon-E47DB280.cable.virginm.net) has quit (Remote host closed the connection)
+2018-10-01 19:23:45	@Kirjava	https://youtu.be/lb-tlY6ytk8
+2018-10-01 19:25:01	-->	purple (~eternium@Rizon-E47DB280.cable.virginm.net) has joined #livingroom2
+2018-10-01 19:25:01	@Kirjava	https://youtu.be/lb-tlY6ytk8
+2018-10-01 19:25:04	@Kirjava	https://youtu.be/lb-tlY6ytk8
+2018-10-01 19:25:26	<--	purple (~eternium@Rizon-E47DB280.cable.virginm.net) has quit (Remote host closed the connection)
+2018-10-01 19:25:30	-->	purple (~eternium@Rizon-E47DB280.cable.virginm.net) has joined #livingroom2
+2018-10-01 19:25:30	@Kirjava	https://youtu.be/lb-tlY6ytk8
+2018-10-01 19:29:48	<--	purple (~eternium@Rizon-E47DB280.cable.virginm.net) has quit (Remote host closed the connection)
+2018-10-01 19:29:52	-->	purple (~eternium@Rizon-E47DB280.cable.virginm.net) has joined #livingroom2
+2018-10-01 19:29:55	@Kirjava	https://youtu.be/lb-tlY6ytk8
+2018-10-01 19:31:48	<--	purple (~eternium@Rizon-E47DB280.cable.virginm.net) has quit (Remote host closed the connection)
+2018-10-01 19:31:52	-->	purple (~eternium@Rizon-E47DB280.cable.virginm.net) has joined #livingroom2
+2018-10-01 19:31:52	<--	purple (~eternium@Rizon-E47DB280.cable.virginm.net) has quit (Remote host closed the connection)
+2018-10-01 19:31:56	-->	purple (~eternium@Rizon-E47DB280.cable.virginm.net) has joined #livingroom2
+2018-10-01 19:31:57	@Kirjava	https://youtu.be/lb-tlY6ytk8
+2018-10-01 19:32:23	<--	purple (~eternium@Rizon-E47DB280.cable.virginm.net) has quit (Remote host closed the connection)
+2018-10-01 19:32:27	-->	purple (~eternium@Rizon-E47DB280.cable.virginm.net) has joined #livingroom2
+2018-10-01 19:32:28	@Kirjava	https://youtu.be/lb-tlY6ytk8
+2018-10-01 19:34:40	<--	purple (~eternium@Rizon-E47DB280.cable.virginm.net) has quit (Remote host closed the connection)
+2018-10-01 19:34:45	-->	purple (~eternium@Rizon-E47DB280.cable.virginm.net) has joined #livingroom2
+2018-10-01 19:34:46	@Kirjava	https://youtu.be/lb-tlY6ytk8
+2018-10-01 19:34:53	<--	purple (~eternium@Rizon-E47DB280.cable.virginm.net) has quit (Remote host closed the connection)
+2018-10-01 19:34:58	-->	purple (~eternium@Rizon-E47DB280.cable.virginm.net) has joined #livingroom2
+2018-10-01 19:34:59	@Kirjava	https://youtu.be/lb-tlY6ytk8
+2018-10-01 19:35:15	<--	purple (~eternium@Rizon-E47DB280.cable.virginm.net) has quit (Remote host closed the connection)
+2018-10-01 19:35:21	-->	purple (~eternium@Rizon-E47DB280.cable.virginm.net) has joined #livingroom2
+2018-10-01 19:35:23	@Kirjava	https://youtu.be/lb-tlY6ytk8
+2018-10-01 19:35:43	<--	purple (~eternium@Rizon-E47DB280.cable.virginm.net) has quit (Remote host closed the connection)
+2018-10-01 19:35:47	-->	purple (~eternium@Rizon-E47DB280.cable.virginm.net) has joined #livingroom2
+2018-10-01 19:35:48	@Kirjava	https://youtu.be/lb-tlY6ytk8
+2018-10-01 19:36:06	<--	purple (~eternium@Rizon-E47DB280.cable.virginm.net) has quit (Remote host closed the connection)
+2018-10-01 19:36:11	-->	purple (~eternium@Rizon-E47DB280.cable.virginm.net) has joined #livingroom2
+2018-10-01 19:36:12	@Kirjava	https://youtu.be/lb-tlY6ytk8
+2018-10-01 19:36:13	purple	>> Red Dead Redemption 2: Official Gameplay Video Part 2 - YouTube
+2018-10-01 19:38:38	@Kirjava	http://irc-bot-science.clsr.net/redirect
+2018-10-01 19:39:22	<--	purple (~eternium@Rizon-E47DB280.cable.virginm.net) has quit (Remote host closed the connection)
+2018-10-01 19:39:52	-->	purple (~eternium@Rizon-E47DB280.cable.virginm.net) has joined #livingroom2
+2018-10-01 19:39:55	@Kirjava	http://youtube.com
+2018-10-01 19:39:58	purple	>> YouTube
+2018-10-01 19:40:02	<--	purple (~eternium@Rizon-E47DB280.cable.virginm.net) has quit (Remote host closed the connection)
+2018-10-01 19:44:44	-->	purple (~eternium@Rizon-E47DB280.cable.virginm.net) has joined #livingroom2
+2018-10-01 19:46:21	<--	purple (~eternium@Rizon-E47DB280.cable.virginm.net) has quit (Remote host closed the connection)
+2018-10-01 19:46:25	-->	purple (~eternium@Rizon-E47DB280.cable.virginm.net) has joined #livingroom2
+2018-10-01 19:46:33	@Kirjava	http://irc-bot-science.clsr.net/redirect
+2018-10-01 19:46:53	<--	purple (~eternium@Rizon-E47DB280.cable.virginm.net) has quit (Remote host closed the connection)
+2018-10-01 19:46:57	-->	purple (~eternium@Rizon-E47DB280.cable.virginm.net) has joined #livingroom2
+2018-10-01 19:46:57	@Kirjava	http://irc-bot-science.clsr.net/redirect
+2018-10-01 19:49:46	<--	purple (~eternium@Rizon-E47DB280.cable.virginm.net) has quit (Remote host closed the connection)
+2018-10-01 19:49:50	-->	purple (~eternium@Rizon-E47DB280.cable.virginm.net) has joined #livingroom2
+2018-10-01 19:49:52	@Kirjava	http://youtube.com
+2018-10-01 19:49:54	purple	>> YouTube
+2018-10-01 19:49:59	@Kirjava	https://youtu.be/lb-tlY6ytk8
+2018-10-01 19:49:59	purple	>> Red Dead Redemption 2: Official Gameplay Video Part 2 - YouTube
+2018-10-01 19:50:02	@Kirjava	http://irc-bot-science.clsr.net/redirect
+2018-10-01 19:50:10	@Kirjava	http://microsoft.com
+2018-10-01 19:50:11	purple	>> Microsoft Corporation
+2018-10-01 19:50:13	@Kirjava	http://microsoft.com/asdasdad
+2018-10-01 19:50:15	purple	>> We are sorry, the page you requested cannot be found
+2018-10-01 19:51:05	<--	purple (~eternium@Rizon-E47DB280.cable.virginm.net) has quit (Remote host closed the connection)
+2018-10-02 00:19:23	--	irc: disconnected from server

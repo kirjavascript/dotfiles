@@ -1,0 +1,29 @@
+[2018-10-02 08:58:44] WeeChat 2.2 (compiled on Jul 14 2018 14:59:20)
+[2018-10-02 08:58:44] Reading configuration file sec.conf
+[2018-10-02 08:58:44] Reading configuration file weechat.conf
+[2018-10-02 08:58:44] Reading configuration file plugins.conf
+[2018-10-02 08:58:44] Reading configuration file charset.conf
+[2018-10-02 08:58:44] Reading configuration file logger.conf
+[2018-10-02 08:58:44] Reading configuration file exec.conf
+[2018-10-02 08:58:44] Reading configuration file trigger.conf
+[2018-10-02 08:58:44] Reading configuration file aspell.conf
+[2018-10-02 08:58:44] Reading configuration file alias.conf
+[2018-10-02 08:58:44] Reading configuration file buflist.conf
+[2018-10-02 08:58:44] Reading configuration file fifo.conf
+[2018-10-02 08:58:44] Reading configuration file xfer.conf
+[2018-10-02 08:58:44] Reading configuration file irc.conf
+[2018-10-02 08:58:44] Reading configuration file relay.conf
+[2018-10-02 08:58:44] Reading configuration file perl.conf
+[2018-10-02 08:58:44] Reading configuration file lua.conf
+[2018-10-02 08:58:44] Reading configuration file javascript.conf
+[2018-10-02 08:58:44] Reading configuration file ruby.conf
+[2018-10-02 08:58:44] Reading configuration file python.conf
+[2018-10-02 08:58:44] Reading configuration file autosort.conf
+[2018-10-02 08:58:44] Writing configuration file autosort.conf
+[2018-10-02 08:58:44] Reading configuration file script.conf
+[2018-10-02 08:58:44] Reading configuration file fset.conf
+[2018-10-02 08:58:44] irc: connecting to server irc.freenode.net/6667...
+[2018-10-02 08:58:44] irc: connecting to server irc.rizon.net/6667...
+[2018-10-02 08:58:44] irc: connecting to server irc.furnet.org/6667...
+[2018-10-02 08:58:44] irc: connecting to server irc.badnik.net/6667...
+[2018-10-02 08:58:44] irc: connecting to server irc.mozilla.org/6667...

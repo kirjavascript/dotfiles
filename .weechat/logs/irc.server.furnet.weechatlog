@@ -1,0 +1,1154 @@
+2018-09-17 21:26:02	--	irc: connecting to server irc.furnet.org/6667...
+2018-09-17 21:26:02	--	irc: connected to irc.furnet.org/6667 (212.232.29.132)
+2018-09-17 21:26:02	--	kinglion.furnet.org: *** Looking up your hostname...
+2018-09-17 21:26:02	--	kinglion.furnet.org: *** Checking ident...
+2018-09-17 21:26:02	--	kinglion.furnet.org: *** No ident response; username prefixed with ~
+2018-09-17 21:26:02	--	kinglion.furnet.org: *** Found your hostname
+2018-09-17 21:26:02	--	irc: nickname "Cake" is already in use, trying nickname "Kirjava"
+2018-09-17 21:26:03	--	CTCP requested by IRC: VERSION
+2018-09-17 21:26:03	--	CTCP reply to IRC: VERSION WeeChat 2.2 (Jul 14 2018 14:59:20)
+2018-09-17 21:26:03	--	Welcome to the FurNet IRC Network Kirjava!~cake@183.ip-51-254-223.eu
+2018-09-17 21:26:03	--	Your host is kinglion.furnet.org, running version Unreal3.2.10.4
+2018-09-17 21:26:03	--	This server was created Thu Oct 2 2014 at 07:45:42 CEST
+2018-09-17 21:26:03	--	kinglion.furnet.org Unreal3.2.10.4 iowghraAsORTVSxNCWqBzvdHtGpI lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2018-09-17 21:26:03	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=20 CHANLIMIT=#:20 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2018-09-17 21:26:03	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=FurNet CASEMAPPING=ascii EXTBAN=~,qjncrRa ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2018-09-17 21:26:03	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP,STARTTLS :are supported by this server
+2018-09-17 21:26:03	--	There are 457 users and 662 invisible on 8 servers
+2018-09-17 21:26:03	--	15 :operator(s) online
+2018-09-17 21:26:03	--	816 :channels formed
+2018-09-17 21:26:03	--	I have 142 clients and 1 servers
+2018-09-17 21:26:03	--	142 447 :Current local users 142, max 447
+2018-09-17 21:26:03	--	1119 6083 :Current global users 1119, max 6083
+2018-09-17 21:26:03	--	- kinglion.furnet.org Message of the Day -
+2018-09-17 21:26:03	--	- 18/11/2014 6:01
+2018-09-17 21:26:03	--	-
+2018-09-17 21:26:03	--	-
+2018-09-17 21:26:03	--	-
+2018-09-17 21:26:03	--	- Server:     kinglion.furnet.org
+2018-09-17 21:26:03	--	- Ports:      6667, 7000
+2018-09-17 21:26:03	--	- SecurePort: 6697
+2018-09-17 21:26:03	--	- Location:   Vienna, Austria, Europe
+2018-09-17 21:26:03	--	- Admin:      King Taibu  <kingtaibu@lionking.at>
+2018-09-17 21:26:03	--	-
+2018-09-17 21:26:03	--	- _______________________________________________________________________________
+2018-09-17 21:26:03	--	-
+2018-09-17 21:26:03	--	- O-lines on this server:
+2018-09-17 21:26:03	--	- KingTaibu, Hurga, Zetawolf, Eisfuchs
+2018-09-17 21:26:03	--	-
+2018-09-17 21:26:03	--	- Other FurNet-servers:   (Ports 6667 and 7000)
+2018-09-17 21:26:03	--	- alicorn.furnet.org      Brisbane, QLD Australia
+2018-09-17 21:26:03	--	- panther.furnet.org      Frankfurt, Germany, Europe
+2018-09-17 21:26:03	--	- wolf.furnet.org         Freemont, California, Usa
+2018-09-17 21:26:03	--	- lynx.furnet.org         Nuernberg, Germany
+2018-09-17 21:26:03	--	- foxtaur.furnet.org      Baltimore, MD, USA
+2018-09-17 21:26:03	--	- coyote.furnet.org       Singapore
+2018-09-17 21:26:03	--	-
+2018-09-17 21:26:03	--	-
+2018-09-17 21:26:03	--	- Regional DNS rotated servers:
+2018-09-17 21:26:03	--	-
+2018-09-17 21:26:03	--	- irc.furnet.org    World     all servers
+2018-09-17 21:26:03	--	- eu.furnet.org     Europe    panther, kinglion, and lynx
+2018-09-17 21:26:03	--	- us.irc.furnet.org USA       foxtaur and wolf
+2018-09-17 21:26:03	--	-
+2018-09-17 21:26:03	--	-
+2018-09-17 21:26:03	--	- Server Name      Operator's nick:
+2018-09-17 21:26:03	--	- Alicorn          Snowpony
+2018-09-17 21:26:03	--	- Coyote           ShivalWolf
+2018-09-17 21:26:03	--	- Foxtaur          Foxxz
+2018-09-17 21:26:03	--	- Kinglion         King Taibu (KingLoewi)
+2018-09-17 21:26:03	--	- Lynx             Eisfuchs
+2018-09-17 21:26:03	--	- Panther          Hurga
+2018-09-17 21:26:03	--	- Wolf             ZetaWolf
+2018-09-17 21:26:03	--	-
+2018-09-17 21:26:03	--	-
+2018-09-17 21:26:03	--	- Furnet channel registration, mailing list, and more can be
+2018-09-17 21:26:03	--	- found by visiting:
+2018-09-17 21:26:03	--	- http://www.furnet.org/
+2018-09-17 21:26:03	--	-
+2018-09-17 21:26:03	--	- This server checks if you're using an insecure proxy. If you see any
+2018-09-17 21:26:03	--	- connections on various ports from opm.furnet.org (120.88.64.56)
+2018-09-17 21:26:03	--	- please disregard it, as it is the detector in action.  See
+2018-09-17 21:26:03	--	- http://www.furnet.org for information about our proxy policy.
+2018-09-17 21:26:03	--	-
+2018-09-17 21:26:03	--	- If you are having server problems please contact the Furnet admins
+2018-09-17 21:26:03	--	- (ATTN: KingTaibu - KingLoewi) via the mail form located at:
+2018-09-17 21:26:03	--	- http://www.furnet.org/
+2018-09-17 21:26:03	--	-
+2018-09-17 21:26:03	--	- Web IRC interfaces: Please do not provide them specifically for
+2018-09-17 21:26:03	--	- connecting to FurNet. If a web interface is required see #FurNet
+2018-09-17 21:26:03	--	- and inquire there for one.
+2018-09-17 21:26:03	--	-
+2018-09-17 21:26:03	--	- Rules:
+2018-09-17 21:26:03	--	-
+2018-09-17 21:26:03	--	- * NO Excessive Connections (Commonly known as cloning)
+2018-09-17 21:26:03	--	- * NO War Bots or War Scripts (Ask before running ANY bot)
+2018-09-17 21:26:03	--	- * NO Mass Advertising
+2018-09-17 21:26:03	--	- * NO Nuking or DoS (Denial of Services) attacks
+2018-09-17 21:26:03	--	- * NO Harrassment of fellow users
+2018-09-17 21:26:03	--	- * NO Illegal Activity
+2018-09-17 21:26:03	--	- * NO Flooding
+2018-09-17 21:26:03	--	- * Please USE common sense.
+2018-09-17 21:26:03	--	-
+2018-09-17 21:26:03	--	- See http://www.furnet.org for a full list
+2018-09-17 21:26:03	--	- of Furnet Policy.  By connecting to this network you agree to be bound to these
+2018-09-17 21:26:03	--	- Rules of Conduct. FurNet administration or their agents reserve the
+2018-09-17 21:26:03	--	- right to refuse access to any user on any FurNet server.
+2018-09-17 21:26:03	--	-
+2018-09-17 21:26:03	--	- *** IMPORTANT NOTICE***
+2018-09-17 21:26:03	--	-
+2018-09-17 21:26:03	--	- By connecting to FurNet IRC and or any of its services you agree That
+2018-09-17 21:26:03	--	- you are connecting to FurNet IRC at your own free will with no
+2018-09-17 21:26:03	--	- guarentee or promise of service. FurNet IRC is NOT responsible for any damages
+2018-09-17 21:26:03	--	- incured while visting FurNet IRC and you do so at your own risk. Though we try
+2018-09-17 21:26:03	--	- to keep users up to day with known security issues, it is the users
+2018-09-17 21:26:03	--	- responsibility to make sure his/her Machine is secure.
+2018-09-17 21:26:03	--	-
+2018-09-17 21:26:03	--	- FurNet can contain mature material.  Users under 18 should only
+2018-09-17 21:26:03	--	- use this service under the supervision of an adult.  Some channels may
+2018-09-17 21:26:03	--	- contain offensive material.  There are many channels that may be
+2018-09-17 21:26:03	--	- offensive or illegal in your country/state.  Do not enter channels
+2018-09-17 21:26:03	--	- that are illegal in your home town.  All TOPICS should be kept clean
+2018-09-17 21:26:03	--	- and PG-13 rated.
+2018-09-17 21:26:03	--	-
+2018-09-17 21:26:03	--	- If you have IRC-related problems, you can get help on #FurNet.
+2018-09-17 21:26:03	--	- Please do not idle on #FurNet if no one is available at that moment
+2018-09-17 21:26:03	--	- please leave your message on the channel and someone will get back
+2018-09-17 21:26:03	--	- to you as soon as possible.
+2018-09-17 21:26:03	--	End of /MOTD command.
+2018-09-17 21:26:03	--	irc: disconnected from server
+2018-09-18 00:05:32	--	irc: connecting to server irc.furnet.org/6667...
+2018-09-18 00:05:32	--	irc: connected to irc.furnet.org/6667 (119.9.41.53)
+2018-09-18 00:05:33	--	alicorn.furnet.org: *** Looking up your hostname...
+2018-09-18 00:05:33	--	alicorn.furnet.org: *** Checking ident...
+2018-09-18 00:05:33	--	alicorn.furnet.org: *** No ident response; username prefixed with ~
+2018-09-18 00:05:33	--	alicorn.furnet.org: *** Found your hostname
+2018-09-18 00:05:34	--	irc: nickname "Cake" is already in use, trying nickname "Kirjava"
+2018-09-18 00:05:34	--	CTCP requested by IRC: VERSION
+2018-09-18 00:05:34	--	CTCP reply to IRC: VERSION WeeChat 2.2 (Jul 14 2018 14:59:20)
+2018-09-18 00:05:34	--	Welcome to the FurNet IRC Network Kirjava!~cake@183.ip-51-254-223.eu
+2018-09-18 00:05:34	--	Your host is alicorn.furnet.org, running version Unreal3.2.10.6
+2018-09-18 00:05:34	--	This server was created Sat Dec 12 2015 at 16:13:29 AEST
+2018-09-18 00:05:34	--	alicorn.furnet.org Unreal3.2.10.6 iowghraAsORTVSxNCWqBzvdHtGpI lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2018-09-18 00:05:34	--	CMDS=KNOCK,MAP,DCCALLOW,USERIP,STARTTLS UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=20 CHANLIMIT=#:20 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 :are supported by this server
+2018-09-18 00:05:34	--	MAXTARGETS=20 WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=FurNet CASEMAPPING=ascii EXTBAN=~,qjncrRa ELIST=MNUCT :are supported by this server
+2018-09-18 00:05:34	--	STATUSMSG=~&@%+ EXCEPTS INVEX :are supported by this server
+2018-09-18 00:05:34	--	There are 434 users and 643 invisible on 8 servers
+2018-09-18 00:05:34	--	15 :operator(s) online
+2018-09-18 00:05:34	--	818 :channels formed
+2018-09-18 00:05:34	--	I have 150 clients and 0 servers
+2018-09-18 00:05:34	--	150 500 :Current local users 150, max 500
+2018-09-18 00:05:34	--	1077 6083 :Current global users 1077, max 6083
+2018-09-18 00:05:34	--	- alicorn.furnet.org Message of the Day -
+2018-09-18 00:05:34	--	- 26/12/2014 11:56
+2018-09-18 00:05:34	--	- Welcome to...
+2018-09-18 00:05:34	--	-   ______,_,
+2018-09-18 00:05:34	--	-  =_=_=_= \ \      ,%%%,
+2018-09-18 00:05:34	--	-   = = = \ \ \    ,%%%` %==-- Alicorn.FurNet.Org
+2018-09-18 00:05:34	--	-    = = = = \ \  ,%%`( '|     Ports:      6666-6669,7000 & SSL on 6697
+2018-09-18 00:05:34	--	-     =_=_=_\ \ \,%%@ /\_/     Location:   Sydney, NSW AU
+2018-09-18 00:05:34	--	-      ,%.-"""-\%%% "@@__      Admins:     Snowpony
+2018-09-18 00:05:34	--	-     %%/             |__`\                Stephen
+2018-09-18 00:05:34	--	-   ,%%'\     |   \   /  //                admin@alicorn.furnet.org
+2018-09-18 00:05:34	--	-  ,%%%'_>   .'----\ /  [/     User limit: 1000
+2018-09-18 00:05:34	--	-  %,%'__\  /`[.____/
+2018-09-18 00:05:34	--	-   [,__.__/
+2018-09-18 00:05:34	--	-  [/
+2018-09-18 00:05:34	--	-
+2018-09-18 00:05:34	--	- Other FurNet Servers: (Ports 6667 and 7000 + SSL port 6697)
+2018-09-18 00:05:34	--	-  coyote.furnet.org    Singapore City, Singapore
+2018-09-18 00:05:34	--	-  foxtaur.furnet.org   Baltimore, MD USA
+2018-09-18 00:05:34	--	-  greylion.furnet.org  Vienna, Austria
+2018-09-18 00:05:34	--	-  lynx.furnet.org      Nuernberg, Germany
+2018-09-18 00:05:34	--	-  panther.furnet.org   Frankfurt, Germany
+2018-09-18 00:05:34	--	-  wolf.furnet.org      Fremont, CA USA
+2018-09-18 00:05:34	--	-
+2018-09-18 00:05:34	--	- FurNet User's mailing list now available.  Go to
+2018-09-18 00:05:34	--	- http://greylion.furnet.org/mailman/listinfo/furnet-users
+2018-09-18 00:05:34	--	- to subscribe.
+2018-09-18 00:05:34	--	-
+2018-09-18 00:05:34	--	- For more information about FurNet, refer to
+2018-09-18 00:05:34	--	- http://www.furnet.org/
+2018-09-18 00:05:34	--	-
+2018-09-18 00:05:34	--	- NOTE: Alicorn does not accept any connection from CHINA due to
+2018-09-18 00:05:34	--	- the amount of hack attempts that come from this region - apologies!
+2018-09-18 00:05:34	--	-
+2018-09-18 00:05:34	--	- This server checks if you're using an insecure proxy. If you see any
+2018-09-18 00:05:34	--	- connections on various ports (including 23, 1080, 3128 or 8080) from
+2018-09-18 00:05:34	--	- opm.furnet.org (203.55.174.174) please disregard it, as it is the
+2018-09-18 00:05:34	--	- detector in action.
+2018-09-18 00:05:34	--	-
+2018-09-18 00:05:34	--	- Please USE common sense.
+2018-09-18 00:05:34	--	-
+2018-09-18 00:05:34	--	- See http://www.furnet.org/wiki/index.php/Code_Of_Conduct_Users for
+2018-09-18 00:05:34	--	- the User Code of Conduct.  By connecting to this network you agree to
+2018-09-18 00:05:34	--	- be bound to this and all other polices listed on the website.
+2018-09-18 00:05:34	--	-
+2018-09-18 00:05:34	--	- If you have IRC-related problems, you can get help on #furnet.
+2018-09-18 00:05:34	--	-
+2018-09-18 00:05:34	--	- IMPORTANT NOTICE
+2018-09-18 00:05:34	--	-
+2018-09-18 00:05:34	--	- By connecting to FurNet IRC or any of its services you agree that you
+2018-09-18 00:05:34	--	- are connecting to FurNet IRC at your own free will with no guarentee
+2018-09-18 00:05:34	--	- f delivery of service.  FurNet IRC is NOT responsible for any damages
+2018-09-18 00:05:34	--	- incured while visting FurNet IRC and you do so at your own risk.
+2018-09-18 00:05:34	--	- Though we try to keep users up to day with known security and privacy
+2018-09-18 00:05:34	--	- issues, it is the users responsibility to make sure their machine and
+2018-09-18 00:05:34	--	- privacy is secure.
+2018-09-18 00:05:34	--	-
+2018-09-18 00:05:34	--	- FurNet can contain mature material.  Users under 18 should only
+2018-09-18 00:05:34	--	- use this service under the supervision of an adult.  Some channels may
+2018-09-18 00:05:34	--	- contain offensive material.  There are many channels that may be
+2018-09-18 00:05:34	--	- offensive or illegal in your country/state.  Do not enter channels
+2018-09-18 00:05:34	--	- that are illegal in your home town.  All TOPICS should be kept clean
+2018-09-18 00:05:34	--	- and PG-13 rated.
+2018-09-18 00:05:34	--	-
+2018-09-18 00:05:34	--	- Limitation of Liablity
+2018-09-18 00:05:34	--	-
+2018-09-18 00:05:34	--	- FurNet total aggregate liablity for any claim in negligence or
+2018-09-18 00:05:34	--	- otherwise arising out of or in connection to the FurNet network
+2018-09-18 00:05:34	--	- shall be limited to the charges paid for utilising FurNet (currently
+2018-09-18 00:05:34	--	- ZERO US dollars).
+2018-09-18 00:05:34	--	-
+2018-09-18 00:05:35	--	- In any event no claim shall be brought unless you have notified Furnet
+2018-09-18 00:05:35	--	- of the claim within 6 months of it arising.
+2018-09-18 00:05:35	--	-
+2018-09-18 00:05:35	--	- In no event shall FurNet ever be liable to you for any loss of business,
+2018-09-18 00:05:35	--	- contracts, profits or anticipated savings or for any other indirect or
+2018-09-18 00:05:35	--	- consequential or economic loss whatsoever.
+2018-09-18 00:05:35	--	End of /MOTD command.
+2018-09-18 00:05:35	--	User mode [+iwx] by Kirjava
+2018-09-18 00:05:35	--	Global (services@irc.furnet.org): [Logon News - Oct 29 2014] Have you read the Code of Conduct for Users? Go to http://www.furnet.org/wiki/index.php/Code_Of_Conduct_Users - this applies to ALL users!
+2018-09-18 00:05:35	--	Global (services@irc.furnet.org): [Random News - Oct 25 2004] Services Tip #1: Have Nickserv Auto Identify your password, Put your password into your Server Connect Password Field.
+2018-09-18 00:37:10	--	irc: disconnected from server
+2018-09-18 12:18:25	--	irc: connecting to server irc.furnet.org/6667...
+2018-09-18 12:18:25	--	irc: connected to irc.furnet.org/6667 (46.4.89.187)
+2018-09-18 12:18:25	--	lynx.furnet.org: *** Looking up your hostname...
+2018-09-18 12:18:25	--	lynx.furnet.org: *** Checking ident...
+2018-09-18 12:18:25	--	lynx.furnet.org: *** No ident response; username prefixed with ~
+2018-09-18 12:18:26	--	lynx.furnet.org: *** Found your hostname
+2018-09-18 12:18:26	--	irc: nickname "Cake" is already in use, trying nickname "Kirjava"
+2018-09-18 12:18:26	--	CTCP requested by IRC: VERSION
+2018-09-18 12:18:26	--	CTCP reply to IRC: VERSION WeeChat 2.2 (Jul 14 2018 14:59:20)
+2018-09-18 12:18:26	--	Welcome to the FurNet IRC Network Kirjava!~cake@183.ip-51-254-223.eu
+2018-09-18 12:18:26	--	Your host is lynx.furnet.org, running version Unreal3.2.10.2
+2018-09-18 12:18:26	--	This server was created Di 10. Dez 2013 at 12:50:49 CET
+2018-09-18 12:18:26	--	lynx.furnet.org Unreal3.2.10.2 iowghraAsORTVSxNCWqBzvdHtGpI lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2018-09-18 12:18:26	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=20 CHANLIMIT=#:20 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2018-09-18 12:18:26	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=FurNet CASEMAPPING=ascii EXTBAN=~,qjncrRa ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2018-09-18 12:18:26	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP,STARTTLS :are supported by this server
+2018-09-18 12:18:26	--	There are 415 users and 611 invisible on 8 servers
+2018-09-18 12:18:26	--	15 :operator(s) online
+2018-09-18 12:18:26	--	788 :channels formed
+2018-09-18 12:18:26	--	I have 118 clients and 1 servers
+2018-09-18 12:18:26	--	118 1000 :Current local users 118, max 1000
+2018-09-18 12:18:26	--	1026 6083 :Current global users 1026, max 6083
+2018-09-18 12:18:26	--	- lynx.furnet.org Message of the Day -
+2018-09-18 12:18:26	--	- 5/4/2011 4:19
+2018-09-18 12:18:26	--	-        ,                    ,  Welcome to                     };{
+2018-09-18 12:18:26	--	-       `\\                  //'
+2018-09-18 12:18:26	--	-         \|                |/       _
+2018-09-18 12:18:26	--	-         |\                /|      // _ _ __ _  _
+2018-09-18 12:18:26	--	-         [ `.            .' ]     // ((////))>><<
+2018-09-18 12:18:26	--	-         [   `.--==--==:''  ]     ¯¯¯ )) ¯ ¯ ¯  ¯ °
+2018-09-18 12:18:26	--	-         |_ -'.` :: : ' `-  |      __¯¯      _ _    _   __
+2018-09-18 12:18:26	--	-         ]'  '_ :  : : _  ` [     // _ _ __ /|//__-//- //))__ ___
+2018-09-18 12:18:26	--	-         /   __       __    |    //¯((//// //|/((-//  ((//// ((//
+2018-09-18 12:18:26	--	-        | .:`.1`,   .'1,':.  \   ¯   ¯¯ ¯  ¯ ¯  ¯ ¯ °  ¯¯ ¯   ))
+2018-09-18 12:18:26	--	-        /  .   ¯|   |¯    `' |                               ¯¯
+2018-09-18 12:18:26	--	-      _/ .;___/ /___\ \___,  \   Server:     lynx.furnet.org
+2018-09-18 12:18:26	--	-    _//   ----: 'o o' :---- : |  Ports:      6667, 7000, 6697 (SSL)
+2018-09-18 12:18:26	--	-  _//   . '¯¯¯ '--^--' ¯¯¯` ; |  Location:   Falkenstein, Germany
+2018-09-18 12:18:26	--	- //  .  ::     `.___,'      :/   Admin:      Eisfuchs
+2018-09-18 12:18:26	--	- 7  ::    :. \         /   ::|   Contact:    eisfuchs@tigress.com
+2018-09-18 12:18:26	--	-                                 User limit: 1000
+2018-09-18 12:18:26	--	- _________________________________________________________________
+2018-09-18 12:18:26	--	-
+2018-09-18 12:18:26	--	-  Other FurNet-servers: (Ports 6667 and 6697)
+2018-09-18 12:18:26	--	-      panther.furnet.org   Frankfurt, Germany
+2018-09-18 12:18:26	--	-      alicorn.furnet.org   Fort Lauderdale, FL, USA
+2018-09-18 12:18:26	--	-         wolf.furnet.org   Redwood City, CA, USA
+2018-09-18 12:18:26	--	-     greylion.furnet.org   Vienna, Austria
+2018-09-18 12:18:26	--	-
+2018-09-18 12:18:26	--	- IRC Operator responsible for this server:
+2018-09-18 12:18:26	--	- Eisfuchs
+2018-09-18 12:18:26	--	-
+2018-09-18 12:18:26	--	- General Contact: http://mailform.furnet.org/mailform5.html
+2018-09-18 12:18:26	--	- Bot policy: http://www.furnet.org/index.php?page=Furnet%20Bot%20Policy
+2018-09-18 12:18:26	--	- Channel Registration: http://www.furnet.org/channel_request.html
+2018-09-18 12:18:26	--	-
+2018-09-18 12:18:26	--	- Web IRC interfaces: Please do not provide them specifically for
+2018-09-18 12:18:26	--	- connecting to FurNet. It has been found that they tend to attract
+2018-09-18 12:18:26	--	- annoying individuals. A password-protected (for tracking abuse
+2018-09-18 12:18:26	--	- issues) web IRC client is avaliable - ask the admin.
+2018-09-18 12:18:26	--	End of /MOTD command.
+2018-09-18 12:18:26	--	Global (services@irc.furnet.org): [Logon News - Oct 29 2014] Have you read the Code of Conduct for Users? Go to http://www.furnet.org/wiki/index.php/Code_Of_Conduct_Users - this applies to ALL users!
+2018-09-18 12:18:26	--	Global (services@irc.furnet.org): [Random News - Oct 25 2004] Running mIRC? Make sure you are running the latest to fix critical vulnerabilities - see http://www.mirc.com/get.html to update your copy now!
+2018-09-18 12:19:59	--	irc: disconnected from server
+2018-09-18 16:16:16	--	irc: connecting to server irc.furnet.org/6667...
+2018-09-18 16:16:16	--	irc: connected to irc.furnet.org/6667 (221.121.142.13)
+2018-09-18 16:16:17	--	coyote.furnet.org: *** Looking up your hostname...
+2018-09-18 16:16:17	--	coyote.furnet.org: *** Checking ident...
+2018-09-18 16:16:17	--	coyote.furnet.org: *** No ident response; username prefixed with ~
+2018-09-18 16:16:19	--	coyote.furnet.org: *** Found your hostname
+2018-09-18 16:16:20	--	irc: nickname "Cake" is already in use, trying nickname "Kirjava"
+2018-09-18 16:16:20	--	CTCP requested by IRC: VERSION
+2018-09-18 16:16:20	--	CTCP reply to IRC: VERSION WeeChat 2.2 (Jul 14 2018 14:59:20)
+2018-09-18 16:16:20	--	Welcome to the FurNet IRC Network Kirjava!~cake@183.ip-51-254-223.eu
+2018-09-18 16:16:20	--	Your host is coyote.furnet.org, running version Unreal3.2.10.2
+2018-09-18 16:16:20	--	This server was created Friday 16 December 2016 at 07:53:12 AEDT
+2018-09-18 16:16:20	--	coyote.furnet.org Unreal3.2.10.2 iowghraAsORTVSxNCWqBzvdHtGpI lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2018-09-18 16:16:20	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=20 CHANLIMIT=#:20 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2018-09-18 16:16:20	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=FurNet CASEMAPPING=ascii EXTBAN=~,qjncrRa ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2018-09-18 16:16:20	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP,STARTTLS :are supported by this server
+2018-09-18 16:16:20	--	There are 420 users and 631 invisible on 8 servers
+2018-09-18 16:16:20	--	15 :operator(s) online
+2018-09-18 16:16:20	--	1 :unknown connection(s)
+2018-09-18 16:16:20	--	807 :channels formed
+2018-09-18 16:16:20	--	I have 116 clients and 0 servers
+2018-09-18 16:16:20	--	116 1025 :Current local users 116, max 1025
+2018-09-18 16:16:20	--	1051 6083 :Current global users 1051, max 6083
+2018-09-18 16:16:20	--	- coyote.furnet.org Message of the Day -
+2018-09-18 16:16:20	--	- 6/7/2010 21:43
+2018-09-18 16:16:20	--	- Welcome to...
+2018-09-18 16:16:20	--	-      __                 __
+2018-09-18 16:16:20	--	-    .` `:.            .:` `.
+2018-09-18 16:16:20	--	-    '    \\          //    '
+2018-09-18 16:16:20	--	-    '.    ''.______.''    .'
+2018-09-18 16:16:20	--	-      .                  .
+2018-09-18 16:16:20	--	-     '     __       __    '           Coyote.FurNet.Org
+2018-09-18 16:16:20	--	-    :     (_o'.   .'o_)    :    Ports:      6666-6669,7000 & SSL on 6697
+2018-09-18 16:16:20	--	-    '.        '   '       .'    Location:   Sydney, Australia
+2018-09-18 16:16:20	--	-       '..    '   '    ..'      Admins:     ShivalWolf
+2018-09-18 16:16:20	--	-          ''.  :x:  .''                     Tursiae
+2018-09-18 16:16:20	--	-             : xxx :                        admin@coyote.furnet.org
+2018-09-18 16:16:20	--	-              '==='             User limit: 1000
+2018-09-18 16:16:20	--	-
+2018-09-18 16:16:20	--	-
+2018-09-18 16:16:20	--	- Other FurNet Servers: http://www.furnet.org/index.php?page=Servers
+2018-09-18 16:16:20	--	-
+2018-09-18 16:16:20	--	- Furnet Servers SSL Details. SSL PORT: 6697
+2018-09-18 16:16:20	--	- Server Name          Certificate Fingerprint
+2018-09-18 16:16:20	--	- Intermediary CA      68:93:70:97:D1:C0:22:5C:E1:9B:EA:A3:D1:0A:47:9C:6C:19:21:86
+2018-09-18 16:16:20	--	- Root CA              C4:9C:E7:14:F0:AF:49:41:65:E0:B9:2B:0A:B8:D3:12:F4:F6:31:A6
+2018-09-18 16:16:20	--	- coyote.furnet.org    D8:E0:FA:F7:AA:53:2A:BD:84:97:41:E2:DA:07:1F:85:39:CF:A1:56
+2018-09-18 16:16:20	--	- alicorn.furnet.org   D1:9D:3C:EA:AD:4F:26:36:0D:98:86:EC:0C:E0:97:94:74:0A:4A:AE
+2018-09-18 16:16:20	--	- kinglion.furnet.org  C3:5E:C7:B2:FE:1E:5C:77:30:D6:86:EA:44:35:A2:24:44:6C:5A:3D
+2018-09-18 16:16:20	--	- panther.furnet.org   40:4C:DB:25:70:F2:D1:5F:5F:92:8B:C2:BC:9D:52:C3:19:45:0D:8D
+2018-09-18 16:16:20	--	- lynx.furnet.org      88:2F:E0:D0:67:58:E9:30:20:1D:86:89:2A:6B:9B:93:35:4F:0D:7E
+2018-09-18 16:16:20	--	- wolf.furnet.org      1C:97:7A:43:E9:6D:A0:A4:C1:E2:8A:EF:CE:AE:41:85:9B:29:40:9E
+2018-09-18 16:16:20	--	- foxtaur.furnet.org   8A:D4:46:08:C8:D4:73:40:BA:A8:79:B3:08:F4:6D:4D:EC:51:08:A4
+2018-09-18 16:16:20	--	-
+2018-09-18 16:16:20	--	-
+2018-09-18 16:16:20	--	- FurNet User's mailing list now available.  Go to
+2018-09-18 16:16:20	--	- http://greylion.furnet.org/mailman/listinfo/furnet-users
+2018-09-18 16:16:20	--	- to subscribe.
+2018-09-18 16:16:20	--	-
+2018-09-18 16:16:20	--	- For more information about FurNet, refer to
+2018-09-18 16:16:20	--	- http://www.furnet.org/
+2018-09-18 16:16:20	--	-
+2018-09-18 16:16:20	--	- This server checks if you're using an insecure proxy. If you see any
+2018-09-18 16:16:20	--	- connections on various ports (including 23, 1080, 3128 or 8080) from
+2018-09-18 16:16:20	--	- opm.furnet.org (203.55.174.174) please disregard it, as it is the
+2018-09-18 16:16:20	--	- detector in action.
+2018-09-18 16:16:20	--	-
+2018-09-18 16:16:20	--	- Please USE common sense.
+2018-09-18 16:16:20	--	-
+2018-09-18 16:16:20	--	- See http://www.furnet.org/documentation/ for a full list of Furnet
+2018-09-18 16:16:20	--	- Policy.  By connecting to this network you agree to be bound to these
+2018-09-18 16:16:20	--	- Rules of Conduct.
+2018-09-18 16:16:20	--	-
+2018-09-18 16:16:20	--	- If you have IRC-related problems, you can get help on #furnet.
+2018-09-18 16:16:20	--	-
+2018-09-18 16:16:20	--	- IMPORTANT NOTICE
+2018-09-18 16:16:20	--	-
+2018-09-18 16:16:20	--	- By connecting to FurNet IRC or any of its services you agree that you
+2018-09-18 16:16:20	--	- are connecting to FurNet IRC at your own free will with no guarentee
+2018-09-18 16:16:20	--	- of delivery of service.  FurNet IRC is NOT responsible for any damages
+2018-09-18 16:16:20	--	- incured while visting FurNet IRC and you do so at your own risk.
+2018-09-18 16:16:20	--	- Though we try to keep users up to day with known security and privacy
+2018-09-18 16:16:20	--	- issues, it is the users responsibility to make sure their machine and
+2018-09-18 16:16:20	--	- privacy is secure.
+2018-09-18 16:16:20	--	-
+2018-09-18 16:16:20	--	- FurNet can contain mature material.  Users under 18 should only
+2018-09-18 16:16:20	--	- use this service under the supervision of an adult.  Some channels may
+2018-09-18 16:16:20	--	- contain offensive material.  There are many channels that may be
+2018-09-18 16:16:20	--	- offensive or illegal in your country/state.  Do not enter channels
+2018-09-18 16:16:20	--	- that are illegal in your home town.  All TOPICS should be kept clean
+2018-09-18 16:16:20	--	- and PG-13 rated.
+2018-09-18 16:16:20	--	-
+2018-09-18 16:16:20	--	- Limitation of Liablity
+2018-09-18 16:16:20	--	-
+2018-09-18 16:16:20	--	- FurNet total aggregate liablity for any claim in negligence or
+2018-09-18 16:16:20	--	- otherwise arising out of or in connection to the FurNet network
+2018-09-18 16:16:20	--	- shall be limited to the charges paid for utilising FurNet (currently
+2018-09-18 16:16:20	--	- ZERO US dollars).
+2018-09-18 16:16:20	--	-
+2018-09-18 16:16:20	--	- In any event no claim shall be brought unless you have notified Furnet
+2018-09-18 16:16:20	--	- of the claim within 6 months of it arising.
+2018-09-18 16:16:20	--	-
+2018-09-18 16:16:20	--	- In no event shall FurNet ever be liable to you for any loss of business,
+2018-09-18 16:16:20	--	- contracts, profits or anticipated savings or for any other indirect or
+2018-09-18 16:16:20	--	- consequential or economic loss whatsoever.
+2018-09-18 16:16:20	--	End of /MOTD command.
+2018-09-18 16:16:20	--	Global (services@irc.furnet.org): [Logon News - Oct 29 2014] Have you read the Code of Conduct for Users? Go to http://www.furnet.org/wiki/index.php/Code_Of_Conduct_Users - this applies to ALL users!
+2018-09-18 16:16:20	--	Global (services@irc.furnet.org): [Random News - Oct 25 2004] Services Hint #4: If you are using more than one nickname, use the GROUP command to tie them together in group. See /msg nickserv help group for instructions. NOTE: If you use the Group function on a nickname which already exists, you will lose all things attached to that nick, such as channels, auto-ops, etc... Keep that in mind when using the group function, and group you new nick to the old one, not the other way around.
+2018-09-18 16:22:46	--	irc: disconnected from server
+2018-09-18 21:02:32	--	irc: connecting to server irc.furnet.org/6667...
+2018-09-18 21:02:33	--	irc: connected to irc.furnet.org/6667 (221.121.142.13)
+2018-09-18 21:02:33	--	coyote.furnet.org: *** Looking up your hostname...
+2018-09-18 21:02:33	--	coyote.furnet.org: *** Checking ident...
+2018-09-18 21:02:34	--	coyote.furnet.org: *** No ident response; username prefixed with ~
+2018-09-18 21:02:34	--	coyote.furnet.org: *** Found your hostname
+2018-09-18 21:02:35	--	CTCP requested by IRC: VERSION
+2018-09-18 21:02:35	--	CTCP reply to IRC: VERSION WeeChat 2.2 (Jul 14 2018 14:59:20)
+2018-09-18 21:02:35	--	Welcome to the FurNet IRC Network Cake!~cake@183.ip-51-254-223.eu
+2018-09-18 21:02:35	--	Your host is coyote.furnet.org, running version Unreal3.2.10.2
+2018-09-18 21:02:35	--	This server was created Friday 16 December 2016 at 07:53:12 AEDT
+2018-09-18 21:02:35	--	coyote.furnet.org Unreal3.2.10.2 iowghraAsORTVSxNCWqBzvdHtGpI lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2018-09-18 21:02:35	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=20 CHANLIMIT=#:20 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2018-09-18 21:02:35	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=FurNet CASEMAPPING=ascii EXTBAN=~,qjncrRa ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2018-09-18 21:02:35	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP,STARTTLS :are supported by this server
+2018-09-18 21:02:35	--	There are 456 users and 660 invisible on 8 servers
+2018-09-18 21:02:35	--	15 :operator(s) online
+2018-09-18 21:02:35	--	813 :channels formed
+2018-09-18 21:02:35	--	I have 121 clients and 0 servers
+2018-09-18 21:02:35	--	121 1025 :Current local users 121, max 1025
+2018-09-18 21:02:35	--	1116 6083 :Current global users 1116, max 6083
+2018-09-18 21:02:35	--	- coyote.furnet.org Message of the Day -
+2018-09-18 21:02:35	--	- 6/7/2010 21:43
+2018-09-18 21:02:35	--	- Welcome to...
+2018-09-18 21:02:35	--	-      __                 __
+2018-09-18 21:02:35	--	-    .` `:.            .:` `.
+2018-09-18 21:02:35	--	-    '    \\          //    '
+2018-09-18 21:02:35	--	-    '.    ''.______.''    .'
+2018-09-18 21:02:35	--	-      .                  .
+2018-09-18 21:02:35	--	-     '     __       __    '           Coyote.FurNet.Org
+2018-09-18 21:02:35	--	-    :     (_o'.   .'o_)    :    Ports:      6666-6669,7000 & SSL on 6697
+2018-09-18 21:02:35	--	-    '.        '   '       .'    Location:   Sydney, Australia
+2018-09-18 21:02:35	--	-       '..    '   '    ..'      Admins:     ShivalWolf
+2018-09-18 21:02:35	--	-          ''.  :x:  .''                     Tursiae
+2018-09-18 21:02:35	--	-             : xxx :                        admin@coyote.furnet.org
+2018-09-18 21:02:35	--	-              '==='             User limit: 1000
+2018-09-18 21:02:35	--	-
+2018-09-18 21:02:35	--	-
+2018-09-18 21:02:35	--	- Other FurNet Servers: http://www.furnet.org/index.php?page=Servers
+2018-09-18 21:02:35	--	-
+2018-09-18 21:02:35	--	- Furnet Servers SSL Details. SSL PORT: 6697
+2018-09-18 21:02:35	--	- Server Name          Certificate Fingerprint
+2018-09-18 21:02:35	--	- Intermediary CA      68:93:70:97:D1:C0:22:5C:E1:9B:EA:A3:D1:0A:47:9C:6C:19:21:86
+2018-09-18 21:02:35	--	- Root CA              C4:9C:E7:14:F0:AF:49:41:65:E0:B9:2B:0A:B8:D3:12:F4:F6:31:A6
+2018-09-18 21:02:35	--	- coyote.furnet.org    D8:E0:FA:F7:AA:53:2A:BD:84:97:41:E2:DA:07:1F:85:39:CF:A1:56
+2018-09-18 21:02:35	--	- alicorn.furnet.org   D1:9D:3C:EA:AD:4F:26:36:0D:98:86:EC:0C:E0:97:94:74:0A:4A:AE
+2018-09-18 21:02:35	--	- kinglion.furnet.org  C3:5E:C7:B2:FE:1E:5C:77:30:D6:86:EA:44:35:A2:24:44:6C:5A:3D
+2018-09-18 21:02:35	--	- panther.furnet.org   40:4C:DB:25:70:F2:D1:5F:5F:92:8B:C2:BC:9D:52:C3:19:45:0D:8D
+2018-09-18 21:02:35	--	- lynx.furnet.org      88:2F:E0:D0:67:58:E9:30:20:1D:86:89:2A:6B:9B:93:35:4F:0D:7E
+2018-09-18 21:02:35	--	- wolf.furnet.org      1C:97:7A:43:E9:6D:A0:A4:C1:E2:8A:EF:CE:AE:41:85:9B:29:40:9E
+2018-09-18 21:02:35	--	- foxtaur.furnet.org   8A:D4:46:08:C8:D4:73:40:BA:A8:79:B3:08:F4:6D:4D:EC:51:08:A4
+2018-09-18 21:02:35	--	-
+2018-09-18 21:02:35	--	-
+2018-09-18 21:02:35	--	- FurNet User's mailing list now available.  Go to
+2018-09-18 21:02:35	--	- http://greylion.furnet.org/mailman/listinfo/furnet-users
+2018-09-18 21:02:35	--	- to subscribe.
+2018-09-18 21:02:35	--	-
+2018-09-18 21:02:35	--	- For more information about FurNet, refer to
+2018-09-18 21:02:35	--	- http://www.furnet.org/
+2018-09-18 21:02:35	--	-
+2018-09-18 21:02:35	--	- This server checks if you're using an insecure proxy. If you see any
+2018-09-18 21:02:35	--	- connections on various ports (including 23, 1080, 3128 or 8080) from
+2018-09-18 21:02:35	--	- opm.furnet.org (203.55.174.174) please disregard it, as it is the
+2018-09-18 21:02:35	--	- detector in action.
+2018-09-18 21:02:35	--	-
+2018-09-18 21:02:35	--	- Please USE common sense.
+2018-09-18 21:02:35	--	-
+2018-09-18 21:02:35	--	- See http://www.furnet.org/documentation/ for a full list of Furnet
+2018-09-18 21:02:35	--	- Policy.  By connecting to this network you agree to be bound to these
+2018-09-18 21:02:35	--	- Rules of Conduct.
+2018-09-18 21:02:35	--	-
+2018-09-18 21:02:35	--	- If you have IRC-related problems, you can get help on #furnet.
+2018-09-18 21:02:35	--	-
+2018-09-18 21:02:35	--	- IMPORTANT NOTICE
+2018-09-18 21:02:35	--	-
+2018-09-18 21:02:35	--	- By connecting to FurNet IRC or any of its services you agree that you
+2018-09-18 21:02:35	--	- are connecting to FurNet IRC at your own free will with no guarentee
+2018-09-18 21:02:35	--	- of delivery of service.  FurNet IRC is NOT responsible for any damages
+2018-09-18 21:02:35	--	- incured while visting FurNet IRC and you do so at your own risk.
+2018-09-18 21:02:35	--	- Though we try to keep users up to day with known security and privacy
+2018-09-18 21:02:35	--	- issues, it is the users responsibility to make sure their machine and
+2018-09-18 21:02:35	--	- privacy is secure.
+2018-09-18 21:02:35	--	-
+2018-09-18 21:02:35	--	- FurNet can contain mature material.  Users under 18 should only
+2018-09-18 21:02:35	--	- use this service under the supervision of an adult.  Some channels may
+2018-09-18 21:02:35	--	- contain offensive material.  There are many channels that may be
+2018-09-18 21:02:35	--	- offensive or illegal in your country/state.  Do not enter channels
+2018-09-18 21:02:35	--	- that are illegal in your home town.  All TOPICS should be kept clean
+2018-09-18 21:02:35	--	- and PG-13 rated.
+2018-09-18 21:02:35	--	-
+2018-09-18 21:02:35	--	- Limitation of Liablity
+2018-09-18 21:02:35	--	-
+2018-09-18 21:02:35	--	- FurNet total aggregate liablity for any claim in negligence or
+2018-09-18 21:02:35	--	- otherwise arising out of or in connection to the FurNet network
+2018-09-18 21:02:35	--	- shall be limited to the charges paid for utilising FurNet (currently
+2018-09-18 21:02:35	--	- ZERO US dollars).
+2018-09-18 21:02:35	--	-
+2018-09-18 21:02:35	--	- In any event no claim shall be brought unless you have notified Furnet
+2018-09-18 21:02:35	--	- of the claim within 6 months of it arising.
+2018-09-18 21:02:35	--	-
+2018-09-18 21:02:35	--	- In no event shall FurNet ever be liable to you for any loss of business,
+2018-09-18 21:02:35	--	- contracts, profits or anticipated savings or for any other indirect or
+2018-09-18 21:02:35	--	- consequential or economic loss whatsoever.
+2018-09-18 21:02:35	--	End of /MOTD command.
+2018-09-18 21:02:35	--	Global (services@irc.furnet.org): [Logon News - Oct 29 2014] Have you read the Code of Conduct for Users? Go to http://www.furnet.org/wiki/index.php/Code_Of_Conduct_Users - this applies to ALL users!
+2018-09-18 21:02:35	--	Global (services@irc.furnet.org): [Random News - Mar 08 2005] Having problems connecting to irc.furnet.org? Use irc.furnet.info instead (this is a backup dns name - irc.furnet.org always is the most current)
+2018-09-18 21:02:35	--	NickServ (services@irc.furnet.org): This nickname is registered and protected.  If it is your
+2018-09-18 21:02:35	--	NickServ (services@irc.furnet.org): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2018-09-18 21:02:35	--	NickServ (services@irc.furnet.org): please choose a different nick.
+2018-09-18 21:02:35	--	NickServ (services@irc.furnet.org): If you do not change within one minute, I will change your nick.
+2018-09-18 21:03:39	--	NickServ (services@irc.furnet.org): Your nickname is now being changed to GuestFuzzyDog
+2018-09-18 21:03:39	--	You are now known as GuestFuzzyDog
+2018-09-18 21:06:36	--	You are now known as Cake
+2018-09-18 21:06:36	--	NickServ (services@irc.furnet.org): This nickname is registered and protected.  If it is your
+2018-09-18 21:06:36	--	NickServ (services@irc.furnet.org): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2018-09-18 21:06:36	--	NickServ (services@irc.furnet.org): please choose a different nick.
+2018-09-18 21:06:36	--	NickServ (services@irc.furnet.org): If you do not change within one minute, I will change your nick.
+2018-09-18 21:06:42	--	MSG(nickserv): identify *************
+2018-09-18 21:06:43	--	NickServ (services@irc.furnet.org): Password accepted - you are now recognized.
+2018-09-30 21:39:21	=!=	Closing Link: Cake[183.ip-51-254-223.eu] (Ping timeout: 185 seconds)
+2018-09-30 21:39:21	--	irc: disconnected from server
+2018-09-30 21:39:21	--	irc: reconnecting to server in 10 seconds
+2018-09-30 21:39:31	--	irc: reconnecting to server...
+2018-09-30 21:39:31	--	irc: connecting to server irc.furnet.org/6667...
+2018-09-30 21:39:31	--	irc: connected to irc.furnet.org/6667 (212.232.29.132)
+2018-09-30 21:39:31	--	kinglion.furnet.org: *** Looking up your hostname...
+2018-09-30 21:39:31	--	kinglion.furnet.org: *** Checking ident...
+2018-09-30 21:39:31	--	kinglion.furnet.org: *** No ident response; username prefixed with ~
+2018-09-30 21:39:31	--	kinglion.furnet.org: *** Found your hostname
+2018-09-30 21:39:32	--	CTCP requested by IRC: VERSION
+2018-09-30 21:39:32	--	CTCP reply to IRC: VERSION WeeChat 2.2 (Jul 14 2018 14:59:20)
+2018-09-30 21:39:32	--	Welcome to the FurNet IRC Network Cake!~cake@183.ip-51-254-223.eu
+2018-09-30 21:39:32	--	Your host is kinglion.furnet.org, running version Unreal3.2.10.4
+2018-09-30 21:39:32	--	This server was created Thu Oct 2 2014 at 07:45:42 CEST
+2018-09-30 21:39:32	--	kinglion.furnet.org Unreal3.2.10.4 iowghraAsORTVSxNCWqBzvdHtGpI lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2018-09-30 21:39:32	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=20 CHANLIMIT=#:20 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2018-09-30 21:39:32	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=FurNet CASEMAPPING=ascii EXTBAN=~,qjncrRa ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2018-09-30 21:39:32	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP,STARTTLS :are supported by this server
+2018-09-30 21:39:32	--	There are 461 users and 688 invisible on 8 servers
+2018-09-30 21:39:32	--	14 :operator(s) online
+2018-09-30 21:39:32	--	1 :unknown connection(s)
+2018-09-30 21:39:32	--	844 :channels formed
+2018-09-30 21:39:32	--	I have 154 clients and 1 servers
+2018-09-30 21:39:32	--	154 447 :Current local users 154, max 447
+2018-09-30 21:39:32	--	1149 6083 :Current global users 1149, max 6083
+2018-09-30 21:39:32	--	- kinglion.furnet.org Message of the Day -
+2018-09-30 21:39:32	--	- 18/11/2014 6:01
+2018-09-30 21:39:32	--	-
+2018-09-30 21:39:32	--	-
+2018-09-30 21:39:32	--	-
+2018-09-30 21:39:32	--	- Server:     kinglion.furnet.org
+2018-09-30 21:39:32	--	- Ports:      6667, 7000
+2018-09-30 21:39:32	--	- SecurePort: 6697
+2018-09-30 21:39:32	--	- Location:   Vienna, Austria, Europe
+2018-09-30 21:39:32	--	- Admin:      King Taibu  <kingtaibu@lionking.at>
+2018-09-30 21:39:32	--	-
+2018-09-30 21:39:32	--	- _______________________________________________________________________________
+2018-09-30 21:39:32	--	-
+2018-09-30 21:39:32	--	- O-lines on this server:
+2018-09-30 21:39:32	--	- KingTaibu, Hurga, Zetawolf, Eisfuchs
+2018-09-30 21:39:32	--	-
+2018-09-30 21:39:32	--	- Other FurNet-servers:   (Ports 6667 and 7000)
+2018-09-30 21:39:32	--	- alicorn.furnet.org      Brisbane, QLD Australia
+2018-09-30 21:39:32	--	- panther.furnet.org      Frankfurt, Germany, Europe
+2018-09-30 21:39:32	--	- wolf.furnet.org         Freemont, California, Usa
+2018-09-30 21:39:32	--	- lynx.furnet.org         Nuernberg, Germany
+2018-09-30 21:39:32	--	- foxtaur.furnet.org      Baltimore, MD, USA
+2018-09-30 21:39:32	--	- coyote.furnet.org       Singapore
+2018-09-30 21:39:32	--	-
+2018-09-30 21:39:32	--	-
+2018-09-30 21:39:32	--	- Regional DNS rotated servers:
+2018-09-30 21:39:32	--	-
+2018-09-30 21:39:32	--	- irc.furnet.org    World     all servers
+2018-09-30 21:39:32	--	- eu.furnet.org     Europe    panther, kinglion, and lynx
+2018-09-30 21:39:32	--	- us.irc.furnet.org USA       foxtaur and wolf
+2018-09-30 21:39:32	--	-
+2018-09-30 21:39:32	--	-
+2018-09-30 21:39:32	--	- Server Name      Operator's nick:
+2018-09-30 21:39:32	--	- Alicorn          Snowpony
+2018-09-30 21:39:32	--	- Coyote           ShivalWolf
+2018-09-30 21:39:32	--	- Foxtaur          Foxxz
+2018-09-30 21:39:32	--	- Kinglion         King Taibu (KingLoewi)
+2018-09-30 21:39:32	--	- Lynx             Eisfuchs
+2018-09-30 21:39:32	--	- Panther          Hurga
+2018-09-30 21:39:32	--	- Wolf             ZetaWolf
+2018-09-30 21:39:32	--	-
+2018-09-30 21:39:32	--	-
+2018-09-30 21:39:32	--	- Furnet channel registration, mailing list, and more can be
+2018-09-30 21:39:32	--	- found by visiting:
+2018-09-30 21:39:32	--	- http://www.furnet.org/
+2018-09-30 21:39:32	--	-
+2018-09-30 21:39:32	--	- This server checks if you're using an insecure proxy. If you see any
+2018-09-30 21:39:32	--	- connections on various ports from opm.furnet.org (120.88.64.56)
+2018-09-30 21:39:32	--	- please disregard it, as it is the detector in action.  See
+2018-09-30 21:39:32	--	- http://www.furnet.org for information about our proxy policy.
+2018-09-30 21:39:32	--	-
+2018-09-30 21:39:32	--	- If you are having server problems please contact the Furnet admins
+2018-09-30 21:39:32	--	- (ATTN: KingTaibu - KingLoewi) via the mail form located at:
+2018-09-30 21:39:32	--	- http://www.furnet.org/
+2018-09-30 21:39:32	--	-
+2018-09-30 21:39:32	--	- Web IRC interfaces: Please do not provide them specifically for
+2018-09-30 21:39:32	--	- connecting to FurNet. If a web interface is required see #FurNet
+2018-09-30 21:39:32	--	- and inquire there for one.
+2018-09-30 21:39:32	--	-
+2018-09-30 21:39:32	--	- Rules:
+2018-09-30 21:39:32	--	-
+2018-09-30 21:39:32	--	- * NO Excessive Connections (Commonly known as cloning)
+2018-09-30 21:39:32	--	- * NO War Bots or War Scripts (Ask before running ANY bot)
+2018-09-30 21:39:32	--	- * NO Mass Advertising
+2018-09-30 21:39:32	--	- * NO Nuking or DoS (Denial of Services) attacks
+2018-09-30 21:39:32	--	- * NO Harrassment of fellow users
+2018-09-30 21:39:32	--	- * NO Illegal Activity
+2018-09-30 21:39:32	--	- * NO Flooding
+2018-09-30 21:39:32	--	- * Please USE common sense.
+2018-09-30 21:39:32	--	-
+2018-09-30 21:39:32	--	- See http://www.furnet.org for a full list
+2018-09-30 21:39:32	--	- of Furnet Policy.  By connecting to this network you agree to be bound to these
+2018-09-30 21:39:32	--	- Rules of Conduct. FurNet administration or their agents reserve the
+2018-09-30 21:39:32	--	- right to refuse access to any user on any FurNet server.
+2018-09-30 21:39:32	--	-
+2018-09-30 21:39:32	--	- *** IMPORTANT NOTICE***
+2018-09-30 21:39:32	--	-
+2018-09-30 21:39:32	--	- By connecting to FurNet IRC and or any of its services you agree That
+2018-09-30 21:39:32	--	- you are connecting to FurNet IRC at your own free will with no
+2018-09-30 21:39:32	--	- guarentee or promise of service. FurNet IRC is NOT responsible for any damages
+2018-09-30 21:39:32	--	- incured while visting FurNet IRC and you do so at your own risk. Though we try
+2018-09-30 21:39:32	--	- to keep users up to day with known security issues, it is the users
+2018-09-30 21:39:32	--	- responsibility to make sure his/her Machine is secure.
+2018-09-30 21:39:32	--	-
+2018-09-30 21:39:32	--	- FurNet can contain mature material.  Users under 18 should only
+2018-09-30 21:39:32	--	- use this service under the supervision of an adult.  Some channels may
+2018-09-30 21:39:32	--	- contain offensive material.  There are many channels that may be
+2018-09-30 21:39:32	--	- offensive or illegal in your country/state.  Do not enter channels
+2018-09-30 21:39:32	--	- that are illegal in your home town.  All TOPICS should be kept clean
+2018-09-30 21:39:32	--	- and PG-13 rated.
+2018-09-30 21:39:32	--	-
+2018-09-30 21:39:32	--	- If you have IRC-related problems, you can get help on #FurNet.
+2018-09-30 21:39:32	--	- Please do not idle on #FurNet if no one is available at that moment
+2018-09-30 21:39:32	--	- please leave your message on the channel and someone will get back
+2018-09-30 21:39:32	--	- to you as soon as possible.
+2018-09-30 21:39:32	--	End of /MOTD command.
+2018-09-30 21:39:32	--	Global (services@irc.furnet.org): [Logon News - Oct 29 2014] Have you read the Code of Conduct for Users? Go to http://www.furnet.org/wiki/index.php/Code_Of_Conduct_Users - this applies to ALL users!
+2018-09-30 21:39:32	--	Global (services@irc.furnet.org): [Random News - Oct 25 2004] Services Tip #3: Have services msg you rather than notice.. /msg nickserv set msg on
+2018-09-30 21:39:32	--	NickServ (services@irc.furnet.org): This nickname is registered and protected.  If it is your
+2018-09-30 21:39:32	--	NickServ (services@irc.furnet.org): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2018-09-30 21:39:32	--	NickServ (services@irc.furnet.org): please choose a different nick.
+2018-09-30 21:39:32	--	NickServ (services@irc.furnet.org): If you do not change within one minute, I will change your nick.
+2018-09-30 21:40:18	--	MSG(nickserv): identify *************
+2018-09-30 21:40:19	--	NickServ (services@irc.furnet.org): Password accepted - you are now recognized.
+2018-09-30 22:08:22	=!=	Closing Link: Cake[183.ip-51-254-223.eu] (Ping timeout: 184 seconds)
+2018-09-30 22:08:22	--	irc: disconnected from server
+2018-09-30 22:08:22	--	irc: reconnecting to server in 10 seconds
+2018-09-30 22:11:27	--	irc: reconnecting to server...
+2018-09-30 22:11:27	--	irc: connecting to server irc.furnet.org/6667...
+2018-09-30 22:11:27	=!=	irc: not enough memory (fork error: Cannot allocate memory)
+2018-09-30 22:11:27	=!=	irc: error: fork error: Cannot allocate memory
+2018-09-30 22:11:27	--	irc: reconnecting to server in 20 seconds
+2018-09-30 22:11:47	--	irc: reconnecting to server...
+2018-09-30 22:11:47	--	irc: connecting to server irc.furnet.org/6667...
+2018-09-30 22:11:47	=!=	irc: not enough memory (fork error: Cannot allocate memory)
+2018-09-30 22:11:47	=!=	irc: error: fork error: Cannot allocate memory
+2018-09-30 22:11:47	--	irc: reconnecting to server in 40 seconds
+2018-09-30 22:25:32	--	irc: reconnecting to server...
+2018-09-30 22:25:32	--	irc: connecting to server irc.furnet.org/6667...
+2018-09-30 22:25:32	--	irc: connected to irc.furnet.org/6667 (85.199.154.53)
+2018-09-30 22:25:32	--	panther.furnet.org: *** Looking up your hostname...
+2018-09-30 22:25:32	--	panther.furnet.org: *** Checking ident...
+2018-09-30 22:25:32	--	panther.furnet.org: *** No ident response; username prefixed with ~
+2018-09-30 22:25:32	--	panther.furnet.org: *** Found your hostname
+2018-09-30 22:25:32	--	CTCP requested by IRC: VERSION
+2018-09-30 22:25:32	--	CTCP reply to IRC: VERSION WeeChat 2.2 (Jul 14 2018 14:59:20)
+2018-09-30 22:25:32	--	Welcome to the FurNet IRC Network Cake!~cake@183.ip-51-254-223.eu
+2018-09-30 22:25:32	--	Your host is panther.furnet.org, running version Unreal3.2.10.7
+2018-09-30 22:25:32	--	This server was created Mi 16. Nov 2016 at 14:21:06 CET
+2018-09-30 22:25:32	--	panther.furnet.org Unreal3.2.10.7 iowghraAsORTVSxNCWqBzvdHtGpI lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2018-09-30 22:25:32	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=20 CHANLIMIT=#:20 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2018-09-30 22:25:32	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=FurNet CASEMAPPING=ascii EXTBAN=~,qjncrRa ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2018-09-30 22:25:32	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP,STARTTLS :are supported by this server
+2018-09-30 22:25:32	--	There are 457 users and 679 invisible on 8 servers
+2018-09-30 22:25:32	--	14 :operator(s) online
+2018-09-30 22:25:32	--	846 :channels formed
+2018-09-30 22:25:32	--	I have 271 clients and 3 servers
+2018-09-30 22:25:32	--	271 401 :Current local users 271, max 401
+2018-09-30 22:25:32	--	1136 6083 :Current global users 1136, max 6083
+2018-09-30 22:25:32	--	- panther.furnet.org Message of the Day -
+2018-09-30 22:25:32	--	- 29/10/2014 22:33
+2018-09-30 22:25:32	--	-   .           .          *          :        *          .            |/
+2018-09-30 22:25:32	--	- ###### ##  ##  #####   ##  ##  ###### ######   .  ####   #####  . #### -
+2018-09-30 22:25:32	--	- ##   * ##  ##  ##  ##  ### ##  ##    .  ##   .   ##  ##  ##  ##  ##
+2018-09-30 22:25:32	--	- ####   ##  ## *#####   ######  ####     ##       ##  ##  ##### . ## ###
+2018-09-30 22:25:32	--	- ##  .  ##  ##  ## ## + ## ###  ##   *  .## + ##  ##  ##  ## ##   ##  ##
+2018-09-30 22:25:32	--	- ##      #### : ##  ##  ##  ##  ######   ##   ##   #### . ##  ## * #### +
+2018-09-30 22:25:32	--	-       *                    .    *         :          . *        +
+2018-09-30 22:25:32	--	-
+2018-09-30 22:25:32	--	-  Server:             panther.furnet.org (irc.furry.de)
+2018-09-30 22:25:32	--	-  Location:           Frankfurt, Germany (rh-tec)
+2018-09-30 22:25:32	--	-  Admin:              Hurga (hurga@tigress.com)
+2018-09-30 22:25:32	--	-  Ports:              regular: 6667+7000, SSL: 6697
+2018-09-30 22:25:32	--	-  User limit:         1500
+2018-09-30 22:25:32	--	-
+2018-09-30 22:25:32	--	-  Other FurNet-servers:
+2018-09-30 22:25:32	--	-      alicorn.furnet.org   Fort Bragg, CA, USA
+2018-09-30 22:25:32	--	-         wolf.furnet.org   Redwood City, CA, USA
+2018-09-30 22:25:32	--	-     greylion.furnet.org   Vienna, Austria
+2018-09-30 22:25:32	--	-         lynx.furnet.org   Nuremberg, Germany
+2018-09-30 22:25:32	--	-      foxtaur.furnet.org   Baltimore, MD, USA
+2018-09-30 22:25:32	--	-
+2018-09-30 22:25:32	--	- Furs with O-lines on this server:
+2018-09-30 22:25:32	--	- Hurga, Cheetah, Lymril, Snowpony, Taibu
+2018-09-30 22:25:32	--	-
+2018-09-30 22:25:32	--	- Bot policy: http://www.furnet.org/wiki/index.php/Bot_Policy
+2018-09-30 22:25:32	--	-
+2018-09-30 22:25:32	--	- Web IRC interfaces: Please do not provide them specifically for
+2018-09-30 22:25:32	--	- connecting to FurNet. It has been found that they tend to attract
+2018-09-30 22:25:32	--	- annoying individuals. A password-protected (for tracking abuse
+2018-09-30 22:25:32	--	- issues) web IRC client is avaliable - ask the admin.
+2018-09-30 22:25:32	--	-
+2018-09-30 22:25:32	--	End of /MOTD command.
+2018-09-30 22:25:32	--	Global (services@irc.furnet.org): [Logon News - Oct 29 2014] Have you read the Code of Conduct for Users? Go to http://www.furnet.org/wiki/index.php/Code_Of_Conduct_Users - this applies to ALL users!
+2018-09-30 22:25:32	--	Global (services@irc.furnet.org): [Random News - Oct 25 2004] Services Tip #2: Kill your ghost.. /msg nickserv GHOST <ghost_nickname> <password>
+2018-09-30 22:25:32	--	NickServ (services@irc.furnet.org): This nickname is registered and protected.  If it is your
+2018-09-30 22:25:32	--	NickServ (services@irc.furnet.org): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2018-09-30 22:25:32	--	NickServ (services@irc.furnet.org): please choose a different nick.
+2018-09-30 22:25:32	--	NickServ (services@irc.furnet.org): If you do not change within one minute, I will change your nick.
+2018-09-30 22:26:36	--	NickServ (services@irc.furnet.org): Your nickname is now being changed to GuestWildFurry
+2018-09-30 22:26:36	--	You are now known as GuestWildFurry
+2018-09-30 22:30:53	=!=	Closing Link: GuestWildFurry[183.ip-51-254-223.eu] (Ping timeout: 185 seconds)
+2018-09-30 22:31:05	--	irc: disconnected from server
+2018-09-30 22:31:11	--	irc: reconnecting to server in 10 seconds
+2018-09-30 22:35:31	--	irc: reconnecting to server...
+2018-09-30 22:35:31	--	irc: connecting to server irc.furnet.org/6667...
+2018-09-30 22:35:31	--	irc: connected to irc.furnet.org/6667 (212.232.29.132)
+2018-09-30 22:35:31	--	kinglion.furnet.org: *** Looking up your hostname...
+2018-09-30 22:35:31	--	kinglion.furnet.org: *** Checking ident...
+2018-09-30 22:35:31	--	kinglion.furnet.org: *** No ident response; username prefixed with ~
+2018-09-30 22:35:31	--	kinglion.furnet.org: *** Found your hostname
+2018-09-30 22:35:31	--	CTCP requested by IRC: VERSION
+2018-09-30 22:35:31	--	CTCP reply to IRC: VERSION WeeChat 2.2 (Jul 14 2018 14:59:20)
+2018-09-30 22:35:31	--	Welcome to the FurNet IRC Network GuestWildFurry!~cake@183.ip-51-254-223.eu
+2018-09-30 22:35:31	--	Your host is kinglion.furnet.org, running version Unreal3.2.10.4
+2018-09-30 22:35:31	--	This server was created Thu Oct 2 2014 at 07:45:42 CEST
+2018-09-30 22:35:31	--	kinglion.furnet.org Unreal3.2.10.4 iowghraAsORTVSxNCWqBzvdHtGpI lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2018-09-30 22:35:31	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=20 CHANLIMIT=#:20 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2018-09-30 22:35:31	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=FurNet CASEMAPPING=ascii EXTBAN=~,qjncrRa ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2018-09-30 22:35:31	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP,STARTTLS :are supported by this server
+2018-09-30 22:35:31	--	There are 454 users and 679 invisible on 8 servers
+2018-09-30 22:35:31	--	14 :operator(s) online
+2018-09-30 22:35:31	--	1 :unknown connection(s)
+2018-09-30 22:35:31	--	846 :channels formed
+2018-09-30 22:35:31	--	I have 149 clients and 1 servers
+2018-09-30 22:35:31	--	149 447 :Current local users 149, max 447
+2018-09-30 22:35:31	--	1133 6083 :Current global users 1133, max 6083
+2018-09-30 22:35:31	--	- kinglion.furnet.org Message of the Day -
+2018-09-30 22:35:31	--	- 18/11/2014 6:01
+2018-09-30 22:35:31	--	-
+2018-09-30 22:35:31	--	-
+2018-09-30 22:35:31	--	-
+2018-09-30 22:35:31	--	- Server:     kinglion.furnet.org
+2018-09-30 22:35:31	--	- Ports:      6667, 7000
+2018-09-30 22:35:31	--	- SecurePort: 6697
+2018-09-30 22:35:31	--	- Location:   Vienna, Austria, Europe
+2018-09-30 22:35:31	--	- Admin:      King Taibu  <kingtaibu@lionking.at>
+2018-09-30 22:35:31	--	-
+2018-09-30 22:35:31	--	- _______________________________________________________________________________
+2018-09-30 22:35:31	--	-
+2018-09-30 22:35:31	--	- O-lines on this server:
+2018-09-30 22:35:31	--	- KingTaibu, Hurga, Zetawolf, Eisfuchs
+2018-09-30 22:35:31	--	-
+2018-09-30 22:35:31	--	- Other FurNet-servers:   (Ports 6667 and 7000)
+2018-09-30 22:35:31	--	- alicorn.furnet.org      Brisbane, QLD Australia
+2018-09-30 22:35:31	--	- panther.furnet.org      Frankfurt, Germany, Europe
+2018-09-30 22:35:31	--	- wolf.furnet.org         Freemont, California, Usa
+2018-09-30 22:35:31	--	- lynx.furnet.org         Nuernberg, Germany
+2018-09-30 22:35:31	--	- foxtaur.furnet.org      Baltimore, MD, USA
+2018-09-30 22:35:31	--	- coyote.furnet.org       Singapore
+2018-09-30 22:35:31	--	-
+2018-09-30 22:35:31	--	-
+2018-09-30 22:35:31	--	- Regional DNS rotated servers:
+2018-09-30 22:35:31	--	-
+2018-09-30 22:35:31	--	- irc.furnet.org    World     all servers
+2018-09-30 22:35:31	--	- eu.furnet.org     Europe    panther, kinglion, and lynx
+2018-09-30 22:35:31	--	- us.irc.furnet.org USA       foxtaur and wolf
+2018-09-30 22:35:31	--	-
+2018-09-30 22:35:31	--	-
+2018-09-30 22:35:31	--	- Server Name      Operator's nick:
+2018-09-30 22:35:31	--	- Alicorn          Snowpony
+2018-09-30 22:35:31	--	- Coyote           ShivalWolf
+2018-09-30 22:35:31	--	- Foxtaur          Foxxz
+2018-09-30 22:35:31	--	- Kinglion         King Taibu (KingLoewi)
+2018-09-30 22:35:31	--	- Lynx             Eisfuchs
+2018-09-30 22:35:31	--	- Panther          Hurga
+2018-09-30 22:35:31	--	- Wolf             ZetaWolf
+2018-09-30 22:35:31	--	-
+2018-09-30 22:35:31	--	-
+2018-09-30 22:35:31	--	- Furnet channel registration, mailing list, and more can be
+2018-09-30 22:35:31	--	- found by visiting:
+2018-09-30 22:35:31	--	- http://www.furnet.org/
+2018-09-30 22:35:31	--	-
+2018-09-30 22:35:31	--	- This server checks if you're using an insecure proxy. If you see any
+2018-09-30 22:35:31	--	- connections on various ports from opm.furnet.org (120.88.64.56)
+2018-09-30 22:35:31	--	- please disregard it, as it is the detector in action.  See
+2018-09-30 22:35:31	--	- http://www.furnet.org for information about our proxy policy.
+2018-09-30 22:35:31	--	-
+2018-09-30 22:35:31	--	- If you are having server problems please contact the Furnet admins
+2018-09-30 22:35:31	--	- (ATTN: KingTaibu - KingLoewi) via the mail form located at:
+2018-09-30 22:35:31	--	- http://www.furnet.org/
+2018-09-30 22:35:31	--	-
+2018-09-30 22:35:31	--	- Web IRC interfaces: Please do not provide them specifically for
+2018-09-30 22:35:31	--	- connecting to FurNet. If a web interface is required see #FurNet
+2018-09-30 22:35:31	--	- and inquire there for one.
+2018-09-30 22:35:31	--	-
+2018-09-30 22:35:31	--	- Rules:
+2018-09-30 22:35:31	--	-
+2018-09-30 22:35:31	--	- * NO Excessive Connections (Commonly known as cloning)
+2018-09-30 22:35:31	--	- * NO War Bots or War Scripts (Ask before running ANY bot)
+2018-09-30 22:35:31	--	- * NO Mass Advertising
+2018-09-30 22:35:31	--	- * NO Nuking or DoS (Denial of Services) attacks
+2018-09-30 22:35:31	--	- * NO Harrassment of fellow users
+2018-09-30 22:35:31	--	- * NO Illegal Activity
+2018-09-30 22:35:31	--	- * NO Flooding
+2018-09-30 22:35:31	--	- * Please USE common sense.
+2018-09-30 22:35:31	--	-
+2018-09-30 22:35:31	--	- See http://www.furnet.org for a full list
+2018-09-30 22:35:31	--	- of Furnet Policy.  By connecting to this network you agree to be bound to these
+2018-09-30 22:35:31	--	- Rules of Conduct. FurNet administration or their agents reserve the
+2018-09-30 22:35:31	--	- right to refuse access to any user on any FurNet server.
+2018-09-30 22:35:31	--	-
+2018-09-30 22:35:31	--	- *** IMPORTANT NOTICE***
+2018-09-30 22:35:31	--	-
+2018-09-30 22:35:31	--	- By connecting to FurNet IRC and or any of its services you agree That
+2018-09-30 22:35:31	--	- you are connecting to FurNet IRC at your own free will with no
+2018-09-30 22:35:31	--	- guarentee or promise of service. FurNet IRC is NOT responsible for any damages
+2018-09-30 22:35:31	--	- incured while visting FurNet IRC and you do so at your own risk. Though we try
+2018-09-30 22:35:31	--	- to keep users up to day with known security issues, it is the users
+2018-09-30 22:35:31	--	- responsibility to make sure his/her Machine is secure.
+2018-09-30 22:35:31	--	-
+2018-09-30 22:35:31	--	- FurNet can contain mature material.  Users under 18 should only
+2018-09-30 22:35:31	--	- use this service under the supervision of an adult.  Some channels may
+2018-09-30 22:35:31	--	- contain offensive material.  There are many channels that may be
+2018-09-30 22:35:31	--	- offensive or illegal in your country/state.  Do not enter channels
+2018-09-30 22:35:31	--	- that are illegal in your home town.  All TOPICS should be kept clean
+2018-09-30 22:35:31	--	- and PG-13 rated.
+2018-09-30 22:35:31	--	-
+2018-09-30 22:35:31	--	- If you have IRC-related problems, you can get help on #FurNet.
+2018-09-30 22:35:31	--	- Please do not idle on #FurNet if no one is available at that moment
+2018-09-30 22:35:31	--	- please leave your message on the channel and someone will get back
+2018-09-30 22:35:31	--	- to you as soon as possible.
+2018-09-30 22:35:31	--	End of /MOTD command.
+2018-09-30 22:35:31	--	Global (services@irc.furnet.org): [Logon News - Oct 29 2014] Have you read the Code of Conduct for Users? Go to http://www.furnet.org/wiki/index.php/Code_Of_Conduct_Users - this applies to ALL users!
+2018-09-30 22:35:31	--	Global (services@irc.furnet.org): [Random News - Oct 25 2004] Hint: If you want to quickly ban someone from a ChanServ-controlled channel, type "/msg chanserv ban #channel nickname". Chanserv will kick the person out and add an appropriate ban to the channel.
+2018-09-30 22:42:41	--	You are now known as Cake
+2018-09-30 22:42:41	--	NickServ (services@irc.furnet.org): This nickname is registered and protected.  If it is your
+2018-09-30 22:42:41	--	NickServ (services@irc.furnet.org): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2018-09-30 22:42:41	--	NickServ (services@irc.furnet.org): please choose a different nick.
+2018-09-30 22:42:41	--	NickServ (services@irc.furnet.org): If you do not change within one minute, I will change your nick.
+2018-09-30 22:42:43	--	MSG(nickserv): identify *************
+2018-09-30 22:42:44	--	NickServ (services@irc.furnet.org): Password incorrect.
+2018-09-30 22:42:54	--	MSG(nickserv): identify *************
+2018-09-30 22:42:55	--	NickServ (services@irc.furnet.org): Password accepted - you are now recognized.
+2018-10-01 18:44:04	--	irc: disconnected from server
+2018-10-01 18:47:43	--	irc: connecting to server irc.furnet.org/6667...
+2018-10-01 18:47:43	--	irc: connected to irc.furnet.org/6667 (212.232.29.132)
+2018-10-01 18:47:43	--	kinglion.furnet.org: *** Looking up your hostname...
+2018-10-01 18:47:43	--	kinglion.furnet.org: *** Checking ident...
+2018-10-01 18:47:43	--	kinglion.furnet.org: *** No ident response; username prefixed with ~
+2018-10-01 18:47:43	--	kinglion.furnet.org: *** Found your hostname
+2018-10-01 18:47:43	--	CTCP requested by IRC: VERSION
+2018-10-01 18:47:43	--	CTCP reply to IRC: VERSION WeeChat 2.2 (Jul 14 2018 14:59:20)
+2018-10-01 18:47:43	--	Welcome to the FurNet IRC Network Cake!~cake@183.ip-51-254-223.eu
+2018-10-01 18:47:43	--	Your host is kinglion.furnet.org, running version Unreal3.2.10.4
+2018-10-01 18:47:43	--	This server was created Thu Oct 2 2014 at 07:45:42 CEST
+2018-10-01 18:47:43	--	kinglion.furnet.org Unreal3.2.10.4 iowghraAsORTVSxNCWqBzvdHtGpI lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2018-10-01 18:47:43	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=20 CHANLIMIT=#:20 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2018-10-01 18:47:43	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=FurNet CASEMAPPING=ascii EXTBAN=~,qjncrRa ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2018-10-01 18:47:43	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP,STARTTLS :are supported by this server
+2018-10-01 18:47:43	--	There are 451 users and 665 invisible on 8 servers
+2018-10-01 18:47:43	--	14 :operator(s) online
+2018-10-01 18:47:43	--	2 :unknown connection(s)
+2018-10-01 18:47:43	--	828 :channels formed
+2018-10-01 18:47:43	--	I have 147 clients and 1 servers
+2018-10-01 18:47:43	--	147 447 :Current local users 147, max 447
+2018-10-01 18:47:43	--	1116 6083 :Current global users 1116, max 6083
+2018-10-01 18:47:43	--	- kinglion.furnet.org Message of the Day -
+2018-10-01 18:47:43	--	- 18/11/2014 6:01
+2018-10-01 18:47:43	--	-
+2018-10-01 18:47:43	--	-
+2018-10-01 18:47:43	--	-
+2018-10-01 18:47:43	--	- Server:     kinglion.furnet.org
+2018-10-01 18:47:43	--	- Ports:      6667, 7000
+2018-10-01 18:47:43	--	- SecurePort: 6697
+2018-10-01 18:47:43	--	- Location:   Vienna, Austria, Europe
+2018-10-01 18:47:43	--	- Admin:      King Taibu  <kingtaibu@lionking.at>
+2018-10-01 18:47:43	--	-
+2018-10-01 18:47:43	--	- _______________________________________________________________________________
+2018-10-01 18:47:43	--	-
+2018-10-01 18:47:43	--	- O-lines on this server:
+2018-10-01 18:47:43	--	- KingTaibu, Hurga, Zetawolf, Eisfuchs
+2018-10-01 18:47:43	--	-
+2018-10-01 18:47:43	--	- Other FurNet-servers:   (Ports 6667 and 7000)
+2018-10-01 18:47:43	--	- alicorn.furnet.org      Brisbane, QLD Australia
+2018-10-01 18:47:43	--	- panther.furnet.org      Frankfurt, Germany, Europe
+2018-10-01 18:47:43	--	- wolf.furnet.org         Freemont, California, Usa
+2018-10-01 18:47:43	--	- lynx.furnet.org         Nuernberg, Germany
+2018-10-01 18:47:43	--	- foxtaur.furnet.org      Baltimore, MD, USA
+2018-10-01 18:47:43	--	- coyote.furnet.org       Singapore
+2018-10-01 18:47:43	--	-
+2018-10-01 18:47:43	--	-
+2018-10-01 18:47:43	--	- Regional DNS rotated servers:
+2018-10-01 18:47:43	--	-
+2018-10-01 18:47:43	--	- irc.furnet.org    World     all servers
+2018-10-01 18:47:43	--	- eu.furnet.org     Europe    panther, kinglion, and lynx
+2018-10-01 18:47:43	--	- us.irc.furnet.org USA       foxtaur and wolf
+2018-10-01 18:47:43	--	-
+2018-10-01 18:47:43	--	-
+2018-10-01 18:47:43	--	- Server Name      Operator's nick:
+2018-10-01 18:47:43	--	- Alicorn          Snowpony
+2018-10-01 18:47:43	--	- Coyote           ShivalWolf
+2018-10-01 18:47:43	--	- Foxtaur          Foxxz
+2018-10-01 18:47:43	--	- Kinglion         King Taibu (KingLoewi)
+2018-10-01 18:47:43	--	- Lynx             Eisfuchs
+2018-10-01 18:47:43	--	- Panther          Hurga
+2018-10-01 18:47:43	--	- Wolf             ZetaWolf
+2018-10-01 18:47:43	--	-
+2018-10-01 18:47:43	--	-
+2018-10-01 18:47:43	--	- Furnet channel registration, mailing list, and more can be
+2018-10-01 18:47:43	--	- found by visiting:
+2018-10-01 18:47:43	--	- http://www.furnet.org/
+2018-10-01 18:47:43	--	-
+2018-10-01 18:47:43	--	- This server checks if you're using an insecure proxy. If you see any
+2018-10-01 18:47:43	--	- connections on various ports from opm.furnet.org (120.88.64.56)
+2018-10-01 18:47:43	--	- please disregard it, as it is the detector in action.  See
+2018-10-01 18:47:43	--	- http://www.furnet.org for information about our proxy policy.
+2018-10-01 18:47:43	--	-
+2018-10-01 18:47:43	--	- If you are having server problems please contact the Furnet admins
+2018-10-01 18:47:43	--	- (ATTN: KingTaibu - KingLoewi) via the mail form located at:
+2018-10-01 18:47:43	--	- http://www.furnet.org/
+2018-10-01 18:47:43	--	-
+2018-10-01 18:47:43	--	- Web IRC interfaces: Please do not provide them specifically for
+2018-10-01 18:47:43	--	- connecting to FurNet. If a web interface is required see #FurNet
+2018-10-01 18:47:43	--	- and inquire there for one.
+2018-10-01 18:47:43	--	-
+2018-10-01 18:47:43	--	- Rules:
+2018-10-01 18:47:43	--	-
+2018-10-01 18:47:43	--	- * NO Excessive Connections (Commonly known as cloning)
+2018-10-01 18:47:43	--	- * NO War Bots or War Scripts (Ask before running ANY bot)
+2018-10-01 18:47:43	--	- * NO Mass Advertising
+2018-10-01 18:47:43	--	- * NO Nuking or DoS (Denial of Services) attacks
+2018-10-01 18:47:43	--	- * NO Harrassment of fellow users
+2018-10-01 18:47:43	--	- * NO Illegal Activity
+2018-10-01 18:47:43	--	- * NO Flooding
+2018-10-01 18:47:43	--	- * Please USE common sense.
+2018-10-01 18:47:43	--	-
+2018-10-01 18:47:43	--	- See http://www.furnet.org for a full list
+2018-10-01 18:47:43	--	- of Furnet Policy.  By connecting to this network you agree to be bound to these
+2018-10-01 18:47:43	--	- Rules of Conduct. FurNet administration or their agents reserve the
+2018-10-01 18:47:43	--	- right to refuse access to any user on any FurNet server.
+2018-10-01 18:47:43	--	-
+2018-10-01 18:47:43	--	- *** IMPORTANT NOTICE***
+2018-10-01 18:47:43	--	-
+2018-10-01 18:47:43	--	- By connecting to FurNet IRC and or any of its services you agree That
+2018-10-01 18:47:43	--	- you are connecting to FurNet IRC at your own free will with no
+2018-10-01 18:47:43	--	- guarentee or promise of service. FurNet IRC is NOT responsible for any damages
+2018-10-01 18:47:43	--	- incured while visting FurNet IRC and you do so at your own risk. Though we try
+2018-10-01 18:47:43	--	- to keep users up to day with known security issues, it is the users
+2018-10-01 18:47:43	--	- responsibility to make sure his/her Machine is secure.
+2018-10-01 18:47:43	--	-
+2018-10-01 18:47:43	--	- FurNet can contain mature material.  Users under 18 should only
+2018-10-01 18:47:43	--	- use this service under the supervision of an adult.  Some channels may
+2018-10-01 18:47:43	--	- contain offensive material.  There are many channels that may be
+2018-10-01 18:47:43	--	- offensive or illegal in your country/state.  Do not enter channels
+2018-10-01 18:47:43	--	- that are illegal in your home town.  All TOPICS should be kept clean
+2018-10-01 18:47:43	--	- and PG-13 rated.
+2018-10-01 18:47:43	--	-
+2018-10-01 18:47:43	--	- If you have IRC-related problems, you can get help on #FurNet.
+2018-10-01 18:47:43	--	- Please do not idle on #FurNet if no one is available at that moment
+2018-10-01 18:47:43	--	- please leave your message on the channel and someone will get back
+2018-10-01 18:47:43	--	- to you as soon as possible.
+2018-10-01 18:47:43	--	End of /MOTD command.
+2018-10-01 18:47:43	--	Global (services@irc.furnet.org): [Logon News - Oct 29 2014] Have you read the Code of Conduct for Users? Go to http://www.furnet.org/wiki/index.php/Code_Of_Conduct_Users - this applies to ALL users!
+2018-10-01 18:47:43	--	Global (services@irc.furnet.org): [Random News - Oct 25 2004] Services Tip #3: Have services msg you rather than notice.. /msg nickserv set msg on
+2018-10-01 18:47:43	--	NickServ (services@irc.furnet.org): This nickname is registered and protected.  If it is your
+2018-10-01 18:47:43	--	NickServ (services@irc.furnet.org): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2018-10-01 18:47:43	--	NickServ (services@irc.furnet.org): please choose a different nick.
+2018-10-01 18:47:43	--	NickServ (services@irc.furnet.org): If you do not change within one minute, I will change your nick.
+2018-10-01 18:48:15	--	MSG(nickserv): identify *************
+2018-10-01 18:48:15	--	NickServ (services@irc.furnet.org): Password accepted - you are now recognized.
+2018-10-02 00:19:23	--	irc: disconnected from server
+2018-10-02 08:58:28	--	irc: connecting to server irc.furnet.org/6667...
+2018-10-02 08:58:28	--	irc: connected to irc.furnet.org/6667 (119.9.41.53)
+2018-10-02 08:58:29	--	alicorn.furnet.org: *** Looking up your hostname...
+2018-10-02 08:58:29	--	alicorn.furnet.org: *** Checking ident...
+2018-10-02 08:58:29	--	alicorn.furnet.org: *** Found your hostname
+2018-10-02 08:58:29	--	alicorn.furnet.org: *** No ident response; username prefixed with ~
+2018-10-02 08:58:29	--	CTCP requested by IRC: VERSION
+2018-10-02 08:58:29	--	CTCP reply to IRC: VERSION WeeChat 2.2 (Jul 14 2018 14:59:20)
+2018-10-02 08:58:29	--	Welcome to the FurNet IRC Network Cake!~cake@183.ip-51-254-223.eu
+2018-10-02 08:58:29	--	Your host is alicorn.furnet.org, running version Unreal3.2.10.6
+2018-10-02 08:58:29	--	This server was created Sat Dec 12 2015 at 16:13:29 AEST
+2018-10-02 08:58:29	--	alicorn.furnet.org Unreal3.2.10.6 iowghraAsORTVSxNCWqBzvdHtGpI lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2018-10-02 08:58:29	--	CMDS=KNOCK,MAP,DCCALLOW,USERIP,STARTTLS UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=20 CHANLIMIT=#:20 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 :are supported by this server
+2018-10-02 08:58:29	--	MAXTARGETS=20 WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=FurNet CASEMAPPING=ascii EXTBAN=~,qjncrRa ELIST=MNUCT :are supported by this server
+2018-10-02 08:58:29	--	STATUSMSG=~&@%+ EXCEPTS INVEX :are supported by this server
+2018-10-02 08:58:29	--	There are 422 users and 638 invisible on 8 servers
+2018-10-02 08:58:29	--	15 :operator(s) online
+2018-10-02 08:58:29	--	1 :unknown connection(s)
+2018-10-02 08:58:29	--	820 :channels formed
+2018-10-02 08:58:29	--	I have 142 clients and 0 servers
+2018-10-02 08:58:29	--	142 500 :Current local users 142, max 500
+2018-10-02 08:58:29	--	1060 6083 :Current global users 1060, max 6083
+2018-10-02 08:58:29	--	- alicorn.furnet.org Message of the Day -
+2018-10-02 08:58:29	--	- 26/12/2014 11:56
+2018-10-02 08:58:29	--	- Welcome to...
+2018-10-02 08:58:29	--	-   ______,_,
+2018-10-02 08:58:29	--	-  =_=_=_= \ \      ,%%%,
+2018-10-02 08:58:29	--	-   = = = \ \ \    ,%%%` %==-- Alicorn.FurNet.Org
+2018-10-02 08:58:29	--	-    = = = = \ \  ,%%`( '|     Ports:      6666-6669,7000 & SSL on 6697
+2018-10-02 08:58:29	--	-     =_=_=_\ \ \,%%@ /\_/     Location:   Sydney, NSW AU
+2018-10-02 08:58:29	--	-      ,%.-"""-\%%% "@@__      Admins:     Snowpony
+2018-10-02 08:58:29	--	-     %%/             |__`\                Stephen
+2018-10-02 08:58:29	--	-   ,%%'\     |   \   /  //                admin@alicorn.furnet.org
+2018-10-02 08:58:29	--	-  ,%%%'_>   .'----\ /  [/     User limit: 1000
+2018-10-02 08:58:29	--	-  %,%'__\  /`[.____/
+2018-10-02 08:58:29	--	-   [,__.__/
+2018-10-02 08:58:29	--	-  [/
+2018-10-02 08:58:29	--	-
+2018-10-02 08:58:29	--	- Other FurNet Servers: (Ports 6667 and 7000 + SSL port 6697)
+2018-10-02 08:58:29	--	-  coyote.furnet.org    Singapore City, Singapore
+2018-10-02 08:58:29	--	-  foxtaur.furnet.org   Baltimore, MD USA
+2018-10-02 08:58:29	--	-  greylion.furnet.org  Vienna, Austria
+2018-10-02 08:58:29	--	-  lynx.furnet.org      Nuernberg, Germany
+2018-10-02 08:58:29	--	-  panther.furnet.org   Frankfurt, Germany
+2018-10-02 08:58:29	--	-  wolf.furnet.org      Fremont, CA USA
+2018-10-02 08:58:29	--	-
+2018-10-02 08:58:29	--	- FurNet User's mailing list now available.  Go to
+2018-10-02 08:58:29	--	- http://greylion.furnet.org/mailman/listinfo/furnet-users
+2018-10-02 08:58:29	--	- to subscribe.
+2018-10-02 08:58:29	--	-
+2018-10-02 08:58:29	--	- For more information about FurNet, refer to
+2018-10-02 08:58:29	--	- http://www.furnet.org/
+2018-10-02 08:58:29	--	-
+2018-10-02 08:58:29	--	- NOTE: Alicorn does not accept any connection from CHINA due to
+2018-10-02 08:58:29	--	- the amount of hack attempts that come from this region - apologies!
+2018-10-02 08:58:29	--	-
+2018-10-02 08:58:29	--	- This server checks if you're using an insecure proxy. If you see any
+2018-10-02 08:58:29	--	- connections on various ports (including 23, 1080, 3128 or 8080) from
+2018-10-02 08:58:29	--	- opm.furnet.org (203.55.174.174) please disregard it, as it is the
+2018-10-02 08:58:29	--	- detector in action.
+2018-10-02 08:58:29	--	-
+2018-10-02 08:58:29	--	- Please USE common sense.
+2018-10-02 08:58:29	--	-
+2018-10-02 08:58:29	--	- See http://www.furnet.org/wiki/index.php/Code_Of_Conduct_Users for
+2018-10-02 08:58:29	--	- the User Code of Conduct.  By connecting to this network you agree to
+2018-10-02 08:58:29	--	- be bound to this and all other polices listed on the website.
+2018-10-02 08:58:29	--	-
+2018-10-02 08:58:29	--	- If you have IRC-related problems, you can get help on #furnet.
+2018-10-02 08:58:29	--	-
+2018-10-02 08:58:29	--	- IMPORTANT NOTICE
+2018-10-02 08:58:29	--	-
+2018-10-02 08:58:29	--	- By connecting to FurNet IRC or any of its services you agree that you
+2018-10-02 08:58:29	--	- are connecting to FurNet IRC at your own free will with no guarentee
+2018-10-02 08:58:29	--	- f delivery of service.  FurNet IRC is NOT responsible for any damages
+2018-10-02 08:58:29	--	- incured while visting FurNet IRC and you do so at your own risk.
+2018-10-02 08:58:29	--	- Though we try to keep users up to day with known security and privacy
+2018-10-02 08:58:29	--	- issues, it is the users responsibility to make sure their machine and
+2018-10-02 08:58:29	--	- privacy is secure.
+2018-10-02 08:58:29	--	-
+2018-10-02 08:58:29	--	- FurNet can contain mature material.  Users under 18 should only
+2018-10-02 08:58:29	--	- use this service under the supervision of an adult.  Some channels may
+2018-10-02 08:58:29	--	- contain offensive material.  There are many channels that may be
+2018-10-02 08:58:29	--	- offensive or illegal in your country/state.  Do not enter channels
+2018-10-02 08:58:29	--	- that are illegal in your home town.  All TOPICS should be kept clean
+2018-10-02 08:58:29	--	- and PG-13 rated.
+2018-10-02 08:58:29	--	-
+2018-10-02 08:58:29	--	- Limitation of Liablity
+2018-10-02 08:58:29	--	-
+2018-10-02 08:58:29	--	- FurNet total aggregate liablity for any claim in negligence or
+2018-10-02 08:58:29	--	- otherwise arising out of or in connection to the FurNet network
+2018-10-02 08:58:29	--	- shall be limited to the charges paid for utilising FurNet (currently
+2018-10-02 08:58:29	--	- ZERO US dollars).
+2018-10-02 08:58:29	--	-
+2018-10-02 08:58:29	--	- In any event no claim shall be brought unless you have notified Furnet
+2018-10-02 08:58:29	--	- of the claim within 6 months of it arising.
+2018-10-02 08:58:29	--	-
+2018-10-02 08:58:30	--	- In no event shall FurNet ever be liable to you for any loss of business,
+2018-10-02 08:58:30	--	- contracts, profits or anticipated savings or for any other indirect or
+2018-10-02 08:58:30	--	- consequential or economic loss whatsoever.
+2018-10-02 08:58:30	--	End of /MOTD command.
+2018-10-02 08:58:30	--	User mode [+iwx] by Cake
+2018-10-02 08:58:30	--	Global (services@irc.furnet.org): [Logon News - Oct 29 2014] Have you read the Code of Conduct for Users? Go to http://www.furnet.org/wiki/index.php/Code_Of_Conduct_Users - this applies to ALL users!
+2018-10-02 08:58:30	--	Global (services@irc.furnet.org): [Random News - Oct 25 2004] Services Tip #1: Have Nickserv Auto Identify your password, Put your password into your Server Connect Password Field.
+2018-10-02 08:58:30	--	NickServ (services@irc.furnet.org): This nickname is registered and protected.  If it is your
+2018-10-02 08:58:30	--	NickServ (services@irc.furnet.org): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2018-10-02 08:58:30	--	NickServ (services@irc.furnet.org): please choose a different nick.
+2018-10-02 08:58:30	--	NickServ (services@irc.furnet.org): If you do not change within one minute, I will change your nick.
+2018-10-02 08:58:32	--	irc: disconnected from server
+2018-10-02 08:58:44	--	irc: connecting to server irc.furnet.org/6667...
+2018-10-02 08:58:44	--	irc: connected to irc.furnet.org/6667 (85.199.154.53)
+2018-10-02 08:58:45	--	panther.furnet.org: *** Looking up your hostname...
+2018-10-02 08:58:45	--	panther.furnet.org: *** Checking ident...
+2018-10-02 08:58:45	--	panther.furnet.org: *** No ident response; username prefixed with ~
+2018-10-02 08:58:45	--	panther.furnet.org: *** Found your hostname
+2018-10-02 08:58:45	--	CTCP requested by IRC: VERSION
+2018-10-02 08:58:45	--	CTCP reply to IRC: VERSION WeeChat 2.2 (Jul 14 2018 14:59:20)
+2018-10-02 08:58:45	--	Welcome to the FurNet IRC Network Cake!~cake@183.ip-51-254-223.eu
+2018-10-02 08:58:45	--	Your host is panther.furnet.org, running version Unreal3.2.10.7
+2018-10-02 08:58:45	--	This server was created Mi 16. Nov 2016 at 14:21:06 CET
+2018-10-02 08:58:45	--	panther.furnet.org Unreal3.2.10.7 iowghraAsORTVSxNCWqBzvdHtGpI lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2018-10-02 08:58:45	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=20 CHANLIMIT=#:20 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2018-10-02 08:58:45	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=FurNet CASEMAPPING=ascii EXTBAN=~,qjncrRa ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2018-10-02 08:58:45	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP,STARTTLS :are supported by this server
+2018-10-02 08:58:45	--	There are 422 users and 638 invisible on 8 servers
+2018-10-02 08:58:45	--	15 :operator(s) online
+2018-10-02 08:58:45	--	820 :channels formed
+2018-10-02 08:58:45	--	I have 251 clients and 3 servers
+2018-10-02 08:58:45	--	251 401 :Current local users 251, max 401
+2018-10-02 08:58:45	--	1060 6083 :Current global users 1060, max 6083
+2018-10-02 08:58:45	--	- panther.furnet.org Message of the Day -
+2018-10-02 08:58:45	--	- 29/10/2014 22:33
+2018-10-02 08:58:45	--	-   .           .          *          :        *          .            |/
+2018-10-02 08:58:45	--	- ###### ##  ##  #####   ##  ##  ###### ######   .  ####   #####  . #### -
+2018-10-02 08:58:45	--	- ##   * ##  ##  ##  ##  ### ##  ##    .  ##   .   ##  ##  ##  ##  ##
+2018-10-02 08:58:45	--	- ####   ##  ## *#####   ######  ####     ##       ##  ##  ##### . ## ###
+2018-10-02 08:58:45	--	- ##  .  ##  ##  ## ## + ## ###  ##   *  .## + ##  ##  ##  ## ##   ##  ##
+2018-10-02 08:58:45	--	- ##      #### : ##  ##  ##  ##  ######   ##   ##   #### . ##  ## * #### +
+2018-10-02 08:58:45	--	-       *                    .    *         :          . *        +
+2018-10-02 08:58:45	--	-
+2018-10-02 08:58:45	--	-  Server:             panther.furnet.org (irc.furry.de)
+2018-10-02 08:58:45	--	-  Location:           Frankfurt, Germany (rh-tec)
+2018-10-02 08:58:45	--	-  Admin:              Hurga (hurga@tigress.com)
+2018-10-02 08:58:45	--	-  Ports:              regular: 6667+7000, SSL: 6697
+2018-10-02 08:58:45	--	-  User limit:         1500
+2018-10-02 08:58:45	--	-
+2018-10-02 08:58:45	--	-  Other FurNet-servers:
+2018-10-02 08:58:45	--	-      alicorn.furnet.org   Fort Bragg, CA, USA
+2018-10-02 08:58:45	--	-         wolf.furnet.org   Redwood City, CA, USA
+2018-10-02 08:58:45	--	-     greylion.furnet.org   Vienna, Austria
+2018-10-02 08:58:45	--	-         lynx.furnet.org   Nuremberg, Germany
+2018-10-02 08:58:45	--	-      foxtaur.furnet.org   Baltimore, MD, USA
+2018-10-02 08:58:45	--	-
+2018-10-02 08:58:45	--	- Furs with O-lines on this server:
+2018-10-02 08:58:45	--	- Hurga, Cheetah, Lymril, Snowpony, Taibu
+2018-10-02 08:58:45	--	-
+2018-10-02 08:58:45	--	- Bot policy: http://www.furnet.org/wiki/index.php/Bot_Policy
+2018-10-02 08:58:45	--	-
+2018-10-02 08:58:45	--	- Web IRC interfaces: Please do not provide them specifically for
+2018-10-02 08:58:45	--	- connecting to FurNet. It has been found that they tend to attract
+2018-10-02 08:58:45	--	- annoying individuals. A password-protected (for tracking abuse
+2018-10-02 08:58:45	--	- issues) web IRC client is avaliable - ask the admin.
+2018-10-02 08:58:45	--	-
+2018-10-02 08:58:45	--	End of /MOTD command.
+2018-10-02 08:58:45	--	Global (services@irc.furnet.org): [Logon News - Oct 29 2014] Have you read the Code of Conduct for Users? Go to http://www.furnet.org/wiki/index.php/Code_Of_Conduct_Users - this applies to ALL users!
+2018-10-02 08:58:45	--	Global (services@irc.furnet.org): [Random News - Oct 25 2004] Services Tip #2: Kill your ghost.. /msg nickserv GHOST <ghost_nickname> <password>
+2018-10-02 08:58:45	--	NickServ (services@irc.furnet.org): This nickname is registered and protected.  If it is your
+2018-10-02 08:58:45	--	NickServ (services@irc.furnet.org): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2018-10-02 08:58:45	--	NickServ (services@irc.furnet.org): please choose a different nick.
+2018-10-02 08:58:45	--	NickServ (services@irc.furnet.org): If you do not change within one minute, I will change your nick.
+2018-10-02 08:59:22	--	MSG(nickserv): identify *************
+2018-10-02 08:59:23	--	NickServ (services@irc.furnet.org): Password accepted - you are now recognized.

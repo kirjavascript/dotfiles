@@ -1,0 +1,1284 @@
+2018-09-17 21:13:10		New key binding (context "default"): meta-meta-OQ => /bar scroll buflist * e
+2018-09-17 21:13:10		New key binding (context "default"): meta-meta-OP => /bar scroll buflist * b
+2018-09-17 21:13:10		New key binding (context "default"): meta-OQ => /bar scroll buflist * +100%
+2018-09-17 21:13:10		New key binding (context "default"): meta-OP => /bar scroll buflist * -100%
+2018-09-17 21:13:10		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, javascript, logger, perl, python, relay, ruby, script, trigger, xfer
+2018-09-17 21:18:39	=!=	Error with command "/javascript example.js" (help on command: /help javascript)
+2018-09-17 21:18:43		[javascript]  /javascript  list|listfull [<name>]
+2018-09-17 21:18:43		                           load [-q] <filename>
+2018-09-17 21:18:43		                           autoload
+2018-09-17 21:18:43		                           reload|unload [-q] [<name>]
+2018-09-17 21:18:43		                           eval [-o|-oc] <code>
+2018-09-17 21:18:43		                           version
+2018-09-17 21:18:43		list/load/unload scripts
+2018-09-17 21:18:43		    list: list loaded scripts
+2018-09-17 21:18:43		listfull: list loaded scripts (verbose)
+2018-09-17 21:18:43		    load: load a script
+2018-09-17 21:18:43		autoload: load all scripts in "autoload" directory
+2018-09-17 21:18:43		  reload: reload a script (if no name given, unload all scripts, then load all scripts in "autoload" directory)
+2018-09-17 21:18:43		  unload: unload a script (if no name given, unload all scripts)
+2018-09-17 21:18:43		filename: script (file) to load
+2018-09-17 21:18:43		      -q: quiet mode: do not display messages
+2018-09-17 21:18:43		    name: a script name (name used in call to "register" function)
+2018-09-17 21:18:43		    eval: evaluate source code and display result on current buffer
+2018-09-17 21:18:43		      -o: send evaluation result to the buffer without executing commands
+2018-09-17 21:18:43		     -oc: send evaluation result to the buffer and execute commands
+2018-09-17 21:18:43		    code: source code to evaluate
+2018-09-17 21:18:43		 version: display the version of interpreter used
+2018-09-17 21:18:43		Without argument, this command lists all loaded scripts.
+2018-09-17 21:19:00	=!=	Error with command "/javascript code weechat.print("test"" (help on command: /help javascript)
+2018-09-17 21:19:01	=!=	Error with command "/javascript code weechat.print("test")" (help on command: /help javascript)
+2018-09-17 21:19:05	=!=	Error with command "/javascript code "weechat.print("test")"" (help on command: /help javascript)
+2018-09-17 21:19:08	=!=	Error with command "/javascript code "weechat.print(\"test\")"" (help on command: /help javascript)
+2018-09-17 21:19:16		[javascript]  /javascript  list|listfull [<name>]
+2018-09-17 21:19:16		                           load [-q] <filename>
+2018-09-17 21:19:16		                           autoload
+2018-09-17 21:19:16		                           reload|unload [-q] [<name>]
+2018-09-17 21:19:16		                           eval [-o|-oc] <code>
+2018-09-17 21:19:16		                           version
+2018-09-17 21:19:16		list/load/unload scripts
+2018-09-17 21:19:16		    list: list loaded scripts
+2018-09-17 21:19:16		listfull: list loaded scripts (verbose)
+2018-09-17 21:19:16		    load: load a script
+2018-09-17 21:19:16		autoload: load all scripts in "autoload" directory
+2018-09-17 21:19:16		  reload: reload a script (if no name given, unload all scripts, then load all scripts in "autoload" directory)
+2018-09-17 21:19:16		  unload: unload a script (if no name given, unload all scripts)
+2018-09-17 21:19:16		filename: script (file) to load
+2018-09-17 21:19:16		      -q: quiet mode: do not display messages
+2018-09-17 21:19:16		    name: a script name (name used in call to "register" function)
+2018-09-17 21:19:16		    eval: evaluate source code and display result on current buffer
+2018-09-17 21:19:16		      -o: send evaluation result to the buffer without executing commands
+2018-09-17 21:19:16		     -oc: send evaluation result to the buffer and execute commands
+2018-09-17 21:19:16		    code: source code to evaluate
+2018-09-17 21:19:16		 version: display the version of interpreter used
+2018-09-17 21:19:16		Without argument, this command lists all loaded scripts.
+2018-09-17 21:19:36		[javascript]  /javascript  list|listfull [<name>]
+2018-09-17 21:19:36		                           load [-q] <filename>
+2018-09-17 21:19:36		                           autoload
+2018-09-17 21:19:36		                           reload|unload [-q] [<name>]
+2018-09-17 21:19:36		                           eval [-o|-oc] <code>
+2018-09-17 21:19:36		                           version
+2018-09-17 21:19:36		list/load/unload scripts
+2018-09-17 21:19:36		    list: list loaded scripts
+2018-09-17 21:19:36		listfull: list loaded scripts (verbose)
+2018-09-17 21:19:36		    load: load a script
+2018-09-17 21:19:36		autoload: load all scripts in "autoload" directory
+2018-09-17 21:19:36		  reload: reload a script (if no name given, unload all scripts, then load all scripts in "autoload" directory)
+2018-09-17 21:19:36		  unload: unload a script (if no name given, unload all scripts)
+2018-09-17 21:19:36		filename: script (file) to load
+2018-09-17 21:19:36		      -q: quiet mode: do not display messages
+2018-09-17 21:19:36		    name: a script name (name used in call to "register" function)
+2018-09-17 21:19:36		    eval: evaluate source code and display result on current buffer
+2018-09-17 21:19:36		      -o: send evaluation result to the buffer without executing commands
+2018-09-17 21:19:36		     -oc: send evaluation result to the buffer and execute commands
+2018-09-17 21:19:36		    code: source code to evaluate
+2018-09-17 21:19:36		 version: display the version of interpreter used
+2018-09-17 21:19:36		Without argument, this command lists all loaded scripts.
+2018-09-17 21:19:43		[javascript]  /javascript  list|listfull [<name>]
+2018-09-17 21:19:43		                           load [-q] <filename>
+2018-09-17 21:19:43		                           autoload
+2018-09-17 21:19:43		                           reload|unload [-q] [<name>]
+2018-09-17 21:19:43		                           eval [-o|-oc] <code>
+2018-09-17 21:19:43		                           version
+2018-09-17 21:19:43		list/load/unload scripts
+2018-09-17 21:19:43		    list: list loaded scripts
+2018-09-17 21:19:43		listfull: list loaded scripts (verbose)
+2018-09-17 21:19:43		    load: load a script
+2018-09-17 21:19:43		autoload: load all scripts in "autoload" directory
+2018-09-17 21:19:43		  reload: reload a script (if no name given, unload all scripts, then load all scripts in "autoload" directory)
+2018-09-17 21:19:43		  unload: unload a script (if no name given, unload all scripts)
+2018-09-17 21:19:43		filename: script (file) to load
+2018-09-17 21:19:43		      -q: quiet mode: do not display messages
+2018-09-17 21:19:43		    name: a script name (name used in call to "register" function)
+2018-09-17 21:19:43		    eval: evaluate source code and display result on current buffer
+2018-09-17 21:19:43		      -o: send evaluation result to the buffer without executing commands
+2018-09-17 21:19:43		     -oc: send evaluation result to the buffer and execute commands
+2018-09-17 21:19:43		    code: source code to evaluate
+2018-09-17 21:19:43		 version: display the version of interpreter used
+2018-09-17 21:19:43		Without argument, this command lists all loaded scripts.
+2018-09-17 21:19:49		[javascript]  /javascript  list|listfull [<name>]
+2018-09-17 21:19:49		                           load [-q] <filename>
+2018-09-17 21:19:49		                           autoload
+2018-09-17 21:19:49		                           reload|unload [-q] [<name>]
+2018-09-17 21:19:49		                           eval [-o|-oc] <code>
+2018-09-17 21:19:49		                           version
+2018-09-17 21:19:49		list/load/unload scripts
+2018-09-17 21:19:49		    list: list loaded scripts
+2018-09-17 21:19:49		listfull: list loaded scripts (verbose)
+2018-09-17 21:19:49		    load: load a script
+2018-09-17 21:19:49		autoload: load all scripts in "autoload" directory
+2018-09-17 21:19:49		  reload: reload a script (if no name given, unload all scripts, then load all scripts in "autoload" directory)
+2018-09-17 21:19:49		  unload: unload a script (if no name given, unload all scripts)
+2018-09-17 21:19:49		filename: script (file) to load
+2018-09-17 21:19:49		      -q: quiet mode: do not display messages
+2018-09-17 21:19:49		    name: a script name (name used in call to "register" function)
+2018-09-17 21:19:49		    eval: evaluate source code and display result on current buffer
+2018-09-17 21:19:49		      -o: send evaluation result to the buffer without executing commands
+2018-09-17 21:19:49		     -oc: send evaluation result to the buffer and execute commands
+2018-09-17 21:19:49		    code: source code to evaluate
+2018-09-17 21:19:49		 version: display the version of interpreter used
+2018-09-17 21:19:49		Without argument, this command lists all loaded scripts.
+2018-09-17 21:19:53		[javascript]  /javascript  list|listfull [<name>]
+2018-09-17 21:19:53		                           load [-q] <filename>
+2018-09-17 21:19:53		                           autoload
+2018-09-17 21:19:53		                           reload|unload [-q] [<name>]
+2018-09-17 21:19:53		                           eval [-o|-oc] <code>
+2018-09-17 21:19:53		                           version
+2018-09-17 21:19:53		list/load/unload scripts
+2018-09-17 21:19:53		    list: list loaded scripts
+2018-09-17 21:19:53		listfull: list loaded scripts (verbose)
+2018-09-17 21:19:53		    load: load a script
+2018-09-17 21:19:53		autoload: load all scripts in "autoload" directory
+2018-09-17 21:19:53		  reload: reload a script (if no name given, unload all scripts, then load all scripts in "autoload" directory)
+2018-09-17 21:19:53		  unload: unload a script (if no name given, unload all scripts)
+2018-09-17 21:19:53		filename: script (file) to load
+2018-09-17 21:19:53		      -q: quiet mode: do not display messages
+2018-09-17 21:19:53		    name: a script name (name used in call to "register" function)
+2018-09-17 21:19:53		    eval: evaluate source code and display result on current buffer
+2018-09-17 21:19:53		      -o: send evaluation result to the buffer without executing commands
+2018-09-17 21:19:53		     -oc: send evaluation result to the buffer and execute commands
+2018-09-17 21:19:53		    code: source code to evaluate
+2018-09-17 21:19:53		 version: display the version of interpreter used
+2018-09-17 21:19:53		Without argument, this command lists all loaded scripts.
+2018-09-17 21:20:02		[javascript]  /javascript  list|listfull [<name>]
+2018-09-17 21:20:02		                           load [-q] <filename>
+2018-09-17 21:20:02		                           autoload
+2018-09-17 21:20:02		                           reload|unload [-q] [<name>]
+2018-09-17 21:20:02		                           eval [-o|-oc] <code>
+2018-09-17 21:20:02		                           version
+2018-09-17 21:20:02		list/load/unload scripts
+2018-09-17 21:20:02		    list: list loaded scripts
+2018-09-17 21:20:02		listfull: list loaded scripts (verbose)
+2018-09-17 21:20:02		    load: load a script
+2018-09-17 21:20:02		autoload: load all scripts in "autoload" directory
+2018-09-17 21:20:02		  reload: reload a script (if no name given, unload all scripts, then load all scripts in "autoload" directory)
+2018-09-17 21:20:02		  unload: unload a script (if no name given, unload all scripts)
+2018-09-17 21:20:02		filename: script (file) to load
+2018-09-17 21:20:02		      -q: quiet mode: do not display messages
+2018-09-17 21:20:02		    name: a script name (name used in call to "register" function)
+2018-09-17 21:20:02		    eval: evaluate source code and display result on current buffer
+2018-09-17 21:20:02		      -o: send evaluation result to the buffer without executing commands
+2018-09-17 21:20:02		     -oc: send evaluation result to the buffer and execute commands
+2018-09-17 21:20:02		    code: source code to evaluate
+2018-09-17 21:20:02		 version: display the version of interpreter used
+2018-09-17 21:20:02		Without argument, this command lists all loaded scripts.
+2018-09-17 21:20:10	=!=	Command "/javascript eval" is not yet implemented
+2018-09-17 21:20:15	=!=	Command "/javascript eval" is not yet implemented
+2018-09-17 21:20:35	=!=	Error with command "/javascript load" (help on command: /help javascript)
+2018-09-17 21:20:39		javascript: loading script "example.js"
+2018-09-17 21:20:39		javascript: registered script "examplejs", version 0.1 (JS script)
+2018-09-17 21:20:39		Hey, I'm a JS script for WeeChat!
+2018-09-17 21:20:55		buffer: core.weechat, args: ''
+2018-09-17 21:21:08		javascript: scripts unloaded
+2018-09-17 21:21:11		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, javascript, logger, perl, python, relay, ruby, script, trigger, xfer
+2018-09-17 21:21:15		javascript scripts loaded:
+2018-09-17 21:21:15		  (none)
+2018-09-17 21:21:17		javascript scripts loaded:
+2018-09-17 21:21:17		  (none)
+2018-09-17 21:21:24		javascript: loading script "example.js"
+2018-09-17 21:21:24		javascript: registered script "examplejs", version 0.1 (JS script)
+2018-09-17 21:21:24		Hey, I'm a JS script for WeeChat!
+2018-09-17 21:21:27		javascript scripts loaded:
+2018-09-17 21:21:27		  examplejs v0.1 - JS script
+2018-09-17 21:21:32		[javascript]  /javascript  list|listfull [<name>]
+2018-09-17 21:21:32		                           load [-q] <filename>
+2018-09-17 21:21:32		                           autoload
+2018-09-17 21:21:32		                           reload|unload [-q] [<name>]
+2018-09-17 21:21:32		                           eval [-o|-oc] <code>
+2018-09-17 21:21:32		                           version
+2018-09-17 21:21:32		list/load/unload scripts
+2018-09-17 21:21:32		    list: list loaded scripts
+2018-09-17 21:21:32		listfull: list loaded scripts (verbose)
+2018-09-17 21:21:32		    load: load a script
+2018-09-17 21:21:32		autoload: load all scripts in "autoload" directory
+2018-09-17 21:21:32		  reload: reload a script (if no name given, unload all scripts, then load all scripts in "autoload" directory)
+2018-09-17 21:21:32		  unload: unload a script (if no name given, unload all scripts)
+2018-09-17 21:21:32		filename: script (file) to load
+2018-09-17 21:21:32		      -q: quiet mode: do not display messages
+2018-09-17 21:21:32		    name: a script name (name used in call to "register" function)
+2018-09-17 21:21:32		    eval: evaluate source code and display result on current buffer
+2018-09-17 21:21:32		      -o: send evaluation result to the buffer without executing commands
+2018-09-17 21:21:32		     -oc: send evaluation result to the buffer and execute commands
+2018-09-17 21:21:32		    code: source code to evaluate
+2018-09-17 21:21:32		 version: display the version of interpreter used
+2018-09-17 21:21:32		Without argument, this command lists all loaded scripts.
+2018-09-17 21:21:35		Options saved to sec.conf
+2018-09-17 21:21:35		Options saved to weechat.conf
+2018-09-17 21:21:35		Options saved to plugins.conf
+2018-09-17 21:21:35		Options saved to charset.conf
+2018-09-17 21:21:35		Options saved to logger.conf
+2018-09-17 21:21:35		Options saved to exec.conf
+2018-09-17 21:21:35		Options saved to trigger.conf
+2018-09-17 21:21:35		Options saved to aspell.conf
+2018-09-17 21:21:35		Options saved to alias.conf
+2018-09-17 21:21:35		Options saved to buflist.conf
+2018-09-17 21:21:35		Options saved to fifo.conf
+2018-09-17 21:21:35		Options saved to xfer.conf
+2018-09-17 21:21:35		Options saved to irc.conf
+2018-09-17 21:21:35		Options saved to relay.conf
+2018-09-17 21:21:35		Options saved to perl.conf
+2018-09-17 21:21:35		Options saved to javascript.conf
+2018-09-17 21:21:35		Options saved to ruby.conf
+2018-09-17 21:21:35		Options saved to python.conf
+2018-09-17 21:21:35		Options saved to script.conf
+2018-09-17 21:21:35		Options saved to fset.conf
+2018-09-17 21:21:39		javascript: scripts unloaded
+2018-09-17 21:21:41		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, javascript, logger, perl, python, relay, ruby, script, trigger, xfer
+2018-09-17 21:21:44		javascript scripts loaded:
+2018-09-17 21:21:44		  (none)
+2018-09-17 21:22:33		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, javascript, logger, perl, python, relay, ruby, script, trigger, xfer
+2018-09-17 21:22:36		javascript scripts loaded:
+2018-09-17 21:22:36		  (none)
+2018-09-17 21:22:40		javascript scripts loaded:
+2018-09-17 21:22:40		  (none)
+2018-09-17 21:22:44		[javascript]  /javascript  list|listfull [<name>]
+2018-09-17 21:22:44		                           load [-q] <filename>
+2018-09-17 21:22:44		                           autoload
+2018-09-17 21:22:44		                           reload|unload [-q] [<name>]
+2018-09-17 21:22:44		                           eval [-o|-oc] <code>
+2018-09-17 21:22:44		                           version
+2018-09-17 21:22:44		list/load/unload scripts
+2018-09-17 21:22:44		    list: list loaded scripts
+2018-09-17 21:22:44		listfull: list loaded scripts (verbose)
+2018-09-17 21:22:44		    load: load a script
+2018-09-17 21:22:44		autoload: load all scripts in "autoload" directory
+2018-09-17 21:22:44		  reload: reload a script (if no name given, unload all scripts, then load all scripts in "autoload" directory)
+2018-09-17 21:22:44		  unload: unload a script (if no name given, unload all scripts)
+2018-09-17 21:22:44		filename: script (file) to load
+2018-09-17 21:22:44		      -q: quiet mode: do not display messages
+2018-09-17 21:22:44		    name: a script name (name used in call to "register" function)
+2018-09-17 21:22:44		    eval: evaluate source code and display result on current buffer
+2018-09-17 21:22:44		      -o: send evaluation result to the buffer without executing commands
+2018-09-17 21:22:44		     -oc: send evaluation result to the buffer and execute commands
+2018-09-17 21:22:44		    code: source code to evaluate
+2018-09-17 21:22:44		 version: display the version of interpreter used
+2018-09-17 21:22:44		Without argument, this command lists all loaded scripts.
+2018-09-17 21:23:16		Hey, I'm a JS script for WeeChat!
+2018-09-17 21:23:16		javascript scripts loaded: examplejs
+2018-09-17 21:23:16		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, javascript, logger, perl, python, relay, ruby, script, trigger, xfer
+2018-09-17 21:23:20		javascript: scripts unloaded
+2018-09-17 21:23:24		Hey, I'm a JS script for WeeChat!
+2018-09-17 21:23:24		javascript scripts loaded: examplejs
+2018-09-17 21:23:24		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, javascript, logger, perl, python, relay, ruby, script, trigger, xfer
+2018-09-17 21:23:30		No server
+2018-09-17 21:23:51	=!=	Too few arguments for command "/query" (help on command: /help query)
+2018-09-17 21:23:53		javascript: scripts unloaded
+2018-09-17 21:26:02		Hey, I'm a JS script for WeeChat!
+2018-09-17 21:26:02		javascript scripts loaded: examplejs
+2018-09-17 21:26:02		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, javascript, logger, perl, python, relay, ruby, script, trigger, xfer
+2018-09-17 21:26:03		javascript: scripts unloaded
+2018-09-17 21:26:08		Hey, I'm a JS script for WeeChat!
+2018-09-17 21:26:08		javascript scripts loaded: examplejs
+2018-09-17 21:26:08		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, javascript, logger, perl, python, relay, ruby, script, trigger, xfer
+2018-09-17 21:26:14		All servers:
+2018-09-17 21:26:14		   freenode
+2018-09-17 21:26:14		   rizon
+2018-09-17 21:26:14		   furnet
+2018-09-17 21:26:14		   badnik
+2018-09-17 21:26:14		   mozilla
+2018-09-17 21:27:12		javascript: unloading script "examplejs"
+2018-09-17 21:27:12		javascript: loading script "/home/thom/.weechat/javascript/autoload/example.js"
+2018-09-17 21:27:12		javascript: registered script "examplejs", version 0.1 (JS script)
+2018-09-17 21:27:12		Hey, I'm a JS script for WeeChat!
+2018-09-17 21:28:29		javascript: unloading script "examplejs"
+2018-09-17 21:28:29		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-17 21:28:29		javascript: registered script "examplejs", version 0.1 (JS script)
+2018-09-17 21:28:29		Hey, I'm a JS script for WeeChat!
+2018-09-17 21:28:29	=!=	javascript: wrong arguments for function "print" (script: examplejs)
+2018-09-17 21:28:38		javascript: unloading script "examplejs"
+2018-09-17 21:28:38		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-17 21:28:38		javascript: registered script "examplejs", version 0.1 (JS script)
+2018-09-17 21:28:38		Hey, I'm a JS script for WeeChat!
+2018-09-17 21:28:38		{"0":{"weechat":{"WEECHAT_RC_OK":0,"WEECHAT_RC_OK_EAT":1,"WEECHAT_RC_ERROR":-1,"WEECHAT_CONFIG_READ_OK":0,"WEECHAT_CONFIG_READ_MEMORY_ERROR":-1,"WEECHAT_CONFIG_READ_FILE_NOT_FOUND":-2,"WEECHAT_CONFIG_WRITE_OK":0,"WEECHAT_CONFIG_WRITE_ERROR":-1,"WEECHAT_CONFIG_WRITE_MEMORY_ERROR":-2,"WEECHAT_CONFIG_OPTION_SET_OK_CHANGED":2,"WEECHAT_CONFIG_OPTION_SET_OK_SAME_VALUE":1,"WEECHAT_CONFIG_OPTION_SET_ERROR":0,"WEECHAT_CONFIG_OPTION_SET_OPTION_NOT_FOUND":-1,"WEECHAT_CONFIG_OPTION_UNSET_OK_NO_RESET":0,"WEECHAT_CONFIG_OPTION_UNSET_OK_RESET":1,"WEECHAT_CONFIG_OPTION_UNSET_OK_REMOVED":2,"WEECHAT_CONFIG_OPTION_UNSET_ERROR":-1,"WEECHAT_LIST_POS_SORT":"sort","WEECHAT_LIST_POS_BEGINNING":"beginning","WEECHAT_LIST_POS_END":"end","WEECHAT_HOTLIST_LOW":"0","WEECHAT_HOTLIST_MESSAGE":"1","WEECHAT_HOTLIST_PRIVATE":"2","WEECHAT_HOTLIST_HIGHLIGHT":"3","WEECHAT_HOOK_PROCESS_RUNNING":-1,"WEECHAT_HOOK_PROCESS_ERROR":-2,"WEECHAT_HOOK_CONNECT_OK":0,"WEECHAT_HOOK_CONNECT_ADDRESS_NOT_FOUND":1,"WEECHAT_HOOK_CONNECT_IP_ADDRESS_NOT_FOUND":2,"WEECHAT_HOOK_CONNECT_CONNECTION_REFUSED":3,"WEECHAT_HOOK_CONNECT_PROXY_ERROR":4,"WEECHAT_HOOK_CONNECT_LOCAL_HOSTNAME_ERROR":5,"WEECHAT_HOOK_CONNECT_GNUTLS_INIT_ERROR":6,"WEECHAT_HOOK_CONNECT_GNUTLS_HANDSHAKE_ERROR":7,"WEECHAT_HOOK_CONNECT_MEMORY_ERROR":8,"WEECHAT_HOOK_CONNECT_TIMEOUT":9,"WEECHAT_HOOK_CONNECT_SOCKET_ERROR":10,"WEECHAT_HOOK_SIGNAL_STRING":"string","WEECHAT_HOOK_SIGNAL_INT":"int","WEECHAT_HOOK_SIGNAL_POINTER":"pointer"}}}
+2018-09-17 21:28:58		javascript: unloading script "examplejs"
+2018-09-17 21:28:58		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-17 21:28:59		javascript: registered script "examplejs", version 0.1 (JS script)
+2018-09-17 21:28:59		Hey, I'm a JS script for WeeChat!
+2018-09-17 21:28:59		{"0":{"WEECHAT_RC_OK":0,"WEECHAT_RC_OK_EAT":1,"WEECHAT_RC_ERROR":-1,"WEECHAT_CONFIG_READ_OK":0,"WEECHAT_CONFIG_READ_MEMORY_ERROR":-1,"WEECHAT_CONFIG_READ_FILE_NOT_FOUND":-2,"WEECHAT_CONFIG_WRITE_OK":0,"WEECHAT_CONFIG_WRITE_ERROR":-1,"WEECHAT_CONFIG_WRITE_MEMORY_ERROR":-2,"WEECHAT_CONFIG_OPTION_SET_OK_CHANGED":2,"WEECHAT_CONFIG_OPTION_SET_OK_SAME_VALUE":1,"WEECHAT_CONFIG_OPTION_SET_ERROR":0,"WEECHAT_CONFIG_OPTION_SET_OPTION_NOT_FOUND":-1,"WEECHAT_CONFIG_OPTION_UNSET_OK_NO_RESET":0,"WEECHAT_CONFIG_OPTION_UNSET_OK_RESET":1,"WEECHAT_CONFIG_OPTION_UNSET_OK_REMOVED":2,"WEECHAT_CONFIG_OPTION_UNSET_ERROR":-1,"WEECHAT_LIST_POS_SORT":"sort","WEECHAT_LIST_POS_BEGINNING":"beginning","WEECHAT_LIST_POS_END":"end","WEECHAT_HOTLIST_LOW":"0","WEECHAT_HOTLIST_MESSAGE":"1","WEECHAT_HOTLIST_PRIVATE":"2","WEECHAT_HOTLIST_HIGHLIGHT":"3","WEECHAT_HOOK_PROCESS_RUNNING":-1,"WEECHAT_HOOK_PROCESS_ERROR":-2,"WEECHAT_HOOK_CONNECT_OK":0,"WEECHAT_HOOK_CONNECT_ADDRESS_NOT_FOUND":1,"WEECHAT_HOOK_CONNECT_IP_ADDRESS_NOT_FOUND":2,"WEECHAT_HOOK_CONNECT_CONNECTION_REFUSED":3,"WEECHAT_HOOK_CONNECT_PROXY_ERROR":4,"WEECHAT_HOOK_CONNECT_LOCAL_HOSTNAME_ERROR":5,"WEECHAT_HOOK_CONNECT_GNUTLS_INIT_ERROR":6,"WEECHAT_HOOK_CONNECT_GNUTLS_HANDSHAKE_ERROR":7,"WEECHAT_HOOK_CONNECT_MEMORY_ERROR":8,"WEECHAT_HOOK_CONNECT_TIMEOUT":9,"WEECHAT_HOOK_CONNECT_SOCKET_ERROR":10,"WEECHAT_HOOK_SIGNAL_STRING":"string","WEECHAT_HOOK_SIGNAL_INT":"int","WEECHAT_HOOK_SIGNAL_POINTER":"pointer"}}
+2018-09-17 21:29:07		javascript: unloading script "examplejs"
+2018-09-17 21:29:07		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-17 21:29:07		javascript: registered script "examplejs", version 0.1 (JS script)
+2018-09-17 21:29:07		Hey, I'm a JS script for WeeChat!
+2018-09-17 21:29:07		{"0":{"WEECHAT_RC_OK":0,"WEECHAT_RC_OK_EAT":1,"WEECHAT_RC_ERROR":-1,"WEECHAT_CONFIG_READ_OK":0,"WEECHAT_CONFIG_READ_MEMORY_ERROR":-1,"WEECHAT_CONFIG_READ_FILE_NOT_FOUND":-2,"WEECHAT_CONFIG_WRITE_OK":0,"WEECHAT_CONFIG_WRITE_ERROR":-1,"WEECHAT_CONFIG_WRITE_MEMORY_ERROR":-2,"WEECHAT_CONFIG_OPTION_SET_OK_CHANGED":2,"WEECHAT_CONFIG_OPTION_SET_OK_SAME_VALUE":1,"WEECHAT_CONFIG_OPTION_SET_ERROR":0,"WEECHAT_CONFIG_OPTION_SET_OPTION_NOT_FOUND":-1,"WEECHAT_CONFIG_OPTION_UNSET_OK_NO_RESET":0,"WEECHAT_CONFIG_OPTION_UNSET_OK_RESET":1,"WEECHAT_CONFIG_OPTION_UNSET_OK_REMOVED":2,"WEECHAT_CONFIG_OPTION_UNSET_ERROR":-1,"WEECHAT_LIST_POS_SORT":"sort","WEECHAT_LIST_POS_BEGINNING":"beginning","WEECHAT_LIST_POS_END":"end","WEECHAT_HOTLIST_LOW":"0","WEECHAT_HOTLIST_MESSAGE":"1","WEECHAT_HOTLIST_PRIVATE":"2","WEECHAT_HOTLIST_HIGHLIGHT":"3","WEECHAT_HOOK_PROCESS_RUNNING":-1,"WEECHAT_HOOK_PROCESS_ERROR":-2,"WEECHAT_HOOK_CONNECT_OK":0,"WEECHAT_HOOK_CONNECT_ADDRESS_NOT_FOUND":1,"WEECHAT_HOOK_CONNECT_IP_ADDRESS_NOT_FOUND":2,"WEECHAT_HOOK_CONNECT_CONNECTION_REFUSED":3,"WEECHAT_HOOK_CONNECT_PROXY_ERROR":4,"WEECHAT_HOOK_CONNECT_LOCAL_HOSTNAME_ERROR":5,"WEECHAT_HOOK_CONNECT_GNUTLS_INIT_ERROR":6,"WEECHAT_HOOK_CONNECT_GNUTLS_HANDSHAKE_ERROR":7,"WEECHAT_HOOK_CONNECT_MEMORY_ERROR":8,"WEECHAT_HOOK_CONNECT_TIMEOUT":9,"WEECHAT_HOOK_CONNECT_SOCKET_ERROR":10,"WEECHAT_HOOK_SIGNAL_STRING":"string","WEECHAT_HOOK_SIGNAL_INT":"int","WEECHAT_HOOK_SIGNAL_POINTER":"pointer"}}
+2018-09-17 21:29:55		javascript: unloading script "examplejs"
+2018-09-17 21:29:55		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-17 21:29:56		javascript: registered script "examplejs", version 0.1 (JS script)
+2018-09-17 21:29:56		Hey, I'm a JS script for WeeChat!
+2018-09-17 21:29:56		{"0":{"WEECHAT_RC_OK":0,"WEECHAT_RC_OK_EAT":1,"WEECHAT_RC_ERROR":-1,"WEECHAT_CONFIG_READ_OK":0,"WEECHAT_CONFIG_READ_MEMORY_ERROR":-1,"WEECHAT_CONFIG_READ_FILE_NOT_FOUND":-2,"WEECHAT_CONFIG_WRITE_OK":0,"WEECHAT_CONFIG_WRITE_ERROR":-1,"WEECHAT_CONFIG_WRITE_MEMORY_ERROR":-2,"WEECHAT_CONFIG_OPTION_SET_OK_CHANGED":2,"WEECHAT_CONFIG_OPTION_SET_OK_SAME_VALUE":1,"WEECHAT_CONFIG_OPTION_SET_ERROR":0,"WEECHAT_CONFIG_OPTION_SET_OPTION_NOT_FOUND":-1,"WEECHAT_CONFIG_OPTION_UNSET_OK_NO_RESET":0,"WEECHAT_CONFIG_OPTION_UNSET_OK_RESET":1,"WEECHAT_CONFIG_OPTION_UNSET_OK_REMOVED":2,"WEECHAT_CONFIG_OPTION_UNSET_ERROR":-1,"WEECHAT_LIST_POS_SORT":"sort","WEECHAT_LIST_POS_BEGINNING":"beginning","WEECHAT_LIST_POS_END":"end","WEECHAT_HOTLIST_LOW":"0","WEECHAT_HOTLIST_MESSAGE":"1","WEECHAT_HOTLIST_PRIVATE":"2","WEECHAT_HOTLIST_HIGHLIGHT":"3","WEECHAT_HOOK_PROCESS_RUNNING":-1,"WEECHAT_HOOK_PROCESS_ERROR":-2,"WEECHAT_HOOK_CONNECT_OK":0,"WEECHAT_HOOK_CONNECT_ADDRESS_NOT_FOUND":1,"WEECHAT_HOOK_CONNECT_IP_ADDRESS_NOT_FOUND":2,"WEECHAT_HOOK_CONNECT_CONNECTION_REFUSED":3,"WEECHAT_HOOK_CONNECT_PROXY_ERROR":4,"WEECHAT_HOOK_CONNECT_LOCAL_HOSTNAME_ERROR":5,"WEECHAT_HOOK_CONNECT_GNUTLS_INIT_ERROR":6,"WEECHAT_HOOK_CONNECT_GNUTLS_HANDSHAKE_ERROR":7,"WEECHAT_HOOK_CONNECT_MEMORY_ERROR":8,"WEECHAT_HOOK_CONNECT_TIMEOUT":9,"WEECHAT_HOOK_CONNECT_SOCKET_ERROR":10,"WEECHAT_HOOK_SIGNAL_STRING":"string","WEECHAT_HOOK_SIGNAL_INT":"int","WEECHAT_HOOK_SIGNAL_POINTER":"pointer"}}
+2018-09-17 21:30:01		javascript: unloading script "examplejs"
+2018-09-17 21:30:01		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-17 21:30:01		javascript: registered script "examplejs", version 0.1 (JS script)
+2018-09-17 21:30:01		Hey, I'm a JS script for WeeChat!
+2018-09-17 21:30:01		{}
+2018-09-17 21:30:18		javascript: unloading script "examplejs"
+2018-09-17 21:30:18		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-17 21:30:18		javascript: registered script "examplejs", version 0.1 (JS script)
+2018-09-17 21:30:18		Hey, I'm a JS script for WeeChat!
+2018-09-17 21:30:18		{"0":["WEECHAT_RC_OK","WEECHAT_RC_OK_EAT","WEECHAT_RC_ERROR","WEECHAT_CONFIG_READ_OK","WEECHAT_CONFIG_READ_MEMORY_ERROR","WEECHAT_CONFIG_READ_FILE_NOT_FOUND","WEECHAT_CONFIG_WRITE_OK","WEECHAT_CONFIG_WRITE_ERROR","WEECHAT_CONFIG_WRITE_MEMORY_ERROR","WEECHAT_CONFIG_OPTION_SET_OK_CHANGED","WEECHAT_CONFIG_OPTION_SET_OK_SAME_VALUE","WEECHAT_CONFIG_OPTION_SET_ERROR","WEECHAT_CONFIG_OPTION_SET_OPTION_NOT_FOUND","WEECHAT_CONFIG_OPTION_UNSET_OK_NO_RESET","WEECHAT_CONFIG_OPTION_UNSET_OK_RESET","WEECHAT_CONFIG_OPTION_UNSET_OK_REMOVED","WEECHAT_CONFIG_OPTION_UNSET_ERROR","WEECHAT_LIST_POS_SORT","WEECHAT_LIST_POS_BEGINNING","WEECHAT_LIST_POS_END","WEECHAT_HOTLIST_LOW","WEECHAT_HOTLIST_MESSAGE","WEECHAT_HOTLIST_PRIVATE","WEECHAT_HOTLIST_HIGHLIGHT","WEECHAT_HOOK_PROCESS_RUNNING","WEECHAT_HOOK_PROCESS_ERROR","WEECHAT_HOOK_CONNECT_OK","WEECHAT_HOOK_CONNECT_ADDRESS_NOT_FOUND","WEECHAT_HOOK_CONNECT_IP_ADDRESS_NOT_FOUND","WEECHAT_HOOK_CONNECT_CONNECTION_REFUSED","WEECHAT_HOOK_CONNECT_PROXY_ERROR","WEECHAT_HOOK_CONNECT_LOCAL_HOSTNAME_ERROR","WEECHAT_HOOK_CONNECT_GNUTLS_INIT_ERROR","WEECHAT_HOOK_CONNECT_GNUTLS_HANDSHAKE_ERROR","WEECHAT_HOOK_CONNECT_MEMORY_ERROR","WEECHAT_HOOK_CONNECT_TIMEOUT","WEECHAT_HOOK_CONNECT_SOCKET_ERROR","WEECHAT_HOOK_SIGNAL_STRING","WEECHAT_HOOK_SIGNAL_INT","WEECHAT_HOOK_SIGNAL_POINTER","register","plugin_get_name","charset_set","iconv_to_internal","iconv_from_internal","gettext","ngettext","strlen_screen","string_match","string_has_highlight","string_has_highlight_regex","string_mask_to_regex","string_format_size","string_remove_color","string_is_command_char","string_input_for_buffer","string_eval_expression","string_eval_path_home","mkdir_home","mkdir","mkdir_parents","list_new","list_add","list_search","list_search_pos","list_casesearch","list_casesearch_pos","list_get","list_set","list_next","list_prev","list_string","list_size","list_remove","list_remove_all","list_free","config_new","config_new_section","config_search_section","config_new_option","config_search_option","config_string_to_boolean","config_option_reset","config_option_set","config_option_set_null","config_option_unset","config_option_rename","config_option_is_null","config_option_default_is_null","config_boolean","config_boolean_default","config_integer","config_integer_default","config_string","config_string_default","config_color","config_color_default","config_write_option","config_write_line","config_write","config_read","config_reload","config_option_free","config_section_free_options","config_section_free","config_free","config_get","config_get_plugin","config_is_set_plugin","config_set_plugin","config_set_desc_plugin","config_unset_plugin","key_bind","key_unbind","prefix","color","print","print_date_tags","print_y","log_print","hook_command","hook_completion","hook_completion_get_string","hook_completion_list_add","hook_command_run","hook_timer","hook_fd","hook_process","hook_process_hashtable","hook_connect","hook_print","hook_signal","hook_signal_send","hook_hsignal","hook_hsignal_send","hook_config","hook_modifier","hook_modifier_exec","hook_info","hook_info_hashtable","hook_infolist","hook_focus","hook_set","unhook","unhook_all","buffer_new","buffer_search","buffer_search_main","current_buffer","buffer_clear","buffer_close","buffer_merge","buffer_unmerge","buffer_get_integer","buffer_get_string","buffer_get_pointer","buffer_set","buffer_string_replace_local_var","buffer_match_list","current_window","window_search_with_buffer","window_get_integer","window_get_string","window_get_pointer","window_set_title","nicklist_add_group","nicklist_search_group","nicklist_add_nick","nicklist_search_nick","nicklist_remove_group","nicklist_remove_nick","nicklist_remove_all","nicklist_group_get_integer","nicklist_group_get_string","nicklist_group_get_pointer","nicklist_group_set","nicklist_nick_get_integer","nicklist_nick_get_string","nicklist_nick_get_pointer","nicklist_nick_set","bar_item_search","bar_item_new","bar_item_update","bar_item_remove","bar_search","bar_new","bar_set","bar_update","bar_remove","command","info_get","info_get_hashtable","infolist_new","infolist_new_item","infolist_new_var_integer","infolist_new_var_string","infolist_new_var_pointer","infolist_new_var_time","infolist_search_var","infolist_get","infolist_next","infolist_prev","infolist_reset_item_cursor","infolist_fields","infolist_integer","infolist_string","infolist_pointer","infolist_time","infolist_free","hdata_get","hdata_get_var_offset","hdata_get_var_type_string","hdata_get_var_array_size","hdata_get_var_array_size_string","hdata_get_var_hdata","hdata_get_list","hdata_check_pointer","hdata_move","hdata_search","hdata_char","hdata_integer","hdata_long","hdata_string","hdata_pointer","hdata_time","hdata_hashtable","hdata_compare","hdata_update","hdata_get_string","upgrade_new","upgrade_write_object","upgrade_read","upgrade_close"]}
+2018-09-17 21:32:30		Options reloaded from sec.conf
+2018-09-17 21:32:30		Options reloaded from weechat.conf
+2018-09-17 21:32:30		Options reloaded from plugins.conf
+2018-09-17 21:32:30		Options reloaded from charset.conf
+2018-09-17 21:32:30		Options reloaded from logger.conf
+2018-09-17 21:32:30		Options reloaded from exec.conf
+2018-09-17 21:32:30		Options reloaded from trigger.conf
+2018-09-17 21:32:30		Options reloaded from aspell.conf
+2018-09-17 21:32:30		Options reloaded from alias.conf
+2018-09-17 21:32:30		Options reloaded from buflist.conf
+2018-09-17 21:32:30		Options reloaded from fifo.conf
+2018-09-17 21:32:30		Options reloaded from xfer.conf
+2018-09-17 21:32:30		Options reloaded from irc.conf
+2018-09-17 21:32:30		Options reloaded from relay.conf
+2018-09-17 21:32:30		Options reloaded from perl.conf
+2018-09-17 21:32:30		Options reloaded from javascript.conf
+2018-09-17 21:32:30		Options reloaded from ruby.conf
+2018-09-17 21:32:30		Options reloaded from python.conf
+2018-09-17 21:32:30		Options reloaded from script.conf
+2018-09-17 21:32:30		Options reloaded from fset.conf
+2018-09-17 21:32:35		javascript: unloading script "examplejs"
+2018-09-17 21:32:35		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-17 21:32:35	=!=	javascript: exception: SyntaxError: Unexpected token )
+2018-09-17 21:32:35	=!=	javascript: unable to execute file "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-17 21:32:45		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-17 21:32:45		javascript: registered script "examplejs", version 0.1 (JS script)
+2018-09-17 21:32:48		buffer: core.weechat, args: ''
+2018-09-17 21:35:18		javascript: unloading script "examplejs"
+2018-09-17 21:35:18		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-17 21:35:18	=!=	javascript: exception: SyntaxError: Unexpected identifier
+2018-09-17 21:35:18	=!=	javascript: unable to execute file "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-17 21:43:00		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-17 21:43:00	=!=	javascript: exception: SyntaxError: Unexpected end of input
+2018-09-17 21:43:00	=!=	javascript: unable to execute file "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-17 21:43:28		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-17 21:43:28		javascript: registered script "kdsl", version 0.1 (JS script)
+2018-09-17 21:45:11		javascript: unloading script "kdsl"
+2018-09-17 21:45:11		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-17 21:45:11		javascript: registered script "kdsl", version 0.1 (JS script)
+2018-09-17 21:45:11	=!=	javascript: exception: SyntaxError: Invalid flags supplied to RegExp constructor 'gsm'
+2018-09-17 21:45:11	=!=	javascript: unable to execute file "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-17 21:45:46		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-17 21:45:46		javascript: registered script "kdsl", version 0.1 (JS script)
+2018-09-17 21:45:46	=!=	javascript: exception: SyntaxError: Invalid flags supplied to RegExp constructor 'gs'
+2018-09-17 21:45:46	=!=	javascript: unable to execute file "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-17 21:46:09		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-17 21:46:09		javascript: registered script "kdsl", version 0.1 (JS script)
+2018-09-17 21:46:09	=!=	javascript: exception: SyntaxError: Invalid flags supplied to RegExp constructor 'gs'
+2018-09-17 21:46:09	=!=	javascript: unable to execute file "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-17 21:46:16		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-17 21:46:16		javascript: registered script "kdsl", version 0.1 (JS script)
+2018-09-17 21:46:16	=!=	javascript: exception: SyntaxError: Invalid flags supplied to RegExp constructor 'gs'
+2018-09-17 21:46:16	=!=	javascript: unable to execute file "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-17 21:46:25		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-17 21:46:25		javascript: registered script "kdsl", version 0.1 (JS script)
+2018-09-17 21:46:25	=!=	javascript: wrong arguments for function "print" (script: kdsl)
+2018-09-17 21:46:36		javascript: unloading script "kdsl"
+2018-09-17 21:46:36		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-17 21:46:36		javascript: registered script "kdsl", version 0.1 (JS script)
+2018-09-17 21:46:36		04 test
+2018-09-17 21:49:11		javascript: unloading script "kdsl"
+2018-09-17 21:49:11		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-17 21:49:11		javascript: registered script "ColourDSL", version 0.1 (JS script)
+2018-09-17 21:49:11	=!=	javascript: exception: TypeError: Object #<Object> has no method 'printf'
+2018-09-17 21:49:11	=!=	javascript: unable to execute file "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-17 21:50:22		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-17 21:50:22		javascript: registered script "ColourDSL", version 0.1 (JS script)
+2018-09-17 21:50:22		{"0":["register","plugin_get_name","charset_set","iconv_to_internal","iconv_from_internal","gettext","ngettext","strlen_screen","string_match","string_has_highlight","string_has_highlight_regex","string_mask_to_regex","string_format_size","string_remove_color","string_is_command_char","string_input_for_buffer","string_eval_expression","string_eval_path_home","mkdir_home","mkdir","mkdir_parents","list_new","list_add","list_search","list_search_pos","list_casesearch","list_casesearch_pos","list_get","list_set","list_next","list_prev","list_string","list_size","list_remove","list_remove_all","list_free","config_new","config_new_section","config_search_section","config_new_option","config_search_option","config_string_to_boolean","config_option_reset","config_option_set","config_option_set_null","config_option_unset","config_option_rename","config_option_is_null","config_option_default_is_null","config_boolean","config_boolean_default","config_integer","config_integer_default","config_string","config_string_default","config_color","config_color_default","config_write_option","config_write_line","config_write","config_read","config_reload","config_option_free","config_section_free_options","config_section_free","config_free","config_get","config_get_plugin","config_is_set_plugin","config_set_plugin","config_set_desc_plugin","config_unset_plugin","key_bind","key_unbind","prefix","color","print","print_date_tags","print_y","log_print","hook_command","hook_completion","hook_completion_get_string","hook_completion_list_add","hook_command_run","hook_timer","hook_fd","hook_process","hook_process_hashtable","hook_connect","hook_print","hook_signal","hook_signal_send","hook_hsignal","hook_hsignal_send","hook_config","hook_modifier","hook_modifier_exec","hook_info","hook_info_hashtable","hook_infolist","hook_focus","hook_set","unhook","unhook_all","buffer_new","buffer_search","buffer_search_main","current_buffer","buffer_clear","buffer_close","buffer_merge","buffer_unmerge","buffer_get_integer","buffer_get_string","buffer_get_pointer","buffer_set","buffer_string_replace_local_var","buffer_match_list","current_window","window_search_with_buffer","window_get_integer","window_get_string","window_get_pointer","window_set_title","nicklist_add_group","nicklist_search_group","nicklist_add_nick","nicklist_search_nick","nicklist_remove_group","nicklist_remove_nick","nicklist_remove_all","nicklist_group_get_integer","nicklist_group_get_string","nicklist_group_get_pointer","nicklist_group_set","nicklist_nick_get_integer","nicklist_nick_get_string","nicklist_nick_get_pointer","nicklist_nick_set","bar_item_search","bar_item_new","bar_item_update","bar_item_remove","bar_search","bar_new","bar_set","bar_update","bar_remove","command","info_get","info_get_hashtable","infolist_new","infolist_new_item","infolist_new_var_integer","infolist_new_var_string","infolist_new_var_pointer","infolist_new_var_time","infolist_search_var","infolist_get","infolist_next","infolist_prev","infolist_reset_item_cursor","infolist_fields","infolist_integer","infolist_string","infolist_pointer","infolist_time","infolist_free","hdata_get","hdata_get_var_offset","hdata_get_var_type_string","hdata_get_var_array_size","hdata_get_var_array_size_string","hdata_get_var_hdata","hdata_get_list","hdata_check_pointer","hdata_move","hdata_search","hdata_char","hdata_integer","hdata_long","hdata_string","hdata_pointer","hdata_time","hdata_hashtable","hdata_compare","hdata_update","hdata_get_string","upgrade_new","upgrade_write_object","upgrade_read","upgrade_close"]}
+2018-09-17 21:52:25		javascript: unloading script "ColourDSL"
+2018-09-17 21:52:25		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-17 21:52:25		javascript: registered script "ColourDSL", version 0.1 (JS script)
+2018-09-17 21:52:25		{"0":"\u0019F09"}
+2018-09-17 21:55:50		javascript: unloading script "ColourDSL"
+2018-09-17 21:55:50		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-17 21:55:50		javascript: registered script "ColourDSL", version 0.1 (JS script)
+2018-09-17 21:55:50		{"0":"\u0019F09"}
+2018-09-17 21:55:50		asd
+2018-09-17 21:56:49		javascript: unloading script "ColourDSL"
+2018-09-17 21:56:49		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-17 21:56:49		javascript: registered script "ColourDSL", version 0.1 (JS script)
+2018-09-17 21:56:49		{"0":"\u0019F09"}
+2018-09-17 21:56:49		asd
+2018-09-17 22:01:41	=!=	irc: command "kick" must be executed on irc buffer (server or channel)
+2018-09-17 22:01:43	=!=	Too few arguments for command "/query" (help on command: /help query)
+2018-09-17 22:02:04	=!=	You can not write text in this buffer
+2018-09-17 22:02:07		javascript: unloading script "ColourDSL"
+2018-09-17 22:02:07		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-17 22:02:07	=!=	javascript: exception: ReferenceError: white is not defined
+2018-09-17 22:02:07	=!=	javascript: unable to execute file "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-17 22:02:21		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-17 22:02:21		javascript: registered script "ColourDSL", version 0.1 (JS script)
+2018-09-17 22:02:21		{"0":"\u0019F09"}
+2018-09-17 22:02:21		asd
+2018-09-17 22:02:27	=!=	irc: command "kick" must be executed on irc buffer (server or channel)
+2018-09-17 22:02:45		javascript: unloading script "ColourDSL"
+2018-09-17 22:02:45		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-17 22:02:45		javascript: registered script "ColourDSL", version 0.1 (JS script)
+2018-09-17 22:02:45		{"0":"\u0019F09"}
+2018-09-17 22:02:45		asd
+2018-09-17 22:02:46	=!=	irc: command "kick" must be executed on irc buffer (server or channel)
+2018-09-17 22:02:50		buffer: core.weechat, args: 'asd'
+2018-09-17 22:03:45		javascript: unloading script "ColourDSL"
+2018-09-17 22:03:45		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-17 22:03:45		javascript: registered script "ColourDSL", version 0.1 (JS script)
+2018-09-17 22:03:49	=!=	javascript: wrong arguments for function "print" (script: ColourDSL)
+2018-09-17 22:04:00	=!=	javascript: wrong arguments for function "print" (script: ColourDSL)
+2018-09-17 22:04:02		javascript: unloading script "ColourDSL"
+2018-09-17 22:04:02		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-17 22:04:02		javascript: registered script "ColourDSL", version 0.1 (JS script)
+2018-09-17 22:04:04		hello
+2018-09-17 22:04:08		hello  test
+2018-09-17 22:04:11		hello  test  asd
+2018-09-17 22:04:17		hello  test  asd {dr} asd
+2018-09-17 22:04:23		hello {dr} asd
+2018-09-17 22:04:48		hello 00 asd
+2018-09-17 22:04:52		hello 00  asd
+2018-09-17 22:04:59		 asdads
+2018-09-17 22:05:03		 asdads  asda
+2018-09-17 23:39:25		javascript: unloading script "ColourDSL"
+2018-09-17 23:39:25		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-17 23:39:25		javascript: registered script "ColourDSL", version 0.1 (JS script)
+2018-09-17 23:39:38		 asd 00 asd {dr} asd
+2018-09-17 23:41:26		javascript: unloading script "ColourDSL"
+2018-09-17 23:41:26		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-17 23:41:26		javascript: registered script "ColourDSL", version 0.1 (JS script)
+2018-09-17 23:41:29		 asd 00 asd {dr} asd
+2018-09-17 23:41:34		 asd 00 asd {dr} asd
+2018-09-17 23:42:18	=!=	javascript: exception: TypeError: Object function Array() { [native code] } has no method 'from'
+2018-09-17 23:42:18	=!=	javascript: error in function "cmd_cb"
+2018-09-17 23:42:25	=!=	javascript: exception: TypeError: Object function Array() { [native code] } has no method 'from'
+2018-09-17 23:42:25	=!=	javascript: error in function "cmd_cb"
+2018-09-17 23:43:13	=!=	javascript: exception: TypeError: Object function Array() { [native code] } has no method 'from'
+2018-09-17 23:43:13	=!=	javascript: error in function "cmd_cb"
+2018-09-17 23:43:15		javascript: unloading script "ColourDSL"
+2018-09-17 23:43:15		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-17 23:43:15		javascript: registered script "ColourDSL", version 0.1 (JS script)
+2018-09-17 23:43:18		 07j08h03a12s02d06kj07h08a03s12j02k06dh07a
+2018-09-17 23:43:48		ppiss a asda
+2018-09-17 23:43:59		ppiss a asda
+2018-09-17 23:44:05		ppiss a asda
+2018-09-17 23:44:34		javascript: unloading script "ColourDSL"
+2018-09-17 23:44:34		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-17 23:44:34		javascript: registered script "ColourDSL", version 0.1 (JS script)
+2018-09-17 23:44:35		ppiss a asda
+2018-09-17 23:44:39		ppiss a asda
+2018-09-17 23:44:58		red
+2018-09-17 23:45:00	=!=	Error: unknown command "/d" (type /help for help)
+2018-09-17 23:45:05	=!=	Error: unknown command "/a" (type /help for help)
+2018-09-17 23:45:07	=!=	Too few arguments for command "/query" (help on command: /help query)
+2018-09-17 23:45:13	=!=	Error: unknown command "/f" (type /help for help)
+2018-09-17 23:45:15	=!=	Error: unknown command "/f" (type /help for help)
+2018-09-17 23:46:59		javascript: unloading script "ColourDSL"
+2018-09-17 23:46:59		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-17 23:46:59		javascript: registered script "ColourDSL", version 0.1 (JS script)
+2018-09-17 23:47:05		 asd  asd
+2018-09-17 23:47:10		 asd  asd
+2018-09-17 23:50:09		javascript: unloading script "ColourDSL"
+2018-09-17 23:50:09		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-17 23:50:09		javascript: registered script "ColourDSL", version 0.1 (JS script)
+2018-09-17 23:50:13		
+2018-09-17 23:50:16		 asd
+2018-09-17 23:50:19		 asd  asdad
+2018-09-17 23:50:22		 asd  asdad
+2018-09-17 23:51:32		javascript: unloading script "ColourDSL"
+2018-09-17 23:51:32		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-17 23:51:32		javascript: registered script "ColourDSL", version 0.1 (JS script)
+2018-09-17 23:51:42		 gree  asd
+2018-09-17 23:51:47		 gree  asd
+2018-09-17 23:52:07		> being dumb
+2018-09-17 23:52:15		>being dumb
+2018-09-17 23:56:13		javascript: unloading script "ColourDSL"
+2018-09-17 23:56:13		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-17 23:56:13		javascript: registered script "ColourDSL", version 0.1 (JS script)
+2018-09-17 23:56:21		asdasd
+2018-09-17 23:56:40		07asd
+2018-09-17 23:56:46		javascript: unloading script "ColourDSL"
+2018-09-17 23:56:46		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-17 23:56:46		javascript: registered script "ColourDSL", version 0.1 (JS script)
+2018-09-17 23:56:47		{o}asd
+2018-09-17 23:57:06		javascript: unloading script "ColourDSL"
+2018-09-17 23:57:06		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-17 23:57:06		javascript: registered script "ColourDSL", version 0.1 (JS script)
+2018-09-17 23:57:06		{o}asd
+2018-09-17 23:58:24		javascript: unloading script "ColourDSL"
+2018-09-17 23:58:24		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-17 23:58:24		javascript: registered script "ColourDSL", version 0.1 (JS script)
+2018-09-17 23:58:25		asd
+2018-09-17 23:58:28		asd
+2018-09-17 23:58:31		asd
+2018-09-17 23:58:33		asd
+2018-09-17 23:59:34		 hello
+2018-09-17 23:59:36		hello
+2018-09-17 23:59:39		hello
+2018-09-17 23:59:44		hello
+2018-09-17 23:59:50		hello there friend
+2018-09-18 00:04:56		javascript: unloading script "ColourDSL"
+2018-09-18 00:04:56		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-18 00:04:56		javascript: registered script "ColourDSL", version 0.1 (JS script)
+2018-09-18 00:05:01	=!=	Error: unknown command "/sayhello" (type /help for help)
+2018-09-18 00:05:18		javascript: unloading script "ColourDSL"
+2018-09-18 00:05:18		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-18 00:05:18		javascript: registered script "ColourDSL", version 0.1 (JS script)
+2018-09-18 00:05:20	=!=	irc: command "msg" must be executed on irc buffer (server or channel)
+2018-09-18 00:09:41		javascript: unloading script "ColourDSL"
+2018-09-18 00:09:41		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-18 00:09:41		javascript: registered script "ColourDSL", version 0.1 (JS script)
+2018-09-18 00:11:59		javascript: unloading script "ColourDSL"
+2018-09-18 00:11:59		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-18 00:11:59		javascript: registered script "ColourDSL", version 0.1 (JS script)
+2018-09-18 00:16:21	=!=	Error: unknown command "/c;" (type /help for help)
+2018-09-18 00:16:24	=!=	Error: unknown command "/clo" (type /help for help)
+2018-09-18 00:32:34	=!=	Error with command "/javascript eval" (help on command: /help javascript)
+2018-09-18 00:32:36	=!=	Command "/javascript eval" is not yet implemented
+2018-09-18 00:32:44		[javascript]  /javascript  list|listfull [<name>]
+2018-09-18 00:32:44		                           load [-q] <filename>
+2018-09-18 00:32:44		                           autoload
+2018-09-18 00:32:44		                           reload|unload [-q] [<name>]
+2018-09-18 00:32:44		                           eval [-o|-oc] <code>
+2018-09-18 00:32:44		                           version
+2018-09-18 00:32:44		list/load/unload scripts
+2018-09-18 00:32:44		    list: list loaded scripts
+2018-09-18 00:32:44		listfull: list loaded scripts (verbose)
+2018-09-18 00:32:44		    load: load a script
+2018-09-18 00:32:44		autoload: load all scripts in "autoload" directory
+2018-09-18 00:32:44		  reload: reload a script (if no name given, unload all scripts, then load all scripts in "autoload" directory)
+2018-09-18 00:32:44		  unload: unload a script (if no name given, unload all scripts)
+2018-09-18 00:32:44		filename: script (file) to load
+2018-09-18 00:32:44		      -q: quiet mode: do not display messages
+2018-09-18 00:32:44		    name: a script name (name used in call to "register" function)
+2018-09-18 00:32:44		    eval: evaluate source code and display result on current buffer
+2018-09-18 00:32:44		      -o: send evaluation result to the buffer without executing commands
+2018-09-18 00:32:44		     -oc: send evaluation result to the buffer and execute commands
+2018-09-18 00:32:44		    code: source code to evaluate
+2018-09-18 00:32:44		 version: display the version of interpreter used
+2018-09-18 00:32:44		Without argument, this command lists all loaded scripts.
+2018-09-18 00:32:53		javascript (v8): 3.14.5.8
+2018-09-18 00:33:02	=!=	Error with command "/javascript eval" (help on command: /help javascript)
+2018-09-18 00:33:04	=!=	Command "/javascript eval" is not yet implemented
+2018-09-18 00:37:10		javascript: scripts unloaded
+2018-09-18 12:18:12		javascript scripts loaded: formatDSL
+2018-09-18 12:18:12		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, javascript, logger, perl, python, relay, ruby, script, trigger, xfer
+2018-09-18 12:19:42		javascript: unloading script "formatDSL"
+2018-09-18 12:19:42		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-18 12:19:42		javascript: registered script "formatDSL", version 0.1 (JS script)
+2018-09-18 12:19:59		javascript: scripts unloaded
+2018-09-18 16:16:08	=!=	javascript: exception: SyntaxError: Unexpected token for
+2018-09-18 16:16:08	=!=	javascript: unable to execute file "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-18 16:16:08		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, javascript, logger, perl, python, relay, ruby, script, trigger, xfer
+2018-09-18 16:16:33	=!=	Error: unknown command "/f" (type /help for help)
+2018-09-18 16:16:46		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-18 16:16:46	=!=	javascript: exception: SyntaxError: Unexpected token for
+2018-09-18 16:16:46	=!=	javascript: unable to execute file "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-18 16:18:09		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-18 16:18:09		javascript: registered script "formatDSL", version 0.1 (JS script)
+2018-09-18 16:21:36		javascript: unloading script "formatDSL"
+2018-09-18 16:21:36		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-18 16:21:36		javascript: registered script "formatDSL", version 0.1 (JS script)
+2018-09-18 16:22:46		javascript: scripts unloaded
+2018-09-18 19:35:23		javascript scripts loaded: formatDSL
+2018-09-18 19:35:23		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, javascript, logger, perl, python, relay, ruby, script, trigger, xfer
+2018-09-18 19:40:18		WeeChat 2.2 [compiled on Jul 14 2018 14:59:20]
+2018-09-18 19:40:56		script: downloading list of scripts...
+2018-09-18 19:40:57		script: 346 scripts for WeeChat 2.2
+2018-09-18 19:41:12		script: script "emoji.lua" can not be installed because plugin "lua" is not loaded
+2018-09-18 19:41:21		javascript: scripts unloaded
+2018-09-18 19:41:40		javascript scripts loaded: formatDSL
+2018-09-18 19:41:40		script: 346 scripts for WeeChat 2.2
+2018-09-18 19:41:40		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, javascript, logger, lua, perl, python, relay, ruby, script, trigger, xfer
+2018-09-18 19:55:42		javascript: unloading script "formatDSL"
+2018-09-18 19:55:42		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-18 19:55:42		javascript: registered script "formatDSL", version 0.1 (JS script)
+2018-09-18 19:55:57		[irc]  /connect  <server> [<server>...] [-<option>[=<value>]] [-no<option>] [-nojoin] [-switch]
+2018-09-18 19:55:57		                 -all|-auto|-open [-nojoin] [-switch]
+2018-09-18 19:55:57		connect to IRC server(s)
+2018-09-18 19:55:57		    server: server name, which can be:
+2018-09-18 19:55:57		            - internal server name (added by /server add, recommended usage)
+2018-09-18 19:55:57		            - hostname/port or IP/port, port is 6667 by default
+2018-09-18 19:55:57		            - URL with format: irc[6][s]://[nickname[:password]@]irc.example.org[:port][/#channel1][,#channel2[...]]
+2018-09-18 19:55:57		            Note: for an address/IP/URL, a temporary server is added (NOT SAVED), see /help irc.look.temporary_servers
+2018-09-18 19:55:57		    option: set option for server (for boolean option, value can be omitted)
+2018-09-18 19:55:57		  nooption: set boolean option to 'off' (for example: -nossl)
+2018-09-18 19:55:57		      -all: connect to all servers defined in configuration
+2018-09-18 19:55:57		     -auto: connect to servers with autoconnect enabled
+2018-09-18 19:55:57		     -open: connect to all opened servers that are not currently connected
+2018-09-18 19:55:57		   -nojoin: do not join any channel (even if autojoin is enabled on server)
+2018-09-18 19:55:57		   -switch: switch to next server address
+2018-09-18 19:55:57		To disconnect from a server or stop any connection attempt, use command /disconnect.
+2018-09-18 19:55:57		Examples:
+2018-09-18 19:55:57		  /connect freenode
+2018-09-18 19:55:57		  /connect irc.oftc.net/6667
+2018-09-18 19:55:57		  /connect irc6.oftc.net/6667 -ipv6
+2018-09-18 19:55:57		  /connect irc6.oftc.net/6697 -ipv6 -ssl
+2018-09-18 19:55:57		  /connect my.server.org/6697 -ssl -password=test
+2018-09-18 19:55:57		  /connect irc://nick@irc.oftc.net/#channel
+2018-09-18 19:55:57		  /connect -switch
+2018-09-18 19:56:08	=!=	No help available, "irc.freenode.org/6667" is not a command or an option
+2018-09-18 19:56:15	=!=	Too few arguments for command "/command" (help on command: /help command)
+2018-09-18 19:56:20	=!=	irc: unable to add temporary server "irc.freenode.org/6667" because the addition of temporary servers with command /connect is currently disabled
+2018-09-18 19:56:20	=!=	irc: if you want to add a standard server, use the command "/server add" (see /help server); if you really want to add a temporary server (NOT SAVED), turn on the option irc.look.temporary_servers
+2018-09-18 19:56:57	=!=	Error: failed to set option "irc.look.temporary_servers"
+2018-09-18 19:57:03		Option changed: irc.look.temporary_servers = on  (default: off)
+2018-09-18 19:57:10		irc: server irc.freenode.org added (temporary server, NOT SAVED!)
+2018-09-18 19:57:29	=!=	Error: can not merge windows, there's no other window with same size near current one
+2018-09-18 19:57:32	=!=	Error: can not merge windows, there's no other window with same size near current one
+2018-09-18 20:13:46	=!=	Error: unknown command "/fi" (type /help for help)
+2018-09-18 20:16:13		javascript: unloading script "formatDSL"
+2018-09-18 20:16:13		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-18 20:16:13	=!=	javascript: exception: SyntaxError: Unexpected identifier
+2018-09-18 20:16:13	=!=	javascript: unable to execute file "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-18 20:18:25		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-18 20:18:25	=!=	javascript: exception: SyntaxError: Unexpected identifier
+2018-09-18 20:18:25	=!=	javascript: unable to execute file "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-18 20:18:56		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-18 20:18:56	=!=	javascript: exception: SyntaxError: Unexpected identifier
+2018-09-18 20:18:56	=!=	javascript: unable to execute file "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-18 20:19:47		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-18 20:19:47		javascript: registered script "formatDSL", version 0.1 (JS script)
+2018-09-18 20:20:00		javascript: unloading script "formatDSL"
+2018-09-18 20:20:00		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-18 20:20:00	=!=	javascript: exception: SyntaxError: Unexpected identifier
+2018-09-18 20:20:00	=!=	javascript: unable to execute file "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-18 20:20:34		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-18 20:20:34	=!=	javascript: exception: SyntaxError: Unexpected identifier
+2018-09-18 20:20:34	=!=	javascript: unable to execute file "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-18 20:20:44		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-18 20:20:44		javascript: registered script "formatDSL", version 0.1 (JS script)
+2018-09-18 20:20:56		javascript: unloading script "formatDSL"
+2018-09-18 20:20:56		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-18 20:20:56	=!=	javascript: exception: SyntaxError: Unexpected identifier
+2018-09-18 20:20:56	=!=	javascript: unable to execute file "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-18 20:21:09		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-18 20:21:09		javascript: registered script "formatDSL", version 0.1 (JS script)
+2018-09-18 20:21:16		javascript: unloading script "formatDSL"
+2018-09-18 20:21:16		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-18 20:21:16		javascript: registered script "formatDSL", version 0.1 (JS script)
+2018-09-18 20:21:22		javascript: unloading script "formatDSL"
+2018-09-18 20:21:22		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-18 20:21:22		javascript: registered script "formatDSL", version 0.1 (JS script)
+2018-09-18 20:21:29		javascript: unloading script "formatDSL"
+2018-09-18 20:21:29		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-18 20:21:29		javascript: registered script "formatDSL", version 0.1 (JS script)
+2018-09-18 20:21:37		javascript: unloading script "formatDSL"
+2018-09-18 20:21:37		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-18 20:21:37		javascript: registered script "formatDSL", version 0.1 (JS script)
+2018-09-18 20:21:42		javascript: unloading script "formatDSL"
+2018-09-18 20:21:42		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-18 20:21:42	=!=	javascript: exception: SyntaxError: Unexpected identifier
+2018-09-18 20:21:42	=!=	javascript: unable to execute file "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-18 20:21:50		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-18 20:21:50		javascript: registered script "formatDSL", version 0.1 (JS script)
+2018-09-18 20:23:04		javascript: unloading script "formatDSL"
+2018-09-18 20:23:04		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-18 20:23:04		javascript: registered script "formatDSL", version 0.1 (JS script)
+2018-09-18 20:26:57		javascript: unloading script "formatDSL"
+2018-09-18 20:26:57		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-18 20:26:57		javascript: registered script "formatDSL", version 0.1 (JS script)
+2018-09-18 20:33:24		javascript: unloading script "formatDSL"
+2018-09-18 20:33:24		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-18 20:33:24		javascript: registered script "formatDSL", version 0.1 (JS script)
+2018-09-18 20:36:50		javascript: unloading script "formatDSL"
+2018-09-18 20:36:50		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-18 20:36:50		javascript: registered script "formatDSL", version 0.1 (JS script)
+2018-09-18 20:36:52	=!=	javascript: wrong arguments for function "bar_set" (script: formatDSL)
+2018-09-18 20:37:53	=!=	Too few arguments for command "/input" (help on command: /help input)
+2018-09-18 20:37:55		[core]  /input  <action> [<arguments>]
+2018-09-18 20:37:55		functions for command line
+2018-09-18 20:37:55		list of actions:
+2018-09-18 20:37:55		  return: simulate key "enter"
+2018-09-18 20:37:55		  complete_next: complete word with next completion
+2018-09-18 20:37:55		  complete_previous: complete word with previous completion
+2018-09-18 20:37:55		  search_text_here: search text in buffer at current position
+2018-09-18 20:37:55		  search_text: search text in buffer
+2018-09-18 20:37:55		  search_switch_case: switch exact case for search
+2018-09-18 20:37:55		  search_switch_regex: switch search type: string/regular expression
+2018-09-18 20:37:55		  search_switch_where: switch search in messages/prefixes
+2018-09-18 20:37:55		  search_previous: search previous line
+2018-09-18 20:37:55		  search_next: search next line
+2018-09-18 20:37:55		  search_stop_here: stop search at current position
+2018-09-18 20:37:55		  search_stop: stop search
+2018-09-18 20:37:55		  delete_previous_char: delete previous char
+2018-09-18 20:37:55		  delete_next_char: delete next char
+2018-09-18 20:37:55		  delete_previous_word: delete previous word
+2018-09-18 20:37:55		  delete_next_word: delete next word
+2018-09-18 20:37:55		  delete_beginning_of_line: delete from beginning of line until cursor
+2018-09-18 20:37:55		  delete_end_of_line: delete from cursor until end of line
+2018-09-18 20:37:55		  delete_line: delete entire line
+2018-09-18 20:37:55		  clipboard_paste: paste from the internal clipboard
+2018-09-18 20:37:55		  transpose_chars: transpose two chars
+2018-09-18 20:37:55		  undo: undo last command line action
+2018-09-18 20:37:55		  redo: redo last command line action
+2018-09-18 20:37:55		  move_beginning_of_line: move cursor to beginning of line
+2018-09-18 20:37:55		  move_end_of_line: move cursor to end of line
+2018-09-18 20:37:55		  move_previous_char: move cursor to previous char
+2018-09-18 20:37:55		  move_next_char: move cursor to next char
+2018-09-18 20:37:55		  move_previous_word: move cursor to previous word
+2018-09-18 20:37:55		  move_next_word: move cursor to next word
+2018-09-18 20:37:55		  history_previous: recall previous command in current buffer history
+2018-09-18 20:37:55		  history_next: recall next command in current buffer history
+2018-09-18 20:37:55		  history_global_previous: recall previous command in global history
+2018-09-18 20:37:55		  history_global_next: recall next command in global history
+2018-09-18 20:37:55		  jump_smart: jump to next buffer with activity
+2018-09-18 20:37:55		  jump_last_buffer_displayed: jump to last buffer displayed (before last jump to a buffer)
+2018-09-18 20:37:55		  jump_previously_visited_buffer: jump to previously visited buffer
+2018-09-18 20:37:55		  jump_next_visited_buffer: jump to next visited buffer
+2018-09-18 20:37:55		  hotlist_clear: clear hotlist (optional argument: "lowest" to clear only lowest level in hotlist, "highest" to clear only highest level in hotlist, or level mask: integer which is a combination of 1=join/part, 2=message, 4=private, 8=highlight)
+2018-09-18 20:37:55		  grab_key: grab a key (optional argument: delay for end of grab, default is 500 milliseconds)
+2018-09-18 20:37:55		  grab_key_command: grab a key with its associated command (optional argument: delay for end of grab, default is 500 milliseconds)
+2018-09-18 20:37:55		  grab_mouse: grab mouse event code
+2018-09-18 20:37:55		  grab_mouse_area: grab mouse event code with area
+2018-09-18 20:37:55		  set_unread: set unread marker for all buffers
+2018-09-18 20:37:55		  set_unread_current_buffer: set unread marker for current buffer
+2018-09-18 20:37:55		  switch_active_buffer: switch to next merged buffer
+2018-09-18 20:37:55		  switch_active_buffer_previous: switch to previous merged buffer
+2018-09-18 20:37:55		  zoom_merged_buffer: zoom on merged buffer
+2018-09-18 20:37:55		  insert: insert text in command line (escaped chars are allowed, see /help print)
+2018-09-18 20:37:55		  send: send text to the buffer
+2018-09-18 20:37:55		  paste_start: start paste (bracketed paste mode)
+2018-09-18 20:37:55		  paste_stop: stop paste (bracketed paste mode)
+2018-09-18 20:37:55		This command is used by key bindings or plugins.
+2018-09-18 20:40:04		javascript: unloading script "formatDSL"
+2018-09-18 20:40:04		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-18 20:40:04		javascript: registered script "formatDSL", version 0.1 (JS script)
+2018-09-18 20:41:17		javascript: unloading script "formatDSL"
+2018-09-18 20:41:17		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-18 20:41:17		javascript: registered script "formatDSL", version 0.1 (JS script)
+2018-09-18 20:46:13		javascript: unloading script "formatDSL"
+2018-09-18 20:46:13		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-18 20:46:13		javascript: registered script "formatDSL", version 0.1 (JS script)
+2018-09-18 20:49:02		[core]  /eval  [-n|-s] <expression>
+2018-09-18 20:49:02		               [-n] -c <expression1> <operator> <expression2>
+2018-09-18 20:49:02		evaluate expression
+2018-09-18 20:49:02		        -n: display result without sending it to buffer (debug mode)
+2018-09-18 20:49:02		        -s: split expression before evaluating it (many commands can be separated by semicolons)
+2018-09-18 20:49:02		        -c: evaluate as condition: use operators and parentheses, return a boolean value ("0" or "1")
+2018-09-18 20:49:02		expression: expression to evaluate, variables with format ${variable} are replaced (see below); many commands can be separated by semicolons
+2018-09-18 20:49:02		  operator: a logical or comparison operator:
+2018-09-18 20:49:02		            - logical operators:
+2018-09-18 20:49:02		                &&  boolean "and"
+2018-09-18 20:49:02		                ||  boolean "or"
+2018-09-18 20:49:02		            - comparison operators:
+2018-09-18 20:49:02		                ==  equal
+2018-09-18 20:49:02		                !=  not equal
+2018-09-18 20:49:02		                <=  less or equal
+2018-09-18 20:49:02		                <   less
+2018-09-18 20:49:02		                >=  greater or equal
+2018-09-18 20:49:02		                >   greater
+2018-09-18 20:49:02		                =~  is matching POSIX extended regex
+2018-09-18 20:49:02		                !~  is NOT matching POSIX extended regex
+2018-09-18 20:49:02		                =*  is matching mask (wildcard "*" is allowed)
+2018-09-18 20:49:02		                !*  is NOT matching mask (wildcard "*" is allowed)
+2018-09-18 20:49:02		An expression is considered as "true" if it is not NULL, not empty, and different from "0".
+2018-09-18 20:49:02		The comparison is made using floating point numbers if the two expressions are valid numbers, with one of the following formats:
+2018-09-18 20:49:02		  - integer (examples: 5, -7)
+2018-09-18 20:49:02		  - floating point number (examples: 5.2, -7.5, 2.83e-2)
+2018-09-18 20:49:02		  - hexadecimal number (examples: 0xA3, -0xA3)
+2018-09-18 20:49:02		To force a string comparison, you can add double quotes around each expression, for example:
+2018-09-18 20:49:02		  50 > 100      ==> 0
+2018-09-18 20:49:02		  "50" > "100"  ==> 1
+2018-09-18 20:49:02		Some variables are replaced in expression, using the format ${variable}, variable can be, by order of priority:
+2018-09-18 20:49:02		  1. an evaluated sub-string (format: "eval:xxx")
+2018-09-18 20:49:02		  2. a string with escaped chars (format: "esc:xxx" or "\xxx")
+2018-09-18 20:49:02		  3. a string with chars to hide (format: "hide:char,string")
+2018-09-18 20:49:02		  4. a string with max chars (format: "cut:max,suffix,string" or "cut:+max,suffix,string")
+2018-09-18 20:49:02		     or max chars displayed on screen (format: "cutscr:max,suffix,string" or "cutscr:+max,suffix,string")
+2018-09-18 20:49:02		  5. a reversed string (format: "rev:xxx")
+2018-09-18 20:49:02		  6. a color (format: "color:xxx", see "Plugin API reference", function "color")
+2018-09-18 20:49:02		  7. an info (format: "info:name,arguments", arguments are optional)
+2018-09-18 20:49:02		  8. current date/time (format: "date" or "date:format")
+2018-09-18 20:49:02		  9. an environment variable (format: "env:XXX")
+2018-09-18 20:49:02		  10. a ternary operator (format: "if:condition?value_if_true:value_if_false")
+2018-09-18 20:49:02		  11. an option (format: "file.section.option")
+2018-09-18 20:49:02		  12. a local variable in buffer
+2018-09-18 20:49:02		  13. a hdata name/variable (the value is automatically converted to string), by default "window" and "buffer" point to current window/buffer.
+2018-09-18 20:49:02		Format for hdata can be one of following:
+2018-09-18 20:49:02		  hdata.var1.var2...: start with a hdata (pointer must be known), and ask variables one after one (other hdata can be followed)
+2018-09-18 20:49:02		  hdata[list].var1.var2...: start with a hdata using a list, for example:
+2018-09-18 20:49:02		    ${buffer[gui_buffers].full_name}: full name of first buffer in linked list of buffers
+2018-09-18 20:49:02		    ${plugin[weechat_plugins].name}: name of first plugin in linked list of plugins
+2018-09-18 20:49:02		  hdata[pointer].var1.var2...: start with a hdata using a pointer, for example:
+2018-09-18 20:49:02		    ${buffer[0x1234abcd].full_name}: full name of the buffer with this pointer (can be used in triggers)
+2018-09-18 20:49:02		For name of hdata and variables, please look at "Plugin API reference", function "weechat_hdata_get".
+2018-09-18 20:49:02		Examples (simple strings):
+2018-09-18 20:49:02		  /eval -n ${info:version}                       ==> 0.4.3
+2018-09-18 20:49:02		  /eval -n ${env:HOME}                           ==> /home/user
+2018-09-18 20:49:02		  /eval -n ${weechat.look.scroll_amount}         ==> 3
+2018-09-18 20:49:02		  /eval -n ${sec.data.freenode_password}         ==> secret
+2018-09-18 20:49:02		  /eval -n ${window}                             ==> 0x2549aa0
+2018-09-18 20:49:02		  /eval -n ${window.buffer}                      ==> 0x2549320
+2018-09-18 20:49:02		  /eval -n ${window.buffer.full_name}            ==> core.weechat
+2018-09-18 20:49:02		  /eval -n ${window.buffer.number}               ==> 1
+2018-09-18 20:49:02		  /eval -n ${\t}                                 ==> <tab>
+2018-09-18 20:49:02		  /eval -n ${hide:-,${relay.network.password}}   ==> --------
+2018-09-18 20:49:02		  /eval -n ${cut:3,+,test}                       ==> tes+
+2018-09-18 20:49:02		  /eval -n ${cut:+3,+,test}                      ==> te+
+2018-09-18 20:49:02		  /eval -n ${date:%H:%M:%S}                      ==> 07:46:40
+2018-09-18 20:49:02		  /eval -n ${if:${info:term_width}>80?big:small} ==> big
+2018-09-18 20:49:02		Examples (conditions):
+2018-09-18 20:49:02		  /eval -n -c ${window.buffer.number} > 2 ==> 0
+2018-09-18 20:49:02		  /eval -n -c ${window.win_width} > 100   ==> 1
+2018-09-18 20:49:02		  /eval -n -c (8 > 12) || (5 > 2)         ==> 1
+2018-09-18 20:49:02		  /eval -n -c (8 > 12) && (5 > 2)         ==> 0
+2018-09-18 20:49:02		  /eval -n -c abcd =~ ^ABC                ==> 1
+2018-09-18 20:49:02		  /eval -n -c abcd =~ (?-i)^ABC           ==> 0
+2018-09-18 20:49:02		  /eval -n -c abcd =~ (?-i)^abc           ==> 1
+2018-09-18 20:49:02		  /eval -n -c abcd !~ abc                 ==> 0
+2018-09-18 20:49:02		  /eval -n -c abcd =* a*d                 ==> 1
+2018-09-18 20:56:07		javascript: unloading script "formatDSL"
+2018-09-18 20:56:07		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-18 20:56:07		javascript: registered script "formatDSL", version 0.1 (JS script)
+2018-09-18 20:56:11	=!=	javascript: unable to run function "callback_formatList"
+2018-09-18 20:56:25		javascript: unloading script "formatDSL"
+2018-09-18 20:56:25		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-18 20:56:25		javascript: registered script "formatDSL", version 0.1 (JS script)
+2018-09-18 20:56:26		codes: r, dr, w, bl, c, dc, b, db, g, dg, p, dp, o, y, gr, dgr
+2018-09-18 20:56:26		symbols: /, u, bo, i, nl, bell, shrug, actually, happy, daww, ayy, love, lenny, lenny2, wink, cool, bh, notes, normal, lod, table, sad
+2018-09-18 20:57:23		javascript: unloading script "formatDSL"
+2018-09-18 20:57:23		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-18 20:57:23		javascript: registered script "formatDSL", version 0.1 (JS script)
+2018-09-18 21:00:46		javascript: unloading script "formatDSL"
+2018-09-18 21:00:46		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-18 21:00:46		javascript: registered script "formatDSL", version 0.1 (JS script)
+2018-09-18 21:02:00		javascript: scripts unloaded
+2018-09-18 21:02:32		javascript scripts loaded: formatDSL
+2018-09-18 21:02:32		script: 346 scripts for WeeChat 2.2
+2018-09-18 21:02:32		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, javascript, logger, lua, perl, python, relay, ruby, script, trigger, xfer
+2018-09-18 21:04:52	=!=	Too few arguments for command "/kick" (help on command: /help kick)
+2018-09-18 21:07:52	=!=	Error: unknown command "/clear" (type /help for help)
+2018-09-18 21:10:14	=!=	Error: unknown command "/clear" (type /help for help)
+2018-09-18 21:23:35	=!=	Error: failed to set option "irc.look.server_buffer"
+2018-09-18 21:23:43	=!=	Error: failed to set option "irc.look.server_buffer"
+2018-09-18 21:29:34		Option changed: irc.server.mozilla.autojoin = "#rust-beginners,#rust-wasm,#gtk-rs"  (default if null: "")
+2018-09-18 21:51:19		New key binding (context "mouse"): @bar(buffers):ctrl-wheeldown => hsignal:buffers_mouse
+2018-09-18 21:51:19		New key binding (context "mouse"): @bar(buffers):ctrl-wheelup => hsignal:buffers_mouse
+2018-09-18 21:51:19		New key binding (context "mouse"): @item(buffers):button2* => hsignal:buffers_mouse
+2018-09-18 21:51:19		New key binding (context "mouse"): @item(buffers):button1* => hsignal:buffers_mouse
+2018-09-18 21:51:19	=!=	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2018-09-18 21:51:44		[core]
+2018-09-18 21:51:44		  away     buffer   command  debug    filter   history  key      mouse    plugin   proxy    reload   save     set      upgrade  version  window 
+2018-09-18 21:51:44		  bar      color    cursor   eval     help     input    layout   mute     print    quit     repeat   secure   unset    uptime   wait   
+2018-09-18 21:51:44		[xfer]
+2018-09-18 21:51:44		  me  xfer
+2018-09-18 21:51:44		[perl]
+2018-09-18 21:51:44		  perl
+2018-09-18 21:51:44		[alias]
+2018-09-18 21:51:44		  AAWAY    AME      ANICK    BYE      CHAT     CLOSE    IG       K        LEAVE    MSGBUF   N        REDRAW   SIGNOFF  UB       V        WC       WII    
+2018-09-18 21:51:44		  alias    AMSG     BEEP     C        CL       EXIT     J        KB       M        MUB      Q        SAY      T        UMODE    W        WI       WW     
+2018-09-18 21:51:44		[aspell]
+2018-09-18 21:51:44		  aspell
+2018-09-18 21:51:44		[relay]
+2018-09-18 21:51:44		  relay
+2018-09-18 21:51:44		[lua]
+2018-09-18 21:51:44		  lua
+2018-09-18 21:51:44		[script]
+2018-09-18 21:51:44		  script
+2018-09-18 21:51:44		[exec]
+2018-09-18 21:51:44		  exec
+2018-09-18 21:51:44		[fifo]
+2018-09-18 21:51:44		  fifo
+2018-09-18 21:51:44		[charset]
+2018-09-18 21:51:44		  charset
+2018-09-18 21:51:44		[logger]
+2018-09-18 21:51:44		  logger
+2018-09-18 21:51:44		[fset]
+2018-09-18 21:51:44		  fset
+2018-09-18 21:51:44		[trigger]
+2018-09-18 21:51:44		  trigger
+2018-09-18 21:51:44		[javascript]
+2018-09-18 21:51:44		  f  fi  fl  javascript
+2018-09-18 21:51:44		[ruby]
+2018-09-18 21:51:44		  ruby
+2018-09-18 21:51:44		[python]
+2018-09-18 21:51:44		  autosort  python
+2018-09-18 21:51:44		[buflist]
+2018-09-18 21:51:44		  buflist
+2018-09-18 21:51:44		[irc]
+2018-09-18 21:51:44		  admin       connect     devoice     invite      links       motd        op          quiet       sajoin      service     time        users       whois     
+2018-09-18 21:51:44		  allchan     ctcp        die         ison        list        msg         oper        quote       samode      servlist    topic       version     whowas    
+2018-09-18 21:51:44		  allpv       cycle       disconnect  join        lusers      names       part        reconnect   sanick      squery      trace       voice     
+2018-09-18 21:51:44		  allserv     dcc         halfop      kick        map         nick        ping        rehash      sapart      squit       unban       wallchops 
+2018-09-18 21:51:44		  ban         dehalfop    ignore      kickban     me          notice      pong        remove      saquit      stats       unquiet     wallops   
+2018-09-18 21:51:44		  cap         deop        info        kill        mode        notify      query       restart     server      summon      userhost    who       
+2018-09-18 21:52:28	=!=	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2018-09-18 21:53:08		codes: r, dr, w, bl, c, dc, b, db, g, dg, p, dp, o, y, gr, dgr
+2018-09-18 21:53:08		symbols: /, u, bo, i, nl, bell, shrug, actually, happy, daww, ayy, love, lenny, lenny2, wink, cool, bh, notes, normal, lod, table, sad
+2018-09-18 21:54:21		autosort: Individual evaluation results:
+2018-09-18 21:54:21		autosort: core.weechat: ['0', '0', '', '1', '', '', '', 'core.weechat']
+2018-09-18 21:54:21		autosort: irc.server.freenode: ['1', '1', 'irc', '1', 'freenode', '0', 'server.freenode', 'irc.server.freenode']
+2018-09-18 21:54:21		autosort: irc.server.rizon: ['1', '1', 'irc', '1', 'rizon', '0', 'server.rizon', 'irc.server.rizon']
+2018-09-18 21:54:21		autosort: irc.server.furnet: ['1', '1', 'irc', '1', 'furnet', '0', 'server.furnet', 'irc.server.furnet']
+2018-09-18 21:54:21		autosort: irc.server.badnik: ['1', '1', 'irc', '1', 'badnik', '0', 'server.badnik', 'irc.server.badnik']
+2018-09-18 21:54:21		autosort: irc.server.mozilla: ['1', '1', 'irc', '1', 'mozilla', '0', 'server.mozilla', 'irc.server.mozilla']
+2018-09-18 21:54:21		autosort: script.scripts: ['1', '0', 'script', '1', '', '', '', 'script.scripts']
+2018-09-18 21:54:21		autosort: irc.badnik.#boom: ['1', '1', 'irc', '1', 'badnik', '2', 'badnik.boom', 'irc.badnik.#boom']
+2018-09-18 21:54:21		autosort: irc.badnik.#SSRG: ['1', '1', 'irc', '1', 'badnik', '2', 'badnik.ssrg', 'irc.badnik.#ssrg']
+2018-09-18 21:54:21		autosort: irc.freenode.#d3.js: ['1', '1', 'irc', '1', 'freenode', '2', 'freenode.d3.js', 'irc.freenode.#d3.js']
+2018-09-18 21:54:21		autosort: irc.freenode.##emudev: ['1', '1', 'irc', '1', 'freenode', '2', 'freenode.emudev', 'irc.freenode.##emudev']
+2018-09-18 21:54:21		autosort: irc.freenode.##javascript: ['1', '1', 'irc', '1', 'freenode', '2', 'freenode.javascript', 'irc.freenode.##javascript']
+2018-09-18 21:54:21		autosort: irc.freenode.#rubik: ['1', '1', 'irc', '1', 'freenode', '2', 'freenode.rubik', 'irc.freenode.#rubik']
+2018-09-18 21:54:21		autosort: irc.furnet.#ygbfurs: ['1', '1', 'irc', '1', 'furnet', '2', 'furnet.ygbfurs', 'irc.furnet.#ygbfurs']
+2018-09-18 21:54:21		autosort: irc.mozilla.#gtk-rs: ['1', '1', 'irc', '1', 'mozilla', '2', 'mozilla.gtk-rs', 'irc.mozilla.#gtk-rs']
+2018-09-18 21:54:21		autosort: irc.mozilla.#rust-beginners: ['1', '1', 'irc', '1', 'mozilla', '2', 'mozilla.rust-beginners', 'irc.mozilla.#rust-beginners']
+2018-09-18 21:54:21		autosort: irc.mozilla.#rust-wasm: ['1', '1', 'irc', '1', 'mozilla', '2', 'mozilla.rust-wasm', 'irc.mozilla.#rust-wasm']
+2018-09-18 21:54:21		autosort: irc.rizon.#8BitVape: ['1', '1', 'irc', '1', 'rizon', '2', 'rizon.8bitvape', 'irc.rizon.#8bitvape']
+2018-09-18 21:54:21		autosort: irc.rizon.#code: ['1', '1', 'irc', '1', 'rizon', '2', 'rizon.code', 'irc.rizon.#code']
+2018-09-18 21:54:21		autosort: irc.rizon.#eggchan: ['1', '1', 'irc', '1', 'rizon', '2', 'rizon.eggchan', 'irc.rizon.#eggchan']
+2018-09-18 21:54:21		autosort: irc.rizon.#livingroom: ['1', '1', 'irc', '1', 'rizon', '2', 'rizon.livingroom', 'irc.rizon.#livingroom']
+2018-09-18 21:54:21		autosort: Computing evalutaion results took 0.0093 seconds.
+2018-09-18 21:59:02		Option changed: irc.look.server_buffer = independent  (default: merge_with_core)
+2018-09-18 21:59:43	=!=	Error: unknown command "/12" (type /help for help)
+2018-09-18 22:00:11	=!=	Error: option "buffers.look.indenting" not found
+2018-09-18 22:00:26		Option changed: buflist.format.indent = "${color:237}${if:${buffer.next_buffer.local_variables.type}=~^(channel|private)$?├─:└─}"  (default: "  ")
+2018-09-18 22:01:23		autosort: Finished sorting buffers in 0.0082 seconds.
+2018-09-18 23:07:07		Option changed: buflist.format.indent = "${color:237}${if:${buffer.next_buffer.local_variables.type}=~^(channel|private)$?├─:└─}"  (default: "  ")
+2018-09-18 23:21:31		autosort: Finished sorting buffers in 0.0059 seconds.
+2018-09-18 23:22:47	=!=	Error: unknown command "/sv" (type /help for help)
+2018-09-18 23:48:59		[vimode.py] Problematic keybindings detected:
+2018-09-18 23:48:59		[vimode.py]     meta-jmeta-f -> /buffer -
+2018-09-18 23:48:59		[vimode.py]     meta-jmeta-l -> /buffer +
+2018-09-18 23:48:59		[vimode.py]     meta-jmeta-r -> /server raw
+2018-09-18 23:48:59		[vimode.py]     meta-jmeta-s -> /server jump
+2018-09-18 23:48:59		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2018-09-18 23:48:59		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2018-09-18 23:48:59		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2018-09-18 23:48:59		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2018-09-18 23:48:59		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2018-09-18 23:48:59		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2018-09-18 23:48:59		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2018-09-18 23:48:59		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2018-09-18 23:48:59		[vimode.py]     meta-wmeta-b -> /window balance
+2018-09-18 23:48:59		[vimode.py]     meta-wmeta-s -> /window swap
+2018-09-18 23:48:59		[vimode.py] These keybindings may conflict with vimode.
+2018-09-18 23:48:59		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2018-09-18 23:48:59		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ.md#problematic-key-bindings
+2018-09-18 23:48:59		[vimode.py] tmux/screen users, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ.md#esc-key-not-being-detected-instantly
+2018-09-18 23:48:59		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2018-09-18 23:49:18		This appears to be the first time highmon has been run. For help and common set up hints see /highmon help
+2018-09-18 23:49:21		Highmon buffer has been closed but output is still set to buffer, unusual results may occur. To recreate the buffer use /highmon fix
+2018-09-18 23:49:34		Highmon buffer has been closed but output is still set to buffer, unusual results may occur. To recreate the buffer use /highmon fix
+2018-09-18 23:49:48	=!=	python: unable to register script "vimode" (another script already exists with this name)
+2018-09-18 23:49:48	=!=	python: unable to call function "info_get", script is not initialized (script: -)
+2018-09-18 23:49:48		python: stdout/stderr (?): Traceback (most recent call last):
+2018-09-18 23:49:48		python: stdout/stderr (?):   File "/home/thom/.weechat/python/autoload/vimode.py", line 1832, in <module>
+2018-09-18 23:49:48		python: stdout/stderr (?):     if int(VERSION) < 0x01000000:
+2018-09-18 23:49:48		python: stdout/stderr (?): TypeError: int() argument must be a string or a number, not 'NoneType'
+2018-09-18 23:49:48	=!=	python: unable to parse file "/home/thom/.weechat/python/autoload/vimode.py"
+2018-09-18 23:51:55		[core]
+2018-09-18 23:51:55		  away     buffer   command  debug    filter   history  key      mouse    plugin   proxy    reload   save     set      upgrade  version  window 
+2018-09-18 23:51:55		  bar      color    cursor   eval     help     input    layout   mute     print    quit     repeat   secure   unset    uptime   wait   
+2018-09-18 23:51:55		[xfer]
+2018-09-18 23:51:55		  me  xfer
+2018-09-18 23:51:55		[perl]
+2018-09-18 23:51:55		  perl
+2018-09-18 23:51:55		[alias]
+2018-09-18 23:51:55		  AAWAY    AME      ANICK    BYE      CHAT     CLOSE    IG       K        LEAVE    MSGBUF   N        REDRAW   SIGNOFF  UB       V        WC       WII    
+2018-09-18 23:51:55		  alias    AMSG     BEEP     C        CL       EXIT     J        KB       M        MUB      Q        SAY      T        UMODE    W        WI       WW     
+2018-09-18 23:51:55		[aspell]
+2018-09-18 23:51:55		  aspell
+2018-09-18 23:51:55		[relay]
+2018-09-18 23:51:55		  relay
+2018-09-18 23:51:55		[lua]
+2018-09-18 23:51:55		  lua
+2018-09-18 23:51:55		[script]
+2018-09-18 23:51:55		  script
+2018-09-18 23:51:55		[exec]
+2018-09-18 23:51:55		  exec
+2018-09-18 23:51:55		[fifo]
+2018-09-18 23:51:55		  fifo
+2018-09-18 23:51:55		[charset]
+2018-09-18 23:51:55		  charset
+2018-09-18 23:51:55		[logger]
+2018-09-18 23:51:55		  logger
+2018-09-18 23:51:55		[fset]
+2018-09-18 23:51:55		  fset
+2018-09-18 23:51:55		[trigger]
+2018-09-18 23:51:55		  trigger
+2018-09-18 23:51:55		[javascript]
+2018-09-18 23:51:55		  f  fi  fl  javascript
+2018-09-18 23:51:55		[ruby]
+2018-09-18 23:51:55		  ruby
+2018-09-18 23:51:55		[python]
+2018-09-18 23:51:55		  autosort  python  vimode  vimode_go_to_normal
+2018-09-18 23:51:55		[buflist]
+2018-09-18 23:51:55		  buflist
+2018-09-18 23:51:55		[irc]
+2018-09-18 23:51:55		  admin       connect     devoice     invite      links       motd        op          quiet       sajoin      service     time        users       whois     
+2018-09-18 23:51:55		  allchan     ctcp        die         ison        list        msg         oper        quote       samode      servlist    topic       version     whowas    
+2018-09-18 23:51:55		  allpv       cycle       disconnect  join        lusers      names       part        reconnect   sanick      squery      trace       voice     
+2018-09-18 23:51:55		  allserv     dcc         halfop      kick        map         nick        ping        rehash      sapart      squit       unban       wallchops 
+2018-09-18 23:51:55		  ban         dehalfop    ignore      kickban     me          notice      pong        remove      saquit      stats       unquiet     wallops   
+2018-09-18 23:51:55		  cap         deop        info        kill        mode        notify      query       restart     server      summon      userhost    who       
+2018-09-18 23:52:03	=!=	You can not write text in this buffer
+2018-09-18 23:52:05		[core]
+2018-09-18 23:52:05		  away     buffer   command  debug    filter   history  key      mouse    plugin   proxy    reload   save     set      upgrade  version  window 
+2018-09-18 23:52:05		  bar      color    cursor   eval     help     input    layout   mute     print    quit     repeat   secure   unset    uptime   wait   
+2018-09-18 23:52:05		[xfer]
+2018-09-18 23:52:05		  me  xfer
+2018-09-18 23:52:05		[perl]
+2018-09-18 23:52:05		  perl
+2018-09-18 23:52:05		[alias]
+2018-09-18 23:52:05		  AAWAY    AME      ANICK    BYE      CHAT     CLOSE    IG       K        LEAVE    MSGBUF   N        REDRAW   SIGNOFF  UB       V        WC       WII    
+2018-09-18 23:52:05		  alias    AMSG     BEEP     C        CL       EXIT     J        KB       M        MUB      Q        SAY      T        UMODE    W        WI       WW     
+2018-09-18 23:52:05		[aspell]
+2018-09-18 23:52:05		  aspell
+2018-09-18 23:52:05		[relay]
+2018-09-18 23:52:05		  relay
+2018-09-18 23:52:05		[lua]
+2018-09-18 23:52:05		  lua
+2018-09-18 23:52:05		[script]
+2018-09-18 23:52:05		  script
+2018-09-18 23:52:05		[exec]
+2018-09-18 23:52:05		  exec
+2018-09-18 23:52:05		[fifo]
+2018-09-18 23:52:05		  fifo
+2018-09-18 23:52:05		[charset]
+2018-09-18 23:52:05		  charset
+2018-09-18 23:52:05		[logger]
+2018-09-18 23:52:05		  logger
+2018-09-18 23:52:05		[fset]
+2018-09-18 23:52:05		  fset
+2018-09-18 23:52:05		[trigger]
+2018-09-18 23:52:05		  trigger
+2018-09-18 23:52:05		[javascript]
+2018-09-18 23:52:05		  f  fi  fl  javascript
+2018-09-18 23:52:05		[ruby]
+2018-09-18 23:52:05		  ruby
+2018-09-18 23:52:05		[python]
+2018-09-18 23:52:05		  autosort  python  vimode  vimode_go_to_normal
+2018-09-18 23:52:05		[buflist]
+2018-09-18 23:52:05		  buflist
+2018-09-18 23:52:05		[irc]
+2018-09-18 23:52:05		  admin       connect     devoice     invite      links       motd        op          quiet       sajoin      service     time        users       whois     
+2018-09-18 23:52:05		  allchan     ctcp        die         ison        list        msg         oper        quote       samode      servlist    topic       version     whowas    
+2018-09-18 23:52:05		  allpv       cycle       disconnect  join        lusers      names       part        reconnect   sanick      squery      trace       voice     
+2018-09-18 23:52:05		  allserv     dcc         halfop      kick        map         nick        ping        rehash      sapart      squit       unban       wallchops 
+2018-09-18 23:52:05		  ban         dehalfop    ignore      kickban     me          notice      pong        remove      saquit      stats       unquiet     wallops   
+2018-09-18 23:52:05		  cap         deop        info        kill        mode        notify      query       restart     server      summon      userhost    who       
+2018-09-18 23:52:08		[python/vimode]  /vimode  [help | bind_keys [--list]]
+2018-09-18 23:52:08		Add vi/vim-like modes and keybindings to WeeChat.
+2018-09-18 23:52:08		     help: show help
+2018-09-18 23:52:08		bind_keys: unbind problematic keys, and bind recommended keys to use in WeeChat
+2018-09-18 23:52:08		          --list: only list changes
+2018-09-18 23:52:17		[vimode.py] https://github.com/GermainZ/weechat-vimode/blob/master/README.md
+2018-09-18 23:53:16	=!=	You can not write text in this buffer
+2018-09-18 23:53:18	=!=	Error: unknown command "/df" (type /help for help)
+2018-09-18 23:53:27	=!=	You can not write text in this buffer
+2018-09-18 23:54:08		Option changed: weechat.bar.input.items = "mode_indicator+[input_prompt]+(away),[input_search],[input_paste],input_text,[vi_buffer]"  (default: "[input_prompt]+(away),[input_search],[input_paste],input_text")
+2018-09-18 23:55:00	=!=	You can not write text in this buffer
+2018-09-18 23:55:13		[core]
+2018-09-18 23:55:13		  away     buffer   command  debug    filter   history  key      mouse    plugin   proxy    reload   save     set      upgrade  version  window 
+2018-09-18 23:55:13		  bar      color    cursor   eval     help     input    layout   mute     print    quit     repeat   secure   unset    uptime   wait   
+2018-09-18 23:55:13		[xfer]
+2018-09-18 23:55:13		  me  xfer
+2018-09-18 23:55:13		[perl]
+2018-09-18 23:55:13		  perl
+2018-09-18 23:55:13		[alias]
+2018-09-18 23:55:13		  AAWAY    AME      ANICK    BYE      CHAT     CLOSE    IG       K        LEAVE    MSGBUF   N        REDRAW   SIGNOFF  UB       V        WC       WII    
+2018-09-18 23:55:13		  alias    AMSG     BEEP     C        CL       EXIT     J        KB       M        MUB      Q        SAY      T        UMODE    W        WI       WW     
+2018-09-18 23:55:13		[aspell]
+2018-09-18 23:55:13		  aspell
+2018-09-18 23:55:13		[relay]
+2018-09-18 23:55:13		  relay
+2018-09-18 23:55:13		[lua]
+2018-09-18 23:55:13		  lua
+2018-09-18 23:55:13		[script]
+2018-09-18 23:55:13		  script
+2018-09-18 23:55:13		[exec]
+2018-09-18 23:55:13		  exec
+2018-09-18 23:55:13		[fifo]
+2018-09-18 23:55:13		  fifo
+2018-09-18 23:55:13		[charset]
+2018-09-18 23:55:13		  charset
+2018-09-18 23:55:13		[logger]
+2018-09-18 23:55:13		  logger
+2018-09-18 23:55:13		[fset]
+2018-09-18 23:55:13		  fset
+2018-09-18 23:55:13		[trigger]
+2018-09-18 23:55:13		  trigger
+2018-09-18 23:55:13		[javascript]
+2018-09-18 23:55:13		  f  fi  fl  javascript
+2018-09-18 23:55:13		[ruby]
+2018-09-18 23:55:13		  ruby
+2018-09-18 23:55:13		[python]
+2018-09-18 23:55:13		  autosort  python  vimode  vimode_go_to_normal
+2018-09-18 23:55:13		[buflist]
+2018-09-18 23:55:13		  buflist
+2018-09-18 23:55:13		[irc]
+2018-09-18 23:55:13		  admin       connect     devoice     invite      links       motd        op          quiet       sajoin      service     time        users       whois     
+2018-09-18 23:55:13		  allchan     ctcp        die         ison        list        msg         oper        quote       samode      servlist    topic       version     whowas    
+2018-09-18 23:55:13		  allpv       cycle       disconnect  join        lusers      names       part        reconnect   sanick      squery      trace       voice     
+2018-09-18 23:55:13		  allserv     dcc         halfop      kick        map         nick        ping        rehash      sapart      squit       unban       wallchops 
+2018-09-18 23:55:13		  ban         dehalfop    ignore      kickban     me          notice      pong        remove      saquit      stats       unquiet     wallops   
+2018-09-18 23:55:13		  cap         deop        info        kill        mode        notify      query       restart     server      summon      userhost    who       
+2018-09-18 23:58:45		Option changed: weechat.bar.status.color_bg = 0  (default: blue)
+2018-09-18 23:58:45		Option changed: weechat.bar.title.color_bg = 0  (default: blue)
+2018-09-18 23:59:35		Option changed: weechat.bar.vi_line_numbers.color_fg = 0  (default: default)
+2018-09-18 23:59:41		Option changed: weechat.bar.vi_line_numbers.color_fg = default
+2018-09-19 00:00:12	=!=	Too few arguments for command "/query" (help on command: /help query)
+2018-09-19 00:00:36		Option changed: plugins.var.python.vimode.mode_indicator_insert_color_bg = "0"
+2018-09-19 00:01:04		Option changed: plugins.var.python.vimode.mode_indicator_normal_color_bg = "0"
+2018-09-19 00:04:42		Option changed: weechat.color.chat_nick_colors = "1,2,3,4,5,6"  (default: "cyan,magenta,green,brown,lightblue,default,lightcyan,lightmagenta,lightgreen,blue")
+2018-09-19 00:06:14		Option changed: weechat.color.chat_nick_colors = "default"  (default: "cyan,magenta,green,brown,lightblue,default,lightcyan,lightmagenta,lightgreen,blue")
+2018-09-19 00:06:53		Option changed: weechat.color.chat_nick_colors = "cyan,magenta,green,brown,lightblue,default,lightcyan,lightmagenta,lightgreen,blue"
+2018-09-19 00:34:35	=!=	Too few arguments for command "/msg" (help on command: /help msg)
+2018-09-19 09:49:39	=!=	Error: unknown command "/imdb" (type /help for help)
+2018-09-19 13:12:21		Option changed: buflist.format.indent = "\t"  (default: "  ")
+2018-09-19 13:12:30		Option changed: buflist.format.indent = "\t" "  (default: "  ")
+2018-09-19 13:12:37		Option changed: buflist.format.indent = "    "  (default: "  ")
+2018-09-19 13:12:49		Option changed: buflist.format.indent = "  "
+2018-09-19 13:31:49	=!=	Error: unknown command "/fh" (type /help for help)
+2018-09-19 13:31:55		codes: r, dr, w, bl, c, dc, b, db, g, dg, p, dp, o, y, gr, dgr
+2018-09-19 13:31:55		symbols: /, u, bo, i, nl, bell, shrug, actually, happy, daww, ayy, love, lenny, lenny2, wink, cool, bh, notes, normal, lod, table, sad
+2018-09-19 13:50:17	=!=	Error: unknown command "/2639:41" (type /help for help)
+2018-09-20 21:03:32	=!=	Error: unknown command "/win" (type /help for help)
+2018-09-21 09:13:29	=!=	Error: unknown command "/last" (type /help for help)
+2018-09-21 15:40:44	=!=	Error: can not merge windows, there's no other window with same size near current one
+2018-09-22 22:30:30		codes: r, dr, w, bl, c, dc, b, db, g, dg, p, dp, o, y, gr, dgr
+2018-09-22 22:30:30		symbols: /, u, bo, i, nl, bell, shrug, actually, happy, daww, ayy, love, lenny, lenny2, wink, cool, bh, notes, normal, lod, table, sad
+2018-09-24 12:59:20		javascript: unloading script "formatDSL"
+2018-09-24 12:59:20		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-24 12:59:20		javascript: registered script "formatDSL", version 0.1 (JS script)
+2018-09-24 14:38:45	=!=	Error: unknown command "/last" (type /help for help)
+2018-09-25 09:03:02	=!=	Error: can not merge windows, there's no other window with same size near current one
+2018-09-25 09:03:04	=!=	Error: can not merge windows, there's no other window with same size near current one
+2018-09-25 13:29:11	=!=	Error: unknown command "/last" (type /help for help)
+2018-09-26 11:09:57	=!=	Error: unknown command "/f,remind" (type /help for help)
+2018-09-27 15:36:04	=!=	Error: can not merge windows, there's no other window with same size near current one
+2018-09-27 15:38:49	=!=	You can not write text in this buffer
+2018-09-27 15:38:53		javascript scripts loaded:
+2018-09-27 15:38:53		  formatDSL v0.1 - JS script
+2018-09-27 15:38:57		[javascript]  /javascript  list|listfull [<name>]
+2018-09-27 15:38:57		                           load [-q] <filename>
+2018-09-27 15:38:57		                           autoload
+2018-09-27 15:38:57		                           reload|unload [-q] [<name>]
+2018-09-27 15:38:57		                           eval [-o|-oc] <code>
+2018-09-27 15:38:57		                           version
+2018-09-27 15:38:57		list/load/unload scripts
+2018-09-27 15:38:57		    list: list loaded scripts
+2018-09-27 15:38:57		listfull: list loaded scripts (verbose)
+2018-09-27 15:38:57		    load: load a script
+2018-09-27 15:38:57		autoload: load all scripts in "autoload" directory
+2018-09-27 15:38:57		  reload: reload a script (if no name given, unload all scripts, then load all scripts in "autoload" directory)
+2018-09-27 15:38:57		  unload: unload a script (if no name given, unload all scripts)
+2018-09-27 15:38:57		filename: script (file) to load
+2018-09-27 15:38:57		      -q: quiet mode: do not display messages
+2018-09-27 15:38:57		    name: a script name (name used in call to "register" function)
+2018-09-27 15:38:57		    eval: evaluate source code and display result on current buffer
+2018-09-27 15:38:57		      -o: send evaluation result to the buffer without executing commands
+2018-09-27 15:38:57		     -oc: send evaluation result to the buffer and execute commands
+2018-09-27 15:38:57		    code: source code to evaluate
+2018-09-27 15:38:57		 version: display the version of interpreter used
+2018-09-27 15:38:57		Without argument, this command lists all loaded scripts.
+2018-09-27 15:39:01		[javascript]  /javascript  list|listfull [<name>]
+2018-09-27 15:39:01		                           load [-q] <filename>
+2018-09-27 15:39:01		                           autoload
+2018-09-27 15:39:01		                           reload|unload [-q] [<name>]
+2018-09-27 15:39:01		                           eval [-o|-oc] <code>
+2018-09-27 15:39:01		                           version
+2018-09-27 15:39:01		list/load/unload scripts
+2018-09-27 15:39:01		    list: list loaded scripts
+2018-09-27 15:39:01		listfull: list loaded scripts (verbose)
+2018-09-27 15:39:01		    load: load a script
+2018-09-27 15:39:01		autoload: load all scripts in "autoload" directory
+2018-09-27 15:39:01		  reload: reload a script (if no name given, unload all scripts, then load all scripts in "autoload" directory)
+2018-09-27 15:39:01		  unload: unload a script (if no name given, unload all scripts)
+2018-09-27 15:39:01		filename: script (file) to load
+2018-09-27 15:39:01		      -q: quiet mode: do not display messages
+2018-09-27 15:39:01		    name: a script name (name used in call to "register" function)
+2018-09-27 15:39:01		    eval: evaluate source code and display result on current buffer
+2018-09-27 15:39:01		      -o: send evaluation result to the buffer without executing commands
+2018-09-27 15:39:01		     -oc: send evaluation result to the buffer and execute commands
+2018-09-27 15:39:01		    code: source code to evaluate
+2018-09-27 15:39:01		 version: display the version of interpreter used
+2018-09-27 15:39:01		Without argument, this command lists all loaded scripts.
+2018-09-27 15:39:05	=!=	Error with command "/javascript eval" (help on command: /help javascript)
+2018-09-27 15:39:12	=!=	Error with command "/javascript eval -o" (help on command: /help javascript)
+2018-09-27 15:39:14	=!=	Command "/javascript eval" is not yet implemented
+2018-09-28 14:51:30		javascript: unloading script "formatDSL"
+2018-09-28 14:51:30		javascript: loading script "/home/thom/.weechat/javascript/autoload/k.js"
+2018-09-28 14:51:30		javascript: registered script "formatDSL", version 0.1 (JS script)
+2018-09-28 17:07:52	=!=	Error: unknown command "/plugins" (type /help for help)
+2018-09-28 17:08:48		[core]
+2018-09-28 17:08:48		  away     buffer   command  debug    filter   history  key      mouse    plugin   proxy    reload   save     set      upgrade  version  window 
+2018-09-28 17:08:48		  bar      color    cursor   eval     help     input    layout   mute     print    quit     repeat   secure   unset    uptime   wait   
+2018-09-28 17:08:48		[xfer]
+2018-09-28 17:08:48		  me  xfer
+2018-09-28 17:08:48		[perl]
+2018-09-28 17:08:48		  perl
+2018-09-28 17:08:48		[alias]
+2018-09-28 17:08:48		  AAWAY    AME      ANICK    BYE      CHAT     CLOSE    IG       K        LEAVE    MSGBUF   N        REDRAW   SIGNOFF  UB       V        WC       WII    
+2018-09-28 17:08:48		  alias    AMSG     BEEP     C        CL       EXIT     J        KB       M        MUB      Q        SAY      T        UMODE    W        WI       WW     
+2018-09-28 17:08:48		[aspell]
+2018-09-28 17:08:48		  aspell
+2018-09-28 17:08:48		[relay]
+2018-09-28 17:08:48		  relay
+2018-09-28 17:08:48		[lua]
+2018-09-28 17:08:48		  lua
+2018-09-28 17:08:48		[script]
+2018-09-28 17:08:48		  script
+2018-09-28 17:08:48		[exec]
+2018-09-28 17:08:48		  exec
+2018-09-28 17:08:48		[fifo]
+2018-09-28 17:08:48		  fifo
+2018-09-28 17:08:48		[charset]
+2018-09-28 17:08:48		  charset
+2018-09-28 17:08:48		[logger]
+2018-09-28 17:08:48		  logger
+2018-09-28 17:08:48		[fset]
+2018-09-28 17:08:48		  fset
+2018-09-28 17:08:48		[trigger]
+2018-09-28 17:08:48		  trigger
+2018-09-28 17:08:48		[javascript]
+2018-09-28 17:08:48		  f  fi  fl  javascript
+2018-09-28 17:08:48		[ruby]
+2018-09-28 17:08:48		  ruby
+2018-09-28 17:08:48		[python]
+2018-09-28 17:08:48		  autosort  python  vimode  vimode_go_to_normal
+2018-09-28 17:08:48		[buflist]
+2018-09-28 17:08:48		  buflist
+2018-09-28 17:08:48		[irc]
+2018-09-28 17:08:48		  admin       cap         dehalfop    halfop      join        list        motd        notify      pong        rehash      sanick      servlist    time        userhost    wallops   
+2018-09-28 17:08:48		  allchan     connect     deop        ignore      kick        lusers      msg         op          query       remove      sapart      squery      topic       users       who       
+2018-09-28 17:08:48		  allpv       ctcp        devoice     info        kickban     map         names       oper        quiet       restart     saquit      squit       trace       version     whois     
+2018-09-28 17:08:48		  allserv     cycle       die         invite      kill        me          nick        part        quote       sajoin      server      stats       unban       voice       whowas    
+2018-09-28 17:08:48		  ban         dcc         disconnect  ison        links       mode        notice      ping        reconnect   samode      service     summon      unquiet     wallchops 
+2018-09-28 17:08:52		Plugins loaded:
+2018-09-28 17:08:52		  xfer: DCC file transfer and direct chat
+2018-09-28 17:08:52		  perl: Support of perl scripts
+2018-09-28 17:08:52		  alias: Alias commands
+2018-09-28 17:08:52		  aspell: Spell checker for input (with Aspell)
+2018-09-28 17:08:52		  relay: Relay WeeChat data to remote application (irc/weechat protocols)
+2018-09-28 17:08:52		  lua: Support of lua scripts
+2018-09-28 17:08:52		  script: Script manager
+2018-09-28 17:08:52		  exec: Execution of external commands in WeeChat
+2018-09-28 17:08:52		  fifo: FIFO pipe for remote control
+2018-09-28 17:08:52		  charset: Charset conversions
+2018-09-28 17:08:52		  logger: Log buffers to files
+2018-09-28 17:08:52		  fset: Fast set of WeeChat and plugins options
+2018-09-28 17:08:52		  trigger: Text replacement and command execution on events triggered by WeeChat/plugins
+2018-09-28 17:08:52		  javascript: Support of javascript scripts
+2018-09-28 17:08:52		  ruby: Support of ruby scripts
+2018-09-28 17:08:52		  python: Support of python scripts
+2018-09-28 17:08:52		  buflist: Buffers list
+2018-09-28 17:08:52		  irc: IRC (Internet Relay Chat) protocol
+2018-09-28 17:09:03		script: downloading list of scripts...
+2018-09-28 17:09:03		script: 356 scripts for WeeChat 2.2
+2018-09-28 23:19:09	=!=	Too few arguments for command "/msg" (help on command: /help msg)
+2018-09-30 20:20:02	=!=	Too few arguments for command "/query" (help on command: /help query)
+2018-10-01 09:08:35	=!=	Error: unknown command "/last" (type /help for help)
+2018-10-01 18:44:04		python: scripts unloaded
+2018-10-01 18:44:04		javascript: scripts unloaded
+2018-10-01 18:47:43		javascript scripts loaded: formatDSL
+2018-10-01 18:47:43		python scripts loaded: autosort
+2018-10-01 18:47:43		script: downloading list of scripts...
+2018-10-01 18:47:43		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, javascript, logger, lua, perl, python, relay, ruby, script, trigger, xfer
+2018-10-01 18:47:43		script: 357 scripts for WeeChat 2.2
+2018-10-02 00:19:23		python: scripts unloaded
+2018-10-02 00:19:23		javascript: scripts unloaded
+2018-10-02 08:58:28		javascript scripts loaded: formatDSL
+2018-10-02 08:58:28		python scripts loaded: autosort
+2018-10-02 08:58:28		script: 357 scripts for WeeChat 2.2
+2018-10-02 08:58:28		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, javascript, logger, lua, perl, python, relay, ruby, script, trigger, xfer
+2018-10-02 08:58:32		python: scripts unloaded
+2018-10-02 08:58:32		javascript: scripts unloaded
+2018-10-02 08:58:44		javascript scripts loaded: formatDSL
+2018-10-02 08:58:44		python scripts loaded: autosort
+2018-10-02 08:58:44		script: 357 scripts for WeeChat 2.2
+2018-10-02 08:58:44		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, javascript, logger, lua, perl, python, relay, ruby, script, trigger, xfer

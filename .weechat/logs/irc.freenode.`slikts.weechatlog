@@ -1,0 +1,28 @@
+2018-09-21 14:13:10	`slikts	https://gist.github.com/slikts/dec262315af891d82dae9cf0a319cbc8
+2018-09-21 14:18:33	Kirjava	yeah, it's a valid point
+2018-09-21 14:18:48	Kirjava	I think the complaint about tooling doesn't matter, as tooling can al;ways be changed
+2018-09-21 14:18:59	Kirjava	but maybe that's a point you should leave for someone else to bring up
+2018-09-21 14:19:22	`slikts	that'd be the conclusion
+2018-09-21 14:19:29	`slikts	that I'd be fine with semis given tooling is improved
+2018-09-21 14:19:35	Kirjava	ah
+2018-09-21 14:19:37	`slikts	so that people just stop judging me
+2018-09-21 14:19:44	Kirjava	I didn't realise the ASI can still bite you even if you do use semis
+2018-09-21 14:19:45	`slikts	and that there's reason for doing it currently
+2018-09-21 14:20:09	`slikts	I also want to cover that the "rah rah semi" side comes from "everything must be like java/c"
+2018-09-21 14:20:10	Kirjava	hey maybe I should start preparing a counter argument so I can be the top reply
+2018-09-21 14:20:11	Kirjava	:D
+2018-09-21 14:20:35	`slikts	I also want this to lead into discussing symbol protocol extensions
+2018-09-21 14:20:54	`slikts	which in comparison is actually of some import
+2018-09-21 14:21:09	`slikts	this is closer to bikeshedding
+2018-09-21 14:22:44	Kirjava	you can't really do that in the same post though, surely
+2018-09-21 14:22:49	`slikts	no
+2018-09-21 14:23:21	`slikts	but anyway, it's a fun fact that the semis in c-like langs are ancient legacy
+2018-09-21 14:23:30	`slikts	from before you could rely on line breaks working
+2018-09-21 14:24:02	`slikts	it's a half-a-century old hack
+2018-09-21 14:25:04	Kirjava	I wouldn't want to rely in line breaks to seperate statements
+2018-09-21 14:25:11	Kirjava	python style is lame
+2018-09-21 14:25:20	Kirjava	yo ucan't golf that shit for a start!
+2018-09-21 14:25:23	`slikts	it doesn't need to work like python
+2018-09-21 14:26:05	`slikts	there's a link to 2ality about Eich's idea how it should have worked
+2018-09-21 14:28:31	Kirjava	oh, that's kind of interesting
+2018-09-21 14:28:36	Kirjava	maybe harder for beginners to grasp though

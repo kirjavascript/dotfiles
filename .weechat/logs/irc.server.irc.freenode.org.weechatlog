@@ -1,0 +1,91 @@
+2018-09-18 19:57:10	--	irc: connecting to server irc.freenode.org/6667...
+2018-09-18 19:57:11	--	irc: connected to irc.freenode.org/6667 (38.229.70.22)
+2018-09-18 19:57:11	--	card.freenode.net: *** Looking up your hostname...
+2018-09-18 19:57:11	--	card.freenode.net: *** Checking Ident
+2018-09-18 19:57:11	--	card.freenode.net: *** No Ident response
+2018-09-18 19:57:11	--	card.freenode.net: *** Found your hostname
+2018-09-18 19:57:11	--	irc: nickname "Kirjava" is already in use, trying nickname "Colourful"
+2018-09-18 19:57:11	--	Welcome to the freenode Internet Relay Chat Network Colourful
+2018-09-18 19:57:11	--	Your host is card.freenode.net[38.229.70.22/6667], running version ircd-seven-1.1.7
+2018-09-18 19:57:11	--	This server was created Thu Aug 23 2018 at 19:18:42 UTC
+2018-09-18 19:57:11	--	card.freenode.net ircd-seven-1.1.7 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2018-09-18 19:57:11	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2018-09-18 19:57:11	--	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 KNOCK CPRIVMSG CNOTICE :are supported by this server
+2018-09-18 19:57:11	--	WHOX SAFELIST ELIST=CTU ETRACE :are supported by this server
+2018-09-18 19:57:11	--	There are 122 users and 86132 invisible on 30 servers
+2018-09-18 19:57:11	--	34 :IRC Operators online
+2018-09-18 19:57:11	--	28 :unknown connection(s)
+2018-09-18 19:57:11	--	48129 :channels formed
+2018-09-18 19:57:11	--	I have 5464 clients and 1 servers
+2018-09-18 19:57:11	--	5464 5781 :Current local users 5464, max 5781
+2018-09-18 19:57:11	--	86254 89381 :Current global users 86254, max 89381
+2018-09-18 19:57:11	--	Highest connection count: 5782 (5781 clients) (443036 connections received)
+2018-09-18 19:57:11	--	- card.freenode.net Message of the Day -
+2018-09-18 19:57:11	--	-
+2018-09-18 19:57:11	--	- Welcome to card.freenode.net in Washington, DC, US, kindly sponsored by
+2018-09-18 19:57:11	--	- Team Cymru (http://www.team-cymru.org).
+2018-09-18 19:57:11	--	-
+2018-09-18 19:57:11	--	- CARD, ORSON SCOTT [1951-]. Born in Richland, Washington, Card grew up in
+2018-09-18 19:57:11	--	- California, Arizona, and Utah. He lived in Brazil for two years as an unpaid
+2018-09-18 19:57:11	--	- missionary for the Mormon Church. Author of the Ender and Alvin Maker books,
+2018-09-18 19:57:11	--	- Card's science fiction and fantasy work is strongly influenced by his Mormon
+2018-09-18 19:57:11	--	- cultural background. The first author to win the Hugo and Nebula novel awards
+2018-09-18 19:57:11	--	- two years in a row, Card currently lives in Greensboro, North Carolina, US.
+2018-09-18 19:57:11	--	-
+2018-09-18 19:57:11	--	-
+2018-09-18 19:57:11	--	- Welcome to freenode - supporting the free and open source
+2018-09-18 19:57:11	--	- software communities since 1998.
+2018-09-18 19:57:11	--	-
+2018-09-18 19:57:11	--	- By connecting to freenode you indicate that you have read and
+2018-09-18 19:57:11	--	- accept our policies and guidelines as set out on https://freenode.net
+2018-09-18 19:57:11	--	-
+2018-09-18 19:57:11	--	- In the event that you observe behaviour that contravenes our policies,
+2018-09-18 19:57:11	--	- please notify a volunteer staff member via private message, or send us an
+2018-09-18 19:57:11	--	- e-mail to complaints@freenode.net -- we will do our best to address the
+2018-09-18 19:57:11	--	- situation within a reasonable period of time, and we may request further
+2018-09-18 19:57:11	--	- information or, as appropriate, involve other parties such as channel operators
+2018-09-18 19:57:11	--	- Group Contacts representing an on-topic group.
+2018-09-18 19:57:11	--	-
+2018-09-18 19:57:11	--	- freenode runs an open proxy scanner.
+2018-09-18 19:57:11	--	-
+2018-09-18 19:57:11	--	- If you are looking for assistance, you will be able to find a list of
+2018-09-18 19:57:11	--	- volunteer staff using the '/who freenode/staff/*' command, and you may
+2018-09-18 19:57:11	--	- message any of us at any time. Please note that freenode predominantly
+2018-09-18 19:57:11	--	- provides assistance via private message, and while we have a network
+2018-09-18 19:57:11	--	- channel the primary venue for support requests is via private message to
+2018-09-18 19:57:11	--	- a member of the volunteer staff team.
+2018-09-18 19:57:11	--	-
+2018-09-18 19:57:11	--	- From time to time, volunteer staff may send server-wide notices relating to
+2018-09-18 19:57:11	--	- the project, or the communities that we host. The majority of such notices
+2018-09-18 19:57:11	--	- will be sent as wallops, and you can '/mode <yournick> +w' to ensure that you
+2018-09-18 19:57:11	--	- do not miss them. Important messages relating to the freenode project, including
+2018-09-18 19:57:11	--	- notices of upcoming maintenance and other scheduled downtime will be issued as
+2018-09-18 19:57:11	--	- global notices.
+2018-09-18 19:57:11	--	-
+2018-09-18 19:57:11	--	- Representing an on-topic project? Don't forget to register, more information
+2018-09-18 19:57:11	--	- can be found on the https://freenode.net website under "Group Registration".
+2018-09-18 19:57:11	--	-
+2018-09-18 19:57:11	--	- freenode organises an annual conference, and we would like to extend our
+2018-09-18 19:57:11	--	- thanks to the attendees, exhibitors and speakers who made freenode #live 2017
+2018-09-18 19:57:11	--	- possible. And of course, our generous sponsors: Bytemark, Canonical (Ubuntu),
+2018-09-18 19:57:11	--	- Falanx Cyber Security, Private Internet Access and Yubico for footing the bill.
+2018-09-18 19:57:11	--	-
+2018-09-18 19:57:11	--	- Thank you also to our server sponsors for the sustained support in keeping the
+2018-09-18 19:57:11	--	- network going for close to two decades.
+2018-09-18 19:57:11	--	-
+2018-09-18 19:57:11	--	- freenode #live returns to Bristol, UK on November 3rd-4th 2018. Our Call for
+2018-09-18 19:57:11	--	- Proposals is live at https://freenode.live and open until July 31, 2018. If
+2018-09-18 19:57:11	--	- you are interested in sponsoring this event, please send an e-mail to
+2018-09-18 19:57:11	--	- sponsor@freenode.live
+2018-09-18 19:57:11	--	-
+2018-09-18 19:57:11	--	- Thank you for using freenode!
+2018-09-18 19:57:11	--	-
+2018-09-18 19:57:11	--	-
+2018-09-18 19:57:11	--	End of /MOTD command.
+2018-09-18 19:57:11	--	User mode [+Ri] by Colourful
+2018-09-18 19:57:12	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2018-09-18 19:57:17	--	#: ##unavailable :Forwarding to another channel
+2018-09-18 20:33:25	=!=	irc: this buffer is not a channel!
+2018-09-18 20:39:26	=!=	irc: this buffer is not a channel!
+2018-09-18 20:40:13	=!=	irc: this buffer is not a channel!
+2018-09-18 21:02:00	--	irc: disconnected from server

@@ -1,0 +1,41 @@
+2018-09-25 16:08:02	Kirjava	~> IRC.log.user('stylewarning', 'http', IRC.command.params[0] || 100, IRC.command.params[1] || 0);
+2018-09-25 16:08:03	nibblrjr	[ { idx: 54153, time: '2018-09-18 21:34:19', user: 'stylewarning', command: 'PRIVMSG', target: '#rubik', message: 'kirjava j`ey https://usercontent.irccloud-cdn.com/file/4j2S8rm6/IMG_7964.JPG' }, { idx: 46703, time: '2018-09-01 21:08:10', user: 'stylewarning', command: 'PRIVMSG', target: '#rubik', message: 'https://usercontent.irccloud-cdn.com/fil ...
+2018-09-26 05:48:40	<--	nibblrjr (~eternium@183.ip-51-254-223.eu) has quit (Read error: Connection reset by peer)
+2018-09-30 20:20:17	Kirjava	~matrix(1,4000)
+2018-09-30 20:20:17	--	nibblrjr: No such nick/channel
+2018-09-30 20:38:37	<--	nibblrjr (~eternium@183.ip-51-254-223.eu) has quit (Remote host closed the connection)
+2018-09-30 20:38:46	-->	nibblrjr (~eternium@183.ip-51-254-223.eu) is back on server
+2018-09-30 21:05:55	<--	nibblrjr (~eternium@183.ip-51-254-223.eu) has quit (Remote host closed the connection)
+2018-09-30 21:06:05	-->	nibblrjr (~eternium@183.ip-51-254-223.eu) is back on server
+2018-09-30 21:09:20	<--	nibblrjr (~eternium@183.ip-51-254-223.eu) has quit (Remote host closed the connection)
+2018-09-30 21:09:30	-->	nibblrjr (~eternium@183.ip-51-254-223.eu) is back on server
+2018-09-30 21:39:21	<--	nibblrjr (~eternium@183.ip-51-254-223.eu) has quit (Read error: Connection reset by peer)
+2018-09-30 21:39:34	-->	nibblrjr (~eternium@183.ip-51-254-223.eu) is back on server
+2018-09-30 21:56:17	<--	nibblrjr (~eternium@183.ip-51-254-223.eu) has quit (Remote host closed the connection)
+2018-09-30 21:57:06	-->	nibblrjr (~eternium@183.ip-51-254-223.eu) is back on server
+2018-09-30 21:58:25	<--	nibblrjr (~eternium@183.ip-51-254-223.eu) has quit (Remote host closed the connection)
+2018-09-30 21:58:34	-->	nibblrjr (~eternium@183.ip-51-254-223.eu) is back on server
+2018-09-30 22:08:19	<--	nibblrjr (~eternium@183.ip-51-254-223.eu) has quit (Read error: Connection reset by peer)
+2018-09-30 22:08:20	--	irc: disconnected from server
+2018-09-30 22:14:34	<--	nibblrjr (~eternium@183.ip-51-254-223.eu) has quit (Read error: Connection reset by peer)
+2018-09-30 22:25:31	--	irc: disconnected from server
+2018-09-30 22:35:30	--	irc: disconnected from server
+2018-09-30 22:42:39	-->	nibblrjr (~eternium@183.ip-51-254-223.eu) is back on server
+2018-10-01 10:32:51	<--	nibblrjr (~eternium@183.ip-51-254-223.eu) has quit (Remote host closed the connection)
+2018-10-01 10:33:00	-->	nibblrjr (~eternium@183.ip-51-254-223.eu) is back on server
+2018-10-01 10:36:51	<--	nibblrjr (~eternium@183.ip-51-254-223.eu) has quit (Remote host closed the connection)
+2018-10-01 10:37:01	-->	nibblrjr (~eternium@183.ip-51-254-223.eu) is back on server
+2018-10-01 11:05:04	<--	nibblrjr (~eternium@183.ip-51-254-223.eu) has quit (Remote host closed the connection)
+2018-10-01 11:05:13	-->	nibblrjr (~eternium@183.ip-51-254-223.eu) is back on server
+2018-10-01 17:28:59	Kirjava	~> IRC.channels
+2018-10-01 17:29:00	nibblrjr	{ '#rubik': { key: '#rubik', serverName: '#rubik', users: [Object], modeParams: {}, mode: '+gnl', topic: 'speedcubing.com | register to talk ( https://git.io/vaTS2 ) | rust lang | roux method | vim editor | sponsored by Coca Cola™ | please do not post red bull related content thank you', topicBy: 'Kirjava!~cake@183.ip-51-254-223.eu', created: '1263952789' } }
+2018-10-01 17:29:17	Kirjava	~> Object.keys(IRC.channels['#rubik'].users)
+2018-10-01 17:29:18	nibblrjr	[ 'nibblrjr', 'MLSTRM1', 'kuzetsa', 'Kirjava', 'jenkins', 'Nibblr', 'venim', 'Celelibi', 'izabera', 'WhoBe', 'kroq-gar78_', 'cubizh', 'j`ey', 'Gwaur', 'jbrungar', 'Htbrdd', 'FatBoyXPC', 'j-bot', 'eusebus', 'Ceryn', 'egrouse', 'stylewarning', 'tomasmu', 'EddyS', 'imaginary', 'CarlGel', 'Ca ...
+2018-10-01 17:29:38	Kirjava	~> Object.keys(IRC.channels['#rubik'].users).map(d => d.replace(/We/, 'Ga')).join`, `
+2018-10-01 17:29:38	nibblrjr	'nibblrjr, MLSTRM1, kuzetsa, Kirjava, jenkins, Nibblr, venim, Celelibi, izabera, WhoBe, kroq-gar78_, cubizh, j`ey, Gwaur, jbrungar, Htbrdd, FatBoyXPC, j-bot, eusebus, Ceryn, egrouse, stylewarning, tomasmu, EddyS, imaginary, CarlGel, CalamityBlue, ho0chie, molarmanful, Seb_Gayer'
+2018-10-01 17:29:54	Kirjava	~% print(Object.keys(IRC.channels['#rubik'].users).map(d => d.replace(/We/, 'Ga')).join`, `)
+2018-10-01 17:29:54	nibblrjr	nibblrjr, MLSTRM1, kuzetsa, Kirjava, jenkins, Nibblr, venim, Celelibi, izabera, WhoBe, kroq-gar78_, cubizh, j`ey, Gwaur, jbrungar, Htbrdd, FatBoyXPC, j-bot, eusebus, Ceryn, egrouse, stylewarning, tomasmu, EddyS, imaginary, CarlGel, CalamityBlue, ho0chie, molarmanful, Seb_Gayer
+2018-10-01 17:30:08	Kirjava	~% print(Object.keys(IRC.channels['#rubik'].users).map(d => d.replace(/We/, 'Ga')).join`, `, '#rubik')
+2018-10-01 18:34:43	<--	nibblrjr (~eternium@183.ip-51-254-223.eu) has quit (Remote host closed the connection)
+2018-10-01 18:34:53	-->	nibblrjr (~eternium@183.ip-51-254-223.eu) is back on server
+2018-10-01 18:44:04	--	irc: disconnected from server

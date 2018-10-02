@@ -1,0 +1,457 @@
+2018-09-17 21:26:02	--	irc: connecting to server irc.mozilla.org/6667...
+2018-09-17 21:26:02	--	irc: connected to irc.mozilla.org/6667 (63.245.208.110)
+2018-09-17 21:26:02	--	collins.mozilla.org: *** Looking up your hostname...
+2018-09-17 21:26:02	--	irc: nickname "Kirjava" is already in use, trying nickname "Colourful"
+2018-09-17 21:26:02	--	collins.mozilla.org: *** Found your hostname (183.ip-51-254-223.eu)
+2018-09-17 21:26:03	--	collins.mozilla.org: Welcome to Mozilla!
+2018-09-17 21:26:03	--	Welcome to the Mozilla IRC Network Colourful!cake@183.ip-51-254-223.eu
+2018-09-17 21:26:03	--	Your host is collins.mozilla.org, running version InspIRCd-2.0
+2018-09-17 21:26:03	--	This server was created 22:24:50 Aug 20 2018
+2018-09-17 21:26:03	--	collins.mozilla.org InspIRCd-2.0 BHIRSWacdhikorswx ABCDFJKLMNOQRSTYZabcefghijklmnopqrstuvz FJLYZabefghjkloqv
+2018-09-17 21:26:03	--	AWAYLEN=200 CASEMAPPING=rfc1459 CHANMODES=Zbeg,k,FJLfjl,ABCDKMNOQRSTcimnprstuz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU ESILENCE EXCEPTS=e EXTBAN=,ABCNOQRSTUcmprz FNC KICKLEN=255 MAP :are supported by this server
+2018-09-17 21:26:03	--	MAXBANS=60 MAXCHANNELS=100 MAXPARA=32 MAXTARGETS=20 MODES=20 NAMESX NETWORK=Mozilla NICKLEN=31 OPERLOG OVERRIDE PREFIX=(Yqaohv)!~&@%+ SECURELIST SILENCE=32 :are supported by this server
+2018-09-17 21:26:03	--	SSL=[::]:6697 STATUSMSG=!~&@%+ TOPICLEN=307 UHNAMES USERIP VBANLIST WALLCHOPS WALLVOICES WATCH=32 :are supported by this server
+2018-09-17 21:26:03	--	381AAYLVH :your unique ID
+2018-09-17 21:26:03	--	collins.mozilla.org message of the day
+2018-09-17 21:26:03	--	-                               _____
+2018-09-17 21:26:03	--	-                   _________  / / (_)___  _____
+2018-09-17 21:26:03	--	-                  / ___/ __ \/ / / / __ \/ ___/
+2018-09-17 21:26:03	--	-                 / /__/ /_/ / / / / / / (__  )
+2018-09-17 21:26:03	--	-                 \___/\____/_/_/_/_/ /_/____/
+2018-09-17 21:26:03	--	-
+2018-09-17 21:26:03	--	-
+2018-09-17 21:26:03	--	-
+2018-09-17 21:26:03	--	-                  M O Z I L L A   D O T   O R G
+2018-09-17 21:26:03	--	-                    https://www.mozilla.org/
+2018-09-17 21:26:03	--	-
+2018-09-17 21:26:03	--	- =================================================================
+2018-09-17 21:26:03	--	-  This server is for use by Mozilla developers, testers, and
+2018-09-17 21:26:03	--	-  users. If you are not one, please find another server.
+2018-09-17 21:26:03	--	-
+2018-09-17 21:26:03	--	-  NOTICE: Your IP address will be portscanned by our open
+2018-09-17 21:26:03	--	-  proxy tester.  See https://wiki.mozilla.org/IRC for details.
+2018-09-17 21:26:03	--	-
+2018-09-17 21:26:03	--	- =================================================================
+2018-09-17 21:26:03	--	-  Project information:
+2018-09-17 21:26:03	--	-   Firefox                https://support.mozilla.org/
+2018-09-17 21:26:03	--	-   Mobile                 https://support.mozilla.org/mobile
+2018-09-17 21:26:03	--	-   Thunderbird            https://support.mozilla.org/products/thunderbird
+2018-09-17 21:26:03	--	-
+2018-09-17 21:26:03	--	-  Help for new contributors:
+2018-09-17 21:26:03	--	-   https://developer.mozilla.org/Introduction
+2018-09-17 21:26:03	--	-
+2018-09-17 21:26:03	--	- =================================================================
+2018-09-17 21:26:03	--	-  Ports:
+2018-09-17 21:26:03	--	-   Non-SSL: 6665 - 6669
+2018-09-17 21:26:03	--	-       SSL: 6697, 8443
+2018-09-17 21:26:03	--	- =================================================================
+2018-09-17 21:26:03	--	-
+2018-09-17 21:26:03	--	-  For a list of other helpful channels please visit
+2018-09-17 21:26:03	--	-  https://wiki.mozilla.org/IRC or use the /list command.
+2018-09-17 21:26:03	--	-  Additional help with IRC at http://www.irchelp.org/
+2018-09-17 21:26:03	--	-
+2018-09-17 21:26:03	--	End of message of the day.
+2018-09-17 21:26:03	--	There are 5935 users and 681 invisible on 3 servers
+2018-09-17 21:26:03	--	11 :operator(s) online
+2018-09-17 21:26:03	--	1 :unknown connections
+2018-09-17 21:26:03	--	1943 :channels formed
+2018-09-17 21:26:03	--	I have 6607 clients and 2 servers
+2018-09-17 21:26:03	--	Current Local Users: 6607  Max: 6747
+2018-09-17 21:26:03	--	Current Global Users: 6616  Max: 6756
+2018-09-17 21:26:03	--	moz-7e0sq4.ip-51-254-223.eu :is now your displayed host
+2018-09-17 21:26:03	--	User mode [+x] by Colourful
+2018-09-17 21:26:03	--	irc: disconnected from server
+2018-09-18 21:02:32	--	irc: connecting to server irc.mozilla.org/6667...
+2018-09-18 21:02:33	--	irc: connected to irc.mozilla.org/6667 (63.245.208.110)
+2018-09-18 21:02:33	--	collins.mozilla.org: *** Looking up your hostname...
+2018-09-18 21:02:33	--	collins.mozilla.org: *** Found your hostname (183.ip-51-254-223.eu)
+2018-09-18 21:02:34	--	collins.mozilla.org: Welcome to Mozilla!
+2018-09-18 21:02:34	--	Welcome to the Mozilla IRC Network Kirjava!cake@183.ip-51-254-223.eu
+2018-09-18 21:02:34	--	Your host is collins.mozilla.org, running version InspIRCd-2.0
+2018-09-18 21:02:34	--	This server was created 22:24:50 Aug 20 2018
+2018-09-18 21:02:34	--	collins.mozilla.org InspIRCd-2.0 BHIRSWacdhikorswx ABCDFJKLMNOQRSTYZabcefghijklmnopqrstuvz FJLYZabefghjkloqv
+2018-09-18 21:02:34	--	AWAYLEN=200 CASEMAPPING=rfc1459 CHANMODES=Zbeg,k,FJLfjl,ABCDKMNOQRSTcimnprstuz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU ESILENCE EXCEPTS=e EXTBAN=,ABCNOQRSTUcmprz FNC KICKLEN=255 MAP :are supported by this server
+2018-09-18 21:02:34	--	MAXBANS=60 MAXCHANNELS=100 MAXPARA=32 MAXTARGETS=20 MODES=20 NAMESX NETWORK=Mozilla NICKLEN=31 OPERLOG OVERRIDE PREFIX=(Yqaohv)!~&@%+ SECURELIST SILENCE=32 :are supported by this server
+2018-09-18 21:02:34	--	SSL=[::]:6697 STATUSMSG=!~&@%+ TOPICLEN=307 UHNAMES USERIP VBANLIST WALLCHOPS WALLVOICES WATCH=32 :are supported by this server
+2018-09-18 21:02:34	--	381AAZBKX :your unique ID
+2018-09-18 21:02:34	--	collins.mozilla.org message of the day
+2018-09-18 21:02:34	--	-                               _____
+2018-09-18 21:02:34	--	-                   _________  / / (_)___  _____
+2018-09-18 21:02:34	--	-                  / ___/ __ \/ / / / __ \/ ___/
+2018-09-18 21:02:34	--	-                 / /__/ /_/ / / / / / / (__  )
+2018-09-18 21:02:34	--	-                 \___/\____/_/_/_/_/ /_/____/
+2018-09-18 21:02:34	--	-
+2018-09-18 21:02:34	--	-
+2018-09-18 21:02:34	--	-
+2018-09-18 21:02:34	--	-                  M O Z I L L A   D O T   O R G
+2018-09-18 21:02:34	--	-                    https://www.mozilla.org/
+2018-09-18 21:02:34	--	-
+2018-09-18 21:02:34	--	- =================================================================
+2018-09-18 21:02:34	--	-  This server is for use by Mozilla developers, testers, and
+2018-09-18 21:02:34	--	-  users. If you are not one, please find another server.
+2018-09-18 21:02:34	--	-
+2018-09-18 21:02:34	--	-  NOTICE: Your IP address will be portscanned by our open
+2018-09-18 21:02:34	--	-  proxy tester.  See https://wiki.mozilla.org/IRC for details.
+2018-09-18 21:02:34	--	-
+2018-09-18 21:02:34	--	- =================================================================
+2018-09-18 21:02:34	--	-  Project information:
+2018-09-18 21:02:34	--	-   Firefox                https://support.mozilla.org/
+2018-09-18 21:02:34	--	-   Mobile                 https://support.mozilla.org/mobile
+2018-09-18 21:02:34	--	-   Thunderbird            https://support.mozilla.org/products/thunderbird
+2018-09-18 21:02:34	--	-
+2018-09-18 21:02:34	--	-  Help for new contributors:
+2018-09-18 21:02:34	--	-   https://developer.mozilla.org/Introduction
+2018-09-18 21:02:34	--	-
+2018-09-18 21:02:34	--	- =================================================================
+2018-09-18 21:02:34	--	-  Ports:
+2018-09-18 21:02:34	--	-   Non-SSL: 6665 - 6669
+2018-09-18 21:02:34	--	-       SSL: 6697, 8443
+2018-09-18 21:02:34	--	- =================================================================
+2018-09-18 21:02:34	--	-
+2018-09-18 21:02:34	--	-  For a list of other helpful channels please visit
+2018-09-18 21:02:34	--	-  https://wiki.mozilla.org/IRC or use the /list command.
+2018-09-18 21:02:34	--	-  Additional help with IRC at http://www.irchelp.org/
+2018-09-18 21:02:34	--	-
+2018-09-18 21:02:34	--	End of message of the day.
+2018-09-18 21:02:34	--	There are 5962 users and 692 invisible on 3 servers
+2018-09-18 21:02:34	--	11 :operator(s) online
+2018-09-18 21:02:34	--	4 :unknown connections
+2018-09-18 21:02:34	--	1951 :channels formed
+2018-09-18 21:02:34	--	I have 6645 clients and 2 servers
+2018-09-18 21:02:34	--	Current Local Users: 6645  Max: 6801
+2018-09-18 21:02:34	--	Current Global Users: 6654  Max: 6810
+2018-09-18 21:02:34	--	moz-7e0sq4.ip-51-254-223.eu :is now your displayed host
+2018-09-18 21:02:34	--	User mode [+x] by Kirjava
+2018-09-18 21:07:01	--	thom: Nickname is already in use.
+2018-09-30 21:39:21	=!=	Closing link: (cake@183.ip-51-254-223.eu) [Ping timeout: 121 seconds]
+2018-09-30 21:39:21	=!=	irc: reading data on socket: error 0 (connection closed by peer)
+2018-09-30 21:39:21	--	irc: disconnecting from server...
+2018-09-30 21:39:22	--	irc: disconnected from server
+2018-09-30 21:39:22	--	irc: reconnecting to server in 10 seconds
+2018-09-30 21:39:32	--	irc: reconnecting to server...
+2018-09-30 21:39:32	--	irc: connecting to server irc.mozilla.org/6667...
+2018-09-30 21:39:32	--	irc: connected to irc.mozilla.org/6667 (63.245.208.110)
+2018-09-30 21:39:32	--	collins.mozilla.org: *** Looking up your hostname...
+2018-09-30 21:39:33	--	collins.mozilla.org: *** Found your hostname (183.ip-51-254-223.eu)
+2018-09-30 21:39:34	--	collins.mozilla.org: Welcome to Mozilla!
+2018-09-30 21:39:34	--	Welcome to the Mozilla IRC Network Kirjava!cake@183.ip-51-254-223.eu
+2018-09-30 21:39:34	--	Your host is collins.mozilla.org, running version InspIRCd-2.0
+2018-09-30 21:39:34	--	This server was created 22:24:50 Aug 20 2018
+2018-09-30 21:39:34	--	collins.mozilla.org InspIRCd-2.0 BHIRSWacdhikorswx ABCDFJKLMNOQRSTYZabcefghijklmnopqrstuvz FJLYZabefghjkloqv
+2018-09-30 21:39:34	--	AWAYLEN=200 CASEMAPPING=rfc1459 CHANMODES=Zbeg,k,FJLfjl,ABCDKMNOQRSTcimnprstuz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU ESILENCE EXCEPTS=e EXTBAN=,ABCNOQRSTUcmprz FNC KICKLEN=255 MAP :are supported by this server
+2018-09-30 21:39:34	--	MAXBANS=60 MAXCHANNELS=100 MAXPARA=32 MAXTARGETS=20 MODES=20 NAMESX NETWORK=Mozilla NICKLEN=31 OPERLOG OVERRIDE PREFIX=(Yqaohv)!~&@%+ SECURELIST SILENCE=32 :are supported by this server
+2018-09-30 21:39:34	--	SSL=[::]:6697 STATUSMSG=!~&@%+ TOPICLEN=307 UHNAMES USERIP VBANLIST WALLCHOPS WALLVOICES WATCH=32 :are supported by this server
+2018-09-30 21:39:34	--	381AA8UDC :your unique ID
+2018-09-30 21:39:34	--	collins.mozilla.org message of the day
+2018-09-30 21:39:34	--	-                               _____
+2018-09-30 21:39:34	--	-                   _________  / / (_)___  _____
+2018-09-30 21:39:34	--	-                  / ___/ __ \/ / / / __ \/ ___/
+2018-09-30 21:39:34	--	-                 / /__/ /_/ / / / / / / (__  )
+2018-09-30 21:39:34	--	-                 \___/\____/_/_/_/_/ /_/____/
+2018-09-30 21:39:34	--	-
+2018-09-30 21:39:34	--	-
+2018-09-30 21:39:34	--	-
+2018-09-30 21:39:34	--	-                  M O Z I L L A   D O T   O R G
+2018-09-30 21:39:34	--	-                    https://www.mozilla.org/
+2018-09-30 21:39:34	--	-
+2018-09-30 21:39:34	--	- =================================================================
+2018-09-30 21:39:34	--	-  This server is for use by Mozilla developers, testers, and
+2018-09-30 21:39:34	--	-  users. If you are not one, please find another server.
+2018-09-30 21:39:34	--	-
+2018-09-30 21:39:34	--	-  NOTICE: Your IP address will be portscanned by our open
+2018-09-30 21:39:34	--	-  proxy tester.  See https://wiki.mozilla.org/IRC for details.
+2018-09-30 21:39:34	--	-
+2018-09-30 21:39:34	--	- =================================================================
+2018-09-30 21:39:34	--	-  Project information:
+2018-09-30 21:39:34	--	-   Firefox                https://support.mozilla.org/
+2018-09-30 21:39:34	--	-   Mobile                 https://support.mozilla.org/mobile
+2018-09-30 21:39:34	--	-   Thunderbird            https://support.mozilla.org/products/thunderbird
+2018-09-30 21:39:34	--	-
+2018-09-30 21:39:34	--	-  Help for new contributors:
+2018-09-30 21:39:34	--	-   https://developer.mozilla.org/Introduction
+2018-09-30 21:39:34	--	-
+2018-09-30 21:39:34	--	- =================================================================
+2018-09-30 21:39:34	--	-  Ports:
+2018-09-30 21:39:34	--	-   Non-SSL: 6665 - 6669
+2018-09-30 21:39:34	--	-       SSL: 6697, 8443
+2018-09-30 21:39:34	--	- =================================================================
+2018-09-30 21:39:34	--	-
+2018-09-30 21:39:34	--	-  For a list of other helpful channels please visit
+2018-09-30 21:39:34	--	-  https://wiki.mozilla.org/IRC or use the /list command.
+2018-09-30 21:39:34	--	-  Additional help with IRC at http://www.irchelp.org/
+2018-09-30 21:39:34	--	-
+2018-09-30 21:39:34	--	End of message of the day.
+2018-09-30 21:39:34	--	There are 5816 users and 658 invisible on 3 servers
+2018-09-30 21:39:34	--	10 :operator(s) online
+2018-09-30 21:39:34	--	3 :unknown connections
+2018-09-30 21:39:34	--	1909 :channels formed
+2018-09-30 21:39:34	--	I have 6465 clients and 2 servers
+2018-09-30 21:39:34	--	Current Local Users: 6465  Max: 6842
+2018-09-30 21:39:34	--	Current Global Users: 6474  Max: 6851
+2018-09-30 21:39:34	--	moz-7e0sq4.ip-51-254-223.eu :is now your displayed host
+2018-09-30 21:39:34	--	User mode [+x] by Kirjava
+2018-09-30 22:08:22	=!=	Closing link: (cake@183.ip-51-254-223.eu) [Ping timeout: 121 seconds]
+2018-09-30 22:08:23	=!=	irc: reading data on socket: error 0 (connection closed by peer)
+2018-09-30 22:08:23	--	irc: disconnecting from server...
+2018-09-30 22:08:23	--	irc: disconnected from server
+2018-09-30 22:08:23	--	irc: reconnecting to server in 10 seconds
+2018-09-30 22:11:27	--	irc: reconnecting to server...
+2018-09-30 22:11:27	--	irc: connecting to server irc.mozilla.org/6667...
+2018-09-30 22:11:27	=!=	irc: not enough memory (fork error: Cannot allocate memory)
+2018-09-30 22:11:27	=!=	irc: error: fork error: Cannot allocate memory
+2018-09-30 22:11:27	--	irc: reconnecting to server in 20 seconds
+2018-09-30 22:11:47	--	irc: reconnecting to server...
+2018-09-30 22:11:47	--	irc: connecting to server irc.mozilla.org/6667...
+2018-09-30 22:11:47	=!=	irc: not enough memory (fork error: Cannot allocate memory)
+2018-09-30 22:11:47	=!=	irc: error: fork error: Cannot allocate memory
+2018-09-30 22:11:47	--	irc: reconnecting to server in 40 seconds
+2018-09-30 22:25:32	--	irc: reconnecting to server...
+2018-09-30 22:25:32	--	irc: connecting to server irc.mozilla.org/6667...
+2018-09-30 22:25:32	--	irc: connected to irc.mozilla.org/6667 (63.245.208.110)
+2018-09-30 22:25:32	--	collins.mozilla.org: *** Looking up your hostname...
+2018-09-30 22:25:32	--	collins.mozilla.org: *** Found your hostname (183.ip-51-254-223.eu)
+2018-09-30 22:25:33	--	collins.mozilla.org: Welcome to Mozilla!
+2018-09-30 22:25:33	--	Welcome to the Mozilla IRC Network Kirjava!cake@183.ip-51-254-223.eu
+2018-09-30 22:25:33	--	Your host is collins.mozilla.org, running version InspIRCd-2.0
+2018-09-30 22:25:33	--	This server was created 22:24:50 Aug 20 2018
+2018-09-30 22:25:33	--	collins.mozilla.org InspIRCd-2.0 BHIRSWacdhikorswx ABCDFJKLMNOQRSTYZabcefghijklmnopqrstuvz FJLYZabefghjkloqv
+2018-09-30 22:25:33	--	AWAYLEN=200 CASEMAPPING=rfc1459 CHANMODES=Zbeg,k,FJLfjl,ABCDKMNOQRSTcimnprstuz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU ESILENCE EXCEPTS=e EXTBAN=,ABCNOQRSTUcmprz FNC KICKLEN=255 MAP :are supported by this server
+2018-09-30 22:25:33	--	MAXBANS=60 MAXCHANNELS=100 MAXPARA=32 MAXTARGETS=20 MODES=20 NAMESX NETWORK=Mozilla NICKLEN=31 OPERLOG OVERRIDE PREFIX=(Yqaohv)!~&@%+ SECURELIST SILENCE=32 :are supported by this server
+2018-09-30 22:25:33	--	SSL=[::]:6697 STATUSMSG=!~&@%+ TOPICLEN=307 UHNAMES USERIP VBANLIST WALLCHOPS WALLVOICES WATCH=32 :are supported by this server
+2018-09-30 22:25:33	--	381AA8U2B :your unique ID
+2018-09-30 22:25:33	--	collins.mozilla.org message of the day
+2018-09-30 22:25:33	--	-                               _____
+2018-09-30 22:25:33	--	-                   _________  / / (_)___  _____
+2018-09-30 22:25:33	--	-                  / ___/ __ \/ / / / __ \/ ___/
+2018-09-30 22:25:33	--	-                 / /__/ /_/ / / / / / / (__  )
+2018-09-30 22:25:33	--	-                 \___/\____/_/_/_/_/ /_/____/
+2018-09-30 22:25:33	--	-
+2018-09-30 22:25:33	--	-
+2018-09-30 22:25:33	--	-
+2018-09-30 22:25:33	--	-                  M O Z I L L A   D O T   O R G
+2018-09-30 22:25:33	--	-                    https://www.mozilla.org/
+2018-09-30 22:25:33	--	-
+2018-09-30 22:25:33	--	- =================================================================
+2018-09-30 22:25:33	--	-  This server is for use by Mozilla developers, testers, and
+2018-09-30 22:25:33	--	-  users. If you are not one, please find another server.
+2018-09-30 22:25:33	--	-
+2018-09-30 22:25:33	--	-  NOTICE: Your IP address will be portscanned by our open
+2018-09-30 22:25:33	--	-  proxy tester.  See https://wiki.mozilla.org/IRC for details.
+2018-09-30 22:25:33	--	-
+2018-09-30 22:25:33	--	- =================================================================
+2018-09-30 22:25:33	--	-  Project information:
+2018-09-30 22:25:33	--	-   Firefox                https://support.mozilla.org/
+2018-09-30 22:25:33	--	-   Mobile                 https://support.mozilla.org/mobile
+2018-09-30 22:25:33	--	-   Thunderbird            https://support.mozilla.org/products/thunderbird
+2018-09-30 22:25:33	--	-
+2018-09-30 22:25:33	--	-  Help for new contributors:
+2018-09-30 22:25:33	--	-   https://developer.mozilla.org/Introduction
+2018-09-30 22:25:33	--	-
+2018-09-30 22:25:33	--	- =================================================================
+2018-09-30 22:25:33	--	-  Ports:
+2018-09-30 22:25:33	--	-   Non-SSL: 6665 - 6669
+2018-09-30 22:25:33	--	-       SSL: 6697, 8443
+2018-09-30 22:25:33	--	- =================================================================
+2018-09-30 22:25:33	--	-
+2018-09-30 22:25:33	--	-  For a list of other helpful channels please visit
+2018-09-30 22:25:33	--	-  https://wiki.mozilla.org/IRC or use the /list command.
+2018-09-30 22:25:33	--	-  Additional help with IRC at http://www.irchelp.org/
+2018-09-30 22:25:33	--	-
+2018-09-30 22:25:33	--	End of message of the day.
+2018-09-30 22:25:33	--	There are 5802 users and 662 invisible on 3 servers
+2018-09-30 22:25:33	--	10 :operator(s) online
+2018-09-30 22:25:33	--	2 :unknown connections
+2018-09-30 22:25:33	--	1905 :channels formed
+2018-09-30 22:25:33	--	I have 6455 clients and 2 servers
+2018-09-30 22:25:33	--	Current Local Users: 6455  Max: 6842
+2018-09-30 22:25:33	--	Current Global Users: 6464  Max: 6851
+2018-09-30 22:25:33	--	moz-7e0sq4.ip-51-254-223.eu :is now your displayed host
+2018-09-30 22:25:33	--	User mode [+x] by Kirjava
+2018-10-01 18:44:04	--	irc: disconnected from server
+2018-10-01 18:47:43	--	irc: connecting to server irc.mozilla.org/6667...
+2018-10-01 18:47:43	--	irc: connected to irc.mozilla.org/6667 (63.245.208.110)
+2018-10-01 18:47:43	--	collins.mozilla.org: *** Looking up your hostname...
+2018-10-01 18:47:43	--	collins.mozilla.org: *** Found your hostname (183.ip-51-254-223.eu)
+2018-10-01 18:47:44	--	collins.mozilla.org: Welcome to Mozilla!
+2018-10-01 18:47:44	--	Welcome to the Mozilla IRC Network Kirjava!cake@183.ip-51-254-223.eu
+2018-10-01 18:47:44	--	Your host is collins.mozilla.org, running version InspIRCd-2.0
+2018-10-01 18:47:44	--	This server was created 22:24:50 Aug 20 2018
+2018-10-01 18:47:44	--	collins.mozilla.org InspIRCd-2.0 BHIRSWacdhikorswx ABCDFJKLMNOQRSTYZabcefghijklmnopqrstuvz FJLYZabefghjkloqv
+2018-10-01 18:47:44	--	AWAYLEN=200 CASEMAPPING=rfc1459 CHANMODES=Zbeg,k,FJLfjl,ABCDKMNOQRSTcimnprstuz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU ESILENCE EXCEPTS=e EXTBAN=,ABCNOQRSTUcmprz FNC KICKLEN=255 MAP :are supported by this server
+2018-10-01 18:47:44	--	MAXBANS=60 MAXCHANNELS=100 MAXPARA=32 MAXTARGETS=20 MODES=20 NAMESX NETWORK=Mozilla NICKLEN=31 OPERLOG OVERRIDE PREFIX=(Yqaohv)!~&@%+ SECURELIST SILENCE=32 :are supported by this server
+2018-10-01 18:47:44	--	SSL=[::]:6697 STATUSMSG=!~&@%+ TOPICLEN=307 UHNAMES USERIP VBANLIST WALLCHOPS WALLVOICES WATCH=32 :are supported by this server
+2018-10-01 18:47:44	--	381AA9GHS :your unique ID
+2018-10-01 18:47:44	--	collins.mozilla.org message of the day
+2018-10-01 18:47:44	--	-                               _____
+2018-10-01 18:47:44	--	-                   _________  / / (_)___  _____
+2018-10-01 18:47:44	--	-                  / ___/ __ \/ / / / __ \/ ___/
+2018-10-01 18:47:44	--	-                 / /__/ /_/ / / / / / / (__  )
+2018-10-01 18:47:44	--	-                 \___/\____/_/_/_/_/ /_/____/
+2018-10-01 18:47:44	--	-
+2018-10-01 18:47:44	--	-
+2018-10-01 18:47:44	--	-
+2018-10-01 18:47:44	--	-                  M O Z I L L A   D O T   O R G
+2018-10-01 18:47:44	--	-                    https://www.mozilla.org/
+2018-10-01 18:47:44	--	-
+2018-10-01 18:47:44	--	- =================================================================
+2018-10-01 18:47:44	--	-  This server is for use by Mozilla developers, testers, and
+2018-10-01 18:47:44	--	-  users. If you are not one, please find another server.
+2018-10-01 18:47:44	--	-
+2018-10-01 18:47:44	--	-  NOTICE: Your IP address will be portscanned by our open
+2018-10-01 18:47:44	--	-  proxy tester.  See https://wiki.mozilla.org/IRC for details.
+2018-10-01 18:47:44	--	-
+2018-10-01 18:47:44	--	- =================================================================
+2018-10-01 18:47:44	--	-  Project information:
+2018-10-01 18:47:44	--	-   Firefox                https://support.mozilla.org/
+2018-10-01 18:47:44	--	-   Mobile                 https://support.mozilla.org/mobile
+2018-10-01 18:47:44	--	-   Thunderbird            https://support.mozilla.org/products/thunderbird
+2018-10-01 18:47:44	--	-
+2018-10-01 18:47:44	--	-  Help for new contributors:
+2018-10-01 18:47:44	--	-   https://developer.mozilla.org/Introduction
+2018-10-01 18:47:44	--	-
+2018-10-01 18:47:44	--	- =================================================================
+2018-10-01 18:47:44	--	-  Ports:
+2018-10-01 18:47:44	--	-   Non-SSL: 6665 - 6669
+2018-10-01 18:47:44	--	-       SSL: 6697, 8443
+2018-10-01 18:47:44	--	- =================================================================
+2018-10-01 18:47:44	--	-
+2018-10-01 18:47:44	--	-  For a list of other helpful channels please visit
+2018-10-01 18:47:44	--	-  https://wiki.mozilla.org/IRC or use the /list command.
+2018-10-01 18:47:44	--	-  Additional help with IRC at http://www.irchelp.org/
+2018-10-01 18:47:44	--	-
+2018-10-01 18:47:44	--	End of message of the day.
+2018-10-01 18:47:44	--	There are 6009 users and 677 invisible on 3 servers
+2018-10-01 18:47:44	--	10 :operator(s) online
+2018-10-01 18:47:44	--	1 :unknown connections
+2018-10-01 18:47:44	--	1935 :channels formed
+2018-10-01 18:47:44	--	I have 6677 clients and 2 servers
+2018-10-01 18:47:44	--	Current Local Users: 6677  Max: 6842
+2018-10-01 18:47:44	--	Current Global Users: 6686  Max: 6851
+2018-10-01 18:47:44	--	moz-7e0sq4.ip-51-254-223.eu :is now your displayed host
+2018-10-01 18:47:44	--	User mode [+x] by Kirjava
+2018-10-01 18:48:03	--	MSG(nickserv): identify *************
+2018-10-01 18:48:04	--	NickServ (services@ircservices.mozilla.org): Nick Kirjava isn't registered.
+2018-10-02 00:19:23	--	irc: disconnected from server
+2018-10-02 08:58:28	--	irc: connecting to server irc.mozilla.org/6667...
+2018-10-02 08:58:28	--	irc: connected to irc.mozilla.org/6667 (63.245.208.110)
+2018-10-02 08:58:28	--	collins.mozilla.org: *** Looking up your hostname...
+2018-10-02 08:58:29	--	collins.mozilla.org: *** Found your hostname (183.ip-51-254-223.eu)
+2018-10-02 08:58:29	--	collins.mozilla.org: Welcome to Mozilla!
+2018-10-02 08:58:29	--	Welcome to the Mozilla IRC Network Kirjava!cake@183.ip-51-254-223.eu
+2018-10-02 08:58:29	--	Your host is collins.mozilla.org, running version InspIRCd-2.0
+2018-10-02 08:58:29	--	This server was created 22:24:50 Aug 20 2018
+2018-10-02 08:58:29	--	collins.mozilla.org InspIRCd-2.0 BHIRSWacdhikorswx ABCDFJKLMNOQRSTYZabcefghijklmnopqrstuvz FJLYZabefghjkloqv
+2018-10-02 08:58:29	--	AWAYLEN=200 CASEMAPPING=rfc1459 CHANMODES=Zbeg,k,FJLfjl,ABCDKMNOQRSTcimnprstuz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU ESILENCE EXCEPTS=e EXTBAN=,ABCNOQRSTUcmprz FNC KICKLEN=255 MAP :are supported by this server
+2018-10-02 08:58:29	--	MAXBANS=60 MAXCHANNELS=100 MAXPARA=32 MAXTARGETS=20 MODES=20 NAMESX NETWORK=Mozilla NICKLEN=31 OPERLOG OVERRIDE PREFIX=(Yqaohv)!~&@%+ SECURELIST SILENCE=32 :are supported by this server
+2018-10-02 08:58:29	--	SSL=[::]:6697 STATUSMSG=!~&@%+ TOPICLEN=307 UHNAMES USERIP VBANLIST WALLCHOPS WALLVOICES WATCH=32 :are supported by this server
+2018-10-02 08:58:29	--	381AA9VVL :your unique ID
+2018-10-02 08:58:29	--	collins.mozilla.org message of the day
+2018-10-02 08:58:29	--	-                               _____
+2018-10-02 08:58:29	--	-                   _________  / / (_)___  _____
+2018-10-02 08:58:29	--	-                  / ___/ __ \/ / / / __ \/ ___/
+2018-10-02 08:58:29	--	-                 / /__/ /_/ / / / / / / (__  )
+2018-10-02 08:58:29	--	-                 \___/\____/_/_/_/_/ /_/____/
+2018-10-02 08:58:29	--	-
+2018-10-02 08:58:29	--	-
+2018-10-02 08:58:29	--	-
+2018-10-02 08:58:29	--	-                  M O Z I L L A   D O T   O R G
+2018-10-02 08:58:29	--	-                    https://www.mozilla.org/
+2018-10-02 08:58:29	--	-
+2018-10-02 08:58:29	--	- =================================================================
+2018-10-02 08:58:29	--	-  This server is for use by Mozilla developers, testers, and
+2018-10-02 08:58:29	--	-  users. If you are not one, please find another server.
+2018-10-02 08:58:29	--	-
+2018-10-02 08:58:29	--	-  NOTICE: Your IP address will be portscanned by our open
+2018-10-02 08:58:29	--	-  proxy tester.  See https://wiki.mozilla.org/IRC for details.
+2018-10-02 08:58:29	--	-
+2018-10-02 08:58:29	--	- =================================================================
+2018-10-02 08:58:29	--	-  Project information:
+2018-10-02 08:58:29	--	-   Firefox                https://support.mozilla.org/
+2018-10-02 08:58:29	--	-   Mobile                 https://support.mozilla.org/mobile
+2018-10-02 08:58:29	--	-   Thunderbird            https://support.mozilla.org/products/thunderbird
+2018-10-02 08:58:29	--	-
+2018-10-02 08:58:29	--	-  Help for new contributors:
+2018-10-02 08:58:29	--	-   https://developer.mozilla.org/Introduction
+2018-10-02 08:58:29	--	-
+2018-10-02 08:58:29	--	- =================================================================
+2018-10-02 08:58:29	--	-  Ports:
+2018-10-02 08:58:29	--	-   Non-SSL: 6665 - 6669
+2018-10-02 08:58:29	--	-       SSL: 6697, 8443
+2018-10-02 08:58:29	--	- =================================================================
+2018-10-02 08:58:29	--	-
+2018-10-02 08:58:29	--	-  For a list of other helpful channels please visit
+2018-10-02 08:58:29	--	-  https://wiki.mozilla.org/IRC or use the /list command.
+2018-10-02 08:58:29	--	-  Additional help with IRC at http://www.irchelp.org/
+2018-10-02 08:58:29	--	-
+2018-10-02 08:58:29	--	End of message of the day.
+2018-10-02 08:58:29	--	There are 6034 users and 668 invisible on 3 servers
+2018-10-02 08:58:29	--	10 :operator(s) online
+2018-10-02 08:58:29	--	2 :unknown connections
+2018-10-02 08:58:29	--	1967 :channels formed
+2018-10-02 08:58:29	--	I have 6693 clients and 2 servers
+2018-10-02 08:58:29	--	Current Local Users: 6693  Max: 6842
+2018-10-02 08:58:29	--	Current Global Users: 6702  Max: 6851
+2018-10-02 08:58:29	--	moz-7e0sq4.ip-51-254-223.eu :is now your displayed host
+2018-10-02 08:58:29	--	User mode [+x] by Kirjava
+2018-10-02 08:58:32	--	irc: disconnected from server
+2018-10-02 08:58:44	--	irc: connecting to server irc.mozilla.org/6667...
+2018-10-02 08:58:45	--	irc: connected to irc.mozilla.org/6667 (63.245.208.110)
+2018-10-02 08:58:45	--	collins.mozilla.org: *** Looking up your hostname...
+2018-10-02 08:58:45	--	collins.mozilla.org: *** Found your hostname (183.ip-51-254-223.eu) -- cached
+2018-10-02 08:58:46	--	collins.mozilla.org: Welcome to Mozilla!
+2018-10-02 08:58:46	--	Welcome to the Mozilla IRC Network Kirjava!cake@183.ip-51-254-223.eu
+2018-10-02 08:58:46	--	Your host is collins.mozilla.org, running version InspIRCd-2.0
+2018-10-02 08:58:46	--	This server was created 22:24:50 Aug 20 2018
+2018-10-02 08:58:46	--	collins.mozilla.org InspIRCd-2.0 BHIRSWacdhikorswx ABCDFJKLMNOQRSTYZabcefghijklmnopqrstuvz FJLYZabefghjkloqv
+2018-10-02 08:58:46	--	AWAYLEN=200 CASEMAPPING=rfc1459 CHANMODES=Zbeg,k,FJLfjl,ABCDKMNOQRSTcimnprstuz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU ESILENCE EXCEPTS=e EXTBAN=,ABCNOQRSTUcmprz FNC KICKLEN=255 MAP :are supported by this server
+2018-10-02 08:58:46	--	MAXBANS=60 MAXCHANNELS=100 MAXPARA=32 MAXTARGETS=20 MODES=20 NAMESX NETWORK=Mozilla NICKLEN=31 OPERLOG OVERRIDE PREFIX=(Yqaohv)!~&@%+ SECURELIST SILENCE=32 :are supported by this server
+2018-10-02 08:58:46	--	SSL=[::]:6697 STATUSMSG=!~&@%+ TOPICLEN=307 UHNAMES USERIP VBANLIST WALLCHOPS WALLVOICES WATCH=32 :are supported by this server
+2018-10-02 08:58:46	--	381AA9VVW :your unique ID
+2018-10-02 08:58:46	--	collins.mozilla.org message of the day
+2018-10-02 08:58:46	--	-                               _____
+2018-10-02 08:58:46	--	-                   _________  / / (_)___  _____
+2018-10-02 08:58:46	--	-                  / ___/ __ \/ / / / __ \/ ___/
+2018-10-02 08:58:46	--	-                 / /__/ /_/ / / / / / / (__  )
+2018-10-02 08:58:46	--	-                 \___/\____/_/_/_/_/ /_/____/
+2018-10-02 08:58:46	--	-
+2018-10-02 08:58:46	--	-
+2018-10-02 08:58:46	--	-
+2018-10-02 08:58:46	--	-                  M O Z I L L A   D O T   O R G
+2018-10-02 08:58:46	--	-                    https://www.mozilla.org/
+2018-10-02 08:58:46	--	-
+2018-10-02 08:58:46	--	- =================================================================
+2018-10-02 08:58:46	--	-  This server is for use by Mozilla developers, testers, and
+2018-10-02 08:58:46	--	-  users. If you are not one, please find another server.
+2018-10-02 08:58:46	--	-
+2018-10-02 08:58:46	--	-  NOTICE: Your IP address will be portscanned by our open
+2018-10-02 08:58:46	--	-  proxy tester.  See https://wiki.mozilla.org/IRC for details.
+2018-10-02 08:58:46	--	-
+2018-10-02 08:58:46	--	- =================================================================
+2018-10-02 08:58:46	--	-  Project information:
+2018-10-02 08:58:46	--	-   Firefox                https://support.mozilla.org/
+2018-10-02 08:58:46	--	-   Mobile                 https://support.mozilla.org/mobile
+2018-10-02 08:58:46	--	-   Thunderbird            https://support.mozilla.org/products/thunderbird
+2018-10-02 08:58:46	--	-
+2018-10-02 08:58:46	--	-  Help for new contributors:
+2018-10-02 08:58:46	--	-   https://developer.mozilla.org/Introduction
+2018-10-02 08:58:46	--	-
+2018-10-02 08:58:46	--	- =================================================================
+2018-10-02 08:58:46	--	-  Ports:
+2018-10-02 08:58:46	--	-   Non-SSL: 6665 - 6669
+2018-10-02 08:58:46	--	-       SSL: 6697, 8443
+2018-10-02 08:58:46	--	- =================================================================
+2018-10-02 08:58:46	--	-
+2018-10-02 08:58:46	--	-  For a list of other helpful channels please visit
+2018-10-02 08:58:46	--	-  https://wiki.mozilla.org/IRC or use the /list command.
+2018-10-02 08:58:46	--	-  Additional help with IRC at http://www.irchelp.org/
+2018-10-02 08:58:46	--	-
+2018-10-02 08:58:46	--	End of message of the day.
+2018-10-02 08:58:46	--	There are 6034 users and 669 invisible on 3 servers
+2018-10-02 08:58:46	--	10 :operator(s) online
+2018-10-02 08:58:46	--	1 :unknown connections
+2018-10-02 08:58:46	--	1967 :channels formed
+2018-10-02 08:58:46	--	I have 6694 clients and 2 servers
+2018-10-02 08:58:46	--	Current Local Users: 6694  Max: 6842
+2018-10-02 08:58:46	--	Current Global Users: 6703  Max: 6851
+2018-10-02 08:58:46	--	moz-7e0sq4.ip-51-254-223.eu :is now your displayed host
+2018-10-02 08:58:46	--	User mode [+x] by Kirjava

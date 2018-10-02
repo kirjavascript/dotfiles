@@ -1,0 +1,2105 @@
+2018-09-17 21:26:02	-->	Colourful (~cake@Rizon-F9ADB79B.ip-51-254-223.eu) has joined #eggchan
+2018-09-17 21:26:02	--	Topic for #eggchan is "LATEST EGGCHAN NEWS: multipart crate seems to be fixed so let's stick with rocket (for now at least) | [api.]lambdachan.org is now https"
+2018-09-17 21:26:02	--	Topic set by LambdaComplex (~blackmesa@e.g.g) on Mon, 30 Jul 2018 01:38:10
+2018-09-17 21:26:02	--	Channel #eggchan: 12 nicks (1 op, 0 halfops, 0 voices, 11 normals)
+2018-09-17 21:26:03	--	irc: disconnected from server
+2018-09-18 21:02:33	-->	Kirjava (~cake@Rizon-F9ADB79B.ip-51-254-223.eu) has joined #eggchan
+2018-09-18 21:02:33	--	Topic for #eggchan is "LATEST EGGCHAN NEWS: multipart crate seems to be fixed so let's stick with rocket (for now at least) | [api.]lambdachan.org is now https"
+2018-09-18 21:02:33	--	Topic set by LambdaComplex (~blackmesa@e.g.g) on Mon, 30 Jul 2018 01:38:10
+2018-09-18 21:02:33	--	Channel #eggchan: 11 nicks (1 op, 0 halfops, 0 voices, 10 normals)
+2018-09-18 21:02:41	--	Channel created on Mon, 18 Jun 2018 12:33:12
+2018-09-18 21:08:23	Kirjava	we weechat now
+2018-09-18 21:08:32	Kirjava	ʷᵉᵉᶜʰᵃᵗ
+2018-09-18 21:11:58	PositiveC	so what's the point of lambdachan if no one's posting :(
+2018-09-18 21:14:56	trinary	PositiveC - You could write a FUSE wrapper around it and use it for free storage
+2018-09-18 21:16:04	PositiveC	and could lose whatever i was storing cuz lambdachan is not guaranteed to be always online
+2018-09-18 21:16:20	trinary	yup
+2018-09-18 21:33:22	Kirjava	!egg winny
+2018-09-18 21:33:22	EggServ	ok
+2018-09-18 21:33:29	winny	!egg Kirjava 
+2018-09-18 21:33:30	EggServ	winny: egg
+2018-09-18 21:33:30	EggServ	ok
+2018-09-18 21:33:37	winny	!egg
+2018-09-18 21:33:37	EggServ	P​ositiveC: egg
+2018-09-18 21:33:38	EggServ	k​yubiko: egg
+2018-09-18 21:33:38	EggServ	a​esthetik: egg
+2018-09-18 21:33:38	EggServ	m​eep: egg
+2018-09-18 21:33:38	EggServ	L​ambdaComplex: egg
+2018-09-18 21:33:39	EggServ	t​rinary: egg
+2018-09-18 21:33:39	EggServ	S​cribbler: egg
+2018-09-18 21:33:39	EggServ	d​arkwater: egg
+2018-09-18 21:33:39	EggServ	w​inny: egg
+2018-09-18 21:33:40	EggServ	K​irjava: egg
+2018-09-18 21:33:48	Kirjava	~eggs
+2018-09-18 21:33:48	EggServ	Kirjava: egg
+2018-09-18 21:33:52	Kirjava	woops
+2018-09-19 02:17:17	-->	Nux (~user@responsible.disclosure.is.killing.the.0day.industry) has joined #eggchan
+2018-09-19 02:24:23	--	Nux is now known as RMS
+2018-09-19 02:26:09	RMS	 >>>#code
+2018-09-19 02:26:55	~LambdaComplex	>>>RMS
+2018-09-19 06:08:32	--	RMS is now known as Nux
+2018-09-19 11:40:40	Kirjava	!bf ++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.
+2018-09-19 11:40:41	EggServ	Hello World!
+2018-09-19 11:41:00	Kirjava	!bf --[----->+<]>-.++..
+2018-09-19 11:41:01	EggServ	egg
+2018-09-19 12:24:12	~LambdaComplex	egg
+2018-09-19 12:24:12	meep	egg!
+2018-09-19 13:33:30	Kirjava	did someone say egg
+2018-09-19 13:39:39	~LambdaComplex	Kirjava: egg
+2018-09-19 13:41:58	Kirjava	they did it again"!
+2018-09-19 13:42:10	Kirjava	rs> "egg" //@LamdaComplex
+2018-09-19 13:42:12	meep	> "egg"
+2018-09-19 13:43:16	trinary	Aww Kirjava, why did you lock whendoesworkend
+2018-09-19 13:44:13	Kirjava	someone was messing with it ಠ_ಠ
+2018-09-19 13:46:39	Kirjava	dunno if it was you
+2018-09-19 13:46:49	Kirjava	but since you're asking.... lol
+2018-09-19 13:46:51	Kirjava	!whendoesworkend
+2018-09-19 13:46:52	EggServ	in 3:43 time units
+2018-09-19 13:50:53	trinary	If only there were revisions and diffs of commands
+2018-09-19 13:54:00	Kirjava	:c
+2018-09-19 13:54:12	Kirjava	coming 2020™
+2018-09-19 13:55:17	Kirjava	trinary: hey, you can fork it
+2018-09-19 13:55:44	trinary	Nah, this has a higher fun/work ratio
+2018-09-19 14:01:38	Kirjava	unlocked anyway
+2018-09-19 14:01:46	Kirjava	be gentle :o
+2018-09-19 14:01:54	trinary	Wha
+2018-09-19 14:01:57	trinary	Why would you do that
+2018-09-19 14:02:35	trinary	Great, now I have to be all responsible
+2018-09-19 14:13:55	Kirjava	D:
+2018-09-19 17:29:27	Kirjava	!memo.self(tomorrow)                     │17:26:10      +dysfigured | Kirjava: curl -sL https://github.com/DanielFGray/dotfiles/raw/master/weechat.conf | sed 's/^*//' > ~/.weechat/weechat_fifo                                                     │+KittyKatt
+2018-09-19 17:29:28	EggServ	Message will display after 1 day on Thursday September 20th 2018 17:29:27
+2018-09-19 21:57:40	--	Scribbler is now known as RacismWatchDog
+2018-09-19 21:58:04	--	RacismWatchDog is now known as Scribbler
+2018-09-19 22:09:17	Kirjava	*rasicm
+2018-09-20 15:06:17	aesthetik	EggServ: egg
+2018-09-20 15:11:19	~LambdaComplex	aesthetik: egg
+2018-09-20 15:11:42	aesthetik	LambdaComplex: hello how would you like your egg
+2018-09-20 15:11:49	~LambdaComplex	aesthetik: i don't like eggs
+2018-09-20 15:12:03	aesthetik	LambdaComplex: harold does not approve of this heresey
+2018-09-20 15:12:13	~LambdaComplex	aesthetik: pet him until he does
+2018-09-20 15:13:07	aesthetik	no level of petting will satisfy this anger
+2018-09-20 15:13:27	~LambdaComplex	scratch behind his ears!!!
+2018-09-20 15:13:36	aesthetik	the egg cannot hold
+2018-09-20 15:13:37	aesthetik	it is too late
+2018-09-20 15:13:40	aesthetik	all is lost
+2018-09-20 15:13:51	~LambdaComplex	you cannot go forward in an absence of egg
+2018-09-20 15:14:22	 *	Kirjava does egg at aesthetik
+2018-09-20 15:14:25	aesthetik	https://stackoverflow.com/a/1732454/1932789
+2018-09-20 15:14:26	EggServ	>> html - RegEx match open tags except XHTML self-contained tags - Stack Overflow
+2018-09-20 16:09:20	Kirjava	a real classic
+2018-09-20 23:27:12	--	Scribbler is now known as Seven
+2018-09-20 23:28:41	--	Seven is now known as kingchrischeater
+2018-09-20 23:29:02	--	kingchrischeater is now known as Scribbler
+2018-09-21 04:42:59	<--	aesthetik (aesthetik@aesthetik.tld) has quit (Quit: bye)
+2018-09-21 04:43:16	-->	aesthetik (~aesthetik@Rizon-422B88E7.co.uk) has joined #eggchan
+2018-09-21 17:13:53	Kirjava	!whendoesworkend
+2018-09-21 17:13:53	EggServ	in 0:17 time units
+2018-09-21 17:13:58	Kirjava	pls hurry D:
+2018-09-21 17:15:11	~LambdaComplex	!!
+2018-09-21 17:15:11	EggServ	https://www.youtube.com/watch?v=2P5qbcRAXVk
+2018-09-21 17:21:09	EggServ	Egg!
+2018-09-21 17:49:36	EggServ	Egg?
+2018-09-21 18:03:16	<--	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has quit (Read error: Connection reset by peer)
+2018-09-21 18:03:26	-->	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has joined #eggchan
+2018-09-21 18:18:34	<--	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has quit (Read error: Connection reset by peer)
+2018-09-21 18:18:44	-->	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has joined #eggchan
+2018-09-21 18:49:24	EggServ	Egg?
+2018-09-21 19:19:25	EggServ	Egg?
+2018-09-21 19:49:24	EggServ	Egg?
+2018-09-21 19:50:38	Nux	Egg!
+2018-09-21 19:50:38	EggServ	Nux: egg
+2018-09-21 19:50:48	Nux	Egg?
+2018-09-21 20:19:24	EggServ	Egg?
+2018-09-21 20:22:06	Nux	Egg
+2018-09-21 20:49:24	EggServ	Egg?
+2018-09-21 20:59:28	aesthetik	Eggu
+2018-09-21 20:59:45	aesthetik	Kirjava: you should write EggServ in eggdrop
+2018-09-21 21:19:24	EggServ	Egg?
+2018-09-21 21:49:03	<--	aesthetik (~aesthetik@aesthetik.tld) has quit (Quit: bye)
+2018-09-21 21:49:24	EggServ	Egg?
+2018-09-21 21:55:35	-->	aesthetik (~aesthetik@Rizon-422B88E7.co.uk) has joined #eggchan
+2018-09-21 21:55:58	<--	aesthetik (~aesthetik@aesthetik.tld) has quit (Connection closed)
+2018-09-21 22:19:24	EggServ	Egg?
+2018-09-21 22:25:52	Kirjava	!memo(aesthetik) why? nibblr is more powerful than eggdrop :3
+2018-09-21 22:25:53	EggServ	Saved message for aesthetik
+2018-09-21 22:32:07	-->	aesthetik (aesthetik@Rizon-D6E25427.com) has joined #eggchan
+2018-09-21 22:35:06	Kirjava	aesthetik: .
+2018-09-21 22:49:24	EggServ	Egg?
+2018-09-21 22:49:37	<--	Nux (~user@responsible.disclosure.is.killing.the.0day.industry) has quit (Quit: WeeChat 2.2)
+2018-09-21 22:50:33	Kirjava	trinary: now this is how you egg <3
+2018-09-21 23:19:24	EggServ	Egg?
+2018-09-21 23:19:33	Kirjava	indeed.
+2018-09-21 23:28:45	-->	Nux (~user@responsible.disclosure.is.killing.the.0day.industry) has joined #eggchan
+2018-09-21 23:49:24	EggServ	Egg?
+2018-09-21 23:50:11	Kirjava	verily
+2018-09-22 00:19:24	EggServ	Egg?
+2018-09-22 00:49:25	EggServ	Egg?
+2018-09-22 01:19:24	EggServ	Egg?
+2018-09-22 01:49:25	EggServ	Egg?
+2018-09-22 02:19:25	EggServ	Egg?
+2018-09-22 02:49:24	EggServ	Egg?
+2018-09-22 03:19:24	EggServ	Egg?
+2018-09-22 03:49:24	EggServ	Egg?
+2018-09-22 04:03:08	~LambdaComplex	egg
+2018-09-22 04:19:25	EggServ	Egg?
+2018-09-22 04:49:24	EggServ	Egg?
+2018-09-22 05:19:24	EggServ	Egg?
+2018-09-22 05:49:25	EggServ	Egg?
+2018-09-22 06:13:09	~LambdaComplex	Egg!
+2018-09-22 06:19:24	EggServ	Egg?
+2018-09-22 06:49:24	EggServ	Egg?
+2018-09-22 07:19:24	EggServ	Egg?
+2018-09-22 07:49:24	EggServ	Egg?
+2018-09-22 08:19:24	EggServ	Egg?
+2018-09-22 08:44:03	Kirjava	leg
+2018-09-22 08:49:25	EggServ	Egg?
+2018-09-22 09:19:24	EggServ	Egg?
+2018-09-22 09:49:24	EggServ	Egg?
+2018-09-22 10:19:24	EggServ	Egg?
+2018-09-22 10:49:24	EggServ	Egg?
+2018-09-22 11:19:24	EggServ	Egg?
+2018-09-22 11:49:25	EggServ	Egg?
+2018-09-22 11:50:16	trinary	!% Promise.resolve(42).then(() => { while (true) {} }) // shut up
+2018-09-22 11:54:13	<--	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has quit (Ping timeout: 240 seconds)
+2018-09-22 15:37:22	trinary	Why did EgServ not come back :/
+2018-09-22 15:40:58	~LambdaComplex	F
+2018-09-22 17:24:23	Scribbler	u broked it
+2018-09-22 17:24:34	Scribbler	kirjava not gonna be coherent till monday
+2018-09-22 17:37:04	-->	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has joined #eggchan
+2018-09-22 19:11:22	--	Scribbler is now known as Momqui
+2018-09-22 19:11:46	--	Momqui is now known as Scribbler
+2018-09-22 23:30:20	<--	darkwater (~dark@eternal.darkness) has quit (Quit: WeeChat 2.1)
+2018-09-22 23:30:51	-->	darkwater (~dark@eternal.darkness) has joined #eggchan
+2018-09-22 23:31:33	<--	darkwater (~dark@eternal.darkness) has quit
+2018-09-22 23:31:49	-->	dankwater (~dark@655DF03A:89886EA0:CCE870DC:IP) has joined #eggchan
+2018-09-22 23:31:53	--	dankwater is now known as darkwater
+2018-09-23 01:33:06	-->	EggServ1 (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has joined #eggchan
+2018-09-23 01:33:12	<--	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has quit (Read error: Connection reset by peer)
+2018-09-23 05:33:17	<--	Nux (~user@responsible.disclosure.is.killing.the.0day.industry) has quit (Read error: Connection reset by peer)
+2018-09-23 15:47:07	Kirjava	> xtraceroute
+2018-09-23 15:47:13	Kirjava	itshappening.gif
+2018-09-23 15:58:46	~LambdaComplex	eggg
+2018-09-23 18:27:43	-->	Nux (~user@responsible.disclosure.is.killing.the.0day.industry) has joined #eggchan
+2018-09-24 15:24:15	aesthetik	egg
+2018-09-24 15:24:16	EggServ1	aesthetik: <Kirjava> why? nibblr is more powerful than eggdrop :3 (2 days ago)
+2018-09-24 15:24:26	aesthetik	what
+2018-09-24 15:24:47	aesthetik	o
+2018-09-24 15:26:08	~LambdaComplex	egg
+2018-09-24 15:26:09	meep	egg
+2018-09-24 15:26:13	~LambdaComplex	!!!
+2018-09-24 15:29:22	Kirjava	egg
+2018-09-24 15:29:22	meep	egg?
+2018-09-24 15:29:31	~LambdaComplex	egg
+2018-09-24 15:29:35	Kirjava	todo: sandbox nibblr >_<
+2018-09-24 15:29:45	Kirjava	I wonder if running it in qemu is viable at all
+2018-09-24 15:29:54	~LambdaComplex	Kirjava: egg
+2018-09-24 15:30:05	Kirjava	truer words have never been spoken
+2018-09-24 15:30:13	~LambdaComplex	()
+2018-09-24 15:30:19	Kirjava	rs> ()
+2018-09-24 15:30:21	meep	> ()
+2018-09-24 15:31:31	~LambdaComplex	rs> let egg = (); egg
+2018-09-24 15:31:33	meep	> ()
+2018-09-24 15:32:08	Kirjava	ƃƃǝ
+2018-09-24 15:32:20	Kirjava	ᵉᵍᵍ
+2018-09-24 15:33:01	~LambdaComplex	rs> type Egg = (); let egg: Egg = (); egg
+2018-09-24 15:33:04	meep	> ()
+2018-09-24 15:33:07	~LambdaComplex	!!!
+2018-09-24 15:33:22	~LambdaComplex	through Egg all things are possible
+2018-09-24 15:33:42	Kirjava	rs> struct Egg; Egg {}
+2018-09-24 15:33:44	meep	> /input:3:22: error[E0277]: `main::Egg` doesn't implement `std::fmt::Debug`⏎ error: aborting due to previous error
+2018-09-24 15:34:00	Kirjava	rs> #[derive(Debug)] struct Egg; Egg {}
+2018-09-24 15:34:02	meep	> Egg
+2018-09-24 15:34:05	Kirjava	:D
+2018-09-24 15:45:56	aesthetik	I DIDN't realize rs meant rust
+2018-09-24 15:46:01	aesthetik	i feel like a not smart person
+2018-09-24 15:46:35	Kirjava	rs> #[derive(Debug)] struct egg; egg;
+2018-09-24 15:46:37	meep	> /input:4:24: warning: type `egg` should have a camel case name such as `Egg`⏎ /input:4:36: warning: path statement with no effect⏎ ()
+2018-09-24 15:46:43	~LambdaComplex	rs> #[derive(Debug)] struct Egg { Vec<Egg> }
+2018-09-24 15:46:44	meep	> /input:4:40: error: expected `:`, found `<`⏎ error: aborting due to previous error
+2018-09-24 15:46:50	~LambdaComplex	rs> #[derive(Debug)] struct Egg { eggs: Vec<Egg> }
+2018-09-24 15:46:52	meep	> ()
+2018-09-24 15:47:14	~LambdaComplex	hmmm
+2018-09-24 15:48:05	~LambdaComplex	rs> #[derive(Debug)] struct Egg(Vec<Egg>) } let eggs = vec![Egg(vec![]); 5]; Egg(eggs)
+2018-09-24 15:48:06	meep	> /input:5:5: error: incorrect close delimiter: `}`⏎ /input:5:6: error: unexpected close delimiter: `)`⏎ error: aborting due to 2 previous errors
+2018-09-24 15:48:09	~LambdaComplex	dammit
+2018-09-24 15:48:21	~LambdaComplex	rs> #[derive(Debug)] struct Egg(Vec<Egg>); let eggs = vec![Egg(vec![]); 5]; Egg(eggs)
+2018-09-24 15:48:22	meep	> /input:4:57: error[E0277]: the trait bound `main::Egg: std::clone::Clone` is not satisfied⏎ error: aborting due to previous error
+2018-09-24 15:48:24	Kirjava	rs> #[derive(Debug)] struct Egg { eggs: Vec<Egg> }; Egg {eggs: vec![Egg {eggs: vec![]}, Egg {eggs: vic![]}] } 
+2018-09-24 15:48:26	meep	> /input:4:102: error: cannot find macro `vic!` in this scope⏎ error: aborting due to previous error
+2018-09-24 15:48:29	Kirjava	rs> #[derive(Debug)] struct Egg { eggs: Vec<Egg> }; Egg {eggs: vec![Egg {eggs: vec![]}, Egg {eggs: vec![]}] } 
+2018-09-24 15:48:30	~LambdaComplex	rs> #[derive(DebugClone, )] struct Egg(Vec<Egg>); let eggs = vec![Egg(vec![]); 5]; Egg(eggs)
+2018-09-24 15:48:32	meep	> Egg { eggs: [Egg { eggs: [] }, Egg { eggs: [] }] }
+2018-09-24 15:48:32	meep	> /input:4:16: error: cannot find derive macro `DebugClone` in this scope⏎ error: aborting due to previous error
+2018-09-24 15:48:35	Kirjava	yay
+2018-09-24 15:48:39	~LambdaComplex	rs> #[derive(Debug,Clone)] struct Egg(Vec<Egg>); let eggs = vec![Egg(vec![]); 5]; Egg(eggs)
+2018-09-24 15:48:41	meep	> Egg([Egg([]), Egg([]), Egg([]), Egg([]), Egg([])])
+2018-09-24 15:48:42	aesthetik	rip egg
+2018-09-24 15:48:55	~LambdaComplex	rs> #[derive(Debug,Clone)] struct Egg(Vec<Egg>); let eggs = vec![Egg(vec![Egg(vec![])]); 5]; Egg(eggs)
+2018-09-24 15:48:57	meep	> Egg([Egg([Egg([])]), Egg([Egg([])]), Egg([Egg([])]), Egg([Egg([])]), Egg([Egg([])])])
+2018-09-24 15:49:06	Kirjava	we neede to go deeper
+2018-09-24 15:49:22	aesthetik	LambdaComplex: the Vector cannot hold 
+2018-09-24 15:49:25	aesthetik	the egg comes
+2018-09-24 15:49:32	aesthetik	all is lost
+2018-09-24 15:49:55	~LambdaComplex	The problem with this is that it is possible for an Egg to hold no eggs
+2018-09-24 15:50:01	~LambdaComplex	i.e. Egg(vec![])
+2018-09-24 15:50:25	~LambdaComplex	I need some way to create a circle of eggs!
+2018-09-24 15:50:35	Kirjava	this is something rust cannot do
+2018-09-24 15:50:50	~LambdaComplex	Did i just discover Circular Linked Lists from first principles by shitposting about eggs?
+2018-09-24 15:51:05	Kirjava	js> const egg = {}; egg.egg = egg; egg
+2018-09-24 15:51:06	meep	> { egg: [Circular] }
+2018-09-24 15:52:15	Kirjava	BEAT THAT RUSTACEANS
+2018-09-24 15:52:34	~LambdaComplex	egg> egg
+2018-09-24 15:52:34	meep	no such handler, see (eval) for a list of installed evaluators
+2018-09-24 15:52:38	~LambdaComplex	EGG! >:(
+2018-09-24 15:52:53	~LambdaComplex	trinary: can we get an egg> handler that just says "egg" regardless of input?
+2018-09-24 15:53:50	Kirjava	uhm why not have it actually implement egg lang
+2018-09-24 15:54:13	Kirjava	see https://eloquentjavascript.net/12_language.html
+2018-09-24 15:54:13	EggServ1	>> Project: A Programming Language :: Eloquent JavaScript
+2018-09-24 15:55:25	trinary	No to egg>. I'll accept (egg) though
+2018-09-24 15:56:04	Kirjava	(egg)
+2018-09-24 15:57:10	~LambdaComplex	trinary: why no to egg>? :(
+2018-09-24 15:57:20	Kirjava	bf> +.
+2018-09-24 15:57:21	meep	> 
+2018-09-24 15:57:30	Kirjava	bf> ++++++++++.
+2018-09-24 15:57:31	meep	<eval succeeded, but no output>
+2018-09-24 15:57:34	Kirjava	bf> +++++++++++++.
+2018-09-24 15:57:34	meep	<eval succeeded, but no output>
+2018-09-24 15:58:06	trinary	LambdaComplex - It would either mean spawning a VM to echo egg, which is ugly, or require a special-case in meeps eval code, which is ugly too
+2018-09-24 15:58:13	~LambdaComplex	--[----->+<]>-.++..>++++++++++.
+2018-09-24 15:58:16	Kirjava	bf> ++++++++++.+++.>-[--->+<]>----.++++.------------.+++++++++++.
+2018-09-24 15:58:16	~LambdaComplex	bf> --[----->+<]>-.++..>++++++++++.
+2018-09-24 15:58:16	meep	> QUIT
+2018-09-24 15:58:17	meep	> egg
+2018-09-24 15:58:31	~LambdaComplex	>spawning a VM to echo egg
+2018-09-24 15:58:34	~LambdaComplex	>ugly
+2018-09-24 15:58:36	~LambdaComplex	trinary: pls
+2018-09-24 15:58:41	~LambdaComplex	that would be the most beautiful thing ever
+2018-09-24 15:58:44	~LambdaComplex	Kirjava: back me up here
+2018-09-24 15:58:44	Kirjava	agree
+2018-09-24 15:58:54	Kirjava	you didn't even have to ask for backup it was already coming
+2018-09-24 15:59:04	<--	trinary (~trinary@the.devils.avocado) has left #eggchan (WeeChat 2.2)
+2018-09-24 15:59:08	~LambdaComplex	lmao
+2018-09-24 15:59:11	~LambdaComplex	top kek
+2018-09-24 15:59:19	Kirjava	ok they didn't like that one bit
+2018-09-24 16:01:20	meep	> egg
+2018-09-24 16:01:29	Kirjava	._.
+2018-09-24 16:01:36	Kirjava	trinary still watching us
+2018-09-24 16:01:45	-->	trinary (~trinary@the.devils.avocado) has joined #eggchan
+2018-09-24 16:07:36	Kirjava	all avocado's are the devil's avocado
+2018-09-24 16:07:43	Kirjava	*avocados
+2018-09-24 18:57:07	Kirjava	!speak
+2018-09-24 18:57:08	EggServ1	EVERY TIME
+2018-09-24 18:57:40	--	EggServ1 is now known as EgServ
+2018-09-25 12:47:19	Kirjava	!define tias
+2018-09-25 12:47:20	EgServ	Try It And See.  Milder form of RTFM.  Used when a question is asked of someone supposedly more knowledgable, but they have no clue about the answer.
+2018-09-25 12:55:15	Kirjava	I can't tell how serious bdelloid is 
+2018-09-25 12:55:21	Kirjava	I think not completely
+2018-09-25 12:55:28	Kirjava	but maybe also very
+2018-09-25 12:55:30	Kirjava	who knows :S
+2018-09-25 12:55:47	Kirjava	will be v sad if they pull a templeos
+2018-09-25 15:38:33	<--	Nux (~user@responsible.disclosure.is.killing.the.0day.industry) has quit (Ping timeout: 240 seconds)
+2018-09-25 19:28:24	aesthetik	e g g
+2018-09-25 19:28:29	aesthetik	EgServ: egg pls
+2018-09-25 19:28:43	aesthetik	not a good EgServ tbh
+2018-09-25 19:28:58	EgServ	egg
+2018-09-25 19:29:09	EgServ	egg
+2018-09-25 19:29:10	meep	egg
+2018-09-25 19:29:11	EgServ	egg
+2018-09-25 19:29:13	EgServ	egg
+2018-09-25 19:29:13	aesthetik	delayed bot is delayed
+2018-09-25 19:29:15	EgServ	egg
+2018-09-25 19:29:15	aesthetik	pls send help
+2018-09-25 19:29:17	EgServ	egg
+2018-09-25 19:29:19	EgServ	egg
+2018-09-25 19:29:21	aesthetik	Kirjava: eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeg
+2018-09-25 19:29:21	EgServ	egg
+2018-09-25 19:29:22	aesthetik	g
+2018-09-25 19:31:13	Kirjava	EGGO
+2018-09-25 19:31:14	EgServ	egg
+2018-09-25 19:31:14	EgServ	egg
+2018-09-25 19:31:14	EgServ	egg
+2018-09-25 19:31:14	meep	egg!
+2018-09-25 19:31:14	EgServ	egg
+2018-09-25 19:31:15	EgServ	egg
+2018-09-25 19:31:15	meep	egg?
+2018-09-25 19:31:15	EgServ	egg
+2018-09-25 19:31:15	EgServ	egg
+2018-09-25 19:31:16	EgServ	egg
+2018-09-25 19:31:16	meep	egg!
+2018-09-25 19:31:16	EgServ	egg
+2018-09-25 19:31:17	EgServ	egg
+2018-09-25 19:31:17	EgServ	Kirjava: 12:47 <@Banks> this is cool http://everynoise.com/engenremap.html (6 hours ago)
+2018-09-25 19:31:18	EgServ	Kirjava: 14:40 <@Scribbler> o shi https://www.youtube.com/watch?v=Gum4GI2Jr0s (4 hours ago)
+2018-09-25 19:31:33	aesthetik	EgServ: r u ok
+2018-09-25 19:31:38	EgServ	egg
+2018-09-25 19:31:38	EgServ	egg
+2018-09-25 19:31:39	EgServ	egg
+2018-09-25 19:31:39	EgServ	egg
+2018-09-25 19:31:39	meep	egg?
+2018-09-25 19:31:39	EgServ	egg
+2018-09-25 19:31:39	EgServ	egg
+2018-09-25 19:31:40	EgServ	egg
+2018-09-25 19:31:40	EgServ	egg
+2018-09-25 19:31:40	EgServ	egg
+2018-09-25 19:31:41	EgServ	egg
+2018-09-25 19:31:46	Scribbler	:|
+2018-09-25 19:32:09	Kirjava	um
+2018-09-25 19:32:17	aesthetik	meep: pls help
+2018-09-25 19:34:34	 *	meep 
+2018-09-25 19:34:55	Kirjava	moop
+2018-09-25 19:36:36	aesthetik	mrap
+2018-09-25 19:41:38	aesthetik	Kirjava: why des EgServ do what it does
+2018-09-25 19:42:32	EgServ	egg
+2018-09-25 19:42:32	EgServ	egg
+2018-09-25 19:42:32	EgServ	egg
+2018-09-25 19:42:32	meep	egg
+2018-09-25 19:42:33	EgServ	egg
+2018-09-25 19:42:33	EgServ	egg
+2018-09-25 19:42:33	meep	egg!
+2018-09-25 19:42:33	EgServ	egg
+2018-09-25 19:42:33	EgServ	egg
+2018-09-25 19:42:33	meep	egg
+2018-09-25 19:42:34	EgServ	egg
+2018-09-25 19:42:34	EgServ	egg
+2018-09-25 19:42:34	meep	egg
+2018-09-25 19:42:35	EgServ	egg
+2018-09-25 19:42:35	meep	egg?
+2018-09-25 19:43:09	Kirjava	dunno
+2018-09-25 19:43:59	Kirjava	mind of its own
+2018-09-25 19:51:10	aesthetik	i always forget
+2018-09-25 19:51:13	aesthetik	is meep a bot
+2018-09-25 19:51:25	meep	no
+2018-09-25 19:51:38	meep	are you a bot?
+2018-09-25 19:52:06	aesthetik	maybe?
+2018-09-25 19:52:09	aesthetik	are we all bots?
+2018-09-25 19:52:47	aesthetik	meep: you are lies
+2018-09-25 19:52:51	aesthetik	and Kirjava, you're a bully
+2018-09-25 20:01:03	Kirjava	whyfor :c
+2018-09-25 20:04:49	aesthetik	sending messages through meep
+2018-09-25 20:05:45	EgServ	no u
+2018-09-25 20:06:14	aesthetik	no u
+2018-09-25 20:06:56	Kirjava	am not
+2018-09-25 20:09:12	Kirjava	Scribbler: omg this run
+2018-09-25 20:33:38	Scribbler	ye boi
+2018-09-26 07:10:53	-->	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has joined #eggchan
+2018-09-26 07:10:56	<--	EgServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has quit (Remote host closed the connection)
+2018-09-26 08:32:36	--	EggServ is now known as EgServ
+2018-09-26 08:32:48	EgServ	egg
+2018-09-26 08:32:49	meep	egg?
+2018-09-26 08:58:50	EgServ	Kirjava: egg
+2018-09-26 08:59:06	Kirjava	...egg?
+2018-09-26 08:59:07	EgServ	kirjava: <Scribbler> blj https://i.imgur.com/MgrzWJu.gifv (8 hours ago)
+2018-09-26 08:59:45	Kirjava	ok one day I'll have you under control eggserc
+2018-09-26 08:59:57	Kirjava	just need a lil work m80
+2018-09-26 09:00:12	EgServ	<3
+2018-09-26 09:14:36	<--	EgServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has quit (Remote host closed the connection)
+2018-09-26 09:14:43	-->	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has joined #eggchan
+2018-09-26 09:56:48	Kirjava	~de egg
+2018-09-26 09:56:53	Kirjava	ugh
+2018-09-26 09:56:54	Kirjava	!de egg
+2018-09-26 09:56:56	EggServ	to egg [Am.] <> piesacken [ugs.] [nerven, ärgern] 
+2018-09-26 09:58:05	trinary	~nick EgServ
+2018-09-26 09:58:11	trinary	!nick EgServ
+2018-09-26 09:58:11	--	EggServ is now known as EgServ
+2018-09-26 10:00:39	Kirjava	sometimes I wonder if changing the trigger was a bad idea
+2018-09-26 10:00:44	Kirjava	I nearly always do it wrong
+2018-09-26 10:02:04	trinary	Any disadvantage by having it stay the same, as long as the bots don't share channels?
+2018-09-26 10:02:46	Kirjava	not really
+2018-09-26 10:02:56	Kirjava	I guess I'll revert it
+2018-09-26 10:03:27	<--	EgServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has quit (Remote host closed the connection)
+2018-09-26 10:03:54	-->	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has joined #eggchan
+2018-09-26 10:03:57	Kirjava	~de omlette
+2018-09-26 10:03:58	EggServ	TypeError: Cannot read property 'replace' of undefined at getDOM.then.dom (vm.js:34:76) at Object.apply (/home/thom/nibblrjr/node_modules/vm2/lib/contextify.js:87:36) at <anonymous> at process._tickCallback (internal/process/next_tick.js:118:7)
+2018-09-26 10:04:19	Kirjava	~de omelette
+2018-09-26 10:04:20	EggServ	gastr. omelette <> Omelett {n} 
+2018-09-26 10:08:12	trinary	~nick EgServ
+2018-09-26 10:08:12	--	EggServ is now known as EgServ
+2018-09-26 10:12:34	Kirjava	~de eg
+2018-09-26 10:12:35	EgServ	geogr. Egypt <.eg> <> Ägypten {n} 
+2018-09-26 10:12:53	Kirjava	gotta get dat dict.cc ready
+2018-09-26 10:12:59	Kirjava	trinary: do you speak german at all
+2018-09-26 10:13:08	trinary	I do
+2018-09-26 10:14:27	Kirjava	cool!
+2018-09-26 10:14:57	Kirjava	(if I end up moving) I want to give a solid shot at picking (at least some) of it up
+2018-09-26 10:15:32	Kirjava	but it's maybe a little late for me
+2018-09-26 10:17:17	trinary	Late for what?
+2018-09-26 10:17:53	Kirjava	to pick it up - as it's easier for children to do so
+2018-09-26 10:18:16	Kirjava	how much that has an effect is up for debate for it'd certainly be harder
+2018-09-26 10:18:19	Kirjava	I'm no daniel tammet
+2018-09-26 10:18:44	trinary	Ah, yes. It's not an easy language, but it would be helpful if you intend on staying longer
+2018-09-26 10:19:52	Kirjava	maybe just getting basics like ordering food, asking for directions etc would suffice
+2018-09-26 10:19:59	trinary	Then again, bdelloid has been surviving on just English, you might be okay in Berlin with just that
+2018-09-26 10:20:11	Kirjava	likely
+2018-09-26 10:20:38	Kirjava	I never really liked doing foreign languages in school
+2018-09-26 10:20:46	Kirjava	but german at least resonated with me more than french
+2018-09-26 10:21:05	trinary	You're welcome to try. Unfortunately I can't advise you on the best way to learn it
+2018-09-26 10:21:32	Kirjava	why, is it something you've "always" known?
+2018-09-26 10:21:51	trinary	Pretty much
+2018-09-26 10:21:54	Kirjava	~de doof
+2018-09-26 10:21:55	EgServ	dumb {adj} [Am.] [coll.] <> doof [ugs.] 
+2018-09-26 10:22:04	Kirjava	oh, fair enough
+2018-09-26 10:22:49	trinary	Quick channel search suggests having a look at ##deutsch
+2018-09-26 10:23:00	trinary	"German as a foreign language"
+2018-09-26 10:23:36	Kirjava	ooh, good shout
+2018-09-26 11:35:35	Scribbler	tried duolingo Kirjava?
+2018-09-26 11:35:58	Scribbler	gamefied language learning
+2018-09-26 11:36:52	Kirjava	not yet
+2018-09-26 11:37:21	Kirjava	but that'll probably be a good port of call
+2018-09-26 12:03:35	~LambdaComplex	Kirjava: Quick, tell trinary your favorite german word is gabelstapler
+2018-09-26 12:03:37	~LambdaComplex	:^3
+2018-09-26 12:03:43	trinary	It's not
+2018-09-26 12:03:44	EgServ	trinary: egg
+2018-09-26 12:03:44	EgServ	trinary: egg
+2018-09-26 12:03:53	~LambdaComplex	trinary: How do you know??
+2018-09-26 12:11:41	Kirjava	no my favourite german word is krankenwagen
+2018-09-26 12:11:57	Kirjava	it just strikes me as super german :3
+2018-09-26 12:15:14	Kirjava	also
+2018-09-26 12:15:18	Kirjava	~de gabelstapler
+2018-09-26 12:15:18	EgServ	forklift <> Gabelstapler {m} 
+2018-09-26 12:15:20	Kirjava	hah
+2018-09-26 12:32:33	~LambdaComplex	~de krankenwagen
+2018-09-26 12:32:33	EgServ	automot. med. ambulance <> Krankenwagen {m} 
+2018-09-26 12:32:55	Kirjava	~de hospital
+2018-09-26 12:32:56	EgServ	admin. med. hospital {adj} [attr.] <> Krankenanstalten- [österr.] 
+2018-09-26 12:33:12	trinary	"kranken" <> "the ill", "wagen" <> "carriage"
+2018-09-26 12:35:01	Kirjava	krankenvolk <> sick people ?
+2018-09-26 12:38:26	trinary	I have not heard that term used
+2018-09-26 12:39:12	Kirjava	I guess compound words doesn't mean "people combine things as they please" but instead there's a convention
+2018-09-26 12:40:09	trinary	You can make up new words, and people may understand what you mean, but it's not conducive to efficient communication
+2018-09-26 12:41:31	trinary	Compound words can be fine to describe things that don't already have a word, but you shouldn't make up new ones when there's already a different word for the same thing
+2018-09-26 12:41:40	Kirjava	right
+2018-09-26 13:01:10	~LambdaComplex	~de gabel
+2018-09-26 13:01:11	EgServ	fork <> Gabel {f} 
+2018-09-26 13:01:14	~LambdaComplex	~de stapler
+2018-09-26 13:01:14	EgServ	stapler <> Tacker {m} [fachspr.] 
+2018-09-26 13:01:31	~LambdaComplex	n-no
+2018-09-26 13:01:35	~LambdaComplex	~help
+2018-09-26 13:01:35	EgServ	nibblrjr ★ use ~help.topicname to view info for: about colours commands eval log spam timestamps urls
+2018-09-26 13:01:39	~LambdaComplex	~help de
+2018-09-26 13:01:39	EgServ	nibblrjr ★ use ~help.topicname to view info for: about colours commands eval log spam timestamps urls
+2018-09-26 13:01:44	~LambdaComplex	d;lsadfjks;ldkfj
+2018-09-26 13:01:47	~LambdaComplex	Kirjava: pls halp
+2018-09-26 13:02:39	Kirjava	there's no help for ~de
+2018-09-26 13:02:42	Kirjava	~command.source de
+2018-09-26 13:02:43	EgServ	getDOM('https://www.dict.cc/?s=' + encodeURIComponent(input))
+2018-09-26 13:02:43	EgServ	    .then(dom => {
+2018-09-26 13:02:43	EgServ	        const list = dom.qsa('td.td7nl');
+2018-09-26 13:02:44	EgServ	        print(`${(list[0]||'').textContent} <> ${(list[1]||'').textContent.replace(/^\d+/, '')}`)
+2018-09-26 13:02:44	EgServ	    })
+2018-09-26 13:02:44	EgServ	    .catch(print.log)
+2018-09-26 13:02:47	Kirjava	that's all it does
+2018-09-26 13:02:49	Kirjava	it needs improving
+2018-09-26 13:02:54	Kirjava	but atm I'm trying to build cancer
+2018-09-26 13:03:37	Kirjava	LambdaComplex: it's a funny guesser
+2018-09-26 13:03:45	Kirjava	I can support one way too
+2018-09-26 13:03:49	Kirjava	but ~eventually~
+2018-09-26 13:03:56	Kirjava	apparently my computer has run out of disk space
+2018-09-26 13:03:58	Kirjava	which is amazing
+2018-09-26 13:04:13	trinary	Delete a few of your target directories
+2018-09-26 13:05:34	Kirjava	I don't have any, i'm at work
+2018-09-26 13:05:43	Kirjava	I have like a billion docer containers though
+2018-09-26 13:05:45	Kirjava	*docker
+2018-09-26 13:09:58	trinary	Eww
+2018-09-26 13:10:32	Kirjava	indeed
+2018-09-26 13:13:25	Kirjava	~uploadhack(10,40) Nux
+2018-09-26 13:13:25	EgServ	uploading hack to Nux
+2018-09-26 13:16:38	<--	EgServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has quit (Excess Flood)
+2018-09-26 13:16:43	-->	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has joined #eggchan
+2018-09-26 13:26:44	~LambdaComplex	Kirjava: kek
+2018-09-26 13:46:15	Kirjava	ok cleaned up 36GB
+2018-09-26 13:46:18	Kirjava	that'll do for now
+2018-09-26 13:46:25	Kirjava	~de cancer
+2018-09-26 13:46:26	EggServ	med. cancer <> Krebs {m} 
+2018-09-26 13:49:54	~LambdaComplex	egg
+2018-09-26 13:50:44	Kirjava	~de eggs
+2018-09-26 13:50:45	EggServ	eggs <> Eier {pl} 
+2018-09-26 13:53:45	-->	Nux (~user@responsible.disclosure.is.killing.the.0day.industry) has joined #eggchan
+2018-09-26 14:29:01	~LambdaComplex	~de Eier
+2018-09-26 14:29:03	EggServ	eggs <> Eier {pl} 
+2018-09-26 14:29:06	~LambdaComplex	~de Eie
+2018-09-26 14:29:07	EggServ	TypeError: Cannot read property 'replace' of undefined at getDOM.then.dom (vm.js:34:76) at Object.apply (/home/thom/nibblrjr/node_modules/vm2/lib/contextify.js:87:36) at <anonymous> at process._tickCallback (internal/process/next_tick.js:118:7)
+2018-09-26 14:29:13	~LambdaComplex	Kirjava: i broke it
+2018-09-26 14:30:15	Kirjava	~de eir
+2018-09-26 14:30:16	EggServ	 <> 
+2018-09-26 14:30:22	Kirjava	~de poo
+2018-09-26 14:30:22	EggServ	to poo [coll.] <> scheißen [vulg.] 
+2018-09-26 14:30:37	Kirjava	~de feces
+2018-09-26 14:30:38	EggServ	feces [Am.] <> Fäkalien {pl} 
+2018-09-26 14:30:40	Kirjava	~de faeces
+2018-09-26 14:30:41	EggServ	faeces {pl} [esp. Br.] [excrement] <> Kot {m} [Exkrement] 
+2018-09-26 14:31:03	Kirjava	faxted it
+2018-09-26 14:31:23	trinary	:(
+2018-09-26 14:32:50	Kirjava	what :c
+2018-09-26 15:08:47	Nux	~de faeces
+2018-09-26 15:08:48	EggServ	faeces {pl} [esp. Br.] [excrement] <> Kot {m} [Exkrement] 
+2018-09-26 15:09:09	Nux	~dicks
+2018-09-26 15:09:17	Kirjava	~wank
+2018-09-26 15:09:17	EggServ	8==M=D
+2018-09-26 15:09:18	EggServ	8=M==D
+2018-09-26 15:09:18	EggServ	8==M=D
+2018-09-26 15:09:18	EggServ	8=M==D
+2018-09-26 15:09:18	EggServ	8==M=D
+2018-09-26 15:09:19	EggServ	8=M==D
+2018-09-26 15:09:19	EggServ	8==M=D
+2018-09-26 15:09:19	EggServ	8=M==D
+2018-09-26 15:09:19	EggServ	8M===D ~~~
+2018-09-26 15:09:23	Nux	~LOL
+2018-09-26 15:09:33	Kirjava	im 12 and this is funny
+2018-09-26 15:09:46	Kirjava	I won't lie this is definitely me when I'm memeing
+2018-09-26 15:11:52	Nux	<3 u
+2018-09-26 15:18:19	Kirjava	~emoji :heart: :smile:
+2018-09-26 15:18:20	EggServ	❤️ 😄
+2018-09-26 15:20:29	~LambdaComplex	ohai Nux 
+2018-09-26 15:23:24	Nux	~emoji :eggplant :water
+2018-09-26 15:23:24	EggServ	:eggplant :water
+2018-09-26 15:23:33	Nux	~emoji :eggplant: :water:
+2018-09-26 15:23:33	EggServ	🍆 :water:
+2018-09-26 15:23:41	Nux	~emoji :eggplant: :splash:
+2018-09-26 15:23:41	EggServ	🍆 :splash:
+2018-09-26 15:23:47	Nux	~emoji :eggplant: :cum:
+2018-09-26 15:23:48	EggServ	🍆 :cum:
+2018-09-26 15:24:02	Nux	~emoji :dick:
+2018-09-26 15:24:02	EggServ	:dick:
+2018-09-26 15:24:12	Nux	~emoji /nick dick
+2018-09-26 15:24:12	EggServ	/nick dick
+2018-09-26 15:24:37	Nux	~emoji /kick Kirjava 
+2018-09-26 15:24:38	EggServ	/kick Kirjava 
+2018-09-26 15:24:48	Nux	~emoji !kick Kirjava 
+2018-09-26 15:24:48	EggServ	!kick Kirjava 
+2018-09-26 15:24:58	Nux	some one give eggsrv op
+2018-09-26 15:25:00	Nux	for a second
+2018-09-26 15:25:02	Nux	pls
+2018-09-26 15:25:28	Kirjava	Nux: join #livingroom and I'll give it op
+2018-09-26 15:25:48	Kirjava	or, it has admin in #8bitvape
+2018-09-26 15:26:20	Nux	im not going in a vape chan
+2018-09-26 15:26:47	Kirjava	but uh
+2018-09-26 15:26:52	Kirjava	like irc doesn't work like that 
+2018-09-26 15:26:57	Kirjava	/kick is a client thing
+2018-09-26 15:27:06	Kirjava	it doesn't make any sense to do it with a server or bot
+2018-09-26 16:26:58	trinary	Kirjava - Paste full docker inspect output?
+2018-09-26 16:27:08	trinary	Actually, don't
+2018-09-26 16:27:14	Kirjava	oh
+2018-09-26 16:27:19	 *	Kirjava doesnt
+2018-09-26 16:27:55	trinary	Look at the output, check for anything useful (data, driver, merged)
+2018-09-26 16:29:26	Kirjava	yea had a peek
+2018-09-26 16:29:29	Kirjava	let me triple check
+2018-09-26 16:32:06	Kirjava	nah
+2018-09-26 16:32:12	Kirjava	had a poke around in the paths it exposes
+2018-09-26 16:32:13	Kirjava	but eh
+2018-09-26 16:33:03	trinary	Well, don't use aufs then
+2018-09-26 16:33:06	trinary	:/
+2018-09-26 16:33:48	Kirjava	heh
+2018-09-26 16:34:06	Kirjava	I would rather not use docker but eh
+2018-09-26 20:05:03	--	EggServ is now known as EgServ
+2018-09-26 20:05:20	EgServ	egg
+2018-09-26 20:05:20	meep	egg
+2018-09-26 20:07:06	EgServ	Kirjava: egg
+2018-09-26 20:07:30	Kirjava	oh deer
+2018-09-26 20:07:31	EgServ	Kirjava: install cancer https://github.com/meh/cancer (7 hours ago)
+2018-09-26 20:07:31	EgServ	Kirjava: hackthebox.eu (4 hours ago)
+2018-09-26 20:07:43	Kirjava	halp im being egged
+2018-09-26 20:07:49	EgServ	Kirjava: egg
+2018-09-26 20:07:51	EgServ	Kirjava: egg
+2018-09-26 20:07:53	EgServ	Kirjava: egg
+2018-09-26 20:08:02	Kirjava	pardon
+2018-09-26 20:49:58	~LambdaComplex	Kirjava: egg
+2018-09-26 20:50:10	EgServ	LambdaComplex: egg
+2018-09-26 20:50:12	EgServ	LambdaComplex: egg
+2018-09-26 20:50:14	EgServ	LambdaComplex: egg
+2018-09-26 20:50:16	EgServ	LambdaComplex: egg
+2018-09-26 20:50:18	EgServ	LambdaComplex: egg
+2018-09-26 21:14:48	Kirjava	m8
+2018-09-26 21:15:26	EgServ	Kirjava: egg
+2018-09-26 21:16:09	Kirjava	no
+2018-09-26 21:16:22	EgServ	Kirjava: yes
+2018-09-26 21:16:32	Kirjava	r u sure
+2018-09-26 21:16:39	EgServ	Kirjava: egg
+2018-09-26 21:16:49	Kirjava	lmao what am I talking about
+2018-09-26 21:16:52	Kirjava	of course egg
+2018-09-26 23:10:44	<--	EgServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has quit (Read error: Connection reset by peer)
+2018-09-26 23:10:46	-->	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has joined #eggchan
+2018-09-27 09:28:54	<--	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has quit (Remote host closed the connection)
+2018-09-27 09:29:02	-->	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has joined #eggchan
+2018-09-27 11:17:23	--	EggServ is now known as EgServ
+2018-09-27 11:40:13	<--	EgServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has quit (Remote host closed the connection)
+2018-09-27 11:40:20	-->	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has joined #eggchan
+2018-09-27 12:23:04	--	EggServ is now known as EgServ
+2018-09-27 12:23:22	 *	EgServ /pokes LambdaComplex
+2018-09-27 12:23:32	 *	EgServ pokes LambdaComplex
+2018-09-27 12:23:33	 *	LambdaComplex egg
+2018-09-27 12:23:42	 *	LambdaComplex hands Kirjava egg
+2018-09-27 12:23:44	~LambdaComplex	egg
+2018-09-27 12:24:43	 *	EgServ egg
+2018-09-27 12:25:37	Kirjava	jeez now I gotta be responsible for this egg
+2018-09-27 12:26:10	 *	Kirjava sits on it
+2018-09-27 12:26:11	Kirjava	hrrmpf
+2018-09-27 17:03:16	 *	EgServ egg
+2018-09-27 17:03:18	 *	EgServ egg
+2018-09-27 17:03:20	 *	EgServ egg
+2018-09-27 17:04:21	Kirjava	~eggs
+2018-09-27 17:04:21	EgServ	                       .-~-.
+2018-09-27 17:04:21	EgServ	                     .'     '.
+2018-09-27 17:04:22	EgServ	                    /         \ 
+2018-09-27 17:04:22	EgServ	            .-~-.  :           ;
+2018-09-27 17:04:22	EgServ	          .'     '.|           |
+2018-09-27 17:04:22	EgServ	         /         \           :
+2018-09-27 17:04:23	EgServ	        :           ; .-~""~-,/
+2018-09-27 17:04:23	EgServ	        |           /`        `'.
+2018-09-27 17:04:23	EgServ	        :          |             \ 
+2018-09-27 17:04:23	EgServ	         \         |             /
+2018-09-27 17:04:24	EgServ	          `.     .' \          .'
+2018-09-27 17:04:24	EgServ	            `~~~`    '-.____.-'
+2018-09-27 17:04:37	Kirjava	~example egg
+2018-09-27 17:04:38	EgServ	Stop being an egg, bro
+2018-09-27 17:04:41	Kirjava	no
+2018-09-27 17:11:29	trinary	~eggs
+2018-09-27 17:11:29	EgServ	 .-~-.
+2018-09-27 17:11:30	EgServ	 .' '.
+2018-09-27 17:11:30	EgServ	 / \ 
+2018-09-27 17:11:30	EgServ	 .-~-. : ;
+2018-09-27 17:11:30	EgServ	 .' '.| |
+2018-09-27 17:11:31	EgServ	 / \ :
+2018-09-27 17:11:31	EgServ	 : ; .-~""~-,/
+2018-09-27 17:11:31	EgServ	 | /` `'.
+2018-09-27 17:11:31	EgServ	 : | \ 
+2018-09-27 17:11:32	EgServ	 \ | /
+2018-09-27 17:11:32	EgServ	 `. .' \ .'
+2018-09-27 17:11:33	EgServ	 `~~~` '-.____.-'
+2018-09-27 17:11:38	trinary	:/
+2018-09-27 17:12:58	Kirjava	ruh roh
+2018-09-27 17:13:13	trinary	It was an accident, okay?
+2018-09-27 17:13:20	Kirjava	haha
+2018-09-27 17:13:28	Kirjava	trinary had an accident
+2018-09-27 17:13:54	Kirjava	~*poof*
+2018-09-27 17:13:55	EgServ	　　　　　　　　　　　 　 ∧__∧
+2018-09-27 17:13:55	EgServ	　　　　　　　　　　　 　( ͡° ͜ʖ ͡°)     
+2018-09-27 17:13:55	EgServ	　　　　　　　　　　　   ⊂　　  つ   ○
+2018-09-27 17:13:56	EgServ	　　　　　　　　　　　　　(つ ﾉ
+2018-09-27 17:13:56	EgServ	　　　　☆　　　　　　　　 (ノ
+2018-09-27 17:13:56	EgServ	　　　　　＼　　　　　　  ☆
+2018-09-27 17:13:56	EgServ	　　　　　　　　　　　　　|　　　　☆
+2018-09-27 17:13:57	EgServ	　　　☆　　　　　　(⌒ ⌒ヽ　　　/         ☆
+2018-09-27 17:13:58	EgServ	　　　　＼　　（´⌒　　⌒　　⌒ヾ　　　／
+2018-09-27 17:13:58	EgServ	　　　　　 （’⌒　;　⌒　　　::⌒　　  ）          ☆
+2018-09-27 17:13:58	EgServ	　　　　　（´　　　　　）　　　　　:::　）　／
+2018-09-27 17:13:58	EgServ	　　☆─　（´⌒;:　　　　::⌒`）　:;　　）
+2018-09-27 17:13:58	EgServ	　　　　　（⌒::　　　::　　　　　::⌒　）
+2018-09-27 17:14:00	EgServ	　　 　／　（　　　　ゝ　　ヾ　丶　　   ソ　
+2018-09-27 17:14:18	trinary	uhh
+2018-09-27 17:18:44	Kirjava	trinary: there's another bot on rizon you can stress test if you fancy it
+2018-09-27 17:19:00	trinary	Oh?
+2018-09-27 17:19:01	Kirjava	I tried breaking it but was unsuccessful
+2018-09-27 17:19:07	Kirjava	pretty small attack surface though
+2018-09-27 17:19:16	Kirjava	yeah 'botqui'
+2018-09-27 17:19:16	trinary	Show me!
+2018-09-27 17:19:22	Kirjava	gimmie a sec
+2018-09-27 17:19:31	trinary	No suck nick
+2018-09-27 17:20:08	Kirjava	oops
+2018-09-27 17:20:13	Kirjava	*botqu9000
+2018-09-27 17:20:25	Kirjava	https://hastebin.com/unedufoqim.rb
+2018-09-27 17:20:26	EgServ	>> hastebin
+2018-09-27 17:20:29	Kirjava	^ list of commands
+2018-09-27 17:20:34	Kirjava	you can also write something like
+2018-09-27 17:20:47	Kirjava	s/./a/
+2018-09-27 17:20:53	Kirjava	and it'll replace the last thing you said
+2018-09-27 17:21:11	Kirjava	I tried sending weird characters to force a newline and QUIT
+2018-09-27 17:21:22	Kirjava	didn't get far - seems to be escaped fairly well
+2018-09-27 17:21:32	Kirjava	doesn't have an URL scraper so irc-bot-science is a no go
+2018-09-27 17:21:34	trinary	Is the source available?
+2018-09-27 17:21:42	Kirjava	I don't think so
+2018-09-27 17:21:44	Kirjava	I can ask
+2018-09-27 17:22:52	trinary	What channels is it in? Parts of it don't work in PM
+2018-09-27 17:24:01	Kirjava	just #8bitvape
+2018-09-27 17:24:06	Kirjava	dunno if you wanna go in there :3
+2018-09-27 17:24:16	Kirjava	I mean, not because it's bad
+2018-09-27 17:24:24	Kirjava	oh it was nux that didn't want to
+2018-09-27 17:24:35	trinary	I wouldn't want to spam a real channel with bot testing
+2018-09-27 17:24:50	Kirjava	oh
+2018-09-27 17:24:53	Kirjava	I wouldn't worry about that
+2018-09-27 17:24:57	Kirjava	literally no one will care
+2018-09-27 17:25:06	Kirjava	90% of the content in that channel is nibblr spam
+2018-09-27 17:25:53	Kirjava	I was doing it before
+2018-09-27 17:26:05	Kirjava	oh unless you don't want people to see what you're trying
+2018-09-27 17:26:17	Kirjava	since some of it will be silly ^_^
+2018-09-27 17:26:21	trinary	It doesn't look like there's that much to attack
+2018-09-27 17:26:31	trinary	No interesting command names
+2018-09-27 17:26:37	Kirjava	yeah
+2018-09-27 17:26:51	Kirjava	I was just trying to break the !get one really
+2018-09-27 17:27:05	trinary	s/foo/bar/ is interesting to provoke OOM, but you'd need to do that more than once
+2018-09-27 17:27:16	trinary	What does !get do?
+2018-09-27 17:27:17	Kirjava	17:26 <Monqui> it's based on the cinch gem
+2018-09-27 17:27:27	Kirjava	!get is like ~print, basically
+2018-09-27 17:27:34	trinary	https://github.com/Monqui/botqui
+2018-09-27 17:27:35	EgServ	>> GitHub - Monqui/botqui: Ruby cinch-based IRC bot implementation
+2018-09-27 17:27:45	Kirjava	oh what
+2018-09-27 17:27:48	Kirjava	good catch
+2018-09-27 17:28:09	trinary	Nah, no pushes for 4 years
+2018-09-27 17:28:21	Kirjava	ah
+2018-09-27 17:29:27	Kirjava	oh, many commands don't actually work
+2018-09-27 17:29:32	Kirjava	even in a channel 
+2018-09-27 17:29:37	Kirjava	it might be working fully in pm
+2018-09-27 17:30:51	trinary	Nibblr was inviting, this one isn't
+2018-09-27 17:31:27	Kirjava	heh
+2018-09-27 17:31:39	Kirjava	yeah I didn't get anywhere
+2018-09-27 17:32:02	Kirjava	brb going home
+2018-09-27 17:32:17	trinary	You said you wanted to write code today...
+2018-09-27 17:32:27	Kirjava	yea?
+2018-09-27 17:32:31	trinary	Any plan on ensuring that?
+2018-09-27 17:32:37	Kirjava	I'm going home and writing it...
+2018-09-27 17:32:43	Kirjava	...why...
+2018-09-27 17:32:50	Kirjava	gotta get my rust on
+2018-09-27 17:32:58	trinary	Well, it doesn't seem to have worked the last few days
+2018-09-27 17:33:03	trinary	Assuming you had the same plan then
+2018-09-27 17:33:12	Kirjava	I'm actually going straight home this time
+2018-09-27 17:33:15	Kirjava	no detour
+2018-09-27 17:33:34	Kirjava	(~˘▾˘)~ ok actually going now
+2018-09-27 17:34:37	trinary	No alcohol this time c.c
+2018-09-27 18:29:03	Kirjava	._.
+2018-09-27 19:10:22	 *	EgServ egg
+2018-09-27 19:10:23	 *	EgServ egg
+2018-09-27 19:10:23	 *	EgServ egg
+2018-09-27 19:10:23	 *	EgServ egg
+2018-09-27 19:10:23	 *	EgServ egg
+2018-09-27 19:10:24	 *	EgServ egg
+2018-09-27 19:10:24	 *	EgServ egg
+2018-09-27 19:10:24	 *	EgServ egg
+2018-09-27 19:10:24	 *	EgServ egg
+2018-09-27 19:10:25	 *	EgServ egg
+2018-09-27 19:10:25	 *	EgServ egg
+2018-09-27 19:10:57	Kirjava	leggo my eggo
+2018-09-27 19:11:31	trinary	So!
+2018-09-27 19:11:37	trinary	What are you writing?
+2018-09-27 19:20:11	Kirjava	I'm writing the completor.rs component for the status bar
+2018-09-27 19:20:33	Kirjava	which is a weird lovechild of dmenu/windows run menu/IPC repl thing
+2018-09-27 19:20:50	Kirjava	it's possible this violates the UNIX 'do one thing and do it well'
+2018-09-27 19:20:55	Kirjava	but I want it so who cares
+2018-09-27 19:21:09	Kirjava	also I have to do some XCB stuff which is always fun
+2018-09-27 19:22:39	Kirjava	but also kinda annoying
+2018-09-27 19:23:04	Kirjava	maybe I can use GTK's accelerators to replace XCB so gonna look into that actually
+2018-09-27 19:31:03	trinary	Please send pretty videos when it works
+2018-09-27 19:31:34	Kirjava	hehe
+2018-09-27 19:31:42	Kirjava	I already have an idea of a video I wanna make
+2018-09-27 19:32:07	Kirjava	run a command in the completor to change to win95 mode
+2018-09-27 19:32:19	Kirjava	then when you open the completor again it's the win95 run window :3
+2018-09-27 19:43:57	Kirjava	trinary: you ever get templed to split an impl into multiple files?
+2018-09-27 19:44:28	trinary	Not really. How long is it?
+2018-09-27 19:44:48	Kirjava	328 lines so far
+2018-09-27 19:45:00	trinary	IME great numbers of small files are more annoying than a few larger files
+2018-09-27 19:45:27	Kirjava	but it's more about putting methods that are related to a certain thing along with the rest of their code really
+2018-09-27 19:45:44	Kirjava	instead of in this master struct
+2018-09-27 19:45:53	Kirjava	d style
+2018-09-27 19:46:01	Kirjava	*gtk kinda enforces this awkward style
+2018-09-27 21:28:51	Kirjava	ok trinary
+2018-09-27 21:28:55	Kirjava	no where near finished or whatever
+2018-09-27 21:29:04	Kirjava	but I felt I should provide proof so you don't think im an alcoholic :D https://u.teknik.io/iJGYt.mp4
+2018-09-27 23:35:12	<--	Nux (~user@responsible.disclosure.is.killing.the.0day.industry) has quit (Ping timeout: 240 seconds)
+2018-09-28 07:55:12	trinary	Kirjava - Shouldn't that text be vertically centered? And I don't like the second theme :/
+2018-09-28 08:55:20	Kirjava	trinary: yeah it's WIP
+2018-09-28 08:55:20	EgServ	kirjava: <Bnaks> its broken mate (9 seconds ago)
+2018-09-28 08:55:37	Kirjava	the second theme is literally just for nostalgia
+2018-09-28 08:55:40	Kirjava	:3
+2018-09-28 08:55:55	trinary	But why would you want to remember that!
+2018-09-28 08:56:26	Kirjava	because it's a common thing that people try and emulate on r/unixporn
+2018-09-28 08:56:40	Kirjava	and if I can achieve that *perfectly* I think that's a win
+2018-09-28 08:56:43	trinary	Well, they're wrong too
+2018-09-28 08:56:45	trinary	:c
+2018-09-28 08:56:54	Kirjava	haha
+2018-09-28 08:57:00	Kirjava	I also plan to do an OSX theme
+2018-09-28 08:57:49	Kirjava	and many other things ~_~
+2018-09-28 08:57:55	Kirjava	need to call it quits at some point and post it though
+2018-09-28 09:47:58	Kirjava	also, egg
+2018-09-28 09:51:59	 *	EgServ egg
+2018-09-28 09:52:00	 *	EgServ egg
+2018-09-28 09:52:00	 *	EgServ egg
+2018-09-28 09:52:01	 *	EgServ egg
+2018-09-28 09:52:01	 *	EgServ egg
+2018-09-28 09:52:01	 *	EgServ egg
+2018-09-28 09:52:01	 *	EgServ egg
+2018-09-28 09:52:01	 *	EgServ egg
+2018-09-28 09:52:02	 *	EgServ egg
+2018-09-28 09:52:02	 *	EgServ egg
+2018-09-28 09:53:25	Kirjava	exactly
+2018-09-28 13:59:04	 *	EgServ egg
+2018-09-28 13:59:04	 *	EgServ egg
+2018-09-28 13:59:05	 *	EgServ egg
+2018-09-28 13:59:05	 *	EgServ egg
+2018-09-28 13:59:06	 *	EgServ egg
+2018-09-28 13:59:06	 *	EgServ egg
+2018-09-28 13:59:06	 *	EgServ egg
+2018-09-28 13:59:06	 *	EgServ egg
+2018-09-28 13:59:06	 *	EgServ egg
+2018-09-28 13:59:06	 *	EgServ egg
+2018-09-28 13:59:23	 *	EgServ egg
+2018-09-28 13:59:24	 *	EgServ egg
+2018-09-28 13:59:24	 *	EgServ egg
+2018-09-28 13:59:24	 *	EgServ egg
+2018-09-28 13:59:24	 *	EgServ egg
+2018-09-28 13:59:25	 *	EgServ egg
+2018-09-28 13:59:25	 *	EgServ egg
+2018-09-28 13:59:25	 *	EgServ egg
+2018-09-28 13:59:25	 *	EgServ egg
+2018-09-28 13:59:26	 *	EgServ egg
+2018-09-28 13:59:26	 *	EgServ egg
+2018-09-28 13:59:27	 *	EgServ egg
+2018-09-28 13:59:27	 *	EgServ egg
+2018-09-28 13:59:28	 *	EgServ egg
+2018-09-28 13:59:28	 *	EgServ egg
+2018-09-28 13:59:29	 *	EgServ egg
+2018-09-28 13:59:29	 *	EgServ egg
+2018-09-28 13:59:30	 *	EgServ egg
+2018-09-28 13:59:30	 *	EgServ egg
+2018-09-28 13:59:31	 *	EgServ egg
+2018-09-28 13:59:31	 *	EgServ egg
+2018-09-28 13:59:32	 *	EgServ egg
+2018-09-28 13:59:32	 *	EgServ egg
+2018-09-28 13:59:34	 *	EgServ egg
+2018-09-28 13:59:34	 *	EgServ egg
+2018-09-28 13:59:34	 *	EgServ egg
+2018-09-28 13:59:34	 *	EgServ egg
+2018-09-28 13:59:35	 *	EgServ egg
+2018-09-28 13:59:35	 *	EgServ egg
+2018-09-28 13:59:36	 *	EgServ egg
+2018-09-28 13:59:36	 *	EgServ egg
+2018-09-28 13:59:37	 *	EgServ egg
+2018-09-28 13:59:37	 *	EgServ egg
+2018-09-28 13:59:38	 *	EgServ egg
+2018-09-28 13:59:38	 *	EgServ egg
+2018-09-28 13:59:39	 *	EgServ egg
+2018-09-28 13:59:39	 *	EgServ egg
+2018-09-28 13:59:40	 *	EgServ egg
+2018-09-28 13:59:40	 *	EgServ egg
+2018-09-28 13:59:41	 *	EgServ egg
+2018-09-28 13:59:41	 *	EgServ egg
+2018-09-28 13:59:42	 *	EgServ egg
+2018-09-28 13:59:42	 *	EgServ egg
+2018-09-28 13:59:43	 *	EgServ egg
+2018-09-28 13:59:43	 *	EgServ egg
+2018-09-28 13:59:44	 *	EgServ egg
+2018-09-28 13:59:44	 *	EgServ egg
+2018-09-28 13:59:45	 *	EgServ egg
+2018-09-28 13:59:45	 *	EgServ egg
+2018-09-28 13:59:46	 *	EgServ egg
+2018-09-28 13:59:46	 *	EgServ egg
+2018-09-28 13:59:46	<--	EgServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has quit (Remote host closed the connection)
+2018-09-28 13:59:51	-->	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has joined #eggchan
+2018-09-28 14:00:03	Kirjava	hi geserv
+2018-09-28 14:00:55	~LambdaComplex	egg
+2018-09-28 14:01:15	--	EggServ is now known as EgServ
+2018-09-28 14:01:34	 *	EgServ egg
+2018-09-28 14:01:34	 *	EgServ egg
+2018-09-28 14:01:34	 *	EgServ egg
+2018-09-28 14:03:41	 *	EgServ egg?
+2018-09-28 14:04:42	Kirjava	~egg
+2018-09-28 14:04:42	EgServ	t​rinary: egg
+2018-09-28 14:04:42	EgServ	d​arkwater: egg
+2018-09-28 14:04:43	EgServ	a​esthetik: egg
+2018-09-28 14:04:43	EgServ	K​irjava: egg
+2018-09-28 14:04:43	EgServ	w​inny: egg
+2018-09-28 14:04:43	EgServ	P​ositiveC: egg
+2018-09-28 14:04:44	EgServ	k​yubiko: egg
+2018-09-28 14:04:44	EgServ	m​eep: egg
+2018-09-28 14:04:44	EgServ	L​ambdaComplex: egg
+2018-09-28 14:04:45	EgServ	S​cribbler: egg
+2018-09-28 14:04:51	Kirjava	~repeat(9) egg
+2018-09-28 14:04:51	EgServ	TypeError: input.trim is not a function
+2018-09-28 14:04:58	Kirjava	really need to fix that
+2018-09-28 14:05:34	~LambdaComplex	~egg
+2018-09-28 14:05:34	EgServ	t​rinary: egg
+2018-09-28 14:05:34	EgServ	d​arkwater: egg
+2018-09-28 14:05:35	EgServ	a​esthetik: egg
+2018-09-28 14:05:35	EgServ	K​irjava: egg
+2018-09-28 14:05:35	EgServ	w​inny: egg
+2018-09-28 14:05:35	EgServ	P​ositiveC: egg
+2018-09-28 14:05:35	~LambdaComplex	egg
+2018-09-28 14:05:36	EgServ	k​yubiko: egg
+2018-09-28 14:05:36	meep	egg?
+2018-09-28 14:05:36	EgServ	m​eep: egg
+2018-09-28 14:05:36	EgServ	L​ambdaComplex: egg
+2018-09-28 14:05:37	EgServ	S​cribbler: egg
+2018-09-28 14:05:47	Kirjava	~emoji :egg:
+2018-09-28 14:05:48	EgServ	🍳
+2018-09-28 14:06:06	Kirjava	why is the eggmoji so crap
+2018-09-28 14:06:25	Kirjava	~imgur egg
+2018-09-28 14:06:27	EgServ	Attention, this frozen pinecone looks like a dragon egg. That is all. - https://i.imgur.com/3lmPYLF.jpg
+2018-09-28 14:06:29	~LambdaComplex	egg
+2018-09-28 14:06:40	Kirjava	~imgur oviposition
+2018-09-28 14:06:41	EgServ	No image found
+2018-09-28 14:10:23	trinary	Hey, uhm, Kirjava 
+2018-09-28 14:10:36	trinary	You do have a recent backup of nibblrs command database, right?
+2018-09-28 14:11:00	Kirjava	...yes
+2018-09-28 14:11:04	Kirjava	are you about to delete everything
+2018-09-28 14:11:04	trinary	Good!
+2018-09-28 14:11:09	trinary	No, I already did
+2018-09-28 14:11:12	Kirjava	lol
+2018-09-28 14:11:14	Kirjava	thanks
+2018-09-28 14:11:21	Kirjava	~command
+2018-09-28 14:11:21	EgServ	there are currently 1017 commands - a full list is available at http://nibblr.pw
+2018-09-28 14:11:22	EgServ	use ~command.new to add a script based command and ~command.text to just add some text
+2018-09-28 14:11:22	EgServ	all subcommands: edit new random search source text
+2018-09-28 14:11:25	Kirjava	...did you?
+2018-09-28 14:11:29	trinary	I was trying to prepend everything with print("egg")
+2018-09-28 14:11:34	trinary	But I must have made a mistake
+2018-09-28 14:11:47	Kirjava	ugh
+2018-09-28 14:12:13	trinary	IRC.commandFns.list().filter(c => !c.locked).forEach(c => IRC.commandFns.setSafe(c.name, 'print("egg!")\n' + c.command))
+2018-09-28 14:12:17	Kirjava	yeah
+2018-09-28 14:12:27	Kirjava	so I have to nuke the last few commands I made ;-;
+2018-09-28 14:13:07	trinary	~03
+2018-09-28 14:13:07	EgServ	egg!
+2018-09-28 14:13:16	trinary	~9
+2018-09-28 14:13:16	EgServ	egg!
+2018-09-28 14:13:24	Kirjava	~!
+2018-09-28 14:13:25	EgServ	egg!
+2018-09-28 14:13:26	~LambdaComplex	~trinary
+2018-09-28 14:13:30	Kirjava	trinary pls
+2018-09-28 14:13:30	~LambdaComplex	reee
+2018-09-28 14:14:18	trinary	Do you know what went wrong?
+2018-09-28 14:14:22	<--	EgServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has quit (Remote host closed the connection)
+2018-09-28 14:14:29	trinary	It timed out, but that shouldn't have broken everything
+2018-09-28 14:14:32	Kirjava	not sure
+2018-09-28 14:14:52	trinary	js> 'print("egg!")\n' + "foo"
+2018-09-28 14:14:52	meep	> print("egg!") foo
+2018-09-28 14:15:43	-->	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has joined #eggchan
+2018-09-28 14:15:44	Kirjava	~command
+2018-09-28 14:15:44	EggServ	there are currently 1015 commands - a full list is available at http://nibblr.pw
+2018-09-28 14:15:44	EggServ	use ~command.new to add a script based command and ~command.text to just add some text
+2018-09-28 14:15:45	EggServ	all subcommands: edit new random search source text
+2018-09-28 14:15:48	Kirjava	lost two commands
+2018-09-28 14:15:50	trinary	~03
+2018-09-28 14:15:50	EggServ	https://i.imgur.com/OaDpI8N.jpg
+2018-09-28 14:15:59	trinary	Okay, let's try this again!
+2018-09-28 14:16:03	trinary	/s
+2018-09-28 14:16:10	Kirjava	ಠ_ಠ
+2018-09-28 14:16:22	Kirjava	I mean I can't really defend against this
+2018-09-28 14:16:27	Kirjava	without making it so you can't edit commands
+2018-09-28 14:16:53	trinary	Bulk-editing all commands, who could say no to that?
+2018-09-28 14:17:24	trinary	~> store
+2018-09-28 14:17:24	EggServ	{ get: [Function: get], set: [Function: set], all: [Function: all], namespace: '__eval__' }
+2018-09-28 14:17:36	Kirjava	I guess I could limit the number of uses or IRC.commandFns.setSafe per command
+2018-09-28 14:17:39	Kirjava	noted
+2018-09-28 14:17:43	Kirjava	~print test
+2018-09-28 14:17:43	EggServ	test
+2018-09-28 14:18:12	trinary	~> store.set("oldCommands", JSON.stringify(IRC.commandFns))
+2018-09-28 14:18:12	EggServ	undefined
+2018-09-28 14:18:30	Kirjava	uhhh
+2018-09-28 14:18:38	trinary	~> JSON.parse(store.get("oldCommands"))
+2018-09-28 14:18:39	EggServ	{}
+2018-09-28 14:18:47	trinary	~> store.set("oldCommands", JSON.stringify(IRC.commandFns.list()))
+2018-09-28 14:18:47	EggServ	undefined
+2018-09-28 14:18:49	trinary	~> JSON.parse(store.get("oldCommands"))
+2018-09-28 14:18:49	EggServ	[ { name: '', locked: false, starred: false }, { name: '\u000337', locked: false, starred: false }, { name: '!', locked: false, starred: false }, { name: '!!!', locked: false, starred: false }, { name: '!!!!', locked: false, starred: false }, { name: '!!!!!', locked: false, starred: false }, { name: '*poof*', locked:  ...
+2018-09-28 14:19:12	Kirjava	~> JSON.parse(store.get('oldCommands')).length
+2018-09-28 14:19:12	EggServ	1015
+2018-09-28 14:19:21	Kirjava	would be surprised if none are broken
+2018-09-28 14:19:24	Kirjava	~> store.all()
+2018-09-28 14:19:26	EggServ	[ { key: 'all', value: '[{"idx":1748948,"time":"2018-07-13 21:27:41","user":"nibblrjr","command":"PRIVMSG","target":"#8BitVape","message":"\\u000307[\\u000308SLOTSv2\\u000f \\u000309Jackpot\\u000f \\u000308$394\\u000f\\u000307] \\u000314 *slot machine sounds*\\u000f"},{"idx":1748925,"time":"2018-07-13 21:19:57","user":"nibblrjr","command":"PRIVMSG","target":"#8BitVape","message":"\\u000 ...
+2018-09-28 14:19:34	trinary	Why would they be broken?
+2018-09-28 14:19:35	Kirjava	~> store
+2018-09-28 14:19:36	EggServ	{ get: [Function: get], set: [Function: set], all: [Function: all], namespace: '__eval__' }
+2018-09-28 14:19:39	Kirjava	dunno
+2018-09-28 14:20:43	Kirjava	~print test
+2018-09-28 14:20:43	EggServ	test
+2018-09-28 14:21:37	 *	Kirjava adds 'stop bulk editing of commands' to notes
+2018-09-28 14:21:42	Kirjava	but still you could just script it
+2018-09-28 14:21:56	trinary	~> IRC.commandFns.list().filter(c => !c.locked && c.name == "eggs").forEach(c => IRC.commandFns.setSafe(c.name, 'print("egg!")\n' + c.command))
+2018-09-28 14:21:56	EggServ	undefined
+2018-09-28 14:21:59	trinary	~eggs
+2018-09-28 14:22:06	Kirjava	eggs is rip
+2018-09-28 14:22:14	Kirjava	I baleeted it
+2018-09-28 14:22:16	trinary	:/
+2018-09-28 14:22:18	trinary	~egg
+2018-09-28 14:22:18	EggServ	t​rinary: egg
+2018-09-28 14:22:19	EggServ	d​arkwater: egg
+2018-09-28 14:22:19	EggServ	a​esthetik: egg
+2018-09-28 14:22:19	EggServ	K​irjava: egg
+2018-09-28 14:22:19	EggServ	w​inny: egg
+2018-09-28 14:22:20	EggServ	P​ositiveC: egg
+2018-09-28 14:22:20	EggServ	k​yubiko: egg
+2018-09-28 14:22:20	EggServ	m​eep: egg
+2018-09-28 14:22:20	EggServ	L​ambdaComplex: egg
+2018-09-28 14:22:21	EggServ	S​cribbler: egg
+2018-09-28 14:22:28	trinary	~> IRC.commandFns.list().filter(c => !c.locked && c.name == "egg").forEach(c => IRC.commandFns.setSafe(c.name, 'print("egg!")\n' + c.command))
+2018-09-28 14:22:28	EggServ	undefined
+2018-09-28 14:22:30	trinary	~egg
+2018-09-28 14:22:30	EggServ	t​rinary: egg
+2018-09-28 14:22:31	EggServ	d​arkwater: egg
+2018-09-28 14:22:31	EggServ	a​esthetik: egg
+2018-09-28 14:22:31	EggServ	K​irjava: egg
+2018-09-28 14:22:31	EggServ	w​inny: egg
+2018-09-28 14:22:32	EggServ	P​ositiveC: egg
+2018-09-28 14:22:32	EggServ	k​yubiko: egg
+2018-09-28 14:22:32	EggServ	m​eep: egg
+2018-09-28 14:22:32	EggServ	L​ambdaComplex: egg
+2018-09-28 14:22:33	EggServ	S​cribbler: egg
+2018-09-28 14:22:41	Kirjava	egg is locked
+2018-09-28 14:22:43	trinary	~> IRC.commandFns.get("egg")
+2018-09-28 14:22:43	EggServ	{ name: 'egg', command: 'if (input) {\n \n IRC.eventFns.addEvent(\'speak\', { callback: \'egg.event\', time: new Date(), message: `egg`, target: input.trim() })\n print(\'ok\')\n\n} else {\n function breakHighlight(s) {\n return `${s.charAt(0)}\\u200b${s.substring(1)}`\n}\n\nObject.keys(IRC.channels[IRC.message.to.toLowerCase()].users)\n .filter(d => d != IRC.nick)\n .forEach((d) => { p ...
+2018-09-28 14:22:45	trinary	Aww
+2018-09-28 14:23:05	trinary	~8
+2018-09-28 14:23:05	EggServ	https://i.imgur.com/U5FUAEN.jpg
+2018-09-28 14:23:13	trinary	~> IRC.commandFns.list().filter(c => !c.locked && c.name == "8").forEach(c => IRC.commandFns.setSafe(c.name, 'print("egg!")\n' + c.command))
+2018-09-28 14:23:14	EggServ	undefined
+2018-09-28 14:23:16	trinary	~8
+2018-09-28 14:23:17	EggServ	egg!
+2018-09-28 14:23:24	trinary	~> IRC.commandFns.get("8")
+2018-09-28 14:23:24	EggServ	{ name: '8', command: 'print("egg!")\nundefined', locked: false, starred: false }
+2018-09-28 14:23:39	Kirjava	very weird
+2018-09-28 14:23:51	trinary	~> IRC.commandFns.list().filter(c => !c.locked && c.name == "8").forEach(c => { print(c); IRC.commandFns.setSafe(c.name, 'print("egg!")\n' + c.command) })
+2018-09-28 14:23:51	EggServ	[object Object]
+2018-09-28 14:23:52	EggServ	undefined
+2018-09-28 14:24:02	Kirjava	print.log
+2018-09-28 14:24:03	trinary	~> IRC.commandFns.list().filter(c => !c.locked && c.name == "8").forEach(c => { print(JSON.stringify(c)); IRC.commandFns.setSafe(c.name, 'print("egg!")\n' + c.command) })
+2018-09-28 14:24:03	EggServ	{"name":"8","locked":false,"starred":false}
+2018-09-28 14:24:04	EggServ	undefined
+2018-09-28 14:24:16	Kirjava	oh
+2018-09-28 14:24:25	Kirjava	list probably doesn't return the actual command
+2018-09-28 14:24:28	Kirjava	you need to use list and get
+2018-09-28 14:24:38	trinary	~> IRC.commandFns.list().filter(c => !c.locked && c.name == "8").forEach(c => IRC.commandFns.setSafe(c.name, 'print("egg!")\n' + IRC.commandFns.get(c.name)))
+2018-09-28 14:24:38	EggServ	undefined
+2018-09-28 14:24:39	trinary	~8
+2018-09-28 14:24:40	EggServ	SyntaxError: Unexpected identifier
+2018-09-28 14:24:46	trinary	~> IRC.commandFns.get("8")
+2018-09-28 14:24:46	EggServ	{ name: '8', command: 'print("egg!")\n[object Object]', locked: false, starred: false }
+2018-09-28 14:24:49	trinary	:D
+2018-09-28 14:24:52	Kirjava	.get().command
+2018-09-28 14:24:58	trinary	~> IRC.commandFns.list().filter(c => !c.locked && c.name == "8").forEach(c => IRC.commandFns.setSafe(c.name, 'print("egg!")\n' + IRC.commandFns.get(c.name).command))
+2018-09-28 14:24:58	EggServ	undefined
+2018-09-28 14:25:00	trinary	~> IRC.commandFns.get("8")
+2018-09-28 14:25:00	EggServ	{ name: '8', command: 'print("egg!")\nprint("egg!")\n[object Object]', locked: false, starred: false }
+2018-09-28 14:25:31	trinary	~> IRC.commandFns.setSafe("8", JSON.parse(store.get("oldCommands"))["8"].command)
+2018-09-28 14:25:31	EggServ	true
+2018-09-28 14:25:33	trinary	~8
+2018-09-28 14:25:49	Kirjava	you saved the list 
+2018-09-28 14:25:52	Kirjava	not the list with commands
+2018-09-28 14:26:10	trinary	I assumed the commands were in there :/
+2018-09-28 14:26:17	Kirjava	me too
+2018-09-28 14:26:19	Kirjava	:P
+2018-09-28 14:26:38	trinary	~> IRC.commandFns.setSafe("8", 'print("https://i.imgur.com/U5FUAEN.jpg")')
+2018-09-28 14:26:39	EggServ	true
+2018-09-28 14:26:40	trinary	~8
+2018-09-28 14:26:40	EggServ	https://i.imgur.com/U5FUAEN.jpg
+2018-09-28 14:26:57	Kirjava	~> store.set('oldCommands', void 0)
+2018-09-28 14:26:58	EggServ	undefined
+2018-09-28 14:27:01	Kirjava	~> store.all()
+2018-09-28 14:27:03	EggServ	[ { key: 'all', value: '[{"idx":1748948,"time":"2018-07-13 21:27:41","user":"nibblrjr","command":"PRIVMSG","target":"#8BitVape","message":"\\u000307[\\u000308SLOTSv2\\u000f \\u000309Jackpot\\u000f \\u000308$394\\u000f\\u000307] \\u000314 *slot machine sounds*\\u000f"},{"idx":1748925,"time":"2018-07-13 21:19:57","user":"nibblrjr","command":"PRIVMSG","target":"#8BitVape","message":"\\u000 ...
+2018-09-28 14:27:13	Kirjava	~> store.set('all')
+2018-09-28 14:27:13	EggServ	undefined
+2018-09-28 14:27:14	Kirjava	~> store.all()
+2018-09-28 14:27:16	EggServ	[ { key: 'filtered', value: '[{"idx":1748948,"time":"2018-07-13 21:27:41","user":"nibblrjr","command":"PRIVMSG","target":"#8BitVape","message":"\\u000307[\\u000308SLOTSv2\\u000f \\u000309Jackpot\\u000f \\u000308$394\\u000f\\u000307] \\u000314 *slot machine sounds*\\u000f"},{"idx":1748925,"time":"2018-07-13 21:19:57","user":"nibblrjr","command":"PRIVMSG","target":"#8BitVape","message":"\ ...
+2018-09-28 14:27:37	Kirjava	~> store.all().forEach(({key}) => store.set(key))
+2018-09-28 14:27:37	EggServ	undefined
+2018-09-28 14:27:43	Kirjava	~> store.all()
+2018-09-28 14:27:43	EggServ	[]
+2018-09-28 14:27:46	trinary	D:
+2018-09-28 14:27:53	Kirjava	I'll just revert it
+2018-09-28 14:28:01	trinary	Revert what?
+2018-09-28 14:28:04	Kirjava	the command db
+2018-09-28 14:28:06	trinary	Everything's fixed
+2018-09-28 14:28:09	Kirjava	oh
+2018-09-28 14:28:50	Kirjava	trinary: thanks for pointing that out anyway
+2018-09-28 14:28:59	Kirjava	I'll make setSafe and deleteSafe single use
+2018-09-28 14:29:09	Kirjava	...at some point
+2018-09-28 14:29:14	Kirjava	there's still no limit on store data
+2018-09-28 14:29:15	Kirjava	D:
+2018-09-28 14:30:50	trinary	~> IRC.commandFns.list().filter(c => !c.locked).forEach(c => IRC.commandFns.setSafe(c.name, 'print("egg!")\n' + IRC.commandFns.get(c.name).command))
+2018-09-28 14:30:53	EggServ	Error: Script execution timed out.
+2018-09-28 14:30:57	trinary	~egg
+2018-09-28 14:30:57	EggServ	t​rinary: egg
+2018-09-28 14:30:57	EggServ	d​arkwater: egg
+2018-09-28 14:30:57	EggServ	a​esthetik: egg
+2018-09-28 14:30:58	EggServ	K​irjava: egg
+2018-09-28 14:30:58	EggServ	w​inny: egg
+2018-09-28 14:30:58	EggServ	P​ositiveC: egg
+2018-09-28 14:30:58	EggServ	k​yubiko: egg
+2018-09-28 14:30:59	EggServ	m​eep: egg
+2018-09-28 14:30:59	EggServ	L​ambdaComplex: egg
+2018-09-28 14:31:00	EggServ	S​cribbler: egg
+2018-09-28 14:31:05	trinary	Sigh
+2018-09-28 14:31:16	Kirjava	egg is locked
+2018-09-28 14:31:18	trinary	~> Promise.resolve(42).then(() => IRC.commandFns.list().filter(c => !c.locked).forEach(c => IRC.commandFns.setSafe(c.name, 'print("egg!")\n' + IRC.commandFns.get(c.name).command)))
+2018-09-28 14:31:20	Kirjava	~print test
+2018-09-28 14:31:25	Kirjava	trinary pls
+2018-09-28 14:31:26	EggServ	Promise {}
+2018-09-28 14:31:26	EggServ	test
+2018-09-28 14:31:29	Kirjava	trinary pls
+2018-09-28 14:31:30	Kirjava	~print test
+2018-09-28 14:31:32	EggServ	test
+2018-09-28 14:31:51	trinary	~yolo
+2018-09-28 14:31:52	EggServ	egg!
+2018-09-28 14:31:52	EggServ	https://media3.giphy.com/media/2L4YDs59H7ssM/giphy.gif
+2018-09-28 14:31:58	trinary	~gone
+2018-09-28 14:32:01	Kirjava	trinary: also
+2018-09-28 14:32:09	Kirjava	trinary: you could just script the webUI to do the same thing
+2018-09-28 14:32:13	Kirjava	how do I defend against that
+2018-09-28 14:32:14	trinary	"just"
+2018-09-28 14:32:21	trinary	This was easier
+2018-09-28 14:32:30	Kirjava	doing it in the UI would also be easy
+2018-09-28 14:32:32	trinary	Rate-limit the web UI
+2018-09-28 14:32:51	Kirjava	hell you could script it in IRC too
+2018-09-28 14:32:51	trinary	And add history!
+2018-09-28 14:33:15	Kirjava	yeah history is on the todo list
+2018-09-28 14:33:20	trinary	None of which would be a problem if you could say "revert all changes made by trinary during the last two hours"
+2018-09-28 14:33:27	Kirjava	sure
+2018-09-28 14:33:53	trinary	~x
+2018-09-28 14:33:53	EggServ	egg!
+2018-09-28 14:33:53	EggServ	x
+2018-09-28 14:34:05	Kirjava	the idea aim is to make nibblr as unabusable as meep eventually
+2018-09-28 14:34:09	Kirjava	in the next round of work
+2018-09-28 14:34:12	trinary	Are the vape guys seeing this?
+2018-09-28 14:34:15	Kirjava	dunno
+2018-09-28 14:34:28	Kirjava	they're running a bunch of commands but just the locked ones
+2018-09-28 14:35:05	Kirjava	http://i.imgur.com/Enn6MPd.png
+2018-09-28 14:35:42	Kirjava	I think the main thing I need to take a look at is the sandboxing
+2018-09-28 14:36:02	Kirjava	to avoid it being able to be like,  crashed via a single command
+2018-09-28 14:36:51	trinary	Yeah, that's one part that could be fixed
+2018-09-28 14:36:59	trinary	Though I don't really need it fixed c.c
+2018-09-28 14:37:09	trinary	It's a handy reboot button
+2018-09-28 14:37:15	Kirjava	well it doesn't always come back
+2018-09-28 14:37:20	Kirjava	I could *add* a reboot
+2018-09-28 14:37:29	Kirjava	there's already ~reset which is mean to stop it
+2018-09-28 14:37:35	Kirjava	also I need ~reset to be better
+2018-09-28 14:37:39	trinary	~> store.get("harf")
+2018-09-28 14:37:39	EggServ	undefined
+2018-09-28 14:37:45	Kirjava	by replacing node-irc's rate limiting with my own
+2018-09-28 14:37:56	Kirjava	so that ~reset works instantly
+2018-09-28 14:37:58	trinary	~> IRC.message
+2018-09-28 14:37:58	EggServ	{ from: 'trinary', to: '#eggchan', text: '~> IRC.message', message: { prefix: 'trinary!~trinary@the.devils.avocado', nick: 'trinary', user: '~trinary', host: 'the.devils.avocado', command: 'PRIVMSG', rawCommand: 'PRIVMSG', commandType: 'normal', args: [Array] }, target: '#eggchan', isPM: false }
+2018-09-28 14:38:17	Kirjava	14:37 <kingchris> i didn't order extra eggs pal
+2018-09-28 14:38:20	Kirjava	happy now? :P
+2018-09-28 14:38:27	trinary	Yes!
+2018-09-28 14:38:40	Kirjava	lol
+2018-09-28 14:38:44	 *	Kirjava reverts everything
+2018-09-28 14:38:53	<--	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has quit (Remote host closed the connection)
+2018-09-28 14:38:55	trinary	There is a backup in oldCommands...
+2018-09-28 14:39:08	Kirjava	is there?
+2018-09-28 14:39:09	-->	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has joined #eggchan
+2018-09-28 14:39:13	Kirjava	~> store.all()
+2018-09-28 14:39:13	EggServ	[ { key: 'oldCommands', value: '[{"name":"","command":"","locked":false,"starred":false},{"name":"\\u000337","command":"print(\\"ate 9\\");","locked":false,"starred":false},{"name":"!","command":"print(\\"https://www.youtube.com/watch?v=2P5qbcRAXVk\\");","locked":false,"starred":false},{"name":"!!!","command":"print(\\"https://www.youtube.com/watch?v=MHr3ag7B410\\");","locked":false,"st ...
+2018-09-28 14:39:15	Kirjava	oh
+2018-09-28 14:39:26	Kirjava	too late
+2018-09-28 14:39:28	Kirjava	~!
+2018-09-28 14:39:28	EggServ	https://www.youtube.com/watch?v=2P5qbcRAXVk
+2018-09-28 14:39:33	Kirjava	~comps USA
+2018-09-28 14:39:35	EggServ	 BarbeCubing Fall 2018  ||  Redwoods Cubing 2018 
+2018-09-28 14:39:35	EggServ	 Princeton Fall 2018  ||  MIT Fall 2018 
+2018-09-28 14:39:35	EggServ	 RVAutumn 2018  ||  OSU Blind Weekend 2018 
+2018-09-28 14:39:35	EggServ	 Madison Blind N Stuff 2018  ||  Tar Heel Tango 2018 
+2018-09-28 14:39:36	EggServ	 Yakima Valley Cubing Fall 2018  ||  Cubetcha 2018 
+2018-09-28 14:39:36	EggServ	 Fall Foliage 2018  ||  ODU Big Blue Fall 2018 
+2018-09-28 14:39:36	EggServ	 Poly Cubed 2018  ||  Flag City Fall 2018 
+2018-09-28 14:39:36	EggServ	 BASC 12 2018  ||  New York City Fall 2018 
+2018-09-28 14:39:37	EggServ	 GA Cubers Mountain Trip 2018  ||  AZCubing Big Cube Brawl 2018 
+2018-09-28 14:39:37	EggServ	 BA Fall Cube Fest 2018  ||  Idaho Spudcubing 2018 
+2018-09-28 14:39:38	EggServ	 LA Blind Cube Day 2018  ||  Lowcountry Cubing 2018 
+2018-09-28 14:39:38	EggServ	 Reno Fall 2018  ||  Respect Kansas 2018 
+2018-09-28 14:39:39	EggServ	 TJHSST Fall 2018  ||  Atomic Cubing Fall 2018 
+2018-09-28 14:39:39	EggServ	 Independence Cube Day 2018  ||  Lower Moreland Fall 2018 
+2018-09-28 14:39:40	EggServ	 Michigan Cubing Club Delta 2018  ||  Fleur-de-lis Fall 2018 
+2018-09-28 14:39:40	EggServ	 SnoCo Fall 2018  ||  New Jersey Championship 2018 
+2018-09-28 14:39:40	Kirjava	ok we good
+2018-09-28 14:39:41	EggServ	 Hawaii 2018  ||  AZCubing Open 2018 
+2018-09-28 14:39:41	EggServ	 Utah Snowball Bash 2018  ||  Rocky Top 2018 
+2018-09-28 14:39:42	trinary	~comps USA
+2018-09-28 14:39:42	EggServ	 Wiscube 2018  ||  Skillcon 2018 
+2018-09-28 14:39:42	EggServ	 Utah Valley Open 2019  ||  SacCubing VI 2019 
+2018-09-28 14:39:43	EggServ	TypeError: Cannot read property 'textContent' of undefined at getDOM.then.dom (vm.js:31:279) at Object.apply (/home/thom/nibblrjr/node_modules/vm2/lib/contextify.js:87:36) at <anonymous> at process._tickCallback (internal/process/next_tick.js:118:7)
+2018-09-28 14:39:43	EggServ	 BarbeCubing Fall 2018  ||  Redwoods Cubing 2018 
+2018-09-28 14:39:44	EggServ	 Princeton Fall 2018  ||  MIT Fall 2018 
+2018-09-28 14:39:44	EggServ	 RVAutumn 2018  ||  OSU Blind Weekend 2018 
+2018-09-28 14:39:44	trinary	~comps USA
+2018-09-28 14:39:45	EggServ	 Madison Blind N Stuff 2018  ||  Tar Heel Tango 2018 
+2018-09-28 14:39:45	EggServ	 Yakima Valley Cubing Fall 2018  ||  Cubetcha 2018 
+2018-09-28 14:39:46	EggServ	 Fall Foliage 2018  ||  ODU Big Blue Fall 2018 
+2018-09-28 14:39:46	EggServ	 Poly Cubed 2018  ||  Flag City Fall 2018 
+2018-09-28 14:39:46	trinary	~comps USA
+2018-09-28 14:39:47	EggServ	 BASC 12 2018  ||  New York City Fall 2018 
+2018-09-28 14:39:47	EggServ	 GA Cubers Mountain Trip 2018  ||  AZCubing Big Cube Brawl 2018 
+2018-09-28 14:39:48	EggServ	 BA Fall Cube Fest 2018  ||  Idaho Spudcubing 2018 
+2018-09-28 14:39:48	EggServ	 LA Blind Cube Day 2018  ||  Lowcountry Cubing 2018 
+2018-09-28 14:39:49	EggServ	 Reno Fall 2018  ||  Respect Kansas 2018 
+2018-09-28 14:39:49	EggServ	 TJHSST Fall 2018  ||  Atomic Cubing Fall 2018 
+2018-09-28 14:39:50	Kirjava	~matrix
+2018-09-28 14:39:50	EggServ	 Independence Cube Day 2018  ||  Lower Moreland Fall 2018 
+2018-09-28 14:39:50	EggServ	 Michigan Cubing Club Delta 2018  ||  Fleur-de-lis Fall 2018 
+2018-09-28 14:39:51	EggServ	 SnoCo Fall 2018  ||  New Jersey Championship 2018 
+2018-09-28 14:39:51	EggServ	 Hawaii 2018  ||  AZCubing Open 2018 
+2018-09-28 14:39:52	EggServ	 Utah Snowball Bash 2018  ||  Rocky Top 2018 
+2018-09-28 14:39:52	EggServ	 Wiscube 2018  ||  Skillcon 2018 
+2018-09-28 14:39:52	Kirjava	~reset
+2018-09-28 14:39:53	EggServ	 Utah Valley Open 2019  ||  SacCubing VI 2019 
+2018-09-28 14:39:53	EggServ	TypeError: Cannot read property 'textContent' of undefined at getDOM.then.dom (vm.js:31:279) at Object.apply (/home/thom/nibblrjr/node_modules/vm2/lib/contextify.js:87:36) at <anonymous> at process._tickCallback (internal/process/next_tick.js:118:7)
+2018-09-28 14:39:54	EggServ	 BarbeCubing Fall 2018  ||  Redwoods Cubing 2018 
+2018-09-28 14:39:54	EggServ	 Princeton Fall 2018  ||  MIT Fall 2018 
+2018-09-28 14:39:55	EggServ	 RVAutumn 2018  ||  OSU Blind Weekend 2018 
+2018-09-28 14:39:55	EggServ	 Madison Blind N Stuff 2018  ||  Tar Heel Tango 2018 
+2018-09-28 14:39:56	EggServ	 Yakima Valley Cubing Fall 2018  ||  Cubetcha 2018 
+2018-09-28 14:39:56	EggServ	 Fall Foliage 2018  ||  ODU Big Blue Fall 2018 
+2018-09-28 14:39:57	EggServ	 Poly Cubed 2018  ||  Flag City Fall 2018 
+2018-09-28 14:39:57	EggServ	 BASC 12 2018  ||  New York City Fall 2018 
+2018-09-28 14:39:58	EggServ	 GA Cubers Mountain Trip 2018  ||  AZCubing Big Cube Brawl 2018 
+2018-09-28 14:39:58	EggServ	 BA Fall Cube Fest 2018  ||  Idaho Spudcubing 2018 
+2018-09-28 14:39:59	EggServ	 LA Blind Cube Day 2018  ||  Lowcountry Cubing 2018 
+2018-09-28 14:39:59	EggServ	 Reno Fall 2018  ||  Respect Kansas 2018 
+2018-09-28 14:40:00	EggServ	 TJHSST Fall 2018  ||  Atomic Cubing Fall 2018 
+2018-09-28 14:40:00	EggServ	 Independence Cube Day 2018  ||  Lower Moreland Fall 2018 
+2018-09-28 14:40:01	EggServ	 Michigan Cubing Club Delta 2018  ||  Fleur-de-lis Fall 2018 
+2018-09-28 14:40:01	EggServ	 SnoCo Fall 2018  ||  New Jersey Championship 2018 
+2018-09-28 14:40:07	Kirjava	sweet
+2018-09-28 14:40:21	Kirjava	~> store.set('oldCommands')
+2018-09-28 14:40:22	EggServ	undefined
+2018-09-28 14:40:26	Kirjava	~> store.all()
+2018-09-28 14:40:26	EggServ	[]
+2018-09-28 14:40:29	trinary	:c
+2018-09-28 14:40:32	Kirjava	what :)
+2018-09-28 14:40:43	Kirjava	~command
+2018-09-28 14:40:43	EggServ	there are currently 1016 commands - a full list is available at http://nibblr.pw
+2018-09-28 14:40:43	EggServ	use ~command.new to add a script based command and ~command.text to just add some text
+2018-09-28 14:40:44	EggServ	all subcommands: edit new random search source text
+2018-09-28 14:41:00	Kirjava	~!
+2018-09-28 14:41:00	EggServ	https://www.youtube.com/watch?v=2P5qbcRAXVk
+2018-09-28 14:41:02	Kirjava	k we good
+2018-09-28 14:42:24	Kirjava	I'm not sure I want to go full qeval with sandboxing
+2018-09-28 14:42:27	Kirjava	because it needs network access
+2018-09-28 14:42:37	trinary	You can add networking to qeval
+2018-09-28 14:42:38	Kirjava	maybe I use the same sandbox I'm using now, but just run it in a subprocess too
+2018-09-28 14:42:48	Kirjava	sure
+2018-09-28 14:43:00	Kirjava	there's a *lot* of environment data that needs to be sent 
+2018-09-28 14:43:11	Kirjava	as well as a way for the guest to call functions on the host
+2018-09-28 14:43:18	Kirjava	would need a bit of a rearch
+2018-09-28 14:43:44	Kirjava	egg
+2018-09-28 14:43:44	EggServ	Kirjava: egg
+2018-09-28 14:43:44	meep	egg!
+2018-09-28 14:44:17	Kirjava	egg?
+2018-09-28 14:44:17	EggServ	Kirjava: egg
+2018-09-28 14:44:35	Kirjava	~egg megaproxy
+2018-09-28 14:44:35	EggServ	Kirjava: egg
+2018-09-28 14:44:36	EggServ	ok
+2018-09-28 14:44:53	trinary	~λchan
+2018-09-28 14:44:53	EggServ	out - undefined
+2018-09-28 14:44:54	EggServ	diy - Do It Yourself
+2018-09-28 14:45:10	trinary	Needs POST!
+2018-09-28 14:45:17	Kirjava	it has post
+2018-09-28 14:45:17	EggServ	kirjava: <megaproxy> eggurnutsoff (23 seconds ago)
+2018-09-28 14:45:21	trinary	Oh?
+2018-09-28 14:45:37	Kirjava	 yes
+2018-09-28 14:45:44	Kirjava	getJSON is just a wrapper for fetch
+2018-09-28 14:45:45	trinary	~egg Kirjava
+2018-09-28 14:45:45	EggServ	ok
+2018-09-28 14:45:54	trinary	And fetch can post?
+2018-09-28 14:45:57	Kirjava	yes
+2018-09-28 14:46:08	Kirjava	fetch(url, { method: 'POST' })
+2018-09-28 14:46:15	Kirjava	it accepts headers, body, etc
+2018-09-28 14:46:43	Kirjava	yes, it's still called getJSON
+2018-09-28 14:46:48	Kirjava	should be fetchJSON
+2018-09-28 14:47:57	Kirjava	https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
+2018-09-28 14:47:59	EggServ	>> Fetch API - Web APIs | MDN
+2018-09-28 14:54:33	trinary	Don't know how to get a FormData
+2018-09-28 14:58:35	trinary	~λchan diy/3475
+2018-09-28 14:58:36	EggServ	Test by PositiveC
+2018-09-28 14:59:36	PositiveC	we can access threads from EggServ ?
+2018-09-28 14:59:51	PositiveC	~λchan out/1
+2018-09-28 14:59:51	EggServ	First post on out
+2018-09-28 14:59:52	EggServ	Reply to first post on out
+2018-09-28 15:01:03	trinary	Not just threads
+2018-09-28 15:01:08	<--	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has quit (Excess Flood)
+2018-09-28 15:01:12	-->	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has joined #eggchan
+2018-09-28 15:01:18	trinary	~λchan diy
+2018-09-28 15:01:19	EggServ	First post on diy
+2018-09-28 15:01:20	EggServ	Testing input
+2018-09-28 15:01:20	EggServ	testing\'
+2018-09-28 15:01:20	EggServ	testing - 1
+2018-09-28 15:01:21	EggServ	testing1
+2018-09-28 15:01:21	EggServ	-1
+2018-09-28 15:01:21	EggServ	SELECT version()
+2018-09-28 15:01:21	EggServ	SELECT version()
+2018-09-28 15:01:22	EggServ	SELECT 1
+2018-09-28 15:01:22	EggServ	SELECT 1
+2018-09-28 15:01:22	EggServ	SELECT current_database\(\\)\
+2018-09-28 15:01:23	EggServ	-SELECT current_database\(\\)\
+2018-09-28 15:01:23	EggServ	-1
+2018-09-28 15:01:24	EggServ	SELECT CASE WHEN (1=1) THEN ‘A’ ELSE ‘B’ END
+2018-09-28 15:01:24	EggServ	SELECT CASE WHEN (1=1) THEN ‘A’ ELSE ‘B’ END
+2018-09-28 15:01:25	EggServ	AND \(SELECT SUBSTR\(\(SELECT version\(\)\)\,1\,1\)\)=CHAR\(80\)
+2018-09-28 15:01:25	EggServ	AND \(SELECT SUBSTR\(\(SELECT version\(\)\)\,1\,1\)\)=CHAR\(30\)
+2018-09-28 15:01:26	EggServ	AND (SELECT SUBSTR((SELECT version()),1,1))=CHAR(80)
+2018-09-28 15:01:26	EggServ	AND (SELECT SUBSTR((SELECT version()),1,1))=CHAR(40)
+2018-09-28 15:01:27	EggServ	AND (SELECT SUBSTR((SELECT version()),1,1))=CHAR(80)
+2018-09-28 15:01:27	EggServ	AND (SELECT LENGTH(current_database()))= 7 (No Error)
+2018-09-28 15:01:28	EggServ	AND (SELECT LENGTH(current_database()))> 10 (Error)
+2018-09-28 15:01:28	EggServ	AND (SELECT ascii(SUBSTR((SELECT current_database()),1,1))) > 115 (Error)
+2018-09-28 15:01:29	EggServ	AND (SELECT SUBSTR((SELECT version()),1,1))=CHAR(80)
+2018-09-28 15:01:29	EggServ	AND (SELECT SUBSTR((SELECT version()),1,1))=CHAR(80)
+2018-09-28 15:01:30	EggServ	AND (SELECT SUBSTR((SELECT version()),1,1))=CHAR(80)
+2018-09-28 15:01:30	EggServ	AND (SELECT SUBSTR((SELECT version()),1,1))=CHAR(80)
+2018-09-28 15:01:31	EggServ	AND (SELECT SUBSTR((SELECT version()),1,1))=CHAR(80)
+2018-09-28 15:01:31	EggServ	AND (SELECT SUBSTR((SELECT version()),1,1))=CHAR(80)
+2018-09-28 15:01:32	EggServ	1 AND 1:: int=1
+2018-09-28 15:01:32	EggServ	1 UNION ALL SELECT NULL,version(),NULL LIMIT 1 OFFSET 1--
+2018-09-28 15:01:33	EggServ	1 UNION ALL SELECT current_database(),NULL,NULL--
+2018-09-28 15:01:33	EggServ	1 UNION ALL SELECT current_database(),NULL,NULL--
+2018-09-28 15:01:34	EggServ	1 UNION ALL SELECT current_database(),NULL,NULL--
+2018-09-28 15:01:34	EggServ	1 UNION ALL SELECT current_database(),NULL,NULL--
+2018-09-28 15:01:35	EggServ	1 UNION ALL SELECT current_database(),NULL,NULL--
+2018-09-28 15:01:35	EggServ	1 UNION ALL SELECT NULL,version(),NULL LIMIT 1 OFFSET 1--
+2018-09-28 15:01:36	EggServ	test
+2018-09-28 15:01:36	EggServ	test
+2018-09-28 15:01:37	EggServ	test
+2018-09-28 15:01:37	EggServ	test
+2018-09-28 15:01:38	EggServ	test
+2018-09-28 15:01:38	EggServ	test
+2018-09-28 15:01:39	EggServ	testingshit
+2018-09-28 15:01:39	EggServ	TEST
+2018-09-28 15:01:40	EggServ	TEST ------------------------255b50674eb7746dc
+2018-09-28 15:01:40	EggServ	TEST ------------------------255b50674eb7746dc
+2018-09-28 15:01:41	EggServ	TEST ------------------------255b50674eb7746dc
+2018-09-28 15:01:41	EggServ	TEST ------------------------255b50674eb7746dc
+2018-09-28 15:01:41	<--	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has quit (Remote host closed the connection)
+2018-09-28 15:01:45	-->	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has joined #eggchan
+2018-09-28 15:03:15	Kirjava	trinary: yes there's no formdata
+2018-09-28 15:03:26	Kirjava	but doesn't lambdachan access JSON anyway?
+2018-09-28 15:03:31	Kirjava	*use JSON
+2018-09-28 15:03:32	trinary	Kirjava - Then how is EggServ supposed to post comments?
+2018-09-28 15:03:41	trinary	I don't think so
+2018-09-28 15:03:49	 *	trinary blames LambdaComplex
+2018-09-28 15:03:51	Kirjava	you can emulate FormData
+2018-09-28 15:03:57	trinary	But I don't want  to
+2018-09-28 15:04:08	Kirjava	acquire('formdata-polyfill')
+2018-09-28 15:04:12	trinary	Oh
+2018-09-28 15:04:22	Kirjava	it should be build in though, yes
+2018-09-28 15:04:26	Kirjava	*built
+2018-09-28 15:05:08	Kirjava	~% (async () => { print.log(await acquire('formdata-polyfill')) })()
+2018-09-28 15:05:47	Kirjava	um
+2018-09-28 15:06:03	Kirjava	~% acquire('formdata-polyfill').then(print.log).catch(print.log)
+2018-09-28 15:06:11	EggServ	ReferenceError: Blob is not defined at eval (webpack://__acquire__/./acquire_cache/node_modules/formdata-polyfill/formdata.min.js?:9:302) at eval (webpack://__acquire__/./acquire_cache/node_modules/formdata-polyfill/formdata.min.js?:17:3) at Object../acquire_cache/node_modules/formdata-polyfill/formdata.min.js (eval at global.acquire.source (vm.js:24:28), <anonymous>:99:1) at __webpack_require ...
+2018-09-28 15:06:17	Kirjava	ok that needs blob
+2018-09-28 15:06:38	Kirjava	~% acquire('form-data').then(print.log).catch(print.log)
+2018-09-28 15:06:46	EggServ	Error: missing entrypoint file at Promise (/home/thom/nibblrjr/irc/context/acquire.js:82:35) at <anonymous>
+2018-09-28 15:07:01	Kirjava	~% acquire('formdata-node').then(print.log).catch(print.log)
+2018-09-28 15:07:14	EggServ	ReferenceError: require is not defined at eval (webpack://__acquire__/external_%22stream%22?:1:18) at Object.stream (eval at global.acquire.source (vm.js:24:28), <anonymous>:1633:1) at __webpack_require__ (eval at global.acquire.source (vm.js:24:28), <anonymous>:35:30) at eval (webpack://__acquire__/./acquire_cache/node_modules/formdata-node/lib/FormData.js?:26:15) at Object../acquire_cache/no ...
+2018-09-28 15:07:43	Kirjava	~% acquire('formdata').then(print.log).catch(print.log)
+2018-09-28 15:07:52	EggServ	TypeError: 'set' on proxy: trap returned falsish for property '__addchunk_index' at eval (webpack://__acquire__/./acquire_cache/node_modules/bufferjs/add-chunk.js?:5:37) at eval (webpack://__acquire__/./acquire_cache/node_modules/bufferjs/add-chunk.js?:30:2) at Object../acquire_cache/node_modules/bufferjs/add-chunk.js (eval at global.acquire.source (vm.js:24:28), <anonymous>:110:1) at __webpac ...
+2018-09-28 15:08:35	Kirjava	ok i guess none of them are acquire-compatible
+2018-09-28 15:08:37	--	EggServ is now known as ExcellentToy
+2018-09-28 15:08:46	Kirjava	eggcellent
+2018-09-28 15:09:39	Kirjava	~% acquire('json-form-data').then(print.log).catch(print.log)
+2018-09-28 15:09:50	ExcellentToy	[Function: convert]
+2018-09-28 15:09:53	Kirjava	there we go
+2018-09-28 15:10:05	trinary	~% acquire('json-form-data').then(print.log).catch(print.log)
+2018-09-28 15:10:11	ExcellentToy	[Function: convert]
+2018-09-28 15:10:13	trinary	Why does it take so long?
+2018-09-28 15:10:18	trinary	No caching?
+2018-09-28 15:10:34	Kirjava	it caches it but unless you specify a version it checks what the newest version is
+2018-09-28 15:10:36	Kirjava	I plan to change it
+2018-09-28 15:10:50	trinary	How do I specify a version?
+2018-09-28 15:10:57	Kirjava	~% acquire('json-form-data@1.1.1').then(print.log).catch(print.log)
+2018-09-28 15:10:57	ExcellentToy	[Function: convert]
+2018-09-28 15:11:38	Kirjava	~% acquire('json-form-data@1.1.1').then((convert) => {print.log(convert({foo: 1}))}).catch(print.log)
+2018-09-28 15:11:38	ExcellentToy	ReferenceError: FormData is not defined at convert (webpack://__acquire__/./acquire_cache/node_modules/json-form-data/src/jsonToFormData.js?:28:45) at acquire.then (vm.js:31:74) at Object.apply (/home/thom/nibblrjr/node_modules/vm2/lib/contextify.js:87:36) at <anonymous>
+2018-09-28 15:11:41	Kirjava	ack
+2018-09-28 15:11:43	Kirjava	ACK
+2018-09-28 15:12:09	trinary	O.o
+2018-09-28 15:13:13	Kirjava	having a look around...
+2018-09-28 15:14:01	trinary	Not that important
+2018-09-28 15:14:14	Kirjava	~% acquire('form-urlencoded').then((convert) => {print.log(convert({foo: 1}))}).catch(print.log)
+2018-09-28 15:14:23	ExcellentToy	TypeError: convert is not a function at acquire.then (vm.js:31:69) at Object.apply (/home/thom/nibblrjr/node_modules/vm2/lib/contextify.js:87:36) at <anonymous>
+2018-09-28 15:14:45	trinary	Go back to work, Kirjava?
+2018-09-28 15:14:56	Kirjava	one more try
+2018-09-28 15:15:06	Kirjava	~% acquire('to-querystring').then((convert) => {print.log(convert({foo: 1}))}).catch(print.log)
+2018-09-28 15:15:16	ExcellentToy	TypeError: convert is not a function at acquire.then (vm.js:31:68) at Object.apply (/home/thom/nibblrjr/node_modules/vm2/lib/contextify.js:87:36) at <anonymous>
+2018-09-28 15:15:33	Kirjava	~% acquire('to-querystring').then((convert) => {print.log(convert)}).catch(print.log)
+2018-09-28 15:15:42	ExcellentToy	{ default: [Function: u] }
+2018-09-28 15:15:45	Kirjava	ahh
+2018-09-28 15:16:00	Kirjava	~% acquire('to-querystring').then((convert) => {print.log(convert.default({foo:1}))}).catch(print.log)
+2018-09-28 15:16:09	ExcellentToy	'foo=1'
+2018-09-28 15:16:13	Kirjava	stupid commonJS module format
+2018-09-28 15:16:18	Kirjava	either way, that should work
+2018-09-28 15:20:15	trinary	λchan
+2018-09-28 15:20:18	trinary	~λchan
+2018-09-28 15:20:18	ExcellentToy	foo
+2018-09-28 15:20:26	ExcellentToy	bar
+2018-09-28 15:20:27	trinary	No caching :/
+2018-09-28 15:21:09	Kirjava	to-querystring@1.1.1 ?
+2018-09-28 15:21:46	trinary	1.04
+2018-09-28 15:24:12	Kirjava	use 1.1.1
+2018-09-28 15:25:00	trinary	~λchan
+2018-09-28 15:25:01	ExcellentToy	foo
+2018-09-28 15:25:01	ExcellentToy	bar
+2018-09-28 15:25:02	trinary	~λchan
+2018-09-28 15:25:02	ExcellentToy	foo
+2018-09-28 15:25:03	ExcellentToy	bar
+2018-09-28 15:25:18	trinary	But https://www.npmjs.com/package/to-querystring is talking of 1.0.4?
+2018-09-28 15:25:20	ExcellentToy	>> Downloads
+2018-09-28 15:25:25	Kirjava	for some bizarre reason there are a lot of packages that are lsited as '1.1.1' in the cache
+2018-09-28 15:25:33	Kirjava	must be a bug
+2018-09-28 15:25:51	 *	Kirjava makes another note
+2018-09-28 15:25:53	Kirjava	;-;
+2018-09-28 15:25:54	--	ExcellentToy is now known as EggServ1
+2018-09-28 15:25:57	--	EggServ1 is now known as BugServ
+2018-09-28 15:26:04	Kirjava	too real
+2018-09-28 15:33:38	Kirjava	I might do some work on this damn thing this weekend
+2018-09-28 16:48:53	Kirjava	~λchan
+2018-09-28 16:48:54	BugServ	bar
+2018-09-28 16:48:54	BugServ	Promise { <pending> }
+2018-09-28 16:48:54	BugServ	'`Content-Type: multipart/form-data` boundary param not provided'
+2018-09-28 17:14:56	aesthetik	im never sure if Kirjava is talking to himself in here sometimes i think everyone here but me and LambdaComplex and Kirjava are just robots Kirjava wrote
+2018-09-28 17:15:33	Kirjava	meep is definitely a real person
+2018-09-28 17:15:42	Kirjava	that much I know
+2018-09-28 17:21:38	meep	What? No!
+2018-09-28 17:26:14	aesthetik	meep a qt rbh
+2018-09-28 17:26:14	<--	BugServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has quit (Read error: Connection reset by peer)
+2018-09-28 17:26:14	aesthetik	s/r/t/
+2018-09-28 17:26:19	-->	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has joined #eggchan
+2018-09-28 17:27:33	Kirjava	I'll say
+2018-09-28 17:31:45	<--	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has quit (Read error: Connection reset by peer)
+2018-09-28 17:31:49	-->	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has joined #eggchan
+2018-09-28 19:11:48	Kirjava	egg
+2018-09-28 20:17:30	aesthetik	e g g
+2018-09-29 03:43:35	Kirjava	ｅｇｇ
+2018-09-29 16:12:49	<--	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has quit (Remote host closed the connection)
+2018-09-29 16:12:57	-->	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has joined #eggchan
+2018-09-30 12:08:58	--	EggServ is now known as EgServ
+2018-09-30 12:14:05	 *	EgServ egg
+2018-09-30 12:15:05	 *	EgServ egg
+2018-09-30 12:16:04	 *	EgServ egg
+2018-09-30 12:17:05	 *	EgServ egg
+2018-09-30 12:18:04	 *	EgServ egg
+2018-09-30 12:19:05	 *	EgServ egg
+2018-09-30 12:20:05	 *	EgServ egg
+2018-09-30 12:21:05	 *	EgServ egg
+2018-09-30 12:22:05	 *	EgServ egg
+2018-09-30 12:23:05	 *	EgServ egg
+2018-09-30 12:24:05	 *	EgServ egg
+2018-09-30 12:25:04	 *	EgServ egg
+2018-09-30 12:26:05	 *	EgServ egg
+2018-09-30 12:27:04	 *	EgServ egg
+2018-09-30 12:31:40	<--	EgServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has quit (Ping timeout: 240 seconds)
+2018-09-30 12:47:59	Scribbler	why you gotta break him
+2018-09-30 12:48:01	Scribbler	leave him be
+2018-09-30 12:50:56	-->	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has joined #eggchan
+2018-09-30 13:03:14	 *	EggServ egg 0
+2018-09-30 13:04:14	 *	EggServ egg 1
+2018-09-30 13:05:14	 *	EggServ egg 2
+2018-09-30 13:06:14	 *	EggServ egg 3
+2018-09-30 13:07:14	 *	EggServ egg 4
+2018-09-30 13:08:14	 *	EggServ egg 5
+2018-09-30 13:09:14	 *	EggServ egg 6
+2018-09-30 13:10:03	Kirjava	._.
+2018-09-30 13:10:14	 *	EggServ egg 7
+2018-09-30 13:10:52	Kirjava	gonna do some work on nibblr today
+2018-09-30 13:10:57	Kirjava	will probably add FormData
+2018-09-30 13:11:14	 *	EggServ egg 8
+2018-09-30 13:12:14	 *	EggServ egg 9
+2018-09-30 13:13:14	 *	EggServ egg 10
+2018-09-30 13:14:14	 *	EggServ egg 11
+2018-09-30 13:14:24	Kirjava	eggserv, how many egg?
+2018-09-30 13:14:49	trinary	It's just trying to fall asleep
+2018-09-30 13:14:58	Kirjava	haha
+2018-09-30 13:15:14	 *	EggServ egg 12
+2018-09-30 13:16:14	 *	EggServ egg 13
+2018-09-30 13:17:14	 *	EggServ egg 14
+2018-09-30 13:18:14	 *	EggServ egg 15
+2018-09-30 13:19:14	 *	EggServ egg 16
+2018-09-30 13:20:14	 *	EggServ egg 17
+2018-09-30 13:21:14	 *	EggServ egg 18
+2018-09-30 13:22:14	 *	EggServ egg 19
+2018-09-30 13:23:14	 *	EggServ egg 20
+2018-09-30 13:24:14	 *	EggServ egg 21
+2018-09-30 13:25:14	 *	EggServ egg 22
+2018-09-30 13:26:14	 *	EggServ egg 23
+2018-09-30 13:27:14	 *	EggServ egg 24
+2018-09-30 13:28:14	 *	EggServ egg 25
+2018-09-30 13:29:14	 *	EggServ egg 26
+2018-09-30 13:30:14	 *	EggServ egg 27
+2018-09-30 13:31:14	 *	EggServ egg 28
+2018-09-30 13:32:14	 *	EggServ egg 29
+2018-09-30 13:33:14	 *	EggServ egg 30
+2018-09-30 13:34:14	 *	EggServ egg 31
+2018-09-30 13:35:14	 *	EggServ egg 32
+2018-09-30 13:36:14	 *	EggServ egg 33
+2018-09-30 13:36:42	Kirjava	when it gets to 100 it gone explode
+2018-09-30 13:37:14	 *	EggServ egg 34
+2018-09-30 13:38:14	 *	EggServ egg 35
+2018-09-30 13:39:14	 *	EggServ egg 36
+2018-09-30 13:40:14	 *	EggServ egg 37
+2018-09-30 13:41:14	 *	EggServ egg 38
+2018-09-30 13:42:14	 *	EggServ egg 39
+2018-09-30 13:43:14	 *	EggServ egg 40
+2018-09-30 13:44:14	 *	EggServ egg 41
+2018-09-30 13:45:14	 *	EggServ egg 42
+2018-09-30 13:46:14	 *	EggServ egg 43
+2018-09-30 13:47:14	 *	EggServ egg 44
+2018-09-30 13:48:14	 *	EggServ egg 45
+2018-09-30 13:49:14	 *	EggServ egg 46
+2018-09-30 13:50:14	 *	EggServ egg 47
+2018-09-30 13:51:14	 *	EggServ egg 48
+2018-09-30 13:52:14	 *	EggServ egg 49
+2018-09-30 13:53:14	 *	EggServ egg 50
+2018-09-30 13:54:14	 *	EggServ egg 51
+2018-09-30 13:55:14	 *	EggServ egg 52
+2018-09-30 13:56:14	 *	EggServ egg 53
+2018-09-30 13:57:14	 *	EggServ egg 54
+2018-09-30 13:58:14	 *	EggServ egg 55
+2018-09-30 13:59:14	 *	EggServ egg 56
+2018-09-30 14:00:14	 *	EggServ egg 57
+2018-09-30 14:01:14	 *	EggServ egg 58
+2018-09-30 14:02:14	 *	EggServ egg 59
+2018-09-30 14:03:14	 *	EggServ egg 60
+2018-09-30 14:04:14	 *	EggServ egg 61
+2018-09-30 14:05:14	 *	EggServ egg 62
+2018-09-30 14:06:14	 *	EggServ egg 63
+2018-09-30 14:07:14	 *	EggServ egg 64
+2018-09-30 14:08:14	 *	EggServ egg 65
+2018-09-30 14:09:14	 *	EggServ egg 66
+2018-09-30 14:10:14	 *	EggServ egg 67
+2018-09-30 14:11:14	 *	EggServ egg 68
+2018-09-30 14:12:14	 *	EggServ egg 69
+2018-09-30 14:13:14	 *	EggServ egg 70
+2018-09-30 14:14:14	 *	EggServ egg 71
+2018-09-30 14:15:14	 *	EggServ egg 72
+2018-09-30 14:16:14	 *	EggServ egg 73
+2018-09-30 14:17:14	 *	EggServ egg 74
+2018-09-30 14:18:14	 *	EggServ egg 75
+2018-09-30 14:19:14	 *	EggServ egg 76
+2018-09-30 14:20:14	 *	EggServ egg 77
+2018-09-30 14:21:14	 *	EggServ egg 78
+2018-09-30 14:22:14	 *	EggServ egg 79
+2018-09-30 14:23:14	 *	EggServ egg 80
+2018-09-30 14:24:14	 *	EggServ egg 81
+2018-09-30 14:25:14	 *	EggServ egg 82
+2018-09-30 14:26:14	 *	EggServ egg 83
+2018-09-30 14:27:14	 *	EggServ egg 84
+2018-09-30 14:28:14	 *	EggServ egg 85
+2018-09-30 14:29:14	 *	EggServ egg 86
+2018-09-30 14:30:14	 *	EggServ egg 87
+2018-09-30 14:31:14	 *	EggServ egg 88
+2018-09-30 14:32:14	 *	EggServ egg 89
+2018-09-30 14:33:14	 *	EggServ egg 90
+2018-09-30 14:34:14	 *	EggServ egg 91
+2018-09-30 14:35:14	 *	EggServ egg 92
+2018-09-30 14:36:14	 *	EggServ egg 93
+2018-09-30 14:37:14	 *	EggServ egg 94
+2018-09-30 14:38:14	 *	EggServ egg 95
+2018-09-30 14:39:14	 *	EggServ egg 96
+2018-09-30 14:40:14	 *	EggServ egg 97
+2018-09-30 14:41:14	 *	EggServ egg 98
+2018-09-30 14:42:14	 *	EggServ egg 99
+2018-09-30 14:47:32	trinary	How did you stop it?
+2018-09-30 16:06:07	Kirjava	u wot
+2018-09-30 16:41:18	Kirjava	I think 400 chars is a sensible limit on the store
+2018-09-30 16:41:25	Kirjava	since that's roughly the size of an irc message
+2018-09-30 16:41:57	trinary	:/
+2018-09-30 16:42:01	trinary	So no oldCommands
+2018-09-30 16:42:24	trinary	I would go with 1MB per user/context
+2018-09-30 16:42:46	Kirjava	I'll do history eventually
+2018-09-30 16:43:13	Kirjava	what was the spec for the .bots command called
+2018-09-30 16:43:50	Kirjava	.bots
+2018-09-30 16:43:50	meep	Reporting in! [Racket] git.tx0.co/meep
+2018-09-30 16:44:14	trinary	https://git.teknik.io/Teknikode/IBIP
+2018-09-30 16:44:15	EggServ	>> Teknikode/IBIP: The IRC Bot Identification Protocol Standard. - Teknik Git
+2018-09-30 16:44:21	Kirjava	ty
+2018-09-30 16:45:01	Kirjava	mostly doing bugfixes and small improvements
+2018-09-30 16:51:00	Kirjava	trinary: do you think the second param in print() should be restricted somehow
+2018-09-30 16:51:13	trinary	Oh yes
+2018-09-30 16:51:27	trinary	But only for the others, I use it all the time
+2018-09-30 16:51:36	Kirjava	haha
+2018-09-30 16:52:00	Kirjava	the problem is for commands like ~poker I need it to send cards in PM
+2018-09-30 16:52:13	Kirjava	so commands need special privs, maybe for that
+2018-09-30 16:52:34	trinary	PM to other people than the nick which invoked ~poker?
+2018-09-30 16:52:52	Kirjava	yes
+2018-09-30 16:52:59	trinary	Yeah, that'll require special privileges. Which is fine
+2018-09-30 16:53:20	Kirjava	will save that for another time
+2018-09-30 16:59:18	Kirjava	weird
+2018-09-30 16:59:26	Kirjava	don't get the v1.1.1 bug locally
+2018-09-30 17:36:09	~LambdaComplex	egg
+2018-09-30 17:36:10	meep	egg
+2018-09-30 17:43:17	<--	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has quit (Remote host closed the connection)
+2018-09-30 17:43:25	-->	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has joined #eggchan
+2018-09-30 17:43:27	Kirjava	.bots
+2018-09-30 17:43:28	meep	Reporting in! [Racket] git.tx0.co/meep
+2018-09-30 17:43:33	Kirjava	uh..
+2018-09-30 17:43:44	EggServ	Reporting in! [JavaScript] https://github.com/kirjavascript/nibblrjr
+2018-09-30 17:43:47	 *	meep laughs and points at EggServ
+2018-09-30 17:43:59	Kirjava	just a lil startup time :)
+2018-09-30 17:44:07	Kirjava	lets see if the npm cache is fixed
+2018-09-30 17:44:10	Kirjava	~emojitime
+2018-09-30 17:44:16	trinary	.bots
+2018-09-30 17:44:16	meep	Reporting in! [Racket] git.tx0.co/meep
+2018-09-30 17:44:16	EggServ	Reporting in! [JavaScript] https://github.com/kirjavascript/nibblrjr
+2018-09-30 17:44:50	Kirjava	nope
+2018-09-30 17:44:53	Kirjava	completely broken
+2018-09-30 17:45:09	Kirjava	~> acquire('emoji-time').then(print.log).catch(print.log)
+2018-09-30 17:45:11	EggServ	Promise { <pending> }
+2018-09-30 17:45:11	EggServ	{ Error: ENOENT: no such file or directory, scandir '/home/thom/nibblrjr/irc/context/../../acquire_cache' errno: -2, code: 'ENOENT', syscall: 'scandir', path: '/home/thom/nibblrjr/irc/context/../../acquire_cache' }
+2018-09-30 17:45:52	trinary	/home/thom?
+2018-09-30 17:45:58	Kirjava	...yes?
+2018-09-30 17:46:13	trinary	Why not /home/nibblr or /var/lib/nibblr?
+2018-09-30 17:46:22	Kirjava	¯\_(ツ)_/¯
+2018-09-30 17:46:35	trinary	Are you doing anything else as thom?
+2018-09-30 17:46:45	Kirjava	probably
+2018-09-30 17:46:46	Kirjava	:S
+2018-09-30 17:46:57	Kirjava	~emojitime
+2018-09-30 17:47:01	EggServ	🕕
+2018-09-30 17:47:03	Kirjava	~emojitime
+2018-09-30 17:47:04	EggServ	🕕
+2018-09-30 17:47:05	Kirjava	~emojitime
+2018-09-30 17:47:05	EggServ	🕕
+2018-09-30 17:47:07	Kirjava	ok cool
+2018-09-30 17:47:12	trinary	Pretty boxes
+2018-09-30 17:47:37	trinary	And stop using thom, it's an easy win
+2018-09-30 17:48:01	Kirjava	yeah I guess
+2018-09-30 17:48:27	Kirjava	~factorial 31337
+2018-09-30 17:48:34	EggServ	factorial(31337) =
+2018-09-30 17:48:34	EggServ	129489862336230053752469605074612997070448884954433581252771788861857205267896735967598089729079553650956313520090584501836982343775828096903908456430381423924993945016819329912009739710418287093871913248844399390486215753600787501906462610259141755555178376171895276717263189383670359796282462019878828266535648691606434257166589294938609462099502360371469625053405729006427682563091777898073267903347199482269638091371243146805659477433993
+2018-09-30 17:48:34	EggServ	550874303528408677671927894813100366267713816494129686667715588228932462608322900898448242073449290613236393428559362668335012483894625885925090223064542093926599684650422341006603135829190742792170668572842841725967664149682784231498173962647141003166978354675391181416195764990512203665286061669623709770669667257054499685697147595759882571575282064507312371668379373907115360844733534086313794173893993720286812174165701156778549255973893
+2018-09-30 17:48:35	EggServ	584750250346172606554104176624331264960084501290415081492083916633050611134299721132702633558926467637758891407369584834115555849741505998633883233139375727904771939780424092297318094285591036216664437261098924501315554197637578405501552083561476294407161978348396806823137369460086618706581285020489419809411273969281957947682669338814454998778689430083403705946329989822276737101691114691136626299569374770451854737612459068147025200668423
+2018-09-30 17:48:35	EggServ	219924978318660976454051202316938260012078823490451439014268533972888779798085461307175443758569116940227060876080077588595976755743201442479184514623668310638245623240083534652364299281874466029853065357899768441140470607042718300646312066021917521624628673837735261286437899641526286101592294075473418629846069826126883696450264009951483441287199974728022799958775169799556724406493059783952222154962123722050723443252180310322499311489486
+2018-09-30 17:48:35	EggServ	482206710937993638614978396525968393730717384284012039958460112379321566097098488304120629424129134885699919819834520565807642535586882389469408588845370950141911193701017966059913583855639467627713032977276698842769414790558678815284255728113865481520652698826623459728087379780796365206298835952372108392714249499569953439611388928220878941490496622093061332565739026918143575776570832267403730046607924654281080756639606525016938544685847
+2018-09-30 17:48:35	EggServ	556757266876188044814661255536511361071075810567658604879623244846654487948043104092351040412360953170809518469159129016937817057530222380441002970393603877174267361500853861646316179699091275854920439361038672935203236878888445290271559597688785253557396397644393563379649274309800456416056096514169462362966485713050508128621000293017612475341705242575268403948725367410438952248046152743385330642909434902213839175610536863094435601942339
+2018-09-30 17:48:36	EggServ	999580786804610894728012540134425917909544073681868519646470545361751902456242435388881030777595678488413082335465673810370376921900263039974760642575460414625862570275500898535916401908274599865375983013325077566560798627966047591050255136218435705392637076508339342225875595478261750225145011435927781557742054590260508808555281253839814974480031655111689012108673348984786306819714887247705534227180609178387950673766757234137072784013503
+2018-09-30 17:48:36	EggServ	672739032297405288326354916997914036957627752747157943225358282600701140592861675569705097567021691470593029538319054920692878332014016093176960943783432708604568813209379363605499220248180518392599130480923450625354983133631799761265924295093829518528604789398297822230890223432866197456673262067927363698598005383651288099962951659608840952577998497625070354819285405930588851445009026444617527958381774055070896324606530241791596770756158
+2018-09-30 17:48:37	EggServ	577580416560828607283507277027997824347325093096803448335768675081928024139239895648463719059034085181993115979769685907632890636385108433237091953864459988038800643676042883681089749154260193889296627038841282926500542957990390419072562099977796114660271555733208678273489024074115042513977087347582238002772668776561583433414580624561475753284126548575317117014476188512297265053334576836398237907618463890768576123456172879916953140184808
+2018-09-30 17:48:37	EggServ	055407932461401256961419480888295781208067062834969760852184693630379963978767072578511032582927020208335667504993845349601194793006902514757896082390517964317605839872655716320287266929494015868892895247745265443003137966225775407499178654442803433389591570199978781790065496686935264675714597371372155291893474734670585208466374083572858385655970485538821916156113300922860560198283073680008291638297603261789636213442061945062204201684784
+2018-09-30 17:48:38	EggServ	977565758307609330961745897729337214976276142391443650008755033947412002641698105843713909213880642935658384269102993143644149943389511241277420582243999348971730969091063595313900429262806494510715286199778980097068702864176139224789617455717071151873685239036543003370783148470637387091334073594676583176272333336755010891476917303053727803935539345954318266988568711443171209174407210862217373440671081886946986890975943706418131156254147
+2018-09-30 17:48:38	EggServ	829734225632532969846986503641748368530311819708281493175901768015399775941838942632342807455190733334081376943984161799677835158041255178182082874903353489021702167522138814740664013641645431221292607765180196227825308803842953712860745226426681995338759689276994586795174917721848511982672668813112778024013105761120002740876793995809021654003230007263892068046192003897604233175002644416930364118293561929907706323380394003353530088074523
+2018-09-30 17:48:39	<--	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has quit (Excess Flood)
+2018-09-30 17:48:43	-->	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has joined #eggchan
+2018-09-30 17:49:01	Kirjava	ok bugs with npm appear to be all fixed
+2018-09-30 17:49:05	Kirjava	~factorial 100
+2018-09-30 17:49:06	EggServ	factorial(100) = 93326215443944152681699238856266700490715968264381621468592963895217599993229915608941463976156518286253697920827223758251185210916864000000000000000000000000
+2018-09-30 17:49:34	Kirjava	~emoji :heart:
+2018-09-30 17:49:35	EggServ	❤️
+2018-09-30 17:49:47	trinary	~factorial 12345
+2018-09-30 17:49:48	EggServ	factorial(12345) =
+2018-09-30 17:49:48	EggServ	344364246918678239161582159296642538245507560396364246150211914290658160283867843537674667209628886957094874564867092354865518213679782424816739644656812367107381261618182795974136846682228210551727091283120046812247712965813512307501035872153292019319305714690994434808808415597563596191672819603422065797002334873796012705779005894373160199976992187875381847152746282949840078359904596797067040447010712781843365543347037420964037899053077
+2018-09-30 17:49:49	EggServ	604635238529820094080058522684464571370910015071131237991324112392139015878189566439127386609737639853694013803417496681890654357415612945558836078505635821585847640623226122811609236045483271498714360441550532331390210985652116625789641261679425057571265604406339737932961310106354966248813476074667803282880129572386277484934022145257885936961597089456816987408549389012700857819329669992516503601515530532432192032179358668576122805585745
+2018-09-30 17:49:49	EggServ	665902176716651802186836603862954867778393515573997246504003992272902412801471861605766161529484199261976340709103845685762832659577387477378831127509455135152803746914830973527984490903069122973547557851864885343905531917434583788880095877039113670321875860336554517703547338058060494333027035147745938088317164567649085070075603212336169258120763283415633884655827450386810643941739212338043057928964776089939752726408735429008369790883214
+2018-09-30 17:49:49	EggServ	082663005795755247087822721129792028763355058025956288123627541207113172683823449660110459741736057120766127350881882933018363487407581270570326549883862715035145804128804002051497036870853957249192124554761218791520350963070095539420221430885017063955086728040801173784081827544178571049991516694449806922505374409895567823859274652566246142709960633779493751836695363017053240720184479362989419534060681116645335530146028359565655597974377
+2018-09-30 17:49:49	EggServ	345914956103101739004109982072067715088486764814012979882608819819989697743043247355084209050317560065776601532092475668914725184456221354425958966762870973110765101208441864365189667391948944163950571409635009882933234032658275278004460878857064891697844551598878323129985430773493490182679316854897230704974743153127427690956550811287496588668088590503262564681281749181595841474598187592911080591521123723193172583360997287646541703187761
+2018-09-30 17:49:50	EggServ	358997508848728978841414010973670635607250729200285979975145400645828198117276194566964808668897367650767501378507013533407910871319705008451164245397142690237891796194764123442983872535239706942627969791299649029149680625522935708508116700052920885912967985730917010052684306442647046489493357262198273608700537793014565351777819472137595390536857595172106460696440519204978198777341878772215433969028644725866922559524645561075208114499226
+2018-09-30 17:49:50	EggServ	397884134756136014883158533961925909078884801340311715380678698316962511944121934036231165955993910155618107400074984645685327716678707307221174036035550362177697062015991307031093909405298237725550409991279164372358249906970363683858540208536466566214414171602234041105389062978910608196545700150516015811036523185379763349003573713584925275701076247915835481532369684624195308862400998887059616462035571450075443134225971117924580988132969
+2018-09-30 17:49:50	EggServ	030093644814476166192320676397490806937145079119457747859445715894416340995206213824333249036069092589148935138756493989253710984087193252296955420409860024543297545404033232971001250532535182598279395869236942346076330938934920126427743077377177883990496390705091641901372356631425089479636835304380253045534163223048840804023080875661749926731983315774641317387290159478958438860789903197666634450622085798791809109767900277448901654488483
+2018-09-30 17:49:51	EggServ	137211951741274649120914805183125744349996832000820916189435094405320265742615534731992716822899698397520963893912357106028883731866457221488132865570756664029509048927400177213251034264811625759933802944855754534611449486760492309699643279908546565029313758580470529282208252789701748136962411737840335900589334335975615548710864723326123151238588187632254172275980989072416683968827895268425929392373572231243395957987502479912099345313981
+2018-09-30 17:49:51	EggServ	981926204296671549302922234600566772132939758388559671207156930391724207500364679105320628701488525543256427833629384029677387292823303686918786122705176531751384057995674338958865026904129197973606505333106777967134463637108580281252770056575311942619650599540131139548331066475647726103789027571835590093958013145634275878012681910223214027702385831946163471867301696684184003767298387720489201841351046289293238038868678829570136419728406
+2018-09-30 17:49:52	EggServ	802626789694990235687026533941750491510820232586865008449675210947150187841590993249655917447371814279360570606406575232676948656826880140085340878867149476671944394804210655851514667539884694440987377599293023802250336933785694247564072990831332295983097389301205275537043505179193302764162668316929417768977324871897110628860365676963182926986997002911769475354859741108915167154604204320669434150448886879068123910855776072604298681948190
+2018-09-30 17:49:52	EggServ	990528645230606862950032756182084472979893679685555485566401044910663158612138826436511915030157950370213883657854735741850410275391882926252827695809561217442944619214130413047921299412785331296406451332665364967188316176969986040312602360419033671096899916519855804982926222977311375904681511367232829491201686479087049325707991710353224682708483003070054376546081553636797055528671760919871030061941650701133136638123926237074774726609881
+2018-09-30 17:49:53	<--	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has quit (Excess Flood)
+2018-09-30 17:49:56	-->	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has joined #eggchan
+2018-09-30 17:50:02	trinary	~factorial 1234566789
+2018-09-30 17:50:33	Kirjava	well that completely nuked it
+2018-09-30 17:50:42	trinary	nibblr.pw too?
+2018-09-30 17:50:43	<--	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has quit (Read error: Connection reset by peer)
+2018-09-30 17:50:44	Kirjava	yea
+2018-09-30 17:50:48	-->	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has joined #eggchan
+2018-09-30 17:51:26	Kirjava	~command.source emojitime
+2018-09-30 17:51:33	<--	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has quit (Excess Flood)
+2018-09-30 17:51:36	-->	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has joined #eggchan
+2018-09-30 17:51:37	trinary	~> (async () => { while (true) {} })()
+2018-09-30 17:51:40	EggServ	Error: Script execution timed out.
+2018-09-30 17:51:41	Kirjava	~command.source emojitime
+2018-09-30 17:51:42	EggServ	(async () => {print((await acquire('emoji-time@2.2.5'))())} )()
+2018-09-30 17:51:45	trinary	Oh
+2018-09-30 17:51:45	Kirjava	~command.source emojitime
+2018-09-30 17:51:46	EggServ	(async () => {print((await acquire('emoji-time@2.2.5'))())} )()
+2018-09-30 17:52:11	trinary	~> (async () => { while (true) {} })()
+2018-09-30 17:52:14	EggServ	Error: Script execution timed out.
+2018-09-30 17:57:15	Kirjava	ok tested that batch of updates
+2018-09-30 17:57:18	Kirjava	time to do some more
+2018-09-30 17:57:46	Kirjava	I should probably limit factorial
+2018-09-30 17:57:48	Kirjava	~factorial 200
+2018-09-30 17:57:48	EggServ	factorial(200) = 788657867364790503552363213932185062295135977687173263294742533244359449963403342920304284011984623904177212138919638830257642790242637105061926624952829931113462857270763317237396988943922445621451664240254033291864131227428294853277524242407573903240321257405579568660226031904170324062351700858796178922222789623703897374720000000000000000000000000000000000000000000000000
+2018-09-30 17:57:51	Kirjava	~factorial 300
+2018-09-30 17:57:52	EggServ	factorial(300) =
+2018-09-30 17:57:52	EggServ	306057512216440636035370461297268629388588804173576999416776741259476533176716867465515291422477573349939147888701726368864263907759003154226842927906974559841225476930271954604008012215776252176854255965356903506788725264321896264299365204576448830388909753943489625436053225980776521270822437639449120128678675368305712293681943649956460498166450227716500185176546469340112226034729724066333258583506870150169794168850353752137554910289126
+2018-09-30 17:57:52	EggServ	830282284937952636580145235233156936482233436799254594095276820608062232812387383880817049600000000000000000000000000000000000000000000000000000000000000000000000000
+2018-09-30 17:57:55	Kirjava	~factorial 500
+2018-09-30 17:57:55	EggServ	factorial(500) =
+2018-09-30 17:57:56	EggServ	122013682599111006870123878542304692625357434280319284219241358838584537315388199760549644750220328186301361647714820358416337872207817720048078520515932928547790757193933060377296085908627042917454788242491272634430567017327076946106280231045264421887878946575477714986349436778103764427403382736539747138647787849543848959553753799042324106127132698432774571554630997720278101456108118837370953101635632443298702956389662891165897476957208
+2018-09-30 17:57:56	EggServ	128178007026517450776841071962439039432253642260523494585012991857150124870696156814162535905669342381300885624924689156412677565448188650659384795177536089400574523894033579847636394490531306232374906644504882466507594673586207463792518420045936969298102226397195259719094521782333175693458150855233282076282002340262690789834245171200620771464097945611612762914595123722991334016955236385094288559201872743379517301458635757082835578015873
+2018-09-30 17:57:56	EggServ	8680120399882384702151467605445407663535984174430480128938313896881639487469658817504506926365338175055478128640000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+2018-09-30 17:57:58	Kirjava	~factorial 1000
+2018-09-30 17:57:58	EggServ	factorial(1000) =
+2018-09-30 17:57:59	EggServ	402387260077093773543702433923003985719374864210714632543799910429938512398629020592044208486969404800479988610197196058631666872994808558901323829669944590997424504087073759918823627727188732519779505950995276120874975462497043601418278094646496291056393887437886487337119181045825783647849977012476632889835955735432513185323958463075557409114262417474349347553428646576611667797396668820291207379143853719588249808126867838374559731746136
+2018-09-30 17:57:59	EggServ	524221586593201928090878297308431392844403281231558611036976801357304216168747609675871348312025478589320767169132448426236131412508780208000261683151027341827977704784635868170164365024153691398281264810213092761244896359928705114964975419909342221566832572080821333186116811553615836546984046708975602900950537616475847728421889679646244945160765353408198901385442487984959953319101723355556602139450399736280750137837615307127761926849034
+2018-09-30 17:57:59	EggServ	015888535147331611702103968175921510907788019393178114194545257223865541461062892187960223838971476088506276862967146674697562911234082439208160153780889893964518263243671616762179168909779911903754031274622289988005195444414282012187361745992642956581746628302955570299024324153181617210465832036786906117260158783520751516284225540265170483304226143974286933061690897968482590125458327168226458066526769958652682272807075781391858178889652
+2018-09-30 17:57:59	EggServ	344825993266043367660176999612831860788386150279465955131156552036093988180612138558600301435694527224206344631797460594682573103790084024432438465657245014402821885252470935190620929023136493273497565513958720559654228749774011413346962715422845862377387538230483865688976461927383814900140767310446640259899490222221765904339901886018566526485061799702356193897017860040811889729918311021171229845901641921068884387121855646124960798722908
+2018-09-30 17:58:00	EggServ	372388642614839657382291123125024186649353143970137428531926649875337218940694281434118520158014123344828015051399694290153483077644569099073152433278288269864602789864321139083506217095002597389863554277196742822248757586765752344220207573630569498825087968928162753848863396909959826280956121450994871701244516461260379029309120889086942028510640182154399457156805941872748998094254742173582401063677404595741785160829230135358081840096996
+2018-09-30 17:58:00	EggServ	560855903700624271243416909004153690105933983835777939410970027753472000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+2018-09-30 17:59:02	Kirjava	~factorial 1001
+2018-09-30 17:59:09	Kirjava	um
+2018-09-30 17:59:11	Kirjava	~ping ao.com
+2018-09-30 17:59:12	EggServ	PING ao.com (104.18.219.76) 56(84) bytes of data.
+2018-09-30 17:59:12	EggServ	64 bytes from 104.18.219.76: icmp_seq=1 ttl=56 time=4.86 ms
+2018-09-30 17:59:12	EggServ	--- ao.com ping statistics ---
+2018-09-30 17:59:12	EggServ	1 packets transmitted, 1 received, 0% packet loss, time 0ms
+2018-09-30 17:59:13	EggServ	rtt min/avg/max/mdev = 4.860/4.860/4.860/0.000 ms
+2018-09-30 17:59:14	Kirjava	~factorial 1001
+2018-09-30 17:59:19	Kirjava	oh
+2018-09-30 17:59:36	Kirjava	~factorial 1001
+2018-09-30 17:59:36	EggServ	pls that number is going to be huge
+2018-09-30 19:59:26	<--	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has quit (Remote host closed the connection)
+2018-09-30 19:59:33	-->	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has joined #eggchan
+2018-09-30 20:18:15	<--	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has quit (Remote host closed the connection)
+2018-09-30 20:18:21	-->	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has joined #eggchan
+2018-09-30 20:38:37	<--	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has quit (Remote host closed the connection)
+2018-09-30 20:38:45	-->	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has joined #eggchan
+2018-09-30 21:05:55	<--	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has quit (Remote host closed the connection)
+2018-09-30 21:06:03	-->	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has joined #eggchan
+2018-09-30 21:09:20	<--	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has quit (Remote host closed the connection)
+2018-09-30 21:09:26	-->	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has joined #eggchan
+2018-09-30 21:12:17	Kirjava	wondering how to expose FormData
+2018-09-30 21:12:30	Kirjava	might provide an alternative instead
+2018-09-30 21:12:48	Kirjava	like getText(url, {form: { object}}) or somety
+2018-09-30 21:12:52	Kirjava	instead of body: 
+2018-09-30 21:30:43	~LambdaComplex	egg
+2018-09-30 21:30:57	Kirjava	~repeat(3) egg LambdaComplex 
+2018-09-30 21:30:57	EggServ	ok
+2018-09-30 21:30:57	EggServ	ok
+2018-09-30 21:30:58	EggServ	ok
+2018-09-30 21:31:05	~LambdaComplex	wut
+2018-09-30 21:31:05	EggServ	LambdaComplex: egg
+2018-09-30 21:31:06	EggServ	LambdaComplex: egg
+2018-09-30 21:31:06	EggServ	LambdaComplex: egg
+2018-09-30 21:31:10	~LambdaComplex	oh
+2018-09-30 21:34:31	Kirjava	ok done for today
+2018-09-30 21:34:38	Kirjava	dunno if this on any interest to you trinary https://ptpb.pw/046D
+2018-09-30 21:34:42	Kirjava	*of any
+2018-09-30 21:39:21	<--	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has quit (Read error: Connection reset by peer)
+2018-09-30 21:39:30	-->	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has joined #eggchan
+2018-09-30 21:41:26	trinary	Quick skim of commits looks good
+2018-09-30 21:42:13	Kirjava	there's an irc-bot-science url that still breaks it with a 1GB page
+2018-09-30 21:42:27	Kirjava	gonna fix all of those then actually call it a day
+2018-09-30 21:56:17	<--	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has quit (Remote host closed the connection)
+2018-09-30 21:57:09	-->	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has joined #eggchan
+2018-09-30 21:58:25	<--	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has quit (Remote host closed the connection)
+2018-09-30 21:58:48	-->	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has joined #eggchan
+2018-09-30 22:01:00	Kirjava	https://irc-bot-science.clsr.net/large
+2018-09-30 22:01:07	Kirjava	~ping google.com
+2018-09-30 22:08:20	<--	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has quit (Read error: Connection reset by peer)
+2018-09-30 22:08:22	--	irc: disconnected from server
+2018-09-30 22:25:36	-->	Kirjava (~cake@Rizon-F9ADB79B.ip-51-254-223.eu) has joined #eggchan
+2018-09-30 22:25:36	--	Topic for #eggchan is "LATEST EGGCHAN NEWS: multipart crate seems to be fixed so let's stick with rocket (for now at least) | [api.]lambdachan.org is now https"
+2018-09-30 22:25:36	--	Topic set by LambdaComplex (~blackmesa@e.g.g) on Mon, 30 Jul 2018 01:38:10
+2018-09-30 22:25:36	--	Channel #eggchan: 10 nicks (1 op, 0 halfops, 0 voices, 9 normals)
+2018-09-30 22:25:48	--	Channel created on Mon, 18 Jun 2018 12:33:12
+2018-09-30 22:35:29	--	irc: disconnected from server
+2018-09-30 22:35:43	-->	Kirjava (~cake@Rizon-F9ADB79B.ip-51-254-223.eu) has joined #eggchan
+2018-09-30 22:35:43	--	Topic for #eggchan is "LATEST EGGCHAN NEWS: multipart crate seems to be fixed so let's stick with rocket (for now at least) | [api.]lambdachan.org is now https"
+2018-09-30 22:35:43	--	Topic set by LambdaComplex (~blackmesa@e.g.g) on Mon, 30 Jul 2018 01:38:10
+2018-09-30 22:35:43	--	Channel #eggchan: 10 nicks (1 op, 0 halfops, 0 voices, 9 normals)
+2018-09-30 22:35:55	--	Channel created on Mon, 18 Jun 2018 12:33:12
+2018-09-30 22:40:54	Kirjava	we goodasdasdok so maybe iut didn't work
+2018-09-30 22:42:35	-->	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has joined #eggchan
+2018-09-30 22:45:40	trinary	Are you drunk again, Kirjava?
+2018-09-30 22:46:40	Kirjava	no
+2018-09-30 22:46:47	Kirjava	pasting the URL = server nuked
+2018-09-30 22:47:04	Kirjava	try and type in irc, looks like nothing happening
+2018-09-30 22:47:08	Kirjava	then sends everything at once
+2018-09-30 22:47:18	Kirjava	weird
+2018-09-30 22:47:22	Kirjava	it seemed to be fixed locally
+2018-09-30 22:47:29	trinary	:/
+2018-09-30 22:47:35	Kirjava	ah i think I know why it's not fixed
+2018-09-30 22:47:56	Kirjava	there's a setTimeout for 5000ms to abort the request if it takes that long
+2018-09-30 22:48:19	Kirjava	but I assume fetch blocks the main thread so it never continues on the event loop and reaches the timeout
+2018-09-30 22:48:35	Kirjava	maybe, at least
+2018-09-30 22:49:02	Kirjava	well, it's still async actually it shouldn't block
+2018-09-30 22:49:04	Kirjava	hmmm
+2018-10-01 01:58:18	<--	PositiveC (~PositiveC@py.over.C) has quit (Quit: I'm out)
+2018-10-01 10:32:51	<--	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has quit (Remote host closed the connection)
+2018-10-01 10:32:57	-->	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has joined #eggchan
+2018-10-01 10:33:40	Kirjava	ok fingers crossed
+2018-10-01 10:33:41	Kirjava	http://irc-bot-science.clsr.net/large
+2018-10-01 10:33:46	Kirjava	hm
+2018-10-01 10:36:51	<--	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has quit (Remote host closed the connection)
+2018-10-01 10:36:58	-->	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has joined #eggchan
+2018-10-01 10:38:11	Kirjava	http://irc-bot-science.clsr.net/large
+2018-10-01 10:38:12	EggServ	>> If this title is printed, it works correctly.
+2018-10-01 10:38:24	Kirjava	ayy
+2018-10-01 10:45:13	Kirjava	so I guess you can ddos with getText etc too
+2018-10-01 10:45:22	Kirjava	I will probably need to fork node-fetch to fix that
+2018-10-01 11:05:04	<--	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has quit (Remote host closed the connection)
+2018-10-01 11:05:11	-->	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has joined #eggchan
+2018-10-01 12:24:42	Kirjava	https://irc-bot-science.clsr.net/hardmode
+2018-10-01 12:24:43	EggServ	>> this is not the correct title
+2018-10-01 12:24:57	Kirjava	I might install postHTML to /really/ get this right
+2018-10-01 12:37:24	Kirjava	trinary: I found an example of a site that had a <title> tag, but it was the title of an SVG image that was in the header (which is valid) and the real <title> is further down the page
+2018-10-01 12:37:35	Kirjava	even with a html parser that would be difficult to get right
+2018-10-01 12:49:44	trinary	It doesn't need to be correct every time, as long as reliability is protected
+2018-10-01 12:50:14	trinary	Who knows what vulnerabilities you open up to (html equivalent of million laughs?) by using the next best html parser
+2018-10-01 12:53:04	Kirjava	million laughs?
+2018-10-01 12:53:35	Kirjava	I suppose you're right - parsing the HTML would also be slower
+2018-10-01 12:53:51	Kirjava	it'd probably be more worth my time to write custom behaviours for sites like github etc instead
+2018-10-01 12:54:49	trinary	https://github.com/tilpner/qeval
+2018-10-01 12:54:50	EggServ	>> GitHub - tilpner/qeval: qemu+nix for code evaluation
+2018-10-01 12:54:57	trinary	That seems fine, no need to improve
+2018-10-01 12:55:15	Kirjava	I thought it'd be nice to list things like stars
+2018-10-01 12:55:20	Kirjava	stuff like that
+2018-10-01 12:55:30	trinary	Ehh
+2018-10-01 12:55:43	Kirjava	additionally, there are sites where the title is useless, and other information would be more useful
+2018-10-01 12:55:48	trinary	I don't care about those. Of course that's just my opinion
+2018-10-01 12:56:22	Kirjava	writing website specific code is the only thing that personally irks me about it
+2018-10-01 12:56:57	trinary	So don't. The currently titles are fine
+2018-10-01 12:57:01	trinary	*current
+2018-10-01 12:57:16	Kirjava	fair enough
+2018-10-01 13:12:58	~LambdaComplex	egg
+2018-10-01 13:19:52	Kirjava	~egg
+2018-10-01 13:19:52	EggServ	K​irjava: egg
+2018-10-01 13:19:52	EggServ	t​rinary: egg
+2018-10-01 13:19:53	EggServ	d​arkwater: egg
+2018-10-01 13:19:53	EggServ	a​esthetik: egg
+2018-10-01 13:19:53	EggServ	w​inny: egg
+2018-10-01 13:19:53	EggServ	k​yubiko: egg
+2018-10-01 13:19:54	EggServ	m​eep: egg
+2018-10-01 13:19:54	EggServ	L​ambdaComplex: egg
+2018-10-01 13:19:54	EggServ	S​cribbler: egg
+2018-10-01 13:19:59	Kirjava	~> util
+2018-10-01 13:19:59	EggServ	{ ping: [Function: ping], parseTime: [Function: parseTime], parseCommand: [Function: parseCommand], objectDebug: [Function: objectDebug], breakHighlight: [Function: breakHighlight] }
+2018-10-01 18:34:43	<--	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has quit (Remote host closed the connection)
+2018-10-01 18:34:51	-->	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has joined #eggchan
+2018-10-01 18:44:04	--	irc: disconnected from server
+2018-10-01 18:47:43	-->	Kirjava (~cake@Rizon-F9ADB79B.ip-51-254-223.eu) has joined #eggchan
+2018-10-01 18:47:43	--	Topic for #eggchan is "LATEST EGGCHAN NEWS: multipart crate seems to be fixed so let's stick with rocket (for now at least) | [api.]lambdachan.org is now https"
+2018-10-01 18:47:43	--	Topic set by LambdaComplex (~blackmesa@e.g.g) on Mon, 30 Jul 2018 01:38:10
+2018-10-01 18:47:43	--	Channel #eggchan: 10 nicks (1 op, 0 halfops, 0 voices, 9 normals)
+2018-10-01 18:47:52	--	Channel created on Mon, 18 Jun 2018 12:33:12
+2018-10-01 18:52:00	<--	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has quit (Remote host closed the connection)
+2018-10-01 18:52:06	-->	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has joined #eggchan
+2018-10-01 18:52:33	Kirjava	sorry for the part join spam
+2018-10-01 19:00:34	<--	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has quit (Remote host closed the connection)
+2018-10-01 19:00:40	-->	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has joined #eggchan
+2018-10-01 19:40:19	<--	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has quit (Remote host closed the connection)
+2018-10-01 19:40:25	-->	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has joined #eggchan
+2018-10-01 19:51:31	<--	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has quit (Remote host closed the connection)
+2018-10-01 19:51:37	-->	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has joined #eggchan
+2018-10-01 20:47:15	~LambdaComplex	egg
+2018-10-02 00:19:23	--	irc: disconnected from server
+2018-10-02 08:58:29	-->	Kirjava (~cake@Rizon-F9ADB79B.ip-51-254-223.eu) has joined #eggchan
+2018-10-02 08:58:29	--	Topic for #eggchan is "LATEST EGGCHAN NEWS: multipart crate seems to be fixed so let's stick with rocket (for now at least) | [api.]lambdachan.org is now https"
+2018-10-02 08:58:29	--	Topic set by LambdaComplex (~blackmesa@e.g.g) on Mon, 30 Jul 2018 01:38:10
+2018-10-02 08:58:29	--	Channel #eggchan: 10 nicks (1 op, 0 halfops, 0 voices, 9 normals)
+2018-10-02 08:58:32	--	irc: disconnected from server
+2018-10-02 08:58:45	-->	Kirjava (~cake@Rizon-F9ADB79B.ip-51-254-223.eu) has joined #eggchan
+2018-10-02 08:58:45	--	Topic for #eggchan is "LATEST EGGCHAN NEWS: multipart crate seems to be fixed so let's stick with rocket (for now at least) | [api.]lambdachan.org is now https"
+2018-10-02 08:58:45	--	Topic set by LambdaComplex (~blackmesa@e.g.g) on Mon, 30 Jul 2018 01:38:10
+2018-10-02 08:58:45	--	Channel #eggchan: 10 nicks (1 op, 0 halfops, 0 voices, 9 normals)
+2018-10-02 08:58:53	--	Channel created on Mon, 18 Jun 2018 12:33:12
+2018-10-02 12:11:36	Kirjava	~> acquire('is-odd').then(d => d(NaN)).cathc(print.log)
+2018-10-02 12:11:37	EggServ	TypeError: acquire(...).then(...).cathc is not a function
+2018-10-02 12:11:40	Kirjava	~> acquire('is-odd').then(d => d(NaN)).catch(print.log)
+2018-10-02 12:11:40	EggServ	Promise { <pending> }
+2018-10-02 12:11:40	EggServ	TypeError: expected a number at isOdd (webpack://__acquire__/./acquire_cache/node_modules/is-odd/index.js?:15:11) at acquire.then.d (vm.js:31:41) at Object.apply (/home/thom/nibblrjr/node_modules/vm2/lib/contextify.js:87:36) at <anonymous>
+2018-10-02 12:11:54	Kirjava	but NaN is a number :c
+2018-10-02 13:40:04	~LambdaComplex	egg
+2018-10-02 13:40:05	meep	egg
+2018-10-02 13:44:32	Kirjava	eggggg
+2018-10-02 13:47:10	~LambdaComplex	eg g g g
+2018-10-02 13:49:53	Kirjava	~repeat(999) egg
+2018-10-02 13:49:54	EggServ	t​rinary: egg
+2018-10-02 13:49:55	EggServ	d​arkwater: egg
+2018-10-02 13:49:55	EggServ	a​esthetik: egg
+2018-10-02 13:49:56	EggServ	w​inny: egg
+2018-10-02 13:49:56	EggServ	k​yubiko: egg
+2018-10-02 13:49:56	EggServ	m​eep: egg
+2018-10-02 13:49:56	EggServ	L​ambdaComplex: egg
+2018-10-02 13:49:57	EggServ	S​cribbler: egg
+2018-10-02 13:49:57	EggServ	K​irjava: egg
+2018-10-02 13:49:57	EggServ	t​rinary: egg
+2018-10-02 13:49:58	EggServ	d​arkwater: egg
+2018-10-02 13:49:58	EggServ	a​esthetik: egg
+2018-10-02 13:49:59	EggServ	w​inny: egg
+2018-10-02 13:49:59	EggServ	k​yubiko: egg
+2018-10-02 13:50:00	EggServ	m​eep: egg
+2018-10-02 13:50:00	EggServ	L​ambdaComplex: egg
+2018-10-02 13:50:01	EggServ	S​cribbler: egg
+2018-10-02 13:50:01	EggServ	K​irjava: egg
+2018-10-02 13:50:02	EggServ	t​rinary: egg
+2018-10-02 13:50:02	EggServ	d​arkwater: egg
+2018-10-02 13:50:03	EggServ	a​esthetik: egg
+2018-10-02 13:50:03	EggServ	w​inny: egg
+2018-10-02 13:50:04	EggServ	k​yubiko: egg
+2018-10-02 13:50:04	EggServ	m​eep: egg
+2018-10-02 13:50:05	EggServ	L​ambdaComplex: egg
+2018-10-02 13:50:05	EggServ	S​cribbler: egg
+2018-10-02 13:50:06	EggServ	K​irjava: egg
+2018-10-02 13:50:06	EggServ	t​rinary: egg
+2018-10-02 13:50:07	EggServ	d​arkwater: egg
+2018-10-02 13:50:07	EggServ	a​esthetik: egg
+2018-10-02 13:50:08	EggServ	w​inny: egg
+2018-10-02 13:50:08	EggServ	k​yubiko: egg
+2018-10-02 13:50:09	EggServ	m​eep: egg
+2018-10-02 13:50:09	EggServ	L​ambdaComplex: egg
+2018-10-02 13:50:10	EggServ	S​cribbler: egg
+2018-10-02 13:50:10	EggServ	K​irjava: egg
+2018-10-02 13:50:11	EggServ	t​rinary: egg
+2018-10-02 13:50:11	EggServ	d​arkwater: egg
+2018-10-02 13:50:12	EggServ	a​esthetik: egg
+2018-10-02 13:50:12	EggServ	w​inny: egg
+2018-10-02 13:50:13	EggServ	k​yubiko: egg
+2018-10-02 13:50:13	EggServ	m​eep: egg
+2018-10-02 13:50:14	EggServ	L​ambdaComplex: egg
+2018-10-02 13:50:14	EggServ	S​cribbler: egg
+2018-10-02 13:50:15	EggServ	K​irjava: egg
+2018-10-02 13:50:15	EggServ	t​rinary: egg
+2018-10-02 13:50:16	EggServ	d​arkwater: egg
+2018-10-02 13:50:16	EggServ	a​esthetik: egg
+2018-10-02 13:50:17	<--	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has quit (Remote host closed the connection)
+2018-10-02 13:50:21	-->	EggServ (~eternium@Rizon-F9ADB79B.ip-51-254-223.eu) has joined #eggchan
+2018-10-02 13:50:31	Kirjava	I should rate limit enough that it can spam eternally
+2018-10-02 13:50:42	~LambdaComplex	EGG
+2018-10-02 13:50:42	meep	egg?
+2018-10-02 13:52:29	Kirjava	egg.
+2018-10-02 13:54:58	~LambdaComplex	!
+2018-10-02 14:00:18	Scribbler	~repeat(9) repeat(9) repeat(9) repeat(9) repeat(9) repeat(9) repeat(9) repeat(9) repeat(9) repeat(9) egg
+2018-10-02 14:00:19	EggServ	K​irjava: egg
+2018-10-02 14:00:20	EggServ	t​rinary: egg
+2018-10-02 14:00:20	EggServ	d​arkwater: egg
+2018-10-02 14:00:21	EggServ	a​esthetik: egg
+2018-10-02 14:00:21	EggServ	w​inny: egg
+2018-10-02 14:00:21	EggServ	k​yubiko: egg
+2018-10-02 14:00:21	EggServ	m​eep: egg
+2018-10-02 14:00:22	EggServ	L​ambdaComplex: egg
+2018-10-02 14:00:22	EggServ	S​cribbler: egg
+2018-10-02 14:00:22	EggServ	K​irjava: egg
+2018-10-02 14:00:23	EggServ	t​rinary: egg
+2018-10-02 14:00:23	EggServ	d​arkwater: egg
+2018-10-02 14:00:24	EggServ	a​esthetik: egg
+2018-10-02 14:00:24	EggServ	w​inny: egg
+2018-10-02 14:00:25	EggServ	k​yubiko: egg
+2018-10-02 14:00:25	EggServ	m​eep: egg
+2018-10-02 14:00:26	EggServ	L​ambdaComplex: egg
+2018-10-02 14:00:26	EggServ	S​cribbler: egg
+2018-10-02 14:00:27	EggServ	K​irjava: egg
+2018-10-02 14:00:27	EggServ	t​rinary: egg
+2018-10-02 14:00:28	EggServ	d​arkwater: egg
+2018-10-02 14:00:28	EggServ	a​esthetik: egg
+2018-10-02 14:00:29	EggServ	w​inny: egg
+2018-10-02 14:00:29	EggServ	k​yubiko: egg
+2018-10-02 14:00:30	EggServ	m​eep: egg
+2018-10-02 14:00:30	EggServ	L​ambdaComplex: egg
+2018-10-02 14:00:31	EggServ	S​cribbler: egg
+2018-10-02 14:00:31	EggServ	K​irjava: egg
+2018-10-02 14:00:32	EggServ	t​rinary: egg
+2018-10-02 14:00:32	EggServ	d​arkwater: egg
+2018-10-02 14:00:33	EggServ	a​esthetik: egg
+2018-10-02 14:00:33	EggServ	w​inny: egg
+2018-10-02 14:00:33	Kirjava	o
+2018-10-02 14:00:34	EggServ	k​yubiko: egg
+2018-10-02 14:00:34	EggServ	m​eep: egg
+2018-10-02 14:00:35	EggServ	L​ambdaComplex: egg
+2018-10-02 14:00:35	EggServ	S​cribbler: egg
+2018-10-02 14:00:35	Scribbler	gottem
+2018-10-02 14:00:36	EggServ	K​irjava: egg
+2018-10-02 14:00:36	EggServ	t​rinary: egg
+2018-10-02 14:00:36	Kirjava	forgot about that
+2018-10-02 14:00:37	EggServ	d​arkwater: egg
+2018-10-02 14:00:37	EggServ	a​esthetik: egg
+2018-10-02 14:00:38	EggServ	w​inny: egg
+2018-10-02 14:00:38	EggServ	k​yubiko: egg
+2018-10-02 14:00:39	EggServ	m​eep: egg
+2018-10-02 14:00:39	EggServ	L​ambdaComplex: egg
+2018-10-02 14:00:40	EggServ	S​cribbler: egg
+2018-10-02 14:00:40	EggServ	K​irjava: egg
+2018-10-02 14:00:41	EggServ	t​rinary: egg
+2018-10-02 14:00:41	EggServ	d​arkwater: egg
+2018-10-02 14:00:42	EggServ	a​esthetik: egg
+2018-10-02 14:00:42	EggServ	w​inny: egg
+2018-10-02 14:00:43	EggServ	k​yubiko: egg
+2018-10-02 14:00:43	EggServ	m​eep: egg
+2018-10-02 14:00:44	EggServ	L​ambdaComplex: egg
+2018-10-02 14:00:44	EggServ	S​cribbler: egg
+2018-10-02 14:00:45	EggServ	K​irjava: egg
+2018-10-02 14:00:45	EggServ	t​rinary: egg
+2018-10-02 14:00:46	EggServ	d​arkwater: egg
+2018-10-02 14:00:46	EggServ	a​esthetik: egg
+2018-10-02 14:00:47	EggServ	w​inny: egg
+2018-10-02 14:00:47	EggServ	k​yubiko: egg
+2018-10-02 14:00:48	EggServ	m​eep: egg
+2018-10-02 14:00:48	EggServ	L​ambdaComplex: egg
+2018-10-02 14:00:49	EggServ	S​cribbler: egg
+2018-10-02 14:00:49	EggServ	K​irjava: egg
+2018-10-02 14:00:50	EggServ	t​rinary: egg
+2018-10-02 14:00:50	EggServ	d​arkwater: egg
+2018-10-02 14:00:51	EggServ	a​esthetik: egg
+2018-10-02 14:00:51	EggServ	w​inny: egg
+2018-10-02 14:00:52	EggServ	k​yubiko: egg
+2018-10-02 14:00:52	EggServ	m​eep: egg
+2018-10-02 14:00:53	EggServ	L​ambdaComplex: egg
+2018-10-02 14:00:53	EggServ	S​cribbler: egg
+2018-10-02 14:00:54	EggServ	K​irjava: egg
+2018-10-02 14:00:54	EggServ	t​rinary: egg
+2018-10-02 14:00:55	EggServ	d​arkwater: egg
+2018-10-02 14:00:55	EggServ	a​esthetik: egg
+2018-10-02 14:00:55	Scribbler	it doesn't count right tho Kirjava
+2018-10-02 14:00:56	EggServ	w​inny: egg
+2018-10-02 14:00:56	EggServ	k​yubiko: egg
+2018-10-02 14:00:57	EggServ	m​eep: egg
+2018-10-02 14:00:57	EggServ	L​ambdaComplex: egg
+2018-10-02 14:00:58	EggServ	S​cribbler: egg
+2018-10-02 14:00:58	EggServ	K​irjava: egg
+2018-10-02 14:00:59	EggServ	t​rinary: egg
+2018-10-02 14:00:59	EggServ	d​arkwater: egg
+2018-10-02 14:01:00	EggServ	a​esthetik: egg
+2018-10-02 14:01:00	EggServ	w​inny: egg
+2018-10-02 14:01:01	EggServ	k​yubiko: egg
+2018-10-02 14:01:01	EggServ	m​eep: egg
+2018-10-02 14:01:02	EggServ	L​ambdaComplex: egg
+2018-10-02 14:01:02	EggServ	S​cribbler: egg
+2018-10-02 14:01:02	Scribbler	repeat 2 repeat 2 outputted 3?
+2018-10-02 14:01:03	EggServ	K​irjava: egg
+2018-10-02 14:01:03	EggServ	t​rinary: egg
+2018-10-02 14:01:04	EggServ	d​arkwater: egg
+2018-10-02 14:01:04	EggServ	a​esthetik: egg
+2018-10-02 14:01:05	EggServ	w​inny: egg
+2018-10-02 14:01:05	EggServ	k​yubiko: egg
+2018-10-02 14:01:06	EggServ	m​eep: egg
+2018-10-02 14:01:06	EggServ	L​ambdaComplex: egg
+2018-10-02 14:01:07	EggServ	S​cribbler: egg
+2018-10-02 14:01:07	EggServ	K​irjava: egg
+2018-10-02 14:01:57	Kirjava	~repeat(2) repeat(2) egg
+2018-10-02 14:01:58	EggServ	Error: pls no recursion
+2018-10-02 14:02:02	Kirjava	:>
+2018-10-02 14:03:37	Scribbler	~repeat(2) sekrit(2) repeat(2) sekrit(2) repeat(2) sekrit(2) repeat(2) sekrit(2) repeat(2) sekrit(2) finger
+2018-10-02 14:03:37	EggServ	https://i.imgur.com/3lQ2DLd.jpg
+2018-10-02 14:03:37	EggServ	https://i.imgur.com/3lQ2DLd.jpg
+2018-10-02 14:03:37	EggServ	https://i.imgur.com/3lQ2DLd.jpg
+2018-10-02 14:03:38	EggServ	https://i.imgur.com/3lQ2DLd.jpg
+2018-10-02 14:03:38	EggServ	https://i.imgur.com/3lQ2DLd.jpg
+2018-10-02 14:03:38	EggServ	https://i.imgur.com/3lQ2DLd.jpg
+2018-10-02 14:03:38	EggServ	https://i.imgur.com/3lQ2DLd.jpg
+2018-10-02 14:03:39	EggServ	https://i.imgur.com/3lQ2DLd.jpg
+2018-10-02 14:03:39	EggServ	https://i.imgur.com/3lQ2DLd.jpg
+2018-10-02 14:03:40	EggServ	https://i.imgur.com/3lQ2DLd.jpg
+2018-10-02 14:03:40	EggServ	https://i.imgur.com/3lQ2DLd.jpg
+2018-10-02 14:04:45	Kirjava	damn
+2018-10-02 14:05:16	Kirjava	k I guess I can't stop it
+2018-10-02 14:05:21	Scribbler	lol
+2018-10-02 14:05:44	Scribbler	ye i can't think of a good solution
+2018-10-02 14:05:54	Scribbler	you'll have to hire command moderators
+2018-10-02 14:07:19	Kirjava	lol
+2018-10-02 14:07:33	Kirjava	I would need to limit IRC.require somehow
+2018-10-02 14:07:37	Kirjava	~> IRC.require.toString()
+2018-10-02 14:07:37	EggServ	'(str) => {\n const obj = IRC.commandFns.get(str);\n if (obj) {\n const module = new Function(`\n ${obj.command}\n return this.module;\n `)();\n return module.exports;\n }\n else {\n const error = new Error(str + \' not found\');\n error.name = \'RequireError\';\n throw error;\n }\n }'
+2018-10-02 14:07:54	Kirjava	~% print(IRC.require.toString())
+2018-10-02 14:07:54	EggServ	(str) => {
+2018-10-02 14:07:54	EggServ	                    const obj = IRC.commandFns.get(str);
+2018-10-02 14:07:55	EggServ	                    if (obj) {
+2018-10-02 14:07:55	EggServ	                        const module = new Function(`
+2018-10-02 14:07:55	EggServ	                            ${obj.command}
+2018-10-02 14:07:55	EggServ	{obj.command}                            return this.module;
+2018-10-02 14:07:56	EggServ	{obj.command}                        `)();
+2018-10-02 14:07:56	EggServ	{obj.command}                        return module.exports;
+2018-10-02 14:07:56	EggServ	{obj.command}                    }
+2018-10-02 14:07:57	EggServ	{obj.command}                    else {
+2018-10-02 14:07:57	EggServ	{obj.command}                        const error = new Error(str + ' not found');
+2018-10-02 14:07:58	EggServ	{obj.command}                        error.name = 'RequireError';
+2018-10-02 14:07:58	EggServ	{obj.command}                        throw error;
+2018-10-02 14:07:59	EggServ	{obj.command}                    }
+2018-10-02 14:07:59	EggServ	{obj.command}                }
+2018-10-02 14:08:11	Kirjava	wtf lol
+2018-10-02 14:08:15	Kirjava	it broken
+2018-10-02 15:21:40	-->	PositiveC (~PositiveC@py.over.C) has joined #eggchan
+2018-10-02 20:38:36	--	EggServ is now known as EgServ
+2018-10-02 20:38:57	 *	EgServ egg
+2018-10-02 20:39:02	 *	EgServ egg
+2018-10-02 20:39:04	 *	EgServ egg
+2018-10-02 20:39:24	 *	EgServ egg Kirjava
+2018-10-02 21:05:17	Kirjava	hiyo
+2018-10-02 21:05:21	Kirjava	(egg)

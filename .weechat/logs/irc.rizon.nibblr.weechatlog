@@ -1,0 +1,12 @@
+2018-09-27 19:25:04	Kirjava	~> print(`${'{bl,gr} ' + [1,1,1,1,1,1,1].map(d => d == 1 ? '{bo}{p,gr}1{/}{bl,gr}' : d).join`-` + ' {/}'} {dc}${from}{/} got a new score of {y}${total}{/}!`);
+2018-09-27 19:25:05	nibblr	ReferenceError: from is not defined
+2018-09-27 19:25:22	Kirjava	~> print(`${'{bl,gr} ' + [1,1,1,1,1,1,1].map(d => d == 1 ? '{bo}{p,gr}1{/}{bl,gr}' : d).join`-` + ' {/}'} {dc}Kirjava{/} got a new score of {y}8{/}!`);
+2018-09-27 19:25:23	nibblr	 1-1-1-1-1-1-1  Kirjava got a new score of 8!
+2018-09-27 19:25:23	nibblr	undefined
+2018-09-27 19:26:07	Kirjava	~> print(`${'{bl,gr} ' + [1,1,1,1,1,1,1].map(d => d == 1 ? '{bo}{p,gr}1{/}{bl,gr}' : d).join`-` + ' {/}'} {dc}Kirjava{/} got a new score of {y}8{/}!`);
+2018-09-27 19:26:09	nibblr	 1-1-1-1-1-1-1  Kirjava got a new score of 8!
+2018-09-27 19:26:09	nibblr	undefined
+2018-09-27 19:26:17	Kirjava	~> print(`${'{bl,gr} ' + [1,1,1,1,1,1,1].map(d => d == 1 ? '{bo}{p,gr}1{/}{bl,gr}' : d).join`-` + ' {/}'} {dc}Kirjava{/} got a new score of {y}8{/}!`, '#8bitvape');
+2018-09-27 19:26:18	nibblr	undefined
+2018-09-27 19:27:05	Kirjava	~> print(`${'{bl,gr} ' + [-3].map(d => d == 1 ? '{bo}{p,gr}1{/}{bl,gr}' : d).join`-` + ' {/}'} {dc}Kirjava{/} got a new score of {y}-3{/}!`, '#8bitvape');
+2018-09-27 19:27:06	nibblr	undefined
