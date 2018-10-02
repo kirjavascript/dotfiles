@@ -1,3 +1,0 @@
-2018-09-24 12:42:33	Kirjava	~> setTimeout(() => {print(',3', 'nibblr')}, 50);
-2018-09-24 12:42:34	realNibblr	1
-2018-09-24 12:43:22	Kirjava	~reset

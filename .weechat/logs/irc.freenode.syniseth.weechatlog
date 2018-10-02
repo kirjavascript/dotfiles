@@ -1,5 +1,0 @@
-2018-09-21 23:38:18	syniseth	just split camelCase
-2018-09-21 23:38:55	syniseth	'camelCase' => ['camel', 'Case']
-2018-09-21 23:39:08	syniseth	the match works but I'm trying to do it all ine one regex with split
-2018-09-21 23:39:58	syniseth	I have an idea that is, finding empty string character that has an uppecase right after it, but don't know how to use that in regex.
-2018-09-21 23:41:37	Kirjava	split is not the right tool to use
