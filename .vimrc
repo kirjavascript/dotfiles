@@ -246,6 +246,7 @@ set relativenumber " relative line numbers
 set mouse=a " enable mouse support in terminal
 set laststatus=2 " always show a statusline
 set noshowmode " hide -- INSERT -- text
+set lazyredraw " don't redraw whenthere are pending macro operations
 set history=1000 " loadsa history
 set hidden " switch buffers without saving
 set fillchars+=vert:\│ " make split char a solid line
