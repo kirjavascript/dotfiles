@@ -18,7 +18,7 @@ exec --no-startup-id nm-applet
 exec --no-startup-id xfce4-power-manager
 exec --no-startup-id pamac-tray
 exec --no-startup-id xautolock -time 30 -locker blurlock
-exec --no-startup-id feh --bg-fill ~/backgrounds/quantum.png
+exec --no-startup-id feh --bg-fill ~/wallpapers/main.png
 exec_always --no-startup-id fix_xcursor
 # exec_always --no-startup-id killall polybar; polybar blue & polybar blue2
 exec_always --no-startup-id ~/dev/cakeybar/target/release/cakeybar -c ~/dev/cakeybar/examples/darkblue/config.toml
