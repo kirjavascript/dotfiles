@@ -145,13 +145,14 @@ nnoremap <silent> <Leader>we :! curl -s wttr.in/Manchester \| sed -r "s/\x1B\[[0
 
 "" plugin config
 
-" esearch (maps <Leader>ff annoyingly)
+" esearch (maps <Leader>ff)
 let g:esearch = {
   \ 'adapter':    'ag',
   \ 'backend':    'vim8',
   \ 'out':        'win',
   \ 'batch_size': 1000,
   \ 'use':        [],
+  \ 'default_mappings': 1,
   \}
 
 " CtrlSf
