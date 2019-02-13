@@ -23,11 +23,10 @@ Plug 'eugen0329/vim-esearch' " requires ag
 Plug 'dyng/ctrlsf.vim' " ???
 " languages
 Plug 'neoclide/vim-jsx-improve'
-Plug 'ternjs/tern_for_vim', { 'do': 'npm install' }
-Plug 'racer-rust/vim-racer' " cargo install racer && rustup component add rust-src
 Plug 'captbaritone/better-indent-support-for-php-with-html'
 Plug 'sheerun/vim-polyglot'
 Plug 'honza/vim-snippets'
+Plug 'w0rp/ale'
 " editing
 Plug 'terryma/vim-multiple-cursors'
 Plug 'tpope/vim-commentary'
@@ -176,14 +175,16 @@ let g:bufExplorerDisableDefaultKeyMapping=1
 set undofile
 nnoremap <silent> <Leader>u :UndotreeToggle <BAR> :UndotreeFocus<CR>
 
-" completor.vim
+" ale
 inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
 inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 inoremap <expr> <cr> pumvisible() ? "\<C-y>\<cr>" : "\<cr>"
+let g:ale_completion_enabled = 1
+let g:ale_linters = { 'rust': [ 'rls' ], }
+let g:ale_rust_rls_toolchain = 'stable' " this is needed, otherwise rls uses nightly toolchain
 set completeopt=menuone,noinsert,noselect
-let g:completor_complete_options='menuone,noselect,noinsert'
-set shortmess+=c " Shut off completion messages
-let g:completor_javascript_omni_trigger = "\\w+$|[\\w\\)\\]\\}\'\"]+\\.\\w*$"
+" sudo aura -As javascript-typescript-server
+" rustup component add rls rust-analysis rust-src
 
 " start NERDTree if no file is specified
 nnoremap <Leader>nt :NERDTreeToggle<CR>

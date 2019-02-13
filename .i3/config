@@ -20,7 +20,6 @@ exec --no-startup-id pamac-tray
 exec --no-startup-id xautolock -time 30 -locker blurlock
 exec --no-startup-id feh --bg-fill ~/wallpapers/main.png
 exec_always --no-startup-id fix_xcursor
-# exec_always --no-startup-id killall polybar; polybar blue & polybar blue2
 exec_always --no-startup-id ~/dev/cakeybar/target/release/cakeybar -c ~/dev/cakeybar/examples/darkblue/config.toml
 
 # Set mod key (Mod1=<Alt>, Mod4=<Super>)
