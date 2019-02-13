@@ -13,6 +13,7 @@ if empty(glob('~/.vim/autoload/plug.vim'))
 endif
 
 call plug#begin('~/.vim/plugged')
+Plug 'adelarsq/vim-hackernews'
 
 " tools
 Plug 'scrooloose/nerdtree'
@@ -183,7 +184,7 @@ let g:ale_completion_enabled = 1
 let g:ale_linters = { 'rust': [ 'rls' ], }
 let g:ale_rust_rls_toolchain = 'stable' " this is needed, otherwise rls uses nightly toolchain
 set completeopt=menuone,noinsert,noselect
-" sudo aura -As javascript-typescript-server
+" sudo aura -As javascript-typescript-langserver
 " rustup component add rls rust-analysis rust-src
 
 " start NERDTree if no file is specified
