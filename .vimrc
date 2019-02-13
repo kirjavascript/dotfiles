@@ -18,7 +18,6 @@ Plug 'adelarsq/vim-hackernews'
 " tools
 Plug 'scrooloose/nerdtree'
 Plug 'jlanzarotta/bufexplorer'
-Plug 'maralla/completor.vim', { 'do' : 'make js' }
 Plug 'mbbill/undotree'
 Plug 'eugen0329/vim-esearch' " requires ag
 Plug 'dyng/ctrlsf.vim' " ???
@@ -181,7 +180,7 @@ inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
 inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 inoremap <expr> <cr> pumvisible() ? "\<C-y>\<cr>" : "\<cr>"
 let g:ale_completion_enabled = 1
-let g:ale_linters = { 'rust': [ 'rls' ], }
+let g:ale_linters = { 'rust': [ 'rls' ] }
 let g:ale_rust_rls_toolchain = 'stable' " this is needed, otherwise rls uses nightly toolchain
 set completeopt=menuone,noinsert,noselect
 " sudo aura -As javascript-typescript-langserver
