@@ -185,9 +185,12 @@ let g:ale_completion_enabled = 1
 let g:ale_lint_delay = 500
 let g:ale_sign_error = '✘'
 let g:ale_sign_warning = '⚠'
-let g:ale_linters = { 'rust': [ 'rls' ] }
+let g:ale_linters = { 'rust': [ 'rls' ], 'javascript': [ 'eslint', 'tsserver' ] }
 let g:ale_fixers = { 'javascript': 'eslint' }
 let g:ale_rust_rls_toolchain = 'stable' " this is needed, otherwise rls uses nightly toolchain
+let g:ale_php_langserver_use_global = 1
+let g:ale_php_langserver_executable = '/home/thom/.config/composer/vendor/felixfbecker/language-server/bin/php-language-server.php'
+set completeopt=menuone,noinsert,noselect
 " sudo aura -A javascript-typescript-langserver
 " sudo pacman -S shellcheck
 " rustup component add rls rust-analysis rust-src
