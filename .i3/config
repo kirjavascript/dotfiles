@@ -55,7 +55,7 @@ bindsym $mod+Shift+q kill
 
 # start program launcher
 bindsym $mod+d exec --no-startup-id dmenu_recency
-bindsym $mod+Ctrl+d exec --no-startup-id rofi -show run
+bindsym $mod+Ctrl+d exec --no-startup-id ~/dev/cakeybar/target/release/cakeybar -m "focus #autocomplete"
 
 bindsym $mod+z exec firefox-nightly
 bindsym $mod+Ctrl+z exec --no-startup-id morc_menu
