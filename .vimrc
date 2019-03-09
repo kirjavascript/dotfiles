@@ -18,7 +18,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'scrooloose/nerdtree'
 Plug 'jlanzarotta/bufexplorer'
 Plug 'mbbill/undotree'
-Plug 'eugen0329/vim-esearch' " requires ag
+Plug 'eugen0329/vim-esearch' " requires ripgrep
 Plug 'dyng/ctrlsf.vim' " ???
 " languages
 Plug 'neoclide/vim-jsx-improve'
@@ -124,9 +124,6 @@ nnoremap <Leader>rf :%s/\(<\/\?\)\(.\)/\1\U\2/g<CR>
 " format PHP like it's HTML
 nnoremap <Leader>fp :set ft=html<CR>gg=G<CR>:set ft=php<CR>
 
-" format with prettier (JS/markdown/CSS/etc)
-nnoremap <Leader>fj :%!prettier --tab-width 4 --single-quote<CR>
-
 " hex helpers
 nnoremap <Leader>hd :%! xxd<CR>
 nnoremap <Leader>hf :%! xxd -r<CR>
@@ -134,9 +131,9 @@ nnoremap <Leader>hf :%! xxd -r<CR>
 " git blame
 vnoremap <Leader>gb :<C-U>tabnew \|r!cd <C-R>=expand("%:p:h")<CR> && git annotate -L<C-R>=line("'<")<CR>,<C-R>=line("'>") <CR> <C-R>=expand("%:t") <CR><CR>
 
-" paste to ptpb
-command! -range=% PASTEBIN  silent execute <line1> . "," . <line2> . "w !curl -sF c=@- https://ptpb.pw | grep 'url: ' | sed 's/^url: //' | xclip -i -selection clipboard"
-vnoremap <Leader>sp :PASTEBIN<CR>
+" paste to ix.io
+command! -range=% IX <line1>,<line2>w !curl -F 'f:1=<-' ix.io | tr -d '\n' | xclip -i -selection clipboard
+vnoremap <Leader>sp :IX<CR>
 
 " show weather report
 nnoremap <silent> <Leader>we :! curl -s wttr.in/Manchester \| sed -r "s/\x1B\[[0-9;]*[JKmsu]//g"<CR>
@@ -145,7 +142,7 @@ nnoremap <silent> <Leader>we :! curl -s wttr.in/Manchester \| sed -r "s/\x1B\[[0
 
 " esearch (maps <Leader>ff)
 let g:esearch = {
-  \ 'adapter':    'ag',
+  \ 'adapter':    'rg',
   \ 'backend':    'vim8',
   \ 'out':        'win',
   \ 'batch_size': 1000,
