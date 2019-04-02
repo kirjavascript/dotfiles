@@ -13,6 +13,7 @@ if empty(glob('~/.vim/autoload/plug.vim'))
 endif
 
 call plug#begin('~/.vim/plugged')
+Plug 'adelarsq/vim-hackernews'
 
 " tools
 Plug 'scrooloose/nerdtree'
@@ -35,7 +36,7 @@ Plug 'SirVer/ultisnips'
 Plug 'itchyny/lightline.vim'
 Plug 'airblade/vim-gitgutter'
 Plug 'Valloric/MatchTagAlways'
-Plug 'chrisbra/Colorizer'
+Plug 'RRethy/vim-hexokinase'
 Plug 'xtal8/traces.vim'
 Plug 'machakann/vim-highlightedyank'
 " colours
@@ -238,12 +239,12 @@ endfunction
 let g:mta_filetypes = {'html':1,'xhtml':1,'xml':1,'php':1,'ejs':1}
 
 " vim-highlighedyank
-
 let g:highlightedyank_highlight_duration = 200
 
 " highlight colours
-let g:colorizer_auto_filetype='css,html,scss'
-let g:colorizer_colornames = 0
+let g:Hexokinase_highlighters = ['sign_column']
+let g:Hexokinase_refreshEvents = ['TextChanged', 'TextChangedI']
+let g:Hexokinase_ftAutoload = ['css', 'xml', 'scss', 'html']
 
 " disable polyglot stuff
 let g:polyglot_disabled = ['javascript','jsx']

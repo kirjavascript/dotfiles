@@ -85,12 +85,26 @@ endsnippet
 snippet rc "react class" b
 import React, { Component } from 'react';
 
-export class ${1:ClassName} extends Component {
+export default class ${1:ClassName} extends Component {
 
     render() {
         return <div>
             $2
         </div>;
+    }
+
+}
+endsnippet
+
+snippet rf "react function" b
+import React, { Fragment } from 'react';
+
+export default function ${1:Name} {
+
+    render() {
+        return (
+            $2
+        );
     }
 
 }
