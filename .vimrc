@@ -13,7 +13,6 @@ if empty(glob('~/.vim/autoload/plug.vim'))
 endif
 
 call plug#begin('~/.vim/plugged')
-Plug 'adelarsq/vim-hackernews'
 
 " tools
 Plug 'scrooloose/nerdtree'
@@ -26,7 +25,8 @@ Plug 'neoclide/vim-jsx-improve'
 Plug 'captbaritone/better-indent-support-for-php-with-html'
 Plug 'sheerun/vim-polyglot'
 Plug 'honza/vim-snippets'
-Plug 'w0rp/ale'
+" Plug 'w0rp/ale'
+Plug 'neoclide/coc.nvim', {'do': './install.sh nightly'}
 " editing
 Plug 'terryma/vim-multiple-cursors'
 Plug 'tpope/vim-commentary'
@@ -42,8 +42,7 @@ Plug 'machakann/vim-highlightedyank'
 " colours
 Plug 'joshdick/onedark.vim'
 Plug 'trevordmiller/nova-vim'
-Plug 'mhartington/oceanic-next'
-Plug 'arcticicestudio/nord-vim'
+Plug 'noahfrederick/vim-noctu'
 
 call plug#end()
 
@@ -172,27 +171,68 @@ let g:bufExplorerDisableDefaultKeyMapping=1
 set undofile
 nnoremap <silent> <Leader>u :UndotreeToggle <BAR> :UndotreeFocus<CR>
 
+" coc
+
+" CocInstall coc-tsserver coc-eslint coc-json coc-css coc-rls
+
+inoremap <silent><expr> <TAB>
+      \ pumvisible() ? "\<C-n>" :
+      \ <SID>check_back_space() ? "\<TAB>" :
+      \ coc#refresh()
+inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
+
+function! s:check_back_space() abort
+  let col = col('.') - 1
+  return !col || getline('.')[col - 1]  =~# '\s'
+endfunction
+
+" Use <c-space> to trigger completion.
+inoremap <silent><expr> <c-space> coc#refresh()
+
+" Use <cr> to confirm completion, `<C-g>u` means break undo chain at current position.
+" Coc only does snippet and additional edit on confirm.
+inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
+
+" Use `[c` and `]c` to navigate diagnostics
+nmap <silent> [c <Plug>(coc-diagnostic-prev)
+nmap <silent> ]c <Plug>(coc-diagnostic-next)
+
+" Remap keys for gotos
+nmap <silent> gd <Plug>(coc-definition)
+nmap <silent> gy <Plug>(coc-type-definition)
+nmap <silent> gi <Plug>(coc-implementation)
+nmap <silent> gr <Plug>(coc-references)
+
+" Remap for rename current word
+nmap <leader>rn <Plug>(coc-rename)
+
+" Remap for format selected region
+vmap <leader>f  <Plug>(coc-format-selected)
+nmap <leader>f  <Plug>(coc-format-selected)
+
+set completeopt=menu,menuone,noinsert,noselect
+
 " ale
-nnoremap <Leader>ag :ALEGoToDefinition<CR>
-nnoremap <Leader>af :ALEFix<CR>
-nnoremap <Leader>at :ALEToggle<CR>
-inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
-inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
-inoremap <expr> <cr> pumvisible() ? "\<C-y>\<cr>" : "\<cr>"
-let g:ale_completion_enabled = 1
-let g:ale_lint_delay = 500
-let g:ale_sign_error = '✘'
-let g:ale_sign_warning = '⚠'
-let g:ale_linters = { 'rust': [ 'rls' ], 'javascript': [ 'eslint', 'tsserver' ] }
-let g:ale_fixers = { 'javascript': 'eslint' }
-let g:ale_rust_rls_toolchain = 'stable' " this is needed, otherwise rls uses nightly toolchain
-let g:ale_php_langserver_use_global = 1
-let g:ale_php_langserver_executable = '/home/thom/.config/composer/vendor/felixfbecker/language-server/bin/php-language-server.php'
-set completeopt=menuone,noinsert,noselect
-" sudo aura -A javascript-typescript-langserver
-" sudo pacman -S shellcheck
-" rustup component add rls rust-analysis rust-src
-" https://github.com/felixfbecker/php-language-server/issues/611
+" nnoremap <Leader>ag :ALEGoToDefinition<CR>
+" nnoremap <Leader>af :ALEFix<CR>
+" nnoremap <Leader>at :ALEToggle<CR>
+" inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
+" inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
+" inoremap <expr> <cr> pumvisible() ? "\<C-y>\<cr>" : "\<cr>"
+" let g:ale_completion_enabled = 1
+" let g:ale_lint_delay = 500
+" let g:ale_sign_error = '✘'
+" let g:ale_sign_warning = '⚠'
+" let g:ale_linters = { 'rust': [ 'rls' ], 'javascript': [ 'eslint', 'tsserver' ] }
+" let g:ale_fixers = { 'javascript': 'eslint' }
+" let g:ale_rust_rls_toolchain = 'stable' " this is needed, otherwise rls uses nightly toolchain
+" let g:ale_php_langserver_use_global = 1
+" let g:ale_php_langserver_executable = '/home/thom/.config/composer/vendor/felixfbecker/language-server/bin/php-language-server.php'
+" set completeopt=menuone,noinsert,noselect
+" " sudo aura -A javascript-typescript-langserver
+" " sudo pacman -S shellcheck
+" " rustup component add rls rust-analysis rust-src
+" " https://github.com/felixfbecker/php-language-server/issues/611
 
 " start NERDTree if no file is specified
 nnoremap <Leader>nt :NERDTreeToggle<CR>
