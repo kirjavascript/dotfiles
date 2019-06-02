@@ -36,7 +36,6 @@ Plug 'SirVer/ultisnips'
 Plug 'itchyny/lightline.vim'
 Plug 'airblade/vim-gitgutter'
 Plug 'Valloric/MatchTagAlways'
-Plug 'RRethy/vim-hexokinase'
 Plug 'xtal8/traces.vim'
 Plug 'machakann/vim-highlightedyank'
 " colours
@@ -116,7 +115,7 @@ nnoremap <Leader>i3 :e $HOME/.i3/config<CR>
 nnoremap <Leader>zx :e $HOME/todo<CR>
 
 " load current file in firefox
-nnoremap <Leader>fx :!firefox %<CR>
+nnoremap <Leader>fx :!firefox-nightly %<CR>
 
 " reactify XML (eg react-native-svg)
 nnoremap <Leader>rf :%s/\(<\/\?\)\(.\)/\1\U\2/g<CR>
@@ -274,11 +273,6 @@ let g:mta_filetypes = {'html':1,'xhtml':1,'xml':1,'php':1,'ejs':1}
 
 " vim-highlighedyank
 let g:highlightedyank_highlight_duration = 200
-
-" highlight colours
-let g:Hexokinase_highlighters = ['sign_column']
-let g:Hexokinase_refreshEvents = ['TextChanged', 'TextChangedI']
-let g:Hexokinase_ftAutoload = ['css', 'xml', 'scss', 'html']
 
 " disable polyglot stuff
 let g:polyglot_disabled = ['javascript','jsx']
