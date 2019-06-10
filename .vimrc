@@ -172,7 +172,7 @@ nnoremap <silent> <Leader>u :UndotreeToggle <BAR> :UndotreeFocus<CR>
 
 " coc
 
-" CocInstall coc-tsserver coc-eslint coc-html coc-json coc-css coc-stylelint coc-rls
+" CocInstall coc-tsserver coc-eslint coc-html coc-json coc-css coc-stylelint coc-rls coc-phpls
 
 inoremap <silent><expr> <TAB>
       \ pumvisible() ? "\<C-n>" :
