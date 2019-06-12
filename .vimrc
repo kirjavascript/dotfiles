@@ -13,6 +13,7 @@ if empty(glob('~/.vim/autoload/plug.vim'))
 endif
 
 call plug#begin('~/.vim/plugged')
+Plug 'adelarsq/vim-hackernews'
 
 " tools
 Plug 'scrooloose/nerdtree'
@@ -25,7 +26,6 @@ Plug 'neoclide/vim-jsx-improve'
 Plug 'captbaritone/better-indent-support-for-php-with-html'
 Plug 'sheerun/vim-polyglot'
 Plug 'honza/vim-snippets'
-" Plug 'w0rp/ale'
 Plug 'neoclide/coc.nvim', {'do': './install.sh nightly'}
 " editing
 Plug 'terryma/vim-multiple-cursors'
@@ -204,28 +204,6 @@ vmap <leader>cf  <Plug>(coc-format-selected)
 nmap <leader>cf  <Plug>(coc-format-selected)
 
 set completeopt=menu,noinsert,noselect
-
-" ale
-" nnoremap <Leader>ag :ALEGoToDefinition<CR>
-" nnoremap <Leader>af :ALEFix<CR>
-" nnoremap <Leader>at :ALEToggle<CR>
-" inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
-" inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
-" inoremap <expr> <cr> pumvisible() ? "\<C-y>\<cr>" : "\<cr>"
-" let g:ale_completion_enabled = 1
-" let g:ale_lint_delay = 500
-" let g:ale_sign_error = '✘'
-" let g:ale_sign_warning = '⚠'
-" let g:ale_linters = { 'rust': [ 'rls' ], 'javascript': [ 'eslint', 'tsserver' ] }
-" let g:ale_fixers = { 'javascript': 'eslint' }
-" let g:ale_rust_rls_toolchain = 'stable' " this is needed, otherwise rls uses nightly toolchain
-" let g:ale_php_langserver_use_global = 1
-" let g:ale_php_langserver_executable = '/home/thom/.config/composer/vendor/felixfbecker/language-server/bin/php-language-server.php'
-" set completeopt=menuone,noinsert,noselect
-" " sudo aura -A javascript-typescript-langserver
-" " sudo pacman -S shellcheck
-" " rustup component add rls rust-analysis rust-src
-" " https://github.com/felixfbecker/php-language-server/issues/611
 
 " start NERDTree if no file is specified
 nnoremap <Leader>nt :NERDTreeToggle<CR>
