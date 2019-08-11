@@ -40,7 +40,6 @@ Plug 'machakann/vim-highlightedyank'
 " colours
 Plug 'joshdick/onedark.vim'
 Plug 'trevordmiller/nova-vim'
-Plug 'noahfrederick/vim-noctu'
 
 call plug#end()
 
