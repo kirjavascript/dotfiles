@@ -19,7 +19,7 @@ secondary = #0087FF
 alert = #030006
 
 [bar/blue]
-monitor = ${env:MONITOR:DVI-I-1}
+monitor = ${env:MONITOR:DVI-D-0}
 width = 100%
 height = 27
 ;offset-x = 1%

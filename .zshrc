@@ -26,6 +26,7 @@ export ANDROID_HOME=$HOME/Android/Sdk
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 export SUDO_PROMPT='[beep boop please login] '
+export BSPWM_SOCKET='/tmp/bspwm-tmp'
 
 # keys
 # use cat to get the secret codez
