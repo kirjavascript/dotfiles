@@ -15,6 +15,7 @@ endif
 call plug#begin('~/.vim/plugged')
 
 " tools
+Plug 'kirjavascript/nibblrjr.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'jlanzarotta/bufexplorer'
 Plug 'mbbill/undotree'
@@ -40,6 +41,7 @@ Plug 'machakann/vim-highlightedyank'
 " colours
 Plug 'joshdick/onedark.vim'
 Plug 'trevordmiller/nova-vim'
+Plug 'noahfrederick/vim-noctu'
 
 call plug#end()
 
@@ -170,7 +172,7 @@ nnoremap <silent> <Leader>u :UndotreeToggle <BAR> :UndotreeFocus<CR>
 
 " coc
 
-" CocInstall coc-tsserver coc-eslint coc-html coc-json coc-css coc-stylelint coc-rls coc-phpls
+" CocInstall coc-tsserver coc-eslint coc-html coc-json coc-css coc-stylelint coc-rls coc-phpls coc-svg
 
 inoremap <silent><expr> <TAB>
       \ pumvisible() ? "\<C-n>" :
