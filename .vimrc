@@ -13,6 +13,7 @@ if empty(glob('~/.vim/autoload/plug.vim'))
 endif
 
 call plug#begin('~/.vim/plugged')
+Plug 'adelarsq/vim-hackernews'
 
 " tools
 Plug 'kirjavascript/nibblrjr.vim'
@@ -172,7 +173,7 @@ nnoremap <silent> <Leader>u :UndotreeToggle <BAR> :UndotreeFocus<CR>
 
 " coc
 
-" CocInstall coc-tsserver coc-eslint coc-html coc-json coc-css coc-stylelint coc-rls coc-phpls coc-svg
+" CocInstall coc-tsserver coc-eslint coc-html coc-json coc-css coc-stylelint coc-rls coc-phpls
 
 inoremap <silent><expr> <TAB>
       \ pumvisible() ? "\<C-n>" :
