@@ -40,6 +40,10 @@ Plug 'machakann/vim-highlightedyank'
 " colours
 Plug 'joshdick/onedark.vim'
 Plug 'trevordmiller/nova-vim'
+Plug 'kjssad/quantum.vim'
+
+" Plug '~/dev/nibblrjr.vim'
+" let g:nibblrjrURL = 'http://localhost:8888'
 
 call plug#end()
 

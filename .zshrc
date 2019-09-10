@@ -25,6 +25,9 @@ export WORDCHARS=''
 export ANDROID_HOME=$HOME/Android/Sdk
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/platform-tools
+export DEVKITPRO=/opt/devkitpro
+export DEVKITARM=/opt/devkitpro/devkitARM
+export DEVKITPPC=/opt/devkitpro/devkitPPC
 export SUDO_PROMPT='[beep boop please login] '
 export BSPWM_SOCKET='/tmp/bspwm-tmp'
 
