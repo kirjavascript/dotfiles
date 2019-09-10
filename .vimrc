@@ -285,11 +285,13 @@ set guifont=Hack\ 11 " gvim: set font to ttf-hack
 
 runtime macros/matchit.vim " allow using % to navigate XML
 
-augroup FileTypes
+augroup Config
     autocmd!
     autocmd BufNewFile,BufRead *.ejs set filetype=html " load EJS files like HTML
     autocmd BufNewFile,BufRead *.asm set filetype=asm68k " specify m86k ASM
     autocmd FileType asm68k setlocal commentstring=;%s " comment string for m68k
+    autocmd BufWritePre * call StripWhitespace()
+    autocmd BufRead,BufNewFile,BufWritePost * call HighlightGlobal()
 augroup END
 
 " stripe whitespace on save
@@ -302,10 +304,6 @@ function! StripWhitespace()
     %s#\($\n\s*\)\+\%$##e " EOF
     call setpos('.', pos)
 endfunction
-augroup StripWhitespace
-    autocmd!
-    autocmd BufWritePre * call StripWhitespace()
-augroup END
 
 " save swap, backup, etc to ~/.vim instead
 for folder in ['backup', 'swap', 'undo']
@@ -329,16 +327,15 @@ endif
 
 " leave insert mode quickly in terminal
 if !has('gui_running')
-  set ttimeoutlen=10
-  augroup FastEscape
-    autocmd!
-    autocmd InsertEnter * set timeoutlen=0
-    autocmd InsertLeave * set timeoutlen=1000
-  augroup END
+    set ttimeoutlen=10
+    augroup FastEscape
+        autocmd!
+        autocmd InsertEnter * set timeoutlen=0
+        autocmd InsertLeave * set timeoutlen=1000
+    augroup END
 endif
 
 " highlight otherwise unhighlighted files
-autocmd BufRead,BufNewFile,BufWritePost * call HighlightGlobal()
 function! HighlightGlobal()
   if &filetype == "" || &filetype == "text"
     syntax match txtNumber "\<\d\+\>"
