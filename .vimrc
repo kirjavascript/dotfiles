@@ -13,8 +13,10 @@ if empty(glob('~/.vim/autoload/plug.vim'))
 endif
 
 call plug#begin('~/.vim/plugged')
+Plug 'adelarsq/vim-hackernews'
 
 " tools
+Plug 'kirjavascript/nibblrjr.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'jlanzarotta/bufexplorer'
 Plug 'mbbill/undotree'
@@ -282,12 +284,15 @@ set guioptions=c " gvim: hide all ui stuff
 set guifont=Hack\ 11 " gvim: set font to ttf-hack
 
 runtime macros/matchit.vim " allow using % to navigate XML
-autocmd BufNewFile,BufRead *.ejs set filetype=html " load EJS files like HTML
-autocmd BufNewFile,BufRead *.asm set filetype=asm68k " specify m86k ASM
-autocmd FileType asm68k setlocal commentstring=;%s " comment string for m68k
+
+augroup FileTypes
+    autocmd!
+    autocmd BufNewFile,BufRead *.ejs set filetype=html " load EJS files like HTML
+    autocmd BufNewFile,BufRead *.asm set filetype=asm68k " specify m86k ASM
+    autocmd FileType asm68k setlocal commentstring=;%s " comment string for m68k
+augroup END
 
 " stripe whitespace on save
-autocmd BufWritePre * call StripWhitespace()
 function! StripWhitespace()
     if &ft == 'markdown'
         return
@@ -297,6 +302,10 @@ function! StripWhitespace()
     %s#\($\n\s*\)\+\%$##e " EOF
     call setpos('.', pos)
 endfunction
+augroup StripWhitespace
+    autocmd!
+    autocmd BufWritePre * call StripWhitespace()
+augroup END
 
 " save swap, backup, etc to ~/.vim instead
 for folder in ['backup', 'swap', 'undo']
@@ -309,8 +318,8 @@ set directory=$HOME/.vim/swap//
 set undodir=$HOME/.vim/undo//
 set viminfo+=n$HOME/.vim/viminfo
 
-" delete leftover swapfiles
-call map(split(globpath('$HOME/.vim/swap', '*'), '\n'), 'delete(v:val)')
+" delete leftover swapfiles on startup
+autocmd VimEnter * call map(split(globpath('$HOME/.vim/swap', '*'), '\n'), 'delete(v:val)')
 
 " osx overwrites
 if has('macunix')
