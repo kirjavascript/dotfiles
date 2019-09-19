@@ -32,6 +32,7 @@ Plug 'neoclide/coc.nvim', {'do': './install.sh nightly'}
 Plug 'terryma/vim-multiple-cursors'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'
+Plug 'junegunn/vim-peekaboo'
 Plug 'SirVer/ultisnips'
 " display
 Plug 'itchyny/lightline.vim'

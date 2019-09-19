@@ -120,16 +120,30 @@ import styles from './styles';
 
 export default class ${1:ClassName} extends Component {
     render() {
-        return <View>
-            $2
-        </View>;
+        return (
+	    <View>
+		$2
+	    </View>
+	);
     }
+}
+endsnippet
+
+snippet rnf "react-native function" b
+import React, { Fragment } from 'react';
+import { View } from 'react-native';
+
+export default function ${1:Name}($3) {
+    return (
+	<View>
+	    $2
+	</View>
+    );
 }
 endsnippet
 
 snippet rns "react-native style" b
 import { StyleSheet } from 'react-native';
-import { COLORS, FONTSIZE, FONTFAMILIES } from '#base/constants';
 
 const styles = {
     $2
