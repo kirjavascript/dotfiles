@@ -114,6 +114,10 @@ snippet rd "react debug" b
 </pre>
 endsnippet
 
+snippet rus "react useState" b
+const [${1:state}, set${1/\w+\s*/\u$0/g}] = useState($2);
+endsnippet
+
 # react native
 
 snippet rnc "react-native class" b
