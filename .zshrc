@@ -54,6 +54,8 @@ export HISTFILE=~/.zsh_history
 export HISTSIZE=10000
 export SAVEHIST=10000
 
+setopt HIST_IGNORE_DUPS
+
 # prompt
 # example; print -P '%B%K{blue}%F{white}test%f%b%k'
 
