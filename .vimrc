@@ -13,7 +13,6 @@ if empty(glob('~/.vim/autoload/plug.vim'))
 endif
 
 call plug#begin('~/.vim/plugged')
-Plug 'adelarsq/vim-hackernews'
 
 " tools
 Plug 'kirjavascript/nibblrjr.vim'
@@ -22,6 +21,7 @@ Plug 'jlanzarotta/bufexplorer'
 Plug 'mbbill/undotree'
 Plug 'eugen0329/vim-esearch' " requires ripgrep
 Plug 'dyng/ctrlsf.vim' " ???
+Plug 'adelarsq/vim-hackernews'
 " languages
 Plug 'neoclide/vim-jsx-improve'
 Plug 'captbaritone/better-indent-support-for-php-with-html'
@@ -44,9 +44,6 @@ Plug 'machakann/vim-highlightedyank'
 Plug 'joshdick/onedark.vim'
 Plug 'trevordmiller/nova-vim'
 Plug 'kjssad/quantum.vim'
-
-" Plug '~/dev/nibblrjr.vim'
-" let g:nibblrjrURL = 'http://localhost:8888'
 
 call plug#end()
 
