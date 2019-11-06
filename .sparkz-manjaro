@@ -4,18 +4,6 @@ ssh-copy-id
 ~➤ tic -x termite.terminfo
 https://github.com/nodejs/help/wiki/Installation
 
+https://git.auteiy.me/dmitry/cursorsPosy
+
 ranger / pipes / screenfetch / alsa / cmatrix / doge / ponysay / nyancat / curl -s wttr.in / cool-retro-term / genact
-
-asrock
-
-https://wiki.archlinux.org/index.php/GRUB/EFI_examples#Asrock
-
-gigabyte
-
-File: /etc/modprobe.d/alsa-base.conf
-options snd_hda_intel index=1
-
-disable intel
-install manjaro (nonfree)
-configure alsa base
-enable intel

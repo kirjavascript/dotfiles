@@ -15,7 +15,7 @@ endif
 call plug#begin('~/.vim/plugged')
 
 " tools
-Plug 'kirjavascript/nibblrjr.vim'
+Plug 'kirjavascript/nibblrjr.vim', { 'commit': 'fcd5481ac68df8bc0f92b9e089a2f0642cc82c4b' }
 Plug 'scrooloose/nerdtree'
 Plug 'jlanzarotta/bufexplorer'
 Plug 'mbbill/undotree'
@@ -43,7 +43,7 @@ Plug 'machakann/vim-highlightedyank'
 " colours
 Plug 'joshdick/onedark.vim'
 Plug 'trevordmiller/nova-vim'
-Plug 'kjssad/quantum.vim'
+Plug 'fcpg/vim-orbital'
 
 call plug#end()
 
@@ -229,21 +229,14 @@ let g:lightline.active = {'left':[['mode','paste'],['gitbranch','readonly','file
 let g:lightline.component = {'lineinfo': '%3l:%-2v'}
 
 " change colourscheme
-noremap <silent> <leader>co :call LoadOneDark()<CR>
-noremap <silent> <leader>cn :call LoadNova()<CR>
+noremap <silent> <leader>co :call SetTheme('onedark', 'one')<CR>
+noremap <silent> <leader>cn :call SetTheme('nova', 'material')<CR>
+noremap <silent> <leader>cb :call SetTheme('orbital', 'orbital')<CR>
 
-function! LoadNova()
+function! SetTheme(main, bar)
     call lightline#disable()
-    colorscheme nova
-    let g:lightline.colorscheme = 'material'
-    call lightline#init()
-    call lightline#enable()
-endfunction
-
-function! LoadOneDark()
-    call lightline#disable()
-    colorscheme onedark
-    let g:lightline.colorscheme = 'one'
+    execute 'colorscheme ' . a:main
+    let g:lightline.colorscheme = a:bar
     call lightline#init()
     call lightline#enable()
 endfunction

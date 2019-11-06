@@ -30,7 +30,8 @@ export DEVKITARM=/opt/devkitpro/devkitARM
 export DEVKITPPC=/opt/devkitpro/devkitPPC
 export SUDO_PROMPT='[beep boop please login] '
 export BSPWM_SOCKET='/tmp/bspwm-tmp'
-
+export DENO_INSTALL="/home/cake/.deno"
+export PATH="$DENO_INSTALL/bin:$PATH"
 # keys
 # use cat to get the secret codez
 bindkey "^[[1;5C" forward-word # ctrl-left
