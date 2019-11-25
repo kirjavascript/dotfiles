@@ -10,7 +10,6 @@ zplug "zsh-users/zsh-completions"
 zplug "zdharma/fast-syntax-highlighting"
 zplug "zsh-users/zsh-history-substring-search"
 zplug "zsh-users/zsh-autosuggestions"
-zplug "supercrabtree/k"
 
 zplug "plugins/git", from:oh-my-zsh
 zplug "themes/fishy", from:oh-my-zsh
@@ -43,8 +42,8 @@ bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
 
 # aliases
-alias k='k -h'
-alias tmux="TERM=screen-256color-bce tmux"
+alias gittree='git log --pretty=oneline --graph --decorate --all'
+alias tmux='TERM=screen-256color-bce tmux'
 alias ls='ls -hF --show-control-chars --color=always'
 alias la='ls -haF --show-control-chars --color=always'
 alias ll='ls -lhF --show-control-chars --color=always'
