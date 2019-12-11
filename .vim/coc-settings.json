@@ -1,0 +1,7 @@
+{
+    "coc.preferences.hoverTarget": "float",
+    "prettier.tabWidth": 4,
+    "prettier.singleQuote": true,
+    "prettier.printWidth": 100,
+    "prettier.trailingComma": "all"
+}

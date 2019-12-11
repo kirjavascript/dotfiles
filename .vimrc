@@ -99,7 +99,7 @@ nnoremap <F5> :e! %<CR>
 nnoremap <Leader>su :w !sudo tee > /dev/null %<CR>
 
 " open terminal from current directory
-nnoremap <silent> <Leader>cf :term<CR>cd <C-W>"=expand('#:h:p')<CR><CR>clear<CR>
+nnoremap <silent> <Leader>t :term<CR>cd <C-W>"=expand('#:h:p')<CR><CR>clear<CR>
 
 " close terminal
 tnoremap <silent> <C-Q> exit<CR><C-W>:bd!<CR>
@@ -174,7 +174,7 @@ nnoremap <silent> <Leader>u :UndotreeToggle <BAR> :UndotreeFocus<CR>
 
 " coc
 
-" CocInstall coc-tsserver coc-eslint coc-html coc-json coc-css coc-stylelint coc-rls coc-phpls
+" CocInstall coc-tsserver coc-eslint coc-prettier coc-html coc-json coc-css coc-stylelint coc-rls coc-phpls
 
 inoremap <silent><expr> <TAB>
       \ pumvisible() ? "\<C-n>" :
@@ -203,7 +203,8 @@ nmap <leader>cr <Plug>(coc-references)
 nmap <leader>crn <Plug>(coc-rename)
 " Remap for format selected region
 vmap <leader>cf  <Plug>(coc-format-selected)
-nmap <leader>cf  <Plug>(coc-format-selected)
+" coc plugin config
+command! -nargs=0 Prettier :CocCommand prettier.formatFile
 
 set completeopt=menu,noinsert,noselect
 
