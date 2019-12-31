@@ -1,4 +1,4 @@
-numlockx
+numlockx xclip
 load zsh (.bashrc)
 ssh-copy-id
 ~➤ tic -x termite.terminfo
