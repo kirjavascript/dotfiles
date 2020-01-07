@@ -20,7 +20,8 @@ Plug 'scrooloose/nerdtree'
 Plug 'jlanzarotta/bufexplorer'
 Plug 'mbbill/undotree'
 Plug 'eugen0329/vim-esearch' " requires ripgrep
-Plug 'dyng/ctrlsf.vim' " ???
+Plug 'dyng/ctrlsf.vim'
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'adelarsq/vim-hackernews'
 " languages
 Plug 'neoclide/vim-jsx-improve'
@@ -32,7 +33,6 @@ Plug 'neoclide/coc.nvim', {'do': './install.sh nightly'}
 Plug 'terryma/vim-multiple-cursors'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'
-Plug 'junegunn/vim-peekaboo'
 Plug 'SirVer/ultisnips'
 " display
 Plug 'itchyny/lightline.vim'
@@ -156,6 +156,13 @@ let g:ctrlsf_default_root = 'project'
 let g:ctrlsf_auto_focus = {
     \ "at": "start"
     \ }
+
+" fzf
+function! FZFCurrent()
+    let s:path = trim(system('cd ' . expand('%:h') . ' && git rev-parse --show-toplevel 2> /dev/null'))
+    call fzf#run({ 'source' : 'rg --files', 'dir': s:path, 'up': '20%', 'sink': 'o' })
+endfunction
+nnoremap <Leader>fz :call FZFCurrent()<CR>
 
 " snippets
 let g:UltiSnipsExpandTrigger="<c-b>"
