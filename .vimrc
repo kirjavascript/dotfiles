@@ -20,7 +20,8 @@ Plug 'scrooloose/nerdtree'
 Plug 'jlanzarotta/bufexplorer'
 Plug 'mbbill/undotree'
 Plug 'eugen0329/vim-esearch' " requires ripgrep
-Plug 'dyng/ctrlsf.vim' " ???
+Plug 'dyng/ctrlsf.vim'
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'adelarsq/vim-hackernews'
 " languages
 Plug 'neoclide/vim-jsx-improve'
@@ -32,7 +33,6 @@ Plug 'neoclide/coc.nvim', {'do': './install.sh nightly'}
 Plug 'terryma/vim-multiple-cursors'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'
-Plug 'junegunn/vim-peekaboo'
 Plug 'SirVer/ultisnips'
 " display
 Plug 'itchyny/lightline.vim'
@@ -153,9 +153,16 @@ let g:esearch = {
 
 " CtrlSf
 let g:ctrlsf_default_root = 'project'
-let g:ctrlsf_auto_focus = {
-    \ "at": "start"
-    \ }
+let g:ctrlsf_auto_focus = { 'at': 'start' }
+
+" fzf
+function! RootDir()
+    return trim(system('cd ' . expand('%:h') . ' && git rev-parse --show-toplevel 2> /dev/null'))
+endfunction
+function! FZF()
+    call fzf#run({ 'source' : 'rg --files', 'dir': RootDir(), 'up': '20%', 'sink': 'e' })
+endfunction
+nnoremap <Leader>fz :call FZF()<CR>
 
 " snippets
 let g:UltiSnipsExpandTrigger="<c-b>"
@@ -279,6 +286,7 @@ runtime macros/matchit.vim " allow using % to navigate XML
 
 augroup Config
     autocmd!
+    autocmd BufWritePost *vimrc source ~/.vimrc " autoreload vimrc
     autocmd BufNewFile,BufRead *.ejs set filetype=html " load EJS files like HTML
     autocmd BufNewFile,BufRead *.asm set filetype=asm68k " specify m86k ASM
     autocmd FileType asm68k setlocal commentstring=;%s " comment string for m68k
