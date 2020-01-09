@@ -12,6 +12,8 @@ if empty(glob('~/.vim/autoload/plug.vim'))
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
+call has('python3') " force py3
+
 call plug#begin('~/.vim/plugged')
 
 " tools
