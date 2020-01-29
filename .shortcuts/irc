@@ -1,0 +1,1 @@
+ssh thom@kirjava.xyz -t "tmux a"
