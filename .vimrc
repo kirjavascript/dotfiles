@@ -18,12 +18,14 @@ call plug#begin('~/.vim/plugged')
 
 " tools
 Plug 'kirjavascript/nibblrjr.vim', { 'commit': 'fcd5481ac68df8bc0f92b9e089a2f0642cc82c4b' }
+Plug 'kirjavascript/notesync.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'jlanzarotta/bufexplorer'
 Plug 'mbbill/undotree'
 Plug 'eugen0329/vim-esearch' " requires ripgrep
 Plug 'dyng/ctrlsf.vim'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'liuchengxu/vim-clap', { 'do': ':Clap install-binary' }
 Plug 'adelarsq/vim-hackernews'
 " languages
 Plug 'neoclide/vim-jsx-improve'
@@ -290,7 +292,7 @@ augroup Config
     autocmd!
     autocmd BufWritePost *vimrc source ~/.vimrc " autoreload vimrc
     autocmd BufNewFile,BufRead *.ejs set filetype=html " load EJS files like HTML
-    autocmd BufNewFile,BufRead *.asm set filetype=asm68k " specify m86k ASM
+    autocmd BufNewFile,BufRead *.asm,*.s set filetype=asm68k " specify m86k ASM
     autocmd FileType asm68k setlocal commentstring=;%s " comment string for m68k
     autocmd BufWritePre * call StripWhitespace()
     autocmd BufRead,BufNewFile,BufWritePost * call HighlightGlobal()
