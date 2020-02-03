@@ -25,7 +25,6 @@ Plug 'mbbill/undotree'
 Plug 'eugen0329/vim-esearch' " requires ripgrep
 Plug 'dyng/ctrlsf.vim'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
-Plug 'liuchengxu/vim-clap', { 'do': ':Clap install-binary' }
 Plug 'adelarsq/vim-hackernews'
 " languages
 Plug 'neoclide/vim-jsx-improve'
