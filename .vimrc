@@ -7,8 +7,7 @@
 
 " install vim-plug
 if empty(glob('~/.vim/autoload/plug.vim'))
-  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
-    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
@@ -43,6 +42,8 @@ Plug 'airblade/vim-gitgutter'
 Plug 'Valloric/MatchTagAlways'
 Plug 'xtal8/traces.vim'
 Plug 'machakann/vim-highlightedyank'
+
+Plug 'camspiers/animate.vim'
 " colours
 Plug 'joshdick/onedark.vim'
 Plug 'trevordmiller/nova-vim'
@@ -77,20 +78,24 @@ noremap <C-h> <C-w>h
 noremap <C-l> <C-w>l
 
 " resizing splits
-execute "set <M-h>=\eh"
-execute "set <M-l>=\el"
-execute "set <M-j>=\ej"
-execute "set <M-k>=\ek"
-nnoremap <silent> <M-h> :vertical resize -5<CR>
-nnoremap <silent> <M-l> :vertical resize +5<CR>
-nnoremap <silent> <M-j> :resize +5<CR>
-nnoremap <silent> <M-k> :resize -5<CR>
+if !has('nvim')
+    execute "set <A-h>=\eh"
+    execute "set <A-l>=\el"
+    execute "set <A-j>=\ej"
+    execute "set <A-k>=\ek"
+endif
+nnoremap <silent> <A-h> :vertical resize -5<CR>
+nnoremap <silent> <A-l> :vertical resize +5<CR>
+nnoremap <silent> <A-j> :resize +5<CR>
+nnoremap <silent> <A-k> :resize -5<CR>
 
 " use alt + o/i for navigating buffers
-execute "set <M-i>=\ei"
-execute "set <M-o>=\eo"
-nnoremap <M-i> :bp<CR>
-nnoremap <M-o> :bn<CR>
+if !has('nvim')
+    execute "set <A-i>=\ei"
+    execute "set <A-o>=\eo"
+endif
+nnoremap <A-i> :bp<CR>
+nnoremap <A-o> :bn<CR>
 " osx
 nnoremap “ :bp<CR>
 nnoremap ‘ :bn<CR>
@@ -144,6 +149,9 @@ nnoremap <silent> <Leader>we :! curl -s wttr.in/Manchester \| sed -r "s/\x1B\[[0
 
 "" plugin config
 
+" animate
+let g:animate#duration = 100.0
+
 " esearch (maps <Leader>ff)
 let g:esearch = {
   \ 'adapter':    'rg',
@@ -163,7 +171,8 @@ function! RootDir()
     return trim(system('cd ' . expand('%:h') . ' && git rev-parse --show-toplevel 2> /dev/null'))
 endfunction
 function! FZF()
-    call fzf#run({ 'source' : 'rg --files', 'dir': RootDir(), 'up': '20%', 'sink': 'e' })
+    call fzf#run({ 'source' : 'rg --files', 'dir': RootDir(), 'up': '0%', 'sink': 'e' })
+    call animate#window_percent_height(0.2)
 endfunction
 nnoremap <Leader>fz :call FZF()<CR>
 
@@ -230,7 +239,7 @@ let g:NERDTreeMapHelp = '<F1>'
 colorscheme onedark
 let g:lightline = {'colorscheme': 'one'}
 
-if !has("gui_running")
+if !has('gui_running') && !has('nvim')
     hi Normal guibg=NONE ctermbg=NONE
 else
     let g:lightline.separator = {'left': '', 'right': ''}
@@ -243,6 +252,7 @@ let g:lightline.component = {'lineinfo': '%3l:%-2v'}
 noremap <silent> <leader>co :call SetTheme('onedark', 'one')<CR>
 noremap <silent> <leader>cn :call SetTheme('nova', 'material')<CR>
 noremap <silent> <leader>cb :call SetTheme('orbital', 'orbital')<CR>
+noremap <silent> <leader>cp :call SetTheme('nova', 'material')<CR>
 
 function! SetTheme(main, bar)
     call lightline#disable()
@@ -280,6 +290,7 @@ set ttyfast " always assume a fast terminal
 set ignorecase " case insensitive search
 set smartcase " (unless uppercase chars are used)
 set incsearch " highlight when searching and map <C-g> / <C-t>
+set nohlsearch " dont highlight everything
 set wildmenu " cmd completion suggestions
 set encoding=utf-8
 set guioptions=c " gvim: hide all ui stuff
@@ -317,7 +328,11 @@ endfor
 set backupdir=$HOME/.vim/backup//
 set directory=$HOME/.vim/swap//
 set undodir=$HOME/.vim/undo//
-set viminfo+=n$HOME/.vim/viminfo
+if has('nvim')
+    set viminfo+=n$HOME/.vim/nviminfo
+else
+    set viminfo+=n$HOME/.vim/viminfo
+endif
 
 " delete leftover swapfiles on startup
 autocmd VimEnter * call map(split(globpath('$HOME/.vim/swap', '*'), '\n'), 'delete(v:val)')
