@@ -46,6 +46,7 @@ Plug 'machakann/vim-highlightedyank'
 Plug 'camspiers/animate.vim'
 " colours
 Plug 'joshdick/onedark.vim'
+Plug 'KeitaNakamura/neodark.vim'
 Plug 'trevordmiller/nova-vim'
 Plug 'fcpg/vim-orbital'
 
@@ -240,12 +241,20 @@ let NERDTreeDirArrows = 1
 let g:NERDTreeMapHelp = '<F1>'
 
 " colourscheme / statusbar
-colorscheme onedark
-let g:lightline = {'colorscheme': 'one'}
+if has('nvim')
+    let g:neovide_transparency=0.9
+    colorscheme neodark
+    highlight! Normal guibg=NONE ctermbg=NONE
+    let g:lightline = {'colorscheme': 'orbital'}
+else
+    colorscheme onedark
+    let g:lightline = {'colorscheme': 'one'}
+endif
 
 if !has('gui_running') && !has('nvim')
-    hi Normal guibg=NONE ctermbg=NONE
+    highlight! Normal guibg=NONE ctermbg=NONE
 else
+    highlight! Cursor ctermfg=1 ctermbg=1 guifg=#FF0000
     let g:lightline.separator = {'left': '', 'right': ''}
     let g:lightline.subseparator = {'left': '', 'right': ''}
 end
