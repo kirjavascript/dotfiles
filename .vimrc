@@ -58,6 +58,10 @@ nnoremap <F12> @=nr2char(getchar())<CR>
 
 " unmap
 map Q <Nop>
+map <Up> <Nop>
+map <Down> <Nop>
+map <Left> <Nop>
+map <Right> <Nop>
 
 " make K do the opposite of J
 nnoremap K :silent! s/^\(\s*\).*\%#\S\{-1,}\zs\s/\r\1<CR>==
