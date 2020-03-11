@@ -160,7 +160,7 @@ let g:animate#duration = 100.0
 " esearch (maps <Leader>ff)
 let g:esearch = {
   \ 'adapter':    'rg',
-  \ 'backend':    'vim8',
+  \ 'backend':    has('nvim') ? 'nvim' : 'vim8',
   \ 'out':        'win',
   \ 'batch_size': 1000,
   \ 'use':        [],
