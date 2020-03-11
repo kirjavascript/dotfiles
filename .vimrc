@@ -245,6 +245,7 @@ if has('nvim')
     let g:neovide_transparency=0.9
     colorscheme neodark
     highlight! Normal guibg=NONE ctermbg=NONE
+    highlight! Cursor ctermfg=1 ctermbg=1 guibg=steelblue
     let g:lightline = {'colorscheme': 'orbital'}
 else
     colorscheme onedark
@@ -254,7 +255,6 @@ endif
 if !has('gui_running') && !has('nvim')
     highlight! Normal guibg=NONE ctermbg=NONE
 else
-    highlight! Cursor ctermfg=1 ctermbg=1 guifg=#FF0000
     let g:lightline.separator = {'left': '', 'right': ''}
     let g:lightline.subseparator = {'left': '', 'right': ''}
 end
