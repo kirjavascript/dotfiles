@@ -67,7 +67,7 @@ bindsym $mod+Ctrl+c exec gcolor2
 bindsym $mod+b exec pcmanfm
 bindsym $mod+Ctrl+b exec termite -e ranger
 bindsym $mod+n exec simplescreenrecorder
-bindsym $mod+Ctrl+n exec gvim
+bindsym $mod+Ctrl+n exec neovide
 bindsym $mod+m exec termite -e "ssh thom@kirjava.xyz" -t "termite (kirjava.xyz)"
 bindsym $mod+Ctrl+v exec virtualbox
 bindsym XF86Calculator exec galculator
