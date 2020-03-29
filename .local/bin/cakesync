@@ -1,0 +1,26 @@
+#!/bin/sh
+rsync \
+    --itemize-changes \
+    --out-format="%i|%n|" \
+    --exclude node_modules \
+    --exclude .npm \
+    --exclude .cargo \
+    --exclude .xargo \
+    --exclude target \
+    --exclude .rustup \
+    --exclude .gradle \
+    --exclude .cache \
+    --exclude .wine \
+    --exclude Android \
+    --exclude .android \
+    --exclude Downloads \
+    --exclude '.local/share' \
+    --relative \
+    --recursive \
+    --update \
+    --delete \
+    --perms \
+    --owner \
+    --group \
+    --times \
+    /home/cake /run/media/cake/6bfc0e72-bd45-485d-881e-0d7dd971105e/backup
