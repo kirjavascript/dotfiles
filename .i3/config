@@ -68,7 +68,7 @@ bindsym $mod+b exec pcmanfm
 bindsym $mod+Ctrl+b exec termite -e ranger
 bindsym $mod+n exec simplescreenrecorder
 bindsym $mod+Ctrl+n exec neovide
-bindsym $mod+m exec termite -e "ssh thom@kirjava.xyz" -t "termite (kirjava.xyz)"
+bindsym $mod+m exec termite -e "ssh cake@kirjava.xyz" -t "termite (kirjava.xyz)"
 bindsym $mod+Ctrl+v exec virtualbox
 bindsym XF86Calculator exec galculator
 bindsym $mod+p exec wine ~/.wine/drive_c/Program\ Files\ \(x86\)/Adobe/Photoshop\ 7.0/Photoshop.exe
@@ -93,8 +93,8 @@ bindsym $mod+t exec --no-startup-id compton -b
 
 # pulse
 exec --no-startup-id pa-applet
-# exec --no-startup-id sleep 5; pulseaudio --kill; pulseaudio --start
 bindsym $mod+Ctrl+m exec pavucontrol
+bindsym $mod+F12 exec playerctl play-pause
 
 ################################################################################################
 

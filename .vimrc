@@ -25,6 +25,7 @@ Plug 'eugen0329/vim-esearch' " requires ripgrep
 Plug 'dyng/ctrlsf.vim'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'adelarsq/vim-hackernews'
+Plug 'tpope/vim-fugitive'
 " languages
 Plug 'neoclide/vim-jsx-improve'
 Plug 'captbaritone/better-indent-support-for-php-with-html'
@@ -35,6 +36,7 @@ Plug 'neoclide/coc.nvim', {'do': './install.sh nightly'}
 Plug 'terryma/vim-multiple-cursors'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'
+Plug 'chrisbra/unicode.vim'
 Plug 'SirVer/ultisnips'
 " display
 Plug 'itchyny/lightline.vim'
@@ -42,7 +44,6 @@ Plug 'airblade/vim-gitgutter'
 Plug 'Valloric/MatchTagAlways'
 Plug 'xtal8/traces.vim'
 Plug 'machakann/vim-highlightedyank'
-
 Plug 'camspiers/animate.vim'
 " colours
 Plug 'joshdick/onedark.vim'
@@ -239,6 +240,8 @@ autocmd VimEnter * if argc() == 0 && !exists('s:std_in') | NERDTree | wincmd w |
 let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
 let g:NERDTreeMapHelp = '<F1>'
+let g:NERDTreeDirArrowExpandable='►' " set explicitly to force working in neovide
+let g:NERDTreeDirArrowCollapsible='▼'
 
 " colourscheme / statusbar
 if has('nvim')
@@ -306,8 +309,9 @@ set incsearch " highlight when searching and map <C-g> / <C-t>
 set nohlsearch " dont highlight everything
 set wildmenu " cmd completion suggestions
 set encoding=utf-8
+set title " show filepath in UI title
 set guioptions=c " gvim: hide all ui stuff
-set guifont=Hack\ 11 " gvim: set font to ttf-hack
+set guifont=Fira\ Code " get guifont - otf-nerd-fonts-fira-code
 
 runtime macros/matchit.vim " allow using % to navigate XML
 
