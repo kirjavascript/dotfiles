@@ -16,7 +16,7 @@ call has('python3') " force py3
 call plug#begin('~/.vim/plugged')
 
 " tools
-Plug 'kirjavascript/nibblrjr.vim', { 'commit': 'fcd5481ac68df8bc0f92b9e089a2f0642cc82c4b' }
+Plug 'kirjavascript/nibblrjr.vim'
 Plug 'kirjavascript/notesync.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'jlanzarotta/bufexplorer'
@@ -230,6 +230,15 @@ nmap <leader>crn <Plug>(coc-rename)
 vmap <leader>cf  <Plug>(coc-format-selected)
 " coc plugin config
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
+
+nnoremap <silent> <leader>cd :call <SID>show_documentation()<CR>
+function! s:show_documentation()
+  if (index(['vim','help'], &filetype) >= 0)
+    execute 'h '.expand('<cword>')
+  else
+    call CocAction('doHover')
+  endif
+endfunction
 
 set completeopt=menu,noinsert,noselect
 
