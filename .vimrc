@@ -146,9 +146,22 @@ nnoremap <Leader>hf :%! xxd -r<CR>
 " git blame
 vnoremap <Leader>gb :<C-U>tabnew \|r!cd <C-R>=expand("%:p:h")<CR> && git annotate -L<C-R>=line("'<")<CR>,<C-R>=line("'>") <CR> <C-R>=expand("%:t") <CR><CR>
 
-" paste to ix.io
+" ix.io
 command! -range=% IX <line1>,<line2>w !curl -F 'f:1=<-' ix.io | tr -d '\n' | xclip -i -selection clipboard
-vnoremap <Leader>sp :IX<CR>
+
+" pasta
+command! -range Pasta call s:Pasta(<line1>,<line2>)
+function! s:Pasta(line1, line2)
+    let l:code = join(getline(a:line1, a:line2), "\n")
+    let l:url = system('curl -s --data-binary @- https://pasta.cx', l:code)
+    let l:ext = expand('%:e')
+    if len(l:ext) != 0
+        let l:url = l:url . '.' . l:ext
+    endif
+    call system('xclip -i -selection clipboard', l:url)
+    echo l:url
+endfunction
+vnoremap <Leader>sp :Pasta<CR>
 
 " show weather report
 nnoremap <silent> <Leader>we :! curl -s wttr.in/Manchester \| sed -r "s/\x1B\[[0-9;]*[JKmsu]//g"<CR>
@@ -277,7 +290,7 @@ let g:lightline.component = {'lineinfo': '%3l:%-2v'}
 noremap <silent> <leader>co :call SetTheme('onedark', 'one')<CR>
 noremap <silent> <leader>cn :call SetTheme('nova', 'material')<CR>
 noremap <silent> <leader>cb :call SetTheme('orbital', 'orbital')<CR>
-noremap <silent> <leader>cp :call SetTheme('nova', 'material')<CR>
+noremap <silent> <leader>cp :call SetTheme('neodark', 'orbital')<CR>
 
 function! SetTheme(main, bar)
     call lightline#disable()
