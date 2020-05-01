@@ -24,7 +24,7 @@ Plug 'mbbill/undotree'
 Plug 'eugen0329/vim-esearch' " requires ripgrep
 Plug 'dyng/ctrlsf.vim'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
-Plug 'adelarsq/vim-hackernews'
+Plug 'lambdalisue/suda.vim'
 Plug 'tpope/vim-fugitive'
 " languages
 Plug 'neoclide/vim-jsx-improve'
@@ -110,7 +110,11 @@ nnoremap ‘ :bn<CR>
 nnoremap <F5> :e! %<CR>
 
 " save files as sudo
-nnoremap <Leader>su :w !sudo tee > /dev/null %<CR>
+if has('nvim')
+    nnoremap <Leader>su :w suda://%<CR>
+else
+    nnoremap <Leader>su :w !sudo tee > /dev/null %<CR>
+endif
 
 " open terminal from current directory
 nnoremap <silent> <Leader>t :term<CR>cd <C-W>"=expand('#:h:p')<CR><CR>clear<CR>
@@ -162,9 +166,6 @@ function! s:Pasta(line1, line2)
     echo l:url
 endfunction
 vnoremap <Leader>sp :Pasta<CR>
-
-" show weather report
-nnoremap <silent> <Leader>we :! curl -s wttr.in/Manchester \| sed -r "s/\x1B\[[0-9;]*[JKmsu]//g"<CR>
 
 "" plugin config
 
