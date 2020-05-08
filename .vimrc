@@ -23,7 +23,7 @@ Plug 'jlanzarotta/bufexplorer'
 Plug 'mbbill/undotree'
 Plug 'eugen0329/vim-esearch' " requires ripgrep
 Plug 'dyng/ctrlsf.vim'
-Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf', { 'dir': '~/.fzf' }
 Plug 'lambdalisue/suda.vim'
 Plug 'tpope/vim-fugitive'
 " languages
@@ -334,7 +334,7 @@ set wildmenu " cmd completion suggestions
 set encoding=utf-8
 set title " show filepath in UI title
 set guioptions=c " gvim: hide all ui stuff
-set guifont=Fira\ Code " get guifont - otf-nerd-fonts-fira-code
+set guifont=FiraCode " get guifont - otf-nerd-fonts-fira-code
 
 runtime macros/matchit.vim " allow using % to navigate XML
 

@@ -6,7 +6,6 @@
 source ~/.zplug/init.zsh
 
 zplug "zsh-users/zsh-completions"
-# zplug "zsh-users/zsh-syntax-highlighting"
 zplug "zdharma/fast-syntax-highlighting"
 zplug "zsh-users/zsh-history-substring-search"
 zplug "zsh-users/zsh-autosuggestions"
@@ -73,5 +72,3 @@ RPROMPT=''
 
 ZSH_THEME_GIT_PROMPT_DIRTY="%F{red}✗%f"
 ZSH_THEME_GIT_PROMPT_CLEAN="%F{green}✔%f"
-
-# [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
