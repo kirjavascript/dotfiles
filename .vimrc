@@ -17,13 +17,12 @@ call plug#begin('~/.vim/plugged')
 
 " tools
 Plug 'kirjavascript/nibblrjr.vim'
-Plug 'kirjavascript/notesync.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'jlanzarotta/bufexplorer'
 Plug 'mbbill/undotree'
 Plug 'eugen0329/vim-esearch' " requires ripgrep
 Plug 'dyng/ctrlsf.vim'
-Plug 'junegunn/fzf', { 'dir': '~/.fzf' }
+Plug 'junegunn/fzf', { 'dir': '~/.fzf' } " requires ripgrep
 Plug 'lambdalisue/suda.vim'
 Plug 'tpope/vim-fugitive'
 " languages

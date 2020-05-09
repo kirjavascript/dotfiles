@@ -21,6 +21,7 @@ export VISUAL=vim
 export BROWSER=firefox
 export WORDCHARS=''
 export ANDROID_HOME=$HOME/Android/Sdk
+export NDK_HOME=$HOME/Android/Sdk/ndk
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 export DEVKITPRO=/opt/devkitpro
