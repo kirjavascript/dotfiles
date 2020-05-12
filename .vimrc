@@ -24,7 +24,6 @@ Plug 'eugen0329/vim-esearch' " requires ripgrep
 Plug 'dyng/ctrlsf.vim'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf' } " requires ripgrep
 Plug 'lambdalisue/suda.vim'
-Plug 'tpope/vim-fugitive'
 " languages
 Plug 'neoclide/vim-jsx-improve'
 Plug 'captbaritone/better-indent-support-for-php-with-html'
@@ -35,7 +34,6 @@ Plug 'neoclide/coc.nvim', {'do': './install.sh nightly'}
 Plug 'terryma/vim-multiple-cursors'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'
-Plug 'chrisbra/unicode.vim'
 Plug 'SirVer/ultisnips'
 " display
 Plug 'itchyny/lightline.vim'
