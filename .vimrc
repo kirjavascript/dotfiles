@@ -341,6 +341,8 @@ augroup Config
     autocmd BufNewFile,BufRead *.ejs set filetype=html " load EJS files like HTML
     autocmd BufNewFile,BufRead *.asm,*.s set filetype=asm68k " specify m86k ASM
     autocmd FileType asm68k setlocal commentstring=;%s " comment string for m68k
+    autocmd bufnewfile,bufread *.js set filetype=javascript.jsx " enable JSX
+    autocmd bufnewfile,bufread *.ts set filetype=typescript.tsx " enable JSX for TS
     autocmd BufWritePre * call StripWhitespace()
     autocmd BufRead,BufNewFile,BufWritePost * call HighlightGlobal()
 augroup END
