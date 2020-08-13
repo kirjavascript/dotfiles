@@ -256,7 +256,8 @@ set completeopt=menu,noinsert,noselect
 " start NERDTree if no file is specified
 nnoremap <Leader>nt :NERDTreeToggle<CR>
 autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists('s:std_in') | NERDTree | wincmd w | endif
+let s:hasnofile = argc() == 0 && !exists('s:std_in')
+autocmd VimEnter * if s:hasnofile | NERDTree | wincmd w | endif
 let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
 let g:NERDTreeMapHelp = '<F1>'
