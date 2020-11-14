@@ -34,6 +34,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'terryma/vim-multiple-cursors'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'
+Plug 'tommcdo/vim-exchange'
 Plug 'SirVer/ultisnips'
 " display
 Plug 'itchyny/lightline.vim'
@@ -57,10 +58,6 @@ nnoremap <F12> @=nr2char(getchar())<CR>
 
 " unmap
 map Q <Nop>
-map <Up> <Nop>
-map <Down> <Nop>
-map <Left> <Nop>
-map <Right> <Nop>
 
 " make K do the opposite of J
 nnoremap K :silent! s/^\(\s*\).*\%#\S\{-1,}\zs\s/\r\1<CR>==
@@ -210,7 +207,7 @@ nnoremap <silent> <Leader>u :UndotreeToggle <BAR> :UndotreeFocus<CR>
 
 " coc
 
-" CocInstall coc-tsserver coc-eslint coc-prettier coc-html coc-json coc-css coc-stylelint coc-rls coc-phpls
+" CocInstall coc-marketplace coc-tsserver coc-eslint coc-prettier coc-html coc-json coc-css coc-stylelint coc-rust-analyzer coc-phpls coc-vimlsp
 
 inoremap <silent><expr> <TAB>
       \ pumvisible() ? "\<C-n>" :

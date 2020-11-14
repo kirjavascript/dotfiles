@@ -69,7 +69,7 @@ colors=('green' 'blue' 'magenta' 'red')
 if [ "$HOST" = circular ]; then
     prompt_color='cyan'
 else
-    prompt_color=$colors[$((${RANDOM} % ${#colors[@]} + 1))]
+    prompt_color=$colors[RANDOM%$#colors+1]
 fi
 
 PROMPT='%B%F{$prompt_color}$(_fishy_collapsed_wd)%f%b$(git_prompt_info)$(git_prompt_status)%F{$prompt_color}%B➤%f%b '
