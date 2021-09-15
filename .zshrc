@@ -6,9 +6,10 @@
 source ~/.zplug/init.zsh
 
 zplug "zsh-users/zsh-completions"
-zplug "zdharma/fast-syntax-highlighting"
 zplug "zsh-users/zsh-history-substring-search"
 zplug "zsh-users/zsh-autosuggestions"
+zplug "zdharma/fast-syntax-highlighting"
+zplug "softmoth/zsh-vim-mode"
 
 zplug "plugins/git", from:oh-my-zsh
 zplug "themes/fishy", from:oh-my-zsh
@@ -18,7 +19,7 @@ zplug load
 # environment
 export EDITOR=vim
 export VISUAL=vim
-export BROWSER=firefox
+export BROWSER=firefox-nightly
 export WORDCHARS=''
 export ANDROID_HOME=$HOME/Android/Sdk
 export NDK_HOME=$HOME/Android/Sdk/ndk
@@ -51,6 +52,9 @@ zstyle ':completion:*' list-colors 'di=;34;1' 'ln=;35;1' 'so=;32;1' 'ex=31;1' 'b
 
 csv() {
     column -s, -t < "$1" | less -#2 -N -S
+}
+notgd() {
+    curl -s "https://i.not.gd/up" -H "Content-type: $(file -b --mime-type $1)" --data-binary "@$1" | jq -r '.href'
 }
 
 # history

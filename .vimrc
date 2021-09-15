@@ -26,7 +26,7 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf' } " requires ripgrep
 Plug 'lambdalisue/suda.vim'
 " languages
 Plug 'neoclide/vim-jsx-improve'
-Plug 'captbaritone/better-indent-support-for-php-with-html'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'sheerun/vim-polyglot'
 Plug 'honza/vim-snippets'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -318,6 +318,8 @@ set history=1000 " loadsa history
 set hidden " switch buffers without saving
 set fillchars+=vert:\│ " make split char a solid line
 set listchars+=space:• " show spaces with set list
+set listchars+=eol:$ " show NL with $
+set listchars+=tab:<-> " show tab as <->
 set backupcopy=yes " copy the file and overwrite the original
 set clipboard=unnamedplus " set clipboard to system
 set ttyfast " always assume a fast terminal

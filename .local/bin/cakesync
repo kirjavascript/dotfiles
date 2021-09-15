@@ -12,6 +12,7 @@ rsync \
     --exclude .cache \
     --exclude .wine \
     --exclude Android \
+    --exclude Genesis \
     --exclude .android \
     --exclude Downloads \
     --exclude '.local/share' \
