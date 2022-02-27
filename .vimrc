@@ -11,6 +11,8 @@ if empty(glob('~/.vim/autoload/plug.vim'))
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
+" let g:nibblrjrURL = 'http://localhost:8888'
+
 call has('python3') " force py3
 
 call plug#begin('~/.vim/plugged')
@@ -29,7 +31,7 @@ Plug 'neoclide/vim-jsx-improve'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'sheerun/vim-polyglot'
 Plug 'honza/vim-snippets'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'vim-scripts/asmM68k.vim'
 " editing
 Plug 'terryma/vim-multiple-cursors'
 Plug 'tpope/vim-commentary'
