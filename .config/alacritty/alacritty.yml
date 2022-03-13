@@ -12,7 +12,7 @@ draw_bold_text_with_bright_colors: true
 colors:
   primary:
     background: '#000000'
-    foreground: '#abb2bf'
+    foreground: '#f8fcf8'
   cursor:
     text:       CellBackground
     cursor:     '#56B6C2'
