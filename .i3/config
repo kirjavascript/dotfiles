@@ -48,7 +48,7 @@ font xft:Hack 11
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec termite
+bindsym $mod+Return exec alacritty
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -65,10 +65,10 @@ bindsym $mod+Ctrl+x --release exec --no-startup-id xkill
 bindsym $mod+c exec xfce4-screenshooter
 bindsym $mod+Ctrl+c exec gcolor2
 bindsym $mod+b exec pcmanfm
-bindsym $mod+Ctrl+b exec termite -e ranger
+bindsym $mod+Ctrl+b exec alacritty -e ranger
 bindsym $mod+n exec simplescreenrecorder
 bindsym $mod+Ctrl+n exec neovide
-bindsym $mod+m exec termite -e "ssh cake@kirjava.xyz" -t "termite (kirjava.xyz)"
+bindsym $mod+m exec alacritty  -t "alacritty (kirjava.xyz)" -e ssh cake@kirjava.xyz
 bindsym $mod+Ctrl+v exec virtualbox
 bindsym XF86Calculator exec galculator
 bindsym $mod+p exec wine ~/.wine/drive_c/Program\ Files\ \(x86\)/Adobe/Photoshop\ 7.0/Photoshop.exe

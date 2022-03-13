@@ -1,0 +1,47 @@
+background_opacity: 0.7
+
+window:
+  title: alacritty
+  dynamic_title: true
+
+scrolling:
+  history: 10000
+
+draw_bold_text_with_bright_colors: true
+
+colors:
+  primary:
+    background: '#000000'
+    foreground: '#abb2bf'
+  cursor:
+    text:       CellBackground
+    cursor:     '#56B6C2'
+  selection:
+    text:       CellForeground
+    background: '#3e4451'
+    foreground: '#e0e0e0'
+  normal:
+   black:   '#000000'
+   red:     '#a80000'
+   green:   '#00a800'
+   yellow:  '#a85400'
+   blue:    '#7B9EFF'
+   magenta: '#a800a8'
+   cyan:    '#00a8a8'
+   white:   '#a8a8a8'
+  bright:
+   black:   '#545054'
+   red:     '#f85450'
+   green:   '#50fc50'
+   yellow:  '#f8fc50'
+   blue:    '#5054f8'
+   magenta: '#f854f8'
+   cyan:    '#50fcf8'
+   white:   '#f8fcf8'
+
+bell:
+  animation: EaseOutExpo
+  duration: 50
+  color: '#663399'
+
+live_config_reload: true
