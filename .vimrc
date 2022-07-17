@@ -23,10 +23,12 @@ Plug 'scrooloose/nerdtree'
 Plug 'jlanzarotta/bufexplorer'
 Plug 'mbbill/undotree'
 Plug 'eugen0329/vim-esearch' " requires ripgrep
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 Plug 'dyng/ctrlsf.vim'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf' } " requires ripgrep
 Plug 'lambdalisue/suda.vim'
 " languages
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} " TSInstall all
 Plug 'neoclide/vim-jsx-improve'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'sheerun/vim-polyglot'

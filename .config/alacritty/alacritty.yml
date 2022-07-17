@@ -1,7 +1,8 @@
-background_opacity: 0.7
+live_config_reload: true
 
 window:
-  title: alacritty
+  opacity: 0.7
+  title: tty
   dynamic_title: true
 
 scrolling:
@@ -39,9 +40,11 @@ colors:
    cyan:    '#50fcf8'
    white:   '#f8fcf8'
 
-bell:
-  animation: EaseOutExpo
-  duration: 50
-  color: '#663399'
+font:
+  normal:
+    family: Hack
 
-live_config_reload: true
+bell:
+  animation: EaseOutQuad
+  duration: 80
+  color: '#300860'
