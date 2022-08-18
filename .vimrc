@@ -335,7 +335,7 @@ set wildmenu " cmd completion suggestions
 set encoding=utf-8
 set title " show filepath in UI title
 set guioptions=c " gvim: hide all ui stuff
-set guifont=FiraCode " get guifont - otf-nerd-fonts-fira-code - tty-unifont
+set guifont=FiraCode\ Nerd\ Font:h11 " get guifont - otf-nerd-fonts-fira-code - tty-unifont
 
 runtime macros/matchit.vim " allow using % to navigate XML
 
