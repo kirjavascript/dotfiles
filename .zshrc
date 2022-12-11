@@ -78,6 +78,19 @@ fi
 
 PROMPT='%B%F{$prompt_color}$(_fishy_collapsed_wd)%f%b$(git_prompt_info)$(git_prompt_status)%F{$prompt_color}%B➤%f%b '
 RPROMPT=''
+#
+# Show what mode ZLE is in
+function zle-line-init zle-keymap-select {
+    VIMPROMPT="%F{yellow} [NORMAL] %f"
+    RPS1="${${KEYMAP/vicmd/$VIMPROMPT}/(main|viins)/}"
+    zle reset-prompt
+}
+
+zle -N zle-line-init
+zle -N zle-keymap-select
 
 ZSH_THEME_GIT_PROMPT_DIRTY="%F{red}✗%f"
 ZSH_THEME_GIT_PROMPT_CLEAN="%F{green}✔%f"
+
+# opam configuration
+[[ ! -r /home/cake/.opam/opam-init/init.zsh ]] || source /home/cake/.opam/opam-init/init.zsh  > /dev/null 2> /dev/null

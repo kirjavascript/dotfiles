@@ -11,9 +11,12 @@ if empty(glob('~/.vim/autoload/plug.vim'))
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
-" let g:nibblrjrURL = 'http://localhost:8888'
+let g:nibblrjrURL = 'https://nibblr.pw'
 
 call has('python3') " force py3
+
+" disable polyglot stuff
+let g:polyglot_disabled = ['javascript','jsx']
 
 call plug#begin('~/.vim/plugged')
 
@@ -28,7 +31,6 @@ Plug 'dyng/ctrlsf.vim'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf' } " requires ripgrep
 Plug 'lambdalisue/suda.vim'
 " languages
-Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} " TSInstall all
 Plug 'neoclide/vim-jsx-improve'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'sheerun/vim-polyglot'
@@ -62,6 +64,8 @@ nnoremap <F12> @=nr2char(getchar())<CR>
 
 " unmap
 map Q <Nop>
+map <MiddleMouse> <Nop>
+imap <MiddleMouse> <Nop>
 
 " make K do the opposite of J
 nnoremap K :silent! s/^\(\s*\).*\%#\S\{-1,}\zs\s/\r\1<CR>==
@@ -133,7 +137,7 @@ nnoremap <Leader>i3 :e $HOME/.i3/config<CR>
 nnoremap <Leader>zx :e $HOME/todo<CR>
 
 " load current file in firefox
-nnoremap <Leader>fx :!firefox-nightly %<CR>
+nnoremap <Leader>fx :!firefox %<CR>
 
 " reactify XML (eg react-native-svg)
 nnoremap <Leader>rf :%s/\(<\/\?\)\(.\)/\1\U\2/g<CR>
@@ -211,26 +215,27 @@ nnoremap <silent> <Leader>u :UndotreeToggle <BAR> :UndotreeFocus<CR>
 
 " coc
 
-" CocInstall coc-marketplace coc-tsserver coc-eslint coc-prettier coc-html coc-json coc-css coc-stylelint coc-rust-analyzer coc-phpls coc-vimlsp
+" CocInstall coc-marketplace coc-tsserver coc-eslint coc-prettier coc-json coc-css coc-stylelint coc-rust-analyzer coc-phpls coc-vimlsp
 
 inoremap <silent><expr> <TAB>
-      \ pumvisible() ? "\<C-n>" :
-      \ <SID>check_back_space() ? "\<TAB>" :
+      \ coc#pum#visible() ? coc#pum#next(1) :
+      \ CheckBackspace() ? "\<Tab>" :
       \ coc#refresh()
-inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
+inoremap <expr><S-TAB> coc#pum#visible() ? coc#pum#prev(1) : "\<C-h>"
 
-function! s:check_back_space() abort
+function! CheckBackspace() abort
   let col = col('.') - 1
   return !col || getline('.')[col - 1]  =~# '\s'
 endfunction
+
 " Use <c-space> to trigger completion.
 inoremap <silent><expr> <c-space> coc#refresh()
 " Use <cr> to confirm completion, `<C-g>u` means break undo chain at current position.
 " Coc only does snippet and additional edit on confirm.
 inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
-" Use `[c` and `]c` to navigate diagnostics
-nmap <silent> [c <Plug>(coc-diagnostic-prev)
-nmap <silent> ]c <Plug>(coc-diagnostic-next)
+" Use `[g` and `]g` to navigate diagnostics
+nmap <silent> [g <Plug>(coc-diagnostic-prev)
+nmap <silent> ]g <Plug>(coc-diagnostic-next)
 " Remap keys for gotos
 nmap <leader>cg <Plug>(coc-definition)
 nmap <leader>ct <Plug>(coc-type-definition)
@@ -306,9 +311,6 @@ let g:mta_filetypes = {'html':1,'xhtml':1,'xml':1,'php':1,'ejs':1}
 " vim-highlighedyank
 let g:highlightedyank_highlight_duration = 200
 
-" disable polyglot stuff
-let g:polyglot_disabled = ['javascript','jsx']
-
 "" settings
 
 set updatetime=250 " faster gitgutter
@@ -336,6 +338,7 @@ set encoding=utf-8
 set title " show filepath in UI title
 set guioptions=c " gvim: hide all ui stuff
 set guifont=FiraCode\ Nerd\ Font:h11 " get guifont - otf-nerd-fonts-fira-code - tty-unifont
+
 
 runtime macros/matchit.vim " allow using % to navigate XML
 

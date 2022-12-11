@@ -1,5 +1,5 @@
 {
-    "coc.preferences.hoverTarget": "float",
+    "suggest.noselect": true,
     "prettier.tabWidth": 4,
     "prettier.singleQuote": true,
     "prettier.printWidth": 80,
