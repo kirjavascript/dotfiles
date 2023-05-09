@@ -262,8 +262,7 @@ for_window [class="Telegram"] floating enable border normal
 for_window [class="Flex2"] floating enable border normal
 for_window [class="Flex2" window_role="devtools"] floating disable border none
 for_window [class="VirtualBox Machine"] floating enable border pixel 5
-for_window [window_role="trueLMAO"] floating enable border normal
-for_window [window_role="__float"] floating enable border normal
+for_window [class="^truelmao$"] floating enable
 for_window [class="glade"] floating enable border normal
 for_window [class="PCSX2"] floating enable border none
 for_window [title="^charmap-rs$"] floating enable border none

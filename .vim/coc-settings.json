@@ -5,5 +5,5 @@
     "prettier.printWidth": 80,
     "prettier.trailingComma": "all",
     "javascript.preferences.quoteStyle": "double",
-    "javascript.referencesCodeLens.enable": false
+    "rust-analyzer.diagnostics.disabled": ["inactive-code"]
 }
