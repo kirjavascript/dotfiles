@@ -5,5 +5,8 @@
     "prettier.printWidth": 80,
     "prettier.trailingComma": "all",
     "javascript.preferences.quoteStyle": "double",
-    "rust-analyzer.diagnostics.disabled": ["inactive-code"]
+    "rust-analyzer.diagnostics.disabled": [
+      "inactive-code"
+    ],
+    "clangd.path": "~/.config/coc/extensions/coc-clangd-data/install/16.0.2/clangd_16.0.2/bin/clangd"
 }

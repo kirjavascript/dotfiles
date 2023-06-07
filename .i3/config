@@ -1,10 +1,4 @@
-    # _ _____
-   # (_)__  /      ______ ___
-  # / / /_ < | /| / / __ `__ \
- # / /___/ / |/ |/ / / / / / /
-# /_//____/|__/|__/_/ /_/ /_/
-
-# http://i3wm.org/docs/userguide.html
+# legacy config file
 
 # enable numlock
 exec --no-startup-id numlockx on

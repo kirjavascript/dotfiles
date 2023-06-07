@@ -19,7 +19,7 @@ zplug load
 # environment
 export EDITOR=vim
 export VISUAL=vim
-export BROWSER=firefox-nightly
+export BROWSER=firefox
 export WORDCHARS=''
 export ANDROID_HOME=$HOME/Android/Sdk
 export NDK_HOME=$HOME/Android/Sdk/ndk
@@ -32,6 +32,7 @@ export SUDO_PROMPT='[beep boop please login] '
 export BSPWM_SOCKET='/tmp/bspwm-tmp'
 export DENO_INSTALL="/home/cake/.deno"
 export PATH="$DENO_INSTALL/bin:$PATH"
+export DOCKER_HOST=unix://$XDG_RUNTIME_DIR/docker.sock
 # keys
 # use cat to get the secret codez
 bindkey "^[[1;5C" forward-word # ctrl-left
@@ -53,6 +54,7 @@ zstyle ':completion:*' list-colors 'di=;34;1' 'ln=;35;1' 'so=;32;1' 'ex=31;1' 'b
 csv() {
     column -s, -t < "$1" | less -#2 -N -S
 }
+color()(set -o pipefail;"$@" 2> >(sed $'s,.*,\e[31m&\e[m,'>&2))
 notgd() {
     curl -s "https://i.not.gd/up" -H "Content-type: $(file -b --mime-type $1)" --data-binary "@$1" | jq -r '.href'
 }
@@ -91,6 +93,3 @@ zle -N zle-keymap-select
 
 ZSH_THEME_GIT_PROMPT_DIRTY="%F{red}✗%f"
 ZSH_THEME_GIT_PROMPT_CLEAN="%F{green}✔%f"
-
-# opam configuration
-[[ ! -r /home/cake/.opam/opam-init/init.zsh ]] || source /home/cake/.opam/opam-init/init.zsh  > /dev/null 2> /dev/null

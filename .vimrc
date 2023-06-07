@@ -32,7 +32,6 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf' } " requires ripgrep
 Plug 'lambdalisue/suda.vim'
 " languages
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-" Plug 'Exafunction/codeium.vim'
 Plug 'neoclide/vim-jsx-improve'
 Plug 'sheerun/vim-polyglot'
 Plug 'honza/vim-snippets'
@@ -216,7 +215,7 @@ nnoremap <silent> <Leader>u :UndotreeToggle <BAR> :UndotreeFocus<CR>
 
 " coc
 
-" CocInstall coc-marketplace coc-tsserver coc-eslint coc-prettier coc-json coc-css coc-stylelint coc-rust-analyzer coc-phpls coc-vimlsp coc-clangd
+" CocInstall coc-tsserver coc-eslint coc-prettier coc-json coc-css coc-stylelint coc-rust-analyzer coc-phpls coc-vimlsp coc-clangd
 
 inoremap <silent><expr> <TAB>
       \ coc#pum#visible() ? coc#pum#next(1) :
@@ -259,15 +258,6 @@ function! s:show_documentation()
 endfunction
 
 set completeopt=menu,noinsert,noselect
-
-" codeium
-
-" let g:codeium_disable_bindings = 1
-
-" imap <C-Right>   <Cmd>call codeium#Accept()<CR>
-" imap <C-Left>   <Cmd>call codeium#Clear()<CR>
-" imap <C-]>   <Cmd>call codeium#CycleCompletions(1)<CR>
-" imap <C-[>   <Cmd>call codeium#CycleCompletions(-1)<CR>
 
 " start NERDTree if no file is specified
 nnoremap <Leader>nt :NERDTreeToggle<CR>
@@ -327,6 +317,7 @@ set updatetime=250 " faster gitgutter
 set tabstop=4 softtabstop=4 expandtab shiftwidth=4 smarttab " 4 space tabs
 set relativenumber " relative line numbers
 set mouse=a " enable mouse support in terminal
+set mousemodel=extend " disable right click menu
 set laststatus=2 " always show a statusline
 set noshowmode " hide -- INSERT -- text
 set lazyredraw " don't redraw whenthere are pending macro operations
@@ -347,8 +338,7 @@ set wildmenu " cmd completion suggestions
 set encoding=utf-8
 set title " show filepath in UI title
 set guioptions=c " gvim: hide all ui stuff
-set guifont=FiraCode\ Nerd\ Font:h11 " get guifont - otf-nerd-fonts-fira-code - tty-unifont
-
+set guifont=Fira\ Code:h11 " tty-fira-code
 runtime macros/matchit.vim " allow using % to navigate XML
 
 augroup Config

@@ -15,6 +15,7 @@ rsync \
     --exclude Genesis \
     --exclude .android \
     --exclude Downloads \
+    --exclude wfh \
     --exclude '.local/share' \
     --relative \
     --recursive \
