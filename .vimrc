@@ -29,6 +29,9 @@ Plug 'eugen0329/vim-esearch' " requires ripgrep
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 Plug 'dyng/ctrlsf.vim'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf' } " requires ripgrep
+Plug 'tpope/vim-fugitive'
+Plug 'xolox/vim-misc'
+Plug 'xolox/vim-session'
 Plug 'lambdalisue/suda.vim'
 " languages
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -171,6 +174,8 @@ vnoremap <Leader>sp :Pasta<CR>
 
 "" plugin config
 
+let g:session_autosave = 'no'
+
 " animate
 let g:animate#duration = 100.0
 
@@ -215,7 +220,7 @@ nnoremap <silent> <Leader>u :UndotreeToggle <BAR> :UndotreeFocus<CR>
 
 " coc
 
-" CocInstall coc-tsserver coc-eslint coc-prettier coc-json coc-css coc-stylelint coc-rust-analyzer coc-phpls coc-vimlsp coc-clangd
+let g:coc_global_extensions = ['coc-tsserver', 'coc-eslint', 'coc-prettier', 'coc-json', 'coc-css', 'coc-stylelint', 'coc-rust-analyzer', 'coc-phpls', 'coc-vimlsp', 'coc-clangd', 'coc-solargraph']
 
 inoremap <silent><expr> <TAB>
       \ coc#pum#visible() ? coc#pum#next(1) :

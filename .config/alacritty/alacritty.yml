@@ -43,6 +43,9 @@ colors:
 font:
   normal:
     family: Hack
+  # offset:
+  #   y: -6
+
 
 bell:
   animation: EaseOutQuad

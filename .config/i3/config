@@ -224,7 +224,8 @@ bindsym Print exec scrot ~/%Y-%m-%d-%T-screenshot.png && notify-send "Screenshot
 # Power Profiles menu switcher (rofi)
 
 # rofi
-bindsym $mod+d exec rofi -modi drun -show drun -config ~/.config/rofi/rofidmenu.rasi
+bindsym $mod+d exec rofi -modi drun -show drun \
+		-config ~/.config/rofi/rofidmenu.rasi
 bindsym $mod+Shift+e exec ~/.config/i3/scripts/powermenu
 bindsym $mod+Shift+p exec ~/.config/i3/scripts/power-profiles
 bindsym $mod+Ctrl+l exec ~/.config/i3/scripts/blur-lock
@@ -247,7 +248,9 @@ exec --no-startup-id numlockx on
 exec --no-startup-id xmodmap -e "clear lock"
 # set caps_lock as escape
 exec --no-startup-id xmodmap -e "keysym Caps_Lock = Escape"
-exec --no-startup-id xautolock -time 15 -locker blurlock
+# set ralt to compose
+exec --no-startup-id setxkbmap -option compose:ralt
+# exec --no-startup-id xautolock -time 15 -locker blurlock
 
 # exec --no-startup-id ~/dev/cakeybar/target/release/cakeybar -c ~/dev/cakeybar/examples/darkblue/config.toml
 
@@ -285,6 +288,8 @@ for_window [class="Flex2" window_role="devtools"] floating disable border none
 for_window [class="VirtualBox Machine"] floating enable border pixel 5
 for_window [class="^truelmao$"] floating enable
 for_window [class="glade"] floating enable border normal
+for_window [class="Mesen"] floating enable border normal
+for_window [class="Mesen"] resize set 800 600
 for_window [class="PCSX2"] floating enable border none
 for_window [title="^charmap-rs$"] floating enable border none
 
