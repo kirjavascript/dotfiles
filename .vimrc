@@ -266,9 +266,10 @@ set completeopt=menu,noinsert,noselect
 
 " start NERDTree if no file is specified
 nnoremap <Leader>nt :NERDTreeToggle<CR>
-autocmd StdinReadPre * let s:std_in=1
-let s:hasnofile = argc() == 0 && !exists('s:std_in')
-autocmd VimEnter * if s:hasnofile | NERDTree | wincmd w | endif
+nnoremap <Leader>nf :NERDTreeFind<CR>
+" autocmd StdinReadPre * let s:std_in=1
+" let s:hasnofile = argc() == 0 && !exists('s:std_in')
+" autocmd VimEnter * if s:hasnofile | NERDTree | wincmd w | endif
 let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
 let g:NERDTreeMapHelp = '<F1>'
@@ -323,6 +324,7 @@ set tabstop=4 softtabstop=4 expandtab shiftwidth=4 smarttab " 4 space tabs
 set relativenumber " relative line numbers
 set mouse=a " enable mouse support in terminal
 set mousemodel=extend " disable right click menu
+set shortmess=I " hide startup message
 set laststatus=2 " always show a statusline
 set noshowmode " hide -- INSERT -- text
 set lazyredraw " don't redraw whenthere are pending macro operations
