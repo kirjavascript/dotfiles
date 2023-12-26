@@ -62,7 +62,7 @@ bindsym $mod+Ctrl+c exec gcolor2
 bindsym $mod+b exec pcmanfm
 bindsym $mod+Ctrl+b exec alacritty -e ranger
 bindsym $mod+n exec simplescreenrecorder
-bindsym $mod+Ctrl+n exec neovide --multigrid
+bindsym $mod+Ctrl+n exec neovide
 bindsym $mod+m exec alacritty  -t "alacritty (kirjava.xyz)" -e ssh cake@kirjava.xyz
 bindsym $mod+Ctrl+v exec virtualbox
 bindsym XF86Calculator exec galculator

@@ -134,7 +134,7 @@ nnoremap <Leader>rc :e $HOME/.vimrc<CR>
 nnoremap <Leader>zrc :e $HOME/.zshrc<CR>
 
 " edit .i3/config
-nnoremap <Leader>i3 :e $HOME/.i3/config<CR>
+nnoremap <Leader>i3 :e $HOME/.config/i3/config<CR>
 
 " edit todo
 nnoremap <Leader>zx :e $HOME/todo<CR>
