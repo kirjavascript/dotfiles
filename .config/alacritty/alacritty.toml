@@ -1,0 +1,53 @@
+live_config_reload = true
+
+[bell]
+animation = "EaseOutQuad"
+color = "#300860"
+duration = 80
+
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[colors.bright]
+black = "#545054"
+blue = "#5054f8"
+cyan = "#50fcf8"
+green = "#50fc50"
+magenta = "#f854f8"
+red = "#f85450"
+white = "#f8fcf8"
+yellow = "#f8fc50"
+
+[colors.cursor]
+cursor = "#56B6C2"
+text = "CellBackground"
+
+[colors.normal]
+black = "#000000"
+blue = "#7B9EFF"
+cyan = "#00a8a8"
+green = "#00a800"
+magenta = "#a800a8"
+red = "#a80000"
+white = "#a8a8a8"
+yellow = "#a85400"
+
+[colors.primary]
+background = "#000000"
+foreground = "#f8fcf8"
+
+[colors.selection]
+background = "#3e4451"
+foreground = "#e0e0e0"
+text = "CellForeground"
+
+[font.normal]
+family = "Hack"
+
+[scrolling]
+history = 10000
+
+[window]
+dynamic_title = true
+opacity = 0.7
+title = "tty"

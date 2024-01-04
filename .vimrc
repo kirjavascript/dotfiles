@@ -220,7 +220,7 @@ nnoremap <silent> <Leader>u :UndotreeToggle <BAR> :UndotreeFocus<CR>
 
 " coc
 
-let g:coc_global_extensions = ['coc-tsserver', 'coc-eslint', 'coc-prettier', 'coc-json', 'coc-css', 'coc-stylelint', 'coc-rust-analyzer', 'coc-phpls', 'coc-vimlsp', 'coc-clangd', 'coc-solargraph']
+let g:coc_global_extensions = ['coc-tsserver', 'coc-eslint', 'coc-prettier', 'coc-json', 'coc-css', 'coc-stylelint', 'coc-rust-analyzer', 'coc-phpls', 'coc-vimlsp', 'coc-clangd']
 
 inoremap <silent><expr> <TAB>
       \ coc#pum#visible() ? coc#pum#next(1) :
@@ -248,8 +248,8 @@ nmap <leader>ci <Plug>(coc-implementation)
 nmap <leader>cr <Plug>(coc-references)
 " Remap for rename current word
 nmap <leader>crn <Plug>(coc-rename)
-" Remap for format selected region
 vmap <leader>cf  <Plug>(coc-format-selected)
+nnoremap <leader>cf :call CocAction('format')<CR>
 " coc plugin config
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
 

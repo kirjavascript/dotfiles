@@ -58,6 +58,9 @@ color()(set -o pipefail;"$@" 2> >(sed $'s,.*,\e[31m&\e[m,'>&2))
 notgd() {
     curl -s "https://i.not.gd/up" -H "Content-type: $(file -b --mime-type $1)" --data-binary "@$1" | jq -r '.href'
 }
+gch() {
+    git checkout $(git for-each-ref refs/heads/ --format='%(refname:short)' | fzf)
+}
 
 # history
 export HISTFILE=~/.zsh_history
@@ -93,3 +96,22 @@ zle -N zle-keymap-select
 
 ZSH_THEME_GIT_PROMPT_DIRTY="%F{red}✗%f"
 ZSH_THEME_GIT_PROMPT_CLEAN="%F{green}✔%f"
+
+# pnpm
+export PNPM_HOME="/home/cake/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
+
+# Wasmer
+export WASMER_DIR="/home/cake/.wasmer"
+[ -s "$WASMER_DIR/wasmer.sh" ] && source "$WASMER_DIR/wasmer.sh"
+
+# bun completions
+[ -s "/home/cake/.bun/_bun" ] && source "/home/cake/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
