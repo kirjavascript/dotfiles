@@ -213,7 +213,7 @@ bindsym $mod+c exec xfce4-screenshooter
 bindsym $mod+Ctrl+c exec gcolor2
 bindsym $mod+b exec thunar
 bindsym $mod+n exec simplescreenrecorder
-bindsym $mod+Ctrl+n exec neovide --multigrid
+bindsym $mod+Ctrl+n exec neovide
 bindsym $mod+m exec alacritty  -t "alacritty (kirjava.xyz)" -e ssh cake@kirjava.xyz
 
 bindsym $mod+Ctrl+d exec --no-startup-id ~/dev/cakeybar/target/release/cakeybar -m "focus #autocomplete"
