@@ -244,10 +244,8 @@ exec --no-startup-id /usr/lib/xapps/sn-watcher/xapp-sn-watcher
 
 # enable numlock
 exec --no-startup-id numlockx on
-# disable caps lock switch
-exec --no-startup-id xmodmap -e "clear lock"
-# set caps_lock as escape
-exec --no-startup-id xmodmap -e "keysym Caps_Lock = Escape"
+# caps lock is escape
+exec --no-startup-id setxkbmap -option caps:escape
 # set ralt to compose
 exec --no-startup-id setxkbmap -option compose:ralt
 # exec --no-startup-id xautolock -time 15 -locker blurlock
