@@ -5,6 +5,16 @@
     "prettier.printWidth": 80,
     "prettier.trailingComma": "all",
     "javascript.preferences.quoteStyle": "double",
+    "languageserver": {
+        "sorbet": {
+            "command": "srb",
+            "args": ["tc", "--lsp", "--enable-all-experimental-lsp-features"],
+            "filetypes": ["ruby"],
+            "rootPatterns": ["sorbet/config"],
+            "initializationOptions": {},
+            "settings": {}
+        }
+    },
     "rust-analyzer.diagnostics.disabled": [
       "inactive-code"
     ],
