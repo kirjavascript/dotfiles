@@ -244,10 +244,8 @@ exec --no-startup-id /usr/lib/xapps/sn-watcher/xapp-sn-watcher
 
 # enable numlock
 exec --no-startup-id numlockx on
-# caps lock is escape
-exec --no-startup-id setxkbmap -option caps:escape
-# set ralt to compose
-exec --no-startup-id setxkbmap -option compose:ralt
+# caps lock is escape and ralt is compose
+exec --no-startup-id setxkbmap -option caps:escape ; setxkbmap -option compose:ralt
 # exec --no-startup-id xautolock -time 15 -locker blurlock
 
 # exec --no-startup-id ~/dev/cakeybar/target/release/cakeybar -c ~/dev/cakeybar/examples/darkblue/config.toml
