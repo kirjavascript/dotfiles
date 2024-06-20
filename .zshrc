@@ -97,6 +97,8 @@ zle -N zle-keymap-select
 ZSH_THEME_GIT_PROMPT_DIRTY="%F{red}✗%f"
 ZSH_THEME_GIT_PROMPT_CLEAN="%F{green}✔%f"
 
+export PATH="$HOME/.local/bin:$PATH"
+
 # pnpm
 export PNPM_HOME="/home/cake/.local/share/pnpm"
 case ":$PATH:" in
@@ -115,3 +117,4 @@ export WASMER_DIR="/home/cake/.wasmer"
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+. "$HOME/.cargo/env"

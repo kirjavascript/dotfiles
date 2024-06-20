@@ -288,6 +288,11 @@ for_window [class="Mesen"] floating enable border normal
 for_window [class="Mesen"] resize set 800 600
 for_window [class="PCSX2"] floating enable border none
 for_window [title="^charmap-rs$"] floating enable border none
+for_window [class="(.*join\?action\=join.*|.*zoom.*)"] floating enable
+for_window [class="(.*join\?action\=join.*|.*zoom.*)" title="Zoom - Licensed Account"] floating disable
+for_window [class="(.*join\?action\=join.*|.*zoom.*)" title="Zoom - Free Account"] floating disable
+for_window [class="(.*join\?action\=join.*|.*zoom.*)" title="Zoom Meeting"] floating disable
+for_window [class="(.*join\?action\=join.*|.*zoom.*)" title="Zoom Webinar"] floating disable
 
 
 # set size of floating window

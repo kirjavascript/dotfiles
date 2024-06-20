@@ -23,12 +23,14 @@ call plug#begin('~/.vim/plugged')
 " tools
 Plug 'kirjavascript/nibblrjr.vim'
 Plug 'scrooloose/nerdtree'
+Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'jlanzarotta/bufexplorer'
 Plug 'mbbill/undotree'
 Plug 'eugen0329/vim-esearch' " requires ripgrep
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 Plug 'dyng/ctrlsf.vim'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf' } " requires ripgrep
+Plug 'junegunn/fzf.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'xolox/vim-misc'
 Plug 'xolox/vim-session'
@@ -44,14 +46,12 @@ Plug 'terryma/vim-multiple-cursors'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'
 Plug 'tommcdo/vim-exchange'
-Plug 'SirVer/ultisnips'
 " display
 Plug 'itchyny/lightline.vim'
 Plug 'airblade/vim-gitgutter'
 Plug 'Valloric/MatchTagAlways'
 Plug 'xtal8/traces.vim'
 Plug 'machakann/vim-highlightedyank'
-Plug 'camspiers/animate.vim'
 " colours
 Plug 'joshdick/onedark.vim'
 Plug 'KeitaNakamura/neodark.vim'
@@ -176,9 +176,6 @@ vnoremap <Leader>sp :Pasta<CR>
 
 let g:session_autosave = 'no'
 
-" animate
-let g:animate#duration = 100.0
-
 " esearch (maps <Leader>ff)
 let g:esearch = {
   \ 'adapter':    'rg',
@@ -198,17 +195,9 @@ function! RootDir()
     return trim(system('cd ' . expand('%:h') . ' && git rev-parse --show-toplevel 2> /dev/null'))
 endfunction
 function! FZF()
-    call fzf#run({ 'source' : 'rg --files', 'dir': RootDir(), 'up': '0%', 'sink': 'e' })
-    call animate#window_percent_height(0.2)
+    call fzf#vim#files(RootDir())
 endfunction
 nnoremap <Leader>fz :call FZF()<CR>
-
-" snippets
-let g:UltiSnipsExpandTrigger="<c-b>"
-let g:UltiSnipsJumpForwardTrigger="<c-b>"
-let g:UltiSnipsJumpBackwardTrigger="<c-z>"
-let g:UltiSnipsEditSplit="vertical"
-let g:UltiSnipsSnippetDirectories = ['~/.vim/UltiSnips', 'UltiSnips']
 
 " bufexplorer
 nnoremap <silent> <Leader>b :BufExplorer<CR>
