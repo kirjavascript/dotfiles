@@ -1,3 +1,5 @@
-Xephyr -br -ac -noreset -screen 1500x900 :1 &
+Xephyr -br -ac -noreset -screen 1500x900 :2 &
 sleep 1
-DISPLAY=:1 i3
+export I3SOCK=/tmp/i3-xephyr_2.sock
+export DISPLAY=:2
+i3

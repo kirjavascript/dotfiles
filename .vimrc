@@ -41,6 +41,7 @@ Plug 'neoclide/vim-jsx-improve'
 Plug 'sheerun/vim-polyglot'
 Plug 'honza/vim-snippets'
 Plug 'vim-scripts/asmM68k.vim'
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 " editing
 Plug 'terryma/vim-multiple-cursors'
 Plug 'tpope/vim-commentary'
@@ -49,7 +50,6 @@ Plug 'tommcdo/vim-exchange'
 " display
 Plug 'itchyny/lightline.vim'
 Plug 'airblade/vim-gitgutter'
-Plug 'Valloric/MatchTagAlways'
 Plug 'xtal8/traces.vim'
 Plug 'machakann/vim-highlightedyank'
 " colours
@@ -209,7 +209,7 @@ nnoremap <silent> <Leader>u :UndotreeToggle <BAR> :UndotreeFocus<CR>
 
 " coc
 
-let g:coc_global_extensions = ['coc-tsserver', 'coc-eslint', 'coc-prettier', 'coc-json', 'coc-css', 'coc-stylelint', 'coc-rust-analyzer', 'coc-phpls', 'coc-vimlsp', 'coc-clangd']
+let g:coc_global_extensions = ['coc-tsserver', 'coc-eslint', 'coc-prettier', 'coc-json', 'coc-css', 'coc-stylelint', 'coc-rust-analyzer', 'coc-phpls', 'coc-vimlsp', 'coc-clangd', 'coc-lua']
 
 inoremap <silent><expr> <TAB>
       \ coc#pum#visible() ? coc#pum#next(1) :
