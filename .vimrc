@@ -300,9 +300,6 @@ function! SetTheme(main, bar)
     call lightline#enable()
 endfunction
 
-" MatchTagAlways
-let g:mta_filetypes = {'html':1,'xhtml':1,'xml':1,'php':1,'ejs':1}
-
 " vim-highlighedyank
 let g:highlightedyank_highlight_duration = 200
 

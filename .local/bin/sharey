@@ -1,0 +1,9 @@
+#!/bin/bash
+# upload to sharey via xfce4-screenshooter
+# ~/.local/bin/sharey $f
+
+response=$(curl -X POST https://sharey.org/api/upload -F "files[]=@$1")
+url=$(jq -r '.urls[0]' <<< "$response")
+# notify-send "$response"
+echo -n "$url" | xclip -selection clipboard
+notify-send "uploaded to $url (and in clipboard)"
