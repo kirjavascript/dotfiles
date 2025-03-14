@@ -216,10 +216,12 @@ bindsym $mod+n exec simplescreenrecorder
 bindsym $mod+Ctrl+n exec neovide
 bindsym $mod+m exec alacritty  -t "alacritty (kirjava.xyz)" -e ssh cake@kirjava.xyz
 
-bindsym $mod+Ctrl+d exec --no-startup-id ~/dev/cakeybar/target/release/cakeybar -m "focus #autocomplete"
 bindsym $mod+Ctrl+s exec ~/dev/charmap-rs/target/release/charmap-rs
+bindsym $mod+Ctrl+d exec ~/bin/nerd-dictation/nerd-dictation begin --vosk-model-dir=$HOME/bin/nerd-dictation/model
+bindsym $mod+Ctrl+f exec ~/bin/nerd-dictation/nerd-dictation end
 
 bindsym Print exec scrot ~/%Y-%m-%d-%T-screenshot.png && notify-send "Screenshot saved to ~/$(date +"%Y-%m-%d-%T")-screenshot.png"
+
 
 # Power Profiles menu switcher (rofi)
 

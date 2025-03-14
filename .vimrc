@@ -11,9 +11,11 @@ if empty(glob('~/.vim/autoload/plug.vim'))
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
-let g:nibblrjrURL = 'https://nibblr.pw'
+silent! source ~/.vim/env.vim " load ANTHROPIC_API_KEY
 
 call has('python3') " force py3
+
+let g:nibblrjrURL = 'https://nibblr.pw'
 
 " disable polyglot stuff
 let g:polyglot_disabled = ['javascript','jsx']
@@ -39,7 +41,6 @@ Plug 'lambdalisue/suda.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'neoclide/vim-jsx-improve'
 Plug 'sheerun/vim-polyglot'
-Plug 'honza/vim-snippets'
 Plug 'vim-scripts/asmM68k.vim'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 " editing
@@ -55,8 +56,19 @@ Plug 'machakann/vim-highlightedyank'
 " colours
 Plug 'joshdick/onedark.vim'
 Plug 'KeitaNakamura/neodark.vim'
-Plug 'trevordmiller/nova-vim'
 Plug 'fcpg/vim-orbital'
+" avante.vim
+Plug 'yetone/avante.nvim', { 'branch': 'main', 'do': 'make' }
+Plug 'nvim-treesitter/nvim-treesitter'
+Plug 'stevearc/dressing.nvim'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'MunifTanjim/nui.nvim'
+Plug 'MeanderingProgrammer/render-markdown.nvim'
+" avante.vim optional
+Plug 'hrsh7th/nvim-cmp'
+Plug 'nvim-tree/nvim-web-devicons'
+Plug 'HakonHarnes/img-clip.nvim'
+Plug 'zbirenbaum/copilot.lua'
 
 call plug#end()
 
@@ -288,7 +300,6 @@ let g:lightline.component = {'lineinfo': '%3l:%-2v'}
 
 " change colourscheme
 noremap <silent> <leader>co :call SetTheme('onedark', 'one')<CR>
-noremap <silent> <leader>cn :call SetTheme('nova', 'material')<CR>
 noremap <silent> <leader>cb :call SetTheme('orbital', 'orbital')<CR>
 noremap <silent> <leader>cp :call SetTheme('neodark', 'orbital')<CR>
 
@@ -341,7 +352,6 @@ augroup Config
     autocmd BufNewFile,BufRead *.asm,*.s set filetype=asm68k " specify m86k ASM
     autocmd FileType asm68k setlocal commentstring=;%s " comment string for m68k
     autocmd bufnewfile,bufread *.js set filetype=javascript.jsx " enable JSX
-    autocmd bufnewfile,bufread *.ts set filetype=typescript.tsx " enable JSX for TS
     autocmd BufWritePre * call StripWhitespace()
     autocmd BufRead,BufNewFile,BufWritePost * call HighlightGlobal()
 augroup END
@@ -402,3 +412,30 @@ function! HighlightGlobal()
     highlight def link nonalphabet Function
   endif
 endfunction
+
+" avante
+
+lua << EOF
+require('avante_lib').load()
+local config = {
+  windows = {
+    input = {
+      border = "rounded",
+      width = 60,
+      height = 10,
+    },
+    output = {
+      border = "rounded",
+      width = 60,
+      height = 20,
+    },
+    ask = {
+      floating = true,
+      border = "rounded",
+      start_insert = true
+    }
+  }
+}
+local avante = require('avante')
+avante.setup(config)
+EOF
