@@ -15,8 +15,6 @@ silent! source ~/.vim/env.vim " load ANTHROPIC_API_KEY
 
 call has('python3') " force py3
 
-let g:nibblrjrURL = 'https://nibblr.pw'
-
 " disable polyglot stuff
 let g:polyglot_disabled = ['javascript','jsx']
 
@@ -64,11 +62,6 @@ Plug 'stevearc/dressing.nvim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'MunifTanjim/nui.nvim'
 Plug 'MeanderingProgrammer/render-markdown.nvim'
-" avante.vim optional
-Plug 'hrsh7th/nvim-cmp'
-Plug 'nvim-tree/nvim-web-devicons'
-Plug 'HakonHarnes/img-clip.nvim'
-Plug 'zbirenbaum/copilot.lua'
 
 call plug#end()
 
@@ -351,7 +344,8 @@ augroup Config
     autocmd BufNewFile,BufRead *.ejs set filetype=html " load EJS files like HTML
     autocmd BufNewFile,BufRead *.asm,*.s set filetype=asm68k " specify m86k ASM
     autocmd FileType asm68k setlocal commentstring=;%s " comment string for m68k
-    autocmd bufnewfile,bufread *.js set filetype=javascript.jsx " enable JSX
+    " autocmd bufnewfile,bufread *.js set filetype=javascript.jsx " enable JSX
+    " autocmd bufnewfile,bufread *.ts set filetype=typescript.tsx " enable JSX for TS
     autocmd BufWritePre * call StripWhitespace()
     autocmd BufRead,BufNewFile,BufWritePost * call HighlightGlobal()
 augroup END
@@ -415,6 +409,7 @@ endfunction
 
 " avante
 
+if has('nvim')
 lua << EOF
 require('avante_lib').load()
 local config = {
@@ -439,3 +434,4 @@ local config = {
 local avante = require('avante')
 avante.setup(config)
 EOF
+endif
