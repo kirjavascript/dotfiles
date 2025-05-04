@@ -1,6 +1,8 @@
 {
     "suggest.noselect": true,
     "eslint.enable": false,
+    "inlayHint.enable": true,
+    "inlayHint.position": "eol",
     "prettier.tabWidth": 4,
     "prettier.singleQuote": true,
     "prettier.printWidth": 80,
