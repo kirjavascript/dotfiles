@@ -55,13 +55,8 @@ Plug 'machakann/vim-highlightedyank'
 Plug 'joshdick/onedark.vim'
 Plug 'KeitaNakamura/neodark.vim'
 Plug 'fcpg/vim-orbital'
-" avante.vim
-Plug 'yetone/avante.nvim', { 'branch': 'main', 'do': 'make' }
-Plug 'nvim-treesitter/nvim-treesitter'
-Plug 'stevearc/dressing.nvim'
-Plug 'nvim-lua/plenary.nvim'
-Plug 'MunifTanjim/nui.nvim'
-Plug 'MeanderingProgrammer/render-markdown.nvim'
+" AI
+Plug 'robitx/gp.nvim'
 
 call plug#end()
 
@@ -407,31 +402,28 @@ function! HighlightGlobal()
   endif
 endfunction
 
-" avante
-
-if has('nvim')
 lua << EOF
-require('avante_lib').load()
-local config = {
-  windows = {
-    input = {
-      border = "rounded",
-      width = 60,
-      height = 10,
+local conf = {
+    providers = {
+   		anthropic = {
+			endpoint = "https://api.anthropic.com/v1/messages",
+			secret = os.getenv("ANTHROPIC_API_KEY"),
+		},
     },
-    output = {
-      border = "rounded",
-      width = 60,
-      height = 20,
+ 	agents = {
+        {
+            name = "ChatClaude-3-5-Haiku",
+            disable = true,
+        },
+ 		{
+ 			provider = "anthropic",
+ 			name = "ChatClaude-3-7-Sonnet",
+ 			chat = true,
+ 			command = false,
+ 			model = { model = "claude-3-7-sonnet-latest", temperature = 0.8, top_p = 1 },
+ 			system_prompt = require("gp.defaults").chat_system_prompt,
+ 		},
     },
-    ask = {
-      floating = true,
-      border = "rounded",
-      start_insert = true
-    }
-  }
 }
-local avante = require('avante')
-avante.setup(config)
+require("gp").setup(conf)
 EOF
-endif
