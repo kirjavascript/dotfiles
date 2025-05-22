@@ -415,11 +415,15 @@ local conf = {
             name = "ChatClaude-3-5-Haiku",
             disable = true,
         },
+        {
+            name = "CodeClaude-3-5-Haiku",
+            disable = true,
+        },
  		{
  			provider = "anthropic",
  			name = "ChatClaude-3-7-Sonnet",
  			chat = true,
- 			command = false,
+ 			command = true,
  			model = { model = "claude-3-7-sonnet-latest", temperature = 0.8, top_p = 1 },
  			system_prompt = require("gp.defaults").chat_system_prompt,
  		},
