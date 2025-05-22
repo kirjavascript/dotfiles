@@ -402,6 +402,7 @@ function! HighlightGlobal()
   endif
 endfunction
 
+if has('nvim')
 lua << EOF
 local conf = {
     providers = {
@@ -431,3 +432,4 @@ local conf = {
 }
 require("gp").setup(conf)
 EOF
+endif
