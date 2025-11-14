@@ -1,0 +1,13 @@
+#!/bin/sh
+rsync \
+    --itemize-changes \
+    --out-format="%i|%n|" \
+    --recursive \
+    --update \
+    --delete \
+    --exclude lost+found \
+    --perms \
+    --owner \
+    --group \
+    --times \
+    /run/media/cake/internal-storage /run/media/cake/seagate-500gb

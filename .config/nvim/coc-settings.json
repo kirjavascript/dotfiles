@@ -1,13 +1,14 @@
 {
     "suggest.noselect": true,
     "eslint.enable": false,
-    "inlayHint.enable": true,
-    "inlayHint.position": "eol",
     "prettier.tabWidth": 4,
     "prettier.singleQuote": true,
     "prettier.printWidth": 80,
     "prettier.trailingComma": "all",
     "javascript.preferences.quoteStyle": "double",
+    "inlayHint.enable": true,
+    "inlayHint.position": "eol",
+    "inlayHint.display": false,
     "languageserver": {
         "sorbet": {
             "command": "srb",

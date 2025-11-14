@@ -9,8 +9,11 @@ rsync \
     --exclude target \
     --exclude .rustup \
     --exclude .gradle \
+    --exclude .rbenv \
+    --exclude .stremio-server \
     --exclude .cache \
     --exclude .wine \
+    --exclude .yarn \
     --exclude Android \
     --exclude Genesis \
     --exclude .android \
@@ -25,4 +28,4 @@ rsync \
     --owner \
     --group \
     --times \
-    /home/cake /run/media/cake/6bfc0e72-bd45-485d-881e-0d7dd971105e/backup
+    /home/cake /run/media/cake/internal-storage/backup

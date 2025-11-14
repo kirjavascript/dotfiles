@@ -55,8 +55,6 @@ Plug 'machakann/vim-highlightedyank'
 Plug 'joshdick/onedark.vim'
 Plug 'KeitaNakamura/neodark.vim'
 Plug 'fcpg/vim-orbital'
-" AI
-Plug 'robitx/gp.nvim'
 
 call plug#end()
 
@@ -151,6 +149,9 @@ nnoremap <Leader>fp :set ft=html<CR>gg=G<CR>:set ft=php<CR>
 " hex helpers
 nnoremap <Leader>hd :%! xxd<CR>
 nnoremap <Leader>hf :%! xxd -r<CR>
+
+" load path into clipboard
+nnoremap <leader>xc :!echo '%:p' \| xclip -selection clipboard<CR>
 
 " git blame
 vnoremap <Leader>gb :<C-U>tabnew \|r!cd <C-R>=expand("%:p:h")<CR> && git annotate -L<C-R>=line("'<")<CR>,<C-R>=line("'>") <CR> <C-R>=expand("%:t") <CR><CR>
@@ -267,7 +268,7 @@ let g:NERDTreeDirArrowCollapsible='▼'
 
 " colourscheme / statusbar
 if has('nvim')
-    let g:neovide_transparency=0.9
+    let g:neovide_opacity=0.9
     colorscheme neodark
     highlight! Normal guibg=NONE ctermbg=NONE
     highlight! Cursor ctermfg=1 ctermbg=1 guibg=steelblue
@@ -329,8 +330,10 @@ set nohlsearch " dont highlight everything
 set wildmenu " cmd completion suggestions
 set encoding=utf-8
 set title " show filepath in UI title
-set guioptions=c " gvim: hide all ui stuff
 set guifont=Fira\ Code:h11 " tty-fira-code
+if has('gui_running') && !has('nvim')
+    set guioptions=c " gvim: hide all ui stuff
+endif
 runtime macros/matchit.vim " allow using % to navigate XML
 
 augroup Config
@@ -347,7 +350,7 @@ augroup END
 
 " stripe whitespace on save
 function! StripWhitespace()
-    if &ft == 'markdown'
+    if &ft == 'markdown' || &ft == 'text'
         return
     endif
     let pos = getcurpos()
@@ -401,35 +404,3 @@ function! HighlightGlobal()
     highlight def link nonalphabet Function
   endif
 endfunction
-
-if has('nvim')
-lua << EOF
-local conf = {
-    providers = {
-   		anthropic = {
-			endpoint = "https://api.anthropic.com/v1/messages",
-			secret = os.getenv("ANTHROPIC_API_KEY"),
-		},
-    },
- 	agents = {
-        {
-            name = "ChatClaude-3-5-Haiku",
-            disable = true,
-        },
-        {
-            name = "CodeClaude-3-5-Haiku",
-            disable = true,
-        },
- 		{
- 			provider = "anthropic",
- 			name = "ChatClaude-3-7-Sonnet",
- 			chat = true,
- 			command = true,
- 			model = { model = "claude-3-7-sonnet-latest", temperature = 0.8, top_p = 1 },
- 			system_prompt = require("gp.defaults").chat_system_prompt,
- 		},
-    },
-}
-require("gp").setup(conf)
-EOF
-endif

@@ -217,8 +217,8 @@ bindsym $mod+Ctrl+n exec neovide
 bindsym $mod+m exec alacritty  -t "alacritty (kirjava.xyz)" -e ssh cake@kirjava.xyz
 
 bindsym $mod+Ctrl+s exec ~/dev/charmap-rs/target/release/charmap-rs
-bindsym $mod+Ctrl+d exec ~/bin/nerd-dictation/nerd-dictation begin --vosk-model-dir=$HOME/bin/nerd-dictation/model
-bindsym $mod+Ctrl+f exec ~/bin/nerd-dictation/nerd-dictation end
+# bindsym $mod+Ctrl+d exec ~/bin/nerd-dictation/nerd-dictation begin --vosk-model-dir=$HOME/bin/nerd-dictation/model
+# bindsym $mod+Ctrl+f exec ~/bin/nerd-dictation/nerd-dictation end
 
 bindsym Print exec scrot ~/%Y-%m-%d-%T-screenshot.png && notify-send "Screenshot saved to ~/$(date +"%Y-%m-%d-%T")-screenshot.png"
 
@@ -257,7 +257,7 @@ exec --no-startup-id setxkbmap -option caps:escape ; setxkbmap -option compose:r
 exec --no-startup-id ~/.screenlayout/monitor.sh
 
 # set wallpaper
-exec --no-startup-id feh --bg-fill ~/images/wallpapers/main.png
+exec --no-startup-id feh --bg-fill ~/media/images/wallpapers/main.png
 
 exec --no-startup-id dunst
 
