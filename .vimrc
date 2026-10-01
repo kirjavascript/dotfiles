@@ -11,8 +11,6 @@ if empty(glob('~/.vim/autoload/plug.vim'))
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
-silent! source ~/.vim/env.vim " load ANTHROPIC_API_KEY
-
 call has('python3') " force py3
 
 " disable polyglot stuff
@@ -21,6 +19,7 @@ let g:polyglot_disabled = ['javascript','jsx']
 call plug#begin('~/.vim/plugged')
 
 " tools
+Plug '~/wfh/zidane', { 'rtp': 'editors/vim' }
 Plug 'kirjavascript/nibblrjr.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
@@ -134,9 +133,6 @@ nnoremap <Leader>zrc :e $HOME/.zshrc<CR>
 " edit .i3/config
 nnoremap <Leader>i3 :e $HOME/.config/i3/config<CR>
 
-" edit todo
-nnoremap <Leader>zx :e $HOME/todo<CR>
-
 " load current file in firefox
 nnoremap <Leader>fx :!firefox %<CR>
 
@@ -151,7 +147,7 @@ nnoremap <Leader>hd :%! xxd<CR>
 nnoremap <Leader>hf :%! xxd -r<CR>
 
 " load path into clipboard
-nnoremap <leader>xc :!echo '%:p' \| xclip -selection clipboard<CR>
+nnoremap <leader>xc :silent !echo '%:p' \| xclip -selection clipboard<CR>
 
 " git blame
 vnoremap <Leader>gb :<C-U>tabnew \|r!cd <C-R>=expand("%:p:h")<CR> && git annotate -L<C-R>=line("'<")<CR>,<C-R>=line("'>") <CR> <C-R>=expand("%:t") <CR><CR>
@@ -254,6 +250,16 @@ endfunction
 
 set completeopt=menu,noinsert,noselect
 
+" zidane agent panel (local checkout, run from source)
+" env -u: drop ANTHROPIC_API_KEY for the agent only, so it uses the Claude
+" subscription login from ~/.zidane/credentials.json instead of the API key
+let g:zidane_cmd = ['env', '-u', 'ANTHROPIC_API_KEY', expand('~/.bun/bin/bun'), 'run', expand('~/wfh/zidane/src/acp-cli.ts')]
+let g:zidane_panel = 'dropdown'   " quake-style, pinned to the top
+let g:zidane_no_mappings = 1
+" \zx: close the panel if open, else open it (visual: send the selection)
+nnoremap <silent> <Leader>zx <Cmd>if zidane#ui#visible() <Bar> call zidane#ui#close() <Bar> else <Bar> call zidane#open([], '') <Bar> endif<CR>
+xmap <Leader>zx <Plug>(zidane)
+
 " start NERDTree if no file is specified
 nnoremap <Leader>nt :NERDTreeToggle<CR>
 nnoremap <Leader>nf :NERDTreeFind<CR>
@@ -303,10 +309,12 @@ endfunction
 " vim-highlighedyank
 let g:highlightedyank_highlight_duration = 200
 
+let g:neovide_progress_bar_enabled = v:false
+
 "" settings
 
 set updatetime=250 " faster gitgutter
-set tabstop=4 softtabstop=4 expandtab shiftwidth=4 smarttab " 4 space tabs
+set tabstop=2 softtabstop=2 expandtab shiftwidth=2 smarttab " 4 space tabs
 set relativenumber " relative line numbers
 set mouse=a " enable mouse support in terminal
 set mousemodel=extend " disable right click menu

@@ -55,11 +55,11 @@ csv() {
     column -s, -t < "$1" | less -#2 -N -S
 }
 color()(set -o pipefail;"$@" 2> >(sed $'s,.*,\e[31m&\e[m,'>&2))
-notgd() {
-    curl -s "https://i.not.gd/up" -H "Content-type: $(file -b --mime-type $1)" --data-binary "@$1" | jq -r '.href'
-}
 gch() {
     git checkout $(git for-each-ref refs/heads/ --format='%(refname:short)' | fzf)
+}
+gph() {
+    git pull origin $(git rev-parse --abbrev-ref HEAD)
 }
 
 # history

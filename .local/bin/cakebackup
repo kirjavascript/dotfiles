@@ -6,8 +6,9 @@ rsync \
     --update \
     --delete \
     --exclude lost+found \
+    --exclude overflow \
     --perms \
     --owner \
     --group \
     --times \
-    /run/media/cake/internal-storage /run/media/cake/seagate-500gb
+    /run/media/cake/internal-storage /run/media/cake/external-storage

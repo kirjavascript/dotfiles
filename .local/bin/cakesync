@@ -5,10 +5,14 @@ rsync \
     --exclude node_modules \
     --exclude .npm \
     --exclude .cargo \
+    --exclude .bun \
+    --exclude .bundle \
     --exclude .xargo \
     --exclude target \
     --exclude .rustup \
     --exclude .gradle \
+    --exclude '.config/chromium' \
+    --exclude '.config/stremio-enhanced' \
     --exclude .rbenv \
     --exclude .stremio-server \
     --exclude .cache \
@@ -18,6 +22,7 @@ rsync \
     --exclude Genesis \
     --exclude .android \
     --exclude Downloads \
+    --exclude bin/games \
     --exclude wfh \
     --exclude '.local/share' \
     --relative \

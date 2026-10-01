@@ -1,0 +1,55 @@
+#!/usr/bin/env bash
+# Clear regenerable caches.
+# Keeps going if a step fails; prints a summary at the end.
+set -u
+
+failed=()
+have() { command -v "$1" >/dev/null 2>&1; }
+step() {
+	local name=$1; shift
+	printf '\n== %s\n' "$name"
+	"$@" || failed+=("$name")
+}
+
+before=$(df --output=used -B1 / | tail -1)
+
+# Ask for sudo once up front.
+sudo -v || { echo "sudo required" >&2; exit 1; }
+
+step "pacman cache (keep 1 version)" sudo paccache -rk1
+step "pacman cache (uninstalled pkgs)" sudo paccache -ruk0
+
+step "journal (vacuum to 500M)" sudo journalctl --vacuum-size=500M
+step "coredumps" sudo find /var/lib/systemd/coredump -type f -delete
+
+if have rustup; then
+	# 1.85.0, 1.91.1, nightly-2025-04-03 are pinned by projects; keep them.
+	for tc in 1.76.0 1.82.0 nightly-2023-10-06 nightly-2023-10-18 nightly-2025-02-17; do
+		if rustup toolchain list | grep -q "^$tc-"; then
+			step "rustup $tc" rustup toolchain uninstall "$tc"
+		fi
+	done
+fi
+
+have npm    && step "npm cache"   npm cache clean --force
+have go     && step "go cache"    go clean -cache
+have yarn   && step "yarn cache"  yarn cache clean
+have uv     && step "uv cache"    uv cache clean
+have pnpm   && step "pnpm store"  pnpm store prune
+have podman && step "podman prune" podman system prune -a -f
+
+step "~/.cache dirs" rm -rf \
+	"$HOME/.cache/mozilla" \
+	"$HOME/.cache/chromium" \
+	"$HOME/.cache/thumbnails" \
+	"$HOME/.cache/puppeteer" \
+	"$HOME/.cache/Cypress" \
+	"$HOME/.cache/electron"
+step "~/.debug" rm -rf "$HOME/.debug"
+
+after=$(df --output=used -B1 / | tail -1)
+printf '\n== done: freed %s\n' "$(numfmt --to=iec $(( before - after )))"
+if (( ${#failed[@]} )); then
+	printf 'failed: %s\n' "${failed[@]}"
+	exit 1
+fi
