@@ -118,3 +118,11 @@ export WASMER_DIR="/home/cake/.wasmer"
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 . "$HOME/.cargo/env"
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/home/cake/bin/google-cloud-sdk/path.zsh.inc' ]; then . '/home/cake/bin/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/home/cake/bin/google-cloud-sdk/completion.zsh.inc' ]; then . '/home/cake/bin/google-cloud-sdk/completion.zsh.inc'; fi
+
+source /home/cake/.daytona.completion_script.zsh

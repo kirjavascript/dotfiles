@@ -39,7 +39,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'neoclide/vim-jsx-improve'
 Plug 'sheerun/vim-polyglot'
 Plug 'vim-scripts/asmM68k.vim'
-Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+Plug 'nvim-treesitter/nvim-treesitter', {'branch': 'main', 'do': ':TSUpdate'}
 " editing
 Plug 'terryma/vim-multiple-cursors'
 Plug 'tpope/vim-commentary'
@@ -368,14 +368,16 @@ function! StripWhitespace()
 endfunction
 
 " save swap, backup, etc to ~/.vim instead
-for folder in ['backup', 'swap', 'undo']
+" nvim's undo file format is incompatible with vim's (E824), so keep them apart
+let s:undo = has('nvim') ? 'nvim-undo' : 'undo'
+for folder in ['backup', 'swap', s:undo]
     if !isdirectory($HOME.'/.vim/'.folder)
         call mkdir($HOME.'/.vim/'.folder, 'p')
     endif
 endfor
 set backupdir=$HOME/.vim/backup//
 set directory=$HOME/.vim/swap//
-set undodir=$HOME/.vim/undo//
+let &undodir = $HOME.'/.vim/'.s:undo.'//'
 if has('nvim')
     set viminfo+=n$HOME/.vim/nviminfo
 else

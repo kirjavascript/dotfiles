@@ -10,6 +10,7 @@ rsync \
     --exclude .xargo \
     --exclude target \
     --exclude .rustup \
+    --exclude .ollama \
     --exclude .gradle \
     --exclude '.config/chromium' \
     --exclude '.config/stremio-enhanced' \
@@ -25,6 +26,15 @@ rsync \
     --exclude bin/games \
     --exclude wfh \
     --exclude '.local/share' \
+    --exclude '.mozilla/firefox/*/storage/default/*/cache' \
+    --exclude .pyenv \
+    --exclude .debug \
+    --exclude .local/zed.app \
+    --exclude .zoom \
+    --exclude .deno \
+    --exclude .emscripten_cache \
+    --exclude .config/rpcs3 \
+    --exclude __pycache__ \
     --relative \
     --recursive \
     --update \
