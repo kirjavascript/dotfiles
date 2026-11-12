@@ -11,8 +11,6 @@ if empty(glob('~/.vim/autoload/plug.vim'))
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
-call has('python3') " force py3
-
 " disable polyglot stuff
 let g:polyglot_disabled = ['javascript','jsx']
 
@@ -39,7 +37,6 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'neoclide/vim-jsx-improve'
 Plug 'sheerun/vim-polyglot'
 Plug 'vim-scripts/asmM68k.vim'
-Plug 'nvim-treesitter/nvim-treesitter', {'branch': 'main', 'do': ':TSUpdate'}
 " editing
 Plug 'terryma/vim-multiple-cursors'
 Plug 'tpope/vim-commentary'
@@ -152,9 +149,6 @@ nnoremap <leader>xc :silent !echo '%:p' \| xclip -selection clipboard<CR>
 " git blame
 vnoremap <Leader>gb :<C-U>tabnew \|r!cd <C-R>=expand("%:p:h")<CR> && git annotate -L<C-R>=line("'<")<CR>,<C-R>=line("'>") <CR> <C-R>=expand("%:t") <CR><CR>
 
-" ix.io
-command! -range=% IX <line1>,<line2>w !curl -F 'f:1=<-' ix.io | tr -d '\n' | xclip -i -selection clipboard
-
 " pasta
 command! -range Pasta call s:Pasta(<line1>,<line2>)
 function! s:Pasta(line1, line2)
@@ -223,7 +217,7 @@ endfunction
 inoremap <silent><expr> <c-space> coc#refresh()
 " Use <cr> to confirm completion, `<C-g>u` means break undo chain at current position.
 " Coc only does snippet and additional edit on confirm.
-inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
+inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm() : "\<C-g>u\<CR>"
 " Use `[g` and `]g` to navigate diagnostics
 nmap <silent> [g <Plug>(coc-diagnostic-prev)
 nmap <silent> ]g <Plug>(coc-diagnostic-next)

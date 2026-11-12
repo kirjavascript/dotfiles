@@ -46,6 +46,7 @@ step "~/.cache dirs" rm -rf \
 	"$HOME/.cache/Cypress" \
 	"$HOME/.cache/electron"
 step "~/.debug" rm -rf "$HOME/.debug"
+step "vim undo files (>90d)" find "$HOME/.vim/undo" "$HOME/.vim/nvim-undo" -type f -mtime +90 -delete
 
 after=$(df --output=used -B1 / | tail -1)
 printf '\n== done: freed %s\n' "$(numfmt --to=iec $(( before - after )))"
