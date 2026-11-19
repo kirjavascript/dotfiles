@@ -227,7 +227,7 @@ bindsym Print exec scrot ~/%Y-%m-%d-%T-screenshot.png && notify-send "Screenshot
 # Power Profiles menu switcher (rofi)
 
 # rofi
-bindsym $mod+d exec rofi -modi drun -show drun \
+bindsym $mod+d exec rofi -modi drun,run -show drun \
 		-config ~/.config/rofi/rofidmenu.rasi
 bindsym $mod+Shift+e exec ~/.config/i3/scripts/powermenu
 bindsym $mod+Shift+p exec ~/.config/i3/scripts/power-profiles
