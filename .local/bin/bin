@@ -1,0 +1,30 @@
+#!/bin/sh
+# Usage: bin <name> [args...]
+# Runs the best-matching executable under ~/bin (case-insensitive substring of the filename).
+[ -n "$1" ] || { echo "usage: bin <name> [args...]" >&2; exit 1; }
+q=$1; shift
+root=$HOME/bin
+
+ranked=$(find "$root" -path "$root/google-cloud-sdk" -prune -o \
+    -type f -perm -u+x ! -name '*.so' ! -name '*.so.*' -iname "*$q*" -print |
+  awk -v q="$q" 'BEGIN { q = tolower(q) }
+    { n = tolower($0); sub(/.*\//, "", n); b = n; sub(/\.[^.]*$/, "", b)
+      s = (n == q || b == q) ? 0 : (index(n, q) == 1 ? 1 : 2)
+      p = $0; d = gsub("/", "", p)
+      printf "%d %d\t%d\t%s\n", s, d, length(n), $0 }' |
+  sort -t "$(printf '\t')" -k1,1 -k2,2n)
+
+[ -n "$ranked" ] || { echo "bin: no match for '$q' in $root" >&2; exit 1; }
+
+top=$(printf '%s\n' "$ranked" | head -n1 | cut -f1)
+second=$(printf '%s\n' "$ranked" | sed -n 2p | cut -f1)
+
+if [ -n "$second" ] && [ "$top" = "$second" ]; then
+    exe=$(printf '%s\n' "$ranked" | cut -f3- | sed "s|^$root/||" | fzf --prompt="bin $q> ") || exit 1
+    exe=$root/$exe
+else
+    exe=$(printf '%s\n' "$ranked" | head -n1 | cut -f3-)
+fi
+
+echo "bin: $exe" >&2
+exec "$exe" "$@"
