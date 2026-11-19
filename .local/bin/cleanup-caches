@@ -22,9 +22,12 @@ step "pacman cache (uninstalled pkgs)" sudo paccache -ruk0
 step "journal (vacuum to 500M)" sudo journalctl --vacuum-size=500M
 step "coredumps" sudo find /var/lib/systemd/coredump -type f -delete
 
+mapfile -t orphans < <(pacman -Qtdq)
+(( ${#orphans[@]} )) && step "orphan packages" sudo pacman -Rns "${orphans[@]}"
+
 if have rustup; then
-	# 1.85.0, 1.91.1, nightly-2025-04-03 are pinned by projects; keep them.
-	for tc in 1.76.0 1.82.0 nightly-2023-10-06 nightly-2023-10-18 nightly-2025-02-17; do
+	# 1.85.0, 1.91.1, nightly-2025-04-03, nightly-2026-10-13 are pinned by projects; keep them.
+	for tc in 1.76.0 1.82.0 1.94.0 1.95.0 nightly-2023-10-06 nightly-2023-10-18 nightly-2025-02-17; do
 		if rustup toolchain list | grep -q "^$tc-"; then
 			step "rustup $tc" rustup toolchain uninstall "$tc"
 		fi
@@ -34,8 +37,17 @@ fi
 have npm    && step "npm cache"   npm cache clean --force
 have go     && step "go cache"    go clean -cache
 have yarn   && step "yarn cache"  yarn cache clean
-have uv     && step "uv cache"    uv cache clean
+# Running `uv run` processes (e.g. MCP servers) hold the cache lock and their envs live in it.
+if have uv; then
+	if pgrep -x uv >/dev/null; then
+		printf '\n== uv cache: skipped, uv processes running\n'
+	else
+		step "uv cache" uv cache clean
+	fi
+fi
 have pnpm   && step "pnpm store"  pnpm store prune
+have bun    && step "bun cache"   bun pm cache rm
+have ccache && step "ccache"      ccache -C
 have podman && step "podman prune" podman system prune -a -f
 
 step "~/.cache dirs" rm -rf \
@@ -44,7 +56,13 @@ step "~/.cache dirs" rm -rf \
 	"$HOME/.cache/thumbnails" \
 	"$HOME/.cache/puppeteer" \
 	"$HOME/.cache/Cypress" \
-	"$HOME/.cache/electron"
+	"$HOME/.cache/electron" \
+	"$HOME/.cache/pnpm" \
+	"$HOME/.cache/ms-playwright" \
+	"$HOME/.cache/node-gyp" \
+	"$HOME/.cache/typescript" \
+	"$HOME/.cache/zig"
+step "~/tmp/_junk" find "$HOME/tmp/_junk" -mindepth 1 -delete
 step "~/.debug" rm -rf "$HOME/.debug"
 step "vim undo files (>90d)" find "$HOME/.vim/undo" "$HOME/.vim/nvim-undo" -type f -mtime +90 -delete
 
